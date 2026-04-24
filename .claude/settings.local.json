@@ -59,7 +59,9 @@
       "WebSearch",
       "Bash(node scripts/update_reel_captions.cjs)",
       "Bash(python -c \"import edge_tts; import inspect; print\\(inspect.getfile\\(edge_tts\\)\\)\")",
-      "Bash(python -X utf8 scripts/generate_narrations.py --all-sections --force)"
+      "Bash(python -X utf8 scripts/generate_narrations.py --all-sections --force)",
+      "Bash(node scripts/add_rothenburg_day.cjs)",
+      "Bash(python -X utf8 scripts/generate_narrations.py marktplatz-rothenburg st-jakobskirche plonlein stadtmauer-rothenburg burggarten-rothenburg --all-sections)"
     ]
   }
 }
