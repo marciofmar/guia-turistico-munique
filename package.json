@@ -1,0 +1,18 @@
+{
+  "name": "guia_turistico_munique",
+  "version": "1.0.0",
+  "description": "Guia turístico PWA — Munique e arredores, 6 dias (Baviera, Alpes e Salzburgo)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.2",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}

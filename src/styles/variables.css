@@ -1,0 +1,82 @@
+:root {
+  /* Cores principais (identidade bávara) */
+  --color-primary: #0066B3;          /* Azul bávaro */
+  --color-primary-light: #3389C9;
+  --color-primary-dark: #004A80;
+  --color-accent: #C0872A;           /* Dourado bávaro */
+  --color-accent-light: #E8C97A;
+
+  /* Períodos históricos bávaros */
+  --color-medieval: #8B4513;
+  --color-baroque: #C0872A;
+  --color-royal: #6A0DAD;
+  --color-modern: #2E7D32;
+  --color-alpine: #1565C0;
+
+  /* Legacy (compat) — mapeados para não quebrar CSS antigo */
+  --color-colonial: var(--color-medieval);
+  --color-imperial: var(--color-royal);
+  --color-belle-epoque: var(--color-baroque);
+  --color-vargas: var(--color-modern);
+  --color-moderno: var(--color-alpine);
+
+  /* Tipos de dia */
+  --color-day-urban: #C0872A;        /* Dourado */
+  --color-day-museum: #6A0DAD;       /* Púrpura */
+  --color-day-excursion: #1565C0;    /* Azul alpino */
+
+  /* Tipos de transporte */
+  --color-transport-walk: #2E7D32;
+  --color-transport-subway: #E65100;
+  --color-transport-train: #1565C0;
+  --color-transport-cable: #6A0DAD;
+  --color-transport-funicular: #00897B;
+
+  /* Status */
+  --color-open: #27ae60;
+  --color-external: #f39c12;
+  --color-closed: #95a5a6;
+
+  /* Superfícies */
+  --color-bg: #F5F0E8;               /* Creme alpino */
+  --color-surface: #F5F0E8;
+  --color-bg-card: #ffffff;
+  --color-bg-dark: #1a1a2e;
+  --color-text: #1A1A1A;
+  --color-text-light: #666666;
+  --color-text-muted: #666666;
+  --color-text-on-dark: #F5F0E8;
+  --color-border: #e0ddd7;
+
+  /* Tipografia */
+  --font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+
+  /* Espaçamento */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* Bordas */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+  /* Layout */
+  --header-height: 3.5rem;
+  --bottom-nav-height: 3.5rem;
+  --audio-player-height: 3.5rem;
+}

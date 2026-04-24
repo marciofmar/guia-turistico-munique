@@ -1,0 +1,234 @@
+/* ═════════════════════════════════════════════════════════════════
+   ReelPlayer — mini-reel full-screen com Ken Burns, texto progressivo
+   e áudio ambiente em loop.
+   ═════════════════════════════════════════════════════════════════ */
+
+.reel-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #000;
+  display: flex;
+  align-items: stretch;
+  overscroll-behavior: contain;
+}
+
+/* ── Imagem com Ken Burns ──────────────────────────────────────── */
+.reel-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.reel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  transform-origin: center;
+}
+
+/* ── Ken Burns: uma animação suave para todo o reel (duração = --kb-total-dur) ──
+   A animação não troca por segmento — a atenção é guiada pelo TEXTO das legendas.
+   Para fotos: drift suave + escala mínima (imagem sempre visível).
+   Para pinturas: escala quase imperceptível (imagem sempre inteira visível).    ── */
+@keyframes kb-full {
+  from { transform: scale(1.00) translate(0%,    0%); }
+  to   { transform: scale(1.06) translate(-1%, -1%); }
+}
+/* Foto: variante alternativa com drift para a direita (usada por alguns reels) */
+@keyframes kb-drift-right {
+  from { transform: scale(1.00) translate(-1%, 0%); }
+  to   { transform: scale(1.06) translate( 1%, 0%); }
+}
+
+.reel-image.kb-full        { animation: kb-full       var(--kb-total-dur, 40s) ease-in-out forwards; }
+.reel-image.kb-drift-right { animation: kb-drift-right var(--kb-total-dur, 40s) ease-in-out forwards; }
+/* Compatibilidade: se ainda houver classes de zona antigas no JSON, mapear para kb-full */
+.reel-image.kb-top,
+.reel-image.kb-bottom,
+.reel-image.kb-center,
+.reel-image.kb-detail,
+.reel-image.kb-left,
+.reel-image.kb-right { animation: kb-full var(--kb-total-dur, 40s) ease-in-out forwards; }
+
+/* Vinheta (escurece bordas para legibilidade do texto) */
+.reel-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 45%),
+    linear-gradient(to bottom, rgba(0,0,0,0.40) 0%, transparent 30%);
+  pointer-events: none;
+}
+
+/* ── UI sobreposta ─────────────────────────────────────────────── */
+.reel-ui {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: max(env(safe-area-inset-top, 0px), 16px) 20px
+           max(env(safe-area-inset-bottom, 0px), 24px);
+}
+
+.reel-close {
+  align-self: flex-start;
+  background: rgba(0, 0, 0, 0.45);
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: background 0.2s;
+}
+.reel-close:hover { background: rgba(0, 0, 0, 0.7); }
+
+.reel-info {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.reel-poi-name {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+/* ── Texto progressivo ────────────────────────────────────────── */
+.reel-text-container {
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reel-text {
+  color: #fff;
+  font-size: clamp(1.4rem, 5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  padding: 0 1.5rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.9);
+  transition: opacity 0.35s ease;
+  margin: 0;
+}
+
+/* ── Barra de progresso ───────────────────────────────────────── */
+.reel-progress {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.reel-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #fff;
+  border-radius: 2px;
+  transition: width 0.3s linear;
+}
+
+/* ── Botão replay ─────────────────────────────────────────────── */
+.reel-replay {
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  font-size: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.2s;
+}
+.reel-replay:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(-30deg);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Modo pintura — object-fit:contain para mostrar obra inteira.
+   O transform-origin é calculado dinamicamente pelo JS com base
+   nas dimensões naturais da imagem e no focusZone do segmento.
+   As animações usam APENAS scale (sem translate), pois o origin
+   determina qual área da pintura fica em foco.
+   ═══════════════════════════════════════════════════════════════ */
+
+.reel-image--painting {
+  object-fit: contain;
+  /* Fundo escuro neutro, como parede de galeria */
+  background: #1a1915;
+}
+
+/* Escala suave — pintura inteira visível o tempo todo */
+@keyframes kb-p-full {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.04); }
+}
+
+/* Zoom moderado — origin definido pelo JS */
+@keyframes kb-p-top {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.55); }
+}
+@keyframes kb-p-bottom {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.55); }
+}
+@keyframes kb-p-center {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.45); }
+}
+@keyframes kb-p-left {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.45); }
+}
+@keyframes kb-p-right {
+  from { transform: scale(1.00); }
+  to   { transform: scale(1.45); }
+}
+
+/* Zoom maior — para detalhes específicos */
+@keyframes kb-p-detail {
+  from { transform: scale(1.10); }
+  to   { transform: scale(1.75); }
+}
+
+/* Pintura: apenas kb-p-full ativo. Duração = total do reel via --kb-total-dur.
+   As demais variantes existem por compatibilidade mas apontam para kb-p-full. */
+.reel-image--painting.kb-p-full   { animation: kb-p-full var(--kb-total-dur, 50s) ease-in-out forwards; }
+.reel-image--painting.kb-p-top,
+.reel-image--painting.kb-p-bottom,
+.reel-image--painting.kb-p-center,
+.reel-image--painting.kb-p-left,
+.reel-image--painting.kb-p-right,
+.reel-image--painting.kb-p-detail { animation: kb-p-full var(--kb-total-dur, 50s) ease-in-out forwards; }
+
+/* ── Reduz animação se o usuário preferir ───────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .reel-image {
+    animation: none !important;
+  }
+}

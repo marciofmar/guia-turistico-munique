@@ -1,0 +1,2787 @@
+{
+  "id": "munique-2026",
+  "title": "Munique e Arredores",
+  "subtitle": "Baviera, Alpes e Salzburgo em 6 dias",
+  "description": "Guia narrativo de imersão cultural para 6 dias em Munique, Baviera, Alpes e Salzburgo. Cada parada foi concebida com peso narrativo próprio — não uma lista a cumprir, mas uma sequência de experiências a habitar.",
+  "version": "1.0.0",
+  "locale": "pt-BR",
+  "estimatedDuration": 5400,
+  "estimatedDistanceKm": 45,
+  "difficulty": "moderate",
+  "coverImage": "/media/routes/munique/photos/cover.jpg",
+  "tripDates": {
+    "start": "2026-05-31",
+    "end": "2026-06-05"
+  },
+  "baseCity": "München",
+  "baseCityCoords": {
+    "lat": 48.1351,
+    "lng": 11.582
+  },
+  "historicalPeriods": [
+    {
+      "id": "medieval",
+      "name": "Fundação Medieval",
+      "color": "#8B4513",
+      "yearRange": "1158–1500"
+    },
+    {
+      "id": "baroque",
+      "name": "Barroco Bávaro",
+      "color": "#C0872A",
+      "yearRange": "1600–1800"
+    },
+    {
+      "id": "royal",
+      "name": "Era dos Reis",
+      "color": "#6A0DAD",
+      "yearRange": "1800–1918"
+    },
+    {
+      "id": "modern",
+      "name": "República e Modernidade",
+      "color": "#2E7D32",
+      "yearRange": "1918–hoje"
+    },
+    {
+      "id": "alpine",
+      "name": "Paisagem Alpina",
+      "color": "#1565C0",
+      "yearRange": "—"
+    }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-05-31",
+      "weekday": "sunday",
+      "title": "Vida Local",
+      "subtitle": "Englischer Garten e o rio Isar",
+      "theme": "urban-nature",
+      "dayType": "urban",
+      "energyLevel": "contemplativa, lenta, musical",
+      "startTime": "09:00",
+      "estimatedEndTime": "19:00",
+      "primaryColor": "#2E7D32",
+      "coverEmoji": "🌳",
+      "intro": "Domingo no Englischer Garten: a Munique que os guias ignoram. Blaskapelle no Chinesischer Turm a partir das 12h, músicos espontâneos no Monopteros, surfistas no Eisbach e margens do Isar como praia urbana alpina. Um dia de imersão na filosofia bávara do ócio competente.",
+      "poiIds": [
+        "eisbach",
+        "monopteros",
+        "chinesischer-turm",
+        "rio-isar-flaucher"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-01",
+      "weekday": "monday",
+      "title": "Centro Histórico",
+      "subtitle": "O coração medieval de Munique",
+      "theme": "historic-core",
+      "dayType": "urban",
+      "energyLevel": "exploratória e social",
+      "startTime": "10:00",
+      "estimatedEndTime": "21:00",
+      "primaryColor": "#C0872A",
+      "coverEmoji": "🏙️",
+      "intro": "Segunda-feira é dia de Viktualienmarkt aberto (fechado aos domingos desde 1807). Começamos na Marienplatz — quilômetro zero de Munique — e atravessamos camadas medievais, barrocas e modernas até o jantar no Hofbräuhaus. A cidade se revela por acumulação.",
+      "poiIds": [
+        "marienplatz",
+        "peterskirche",
+        "viktualienmarkt",
+        "odeonsplatz",
+        "hofgarten",
+        "hofbraeuhaus"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-3",
+      "order": 3,
+      "date": "2026-06-02",
+      "weekday": "tuesday",
+      "title": "Alte Pinakothek",
+      "subtitle": "Quatro séculos de pintura europeia",
+      "theme": "Arte clássica europeia",
+      "dayType": "museum",
+      "energyLevel": "intelectual, contemplativa, com ritmo próprio",
+      "startTime": "09:30",
+      "estimatedEndTime": "13:30",
+      "primaryColor": "#6A0DAD",
+      "coverEmoji": "🖼️",
+      "intro": "Um dos maiores museus de arte da Europa, a Alte Pinakothek reúne quatro séculos de pintura europeia numa coleção que os Wittelsbachs acumularam ao longo de gerações. Dürer, Leonardo, Rubens e Rafael num único edifício projetado do zero para ser museu — o primeiro da história.",
+      "poiIds": [
+        "alte-pinakothek"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-4",
+      "order": 4,
+      "date": "2026-06-03",
+      "weekday": "wednesday",
+      "title": "Neuschwanstein",
+      "subtitle": "O castelo que nunca foi castelo",
+      "theme": "royal-fantasy",
+      "dayType": "excursion",
+      "energyLevel": "extensa e cinematográfica",
+      "startTime": "08:00",
+      "estimatedEndTime": "19:00",
+      "primaryColor": "#8B4513",
+      "coverEmoji": "🏰",
+      "intro": "Uma excursão até Füssen para o castelo do 'Rei Louco' Ludwig II — projetado por um cenógrafo de ópera, nunca concluído, aberto ao público seis semanas após a morte do rei. A fantasia que começou com um monarca insano virou referência do Castelo da Cinderela.",
+      "poiIds": [
+        "neuschwanstein"
+      ],
+      "logistics": {
+        "transport": "train",
+        "departureStation": "München Hauptbahnhof",
+        "destination": "Füssen",
+        "trainDuration": "2h00",
+        "trainLine": "DB Regional / Bayerische Oberlandbahn",
+        "bookingUrl": "https://www.bahn.de",
+        "returnBy": "19:00",
+        "notes": "Compre ingresso de Neuschwanstein online em hohenschwangau.de com antecedência"
+      }
+    },
+    {
+      "id": "dia-5",
+      "order": 5,
+      "date": "2026-06-04",
+      "weekday": "thursday",
+      "title": "Zugspitze",
+      "subtitle": "O teto da Alemanha",
+      "theme": "alpine-summit",
+      "dayType": "excursion",
+      "energyLevel": "sensorial e silenciosa",
+      "startTime": "07:30",
+      "estimatedEndTime": "19:00",
+      "primaryColor": "#1565C0",
+      "coverEmoji": "🏔️",
+      "intro": "2.962 metros acima do nível do mar. Em dias claros, veem-se as montanhas da Alemanha, Áustria, Suíça e Itália simultaneamente. Feriado de Fronleichnam na Baviera — confirme trens em bahn.de na véspera. Leve roupa quente: no topo, entre -3°C e +5°C em junho.",
+      "poiIds": [
+        "garmisch",
+        "zugspitze"
+      ],
+      "logistics": {
+        "transport": "train",
+        "departureStation": "München Hauptbahnhof",
+        "destination": "Garmisch-Partenkirchen",
+        "trainDuration": "1h20",
+        "trainLine": "DB Regional",
+        "bookingUrl": "https://www.bahn.de",
+        "returnBy": "19:00",
+        "notes": "Do Garmisch, use a Zugspitzbahn (cremalheira) + teleférico Gletscherbahn até o cume"
+      }
+    },
+    {
+      "id": "dia-6",
+      "order": 6,
+      "date": "2026-06-05",
+      "weekday": "friday",
+      "title": "Salzburgo",
+      "subtitle": "A cidade que Mozart construiu",
+      "theme": "baroque-music",
+      "dayType": "excursion",
+      "energyLevel": "estética e musical",
+      "startTime": "08:30",
+      "estimatedEndTime": "21:00",
+      "primaryColor": "#C0872A",
+      "coverEmoji": "🎼",
+      "intro": "Salzburgo em um dia: Jardins do Mirabell, Getreidegasse com seus letreiros de ferro forjado, Dom barroco onde Mozart foi batizado e a Festung Hohensalzburg que em 900 anos nunca foi tomada militarmente. A cidade que Mozart detestava, mas que o formou.",
+      "poiIds": [
+        "salzburg-mirabell",
+        "salzburg-getreidegasse",
+        "salzburg-dom",
+        "salzburg-festung"
+      ],
+      "logistics": {
+        "transport": "train",
+        "departureStation": "München Hauptbahnhof",
+        "destination": "Salzburg Hbf",
+        "trainDuration": "1h30",
+        "trainLine": "ÖBB Railjet / DB EuroCity",
+        "bookingUrl": "https://www.oebb.at",
+        "returnBy": "21:00",
+        "notes": "Salzburg Card (24h) dá acesso à Festungsbahn + transporte urbano + entradas"
+      }
+    }
+  ],
+  "pois": [
+    {
+      "id": "eisbach",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Eisbach — A Onda no Coração do Parque",
+      "lat": 48.144273,
+      "lng": 11.592833,
+      "address": "Eisbachwelle, Prinzregentenstraße, 80538 München",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1789,
+      "architecturalStyle": "Canal artificial (1789) — onda natural desde 1972",
+      "significance": "Canal artificial do Englischer Garten cuja onda estacionária, surfada desde os anos 1970, sintetiza a filosofia alemã de lazer competente: seriedade e respeito ao sistema coletivo mesmo no informal.",
+      "description": "O Englischer Garten é uma das grandes conquistas urbanas do mundo moderno — e usa isso de maneira tão casual que a maioria dos visitantes não percebe o que está vendo.\n\nCom seus 3,7 quilômetros quadrados, o parque é maior que o Central Park de Nova York e o Hyde Park de Londres. Mas o que o diferencia não é o tamanho — é a filosofia.\n\nO parque foi criado em 1789 por Benjamin Thompson, um americano de Massachusetts que havia servido ao exército britânico durante a Guerra de Independência americana — do lado britânico — e depois fugido para a Europa. Trabalhando para o Eleitor bávaro Karl Theodor, Thompson concebeu um jardim de geometria irregular, inspirado nos jardins paisagísticos ingleses do século XVIII. A ideia central era que a natureza controlada deveria parecer natureza livre.\n\nHá algo de paradoxal nisso: um americano foge da América para a Europa e cria, no coração da Baviera monárquica, um parque público aberto ao povo desde o primeiro dia — numa semana em que Paris explodia em revolução. O rei bávaro optou pela versão menos sanguinária de gestão do descontentamento social: deu parque para o povo.\n\nE então há o Eisbach. O canal artificial que percorre o limite sul do parque cria, ao passar por baixo de uma pequena ponte, uma onda estacionária — uma onda de água corrente que não avança nem recua, mas tem a forma, a força e o comportamento de uma onda oceânica. Desde os anos 1970, surfistas descobriram que essa onda era surfável. Hoje, há sempre uma fila autorregulada — às vezes às 7h, às vezes às 22h. Cada surfista tem em média 30 segundos. A fila funciona sem nenhuma autoridade visível.\n\nHá uma analogia precisa entre o Eisbach e a maneira como os alemães estruturam o lazer: com seriedade, competência e respeito ao sistema coletivo, mesmo quando o contexto é completamente informal.\n\nEm novembro de 2025 a onda foi temporariamente interrompida pela limpeza anual do leito. Surfers locais e a prefeitura trabalharam para reativar o sistema. Verifique a situação atual na véspera.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A fila do Eisbach: como ela funciona sem regras escritas — quem organiza? Como as pessoas esperam?",
+        "O contraste imediato: piquenique e crianças a 20 metros de surfistas em neoprene",
+        "No domingo, a plateia já é considerável às 9h — note como a cidade acorda cedo quando o destino é o parque",
+        "A autorregulação da fila: cada surfista tem em média 30 segundos, sem autoridade visível"
+      ],
+      "suggestedExperience": "Chegue às 9h. Fique 15–20 minutos observando o surf — a onda hipnótica faz o tempo passar de uma maneira particular. Depois entre no parque e caminhe sem GPS em direção ao norte pelo Schwabinger Bach.",
+      "searchSuggestions": [
+        "Eisbach surf München história",
+        "Englischer Garten Benjamin Thompson",
+        "Eisbachwelle regras fila",
+        "Schwabinger Bach Englischer Garten",
+        "river surfing Munich"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 70,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/eisbach.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/eisbach/main.jpg",
+            "caption": "A onda estacionária do Eisbach, surfada desde os anos 1970",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/eisbach/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Siga ao norte pelo Schwabinger Bach. Há uma cascata pequena sob uma ponte — parece estar no Canadá, não em Munique. Em 20 minutos, uma colina com um templete grego começa a aparecer entre as árvores.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 22,
+      "tags": [
+        "parque",
+        "surf",
+        "englischer-garten",
+        "gratuito"
+      ]
+    },
+    {
+      "id": "monopteros",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Monopteros",
+      "lat": 48.14834,
+      "lng": 11.58675,
+      "address": "Monopteros, Englischer Garten, 80538 München",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1836,
+      "architecturalStyle": "Templo neoclássico (1836)",
+      "significance": "Templete neoclássico de Leo von Klenze concebido como mini-Panteão, apropriado pela contracultura dos anos 1960 e hoje o ponto de encontro mais democrático de Munique.",
+      "description": "Antes de subir a colina, pare e observe a cena ao redor: a Schönfeldwiese — o prado entre o Monopteros e a Casa de Chá Japonesa — é, num domingo de manhã de junho, um dos espetáculos de convivência urbana mais completos que Munique oferece. Há slacklines entre as árvores, grupos jogando speedminton, cachorros de todas as raças e, invariavelmente, músicos.\n\nNo domingo, a partir das 9h30–10h, guitarristas, percussionistas e grupos maiores começam a se instalar no prado e nas escadarias do Monopteros. Não é uma performance organizada — é a convergência natural de músicos que sabem que o público vai estar lá. A colina é o anfiteatro, o prado é a plateia, e o acordo é tácito.\n\nO Monopteros em si é uma estrutura neoclássica — um templete circular com dez colunas de calcário de Kelheim, construído entre 1832 e 1837 pelo arquiteto Leo von Klenze a mando do Rei Luís I. Von Klenze foi o mesmo arquiteto da Gliptoteca, da Alte Pinakothek e dos propileus da Königsplatz — toda a paisagem clássica que Luís I quis imprimir em Munique. O Monopteros era para ser um Panteão em miniatura.\n\nMas a história decidiu diferente.\n\nNos anos 1960, o templete foi apropriado pela contracultura muniquense. A Schönfeldwiese tornou-se um dos primeiros espaços onde praticantes de Freikörperkultur se reuniam abertamente. O escândalo foi considerável, mas a cidade optou pela tolerância — e essa escolha transformou o Monopteros num símbolo da abertura muniquense. A Spider Murphy Gang imortalizou o lugar na letra de Sommer in der Stadt.\n\nHoje o que resta é a camada mais interessante: um templete neoclássico concebido como Panteão, transformado em ícone de contracultura, que agora funciona como o ponto de encontro mais democrático da cidade. Suba as escadarias e veja Munique se abrir em 360 graus — Frauenkirche, Olympiaturm, Theatinerkirche. A vista enquadra séculos de cidade a partir de um templete pensado para ser enquadramento.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Os músicos no prado: que instrumentos, que gêneros, como o público se aproxima",
+        "A vista das escadarias: identifique as torres gêmeas da Frauenkirche e o Olympiaturm",
+        "Como o prado funciona como espaço de coexistência sem curadoria: ninguém organiza quem fica onde",
+        "As dez colunas de calcário de Kelheim — o mesmo material de vários edifícios de von Klenze"
+      ],
+      "suggestedExperience": "Suba as escadarias, fique 10 min no topo. Depois desça e sente-se na grama próxima a algum músico — não precisa ficar em pé. Se houver percussão no prado, o ritmo vai fazer o tempo passar de uma maneira particular.",
+      "searchSuggestions": [
+        "Monopteros München Leo von Klenze",
+        "Schönfeldwiese Englischer Garten",
+        "Spider Murphy Gang Sommer in der Stadt",
+        "Freikörperkultur Munique história",
+        "Luís I Baviera neoclassicismo"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/monopteros.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/monopteros/main.jpg",
+            "caption": "O Monopteros sobre sua colina artificial — o ponto de encontro mais democrático de Munique",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/monopteros/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Do Monopteros, siga para o norte. A pagoda aparece visível entre as árvores. Procure chegar entre 12h e 12h15 — a Blaskapelle começa exatamente às 12h nos domingos.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "templete",
+        "neoclássico",
+        "música",
+        "parque"
+      ]
+    },
+    {
+      "id": "chinesischer-turm",
+      "dayId": "dia-1",
+      "order": 3,
+      "name": "Chinesischer Turm e Biergarten",
+      "lat": 48.1531,
+      "lng": 11.5936,
+      "address": "Englischer Garten 3, 80538 München",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1790,
+      "architecturalStyle": "Pagode chinês (1790, reconstruído 1952)",
+      "significance": "Pagoda orientalista de 1789 cercada pelo segundo maior biergarten de Munique — onde a Blaskapelle de música tradicional bávara toca aos domingos desde o século XIX.",
+      "description": "O Chinesischer Turm — Torre Chinesa — é, no mínimo, uma curiosidade arquitetônica: construída em 1789 no estilo das pagodas chinesas que faziam sucesso nas fantasias orientalistas europeias do século XVIII. A torre de cinco andares foi destruída na Segunda Guerra Mundial e reconstruída fielmente em 1952. Em si não é particularmente impressionante. O que importa é o que acontece ao redor dela — e especialmente o que acontece a partir das 12h neste domingo.\n\nA Blaskapelle. Segundo o site oficial do biergarten, a banda de música tradicional bávara toca nos domingos a partir das 12h, nas sextas a partir das 16h e nos sábados a partir das 14h — sempre com bom tempo. A Blaskapelle do Chinesischer Turm é o equivalente sonoro do que o Glockenspiel é visualmente para a Marienplatz: não é entretenimento turístico periférico, é a trilha sonora que a Baviera escolheu para si mesma.\n\nA cultura do biergarten surgiu no século XIX por razões práticas: as cervejarias precisavam manter as caves de fermentação frias no verão, e para isso plantavam castanheiras grandes acima das adegas subterrâneas. A sombra das árvores mantinha o solo fresco. Às pessoas, que começaram a sentar à sombra para beber. Por lei, ainda hoje qualquer biergarten tem o direito de autorizar a entrada de comida trazida de casa — uma lei centenária que protege a tradição popular contra a lógica comercial do consumo forçado.\n\nO biergarten do Chinesischer Turm tem capacidade para cerca de 7.000 pessoas — o segundo maior de Munique, atrás apenas do Hirschgarten. Funciona em dois regimes: mesas com serviço (reservadas) e mesas livres onde você pode trazer comida. A copa das castanheiras cria uma acústica de anfiteatro natural que faz a música descer do alto da torre com reverberação particular. É um espaço onde a infraestrutura arquitetônica — torre, árvores, mesas — foi concebida ao longo de dois séculos para servir a uma experiência muito específica: a tarde bávara de domingo.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A Blaskapelle tocando do alto da torre: identifique os instrumentos — tuba, trombone, trompete, clarinete, bumbo",
+        "Como o biergarten funciona em dois regimes: mesas com serviço (reservadas) e mesas livres onde você pode trazer comida",
+        "O som sob as castanheiras: a copa das árvores cria uma acústica de anfiteatro natural",
+        "A reconstrução de 1952: fielmente idêntica à torre original de 1789 destruída na guerra"
+      ],
+      "suggestedExperience": "Chegue entre 12h e 12h15. Peça uma Maß (litro em caneca de cerâmica) e instale-se numa mesa com boa visão da torre. No cardápio: Obatzda (pasta de queijo bávaro com cebola e páprica + pretzel), Steckerlfisch (peixe no espeto sobre carvão), Brotzeit clássico. Reserve pelo menos 90 minutos.",
+      "searchSuggestions": [
+        "Chinesischer Turm Blaskapelle horários",
+        "Biergarten München tradição castanheiras",
+        "Obatzda Steckerlfisch biergarten",
+        "Englischer Garten Chinese Tower história",
+        "Reinheitsgebot cerveja bávara"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true,
+        "notes": "Consumo pago no biergarten; Maß ~5–6€"
+      },
+      "schedule": {
+        "mon": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "23:00"
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      },
+      "estimatedVisitMinutes": 105,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/chinesischer-turm.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/chinesischer-turm/main.jpg",
+            "caption": "A torre pagoda e o biergarten ao redor — capacidade para 7.000 pessoas",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/chinesischer-turm/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Do biergarten, siga em direção ao sul e leste para alcançar o Isar na área do Flaucher. Alugue uma bicicleta pela rede MVG Rad — Munique tem infraestrutura cicloviária excelente e a pedalada pelo parque é parte da experiência.",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 35,
+      "tags": [
+        "biergarten",
+        "pagoda",
+        "blaskapelle",
+        "almoço"
+      ]
+    },
+    {
+      "id": "rio-isar-flaucher",
+      "dayId": "dia-1",
+      "order": 4,
+      "name": "Margens do Rio Isar (Flaucher)",
+      "lat": 48.1095,
+      "lng": 11.555,
+      "address": "Flaucher, Isarauen, 81379 München",
+      "historicalPeriod": "modern",
+      "yearBuilt": 2000,
+      "architecturalStyle": "Renaturalização fluvial (2000–2011)",
+      "significance": "Resultado de uma das mais inteligentes decisões recentes do planejamento urbano muniquense: a renaturalização de 8 km do Isar entre 2000 e 2011, transformando margens de concreto em praia urbana alpina.",
+      "description": "O Isar é um rio alpino — nasce nos Alpes austriacos e percorre 295 quilômetros antes de se juntar ao Danúbio. Sua água, mesmo no verão, está entre 12°C e 18°C. Sua cor tem aquele turquesa esverdeado característico das águas de degelo.\n\nPor décadas, o Isar em Munique foi um rio domesticado, canalizado, com margens de concreto. Na década de 1990, a cidade tomou uma das decisões mais inteligentes de seu planejamento urbano recente: a renaturalização do Isar. Entre 2000 e 2011, 8 quilômetros do rio foram redesenvolvidos com margens naturais de pedregulho e areia, permitindo que o rio se comportasse como um rio — com variações de nível, formação de ilhas e praias temporárias. O projeto custou 35 milhões de euros.\n\nO resultado é o que você vê agora: uma espécie de praia urbana alpina. Num domingo de junho, as margens ficam cobertas de pessoas que nadam, tomam sol, bebem cervejas trazidas em mochilas, fazem churrasco nas áreas designadas, tocam violão e dormem na pedra. É o contraponto perfeito para fechar um domingo que começou no Eisbach: a mesma água, desta vez sem performance, sem fila, sem surfistas — apenas o rio fazendo o que rios fazem quando os deixam em paz.\n\nHá algo profundo no gesto administrativo da renaturalização: uma cidade rica e industrializada que, no auge da sua prosperidade, decidiu gastar 35 milhões de euros para remover concreto e devolver espaço ao rio. É uma declaração civilizacional — a ideia de que progresso, no século XXI, pode significar desmontar obras do século XX. O Isar hoje não é um rio domesticado. É um rio que teve permissão de voltar a ser rio, em pleno centro de uma capital europeia.\n\nE o Flaucher, especificamente, é onde essa decisão se torna tangível: você pisa no pedregulho, entra na água gelada, observa as famílias nas áreas de churrasco. Esta é a Munique que não se fotografa em cartões-postais, mas que os muniquenses consideram o verdadeiro centro emocional da cidade no verão.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A cor turquesa da água — característica típica do degelo alpino",
+        "As margens de pedregulho natural resultado da renaturalização de 2000–2011",
+        "As áreas designadas de churrasco — gestão compartilhada do espaço público",
+        "O comportamento do rio: variações de nível, formação de ilhas temporárias",
+        "A temperatura da água: 12–18°C mesmo no verão"
+      ],
+      "suggestedExperience": "Compre algo para beber num kiosk da área. Sente-se nas pedras, tire os sapatos, coloque os pés na água — vai ser mais fria do que você espera. Não planeje nada para esta parada.",
+      "searchSuggestions": [
+        "Isar renaturalização Munique 2011",
+        "Flaucher Isarauen praia urbana",
+        "Isarprojekt München história",
+        "rio alpino Munique nadar",
+        "urbanismo fluvial Europa"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 75,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/rio-isar-flaucher.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/rio-isar-flaucher/main.jpg",
+            "caption": "As margens de pedregulho do Isar no Flaucher — a praia alpina de Munique",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/rio-isar-flaucher/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Fim do Dia 1 — retorne ao hotel de metrô (estação Thalkirchen, linha U3).",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "rio",
+        "natureza",
+        "renaturalização",
+        "praia-urbana"
+      ]
+    },
+    {
+      "id": "marienplatz",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Marienplatz",
+      "lat": 48.137154,
+      "lng": 11.576124,
+      "address": "Marienplatz, 80331 München",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1158,
+      "architecturalStyle": "Neogótico (Neues Rathaus, 1867–1909)",
+      "significance": "Quilômetro zero de Munique desde 1158 — praça medieval hoje encenada pela câmara municipal neogótica flamenga construída como mito fundador do Império Alemão.",
+      "description": "Você acaba de chegar ao kilômetro zero de Munique. Não é apenas uma expressão: durante séculos, as distâncias na Baviera foram medidas a partir deste ponto.\n\nA Marienplatz existe desde 1158, quando o duque Henrique, o Leão fundou oficialmente a cidade ao ordenar a destruição da ponte sobre o Isar que pertencia ao Bispo de Freising e a construção de uma nova a poucos quilômetros ao sul. Esse gesto político e econômico — essencialmente um ato de pirataria fiscal disfarçado de urbanismo — colocou Munique no mapa como nó central do comércio de sal entre a região alpina e o norte da Europa. O sal, naquele período, tinha o mesmo valor estratégico que o petróleo tem hoje.\n\nA praça que você vê hoje não é medieval — é uma encenação cuidadosa do século XIX. O Neues Rathaus, construído entre 1867 e 1909 no estilo neogótico flamengo, imita as câmaras municipais de Bruges e Bruxelas. Essa escolha não é casual: o Império Alemão havia sido proclamado em 1871 e havia urgência em inventar tradições, criar símbolos de grandeza. Construir uma câmara municipal medieval em pleno 1867 era o equivalente arquitetônico de escrever um mito fundador. A cidade contratou a fachada antes de ter o roteiro.\n\nO Glockenspiel, o carrilhão embutido na torre principal, toca às 11h, 12h e 17h. Os 43 sinos e 32 figuras mecânicas encenam o torneio do casamento do Duque Guilherme V em 1568 e a Dança dos Toneleiros — tradição que surgiu após a grande peste do século XVI, quando os toneleiros saíram às ruas dançando para animar a população aterrorizada. Há algo de memento mori nessas figuras girando.\n\nNo centro da praça, a Mariensäule — a Coluna de Maria — foi erguida em 1638 para celebrar a sobrevivência de Munique durante a Guerra dos Trinta Anos. Aos pés da Virgem dourada, quatro anjos derrotam a guerra, a fome, a heresia e a peste — uma lista que, no século XVII, era uma descrição literal da realidade cotidiana europeia. Observar a Mariensäule é ler um documento teológico-político em pedra e bronze, no coração de uma praça que funciona como um palimpsesto de nove séculos de decisões urbanas.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "As estátuas no topo do Neues Rathaus: procure o guarda noturno e o leão bávaro — detalhes que a maioria nunca levanta os olhos para ver",
+        "A diferença entre o estilo neogótico do Neues Rathaus e o gótico tardio mais austero do Altes Rathaus",
+        "Aos pés da Mariensäule: os quatro anjos e as criaturas que representam cada calamidade",
+        "O Glockenspiel em funcionamento: 43 sinos, 32 figuras, duas narrativas sobrepostas",
+        "Músicos de rua e artistas circenses se concentram na praça nos horários do Glockenspiel (11h, 12h, 17h) — chegue 15 minutos antes e observe o ecossistema que se forma ao redor do ritual do carrilhão"
+      ],
+      "suggestedExperience": "Chegue às 10h e observe a praça por 10 minutos antes de caminhar. Às 11h, posicione-se com boa visão do Glockenspiel — de lateral você vê melhor os detalhes. Depois do toque, caminhe pelas ruelas adjacentes. Antes das 11h, posicione-se no centro da praça: você verá simultaneamente o ritual do Glockenspiel acima e os artistas de rua que aproveitam a audiência cativa abaixo.",
+      "searchSuggestions": [
+        "Marienplatz München Glockenspiel horários",
+        "Neues Rathaus neogótico flamengo",
+        "Henrique o Leão fundação Munique 1158",
+        "Mariensäule Guerra dos Trinta Anos",
+        "Dança dos Toneleiros peste"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/marienplatz.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/marienplatz/main.jpg",
+            "caption": "A Marienplatz vista da praça — o Neues Rathaus à esquerda, o Altes Rathaus à direita",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/marienplatz/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "glockenspiel",
+            "name": "Glockenspiel",
+            "image": "/media/routes/munique/sub-attractions/marienplatz/glockenspiel.jpg",
+            "caption": "As 32 figuras mecânicas do Glockenspiel encenam o torneio de 1568 e a Dança dos Toneleiros após a grande peste.",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "O Glockenspiel no centro da torre. 43 sinos distribuídos em três níveis.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No segundo nível (meio da torre): as 32 figuras mecânicas douradas e coloridas.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À esquerda, nível do meio: cavaleiros em armadura encenam o torneio do casamento do Duque Guilherme V, de 1568.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À direita, nível inferior: os Schäfflertänzer — toneleiros dançando para celebrar o fim da grande peste de 1517.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No topo da torre: o galo mecânico que canta três vezes ao final de cada apresentação.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O edifício foi construído em 1867. Mas foi projetado para parecer medieval. A ficção funciona.",
+                  "duration": 5,
+                  "focusZone": "full"
+                }
+              ]
+            },
+            "imagePosition": "top"
+          },
+          {
+            "id": "mariensaeule",
+            "name": "Mariensäule",
+            "image": "/media/routes/munique/sub-attractions/marienplatz/mariensaeule.jpg",
+            "caption": "Erguida em 1638, a Coluna de Maria celebra a sobrevivência de Munique durante a Guerra dos Trinta Anos.",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "A Mariensäule — a Coluna de Maria — erguida em 1638 no centro da Marienplatz.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No alto da coluna: a Virgem Dourada com o Menino Jesus, voltada para o leste.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Na base da coluna, quatro anjos de bronze combatem as calamidades. Observe o da esquerda: está derrotando a guerra.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O anjo da direita vence a fome. Os dois da frente derrotam a heresia e a peste.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No século XVII, esta era a lista literal das ameaças cotidianas dos muniquenses.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A coluna inteira é um documento teológico-político em pedra e bronze. Leia como um texto.",
+                  "duration": 5,
+                  "focusZone": "full"
+                }
+              ]
+            },
+            "imagePosition": "top"
+          }
+        ]
+      },
+      "walkingNotes": "Saindo ao sul pela Rindermarkt (literalmente mercado de bois) — as pedras de pavimento originais do século XIX criam um som diferente quando pisadas.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 3,
+      "tags": [
+        "praça",
+        "histórico",
+        "glockenspiel",
+        "gratuito"
+      ]
+    },
+    {
+      "id": "peterskirche",
+      "dayId": "dia-2",
+      "order": 2,
+      "name": "Peterskirche (Igreja de São Pedro)",
+      "lat": 48.136585,
+      "lng": 11.575382,
+      "address": "Rindermarkt 1, 80331 München",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1050,
+      "architecturalStyle": "Românico/Gótico/Barroco (séc XI–XVIII)",
+      "significance": "A mais antiga igreja de Munique — anterior à própria fundação da cidade — e um palimpsesto arquitetônico que abriga o relicário de Santa Mundítia, uma das vistas dos Alpes mais reveladoras da Baviera.",
+      "description": "A Igreja de São Pedro é a mais antiga de Munique — existia aqui antes mesmo de a cidade ser fundada. Quando Henrique, o Leão fundou Munique em 1158, a colina já tinha sua igreja. Ao longo dos séculos, foi destruída por incêndios, reconstruída, ampliada no estilo gótico, transformada no barroco do século XVII, danificada por bombas em 1944 e laboriosamente restaurada. Olhar para o interior é como olhar para um palimpsesto arquitetônico — camadas de decisões estéticas e teológicas sobrepostas como páginas de um livro escrito por gerações diferentes.\n\nAntes de subir a torre, pare no interior e procure o Relicário de Santa Mundítia — uma santa cujo esqueleto decorado com joias repousa numa vitrine de vidro lateral. É um objeto que produz uma reação imediata de estranhamento: ao mesmo tempo devoção e horror, fé e fascínio macabro. Os relicários de catacumbas como esse eram comuns no barroco católico — a ideia era que o corpo físico do santo funcionava como canal de graça divina. Hoje, a maioria das pessoas passa sem ver. Santa Mundítia foi exumada de catacumbas romanas em 1675, adornada com joias por artesãos bávaros, e enviada a Munique como peça devocional. O nome foi atribuído posteriormente — ninguém sabe exatamente quem ela foi em vida.\n\nA subida são 306 degraus numa escada espiral que fica progressivamente mais estreita. Não há elevador. A arquitetura força você a ir devagar. Do alto, a primeira coisa que você vai notar não é um monumento específico — é uma ausência. Munique não tem arranha-céus. A cidade mantém uma altura máxima de 100 metros (a altura do Frauendom), aprovada por referendo popular em 2004 e reafirmada em outros dois referendos desde então. Essa é uma das poucas capitais europeias onde os moradores votaram ativamente para preservar a escala da cidade.\n\nE então, num dia claro, no horizonte sul: os Alpes. A 60 quilômetros de distância em linha reta. Em dias de Föhn — o vento quente e seco que desce das montanhas — parecem estar a 20. É uma vista que reorganiza mentalmente toda a Baviera: Munique não é apenas uma cidade alemã, é uma cidade alpina vestida de capital burguesa.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Relicário de Santa Mundítia na lateral da nave — não passe por ele sem parar",
+        "Da torre: a assimetria da cobertura do Neues Rathaus vista de cima — parece diferente da praça",
+        "Os Alpes no horizonte sul — em junho, há boa probabilidade de visibilidade",
+        "As camadas arquitetônicas sobrepostas: românico, gótico, barroco, restauração pós-guerra",
+        "A ausência de arranha-céus: altura máxima de 100m aprovada por referendo popular"
+      ],
+      "suggestedExperience": "Entre, observe o Relicário de Santa Mundítia, suba a torre. Leve água — é mais cansativo do que parece. No alto, fique pelo menos 15 minutos virando 360 graus devagar.",
+      "searchSuggestions": [
+        "Peterskirche München Alter Peter",
+        "Santa Mundítia relicário catacumbas",
+        "Munique altura máxima referendo",
+        "Vista Alpes Frauenkirche Peterskirche",
+        "306 degraus Alter Peter torre"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "5€",
+        "notes": "Entrada na igreja gratuita; subida à torre cobrada"
+      },
+      "schedule": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "18:30"
+        }
+      },
+      "estimatedVisitMinutes": 55,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/peterskirche.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/peterskirche/main.jpg",
+            "caption": "A torre avermelhada da Peterskirche vista da Marienplatz",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/peterskirche/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "munditia-reliquary",
+            "name": "Relicário de Santa Mundítia",
+            "image": "/media/routes/munique/sub-attractions/peterskirche/munditia-reliquary.jpg",
+            "caption": "O esqueleto ornamentado com joias que repousa numa vitrine lateral — perturbador e fascinante em igual medida.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "O relicário de Santa Munditia no altar lateral esquerdo da Peterskirche.",
+                  "duration": 4,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe o esqueleto ornamentado: cada osso visível foi coberto com joias e tecidos pelos fiéis.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O rosto foi coberto com máscara de cera dourada. As mãos enluvadas seguram flores e objetos sagrados.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À volta do corpo: o manto de veludo vermelho com bordados em fio de ouro. Tudo foi colocado peça por peça por devotos anônimos.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ninguém sabe quem ela realmente foi. O nome \"Munditia\" foi atribuído depois da exumação, em 1675.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Está aqui há 350 anos. Olhando os visitantes que olham de volta para ela.",
+                  "duration": 5,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "tower-alps-view",
+            "name": "Vista dos Alpes — Topo da Torre",
+            "image": "/media/routes/munique/sub-attractions/peterskirche/tower-alps-view.jpg",
+            "caption": "Do alto dos 306 degraus, em dia claro, os Alpes aparecem a 60 km ao sul.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "306 degraus acima e a cidade se abre. Olhe em volta sem pressa.",
+                  "duration": 4,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Direto à frente (norte): o Englischer Garten começa ali, a maior área verde urbana da Europa.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À esquerda (leste): as duas torres bulbosas da Frauenkirche dominam o skyline. Nenhum prédio pode ultrapassá-las — por lei.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À direita (oeste): o Neues Rathaus e a torre do Glockenspiel, daqui visto de cima.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ao sul: em dias claros, no horizonte, a silhueta branca dos Alpes bávaros.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Esta escala humana foi votada pelos próprios muniquenses. Resistência à verticalidade como escolha coletiva.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Desça da igreja e caminhe ao sudeste. O cheiro muda. As conversas ao redor mudam de idioma. A velocidade dos passos ao redor muda. Você está entrando em outra camada da cidade.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 4,
+      "tags": [
+        "igreja",
+        "vista",
+        "relicário",
+        "histórico"
+      ]
+    },
+    {
+      "id": "viktualienmarkt",
+      "dayId": "dia-2",
+      "order": 3,
+      "name": "Viktualienmarkt",
+      "lat": 48.135125,
+      "lng": 11.576582,
+      "address": "Viktualienmarkt 3, 80331 München",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1807,
+      "architecturalStyle": "Mercado aberto desde 1807",
+      "significance": "Mercado aberto desde 1807 por ordem do Rei Maximiliano I Josef — democrático, permanente, e fiel ao calendário histórico: fecha aos domingos, sempre fechou, mantendo a semana dos moradores contra o turismo de fim de semana.",
+      "description": "O Viktualienmarkt não é uma atração turística. É um mercado. Essa distinção parece óbvia, mas faz toda a diferença na forma de habitá-lo.\n\nFundado em 1807 por ordem do Rei Maximiliano I Josef, o mercado surgiu como resposta ao crescimento da cidade. Abre de segunda a sábado. Aos domingos, fecha. Sempre fechou. Essa fidelidade ao calendário histórico é em si uma forma de resistência ao turismo de massa: o mercado não abre para o fim de semana de visitantes. Abre para a semana dos moradores.\n\nO que o torna único é a permanência da sua lógica social: a classe média alta de Schwabing compra queijo ao lado da aposentada de Maxvorstadt. Há uma democracia de cheiros e conversas que é rara no espaço urbano contemporâneo.\n\nPreste atenção nas barracas de especialistas: o vendedor de cogumelos que conhece cada variedade pelo nome científico; a barraca de mel com doze tipos organizados por região de colheita; o queijeiro bávaro que descreve a diferença entre um Bergkäse do Allgäu e um de Berchtesgaden com a precisão de um sommelier.\n\nNo centro do mercado, o Maibaum representa os ofícios locais em figuras pintadas — a tradição medieval das guildas em madeira colorida. Padeiros, açougueiros, toneleiros, cervejeiros, pescadores: cada figura é uma lista de quem alimentou a cidade por 900 anos. O biergarten ao redor funciona com as seis principais cervejarias de Munique se revezando por estação — uma solução elegante para manter a paz entre seis impérios de cerveja.\n\nA Weißwurst — salsicha branca de vitela com tempero suave — é consumida por tradição antes do meio-dia, acompanhada de mostarda doce, pretzel e cerveja de trigo. A regra não é folclore turístico: reflete a ausência de refrigeração adequada quando a tradição se formou, no século XIX. Observe os muniquenses idosos no biergarten: às 11h30 eles estão comendo Weißwurst. Às 12h05, passam para outro prato. É um ritual alimentar com lógica histórica literal.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "As barracas de especialistas: o vendedor de cogumelos, o queijeiro, a barraca de mel com tipos por região",
+        "O Maibaum no centro — as guildas medievais em figuras pintadas",
+        "O biergarten com rodízio entre as seis cervejarias de Munique por estação",
+        "A democracia social do mercado: classe média alta e aposentados lado a lado",
+        "O horário da Weißwurst: tradicionalmente consumida antes do meio-dia",
+        "Nos fins de semana (sábado especialmente), músicos tradicionais bávaros tocam ao lado do Maibaum entre 11h e 14h — Schuhplattler (dança típica) ocasionalmente em datas comemorativas"
+      ],
+      "suggestedExperience": "Compre a Weißwurst (salsicha branca, que por tradição deve ser consumida antes do meio-dia) com mostarda doce e um pretzel, ou um pedaço de queijo com pão escuro. Sente-se no biergarten. Não use o celular por pelo menos 20 minutos. Sábado de manhã é o melhor momento: mais produtores locais, menos turistas, e chance de encontrar música ao vivo junto ao Maibaum entre 11h e 14h.",
+      "searchSuggestions": [
+        "Viktualienmarkt München história 1807",
+        "Weißwurst tradição bávara",
+        "Maibaum guildas medievais",
+        "biergarten seis cervejarias Munique",
+        "mercado Munique segunda a sábado"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "18:00"
+        },
+        "sun": {
+          "open": null,
+          "close": null
+        }
+      },
+      "estimatedVisitMinutes": 75,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/viktualienmarkt.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/viktualienmarkt/main.jpg",
+            "caption": "O Viktualienmarkt — não uma atração turística, mas um mercado aberto desde 1807",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/viktualienmarkt/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "maibaum",
+            "name": "Maibaum — O Mastro das Guildas",
+            "image": "/media/routes/munique/sub-attractions/viktualienmarkt/maibaum.jpg",
+            "caption": "O mastro de maio com figuras dos ofícios tradicionais — alusão ao sistema de guildas que regulava o comércio desde o século XII.",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "O Maibaum — o mastro de maio — no centro do Viktualienmarkt. Observe os painéis coloridos da base ao topo.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Na base do mastro: os brasões das guildas medievais. Cada um representa um ofício que alimentou Munique por séculos.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Do primeiro ao terceiro nível, da base: os padeiros, os açougueiros e os pescadores.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No quarto e quinto nível: os toneleiros (Schäffler) e os ferreiros. Cada figura pintada a mão.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No topo: a coroa de galhos de abeto verde, símbolo de vida e abundância. Renovada toda primavera.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O mastro é uma lista de quem fez Munique funcionar por 900 anos. Uma hierarquia de trabalho em madeira pintada.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "A caminhada passa pela elegante rua comercial do século XIX e, quando você dobra à esquerda, a Theatinerkirche aparece à sua direita e a Odeonsplatz se abre como um palco.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 12,
+      "tags": [
+        "mercado",
+        "gastronomia",
+        "tradição",
+        "biergarten"
+      ]
+    },
+    {
+      "id": "odeonsplatz",
+      "dayId": "dia-2",
+      "order": 4,
+      "name": "Odeonsplatz e Theatinerkirche",
+      "lat": 48.141602,
+      "lng": 11.577085,
+      "address": "Odeonsplatz, 80539 München",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1663,
+      "architecturalStyle": "Italianato (Theatinerkirche barroca 1663–1690)",
+      "significance": "Praça barroca italiana com a Theatinerkirche amarela e a Feldherrnhalle — palco do Putsch da Cervejaria de Hitler em 1923 e da Viscardigasse, a viela da resistência silenciosa ao nazismo.",
+      "description": "A Feldherrnhalle (Salão dos Generais), construída em 1844 a mando do Rei Luís I e inspirada na Loggia dei Lanzi de Florença, foi erguida para homenagear os grandes generais bávaros. A Theatinerkirche a leste, com sua fachada barroca italiana em amarelo intenso, foi encomendada em 1662 para celebrar o nascimento do herdeiro do trono bávaro. É uma afirmação arquitetônica de identidade mediterrânea no coração da Baviera alpina — como se os príncipes-eleitores bávaros quisessem provar, em fachada, que pertenciam à mesma civilização da Roma papal.\n\nMas a história mais significativa deste espaço não está na arquitetura do século XIX — está numa tarde de novembro de 1923.\n\nEm 8 e 9 de novembro de 1923, Adolf Hitler liderou o Putsch da Cervejaria: uma tentativa frustrada de golpe de Estado, inspirada na Marcha sobre Roma de Mussolini um ano antes. Aproximadamente 2.000 homens marcharam pelo centro de Munique até chegar exatamente aqui. Foram recebidos pela polícia com fogo cerrado. Dezesseis marchistas e quatro policiais morreram. Hitler foi preso, e usou o julgamento como palanque para difundir suas ideias — garantindo cobertura ampla e uma pena de apenas cinco anos, dos quais cumpriu oito meses. Foi durante esses meses que ditou o Mein Kampf.\n\nA Feldherrnhalle se tornaria um local de culto nazista, com placa obrigando qualquer passante a saudar com o braço estendido. Para evitar a saudação, os muniquenses passaram a usar a Viscardigasse — a viela paralela sarcasticamente chamada de Drückebergergasse (rua dos covardões). A viela ainda existe, a poucos metros à direita. Percorrê-la hoje é uma forma de entender, com o corpo, o que o texto histórico explica: que a resistência cotidiana ao regime totalitário se fez em desvios mínimos, em gestos tão pequenos que pareciam invisíveis.\n\nO interior da Theatinerkirche é barroco explosivo — branco, ouro, stucco —, completamente diferente da sobriedade amarela do exterior. A acústica é extraordinária. Sente-se por alguns minutos e perceba como o som se comporta sob a cúpula: o barroco não é apenas estilo visual, é tecnologia acústica para amplificar a liturgia.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A Viscardigasse — passe obrigatoriamente por ela; você vai entender com o corpo o que o texto explica",
+        "O interior da Theatinerkirche: barroco explosivo em branco, ouro e stucco — completamente diferente da sobriedade do exterior",
+        "A Feldherrnhalle inspirada na Loggia dei Lanzi de Florença — afirmação italiana no coração alpino",
+        "A fachada amarela da Theatinerkirche: cor italiana no clima bávaro",
+        "Músicos clássicos e de jazz tocam ocasionalmente na escadaria da Feldherrnhalle e no Theatinergasse nos fins de semana ensolarados — sem horário fixo, mas o entorno acústico do pórtico da Feldherrnhalle amplifica naturalmente os instrumentos de cordas"
+      ],
+      "suggestedExperience": "Sente-se nas escadarias da Feldherrnhalle e observe a praça por 10 minutos. Entre na Theatinerkirche: a acústica é extraordinária. Antes de seguir, passe obrigatoriamente pela Viscardigasse.",
+      "searchSuggestions": [
+        "Odeonsplatz Putsch Cervejaria 1923",
+        "Theatinerkirche barroco italiano Munique",
+        "Viscardigasse Drückebergergasse resistência",
+        "Feldherrnhalle Luís I Loggia dei Lanzi",
+        "Mein Kampf Landsberg prisão Hitler"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/odeonsplatz.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/odeonsplatz/main.jpg",
+            "caption": "A Feldherrnhalle e a Theatinerkirche amarela — palco do Putsch de 1923",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/odeonsplatz/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "viscardigasse",
+            "name": "Viscardigasse — A Rua dos Covardões",
+            "image": "/media/routes/munique/sub-attractions/odeonsplatz/viscardigasse.jpg",
+            "caption": "A viela que os muniquenses usavam para evitar a saudação nazista diante da Feldherrnhalle — resistência cotidiana em forma de desvio.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "A Viscardigasse — a viela entre a Theatinerstraße e a Residenzstraße que desvia da Feldherrnhalle.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe o piso de paralelepípedos: o centro do corredor está polido pelo uso de décadas. Marcas de solas.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Durante o nazismo, passar pela Feldherrnhalle exigia parar e saudar a guarda de honra com o braço erguido.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Esta viela era o desvio silencioso. Entrar por aqui significava: recuso a performance.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Os muniquenses chamavam de \"Drückebergergasse\" — rua dos covardões. Os que usavam chamavam de resistência.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À saída direita: a Residenzstraße. À saída esquerda: a Theatinerstraße. A Feldherrnhalle fica entre as duas — e fora do caminho.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Pela entrada das Arcadas do Hofgarten — um corredor coberto com arcos renascentistas. Olhe para cima: as abóbadas têm pinturas medievais cartográficas da Baviera do século XVI.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 3,
+      "tags": [
+        "praça",
+        "barroco",
+        "nazismo",
+        "resistência"
+      ]
+    },
+    {
+      "id": "hofgarten",
+      "dayId": "dia-2",
+      "order": 5,
+      "name": "Hofgarten",
+      "lat": 48.14223,
+      "lng": 11.58026,
+      "address": "Hofgartenstraße, 80538 München",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1613,
+      "architecturalStyle": "Jardim renascentista italiano (1613)",
+      "significance": "Jardim da corte bávara concebido em 1613 pelo Duque Maximiliano I — simetria e geometria italiana como expressão de poder — aberto ao público no início do século XIX.",
+      "description": "O Hofgarten é o jardim de Corte — um espaço que pertenceu à família real bávara e que foi aberto ao público no início do século XIX. Foi concebido em 1613 pelo Duque Maximiliano I como um jardim renascentista italiano: simetria, geometria, controle da natureza como expressão de poder.\n\nA geometria é essencial aqui. Os caminhos se cruzam em ângulos precisos, os canteiros respeitam medidas calculadas, as árvores foram plantadas em grid. É o oposto filosófico do Englischer Garten — onde a natureza deveria parecer livre — e exatamente por isso é interessante visitar os dois na mesma viagem: dois modelos antagônicos de relação entre poder e paisagem, a 15 minutos de distância a pé.\n\nO Hofgarten tem um dos fenômenos urbanos mais deliciosos de Munique: o Dianatempel, um pavilhão octogonal no coração do jardim, sob o qual músicos locais costumam tocar no verão. O som se projeta de maneira especial sob a cúpula: mesmo música simples ganha uma reverberação que a transforma em algo mais. A arquitetura do pavilhão não foi pensada como instrumento musical, mas funciona como um — tangos improvisados, violões melancólicos, violinos de estudantes do Mozarteum acabam ganhando, sob a cúpula, uma qualidade de concerto.\n\nNuma segunda-feira, os músicos no Hofgarten aparecem com mais frequência entre 15h e 18h, quando o calor começa a ceder e o fluxo de quem saiu cedo do trabalho passa pelo jardim. Se o seu itinerário permitir, ajuste a chegada ao Hofgarten para esse intervalo.\n\nNo lado norte do jardim fica a Residência — o complexo de palácios dos Wittelsbach, a dinastia que governou a Baviera por 738 anos. É uma das maiores e mais luxuosas residências reais da Europa, mas a experiência exige tempo específico (pelo menos 2h). Neste itinerário, o Hofgarten funciona como o contraponto relaxado: os Wittelsbach governavam do palácio, e os muniquenses usufruem o jardim que eles criaram para si mesmos.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Dianatempel — pavilhão octogonal central onde músicos tocam nas tardes de verão",
+        "A geometria italiana do jardim: simetria absoluta, canteiros calculados, caminhos em ângulo preciso",
+        "As arcadas do Hofgarten: abóbadas com pinturas cartográficas medievais da Baviera",
+        "O contraste filosófico com o Englischer Garten: natureza controlada vs. natureza aparentemente livre"
+      ],
+      "suggestedExperience": "Não planeje nada para essa parada. Sente-se onde quiser. Se houver música no Dianatempel entre 15h–18h — e há boa probabilidade —, fique perto. Se não houver, sente-se no gramado e deixe o jardim fazer o que jardins barrocos fazem bem: criar a sensação de que o tempo passou a trabalhar para você.",
+      "searchSuggestions": [
+        "Hofgarten München Dianatempel música",
+        "Maximiliano I Baviera jardim 1613",
+        "Wittelsbach Residenz München",
+        "jardim renascentista italiano Alemanha",
+        "músicos rua Munique licenciamento"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "22:00"
+        },
+        "sun": {
+          "open": "06:00",
+          "close": "22:00"
+        }
+      },
+      "estimatedVisitMinutes": 50,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/hofgarten.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/hofgarten/main.jpg",
+            "caption": "O Hofgarten e seu pavilhão octogonal (Dianatempel) no centro",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/hofgarten/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Saia pelo lado sul, desça pela Maximilianstraße (a avenida mais elegante de Munique, com mansões e teatros do século XIX) por um trecho, depois vire em direção ao centro.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 12,
+      "tags": [
+        "jardim",
+        "barroco",
+        "música",
+        "gratuito"
+      ]
+    },
+    {
+      "id": "hofbraeuhaus",
+      "dayId": "dia-2",
+      "order": 6,
+      "name": "Hofbräuhaus München",
+      "lat": 48.137489,
+      "lng": 11.579756,
+      "address": "Platzl 9, 80331 München",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1589,
+      "architecturalStyle": "Renascença alemã (1589, reconstruído 1897)",
+      "significance": "Cervejaria da corte bávara fundada em 1589 — onde Mozart bebeu em 1781, Lenin conspirou no início do século XX, e Hitler proclamou o programa do Partido Nazista em 1920.",
+      "description": "Vou ser direto: o Hofbräuhaus é turístico. Muito turístico. Mas exige calibração de expectativas, não descarte.\n\nO Hofbräuhaus foi fundado em 1589 pelo Duque Guilherme V como cervejaria do Estado bávaro — Hofbräu significa literalmente cerveja da corte. Só em 1828 foi aberto ao público por decreto do Rei Luís I. A cerveja servida segue as regras do Reinheitsgebot, a lei de pureza da cerveja de 1516 que permite apenas água, malte de cevada e lúpulo — provavelmente a primeira lei de proteção ao consumidor da história do mundo ocidental.\n\nMozart tomou cerveja aqui em 1781. Lenin, durante o exílio em Munique entre 1900 e 1902, frequentava o Hofbräuhaus regularmente — há registros de que usava o lugar para reuniões políticas discretas, aproveitando o barulho ambiente que tornava conversas subversivas impossíveis de espionar. E em fevereiro de 1920, Adolf Hitler anunciou aqui o programa do Partido Nacional-Socialista para uma plateia de 2.000 pessoas.\n\nUm único espaço. Mozart, Lenin e Hitler. Essa sobreposição diz algo profundo sobre o que acontece quando um lugar se torna suficientemente central na vida de uma cidade: passa a funcionar como câmara de eco histórica, registrando, com cerveja e barulho, todas as correntes que atravessam a Europa.\n\nO prédio atual é uma reconstrução de 1897 em estilo Renascença alemã, severamente danificada em 1944 e reerguida após a guerra. A capacidade é de mais de 1.300 pessoas distribuídas em três andares. O salão principal — Schwemme — tem teto abobadado pintado, mesas compridas de madeira, e uma banda de Blasmusik tocando ao fundo em instrumentos de sopro. Turístico, sim. Mas a história que esse espaço absorveu é real, e pesa.\n\nObserve os detalhes: a banda toca o mesmo repertório há gerações; as Maß de cerâmica são trazidas em feixes de seis por garçonetes em Dirndl; os pratos típicos — Schweinshaxe, Weißwurst, Leberkäse, Schweinsbraten — são cozinhados em cozinhas que servem milhares de porções por dia. O Hofbräuhaus funciona como máquina, mas a máquina serve a uma experiência que é, ainda hoje, parte da identidade muniquense. Jantar aqui é aceitar participar de um ritual urbano de 437 anos.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A banda de Blasmusik: instrumentos de sopro, repertório bávaro tradicional",
+        "O teto abobadado pintado do salão principal — decoração original da reconstrução de 1897",
+        "As mesas compridas: estrangeiros e locais dividindo espaço é a norma",
+        "A Maß de cerâmica trazida em feixes — tradição centenária",
+        "O Reinheitsgebot impresso nos menus: a lei de pureza de 1516"
+      ],
+      "suggestedExperience": "Chegue perto das 18h–19h. Peça a Maß clássica e o Schweinshaxe (joelho de porco assado) — uma experiência obrigatória ao menos uma vez. Observe a banda: Blasmusik com instrumentos de sopro.",
+      "searchSuggestions": [
+        "Hofbräuhaus München história 1589",
+        "Mozart Lenin Hitler Munique",
+        "Reinheitsgebot 1516 cerveja alemã",
+        "Schweinshaxe receita tradicional",
+        "Hofbräu cerveja da corte Wittelsbach"
+      ],
+      "visitType": "internal",
+      "entryFee": {
+        "free": true,
+        "notes": "Entrada livre; consumo pago. Maß ~5€, Schweinshaxe ~20€"
+      },
+      "schedule": {
+        "mon": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "00:00"
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "00:00"
+        }
+      },
+      "estimatedVisitMinutes": 105,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/hofbraeuhaus.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/hofbraeuhaus/main.jpg",
+            "caption": "A fachada do Hofbräuhaus — fundado em 1589 como cervejaria do Estado bávaro",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/hofbraeuhaus/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Fim do Dia 2 — retorne ao hotel a pé ou de metrô (estação Marienplatz a 4 min).",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "cervejaria",
+        "tradição",
+        "jantar",
+        "histórico"
+      ]
+    },
+    {
+      "id": "alte-pinakothek",
+      "dayId": "dia-3",
+      "order": 1,
+      "name": "Alte Pinakothek",
+      "lat": 48.1486,
+      "lng": 11.5703,
+      "address": "Barer Straße 27, 80333 München",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1836,
+      "architecturalStyle": "Neoclássico (Leo von Klenze, 1826–1836)",
+      "significance": "Primeiro museu europeu projetado do zero como galeria pública — onde Leo von Klenze inventou a arquitetura museológica moderna para Ludwig I, reunindo quatro séculos de patronato Wittelsbach numa única coleção.",
+      "description": "A Alte Pinakothek não é apenas uma galeria de arte — é a invenção de uma instituição. Quando Leo von Klenze recebeu de Ludwig I da Baviera a encomenda de projetar um museu público em 1826, não havia modelo europeu estabelecido: o Louvre era um palácio adaptado, os Uffizi uma galeria ducal reconvertida. Klenze projetou do zero, pensando em iluminação natural para pinturas, circulação pública, espaço contemplativo. Quando abriu em 1836, era o primeiro edifício europeu concebido desde a fundação como museu. Essa origem explica algo na qualidade do silêncio dentro.\n\nA coleção é de origem dinástica — não foi comprada por um mecenas iluminado, mas acumulada ao longo de quatro séculos pelos Wittelsbachs. O núcleo inicial data de Guilherme IV da Baviera (1508–1550), que encomendou obras diretamente a Dürer, Cranach e Altdorfer para uma galeria ducal. Essa proximidade temporal com os artistas — não era coleção retroativa, era patronato vivo — explica o que você vai ver: obras que vieram do ateliê diretamente ao palácio.\n\nEntre os 700 quadros em exposição permanente, quatro disputam a atenção com razões distintas. O Autorretrato de Dürer (1500) não é simplesmente um retrato extraordinário em termos técnicos — é uma declaração filosófica. A postura frontal, a composição cristiforme, o monograma AD destacado: Dürer afirmava que o artista é um criador divino, não artesão. Nenhum europeu havia ousado dizer isso antes dele com tanta clareza visual.\n\nA Madonna com o Cravo de Leonardo é de 1472–1478, período de aprendizado com Verrocchio em Florença. O cravo que o Menino segura é símbolo da Paixão de Cristo ainda não vivida — uma profecia em forma de flor. A janela dupla ao fundo, com paisagem nublada e atmosférica, já antecipa o sfumato que tornaria a Mona Lisa impossível de olhar apenas uma vez.\n\nRubens chegou com A Queda dos Condenados (c. 1620) — 288 centímetros de altura, mais de cem corpos nus em espiral descendente. A anatomia é de Michelangelo; o movimento é de Rubens; a vertigem é inteiramente nova. Delacroix viria copiar esse quadro como exercício formativo.\n\nA Sagrada Família Canigiani de Rafael (1505–1506) fecha o quarteto com uma das composições mais matematicamente perfeitas da história: triângulo de figuras, cada proporção calculada para criar repouso e tensão ao mesmo tempo.\n\nO edifício foi bombardeado em 1943, restando apenas as paredes externas. Na reconstrução dos anos 1950, as fachadas laterais foram refeitas em tijolo aparente moderno — visível hoje na entrada. É uma cicatriz deliberada, não um erro. A Alte Pinakothek carrega essa história no próprio corpo.",
+      "immersiveMode": true,
+      "immersiveText": "Você está dentro agora. O pé-direito alto, a luz natural vinda de claraboias e janelas altas projetadas por Klenze especificamente para pintura a óleo — sem luz direta que desvanece, sem sombras que ocultam. Em 1836, quando isso abriu, a decisão de iluminação natural controlada foi revolucionária. A maioria das galerias dependia de luz de vela ou gás — uma catástrofe para telas que precisam ser vistas a dois passos de distância.\n\nVá até o Autorretrato de Dürer (1500) e fique dois metros à frente. Não leia a plaqueta ainda. Apenas olhe.\n\nO que você está vendo é um homem de 28 anos que decidiu que era igual a Deus — artisticamente. A postura é cristiforme: frontal, simétrica, a mão direita levantada em posição de bênção. Até esse quadro, essa composição era reservada exclusivamente a imagens de Cristo. Dürer a usou para um autorretrato. O monograma \"AD\" está posicionado no centro-direita, à altura dos olhos do observador. A data \"1500\" foi escolhida: era o ano carregado de ressonância escatológica — ano em que o mundo poderia acabar, ou recomeçar. Dürer escolheu esse ano para afirmar a eternidade de seu nome.\n\nAgora veja a pele. O casaco de pele de marta-zibelina é pintado fio por fio. Séculos antes da fotografia, antes da capacidade de pausar e examinar em câmera lenta, Dürer criou a mais precisa representação de textura que a pintura europeia havia produzido. Não é habilidade demonstrativa — é argumento filosófico: se um artista consegue capturar a realidade com essa exatidão, seu olho é de outra ordem.\n\nVá agora até Leonardo. A Madonna com o Cravo fica na sala da Primeira Renascença Italiana. Ela é pequena — 62 por 47 centímetros — e isso é parte do argumento. É um quadro íntimo, pintado por um artista de vinte e poucos anos que ainda não era Leonardo da Vinci, apenas um aprendiz brilhante no ateliê de Verrocchio em Florença.\n\nOlhe para as mãos da Virgem. Especificamente os dedos — a forma como seguram suavemente o tornozelo do Menino. Compare com qualquer outra Virgem do século XV na mesma sala. Ninguém antes de Leonardo havia pintado contato físico com essa qualidade de calor. É possível que você consiga sentir a textura da pele.\n\nA janela ao fundo não é decoração: é programa. A paisagem neblinosa, os contornos dissolvendo-se em névoa atmosférica — Leonardo está praticando o sfumato aqui, trinta anos antes da Mona Lisa. Este quadro pequeno, discreto, quase sem moldura chamativa, é o laboratório onde a pintura europeia mudou de direção.\n\nAtravesse duas salas e chegue a Rubens. A Queda dos Condenados (c. 1620) vai parecer alta demais para você ver confortavelmente — 288 centímetros. Afaste-se cinco passos e deixe a composição trabalhar.\n\nA gravidade do quadro é de baixo para cima, não de cima para baixo. Os condenados caem, mas o olho sobe seguindo a espiral de corpos. Rubens inverte a direção narrativa: em vez de mostrar a queda, mostra o momento exato da perda de sustentação — o instante antes de qualquer destino ser definitivo. Delacroix copiou esse quadro como exercício de formação. Géricault estudou as massas musculares aqui antes de pintar A Jangada da Medusa.\n\nRafael fica logo depois. A Família Canigiani (1505) vai parecer quieta depois de Rubens. Isso é calculado. Procure o triângulo: Maria no centro-topo, Santa Isabel à esquerda embaixo, José à direita embaixo. Agora olhe o triângulo menor formado pelas crianças — Cristo e João Batista. Dois triângulos sobrepostos, cada figura apontando para a outra, cada posição determinada por geometria, não por sentimento. Rafael aprendeu isso com Leonardo durante dois anos em Florença. O repouso que você sente olhando esse quadro não é acidente — é matemática aplicada à emoção.\n\nUma última coisa antes de sair: olhe as fachadas laterais do edifício quando saíres. O tijolo aparente moderno que você vê — diferente do reboco histórico da fachada principal — é da reconstrução dos anos 1950 após o bombardeio de 1943. A Alte Pinakothek decidiu não apagar a cicatriz. Carrega essa história no próprio corpo, como as pinturas carregam as histórias dos séculos que atravessaram.",
+      "observationPoints": [
+        "O Autorretrato de Dürer: a postura frontal cristiforme — quem mais na história usou essa composição antes de 1500? Compare com as imagens de Cristo na mesma sala",
+        "Na Madonna de Leonardo: os dedos da Virgem tocando o tornozelo do Menino — compare com qualquer outra Madonna do século XV na galeria",
+        "A Queda dos Condenados de Rubens: a espiral de corpos sobe ou desce? Siga o movimento com os olhos por 30 segundos antes de decidir",
+        "A cicatriz da guerra: as fachadas laterais em tijolo aparente moderno — reconstrução dos anos 1950 que preservou a marca do bombardeio de 1943",
+        "A iluminação natural zenithal: Klenze calculou o ângulo para que a luz chegasse às telas sem reflexo direto — tecnologia de museu de 1836"
+      ],
+      "suggestedExperience": "Escolha no máximo três obras antes de entrar — não depois. Use o mapa da entrada para localizar Dürer (sala 2), Leonardo (sala 4) e Rubens (sala 12). Chegue às 10h, quando a luz natural é mais limpa. Dedique 20 minutos a cada obra: 5 de observação sem informação, 10 lendo o contexto, 5 voltando a olhar com o que aprendeu. Saia antes de saturar — três horas é o máximo produtivo. Domingo a entrada custa apenas €1 para toda a rede Pinakothek.",
+      "searchSuggestions": [
+        "Dürer Autorretrato 1500 cristiforme significado",
+        "Leonardo Madonna com o Cravo sfumato Verrocchio",
+        "Rubens A Queda dos Condenados Michelangelo influência",
+        "Rafael Família Canigiani composição piramidal Florença",
+        "Leo von Klenze Alte Pinakothek 1836 primeiro museu",
+        "Alte Pinakothek bombardeio 1943 reconstrução cicatriz"
+      ],
+      "visitType": "internal",
+      "entryFee": {
+        "free": false,
+        "price": "€7",
+        "notes": "Domingo: €1 (toda a rede Pinakothek) · Menores 18 grátis · Combinado com Neue + Pinakothek der Moderne: €12"
+      },
+      "schedule": {
+        "mon": {
+          "open": null,
+          "close": null
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "20:30"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/alte-pinakothek.mp3",
+        "audioImmersive": "/media/routes/munique/audio/alte-pinakothek-immersive.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/alte-pinakothek/main.jpg",
+            "caption": "Alte Pinakothek — o primeiro museu europeu projetado do zero como galeria pública (Leo von Klenze, 1836)",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/alte-pinakothek/main.jpg",
+        "subAttractions": [
+          {
+            "id": "durer-autorretrato",
+            "name": "Dürer — Autorretrato (1500)",
+            "image": "/media/routes/munique/sub-attractions/alte-pinakothek/durer-autorretrato.jpg",
+            "caption": "O monograma 'AD 1500' e postura cristiforme — o primeiro artista europeu a se declarar divino.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Autorretrato de Albrecht Dürer, pintado em 1500. Visão completa da composição.",
+                  "duration": 4,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe diretamente o rosto no centro: postura frontal, olhar fixo. Era a postura reservada exclusivamente a retratos de Cristo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No canto superior esquerdo: a data \"1500\". No canto superior direito: o monograma \"AD\". Dürer os posicionou como declarações de eternidade.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Desça o olhar para o centro: o casaco de pele de marta-zibelina. Cada fio pintado individualmente. Argumento filosófico, não virtuosismo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe a mão direita, visível abaixo do casaco: posição de bênção — o gesto de Cristo dando graças.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Composição inteira: um artesão de 28 anos que se representou como Deus. O maior ato de ambição artística do Renascimento alemão.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            },
+            "imageFit": "contain"
+          },
+          {
+            "id": "leonardo-madonna",
+            "name": "Leonardo — Madonna com o Cravo (c. 1475)",
+            "image": "/media/routes/munique/sub-attractions/alte-pinakothek/leonardo-madonna.jpg",
+            "caption": "A janela nublada ao fundo: o sfumato 30 anos antes da Mona Lisa, pintado com 20 e poucos anos.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Madonna com o Cravo. Leonardo da Vinci, Florença, c.1475. Composição completa.",
+                  "duration": 4,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro da composição, na altura das mãos: o cravo vermelho. O Menino o segura — símbolo da Paixão que ainda não aconteceu.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe as mãos da Madonna, ao centro: a mão esquerda apoia o Menino; a direita apresenta o cravo. Proteção e entrega simultâneas.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Suba o olhar para o fundo: a janela dupla com arco. A paisagem ao fundo dissolve-se em névoa sem contorno definido.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No horizonte ao fundo, onde o terreno encontra o céu: nenhuma linha definida. Leonardo inventava o sfumato aqui, em tempo real.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Percorra o quadro inteiro: da figura em primeiro plano à paisagem ao fundo. Trinta anos antes da Mona Lisa. O método estava sendo criado aqui.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            },
+            "imageFit": "contain"
+          },
+          {
+            "id": "rubens-queda",
+            "name": "Rubens — A Queda dos Condenados (c. 1620)",
+            "image": "/media/routes/munique/sub-attractions/alte-pinakothek/rubens-queda.jpg",
+            "caption": "Mais de 100 corpos em espiral — Michelangelo levado ao colapso pelo movimento barroco de Rubens.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "A Queda dos Condenados. Peter Paul Rubens, c.1620. 288 cm de altura. Observe a obra inteira.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Comece no topo do quadro: anjos com espadas e chamas expulsam os condenados do céu. É o ponto de partida da composição.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Siga com o olhar descendo pelo centro: mais de cem corpos em espiral descendente. Anatomia de Michelangelo, movimento que é de Rubens.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No fundo escuro, parte inferior do quadro: os corpos chegam ao caos. O olho tende a fugir para baixo — mas não consegue.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Suba pela borda esquerda da composição: o olho encontra uma figura que sobe, contrariando a queda. Rubens criou uma saída que prende o olhar para sempre.",
+                  "duration": 8,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Visão geral novamente: Eugène Delacroix copiou este quadro inteiro, de cabo a rabo, como exercício de aprendizado de composição e drama visual.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            },
+            "imageFit": "contain"
+          },
+          {
+            "id": "rafael-canigiani",
+            "name": "Rafael — Família Canigiani (c. 1506)",
+            "image": "/media/routes/munique/sub-attractions/alte-pinakothek/rafael-canigiani.jpg",
+            "imagePosition": "top",
+            "imageFit": "contain",
+            "caption": "O triângulo perfeito — geometria aprendida com Leonardo em Florença como método de criar paz visual.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Sagrada Família Canigiani. Raffaello Sanzio, c.1506. Raffaello tinha 21 anos. Visão completa.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe a composição inteira: trace com os olhos um triângulo imaginário. São José no topo, Maria à esquerda, João Batista à direita em baixo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No alto, à esquerda: São José sentado ancora a composição. É o ponto mais alto do triângulo e o mais tranquilo da cena.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro da composição: Jesus e João Batista se encontram. Nunca se encontraram historicamente — Raffaello imaginou esse momento.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Percorra a composição novamente: cada figura está no cruzamento de uma proporção calculada. A sensação de repouso não é acidental — é geometria pura.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 3 — a Neue Pinakothek e a Pinakothek der Moderne ficam a menos de 5 minutos a pé, completando o Museumsareal.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "museu",
+        "arte",
+        "pintura",
+        "imersivo",
+        "renascimento",
+        "barroco"
+      ]
+    },
+    {
+      "id": "neuschwanstein",
+      "dayId": "dia-4",
+      "order": 1,
+      "name": "Castelo de Neuschwanstein",
+      "lat": 47.5576,
+      "lng": 10.7498,
+      "address": "Neuschwansteinstraße 20, 87645 Schwangau",
+      "historicalPeriod": "royal",
+      "yearBuilt": 1869,
+      "architecturalStyle": "Romantismo historicista (1869–1886)",
+      "significance": "Castelo-fantasia do 'Rei Louco' Ludwig II, construído entre 1869 e 1886 por um cenógrafo de ópera; aberto ao público seis semanas após a morte do monarca, inspirou o Castelo da Cinderela da Disney.",
+      "description": "Quando você subir pelo caminho de terra e pedra e o castelo aparecer pela primeira vez entre as árvores, você vai ter uma reação difícil de controlar: vai achar que é falso. Demasiado perfeito, demasiado simétrico, demasiado branco. Como se alguém tivesse recortado uma ilustração de livro de contos e colado na encosta.\n\nÉ exatamente essa a intenção.\n\nO castelo foi construído entre 1869 e 1886 não por um arquiteto — mas por um cenógrafo de ópera. Christian Jank, que havia trabalhado nas produções teatrais de Richard Wagner em Munique, foi o responsável pelos desenhos iniciais. Projetou um castelo como se projetasse um palco: para ser visto de fora, para criar efeito visual, para contar uma história. A função defensiva — razão pela qual castelos medievais existem — nunca foi considerada. Não há fosso, não há muralha externa. É, em sua essência, uma fantasia habitada.\n\nPara entender Neuschwanstein, você precisa entender Ludwig II da Baviera, o Rei Louco. Ludwig nasceu em 1845 como herdeiro do trono bávaro. Foi coroado aos 18 anos. Em termos políticos, seu reinado foi caracterizado pelo desinteresse pelos assuntos de Estado: Ludwig preferia estar nas montanhas, nas óperas, nos seus projetos arquitetônicos.\n\nO contexto político da Baviera na segunda metade do século XIX era de crescente pressão: em 1866, a Baviera foi humilhada militarmente pela Prússia. Em 1871, foi forçada a integrar o Império Alemão proclamado por Bismarck — perdendo grande parte de sua autonomia. Ludwig assinou o documento de cessão de soberania bávara à Prússia contra sua vontade e nunca se reconciliou com essa perda. Nesse sentido, Neuschwanstein não é apenas um capricho estético — é uma declaração política de rejeição. Ludwig estava construindo um mundo à parte.\n\nWagner era para Ludwig o que um guru é para um adepto: não apenas um artista admirado, mas um portal para outro universo. Ludwig chegou a subsidiar Wagner com quantias que quase arruinaram as finanças bávaras. Em junho de 1886, um grupo de ministros e médicos declarou Ludwig insano, tomando o controle do governo. Dois dias depois, Ludwig morreu afogado num lago próximo, sob circunstâncias nunca esclarecidas. Tinha 40 anos. O castelo foi aberto ao público seis semanas após sua morte — a ironia cruel sendo que o castelo privado construído para se isolar do mundo se tornou, imediatamente, um dos lugares mais visitados da Europa.",
+      "immersiveMode": true,
+      "immersiveText": "Você subiu 200 metros acima do vale de Hohenschwangau. O castelo que está à sua frente é maior do que parece nas fotos — e mais vazio do que qualquer castelo que você já visitou.\n\nLudwig II dormiu aqui 170 noites ao longo de 17 anos de construção. Uma média de dez noites por ano. O Schloss Neuschwanstein foi projetado como cenário de vida interior — não para receber, não para governar, não para impressionar nobres. Para que Ludwig pudesse existir sozinho dentro da ópera de Wagner.\n\nEntre no Thronsaal — a Sala do Trono. É o cômodo mais impressionante do castelo: abóbada dourada, colunas de pórfiro vermelho, mosaicos bizantinos no chão com animais exóticos, afresco no teto com Cristo entre anjos. E no centro do estrado: nada. O trono nunca foi instalado. Ludwig morreu em 1886 antes de decidir qual trono compraria. A sala foi construída para uma peça de mobiliário que nunca existiu. Você está dentro de uma antecipação congelada.\n\nVá até o Sängersaal — o Salão dos Cantores, no topo do castelo, 60 metros de comprimento. Todas as paredes são pinturas de episódios do Parsifal de Wagner e do Lohengrin. A acústica foi projetada para performances ao vivo. Nunca houve uma única performance aqui durante a vida de Ludwig. Wagner veio visitar o castelo uma vez, viu os esboços do Sängersaal e morreu 4 anos antes de a sala ser concluída. O salão construído para Wagner nunca recebeu Wagner.\n\nEssa é a lógica de Neuschwanstein: cada cômodo é uma preparação para algo que não aconteceu. A Grotte — a caverna artificial que conecta o quarto ao estúdio, decorada com estalactites de zinco e uma cascata artificial — era cenário para o segundo ato de Tannhäuser. Ludwig mandou instalar uma caverna dentro de um castelo para poder encenar mentalmente uma ópera que ele nunca produziu aqui.\n\nLudwig II foi declarado incapaz e deposto em junho de 1886. Três dias depois estava morto, com 40 anos, num lago próximo. O castelo abriu ao público seis semanas depois da morte dele. Em 1886, 12.000 pessoas visitaram Neuschwanstein. No ano passado, 1,4 milhão. Ludwig construiu o castelo mais visitado da Europa como fortaleza da solidão.\n\nQuando você sair, olhe para trás no primeiro patamar da descida. O ângulo a partir daí — o castelo emergindo das pedras da falésia com o vale embaixo — é o ângulo das fotografias que viraram o Castelo da Cinderela da Disney. Um animador da Disney veio aqui em 1954. O resto é a história da fantasia industrializada. Mas a origem era uma tristeza muito real: um rei que não queria ser rei, construindo uma fuga que nunca terminou.",
+      "observationPoints": [
+        "Da Marienbrücke: chegue antes das 9h30 para evitar fila na própria ponte",
+        "De dentro: a diferença entre salas concluídas (afrescos completos) e inacabadas (paredes cruas) — metáfora de uma vida interrompida",
+        "A cozinha: equipada com tecnologia avançada para os anos 1880 — contraste entre medievalismo estético e modernidade funcional",
+        "A ausência de estrutura defensiva: sem fosso, sem muralha externa — castelo como cenografia pura",
+        "Os afrescos das sagas wagnerianas: Parsifal, Lohengrin, Tannhäuser"
+      ],
+      "suggestedExperience": "Chegue o mais cedo possível (primeiro horário ~9h). Reserve online com antecedência em hohenschwangau.de — sem reserva, filas de 3–4h em junho. Faça a caminhada até a Marienbrücke antes das 9h30 para a foto sem multidão, depois volte para a entrada do castelo no horário marcado do ingresso.",
+      "searchSuggestions": [
+        "Neuschwanstein Ludwig II história",
+        "Christian Jank cenógrafo Wagner",
+        "Bayreuth Festival Wagner Ludwig",
+        "Neuschwanstein Disney Cinderela",
+        "morte Ludwig II lago Starnberg",
+        "Parsifal Lohengrin Tannhäuser Neuschwanstein"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "18–21€",
+        "notes": "Ingresso online obrigatório em hohenschwangau.de. Sem reserva, filas de 3–4h em junho"
+      },
+      "schedule": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": null,
+      "media": {
+        "audio": "/media/routes/munique/audio/neuschwanstein.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/neuschwanstein/main.jpg",
+            "caption": "A vista da Marienbrücke — a fotografia mais icônica do castelo",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/neuschwanstein/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "thronsaal",
+            "name": "Sala do Trono",
+            "image": "/media/routes/munique/sub-attractions/neuschwanstein/thronsaal.jpg",
+            "caption": "A Sala do Trono nunca foi concluída em vida de Ludwig — o próprio trono nunca foi instalado.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "O Thronsaal — o Salão do Trono. O espaço mais monumental do castelo. Observe a composição inteira.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ao fundo, no centro: o arco de mosaico dourado onde o trono deveria estar. Nunca foi instalado. Ludwig morreu seis semanas antes da inauguração.",
+                  "duration": 8,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No piso: mosaico de dois milhões de pedras representando animais e a criação. Observe os pavões e leões nos cantos.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No teto azul e dourado: imitação dos mosaicos das igrejas de Ravenna, Itália. À esquerda e à direita: colunas de pórfiro vermelho imitando Bizâncio.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Nas paredes, entre as colunas: pinturas de santos e reis cristãos europeus. Cada um carregado de simbolismo deliberado.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Um salão construído para um trono que nunca existiu. Para um rei que nunca sentou aqui. Tudo imitado — como o próprio castelo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "saengersaal",
+            "name": "Sala dos Cantores",
+            "image": "/media/routes/munique/sub-attractions/neuschwanstein/saengersaal.jpg",
+            "caption": "Auditório privado projetado para as óperas de Wagner — Ludwig nunca convidou ninguém para cantar aqui.",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "O Sängersaal — o Salão dos Cantores. O espaço mais elaborado de Neuschwanstein. Visão completa.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No teto: a abóbada dourada pintada com estrelas e cenas medievais. Observe as vigas esculpidas nos cantos superiores.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Nas paredes, à esquerda: pinturas narrando o ciclo de Parsifal, a ópera de Wagner sobre a busca do Santo Graal.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Nas paredes, à direita: mais cenas de Parsifal — o cavaleiro na floresta encantada, o castelo do Graal ao fundo.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro do salão: o espaço onde o palco estaria. Ludwig construiu tudo isso para um único espectador: ele mesmo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Nunca convidou ninguém. Nunca permitiu uma apresentação real aqui. Uma ópera que nunca foi cantada neste salão.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "audioImmersive": "/media/routes/munique/audio/neuschwanstein-immersive.mp3"
+      },
+      "walkingNotes": "Fim do Dia 4 — retorne a Füssen de ônibus 73/78 (15 min) e em seguida trem de volta a Munique (2h).",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "castelo",
+        "ludwig-ii",
+        "wagner",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "garmisch",
+      "dayId": "dia-5",
+      "order": 1,
+      "name": "Garmisch-Partenkirchen",
+      "lat": 47.4932,
+      "lng": 11.0956,
+      "address": "Bahnhofstraße, 82467 Garmisch-Partenkirchen",
+      "historicalPeriod": "alpine",
+      "yearBuilt": null,
+      "architecturalStyle": "Casario bávaro tradicional (séc XVIII–XIX)",
+      "significance": "Vila alpina bávara com Lüftlmalerei (afrescos de fachada), sede dos Jogos Olímpicos de Inverno de 1936 — zona de transição psicológica entre o mundo urbano e o mundo alpino.",
+      "description": "Garmisch-Partenkirchen funciona mais como uma zona de transição psicológica entre o mundo urbano e o mundo alpino. O centro histórico tem aquele charme bávaro específico das cidades de montanha: casas com afrescos pintados nas fachadas (Lüftlmalerei), ruas estreitas em pedra, fontes públicas com água gelada.\n\nAs Lüftlmalerei são uma tradição regional alpina que começou no século XVIII: fachadas pintadas com cenas religiosas, motivos florais, molduras ilusionistas e ocasionalmente retratos dos santos padroeiros da família. O nome viria de Franz Seraph Zwinck, apelidado Lüftl, pintor de Oberammergau que formalizou o estilo. Cada casa é uma página de catecismo visual — e, em conjunto, as ruas formam uma espécie de livro iluminado a céu aberto.\n\nEm 1936, Garmisch sediou os Jogos de Inverno que precederam os Jogos de Berlim. O que poucos sabem é que foi justamente nessa ocasião que os nazistas foram forçados a retirar temporariamente alguns dos cartazes antissemitas mais explícitos das ruas para evitar escândalos perante os atletas estrangeiros. A cidade serviu de vitrine higienizada do regime — uma operação de relações públicas às vésperas da solidificação ditatorial na Alemanha.\n\nHá também o fato administrativo: Garmisch e Partenkirchen eram duas vilas distintas até 1935, quando foram forçadas a se fundir por ordem de Hitler para preparar a candidatura olímpica. Até hoje os moradores mais antigos se identificam como de Garmisch ou de Partenkirchen, nunca os dois — memória de uma fusão que foi imposta, não negociada.\n\nEm Fronleichnam (04/06/2026), há possibilidade de ver a Fronleichnamsprozession — a procissão de Corpus Christi — percorrendo as ruas pela manhã. Uma tradição católica com centenas de anos, com participantes em trajes históricos bávaros, flores espalhadas pelas ruas e altares temporários montados nas esquinas. Se coincidir com sua passagem, é um dos espetáculos mais íntimos da Baviera profunda.\n\nTome um café aqui. É o último lugar com calor civilizatório antes do topo. Acima, o ar muda, o silêncio muda, e a escala humana começa a desaparecer.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Lüftlmalerei — os afrescos nas fachadas, com cenas religiosas e molduras ilusionistas",
+        "A divisão entre Garmisch e Partenkirchen — duas vilas fundidas à força em 1935",
+        "Marcos dos Jogos de Inverno de 1936 — estádio olímpico e infraestrutura esportiva",
+        "Em Fronleichnam: possibilidade de procissão de Corpus Christi pela manhã",
+        "Fontes públicas com água gelada direto das montanhas"
+      ],
+      "suggestedExperience": "Tome um café em uma das casas de Lüftlmalerei no centro histórico. Reserve 30–45 minutos para caminhar pelas ruas estreitas antes de subir à Zugspitze. Em Fronleichnam, tente cruzar com a procissão se coincidir com a manhã.",
+      "searchSuggestions": [
+        "Lüftlmalerei afrescos bávaros",
+        "Jogos de Inverno Garmisch 1936",
+        "Partenkirchen fusão 1935 Hitler",
+        "Fronleichnam Corpus Christi Baviera",
+        "Zugspitzbahn cremalheira Garmisch"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 300,
+      "media": {
+        "audio": "/media/routes/munique/audio/garmisch.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/garmisch/main.jpg",
+            "caption": "Garmisch-Partenkirchen: casas com afrescos Lüftlmalerei e os Alpes ao fundo",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/garmisch/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Da estação de trem, caminhe até a estação da Zugspitzbahn. De lá, funicular a cremalheira (Zahnradbahn) + teleférico Gletscherbahn até o cume — trajeto total ~75 min.",
+      "nextTransport": "cable-car",
+      "nextTransportMinutes": 75,
+      "tags": [
+        "alpes",
+        "vila",
+        "lüftlmalerei",
+        "trem"
+      ]
+    },
+    {
+      "id": "zugspitze",
+      "dayId": "dia-5",
+      "order": 2,
+      "name": "Zugspitze (2.962 metros)",
+      "lat": 47.421,
+      "lng": 10.985,
+      "address": "Zugspitze, 82475 Zugspitzdorf",
+      "historicalPeriod": "alpine",
+      "yearBuilt": null,
+      "architecturalStyle": "Paisagem alpina (formação geológica)",
+      "significance": "O ponto mais alto da Alemanha (2.962 m), cume compartilhado com a Áustria; em dias claros, veem-se as cadeias montanhosas de quatro países, e o glaciar em extinção é uma das paisagens climáticas mais reveladoras da Europa Central.",
+      "description": "Você está a 2.962 metros acima do nível do mar. O ponto mais alto da Alemanha. Daqui, em dias de visibilidade excepcional, é possível ver as cadeias montanhosas da Alemanha, Áustria, Suíça e Itália simultaneamente — quatro países cujas fronteiras traçadas por guerras e tratados políticos se dissolvem completamente diante da continuidade geológica dos Alpes.\n\nEssa é a primeira coisa que o topo ensina: que as fronteiras nacionais são convenções humanas sobrepostas a uma realidade física que as ignora completamente. Os Alpes não são alemães, austríacos, suíços ou italianos — eles simplesmente são.\n\nA Zugspitze tem uma particularidade que ilustra isso de maneira concreta: o cume está literalmente na fronteira entre Alemanha e Áustria. Há duas estações de topo — uma alemã e uma austríaca — interligadas por passarelas. Há uma cruz dourada no ponto mais alto, e ao seu lado, dois postes com as bandeiras dos dois países.\n\nHá um tipo de silêncio que só existe em altitude. Não é a ausência de som — há vento, o barulho dos cabos do teleférico, vozes. É um silêncio de escala: a sensação de que o volume do espaço ao redor é tão grande que absorve qualquer som humano antes que ele chegue a outro ser humano. Pesquisas em psicologia ambiental documentam esse efeito como awe — uma experiência de deslumbramento que reduz temporariamente a autoconsciência e aumenta a sensação de conexão com algo maior.\n\nO Zugspitzplatt — o planalto glaciar logo abaixo do topo — perdeu mais de 80% do seu volume desde 1820. Em 2030, projeções científicas indicam que pode ter desaparecido completamente. Você está olhando para uma paisagem em extinção. O campo de neve que vê não é apenas neve — é a memória climática acumulada ao longo de milênios, sendo desmantelada em décadas.\n\nA subida em si é uma lição de engenharia alpina. A Zugspitzbahn (trem a cremalheira) sobe 1.700 metros de desnível em 75 minutos, cruzando paisagens que mudam completamente: floresta, campo alpino, neve permanente. O teleférico Gletscherbahn faz o último trecho do platô ao cume. Cada etapa marca uma zona climática distinta — você atravessa, em pouco mais de uma hora, o equivalente a mil quilômetros de latitude.\n\nNo topo, resista ao impulso imediato de fotografar. Fique primeiro 5 minutos apenas olhando — em todas as direções. Só então tire a câmera. Os Alpes recompensam quem os observa antes de tentar capturá-los.",
+      "immersiveMode": true,
+      "immersiveText": "Você está a 2.962 metros. O oxigênio disponível é 30% menor do que ao nível do mar. A UV é 40% mais intensa. Se você tem 25 anos, seu coração bate 15% mais rápido do que batia em Munique esta manhã.\n\nO que você está pisando tem 300 milhões de anos. O Wetterstein Kalk — o calcário que forma a Zugspitze — foi depositado camada por camada durante o Triássico, quando os Alpes eram um mar tropical raso. As rochas que formam o pico mais alto da Alemanha são literalmente conchas de organismos marinhos comprimidas por processos geológicos durante um tempo que torna qualquer história humana irrelevante.\n\nA primeira ascensão registrada foi em 27 de agosto de 1820. O Tenente Josef Naus, com dois soldados e um guia local, demorou três dias para subir. Não havia trilha, não havia equipamento técnico, não havia previsão do tempo confiável. Eles chegaram ao cume no terceiro dia ao entardecer e gravaram seus nomes numa pedra. Essa pedra ainda existe; você pode procurá-la.\n\nAgora olhe para onde deveria estar o glaciar.\n\nO Zugspitzgletscher tinha 79 hectares em 1900. Hoje tem aproximadamente 11 hectares. Perdeu 86% da sua massa em 120 anos. Projeções atuais indicam desaparecimento completo por volta de 2035. Você está possivelmente em uma das últimas gerações que pode ver um glaciar nos Alpes alemães. O Gipfelkreuz — a cruz de metal no pico — foi instalada em 1851. Ela passou por sete glaciares diferentes à medida que o gelo avançou e recuou durante o século XIX. Agora está sobre pedra exposta.\n\nSe você foi de teleférico, você fez o mesmo percurso vertical em 10 minutos que Josef Naus fez em três dias. O teleférico original data de 1926 — foi o primeiro teleférico de alta montanha da Alemanha, uma conquista de engenharia comparável às pontes suspensas da época. O atual data de 2017 e é considerado o mais moderno do mundo em capacidade e design.\n\nUma última coisa: o cume tem uma fronteira geopolítica. A linha divisória entre Alemanha e Áustria passa pelo pico. Do lado austríaco fica a estação de Zugspitzplatt, administrada pela Tirol. Em dias claros, daqui você vê Munique a 85 quilômetros ao norte — a cidade que Ludwig I construiu como Atenas do Norte, visível apenas quando o ar está suficientemente frio e limpo. Hoje, com poluição luminosa e névoa de inversão térmica, isso acontece talvez 20 dias por ano. Verifique se este é um deles.",
+      "observationPoints": [
+        "A cruz dourada no cume e as duas bandeiras: Alemanha à esquerda, Áustria à direita",
+        "O Zugspitzplatt — o planalto glaciar com 80% do volume perdido desde 1820",
+        "As passarelas conectando as estações alemã e austríaca — atravesse a fronteira caminhando",
+        "A escala do silêncio em altitude — o efeito awe documentado cientificamente",
+        "Em dias claros: as cadeias montanhosas dos quatro países"
+      ],
+      "suggestedExperience": "No topo, resista ao impulso imediato de fotografar. Fique primeiro 5 minutos apenas olhando — em todas as direções. Tome seu café ou chocolate quente na plataforma externa. Identifique os quatro países no horizonte. Reserve pelo menos 90 minutos.",
+      "searchSuggestions": [
+        "Zugspitze glacier climate change 2030",
+        "Zugspitzplatt Gletscher volume perdido",
+        "Zugspitzbahn cremalheira 1931",
+        "Josef Naus primeiro cume 1820",
+        "awe psicologia ambiental Keltner",
+        "Alpes quatro países fronteira Zugspitze"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "70–80€",
+        "notes": "Passe combinado Zugspitzbahn + Gletscherbahn, ida e volta. Verifique visibilidade em zugspitze.de na véspera"
+      },
+      "schedule": {
+        "mon": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "16:30"
+        },
+        "sun": {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": null,
+      "media": {
+        "audio": "/media/routes/munique/audio/zugspitze.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/zugspitze/main.jpg",
+            "caption": "A Cruz dourada no cume da Zugspitze — 2.962 metros, ponto mais alto da Alemanha",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/zugspitze/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "gipfelkreuz",
+            "name": "Cruz do Cume — 2.962 m",
+            "image": "/media/routes/munique/sub-attractions/zugspitze/gipfelkreuz.jpg",
+            "caption": "A cruz dourada no cume, na fronteira literal entre Alemanha e Áustria.",
+            "reel": {
+              "audioMood": "alpine",
+              "segments": [
+                {
+                  "text": "A cume da Zugspitze, 2.962 metros. O ponto mais alto da Alemanha. Observe o panorama completo.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro: a cruz de ferro dourada instalada em 1851 — a primeira no cume da Alemanha. Ao redor: placas deixadas por alpinistas de todo o mundo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Direto à frente (sul): as Dolomitas italianas, em dias claros visíveis a 200 km de distância.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À esquerda (leste): o Tirol austríaco. A fronteira entre Alemanha e Áustria passa exatamente pelo cume, embaixo de seus pés.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À direita (oeste): Suíça e Liechtenstein no horizonte. Em dias excepcionais, são quatro países visíveis deste ponto.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "As fronteiras humanas não alcançam as montanhas. Esta perspectiva não tem equivalente em nenhuma capital europeia.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "gletscher",
+            "name": "Glaciar em Extinção",
+            "image": "/media/routes/munique/sub-attractions/zugspitze/gletscher.jpg",
+            "caption": "O Zugspitzplatt — planalto glaciar com 80% do volume perdido desde 1820.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Zugspitzplatt — o platô glacial da Zugspitze. Observe a extensão do campo de gelo.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A superfície irregular de gelo cinza-azulado ao centro: este é o glaciar Nördlicher Schneeferner. Existe há milênios.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "As faixas escuras no gelo: morenas — depósitos de rochas e detritos carregados pelo glaciar em seu lento movimento.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe os limites do gelo nas bordas da imagem. Compare com as fotografias históricas nas placas ao redor. A diferença é vertiginosa.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Em 1900, o glaciar cobria o dobro da área visível. Desde 1820, perdeu 80% do volume. Em 2030, pode ter desaparecido.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "audioImmersive": "/media/routes/munique/audio/zugspitze-immersive.mp3"
+      },
+      "walkingNotes": "Fim do Dia 5 — desça pela Gletscherbahn + Zugspitzbahn para Garmisch e tome o trem de volta a Munique (1h20).",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "alpes",
+        "altitude",
+        "glaciar",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "salzburg-mirabell",
+      "dayId": "dia-6",
+      "order": 1,
+      "name": "Mirabelplatz e Jardins do Mirabell",
+      "lat": 47.806,
+      "lng": 13.0414,
+      "address": "Mirabellplatz 4, 5020 Salzburg, Áustria",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1606,
+      "architecturalStyle": "Barroco (palácio 1606, jardins 1690)",
+      "significance": "Palácio construído por um príncipe-arcebispo para sua amante Salome Alt; jardins barrocos imortalizados mundialmente pela cena do Do-Re-Mi do musical A Noviça Rebelde (1965).",
+      "description": "O Palácio Mirabell foi construído em 1606 por Wolf Dietrich von Raitenau — o príncipe-arcebispo que reinventou Salzburgo segundo os padrões do barroco romano — para a sua amante Salome Alt, com quem teve 15 filhos. O escândalo de um arcebispo com família numerosa foi suficientemente grande para que von Raitenau acabasse preso numa torre do próprio castelo por seu sucessor, onde morreu em 1617.\n\nOs jardins foram redesenhados no século XVIII com geometria italiana típica do barroco tardio: eixos simétricos, canteiros em arabesco, esculturas mitológicas em mármore, fontes calculadas para emoldurar a Festung Hohensalzburg no horizonte sul. O conjunto é uma lição de cenografia urbana: cada ponto de onde você olha foi pensado para produzir uma composição visual específica, com a fortaleza como ponto focal permanente ao fundo.\n\nO que é interessante notar é como um jardim barroco do século XVII, criado por um prelado escandaloso para impressionar a amante, acabou imortalizado por um musical americano dos anos 1960 que continua trazendo famílias inteiras a Salzburgo décadas depois. Em 1965, o filme A Noviça Rebelde — The Sound of Music, baseado na história da família Trapp — usou estes jardins e a escadaria de mármore interior do palácio como cenário da famosa cena do Do-Re-Mi. Para grande parte do mundo, Salzburgo é, antes de qualquer coisa, o cenário desse musical. Os austríacos têm com o filme uma relação ambivalente: acham a produção exagerada, mas não recusam os 9 milhões de visitantes anuais que ela ajuda a trazer.\n\nO interior do palácio tem a Marmorsaal (Sala de Mármore) — um dos salões mais belos do barroco europeu, com estuques dourados e afrescos mitológicos. Hoje é usada para casamentos civis e pequenos concertos de câmara. Mozart tocou aqui quando criança, como parte dos circuitos de apresentação pelos quais o pai Leopold o exibia nas cortes europeias.\n\nA lógica urbana de Salzburgo fica clara a partir do Mirabell: o rio Salzach divide a cidade em Neustadt (onde está o Mirabell) e Altstadt (do outro lado). Da ponte Staatsbrücke, que cruza o rio, a Altstadt aparece com telhados ocre, torres barrocas e a Festung dominando o horizonte como se a cidade inteira fosse um cenário construído para uma ópera. Em parte, é.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A Festung Hohensalzburg emoldurada pela geometria dos jardins — composição barroca deliberada",
+        "A escadaria de mármore interior — cenário de 'Do-Re-Mi' em A Noviça Rebelde (1965)",
+        "Esculturas mitológicas nos canteiros: cada uma pensada para enquadramento visual",
+        "A Marmorsaal interior — onde Mozart tocou quando criança"
+      ],
+      "suggestedExperience": "Chegue pelos jardins pela manhã, antes do pico de turistas de Sound of Music tours. Caminhe pelos eixos simétricos em direção sul e fotografe a Festung ao fundo. Se o palácio estiver aberto, espie a Marmorsaal. Reserve 45 minutos.",
+      "searchSuggestions": [
+        "Schloss Mirabell Salzburg história",
+        "Wolf Dietrich Salome Alt escândalo",
+        "Sound of Music Mirabell Do-Re-Mi",
+        "Marmorsaal Mozart criança",
+        "jardim barroco Áustria geometria italiana"
+      ],
+      "visitType": "external",
+      "entryFee": {
+        "free": true,
+        "notes": "Jardins gratuitos; Marmorsaal acesso por agenda de eventos"
+      },
+      "schedule": {
+        "mon": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "20:00"
+        },
+        "sun": {
+          "open": "06:00",
+          "close": "20:00"
+        }
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/munique/audio/salzburg-mirabell.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/salzburg-mirabell/main.jpg",
+            "caption": "Os Jardins do Mirabell com a Festung Hohensalzburg ao fundo — a imagem clássica de Salzburgo",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/salzburg-mirabell/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Atravesse o Rio Salzach pela ponte Staatsbrücke. O rio divide a cidade nova (Neustadt) da cidade velha (Altstadt). Da ponte, a Altstadt aparece com telhados ocre, torres barrocas e a Festung dominando o horizonte.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 10,
+      "tags": [
+        "jardim",
+        "barroco",
+        "sound-of-music",
+        "mozart"
+      ]
+    },
+    {
+      "id": "salzburg-getreidegasse",
+      "dayId": "dia-6",
+      "order": 2,
+      "name": "Getreidegasse e a Casa Natal de Mozart",
+      "lat": 47.8001,
+      "lng": 13.0426,
+      "address": "Getreidegasse 9, 5020 Salzburg, Áustria",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1400,
+      "architecturalStyle": "Medieval/Barroco comercial (séc XV–XVIII)",
+      "significance": "Rua comercial principal da Altstadt com letreiros de ferro forjado — arqueologia viva da comunicação visual pré-alfabetização; no número 9, a casa onde Mozart nasceu em 1756.",
+      "description": "A Getreidegasse é a rua comercial principal da Altstadt — e uma das mais densas em termos de camadas históricas por metro quadrado que você vai encontrar em qualquer cidade europeia. Estreita, com casas que datam dos séculos XIV ao XVIII, ela tem letreiros de ferro forjado que penduram acima da rua como galhos — uma tradição que começou porque, numa época de analfabetismo generalizado, os comerciantes precisavam que suas lojas fossem identificadas por imagens, não por texto.\n\nCada letreiro é uma obra de arte utilitária. Uma bota de ferro forjado marcava um sapateiro. Um par de tesouras marcava um alfaiate. Um pretzel marcava um padeiro. Essa gramática visual, estendida por toda a rua, constitui uma espécie de museu a céu aberto da comunicação comercial pré-tipografia. Alguns letreiros são originais do século XVIII e sobreviveram guerras, incêndios e reformas. Outros foram reproduzidos fielmente. Observe os mais antigos — eles têm uma qualidade de desenho que as versões modernas nunca alcançam.\n\nA Casa Natal de Mozart — Mozarts Geburtshaus — está no número 9. Wolfgang Amadeus Mozart nasceu aqui em 27 de janeiro de 1756. A família Mozart alugou o terceiro andar da casa entre 1747 e 1773. Hoje a casa é museu e mantém cômodos reconstruídos com instrumentos de época, cartas, retratos e o violino de criança de Wolfgang.\n\nMas o que é mais interessante do que visitar o museu é a relação de Salzburgo com Mozart. A cidade sempre teve uma relação ambivalente com seu filho mais famoso: Mozart detestava Salzburgo. Em 1777, aos 21 anos, escreveu ao pai Leopold que a cidade era um lugar sem distinção e sem brilho e que os salzburguenses eram insuportavelmente limitados. Pediu ao Príncipe-Arcebispo Colloredo para ser demitido, foi literalmente chutado para fora — há registros de que o enviado do arcebispo lhe deu um chute nas calças — e partiu para Viena, onde viveu os últimos dez anos de sua vida.\n\nSalzburgo só acordou para a importância de Mozart depois de sua morte. A primeira estátua pública na cidade só foi inaugurada em 1842 — 51 anos depois de Mozart ter morrido, pobre, aos 35 anos. O Festival de Salzburgo foi criado em 1920, quando a cidade finalmente percebeu que sua identidade cultural poderia ser monetizada em escala global. Hoje, Mozart é indústria: bombons Mozartkugel, bustos em cada vitrine, concertos tematicos em cada pátio. A ironia é que a cidade que ele odiou vive, hoje, economicamente dele.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Os letreiros de ferro forjado: especialmente os mais antigos, com design original do século XVIII",
+        "Os pátios internos (Durchhäuser) — entradas nos edifícios que levam a pátios escondidos. Explore livremente",
+        "A diferença de largura da rua: há pontos onde dois guarda-chuvas abertos não caberiam lado a lado",
+        "A casa número 9 — terceiro andar foi o apartamento da família Mozart 1747–1773",
+        "A gramática visual dos letreiros: bota=sapateiro, pretzel=padeiro, tesoura=alfaiate"
+      ],
+      "suggestedExperience": "Caminhe devagar pela rua inteira olhando para cima — os letreiros são a atração. Entre em pelo menos dois Durchhäuser (passagens) para descobrir pátios internos. A Casa de Mozart (n.9) é visitável, mas a caminhada pela rua é o mais importante. Reserve 1h–1h15.",
+      "searchSuggestions": [
+        "Getreidegasse letreiros ferro forjado",
+        "Mozart Geburtshaus Salzburg n.9",
+        "Mozart detestava Salzburgo Colloredo",
+        "Durchhäuser Salzburg pátios internos",
+        "Festival Salzburgo 1920 história"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": true,
+        "notes": "Rua gratuita; Mozarts Geburtshaus ~14€"
+      },
+      "schedule": {
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
+      },
+      "estimatedVisitMinutes": 75,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/salzburg-getreidegasse.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/salzburg-getreidegasse/main.jpg",
+            "caption": "A Getreidegasse: rua estreita com letreiros de ferro forjado pendurando acima",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/salzburg-getreidegasse/thumb.jpg",
+        "subAttractions": []
+      },
+      "walkingNotes": "Pela Residenzplatz — a grande praça central com a Residência dos Príncipes-Arcebispos e a fonte barroca do século XVII que é uma das mais belas da Europa Central.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 5,
+      "tags": [
+        "rua",
+        "mozart",
+        "letreiros",
+        "altstadt"
+      ]
+    },
+    {
+      "id": "salzburg-dom",
+      "dayId": "dia-6",
+      "order": 3,
+      "name": "Dom de Salzburgo",
+      "lat": 47.7984,
+      "lng": 13.0478,
+      "address": "Domplatz 1, 5020 Salzburg, Áustria",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1614,
+      "architecturalStyle": "Barroco primitivo (1614–1628)",
+      "significance": "Melhor exemplo de barroco italiano ao norte dos Alpes; catedral onde Mozart foi batizado em 28 de janeiro de 1756 e onde trabalhou como organista antes de romper com o arcebispo Colloredo.",
+      "description": "O Dom de Salzburgo foi construído entre 1614 e 1628 por Santino Solari, um arquiteto do Cantão Ticino, a mando do mesmo Wolf Dietrich von Raitenau que criou os jardins do Mirabell antes de ser preso. Substituiu uma catedral medieval anterior que havia queimado em 1598 — incêndio cuja origem ainda é discutida, com algumas teorias sugerindo que o próprio arcebispo tenha ordenado o fogo para justificar a reconstrução no novo estilo barroco italiano.\n\nA fachada branca e dupla-torre enquadra a Domplatz de maneira que parece mais um cenário de ópera do que uma entrada de igreja — o que, num sentido, é exatamente o que é: o príncipe-arcebispo queria importar Roma para a Baviera alpina. Na Salzburgo pós-Reforma, demonstrar magnificência católica romana era política: a cidade havia sobrevivido como bastião católico cercado por zonas protestantes, e cada pedra barroca era um argumento teológico.\n\nMozart foi batizado aqui, em 28 de janeiro de 1756 — um dia após seu nascimento na Getreidegasse 9. A pia batismal original, do século XIII, ainda está na catedral — sobreviveu ao incêndio de 1598 e foi incorporada ao novo edifício. Ou seja: a mesma pia onde Mozart foi batizado é a mesma onde os salzburguenses são batizados hoje, mais de 800 anos depois de sua fabricação.\n\nMozart trabalhou como organista aqui durante anos antes de romper com o arcebispo Colloredo e partir para Viena. Os órgãos originais foram ampliados ao longo dos séculos — o órgão principal atual tem mais de 10.000 tubos. Se você tiver a sorte de pegar um ensaio de coro ou órgão numa tarde de sexta-feira, não saia: o efeito acústico da nave é um dos mais impressionantes da Europa Central.\n\nO interior tem proporções que produzem um efeito específico: a entrada é baixa e comprimida (obrigando o visitante a curvar a cabeça), e depois o espaço explode para cima numa nave de 70 metros de comprimento e 32 de altura. É um efeito deliberado de arquitetura sacra: a humilhação física da entrada seguida da revelação do espaço divino. O barroco católico contrarreformista não trabalha com sutileza — trabalha com impacto. A ideia é que o corpo do fiel entenda, antes da mente, que está diante de algo maior. E funciona: mesmo num visitante ateu do século XXI, a transição entre o átrio comprimido e a nave plena produz uma resposta física involuntária.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A pia batismal do século XIII — a mesma onde Mozart foi batizado em 28/01/1756",
+        "A fachada dupla-torre barroca italiana — afirmação romana ao norte dos Alpes",
+        "A transição entrada comprimida → nave explosiva: efeito deliberado do barroco contrarreformista",
+        "O órgão principal com mais de 10.000 tubos — Mozart trabalhou aqui como organista",
+        "A nave de 70m de comprimento e 32m de altura"
+      ],
+      "suggestedExperience": "Sente-se em um dos bancos da nave central por 10 minutos. Não leia nada. Apenas ouça: a reverberação transforma qualquer som em música involuntária. Sexta-feira à tarde pode ter ensaios de coro ou órgão.",
+      "searchSuggestions": [
+        "Salzburger Dom Santino Solari 1628",
+        "pia batismal Mozart Salzburg",
+        "barroco italiano contrarreforma Áustria",
+        "Wolf Dietrich von Raitenau Salzburg",
+        "Dom Salzburg órgão 10000 tubos"
+      ],
+      "visitType": "internal",
+      "entryFee": {
+        "free": true,
+        "notes": "Doação sugerida. Museu do Dom à parte ~12€"
+      },
+      "schedule": {
+        "mon": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "sun": {
+          "open": "13:00",
+          "close": "19:00"
+        }
+      },
+      "estimatedVisitMinutes": 30,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/munique/audio/salzburg-dom.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/salzburg-dom/main.jpg",
+            "caption": "O Dom de Salzburgo: fachada barroca italiana dupla-torre enquadrando a Domplatz",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/salzburg-dom/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "taufbecken-mozart",
+            "name": "Pia Batismal de Mozart",
+            "image": "/media/routes/munique/sub-attractions/salzburg-dom/taufbecken-mozart.jpg",
+            "caption": "A pia do século XIII onde Mozart foi batizado em 28 de janeiro de 1756.",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "A pia batismal da Catedral de Salzburgo. É aqui que Mozart foi batizado, em 28 de janeiro de 1756.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe a borda superior: bronze ornamentado com figuras de anjos e santos em baixo-relevo, trabalhado no século XVII.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro da pia: a abertura por onde a água benta era derramada sobre o recém-nascido. Um dia após Mozart nascer, foi trazido aqui.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À volta da pia: as quatro pernas de ferro forjado. Observe as proporções — é uma peça pequena para um batismo tão grande.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Vinte anos depois do batismo, Mozart fugiu de Salzburgo jurando nunca mais voltar. Nunca voltou.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A pia ficou. Olhando gerações de visitantes que vêm aqui por causa de um compositor que odiava a cidade onde foi batizado.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Saia pela Kapitelplatz ao sul e siga os sinais para a Festungsbahn — o funicular sobe à Festung em poucos minutos.",
+      "nextTransport": "funicular",
+      "nextTransportMinutes": 10,
+      "tags": [
+        "catedral",
+        "mozart",
+        "barroco",
+        "acústica"
+      ]
+    },
+    {
+      "id": "salzburg-festung",
+      "dayId": "dia-6",
+      "order": 4,
+      "name": "Festung Hohensalzburg",
+      "lat": 47.7954,
+      "lng": 13.0472,
+      "address": "Mönchsberg 34, 5020 Salzburg, Áustria",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1077,
+      "architecturalStyle": "Fortificação medieval (1077–séc XVII)",
+      "significance": "Uma das maiores e mais bem preservadas fortalezas medievais da Europa Central, construída a partir de 1077 pelo Arcebispo Gebhard — nunca foi tomada militarmente em 900 anos.",
+      "description": "A Festung Hohensalzburg — a Fortaleza de Salzburgo — foi construída a partir de 1077 pelo Arcebispo Gebhard no contexto da Luta das Investiduras, o conflito entre o Papa Gregório VII e o Imperador Henrique IV sobre quem tinha o direito de nomear bispos. Gebhard, partidário do papa, ergueu a fortaleza para proteger o arcebispado contra possíveis ataques imperiais. A escolha do sítio — um afloramento rochoso sobre a cidade — não foi estratégica por acaso: de cima, controla-se o vale do Salzach e as rotas do sal que davam a Salzburgo seu nome e sua riqueza.\n\nNunca foi tomada militarmente em 900 anos. Pense nisso um instante: 900 anos de conflitos europeus — da Luta das Investiduras à Guerra dos Trinta Anos, das guerras napoleônicas às duas guerras mundiais — e a fortaleza permaneceu intacta. Em parte por sua localização e projeto, em parte porque Salzburgo foi um principado eclesiástico neutro na maioria dos conflitos, em parte por sorte pura. O resultado é uma raridade arqueológica: um complexo medieval que sobreviveu como sistema integrado, não como ruína.\n\nDo alto da fortaleza, a visão de Salzburgo é uma das mais esteticamente coerentes de qualquer cidade europeia. O rio Salzach divide a cidade em duas metades ligadas por pontes: Neustadt à esquerda (com os jardins do Mirabell ao norte), Altstadt à direita (com a Getreidegasse, o Dom, os pátios dos palácios episcopais). As montanhas fecham o horizonte em todas as direções, como um anfiteatro natural que faz da cidade inteira um cenário.\n\nSalzburgo tem algo que poucas cidades do mundo conseguiram preservar: uma continuidade visual através dos séculos. O centro histórico — Patrimônio Mundial da UNESCO desde 1997 — mantém uma homogeneidade de escala, material e paleta de cores que resulta tanto da proteção ativa quanto da topografia natural: as montanhas ao redor tornam virtualmente impossível expandir horizontalmente. Salzburgo é, por geografia e política, uma cidade-museu habitada.\n\nMas há um paradoxo interessante nessa beleza preservada: Salzburgo é um dos exemplos mais estudados de turistificação urbana na Europa. Mais de 9 milhões de visitantes por ano para uma cidade de 155.000 habitantes. Os moradores genuínos de Salzburgo tendem a viver nos bairros periféricos. O centro histórico é, em grande medida, um museu habitado. Essa tensão não invalida a experiência de estar aqui — mas conhecê-la torna a visita mais honesta.\n\nO que salva Salzburgo da completa museificação é a música ordinária da cidade: os músicos de rua na Getreidegasse, os concertos de câmara nos pátios dos palácios, os estudantes do Mozarteum tocando nos parques em noites de verão. Salzburgo é uma cidade de acústica. As ruas estreitas criam efeitos de reverberação que transformam qualquer som em evento musical. Quando Mozart era criança e caminhava por essas mesmas ruas, ele ouvia uma cidade que era, ela mesma, um instrumento. Que ele a detestasse depois não muda o fato de que ela o formou.",
+      "immersiveMode": true,
+      "immersiveText": "Você está em cima do Festungsberg — o morro da fortaleza — após a subida pela Festungsbahn, o funicular mais antigo ainda em operação da Europa central (1892). A Festung Hohensalzburg parece invencível daqui. E é essa a história que vendem: 900 anos sem conquista militar, a fortaleza medieval mais bem preservada da Europa central.\n\nA história real é mais interessante.\n\nEm 1803, as tropas de Napoleão entraram em Salzburgo sem resistência. O Arcebispo Hieronymus von Colloredo simplesmente entregou as chaves e fugiu para Viena. Não houve cerco, não houve batalha, não houve defesa. A \"fortaleza invicta de 900 anos\" foi abandonada num domingo de março. Dois anos depois, Salzburgo passou para a Baviera por acordo diplomático. A fortaleza que você está visitando é menos um monumento à resistência do que ao pragmatismo do poder eclesiástico.\n\nEntre no Hohen Stock — os aposentos do Príncipe-Arcebispo. No corredor principal, procure o Salzburger Stier: o órgão de barril construído em 1502, o instrumento musical mais antigo do mundo ainda em funcionamento regular. Toca três vezes por dia (7h, 11h e 18h) — você ouvirá os sons reverberando pela cidade lá embaixo. Mozart cresceu ouvindo esse instrumento da janela de sua casa na Getreidegasse. Quando ele compôs peças para órgão, esse era o timbre que tinha na cabeça.\n\nIsso importa porque Salzburgo foi, durante dois séculos, uma das capitais musicais da Europa não por acidente geográfico — mas porque os Príncipes-Arcebispos contratavam os melhores músicos da Europa como funcionários da corte. Leopold Mozart, pai de Wolfgang Amadeus, era vice-Kapellmeister do Arcebispo. Mozart nasceu funcionário público, filho de funcionário público. A fortaleza que você está visitando era o empregador do pai do maior compositor europeu.\n\nSuba até a plataforma mais alta — o Reck. Daqui a cidade de Salzburgo se organiza como uma maquete: o Mirabell ao norte com seus jardins geométricos, a Getreidegasse cortando o Altstadt em linha reta, o Dom barroco com as duas torres idênticas, o Rio Salzach dividindo a cidade medieval da cidade barroca. Esta vista foi o horizonte de 500 anos de Príncipes-Arcebispos que governaram um Estado independente — Salzburgo só entrou definitivamente para a Áustria em 1816.\n\nUma última escala antes de descer: o Stiftskeller St. Peter fica do lado de fora da porta da fortaleza, na encosta do morro. Fundado em 803 d.C., é frequentemente listado como o restaurante mais antigo ainda em funcionamento do mundo. Carlo Magno teria jantado aqui, segundo a tradição. O que é certo é que monges beneditinos do Mosteiro de São Pedro administram ou administraram este espaço há mais de 1.200 anos. Você pode jantar num local que existe antes de existirem a maioria das nações europeias.",
+      "observationPoints": [
+        "O rio Salzach dividindo Neustadt (esquerda) de Altstadt (direita) — cada metade com arquitetura distinta",
+        "Os aposentos dos príncipes-arcebispos preservados: tetos pintados, estufas de azulejo, madeira original",
+        "As montanhas fechando o horizonte como um anfiteatro natural",
+        "A Stiftskirche São Pedro na base — mosteiro beneditino fundado em 696",
+        "A continuidade visual do conjunto UNESCO: homogeneidade de escala e paleta"
+      ],
+      "suggestedExperience": "Suba de funicular até a Festung. Passe pela exposição interna rapidamente — o que importa são as vistas dos terraços. Depois desça pelo caminho a pé pelo lado leste. No final da descida, entre na Stiftskirche São Pedro — o mosteiro beneditino mais antigo da região alemã, fundado em 696. O restaurante do mosteiro — Stiftskeller Sankt Peter — funciona há mais de 1.200 anos no mesmo local.",
+      "searchSuggestions": [
+        "Festung Hohensalzburg 1077 história",
+        "Luta das Investiduras Gregório VII",
+        "Salzburg UNESCO overtourism",
+        "Stiftskeller Sankt Peter restaurante 1200 anos",
+        "Mozarteum Salzburg estudantes música",
+        "Festungsbahn funicular Salzburg"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "16–18€",
+        "notes": "Inclui funicular ida-volta + museu da fortaleza. Incluso na Salzburg Card"
+      },
+      "schedule": {
+        "mon": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "19:00"
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": null,
+      "media": {
+        "audio": "/media/routes/munique/audio/salzburg-festung.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/munique/photos/salzburg-festung/main.jpg",
+            "caption": "A Festung Hohensalzburg dominando a skyline — nunca tomada em 900 anos",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/munique/photos/salzburg-festung/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "salzburg-panorama",
+            "name": "Salzburgo Vista da Fortaleza",
+            "image": "/media/routes/munique/sub-attractions/salzburg-festung/salzburg-panorama.webp",
+            "caption": "A lógica da cidade vista do alto: o Salzach dividindo Neustadt e Altstadt, os telhados ocre, as torres barrocas.",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "Panorama de Salzburgo visto da Festung Hohensalzburg. Observe a cidade inteira antes de entrar nos detalhes.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro: o rio Salzach dividindo a cidade. À esquerda do rio (margem esquerda): a Altstadt — a cidade velha medieval e barroca.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À direita do rio (margem direita): a cidade nova, do século XIX em diante. As torres barrocas da Altstadt dominam o skyline da esquerda.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ao fundo norte: as montanhas do Untersberg fecham o horizonte como uma parede. Salzburgo não tem como crescer para norte.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ao sul e sudeste: o Tennengebirge e o Hagengebirge. A cidade está literalmente emoldurada por montanhas em três direções.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Um anfiteatro natural. Salzburgo não cresceu para fora — cresceu para dentro e para cima. A geografia é o destino desta cidade.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "audioImmersive": "/media/routes/munique/audio/salzburg-festung-immersive.mp3"
+      },
+      "walkingNotes": "Fim do Dia 6 — desça pelo caminho a pé pelo lado leste, passe pela Stiftskirche São Pedro e, se possível, jante no Stiftskeller Sankt Peter. Depois caminhe até Salzburg Hbf (~15 min) e pegue o trem de volta a Munique.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "fortaleza",
+        "medieval",
+        "unesco",
+        "imersivo"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "from": "eisbach",
+      "to": "monopteros",
+      "transport": "walking",
+      "walkingMinutes": 22,
+      "distanceMeters": 1400,
+      "path": [
+        [
+          48.144273,
+          11.592833
+        ],
+        [
+          48.1465,
+          11.59
+        ],
+        [
+          48.14834,
+          11.58675
+        ]
+      ],
+      "streetNotes": "Siga ao norte pelo Schwabinger Bach. Há uma cascata pequena sob uma ponte — parece estar no Canadá, não em Munique. Em 20 minutos, uma colina com um templete grego começa a aparecer entre as árvores."
+    },
+    {
+      "from": "monopteros",
+      "to": "chinesischer-turm",
+      "transport": "walking",
+      "walkingMinutes": 15,
+      "distanceMeters": 950,
+      "path": [
+        [
+          48.14834,
+          11.58675
+        ],
+        [
+          48.1505,
+          11.59
+        ],
+        [
+          48.1531,
+          11.5936
+        ]
+      ],
+      "streetNotes": "Do Monopteros, siga para o norte. A pagoda aparece visível entre as árvores. Procure chegar entre 12h e 12h15 — a Blaskapelle começa exatamente às 12h nos domingos."
+    },
+    {
+      "from": "chinesischer-turm",
+      "to": "rio-isar-flaucher",
+      "transport": "subway",
+      "walkingMinutes": 35,
+      "distanceMeters": 6500,
+      "path": [
+        [
+          48.1531,
+          11.5936
+        ],
+        [
+          48.1351,
+          11.582
+        ],
+        [
+          48.1095,
+          11.555
+        ]
+      ],
+      "streetNotes": "Do biergarten, siga em direção ao sul e leste. Alternativas: bicicleta MVG Rad pelo parque, U-Bahn U3 até Thalkirchen, ou caminhada longa (45 min) pelo Isar."
+    },
+    {
+      "from": "marienplatz",
+      "to": "peterskirche",
+      "transport": "walking",
+      "walkingMinutes": 3,
+      "distanceMeters": 180,
+      "path": [
+        [
+          48.137154,
+          11.576124
+        ],
+        [
+          48.136585,
+          11.575382
+        ]
+      ],
+      "streetNotes": "Saindo ao sul pela Rindermarkt (literalmente 'mercado de bois') — as pedras de pavimento originais do século XIX criam um som diferente quando pisadas."
+    },
+    {
+      "from": "peterskirche",
+      "to": "viktualienmarkt",
+      "transport": "walking",
+      "walkingMinutes": 4,
+      "distanceMeters": 220,
+      "path": [
+        [
+          48.136585,
+          11.575382
+        ],
+        [
+          48.135125,
+          11.576582
+        ]
+      ],
+      "streetNotes": "Desça da igreja e caminhe ao sudeste. O cheiro muda. As conversas mudam de idioma. A velocidade dos passos muda. Você está entrando em outra camada da cidade."
+    },
+    {
+      "from": "viktualienmarkt",
+      "to": "odeonsplatz",
+      "transport": "walking",
+      "walkingMinutes": 12,
+      "distanceMeters": 850,
+      "path": [
+        [
+          48.135125,
+          11.576582
+        ],
+        [
+          48.1385,
+          11.5768
+        ],
+        [
+          48.141602,
+          11.577085
+        ]
+      ],
+      "streetNotes": "A caminhada passa pela elegante rua comercial Theatinerstraße do século XIX. Quando você dobra à esquerda, a Theatinerkirche aparece à direita e a Odeonsplatz se abre como um palco."
+    },
+    {
+      "from": "odeonsplatz",
+      "to": "hofgarten",
+      "transport": "walking",
+      "walkingMinutes": 3,
+      "distanceMeters": 220,
+      "path": [
+        [
+          48.141602,
+          11.577085
+        ],
+        [
+          48.14223,
+          11.58026
+        ]
+      ],
+      "streetNotes": "Pela entrada das Arcadas do Hofgarten — um corredor coberto com arcos renascentistas. Olhe para cima: as abóbadas têm pinturas medievais cartográficas da Baviera do século XVI."
+    },
+    {
+      "from": "hofgarten",
+      "to": "hofbraeuhaus",
+      "transport": "walking",
+      "walkingMinutes": 12,
+      "distanceMeters": 750,
+      "path": [
+        [
+          48.14223,
+          11.58026
+        ],
+        [
+          48.14,
+          11.58
+        ],
+        [
+          48.137489,
+          11.579756
+        ]
+      ],
+      "streetNotes": "Saia pelo lado sul, desça pela Maximilianstraße (a avenida mais elegante de Munique, com mansões e teatros do século XIX) por um trecho, depois vire em direção ao centro."
+    },
+    {
+      "from": "BASE_MUNIQUE",
+      "to": "neuschwanstein",
+      "transport": "train",
+      "walkingMinutes": 135,
+      "distanceMeters": 120000,
+      "path": [],
+      "streetNotes": "Trem de Munique Hbf para Füssen (2h, DB Regional/BOB) + ônibus 73/78 para Hohenschwangau (15 min). Da parada, caminhada de 30–40 min pela colina ou ônibus shuttle até a entrada do castelo."
+    },
+    {
+      "from": "BASE_MUNIQUE",
+      "to": "garmisch",
+      "transport": "train",
+      "walkingMinutes": 80,
+      "distanceMeters": 90000,
+      "path": [],
+      "streetNotes": "Trem direto de Munique Hbf para Garmisch-Partenkirchen (1h20, DB Regional). Em Fronleichnam, confirme horário na véspera em bahn.de."
+    },
+    {
+      "from": "garmisch",
+      "to": "zugspitze",
+      "transport": "cable-car",
+      "walkingMinutes": 75,
+      "distanceMeters": 20000,
+      "path": [],
+      "streetNotes": "Zugspitzbahn (trem a cremalheira) de Garmisch até a estação Zugspitzplatt, seguida do teleférico Gletscherbahn até o cume. Trajeto total ~75 min com duas baldeações."
+    },
+    {
+      "from": "BASE_MUNIQUE",
+      "to": "salzburg-mirabell",
+      "transport": "train",
+      "walkingMinutes": 90,
+      "distanceMeters": 145000,
+      "path": [],
+      "streetNotes": "Trem ÖBB Railjet ou DB EuroCity de Munique Hbf para Salzburg Hbf (1h30). Da estação, caminhada de 10–15 min ou ônibus 1/3/5/6 até Mirabellplatz."
+    },
+    {
+      "from": "salzburg-mirabell",
+      "to": "salzburg-getreidegasse",
+      "transport": "walking",
+      "walkingMinutes": 10,
+      "distanceMeters": 700,
+      "path": [
+        [
+          47.806,
+          13.0414
+        ],
+        [
+          47.803,
+          13.042
+        ],
+        [
+          47.8001,
+          13.0426
+        ]
+      ],
+      "streetNotes": "Atravesse o Rio Salzach pela ponte Staatsbrücke. Da ponte, a Altstadt aparece com telhados ocre, torres barrocas e a Festung dominando o horizonte."
+    },
+    {
+      "from": "salzburg-getreidegasse",
+      "to": "salzburg-dom",
+      "transport": "walking",
+      "walkingMinutes": 5,
+      "distanceMeters": 350,
+      "path": [
+        [
+          47.8001,
+          13.0426
+        ],
+        [
+          47.799,
+          13.045
+        ],
+        [
+          47.7984,
+          13.0478
+        ]
+      ],
+      "streetNotes": "Pela Residenzplatz — a grande praça central com a Residência dos Príncipes-Arcebispos e a fonte barroca do século XVII que é uma das mais belas da Europa Central."
+    },
+    {
+      "from": "salzburg-dom",
+      "to": "salzburg-festung",
+      "transport": "funicular",
+      "walkingMinutes": 10,
+      "distanceMeters": 450,
+      "path": [
+        [
+          47.7984,
+          13.0478
+        ],
+        [
+          47.797,
+          13.0475
+        ],
+        [
+          47.7954,
+          13.0472
+        ]
+      ],
+      "streetNotes": "Saia do Dom pela Kapitelplatz ao sul, siga até a estação da Festungsbahn e suba de funicular — ~3 min até a fortaleza, com vistas progressivas sobre a Altstadt."
+    }
+  ]
+}
