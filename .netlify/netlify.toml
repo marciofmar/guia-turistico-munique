@@ -1,27 +1,13 @@
-plugins = []
-headers = []
-redirects = []
-
-[functions]
-
-[functions."*"]
-
 [build]
-publish = "C:\\Users\\marci\\projetos\\guia_turistico_centro_rio\\dist"
-publishOrigin = "ui"
-commandOrigin = "ui"
-command = "npm run build"
+  command   = "npm run build"
+  publish   = "dist"
 
 [build.environment]
+  NODE_VERSION = "20"
 
-[build.processing]
-
-[build.processing.css]
-
-[build.processing.html]
-
-[build.processing.images]
-
-[build.processing.js]
-
-[build.services]
+# SPA com hash router não precisa de redirect, mas esta regra
+# garante que rotas diretas (ex.: link compartilhado) funcionem:
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
