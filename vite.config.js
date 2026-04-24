@@ -7,7 +7,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/*', 'media/**/*'],
       workbox: {
-        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10 MB — acomoda o documentário
+        maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15 MB — acomoda trilhas de áudio ambiente
         globPatterns: ['**/*.{js,css,html,json,webp,mp3,mp4,png,svg}'],
         runtimeCaching: [
           {

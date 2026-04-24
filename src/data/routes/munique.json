@@ -2630,7 +2630,7 @@
           {
             "id": "rathaus-turm",
             "name": "Vista da Torre do Rathaus",
-            "image": "/media/routes/munique/sub-attractions/marktplatz-rothenburg/rathaus-turm.webp",
+            "image": "/media/routes/munique/sub-attractions/marktplatz-rothenburg/rathaus-turm.jpg",
             "caption": "Da torre gótica do Rathaus: o perímetro completo das muralhas, o vale do Tauber e o horizonte da Francônia.",
             "reel": {
               "audioMood": "medieval",
@@ -2671,7 +2671,7 @@
           {
             "id": "meistertrunk-uhr",
             "name": "Relógio do Meistertrunk",
-            "image": "/media/routes/munique/sub-attractions/marktplatz-rothenburg/meistertrunk-uhr.webp",
+            "image": "/media/routes/munique/sub-attractions/marktplatz-rothenburg/meistertrunk-uhr.jpg",
             "caption": "A fachada da Ratstrinkstube com o glockenspiel que encena o Grande Gole — diariamente, de hora em hora.",
             "reel": {
               "audioMood": "medieval",
@@ -2808,7 +2808,7 @@
           {
             "id": "heilig-blut-altar",
             "name": "Heilig-Blut-Altar",
-            "image": "/media/routes/munique/sub-attractions/st-jakobskirche/heilig-blut-altar.webp",
+            "image": "/media/routes/munique/sub-attractions/st-jakobskirche/heilig-blut-altar.jpg",
             "imageFit": "contain",
             "caption": "O retábulo de Riemenschneider em madeira natural — três painéis: Entrada em Jerusalém, Última Ceia, Getsêmani.",
             "reel": {
@@ -2943,7 +2943,7 @@
           {
             "id": "plonlein-view",
             "name": "A Bifurcação Medieval",
-            "image": "/media/routes/munique/sub-attractions/plonlein/plonlein-view.webp",
+            "image": "/media/routes/munique/sub-attractions/plonlein/plonlein-view.jpg",
             "caption": "O enquadramento que definiu o imaginário da Alemanha medieval: duas torres, uma bifurcação, uma casa de enxaimel.",
             "reel": {
               "audioMood": "medieval",
@@ -3077,7 +3077,7 @@
           {
             "id": "stadtmauer-blick",
             "name": "Vista do Adarve",
-            "image": "/media/routes/munique/sub-attractions/stadtmauer-rothenburg/stadtmauer-blick.webp",
+            "image": "/media/routes/munique/sub-attractions/stadtmauer-rothenburg/stadtmauer-blick.jpg",
             "caption": "Do adarve: à esquerda, os telhados compactos da cidade intramuros; à direita, o vale aberto da Francônia.",
             "reel": {
               "audioMood": "medieval",
