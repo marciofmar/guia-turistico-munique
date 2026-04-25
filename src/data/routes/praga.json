@@ -53,17 +53,17 @@
       "order": 3,
       "date": "2026-06-10",
       "weekday": "quarta-feira",
-      "title": "Vyšehrad e a Revolução de Veludo",
-      "subtitle": "O Panteão Nacional e a praça onde a Tchecoslováquia foi proclamada, ocupada e libertada",
-      "theme": "Mito fundacional, cemitério de gigantes e o boulevard das revoluções checas",
+      "title": "Vyšehrad, Veludo e Art Nouveau",
+      "subtitle": "O Panteão Nacional, o boulevard das revoluções e a Casa Municipal onde a Tchecoslováquia nasceu",
+      "theme": "Mito fundacional, cemitério de gigantes, o boulevard das revoluções e a Arte Nova do século XX",
       "dayType": "urban",
       "energyLevel": "light",
       "startTime": "09:00",
-      "estimatedEndTime": "18:00",
+      "estimatedEndTime": "19:00",
       "primaryColor": "#C62828",
       "coverEmoji": "🕊️",
-      "intro": "O Dia 3 é mais tranquilo e mais tcheco: o Vyšehrad, o promontório rochoso ao sul com o cemitério onde Dvořák, Smetana e Mucha estão enterrados, é o lugar menos turístico e mais genuíno de Praga. Depois, a Václavské náměstí — que não é uma praça, mas um boulevard de 750 metros onde a Tchecoslováquia foi proclamada em 1918, ocupada por tanques soviéticos em 1968, e libertada pela Revolução de Veludo em 1989. Saia à tarde em direção a Český Krumlov.",
-      "poiIds": ["vysehrad", "vaclavske-namesti"],
+      "intro": "O Dia 3 é mais tranquilo e mais tcheco: o Vyšehrad, o promontório rochoso ao sul com o cemitério onde Dvořák, Smetana e Mucha estão enterrados, é o lugar menos turístico e mais genuíno de Praga. Depois, a Václavské náměstí — que não é uma praça, mas um boulevard de 750 metros onde a Tchecoslováquia foi proclamada em 1918, ocupada por tanques soviéticos em 1968, e libertada pela Revolução de Veludo em 1989. O dia termina no náměstí Republiky com a Casa Municipal Art Nouveau e a Torre de Pólvora Gótica — o início histórico da Rota Real que percorria Praga desde os tempos medievais.",
+      "poiIds": ["vysehrad", "vaclavske-namesti", "casa-municipal-prasna-brana"],
       "logistics": null
     }
   ],
@@ -192,7 +192,7 @@
           }
         ]
       },
-      "walkingNotes": "Da Pražský hrad, desça pela escadaria de Nerudova — a rua barroca de palácios em declive com casas marcadas por tabuletas de pedra em forma de animais (o Leão, a Cigarra, os Três Violinos). São 20 minutos de descida até a Malá Strana. No fundo da descida, vire à esquerda para a Praça de Malostranská e depois siga para a Ponte Carlos.",
+      "walkingNotes": "Opcional: antes de entrar no castelo, combine a visita com o Mosteiro de Strahov — a 10 minutos a pé a oeste das portas do castelo. Chegando ao Strahov às 9h (quando abre), você pode ver as duas bibliotecas barrocas e chegar ao castelo às 10h, quando o fluxo já está normalizado. Da Pražský hrad, desça pela escadaria de Nerudova — a rua barroca de palácios em declive com casas marcadas por tabuletas de pedra em forma de animais (o Leão, a Cigarra, os Três Violinos). São 20 minutos de descida até a Malá Strana. No fundo da descida, vire à esquerda para a Praça de Malostranská e depois siga para a Ponte Carlos.",
       "nextTransport": "walking",
       "nextTransportMinutes": 20,
       "tags": ["castelo", "catedral", "Kafka", "medieval", "Mucha", "imersivo"]
@@ -209,7 +209,7 @@
       "yearBuilt": 1357,
       "architecturalStyle": "Gótico (pilares e arcos da ponte, 1357); Barroco (estátuas 1683–1714; Malá Strana séc. XVII–XVIII)",
       "significance": "A Ponte Carlos — único cruzamento do Vltava por cinco séculos — com suas 30 estátuas barrocas e o relevo de São João Nepomuceno mais tocado de Praga; a Malá Strana barroca construída sobre os bens confiscados dos protestantes böhemios após 1620.",
-      "description": "Em 9 de julho de 1357, às 5h31 da manhã, Carlos IV pôs a primeira pedra da Ponte de Praga. A data e hora foram calculadas por astrólogos do Imperador: 1357-9-7-5-31, uma sequência palindrômica de números ímpares. Carlos IV acreditava que construir neste momento exato garantia estabilidade eterna à obra. A ponte permanece de pé há 669 anos.\n\nCom 516 metros sobre 16 arcos góticos de arenito de Písek, a Ponte Carlos foi por cinco séculos a única travessia sobre o Vltava em Praga. Toda mercadoria, todo exército, todo peregrino, toda procissão real, toda coroação e todo funeral passou por aqui. As trinta estátuas e grupos escultóricos barrocos foram instalados entre 1683 e 1714 — as que você vê hoje são cópias de alta fidelidade; os originais estão no Museu Nacional e no Lapidarium do Vyšehrad.\n\nA estátua de São João Nepomuceno, instalada em 1683, é a mais antiga e a mais famosa da ponte. Jan z Pomuku foi o confessor da Rainha Sofia da Boêmia no século XIV — e se recusou a revelar ao Rei Venceslau IV o conteúdo das confissões dela, mesmo sob tortura. Foi jogado da ponte em 1393 e afogou-se no Vltava. Foi canonizado em 1729. O relevo de bronze na base da estátua — representando o momento em que Jan é jogado da ponte — foi desgastado por séculos de mãos. Tocar o relevo traz sorte, diz a tradição. É a superfície mais tocada de Praga.\n\nA Malá Strana — a Cidade Pequena — se estende abaixo do castelo na margem esquerda. Habitada originalmente por artesãos alemães a partir do século XIII, foi radicalmente transformada após a Batalha da Montanha Branca em 1620. Os nobres böhemios protestantes derrotados tiveram seus bens confiscados e distribuídos entre a nobreza católica importada da Áustria, Itália e Espanha. Os palácios barrocos que dominam a Malá Strana — Wallenstein, Czernin, Lobkowicz — foram construídos como demonstrações de vitória da Contra-Reforma. A Igreja de São Nicolau, com sua cúpula verde que domina o skyline abaixo do castelo, foi construída pelos jesuítas entre 1703 e 1755 como o mais elaborado edifício barroco de Praga — uma declaração arquitetônica de que o catolicismo habsburgo havia vencido definitivamente.",
+      "description": "Em 9 de julho de 1357, às 5h31 da manhã, Carlos IV pôs a primeira pedra da Ponte de Praga. A data e hora foram calculadas por astrólogos do Imperador: 1357-9-7-5-31, uma sequência palindrômica de números ímpares. Carlos IV acreditava que construir neste momento exato garantia estabilidade eterna à obra. A ponte permanece de pé há 669 anos.\n\nCom 516 metros sobre 16 arcos góticos de arenito de Písek, a Ponte Carlos foi por cinco séculos a única travessia sobre o Vltava em Praga. Toda mercadoria, todo exército, todo peregrino, toda procissão real, toda coroação e todo funeral passou por aqui. As trinta estátuas e grupos escultóricos barrocos foram instalados entre 1683 e 1714 — as que você vê hoje são cópias de alta fidelidade; os originais estão no Museu Nacional e no Lapidarium do Vyšehrad.\n\nA estátua de São João Nepomuceno, instalada em 1683, é a mais antiga e a mais famosa da ponte. Jan z Pomuku foi o confessor da Rainha Sofia da Boêmia no século XIV — e se recusou a revelar ao Rei Venceslau IV o conteúdo das confissões dela, mesmo sob tortura. Foi jogado da ponte em 1393 e afogou-se no Vltava. Foi canonizado em 1729. O relevo de bronze na base da estátua — representando o momento em que Jan é jogado da ponte — foi desgastado por séculos de mãos. Tocar o relevo traz sorte, diz a tradição. É a superfície mais tocada de Praga.\n\nA Malá Strana — a Cidade Pequena — se estende abaixo do castelo na margem esquerda. Habitada originalmente por artesãos alemães a partir do século XIII, foi radicalmente transformada após a Batalha da Montanha Branca em 1620. Os nobres böhemios protestantes derrotados tiveram seus bens confiscados e distribuídos entre a nobreza católica importada da Áustria, Itália e Espanha. Os palácios barrocos que dominam a Malá Strana — Wallenstein, Czernin, Lobkowicz — foram construídos como demonstrações de vitória da Contra-Reforma. A Igreja de São Nicolau, com sua cúpula verde que domina o skyline abaixo do castelo, foi construída pelos jesuítas entre 1703 e 1755 como o mais elaborado edifício barroco de Praga — uma declaração arquitetônica de que o catolicismo habsburgo havia vencido definitivamente.\n\nA poucos minutos da Ponte Carlos, numa ruela da Malá Strana chamada Velkopřevorské náměstí, está o Muro de John Lennon. Após a morte de Lennon em 1980, cidadãos anônimos de Praga começaram a cobrir este muro — que pertencia à Ordem de Malta — com letras de músicas dos Beatles e mensagens pacifistas. Para o regime comunista, que censurava toda a influência ocidental, o muro era um ato de desobediência civil tão perigoso quanto uma manifestação política. A polícia secreta (StB) apagava as pinturas regularmente; na manhã seguinte, novas apareciam. O ciclo durou anos — o mesmo padrão dos nomes da Sinagoga Pinkas, apagados e reescritos até 1996. Depois da Revolução de Veludo, o muro foi aberto a quem quisesse pintar. Hoje é uma sobreposição caótica de camadas — mas a primeira camada é do inverno de 1980, quando pintar Lennon numa parede de Praga era um risco.",
       "immersiveMode": false,
       "immersiveText": null,
       "observationPoints": [
@@ -217,7 +217,8 @@
         "A vista da ponte para leste ao crepúsculo: a Cidade Velha com as torres do Týn e do Relógio — é a postal mais fotografada de Praga e ainda assim nunca decepciona",
         "As marcas de nível do Vltava nas pilastras da ponte: as linhas de inundações de 1845, 1890 e 2002",
         "A Igreja de São Nicolau da Malá Strana: a cúpula verde como objeto intencional de dominância visual sobre o bairro abaixo do castelo",
-        "A textura das pedras da ponte ao caminhar: o centro desgastado, as bordas menos — o mesmo padrão de qualquer caminho muito usado por cinco séculos"
+        "A textura das pedras da ponte ao caminhar: o centro desgastado, as bordas menos — o mesmo padrão de qualquer caminho muito usado por cinco séculos",
+        "O Muro de John Lennon na Velkopřevorské náměstí: observe as camadas sobrepostas — cada nova pintura cobre mas não apaga as anteriores; a estrutura do protesto é cumulativa"
       ],
       "suggestedExperience": "Atravesse a Ponte Carlos no sentido Malá Strana → Staré Město ao final da tarde, quando a luz lateral banha as estátuas em dourado. Antes de entrar na ponte, desça pelas escadarias à margem do rio e observe os pilares góticos de baixo — a engenharia da ponte é mais evidente daqui. Na Malá Strana, reserve 30 minutos para entrar na Igreja de São Nicolau: o interior barroco com afrescos do teto é um dos mais exuberantes da Europa Central.",
       "searchSuggestions": [
@@ -279,6 +280,37 @@
                 {
                   "text": "Jan z Pomuku se recusou a revelar ao rei o conteúdo das confissões da rainha. Isso custou-lhe a vida. Em 1729, foi canonizado. A ponte de onde ele caiu tornou-se o santuário.",
                   "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "lennon-wall",
+            "name": "Muro de John Lennon — Protesto em Camadas",
+            "image": "/media/routes/praga/sub-attractions/mala-strana-karluv-most/lennon-wall.jpg",
+            "caption": "Após a morte de Lennon em 1980, o muro na Velkopřevorské náměstí tornou-se o registro de uma desobediência civil que durou até a Revolução de Veludo — e além.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Muro de John Lennon, na Velkopřevorské náměstí, a poucos metros da Ponte Carlos. Após a morte de Lennon em dezembro de 1980, cidadãos anônimos de Praga começaram a pintar aqui.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O muro pertencia à Ordem de Malta — mas os prageneses pintavam nele assim mesmo. A polícia secreta apagava. Na manhã seguinte, novas pinturas apareciam. Por quase uma década, o ciclo não parou.",
+                  "duration": 8,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Para o regime comunista, uma letra de Beatles numa parede era tão perigosa quanto um panfleto político. O muro tornou-se ponto de encontro de jovens que não podiam se reunir abertamente.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Depois da Revolução de Veludo em 1989, o muro foi aberto a todos. Observe as camadas: cada nova pintura cobre as anteriores mas não as apaga completamente. A memória do protesto está embutida na tinta.",
+                  "duration": 7,
                   "focusZone": "full"
                 }
               ]
@@ -401,7 +433,7 @@
       "yearBuilt": 1270,
       "architecturalStyle": "Sinagoga Velha-Nova: Gótico (1270); Sinagoga Pinkas: Renascentista (1535); Cemitério: séc. XIV–1787",
       "significance": "A comunidade judaica mais antiga da Europa Central — documentada desde o século X; o Cemitério Judeu Antigo com doze camadas de sepultamentos; e a Sinagoga Pinkas com os 77.297 nomes dos judeus tchecos assassinados no Holocausto escritos à mão nas paredes.",
-      "description": "A comunidade judaica de Praga é documentada desde o século X — uma das mais antigas da Europa Central. Por séculos, os judeus prageneses viveram confinados ao gueto que hoje chamamos de Josefov, na margem direita do Vltava ao norte do Staré Město. O gueto tinha suas próprias leis, tribunal, escola e mercado. Sobreviveu a múltiplos pogroms — o de 1389 foi o mais brutal, com três mil pessoas mortas em dois dias — porque os reis böhemios e depois os imperadores habsburgos necessitavam dos financistas e comerciantes judeus para suas guerras e projetos.\n\nEm 1781, o Imperador José II promulgou o Edito de Tolerância, abolindo as obrigações mais humilhantes impostas aos judeus: o chapéu amarelo, as restrições de movimento, a proibição de acesso a certas profissões. Em homenagem ao Imperador, o gueto passou a chamar-se Josefov. A emancipação formal viria em 1867. Mas mesmo após ela, muitos judeus prageneses permaneceram no bairro — por escolha e por identidade.\n\nNo fim do século XIX, o Josefov foi em grande parte demolido numa operação de 'saneamento urbano' — as casas medievais foram abaixo, substituídas pelos edifícios art nouveau que hoje abrigam o bairro mais caro de Praga. As sinagogas — construídas em pedra — sobreviveram. O cemitério sobreviveu porque ninguém sabia o que fazer com ele.\n\nO Starý Židovský hřbitov — o Cemitério Judeu Antigo — é um dos lugares mais perturbadores de Praga. Usado entre os séculos XIV e 1787, contém aproximadamente 12.000 lápides visíveis. Mas como o cemitério não podia crescer — confinado pelas muralhas do gueto — os enterros foram sobrepostos em até doze camadas verticais. Abaixo das pedras visíveis jazem entre 80.000 e 100.000 pessoas. O espaço parece transbordar — as pedras inclinadas umas sobre as outras como fruto de uma pressão subterrânea invisível.\n\nA Sinagoga Pinkas — a segunda mais antiga de Praga, fundada em 1535 — tem as paredes cobertas com os nomes de 77.297 judeus tchecos mortos no Holocausto, escritos à mão entre 1954 e 1959: nome, sobrenome, data de nascimento, data de deportação ou data de morte. Terezín e Auschwitz concentram a maioria. O governo comunista fechou a sinagoga em 1968 e apagou os nomes com umidade artificial. Foram reescritos entre 1992 e 1996. Ver aquela massa de nomes — não dados, não estatísticas, mas nomes — é uma das experiências mais difíceis que uma viagem pela Europa pode oferecer.",
+      "description": "A comunidade judaica de Praga é documentada desde o século X — uma das mais antigas da Europa Central. Por séculos, os judeus prageneses viveram confinados ao gueto que hoje chamamos de Josefov, na margem direita do Vltava ao norte do Staré Město. O gueto tinha suas próprias leis, tribunal, escola e mercado. Sobreviveu a múltiplos pogroms — o de 1389 foi o mais brutal, com três mil pessoas mortas em dois dias — porque os reis böhemios e depois os imperadores habsburgos necessitavam dos financistas e comerciantes judeus para suas guerras e projetos.\n\nEm 1781, o Imperador José II promulgou o Edito de Tolerância, abolindo as obrigações mais humilhantes impostas aos judeus: o chapéu amarelo, as restrições de movimento, a proibição de acesso a certas profissões. Em homenagem ao Imperador, o gueto passou a chamar-se Josefov. A emancipação formal viria em 1867. Mas mesmo após ela, muitos judeus prageneses permaneceram no bairro — por escolha e por identidade.\n\nNo fim do século XIX, o Josefov foi em grande parte demolido numa operação de 'saneamento urbano' — as casas medievais foram abaixo, substituídas pelos edifícios art nouveau que hoje abrigam o bairro mais caro de Praga. As sinagogas — construídas em pedra — sobreviveram. O cemitério sobreviveu porque ninguém sabia o que fazer com ele.\n\nO Starý Židovský hřbitov — o Cemitério Judeu Antigo — é um dos lugares mais perturbadores de Praga. Usado entre os séculos XIV e 1787, contém aproximadamente 12.000 lápides visíveis. Mas como o cemitério não podia crescer — confinado pelas muralhas do gueto — os enterros foram sobrepostos em até doze camadas verticais. Abaixo das pedras visíveis jazem entre 80.000 e 100.000 pessoas. O espaço parece transbordar — as pedras inclinadas umas sobre as outras como fruto de uma pressão subterrânea invisível.\n\nA Sinagoga Pinkas — a segunda mais antiga de Praga, fundada em 1535 — tem as paredes cobertas com os nomes de 77.297 judeus tchecos mortos no Holocausto, escritos à mão entre 1954 e 1959: nome, sobrenome, data de nascimento, data de deportação ou data de morte. Terezín e Auschwitz concentram a maioria. O governo comunista fechou a sinagoga em 1968 e apagou os nomes com umidade artificial. Foram reescritos entre 1992 e 1996. Ver aquela massa de nomes — não dados, não estatísticas, mas nomes — é uma das experiências mais difíceis que uma viagem pela Europa pode oferecer.\n\nA Sinagoga Espanhola — a Španělská synagoga — é o mais belo dos edifícios do Josefov, e o menos pesado de se visitar. Construída em 1868 no estilo Mourisco Revival — o mesmo que produziu a Alhambra de Granada — foi encomendada pela comunidade reformista de Praga, que se distinguia da congregação ortodoxa da Sinagoga Velha-Nova: serviços em alemão e tcheco além do hebraico, órgão instalado na nave, papel das mulheres expandido. O interior é um palimpsesto de arabescos dourados, azulejos azuis e cúpula ornamentada — tecnicamente mais Alhambra do que Boêmia, mas a intenção era exatamente essa: uma sinagoga que afirmasse que os judeus reformistas de Praga eram tão europeus quanto qualquer burguês do século XIX. A congregação que a construiu foi deportada para Terezín e Auschwitz em 1942. O mesmo fim da congregação da Sinagoga Pinkas. A mesma Praga, o mesmo século, o mesmo destino.",
       "immersiveMode": true,
       "immersiveText": "Você está num espaço de trezentos metros quadrados onde jazem entre 80.000 e 100.000 pessoas em doze camadas verticais.\n\nO Starý Židovský hřbitov foi o único lugar em que a comunidade judaica de Praga tinha permissão para enterrar seus mortos durante quatro séculos. O gueto não podia crescer para fora das muralhas que o cercavam — então quando o espaço acabou, enterraram sobre os que já estavam enterrados. Doze camadas. Os geólogos que estudaram o terreno encontraram ossos de antes de 1400 a até seis metros de profundidade. As pedras que você vê inclinadas umas sobre as outras não são efeito do tempo — são o resultado de solos que se moveram sob o peso.\n\nRabbi Löw — Yehuda Loew ben Bezalel, o Maharal de Praga — está enterrado aqui, no lado leste do cemitério. Morreu em 1609. Em torno da lenda do Maharal cresceu a história do Golem — a criatura de argila do Rio Vltava que ele animou escrevendo a palavra emet (verdade) na testa da figura, e destruiu apagando a primeira letra, deixando apenas met (morte). A lenda do Golem não é uma história de terror; é uma parábola sobre a responsabilidade de quem cria — e sobre o que acontece quando a criatura criada para proteger se torna incontrolável. Franz Kafka cresceu neste bairro com essa história. Ela entrou de alguma forma em cada coisa que ele escreveu.\n\nOs 77.297 nomes na Sinagoga Pinkas foram escritos à mão por uma equipe de calígrafos entre 1954 e 1959. O projeto foi concebido pelo artista Vojtěch Blau, ele mesmo sobrevivente. A ideia era simples: não 77.297 mortos — mas 77.297 pessoas com nome, sobrenome e data de nascimento. Não estatística: indivíduo.\n\nO governo comunista fechou a sinagoga em 1968, logo após o sufocamento da Primavera de Praga, oficialmente por 'restauração'. Especialistas posteriores descobriram que as paredes haviam sido intencionalmente submetidas a umidade para apagar os nomes. O processo durou vinte anos. Entre 1992 e 1996, equipes de voluntários reescreveram todos os 77.297 nomes, consultando os registros que haviam sobrevivido nos arquivos.\n\nExiste no andar superior da Sinagoga Pinkas uma exposição permanente dos desenhos de crianças do campo de concentração de Terezín — o gueto 'modelo' que os nazistas mostravam à Cruz Vermelha como prova de que os judeus eram 'bem tratados'. Das 15.000 crianças que passaram por Terezín, menos de 100 sobreviveram. Os desenhos mostram árvores, famílias, casas, borboletas — o que crianças desenham. E também cercas aramadas, guaritas, filas de pessoas com estrelas amarelas. Crianças desenham o que veem.\n\nA Sinagoga Velha-Nova — Staronová synagoga — é a mais antiga sinagoga em funcionamento contínuo da Europa, construída em 1270. Permanece em uso desde então, exceto durante a ocupação nazista. No sótão, diz a lenda, está o Golem original de argila do Maharal — guardado para quando for necessário novamente. O sótão está fechado ao público.",
       "observationPoints": [
@@ -409,7 +441,8 @@
         "O túmulo do Maharal Rabbi Löw: identificável pelo acúmulo de pedrinhas deixadas pelos visitantes — tradição judaica de marcar a visita",
         "Na Sinagoga Pinkas: tente encontrar nomes repetidos na mesma família — pai, mãe, filhos com datas próximas",
         "A Sinagoga Velha-Nova: o interior com as duas naves em bóveda de cinco nervuras — a mais antiga arquitetura judaica da Europa Central em uso contínuo",
-        "O contraste entre o Josefov e o bairro ao redor: art nouveau sobre o traçado de um gueto medieval apagado"
+        "O contraste entre o Josefov e o bairro ao redor: art nouveau sobre o traçado de um gueto medieval apagado",
+        "A Sinagoga Espanhola: o contraste entre o interior Mourisco — arabescos dourados, cúpula ornamentada — e a memória de uma congregação reformista que construiu o edifício mais bonito do Josefov e foi inteiramente deportada em 1942"
       ],
       "suggestedExperience": "Compre o ingresso combinado que inclui todas as sinagogas e o cemitério (jewishmuseum.cz). Comece pela Sinagoga Pinkas — vá quando ainda há energia para ficar parado diante dos nomes. O cemitério é logo ao lado. Reserve a Sinagoga Velha-Nova para o final, quando o cansaço emocional já permitir uma visita mais calma. Total: 2h a 2h30.",
       "searchSuggestions": [
@@ -506,6 +539,37 @@
                 {
                   "text": "No lado leste: o túmulo do Maharal Rabbi Löw, morto em 1609. A lenda diz que o Golem de argila que ele criou para proteger o gueto ainda está no sótão da Sinagoga Velha-Nova. O sótão está fechado.",
                   "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sinagoga-espanhola",
+            "name": "Španělská synagoga — A Sinagoga Mourisco-Revival",
+            "image": "/media/routes/praga/sub-attractions/josefov/sinagoga-espanhola.jpg",
+            "caption": "O interior Mourisco-Revival de 1868 — arabescos dourados, cúpula ornamentada — encomendado por uma congregação reformista deportada em 1942.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Španělská synagoga — a Sinagoga Espanhola de Praga. Construída em 1868 no estilo Mourisco Revival, inspirada na Alhambra de Granada.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O interior: arabescos dourados, azulejos em azul e ocre, cúpula ornamentada. A intenção era afirmar que os judeus reformistas de Praga eram tão europeus quanto qualquer burguês do século XIX — uma sinagoga que se via como moderna e integrada.",
+                  "duration": 9,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Foi encomendada pela congregação reformista: serviços em alemão e tcheco além do hebraico, órgão instalado na nave, papel das mulheres expandido. Uma comunidade que acreditava na integração como proteção.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "A congregação que construiu este edifício foi deportada para Terezín e Auschwitz em 1942. O mesmo fim que a congregação da Sinagoga Pinkas. O mais belo edifício do Josefov — e o mesmo destino.",
+                  "duration": 8,
                   "focusZone": "full"
                 }
               ]
@@ -701,10 +765,139 @@
           }
         ]
       },
-      "walkingNotes": "Fim de Praga — do centro da Václavské náměstí, o Terminal Florenc fica a 20 minutos de metrô (linha B até Florenc). Ônibus Student Agency para Český Krumlov saem às ~8h, ~10h e ~12h — duração ~3h. Reserve em studentagency.eu. A chegada em Český Krumlov ao início da tarde permite ver o castelo ainda com luz do dia.",
-      "nextTransport": "train",
-      "nextTransportMinutes": 180,
+      "walkingNotes": "Da Václavské náměstí, siga pela Na Příkopě — o boulevard pedonal que conecta a praça ao náměstí Republiky, passando pelas fachadas art nouveau dos bancos e hotéis do início do século XX. São 700 metros e 10 minutos de caminhada até a Casa Municipal e a Torre de Pólvora.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 10,
       "tags": ["história", "Revolução", "boulevard", "gratuito", "moderno"]
+    },
+    {
+      "id": "casa-municipal-prasna-brana",
+      "dayId": "dia-3",
+      "order": 3,
+      "name": "Casa Municipal e Torre de Pólvora",
+      "lat": 50.0875,
+      "lng": 14.4328,
+      "address": "náměstí Republiky 5, 110 00 Praha 1",
+      "historicalPeriod": "modern",
+      "yearBuilt": 1475,
+      "architecturalStyle": "Gótico tardio (Prašná brána, 1475); Art Nouveau (Obecní dům, 1905–1912)",
+      "significance": "A Prašná brána é o ponto de início da Rota Real — o percurso das coroações böhemias até o Castelo. O Obecní dům é o edifício Art Nouveau mais importante de Praga: foi aqui, na Sala Smetana, que a independência da Tchecoslováquia foi proclamada em 28 de outubro de 1918; o Salão do Prefeito tem pinturas de Alfons Mucha.",
+      "description": "A Casa Municipal — Obecní dům — é o edifício Art Nouveau mais importante de Praga e um dos mais belos da Europa Central. Construída entre 1905 e 1912 no local do antigo Palácio Real do século XIV (demolido em 1902), é obra de Antonín Balšánek e Osvald Polívka, com a decoração interior dividida entre os melhores artistas tchecos da época. Cada salão tem um artista diferente: Alfons Mucha pintou o Salão do Prefeito — a sala mais íntima e mais extraordinária do edifício — com alegorias da Boêmia, figuras eslavas e um autorretrato discreto numa das paredes. Max Švabinský, Karel Spillar e František Ženíšek decoraram as outras salas com cenas da história e mitologia checa.\n\nA Sala Smetana — o grande salão de concertos com capacidade para 1.200 pessoas — tem um significado político além do musical: foi aqui, em 28 de outubro de 1918, que o Conselho Nacional Tcheco proclamou a independência da Tchecoslováquia, pondo fim a quatro séculos de dominação habsburga. A sala que você entra para ouvir Dvořák e Smetana é o mesmo espaço onde o Estado tcheco nasceu.\n\nColada à Casa Municipal, a Prašná brána — a Torre de Pólvora — é uma torre gótica de 65 metros construída em 1475 como uma das portas de acesso à Cidade Velha. O nome vem do século XVII, quando foi usada como depósito de pólvora. A subida à torre (186 degraus) oferece uma das melhores vistas de Praga — e uma perspectiva direta sobre a Casa Municipal ao lado e sobre a Na Příkopě, o boulevard que desce em direção à Václavské náměstí.\n\nA Prašná brána é o ponto de início da Rota Real — o percurso que as procissões de coroação dos reis böhemios seguiam desde o Staré Město até o Castelo de Praga. A Rota Real desce pela Celetná, atravessa a Staroměstské náměstí, segue pela Karlova até a Ponte Carlos, sobe pela Mostecká e Nerudova até as portas do castelo. É o eixo histórico de Praga que você percorreu em dois dias — e começa aqui, neste cruzamento de gótico e art nouveau.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Salão do Prefeito no Obecní dům: as pinturas de Mucha no teto e nas paredes — procure o autorretrato discreto que ele inseriu entre as figuras alegóricas",
+        "A fachada do Obecní dům: o mosaico central e os grupos escultóricos sobre as janelas — identificável pela cúpula de cobre verde",
+        "A Prašná brána de baixo: observe a diferença entre a pedra medieval da torre e o art nouveau do edifício ao lado — dois séculos de Praga num único enquadramento",
+        "Da subida à torre: a Celetná abaixo — o início da Rota Real que percorre toda a Cidade Velha até a Ponte Carlos",
+        "O saguão do Obecní dům: os mosaicos do piso e os detalhes de ferro forjado nas escadarias — nenhum centímetro sem ornamento"
+      ],
+      "suggestedExperience": "Compre ingresso para a visita guiada do Obecní dům (imprescindível para o Salão do Prefeito de Mucha — não é acessível de outra forma). Horários: a cada hora cheia, 10h–18h. Suba à Prašná brána para ver o pôr do sol sobre a Cidade Velha. À noite, verifique a programação da Sala Smetana — é uma das melhores salas de concerto de câmara da Europa e frequentemente tem concertos acessíveis.",
+      "searchSuggestions": [
+        "Obecní dům Praga Art Nouveau Mucha Salão Prefeito",
+        "Prašná brána Torre de Pólvora Praga 1475",
+        "independência Tchecoslováquia 1918 Sala Smetana",
+        "Rota Real Praga coroações böhemias Celetná",
+        "Mucha Praga obras murais pinturas"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "Obecní dům visita guiada: 290 CZK (~12€). Prašná brána: 130 CZK (~5€)",
+        "notes": "Visita guiada em obecnidum.cz. A entrada do Obecní dům para cafés e lojas é gratuita"
+      },
+      "schedule": {
+        "mon": { "open": "10:00", "close": "18:00" },
+        "tue": { "open": "10:00", "close": "18:00" },
+        "wed": { "open": "10:00", "close": "18:00" },
+        "thu": { "open": "10:00", "close": "18:00" },
+        "fri": { "open": "10:00", "close": "18:00" },
+        "sat": { "open": "10:00", "close": "18:00" },
+        "sun": { "open": "10:00", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/praga/audio/casa-municipal-prasna-brana.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/casa-municipal-prasna-brana/main.jpg",
+            "caption": "O Obecní dům e a Prašná brána — art nouveau e gótico lado a lado no náměstí Republiky",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/casa-municipal-prasna-brana/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "obecni-dum-mucha",
+            "name": "Salão do Prefeito — As Pinturas de Mucha",
+            "image": "/media/routes/praga/sub-attractions/casa-municipal-prasna-brana/obecni-dum-mucha.jpg",
+            "caption": "O Salão do Prefeito (Primátorský sál) — a sala mais íntima do Obecní dům, com teto e paredes pintados por Alfons Mucha em 1911.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Salão do Prefeito do Obecní dům. Alfons Mucha pintou este espaço em 1911 — o único salão inteiro que ele decorou numa obra de arquitetura pública em Praga.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No teto: a alegoria da Boêmia como mulher-pátria, cercada de figuras eslavas. No estilo de Mucha — a linha sinuosa, as flores integradas na composição, a paleta de ocre e terracota. Mas aqui sem o fundo branco das litografias: é óleo sobre estuque.",
+                  "duration": 9,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "Nas paredes laterais: cenas da história böhemia — batalhas, juramentos, figuras de santos. Mucha inseriu um autorretrato discreto entre as figuras — procure o rosto que olha ligeiramente para fora da cena.",
+                  "duration": 8,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Em 28 de outubro de 1918, na Sala Smetana deste mesmo edifício, a independência da Tchecoslováquia foi proclamada. Mucha, que dedicou décadas pintando a identidade eslava, viveu para ver o país que pintou tornar-se real.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "prasna-brana-vista",
+            "name": "Prašná brána — A Torre e a Rota Real",
+            "image": "/media/routes/praga/sub-attractions/casa-municipal-prasna-brana/prasna-brana-vista.jpg",
+            "caption": "A Torre de Pólvora Gótica de 1475 — o ponto de início da Rota Real das coroações böhemias até o Castelo de Praga.",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Prašná brána — a Torre de Pólvora. Construída em 1475 como uma das portas de entrada para a Cidade Velha. 65 metros de gótico tardio böhemio.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Daqui começa a Rota Real — o percurso das procissões de coroação dos reis böhemios. A rota desce pela Celetná, atravessa a Staroměstské náměstí, segue pela Karlova até a Ponte Carlos e sobe até o Castelo. Você percorreu este caminho nos últimos dois dias.",
+                  "duration": 9,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Da torre, a Celetná abaixo: a rua que conecta esta porta à Praça da Cidade Velha. No século XVII, quando a torre perdeu função militar, passou a guardar pólvora — daí o nome que a tornou famosa.",
+                  "duration": 7,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "Ao lado da torre: o Obecní dům Art Nouveau de 1912. Dois edifícios separados por 430 anos de história arquitetônica — e unidos pelo mesmo metro quadrado de calçada no náměstí Republiky.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 3 em Praga. Para a noite: siga pelo Nábřeží (margem do Vltava) até o Teatro Nacional — fachada neoclássica de 1881, financiada por subscripção popular checa com o slogan 'o povo a si mesmo'. O Edifício Dançante (Frank Gehry, 1996) fica a 10 minutos a pé ao longo do rio. O Rudolfinum — onde a Filarmônica Tcheca tem sede — fica na margem oposta; verifique programação para concertos noturnos.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": ["art nouveau", "Mucha", "gótico", "independência", "Rota Real"]
     }
   ],
   "segments": [
@@ -744,6 +937,19 @@
         [50.0816, 14.4278]
       ],
       "streetNotes": "Metrô linha C (vermelha): estação Vyšehrad → estação Muzeum. Do Museu Nacional, você já está no topo da Václavské náměstí."
+    },
+    {
+      "from": "vaclavske-namesti",
+      "to": "casa-municipal-prasna-brana",
+      "distance": 0.7,
+      "duration": 10,
+      "transport": "walking",
+      "waypoints": [
+        [50.0816, 14.4278],
+        [50.0850, 14.4310],
+        [50.0875, 14.4328]
+      ],
+      "streetNotes": "Siga pela Na Příkopě — o boulevard pedonal que parte da base da Václavské náměstí para o nordeste. São 700 metros de fachadas art nouveau e bancos históricos até o náměstí Republiky, onde a Torre de Pólvora e o Obecní dům ficam um ao lado do outro."
     }
   ]
 }

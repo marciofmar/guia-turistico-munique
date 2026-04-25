@@ -98,7 +98,8 @@
       "Bash(where ffprobe *)",
       "Bash(python -u scripts/generate_audio.py)",
       "Bash(git restore *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(python scripts/regen_praga_audio.py)"
     ]
   }
 }
