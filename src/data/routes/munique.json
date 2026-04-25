@@ -1,8 +1,8 @@
 {
   "id": "munique-2026",
-  "title": "Munique e Arredores",
-  "subtitle": "Baviera, Alpes e Salzburgo em 6 dias",
-  "description": "Guia narrativo de imersão cultural para 6 dias em Munique, Baviera, Alpes e Salzburgo. Cada parada foi concebida com peso narrativo próprio — não uma lista a cumprir, mas uma sequência de experiências a habitar.",
+  "title": "Munique e Leste Europeu",
+  "subtitle": "Baviera, Alpes, Salzburgo e Leste Europeu em 22 dias",
+  "description": "Guia narrativo de imersão cultural para 22 dias em Munique, Baviera, Alpes, Salzburgo e Leste Europeu. Cada parada foi concebida com peso narrativo próprio — não uma lista a cumprir, mas uma sequência de experiências a habitar.",
   "version": "1.0.0",
   "locale": "pt-BR",
   "estimatedDuration": 5400,
@@ -919,12 +919,12 @@
                   "focusZone": "full"
                 },
                 {
-                  "text": "À esquerda (leste): as duas torres bulbosas da Frauenkirche dominam o skyline. Nenhum prédio pode ultrapassá-las — por lei.",
+                  "text": "À esquerda (noroeste): as duas torres bulbosas da Frauenkirche dominam o skyline. Nenhum prédio pode ultrapassá-las — por lei.",
                   "duration": 7,
                   "focusZone": "full"
                 },
                 {
-                  "text": "À direita (oeste): o Neues Rathaus e a torre do Glockenspiel, daqui visto de cima.",
+                  "text": "À direita (norte): o Neues Rathaus e a torre do Glockenspiel, daqui visto de cima.",
                   "duration": 5,
                   "focusZone": "full"
                 },
@@ -1168,7 +1168,7 @@
           {
             "id": "viscardigasse",
             "name": "Viscardigasse — A Rua dos Covardões",
-            "image": "/media/routes/munique/sub-attractions/odeonsplatz/viscardigasse.jpg",
+            "image": "/media/routes/munique/sub-attractions/odeonsplatz/Viscardigasse.JPG",
             "caption": "A viela que os muniquenses usavam para evitar a saudação nazista diante da Feldherrnhalle — resistência cotidiana em forma de desvio.",
             "reel": {
               "audioMood": "dramatic",
@@ -2011,7 +2011,7 @@
           {
             "id": "gipfelkreuz",
             "name": "Cruz do Cume — 2.962 m",
-            "image": "/media/routes/munique/sub-attractions/zugspitze/gipfelkreuz.jpg",
+            "image": "/media/routes/munique/sub-attractions/zugspitze/gletscher.jpg",
             "caption": "A cruz dourada no cume, na fronteira literal entre Alemanha e Áustria.",
             "reel": {
               "audioMood": "alpine",
@@ -2052,7 +2052,7 @@
           {
             "id": "gletscher",
             "name": "Glaciar em Extinção",
-            "image": "/media/routes/munique/sub-attractions/zugspitze/gletscher.jpg",
+            "image": "/media/routes/munique/sub-attractions/zugspitze/gipfelkreuz.jpg",
             "caption": "O Zugspitzplatt — planalto glaciar com 80% do volume perdido desde 1820.",
             "reel": {
               "audioMood": "contemplative",

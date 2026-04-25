@@ -24,7 +24,7 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'Guia Munique & Arredores',
+        name: 'Guia Munique & Leste Europeu',
         short_name: 'Guia Munique',
         description: 'Guia turístico interativo — Munique, Baviera, Alpes e Salzburgo em 6 dias',
         lang: 'pt-BR',

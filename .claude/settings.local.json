@@ -83,7 +83,22 @@
       "Bash([ ! -f \"$BASE/$dir/thumb.jpg\" ])",
       "Bash([ -f \"$BASE/$dir/thumbs.jpeg\" ])",
       "Bash([ -f \"$BASE/$dir/main.jpeg\" ])",
-      "Bash([ ! -f \"$BASE/$dir/main.jpg\" ])"
+      "Bash([ ! -f \"$BASE/$dir/main.jpg\" ])",
+      "Bash(python3)",
+      "Bash(python3 -c \"import os; print\\(os.getcwd\\(\\)\\); print\\(os.listdir\\('.'\\)\\)\")",
+      "Bash(python scripts/generate_audio.py)",
+      "Bash(sort -k2)",
+      "Bash(awk '{printf \"%.0f KB\\\\t%s\\\\n\", $1/1024, $2}')",
+      "Bash(python -c \"import inspect, edge_tts; src = inspect.getsource\\(edge_tts.Communicate\\); print\\(src[:4000]\\)\")",
+      "Bash(python -c \"import inspect, edge_tts; from edge_tts.communicate import split_text_by_byte_length, mkssml; print\\(inspect.getsource\\(mkssml\\)\\)\")",
+      "Bash(python -c \"import edge_tts.communicate as ec; print\\([x for x in dir\\(ec\\) if 'esc' in x.lower\\(\\)]\\); import inspect; print\\(inspect.getsource\\(ec.escape\\)\\)\")",
+      "Bash(ffmpeg -version)",
+      "Bash(python -c \"import pydub; print\\('pydub OK'\\)\")",
+      "Bash(where ffmpeg *)",
+      "Bash(where ffprobe *)",
+      "Bash(python -u scripts/generate_audio.py)",
+      "Bash(git restore *)",
+      "Bash(git rm *)"
     ]
   }
 }

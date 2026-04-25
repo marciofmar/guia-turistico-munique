@@ -1,0 +1,553 @@
+{
+  "id": "nuremberg-2026",
+  "title": "Nuremberg",
+  "subtitle": "A cidade do Imperador, do Renascimento e do Tribunal",
+  "tripDates": { "start": "2026-06-06", "end": "2026-06-07" },
+  "baseCity": "Nuremberg",
+  "baseCityCoords": { "lat": 49.4521, "lng": 11.0767 },
+  "historicalPeriods": [
+    { "id": "medieval",    "name": "Cidade Imperial Livre",   "color": "#8B6914", "era": "séc. XIII–XV" },
+    { "id": "renaissance", "name": "Renascimento Alemão",     "color": "#2E7D32", "era": "séc. XV–XVI"  },
+    { "id": "nazi",        "name": "Nazismo e Julgamentos",   "color": "#5D4037", "era": "1933–1946"    },
+    { "id": "modern",      "name": "Nuremberg Contemporânea", "color": "#1565C0", "era": "séc. XX–XXI"  }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-06-06",
+      "weekday": "sábado",
+      "title": "Chegada — A Cidade do Imperador",
+      "subtitle": "Hauptmarkt, Kaiserburg e o crepúsculo sobre a cidade medieval",
+      "theme": "Cidade Imperial Livre do Sacro Império Romano-Germânico",
+      "dayType": "urban",
+      "energyLevel": "light",
+      "startTime": "15:00",
+      "estimatedEndTime": "21:00",
+      "primaryColor": "#8B6914",
+      "coverEmoji": "🏰",
+      "intro": "Nuremberg foi, durante séculos, a cidade não oficial do Sacro Império Romano-Germânico — o lugar onde os imperadores preservavam as joias da coroa, realizavam suas primeiras dietas imperiais e convocavam os príncipes. A chegada no final da tarde permite dois movimentos essenciais: a Hauptmarkt, coração da cidade medieval com o Schöner Brunnen e a Frauenkirche, e a Kaiserburg no alto da colina de arenito vermelho — de onde, na luz do fim do dia, Nuremberg se abre como um mapa arquitetônico de setecentos anos de história imperial.",
+      "poiIds": ["hauptmarkt-nuremberg", "kaiserburg"],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-07",
+      "weekday": "domingo",
+      "title": "Renascimento e Nazismo — Dois Nurembergs",
+      "subtitle": "O maior museu de cultura alemã e os campos de rally que mudaram o mundo",
+      "theme": "A cidade de Dürer e de Hitler: dois mundos no mesmo lugar",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "09:00",
+      "estimatedEndTime": "18:00",
+      "primaryColor": "#5D4037",
+      "coverEmoji": "⚖️",
+      "intro": "Nuremberg carrega em dois quilômetros de distância uma das contradições mais dramáticas da história europeia: foi a cidade de Albrecht Dürer, Hans Sachs e dos ourives que definiram o Renascimento alemão — e foi também a cidade escolhida por Hitler como palco das maiores demonstrações de poder do nazismo. O Germanisches Nationalmuseum guarda setecentos anos de cultura germânica; o Dokumentationszentrum explica como um dos povos mais cultos da Europa construiu uma máquina de extermínio industrial. Ambos são visitas indispensáveis — e psicologicamente exigentes em sequência. Reserve energia.",
+      "poiIds": ["germanisches-nationalmuseum", "dokumentationszentrum"],
+      "logistics": null
+    }
+  ],
+  "pois": [
+    {
+      "id": "hauptmarkt-nuremberg",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Hauptmarkt e Schöner Brunnen",
+      "lat": 49.4553,
+      "lng": 11.0778,
+      "address": "Hauptmarkt, 90403 Nürnberg",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1349,
+      "architecturalStyle": "Gótico (Frauenkirche 1352–1361; Schöner Brunnen c.1396)",
+      "significance": "Praça central da Cidade Imperial Livre de Nuremberg criada por Carlos IV em 1349 sobre o antigo bairro judaico — sede do Schöner Brunnen gótico de quarenta figuras, da Frauenkirche imperial e do mais famoso mercado de Natal do mundo.",
+      "description": "Carlos IV de Luxemburgo — o imperador que mandou construir a Catedral de São Vito em Praga, a Ponte Carlos e a primeira universidade do Sacro Império — tinha por Nuremberg uma obsessão particular. Em 1349, ele criou a Hauptmarkt demolindo o antigo bairro judaico da cidade. O processo incluiu um pogrom em que morreram aproximadamente quinhentas pessoas. Sobre o terreno onde existiam casas, sinagogas e o comércio de uma das comunidades mais antigas da Baviera, Carlos IV mandou assentar a maior praça do Império.\n\nA Frauenkirche — Igreja de Nossa Senhora — foi construída entre 1352 e 1361 diretamente sobre os alicerces da antiga sinagoga principal, como capela privada imperial. É uma das primeiras igrejas góticas alemãs com fachada tripartite à maneira francesa. No portal, sobre uma galeria, funciona desde 1509 o Männleinlaufen — um relógio que todos os dias ao meio-dia exibe as figuras dos sete príncipes eleitores do Sacro Império desfilando diante de um Carlos IV em miniatura dourada. O mecanismo funciona há mais de quinhentos anos.\n\nO Schöner Brunnen — a Fonte Bela — ocupa o canto noroeste da praça desde 1396. Com seus dezenove metros de altura, é uma das mais elaboradas fontes góticas da Europa. Suas quarenta figuras em três registros narram uma cosmologia imperial: filósofos e evangelistas na base, profetas e heróis do Antigo Testamento no nível intermediário, os eleitores imperiais e figuras heróicas no topo. A grade de ferro forjado que circunda a fonte contém um anel dourado que gira suavemente sem qualquer encaixe aparente — um artifício de ferreiro medieval de tal precisão que os visitantes o tocam há setecentos anos. A lenda diz que girar o anel traz sorte. É uma das superfícies mais tocadas da Europa.\n\nA Hauptmarkt não é museu: é uma praça de mercado ativa. De segunda a sábado, barracas de frutas, verduras e pão da Francônia cobrem o centro. No Advento, o Christkindlesmarkt transforma a praça no mercado de Natal mais visitado do mundo — 2 milhões de pessoas em quatro semanas, entre Lebkuchen, Glühwein e ornamentos de palha dourada.\n\nO que a praça não mostra é o que ela é: o plano de ruas do antigo bairro judaico foi apagado em 1349 e substituído por esse espaço aberto. Caminhar pela Hauptmarkt é caminhar sobre a planta baixa de uma comunidade destruída — uma operação de limpeza urbana medieval que prefigurou, com setecentos anos de antecedência, o que o nazismo faria no mesmo lugar. Existe uma placa discreta perto da Frauenkirche. Nada mais.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Männleinlaufen da Frauenkirche ao meio-dia — chegar às 11h45 para ver de frente",
+        "O anel dourado na grade do Schöner Brunnen: como um ferreiro do século XIV fez uma peça que gira sem encaixe",
+        "As quarenta figuras da fonte: identifique os três registros e leia a hierarquia visual de baixo para cima",
+        "As pedras de paralelepípedo da praça: desgaste diferencial entre os caminhos principais e as bordas — setecentos anos de fluxo de pessoas",
+        "A proporção da praça: por que parece maior do que é — as fachadas ao redor são propositalmente baixas e recuadas"
+      ],
+      "suggestedExperience": "Chegue pelo arco sul da Praça para a perspectiva clássica da Frauenkirche + Schöner Brunnen simultaneamente. Se for ao meio-dia, posicione-se diante da Frauenkirche com dez minutos de antecedência para o Männleinlaufen. Depois vá até a fonte, toque o anel dourado e circule pelo mercado de frutas se estiver aberto. Reserve a Frauenkirche para o interior: o retábulo de 1440 e as pinturas góticas valem os dez minutos.",
+      "searchSuggestions": [
+        "Hauptmarkt Nuremberg história 1349 pogrom judeus",
+        "Schöner Brunnen quarenta figuras significado",
+        "Männleinlaufen Frauenkirche relógio Carlos IV",
+        "Christkindlesmarkt Nuremberg origem",
+        "Nuremberg Cidade Imperial Livre Sacro Império"
+      ],
+      "visitType": "outdoor",
+      "entryFee": { "free": true, "price": null, "notes": "Praça: gratuita. Frauenkirche: entrada livre (doação sugerida)" },
+      "schedule": {
+        "mon": { "open": "00:00", "close": "23:59" },
+        "tue": { "open": "00:00", "close": "23:59" },
+        "wed": { "open": "00:00", "close": "23:59" },
+        "thu": { "open": "00:00", "close": "23:59" },
+        "fri": { "open": "00:00", "close": "23:59" },
+        "sat": { "open": "00:00", "close": "23:59" },
+        "sun": { "open": "00:00", "close": "23:59" }
+      },
+      "estimatedVisitMinutes": 60,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/nuremberg/audio/hauptmarkt-nuremberg.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/nuremberg/photos/hauptmarkt-nuremberg/main.jpg",
+            "caption": "O Hauptmarkt com o Schöner Brunnen gótico e a Frauenkirche ao fundo — coração da Nuremberg medieval",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/nuremberg/photos/hauptmarkt-nuremberg/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "schoner-brunnen",
+            "name": "Schöner Brunnen — A Fonte Bela",
+            "image": "/media/routes/nuremberg/sub-attractions/hauptmarkt-nuremberg/schoner-brunnen.jpg",
+            "caption": "Dezenove metros de pedra gótica com quarenta figuras e o famoso anel dourado que gira sem encaixe.",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Fonte Bela — Schöner Brunnen — no canto noroeste do Hauptmarkt. Dezenove metros de arenito e calcário góticos, construídos em torno de 1396.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe os três registros de figuras: base, meio, topo. Quarenta figuras no total. Filósofos, profetas, heróis, eleitores imperiais — a hierarquia do universo medieval em pedra.",
+                  "duration": 8,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "Na grade de ferro forjado ao redor da base: procure o anel dourado. Gira suavemente em torno de seu eixo sem qualquer encaixe visível — feito assim por um ferreiro anônimo do século XIV.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Setecentos anos de mãos passando pelo mesmo ponto. O anel dá sorte, diz a tradição. É um dos objetos mais tocados da Europa — sem vitrine, sem curador, sem museu por cima.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mannleinlaufen",
+            "name": "Männleinlaufen — O Relógio Imperial",
+            "image": "/media/routes/nuremberg/sub-attractions/hauptmarkt-nuremberg/mannleinlaufen.jpg",
+            "caption": "Ao meio-dia, os sete príncipes eleitores desfilam diante de Carlos IV em miniatura — em funcionamento desde 1509.",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "O Männleinlaufen no portal da Frauenkirche. Ao meio-dia em ponto, as figuras mecânicas douradas começam a mover-se.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro: Carlos IV em trono dourado. Ao redor: os sete Príncipes Eleitores do Sacro Império desfilam em procissão — três voltas completas ao redor do Imperador.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Cada eleitor representa um território: Mogúncia, Tréveris, Colônia, Boêmia, Palatinado, Saxônia, Brandemburgo. O Imperador só era eleito com a aprovação de todos os sete.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O mecanismo funciona desde 1509 — mais de quinhentos anos ininterruptos. Um engenheiro medieval programou este ciclo para ser repetido até hoje, todos os dias ao meio-dia.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Do Hauptmarkt, suba pela Burgstraße em direção norte. A rua sobe gradualmente em direção à Kaiserburg — você vai sentindo a altitude ganhar conforme as casas dos artesãos medievais dão lugar às muralhas do castelo. Aproximadamente 10 minutos a pé.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 10,
+      "tags": ["praça", "histórico", "medieval", "fonte", "gratuito", "relógio"]
+    },
+    {
+      "id": "kaiserburg",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Kaiserburg — O Castelo Imperial",
+      "lat": 49.4604,
+      "lng": 11.0752,
+      "address": "Auf der Burg 13, 90403 Nürnberg",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1140,
+      "architecturalStyle": "Românico e Gótico tardio (séc. XII–XV); Torre Sinwell séc. XIII",
+      "significance": "A mais importante residência imperial do Sacro Império Romano-Germânico — onde as joias da coroa foram guardadas por 372 anos, os imperadores realizavam suas primeiras dietas e a Torre Sinwell oferece o mais célebre panorama da cidade.",
+      "description": "A Kaiserburg de Nuremberg ocupa o ponto mais alto da cidade velha — um afloramento de arenito vermelho a 35 metros acima do Hauptmarkt. Por mais de quatrocentos anos, foi a residência imperial mais importante do Sacro Império. A lei costumeira estabelecia que os novos imperadores deveriam celebrar suas primeiras dietas — as assembleias dos príncipes — em Nuremberg. O resultado é que praticamente todos os imperadores medievais passaram por estas muralhas.\n\nO castelo que você vê hoje é na realidade três estruturas sobrepostas que revelam séculos de poder. A Burggrafenburg, a oeste, é o castelo dos burgraves — os administradores locais nomeados pelo Imperador, construído a partir do século XI. A Kaiserburg propriamente dita, no centro, é o conjunto de salas, capelas e torres que os imperadores habitavam entre os séculos XII e XV. A seção leste foi adicionada pelas autoridades da cidade-livre ao longo dos séculos XIV e XV.\n\nDois elementos merecem atenção especial no interior. A Doppelkapelle — a Capela Dupla — é uma das mais bem preservadas da arquitetura românica tardia alemã: dois andares sobrepostos onde nobres e servidores rezavam simultaneamente mas separados por classe. O andar inferior para o séquito, o superior reservado ao Imperador, com uma abertura no piso que permitia ao soberano ver o altar sem descer — liturgia e hierarquia fundidas em pedra.\n\nO Tiefe Brunnen — o Poço Profundo — é uma obra de engenharia medieval extraordinária: cinquenta e dois metros escavados no arenito vermelho até o lençol freático, garantindo abastecimento durante os asedios. Os guias demonstram acendendo uma tocha que cai em silêncio por seis, sete segundos — e se apaga antes de chegar ao fundo, consumindo o oxigênio na descida.\n\nEntre 1424 e 1796, as joias da coroa do Sacro Império foram mantidas na Kaiserburg — a coroa imperial, o cetro, a orbe e a Lança Sagrada, que se acreditava ser a ponta da lança que perfurou o lado de Cristo. Quando Napoleão avançava, em 1796, as joias foram evacuadas para Viena, onde permanecem hoje no Hofburg. Nuremberg guarda réplicas. A Torre Sinwell — a torre cilíndrica que domina o perfil da cidade — oferece o panorama mais completo da Altstadt: os telhados vermelhos intramuros, as torres das duas grandes paróquias, e ao horizonte os campos da Francônia.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "A Doppelkapelle: dois andares simultâneos, uma abertura no piso — liturgia como expressão de hierarquia social",
+        "O Tiefe Brunnen: 52 metros no arenito vermelho — a demonstração com a tocha que se apaga no ar",
+        "Da Torre Sinwell: as muralhas medievais ainda em 90% do perímetro original ao redor da cidade",
+        "A arenito vermelho do afloramento: material que determinou o perfil da cidade — e que os bombardeios de 1945 revelaram ser incrivelmente resistente",
+        "A ausência de fosso: castelo de penhasco não precisa de água — a altitude já era a defesa"
+      ],
+      "suggestedExperience": "Compre o ingresso combinado que inclui o museu do castelo, a Torre Sinwell e o Tiefe Brunnen. Priorize o Tiefe Brunnen e a Doppelkapelle — são as experiências mais singulares. Reserve a subida à Torre Sinwell para o final: o sol da tarde (por volta das 17h30) banha os telhados de luz dourada e transforma o panorama. Se o interior fechar antes de você chegar (a Kaiserburg fecha às 18h no verão), o terraço externo permanece acessível mais tarde.",
+      "searchSuggestions": [
+        "Kaiserburg Nuremberg joias coroa Sacro Império",
+        "Doppelkapelle românica dupla hierarquia",
+        "Tiefe Brunnen poço 52 metros arenito",
+        "Lança Sagrada Nuremberg Hofburg Viena",
+        "Nuremberg cidade imperial Goldene Bulle 1356"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "8€ (combinado museu + torre + poço); 7€ reduzido",
+        "notes": "Ingresso na bilheteria local; chegue até 17h para garantir acesso completo antes do fechamento (18h)"
+      },
+      "schedule": {
+        "mon": { "open": "09:00", "close": "18:00" },
+        "tue": { "open": "09:00", "close": "18:00" },
+        "wed": { "open": "09:00", "close": "18:00" },
+        "thu": { "open": "09:00", "close": "18:00" },
+        "fri": { "open": "09:00", "close": "18:00" },
+        "sat": { "open": "09:00", "close": "18:00" },
+        "sun": { "open": "09:00", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/nuremberg/audio/kaiserburg.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/nuremberg/photos/kaiserburg/main.jpg",
+            "caption": "A Kaiserburg sobre o afloramento de arenito vermelho — perfil clássico de Nuremberg visto da cidade",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/nuremberg/photos/kaiserburg/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "sinwell-view",
+            "name": "Torre Sinwell — Panorama da Cidade Imperial",
+            "image": "/media/routes/nuremberg/sub-attractions/kaiserburg/sinwell-view.jpg",
+            "caption": "Do alto da única torre cilíndrica da Baviera medieval: a Altstadt inteira e as muralhas de 90% do perímetro original.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Do alto da Torre Sinwell — a torre cilíndrica da Kaiserburg, 48 metros acima do Hauptmarkt. Vista completa da cidade velha de Nuremberg.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Abaixo, em todas as direções: os telhados vermelhos da Altstadt intramuros — compactos, densos, sem arranha-céus. As muralhas medievais continuam de pé em 90% do perímetro original.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro da cidade: as duas grandes torres paroquiais — a Sebalduskirche ao norte, a Lorenzkirche ao sul. Nuremberg era dividida pelo rio Pegnitz em dois bairros com igrejas, mercados e leis próprias.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Ao horizonte: os campos e vinhedos da Francônia. A cidade que você vê daqui foi 90% destruída pelos bombardeios aliados em janeiro de 1945 — e reconstruída pedra a pedra nas décadas seguintes.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "tiefe-brunnen",
+            "name": "Tiefe Brunnen — O Poço de 52 Metros",
+            "image": "/media/routes/nuremberg/sub-attractions/kaiserburg/tiefe-brunnen.jpg",
+            "caption": "Cinquenta e dois metros escavados no arenito vermelho do século XII — engenharia medieval que garantiu o abastecimento durante qualquer cerco.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Tiefe Brunnen — o Poço Profundo da Kaiserburg. Cinquenta e dois metros escavados à mão no arenito vermelho, descendo até o lençol freático abaixo da colina.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O guia acende uma tocha e a deixa cair. Ela cai em silêncio — quatro, cinco, seis segundos — e se apaga antes de chegar ao fundo, consumindo o oxigênio durante a descida.",
+                  "duration": 8,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Este poço foi escavado no século XII. Por mais de trezentos anos, garantiu que a Kaiserburg nunca rendesse por sede durante um cerco. Nenhum cerco foi necessário: nenhum exército conseguiu subir ao nível da pedra.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 1 — do terraço da Kaiserburg, desça pela Burgstraße de volta ao centro. O jantar na Altstadt é inevitavelmente turístico, mas os restaurantes da Weißgerbergasse oferecem Bratwurst franconiana autêntica num contexto de casas medievais de enxaimel. Reserve a noite para caminhar pela cidade iluminada — Nuremberg é uma das cidades mais bonitas da Alemanha ao crepúsculo.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": ["castelo", "imperial", "medieval", "panorama", "museu"]
+    },
+    {
+      "id": "germanisches-nationalmuseum",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Germanisches Nationalmuseum",
+      "lat": 49.4506,
+      "lng": 11.0757,
+      "address": "Kartäusergasse 1, 90402 Nürnberg",
+      "historicalPeriod": "renaissance",
+      "yearBuilt": 1852,
+      "architecturalStyle": "Mosteiro cartuxa medieval (séc. XIV) integrado com extensões modernas do séc. XX",
+      "significance": "O maior museu de cultura e história alemã do mundo — fundado em 1852 num mosteiro cartuxa do século XIV; contém os maiores acervos de Albrecht Dürer, joias medievais, instrumentos científicos e o Caminho dos Direitos Humanos de Dani Karavan.",
+      "description": "O Germanisches Nationalmuseum foi fundado em 1852 por Hans von Aufseß como o maior repositório de cultura e história germânica do mundo. Instalado num antigo mosteiro cartuxa do século XIV — cujo claustro central ainda é a espinha dorsal do complexo — o museu ocupa hoje mais de 30.000 metros quadrados e contém 1,3 milhão de objetos catalogados, dos quais cerca de 25.000 estão em exibição permanente.\n\nPara um visitante com duas a três horas, o museu exige uma decisão estratégica: é impossível ver tudo. A escolha mais honesta é duas seções com atenção real em vez do percurso completo em transe.\n\nA primeira escolha óbvia é a coleção Dürer. O museu possui obras do pintor que nasceu em Nuremberg em 1471 e morreu aqui em 1528 — incluindo o Autorretrato com 26 anos (1498), mais calculado e contido que o Autorretrato de 1500 em Munique, e estudos de natureza que incluem o Lebre (Feldhase), o estudo de animal mais reproduzido da arte ocidental. O Lebre foi feito com pincéis de pele de doninha cujos fios eram pintados individualmente — um nível de virtuosismo técnico que permanece incompreendido em reprodução.\n\nA segunda seção essencial é a coleção de instrumentos científicos medievais e renascentistas: bússolas, esferas armilares, globos terrestres, relógios de câmara. Nuremberg foi o centro da tecnologia de precisão europeia entre os séculos XV e XVII — a cidade que produziu os primeiros relógios portáteis (os chamados 'Nuremberger Ei'), os melhores astrolábios e as primeiras bússolas para a navegação atlântica. Estes objetos revelam uma cidade onde artesanato e ciência se encontravam.\n\nDo lado de fora, ao longo da Kartäusergasse, encontra-se o Weg der Menschenrechte — o Caminho dos Direitos Humanos. São trinta colunas de concreto branco de oito metros de altura, cada uma inscrita em alemão e numa língua diferente do mundo com um artigo da Declaração Universal de Direitos Humanos de 1948. A instalação foi criada em 1993 pelo artista israelense Dani Karavan — numa Nuremberg que até 1945 havia sido o centro simbólico do regime que tentou sistematicamente destruir esses direitos. Caminhá-la lentamente é uma experiência diferente de qualquer sala de museu.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Feldhase de Dürer: observe ao vivo a textura do pelo pintado fio a fio — o que a reprodução nunca captura",
+        "O claustro do mosteiro cartuxa no interior: o silêncio em torno do jardim central é a experiência arquitetônica do museu",
+        "Os instrumentos de navegação do século XV: o quanto da expansão marítima foi viabilizada por ferreiros e mecânicos de Nuremberg",
+        "O Weg der Menschenrechte do lado de fora: caminhe por todas as trinta colunas, leia os artigos, lembre onde você está",
+        "A integração entre o mosteiro original e as extensões modernas — o museu como uma palimpsest arquitetônico"
+      ],
+      "suggestedExperience": "Comece pelo claustro central para orientação espacial. Vá direto à coleção Dürer; reserve 30 minutos mínimos. Depois a seção de instrumentos científicos (15–20 min). Finalize com o Weg der Menschenrechte do lado de fora antes de seguir para o Dokumentationszentrum. O museu fecha às 18h mas a coleção principal pode ser vista em 2h com foco.",
+      "searchSuggestions": [
+        "Germanisches Nationalmuseum Dürer Feldhase Nuremberg",
+        "Dürer Selbstbildnis 1498 Nuremberg",
+        "Nuremberg instrumentos científicos Renascimento bússola",
+        "Weg der Menschenrechte Dani Karavan",
+        "mosteiro cartuxa Nuremberg século XIV"
+      ],
+      "visitType": "indoor",
+      "entryFee": {
+        "free": false,
+        "price": "8€; gratuito às quartas-feiras após 18h",
+        "notes": "Domingos abertos; fechado às segundas-feiras"
+      },
+      "schedule": {
+        "mon": { "open": "closed", "close": "closed" },
+        "tue": { "open": "10:00", "close": "18:00" },
+        "wed": { "open": "10:00", "close": "21:00" },
+        "thu": { "open": "10:00", "close": "18:00" },
+        "fri": { "open": "10:00", "close": "18:00" },
+        "sat": { "open": "10:00", "close": "18:00" },
+        "sun": { "open": "10:00", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/nuremberg/audio/germanisches-nationalmuseum.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/nuremberg/photos/germanisches-nationalmuseum/main.jpg",
+            "caption": "O claustro cartuxa do século XIV integrado ao maior museu de cultura alemã do mundo",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/nuremberg/photos/germanisches-nationalmuseum/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "durer-feldhase",
+            "name": "Dürer — Sala Albrecht Dürer",
+            "image": "/media/routes/nuremberg/sub-attractions/germanisches-nationalmuseum/durer-feldhase.jpg",
+            "caption": "O Lebre (Feldhase, 1502) — o estudo de animal mais reproduzido da arte ocidental, pintado fio a fio com pincéis de doninha.",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Feldhase de Albrecht Dürer, 1502. Uma lebre-do-campo pintada em aquarela. Visão completa.",
+                  "duration": 4,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe o pelo do dorso: cada fio individualmente pintado com pincel de pele de doninha. Dürer usou pincéis cujos fios terminavam num único ponto. Em reprodução, o efeito desaparece.",
+                  "duration": 8,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Suba o olhar para o olho esquerdo da lebre: um ponto de luz branca que reflete a janela do ateliê de Dürer em 1502. Um reflexo de uma janela de quinhentos anos atrás — preservado aqui.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "A lebre não está em nenhuma cena, não carrega nenhuma história. É apenas uma lebre. Dürer foi o primeiro artista do norte europeu a entender que a natureza — sem narrativa religiosa — justificava a arte.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Do museu, siga para sudeste pela Luitpoldstraße e depois pela Münchener Straße, onde vai pegar o bonde (Straßenbahn, linhas 8 ou 6) até o Dokumentationszentrum Reichsparteitagsgelände — cerca de 20 minutos de bonde, 4 km ao sudeste do centro histórico.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 25,
+      "tags": ["museu", "Dürer", "arte", "renascimento", "cultura"]
+    },
+    {
+      "id": "dokumentationszentrum",
+      "dayId": "dia-2",
+      "order": 2,
+      "name": "Dokumentationszentrum Reichsparteitagsgelände",
+      "lat": 49.4270,
+      "lng": 11.1218,
+      "address": "Bayernstraße 110, 90478 Nürnberg",
+      "historicalPeriod": "nazi",
+      "yearBuilt": 1935,
+      "architecturalStyle": "Neoclassicismo monumental nazista (Speer, 1935–1942); museu moderno inserido na estrutura inacabada (2001)",
+      "significance": "Os campos de rally do Partido Nazista — 11 km² de Nuremberg onde Hitler congregava 700.000 pessoas; a Kongresshalle inacabada de Speer; o Zeppelinfeld onde o Triunfo da Vontade foi filmado; e o mais honesto museu sobre o nazismo da Alemanha.",
+      "description": "Em 1933, Adolf Hitler escolheu Nuremberg como a cidade dos congressos anuais do Partido Nacional-Socialista por razões precisas: a cidade tinha tradição de capital imperial do Sacro Império — o lugar onde os Imperadores medievais se reuniam — e havia uma retórica elaborada sobre germanidade histórica que os nazistas queriam apropriar. Sobre um terreno de onze quilômetros quadrados ao sudeste da cidade, o arquiteto Albert Speer projetou um complexo de escala faraônica: campos, tribunas, avenidas e edificios destinados a durar mil anos.\n\nO Zeppelinfeld — o Campo de Zeppelin — era o palco principal. A tribuna de pedra calcária branca, com 360 metros de comprimento, é onde Hitler discursava para multidões de 200.000 a 700.000 pessoas. Em 1934, Leni Riefenstahl filmou aqui o Triunfo da Vontade com 18 câmeras e equipe de 170 pessoas. A tribuna ainda está de pé; o campo ao redor é hoje um estacionamento.\n\nO Dokumentationszentrum — o centro de documentação aberto em 2001 — está instalado numa asa da Kongresshalle inacabada. Projetada para 50.000 pessoas, modelada parcialmente no Coliseu romano, construída entre 1935 e 1942 com blocos de granito vindos de países ocupados. As obras pararam com a guerra. O interior permanece vazio.\n\nA exposição permanente Faszination und Gewalt — Fascínio e Violência — é uma das mais honestas sobre o nazismo que existe. Não trata o Terceiro Reich apenas como loucura importada: rastreia as raízes no antissemitismo acadêmico alemão do fim do século XIX, no fracasso da República de Weimar, na sedução estética deliberada. Os filmes de arquivo dos congressos de Nuremberg mostram rostos humanos em êxtase coletivo — não monstros. É desconfortante exatamente porque deve ser.\n\nOs Julgamentos de Nuremberg aconteceram em novembro de 1945 no Tribunal de Justiça da cidade (Justizpalast) — escolhido porque era um dos poucos grandes edifícios estruturalmente intactos após os bombardeios. A Sala 600 continua sendo uma sala de julgamentos ativa; visitas são possíveis aos fins de semana (sábados, manhã).",
+      "immersiveMode": true,
+      "immersiveText": "Você está dentro da asa de uma sala de congresso que nunca foi inaugurada, construída com pedras trazidas de países que não consentiram em fornecê-las.\n\nA Kongresshalle ao seu redor — a estrutura em U visível do lado de fora — foi projetada para 50.000 pessoas sentadas. Para contextualizar: o objetivo não era acomodar espectadores de um evento, mas produzir a experiência de ser parte de uma vontade coletiva irresistível. O projeto arquitetônico era uma máquina de criar unanimidade.\n\nAlbert Speer tinha 28 anos quando Hitler o conheceu em 1933. Engenheiro de formação, sem praticamente nenhuma obra construída, Speer foi designado arquiteto-chefe do Reich porque Hitler precisava de alguém jovem o suficiente para ser moldável e habilidoso o suficiente para traduzir suas fantasias em linguagem arquitetônica. Speer conseguiu — com uma competência perturbadora. O que ele projetou em Nuremberg não era simplesmente monumental: era deliberadamente esmagador. As proporções eram calculadas para fazer o indivíduo desaparecer dentro do coletivo.\n\nO elemento mais eficaz de Speer em Nuremberg não foi nenhum edifício — foi a Lichtdom, a Catedral de Luz. Em 1934, Speer utilizou 152 holofotes antiaéreos dispostos em retângulo ao redor do Campo de Zeppelin, apontados para o céu noturno, criando um 'templo' de pilares de luz a oito quilômetros de altitude. O embaixador britânico chamou de 'a coisa mais bonita que já vi'. O efeito era real: estar dentro daquele espaço de luz sob o céu aberto da Francônia com 500.000 pessoas ao redor era uma experiência religiosa fabricada — e eficaz.\n\nOs congressos anuais do Partido duravam uma semana em setembro. O programa era milimetricamente coreografado: desfiles à luz do dia, discursos de meia hora intercalados com discursos de três horas, marchistas em fileiras de cem, faixas e bandeiras calculadas para criar padrões visuais visíveis de quilômetros. Leni Riefenstahl passou meses editando o material de 1934 para produzir Triunfo da Vontade — que ganhou o Grande Prêmio da Exposição Internacional de Paris de 1937.\n\nO que o Dokumentationszentrum documenta, com honestidade que não encontro em muitos museus de história, é que nada disso foi imposição externa sobre uma população passiva. Os rostos nos filmes de arquivo são rostos de entusiasmo genuíno. As cartas pessoais mostram homens e mulheres comuns escrevendo sobre Hitler como se escrevesse sobre um ser de outra natureza. A pergunta que o museu coloca — e que não responde, porque não tem resposta simples — é: como uma população com tradição cultural profunda, com Dürer e Goethe e Beethoven na memória coletiva, chegou aqui?\n\nA resposta que o museu esboça é desconfortante para todo mundo: não foi loucura. Foi escolha, sob condições específicas de humilhação nacional, crise econômica, medo do comunismo e sedução de uma narrativa de identidade vigorosa. As condições que permitiram Nuremberg 1935 não são exclusivas de um povo ou de uma época.\n\nQuando você sair da exposição e caminhar até a janela de aço que dá para o interior vazio da Kongresshalle, olhe bem. Aquele espaço foi construído para um evento que nunca aconteceu, por uma ordem que durou doze anos e matou cinquenta milhões de pessoas. Está parado assim desde 1945. Não foi terminado. Não foi demolido. É um monumento acidental — o maior da Europa — à consequência das escolhas que uma sociedade pode fazer quando decide que a democracia é fraca demais para o momento.",
+      "observationPoints": [
+        "A janela de aço do museu que dá para o interior inacabado da Kongresshalle — o vazio como argumento histórico",
+        "No Zeppelinfeld: a escala da tribuna de 360 metros em relação ao seu próprio corpo",
+        "Os rostos nos filmes de arquivo da exposição — não procure monstros; procure pessoas comuns em êxtase",
+        "As Leis de Nuremberg de 1935: o painel que mostra como legislação foi usada como arma de exclusão",
+        "A Sala 600 do Justizpalast (aos sábados): a mesma sala onde os nazistas foram julgados — ainda em uso como tribunal ativo"
+      ],
+      "suggestedExperience": "Reserve pelo menos 2h30 para o Dokumentationszentrum — a exposição é densa e merece leitura, não apenas imagens. Se possível, alugue o audioguia. Depois de visitar o museu, caminhe até o Zeppelinfeld (15 minutos a pé): a escala da tribuna precisa ser experimentada ao vivo. Se for sábado, verifique se a visita à Sala 600 do Justizpalast está disponível (reserva antecipada recomendada).",
+      "searchSuggestions": [
+        "Dokumentationszentrum Reichsparteitagsgelände Nuremberg",
+        "Lichtdom Albert Speer catedral de luz",
+        "Triunfo da Vontade Riefenstahl Nuremberg",
+        "Leis de Nuremberg 1935 antissemitismo",
+        "Julgamentos de Nuremberg Sala 600 Justizpalast"
+      ],
+      "visitType": "indoor",
+      "entryFee": {
+        "free": false,
+        "price": "8€; 2€ audioguia adicional",
+        "notes": "O acesso ao Zeppelinfeld exterior é gratuito. Sala 600 do Justizpalast: tour às sábados, reserva em museen.nuernberg.de"
+      },
+      "schedule": {
+        "mon": { "open": "09:00", "close": "18:00" },
+        "tue": { "open": "09:00", "close": "18:00" },
+        "wed": { "open": "09:00", "close": "18:00" },
+        "thu": { "open": "09:00", "close": "18:00" },
+        "fri": { "open": "09:00", "close": "18:00" },
+        "sat": { "open": "09:00", "close": "18:00" },
+        "sun": { "open": "09:00", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 200,
+      "media": {
+        "audio": "/media/routes/nuremberg/audio/dokumentationszentrum.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/nuremberg/photos/dokumentationszentrum/main.jpg",
+            "caption": "A Kongresshalle inacabada de Speer com o Dokumentationszentrum instalado em uma de suas asas — o museu dentro do monumento",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/nuremberg/photos/dokumentationszentrum/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "zeppelin-tribune",
+            "name": "Tribuna do Zeppelinfeld",
+            "image": "/media/routes/nuremberg/sub-attractions/dokumentationszentrum/zeppelin-tribune.jpg",
+            "caption": "360 metros de calcário branco projetados por Speer aos 28 anos — palco do Triunfo da Vontade e dos congressos de 200.000 a 700.000 pessoas.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "A Tribuna do Zeppelinfeld. 360 metros de extensão, calcário branco da Baviera. Albert Speer a projetou com 28 anos de idade.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Do ponto central desta tribuna, Hitler discursou para multidões de 200.000 a 700.000 pessoas. O Triunfo da Vontade foi filmado aqui por Leni Riefenstahl em setembro de 1934.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "A tribuna foi modelada no Altar de Pérgamo — o monumento helenístico do século II a.C., hoje no Pergamonmuseum de Berlim. Speer usou a arqueologia clássica como vocabulário de poder contemporâneo.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Hoje o Zeppelinfeld ao redor é um estacionamento. A tribuna continua de pé — não restaurada, não demolida, apenas deixada envelhecer. Uma decisão deliberada de não monumentalizar nem apagar.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "kongresshalle-interior",
+            "name": "Kongresshalle — O Vazio Inacabado",
+            "image": "/media/routes/nuremberg/sub-attractions/dokumentationszentrum/kongresshalle.jpg",
+            "caption": "A casca em U da sala de congresso projetada para 50.000 pessoas — parada em 1942, permanece inacabada e vazia até hoje.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "A Kongresshalle vista da janela de aço do museu. Projetada para 50.000 pessoas sentadas. Construída com granito de territórios ocupados. Nunca concluída.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A casca exterior em U foi construída entre 1935 e 1942. Depois, as obras pararam — o material de construção foi redirecionado para a guerra. Em 1945, estava exatamente assim.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O interior permanece vazio desde 1945. Não foi terminado. Não foi demolido. Instalar o museu dentro de uma de suas asas foi um ato arquitetônico de resistência à tentação de apagar o que existiu aqui.",
+                  "duration": 8,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 2 em Nuremberg — do Dokumentationszentrum, tome o bonde 8 ou 6 de volta ao centro (~20 min). Do Hauptbahnhof, trens diretos para Praga (Praha hl.n.) saem às ~16h35, ~18h35 e ~20h35 — duração 3h15min. Reserve antecipadamente em bahn.de ou cd.cz. A chegada em Praga à noite permite jantar na cidade — os bares da Vinohrady ficam abertos até depois da meia-noite.",
+      "nextTransport": "train",
+      "nextTransportMinutes": 195,
+      "tags": ["história", "nazismo", "memorial", "museu", "imersivo"]
+    }
+  ],
+  "segments": [
+    {
+      "from": "hauptmarkt-nuremberg",
+      "to": "kaiserburg",
+      "distance": 0.55,
+      "duration": 10,
+      "transport": "walking",
+      "waypoints": [
+        [49.4553, 11.0778],
+        [49.4578, 11.0762],
+        [49.4604, 11.0752]
+      ],
+      "streetNotes": "Suba pela Burgstraße — a rua medieval que conecta a praça ao castelo. As casas de enxaimel dos séculos XV–XVI formam um corredor histórico. A altitude ganha gradualmente ao longo de 550 metros."
+    },
+    {
+      "from": "germanisches-nationalmuseum",
+      "to": "dokumentationszentrum",
+      "distance": 4.1,
+      "duration": 25,
+      "transport": "subway",
+      "waypoints": [
+        [49.4506, 11.0757],
+        [49.4270, 11.1218]
+      ],
+      "streetNotes": "Bonde (Straßenbahn) linhas 8 ou 6 da parada Tiergärtnertor/GNM até a parada Doku-Zentrum. Bilhete de zona A do MVV (2,20€). Duração ~20 minutos."
+    }
+  ]
+}

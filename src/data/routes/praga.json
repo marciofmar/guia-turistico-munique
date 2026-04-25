@@ -1,0 +1,749 @@
+{
+  "id": "praga-2026",
+  "title": "Praga",
+  "subtitle": "A cidade de cem torres, do Golem e da Revolução de Veludo",
+  "tripDates": { "start": "2026-06-08", "end": "2026-06-10" },
+  "baseCity": "Praga",
+  "baseCityCoords": { "lat": 50.0755, "lng": 14.4378 },
+  "historicalPeriods": [
+    { "id": "medieval",   "name": "Boêmia Medieval e Hussite",         "color": "#8B6914", "era": "séc. IX–XV"   },
+    { "id": "baroque",    "name": "Habsburgos e Contra-Reforma",        "color": "#7B1FA2", "era": "séc. XVII–XIX" },
+    { "id": "jewish",     "name": "Josefov — A Comunidade Judaica",     "color": "#1565C0", "era": "séc. X–1945"  },
+    { "id": "modern",     "name": "República, Nazismo e Veludo",        "color": "#C62828", "era": "1918–1989"    }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-06-08",
+      "weekday": "segunda-feira",
+      "title": "Hradčany — O Castelo e a Cidade Pequena",
+      "subtitle": "Pražský hrad, São Vito, Zlatá ulička e a Ponte Carlos ao entardecer",
+      "theme": "O poder böhemio acima do Vltava: séculos de reis, defenestrações e Kafka",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "09:00",
+      "estimatedEndTime": "20:00",
+      "primaryColor": "#8B6914",
+      "coverEmoji": "🏰",
+      "intro": "A colina de Hradčany, na margem esquerda do Vltava, é o coração arquitetônico e histórico de Praga — e o complexo de castelos habitados mais extenso do mundo, com sete hectares. A Catedral de São Vito começou em 1344 sob Carlos IV e foi concluída em 1929: 585 anos de obra. A Zlatá ulička — onde Franz Kafka alugou um cômodo no inverno de 1916 — ficou intacta. E a Ponte Carlos, ao final da descida, é a mais bonita ponte medieval da Europa. Comece cedo: as multidões chegam às dez da manhã e não param.",
+      "poiIds": ["prazsky-hrad", "mala-strana-karluv-most"],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-09",
+      "weekday": "terça-feira",
+      "title": "Staré Město e Josefov",
+      "subtitle": "O Orloj, a praça das execuções böhemias e os 77.297 nomes da Sinagoga Pinkas",
+      "theme": "A Cidade Velha: memória medieval, mercado e o gueto judaico mais antigo da Europa Central",
+      "dayType": "urban",
+      "energyLevel": "intense",
+      "startTime": "09:00",
+      "estimatedEndTime": "19:00",
+      "primaryColor": "#1565C0",
+      "coverEmoji": "✡️",
+      "intro": "O Dia 2 divide-se entre dois mundos que coexistiram durante séculos a metros um do outro: a Staroměstské náměstí — onde proclamações de independência e execuções de protestantes böhemios aconteceram no mesmo paralelepípedo — e o Josefov, o bairro judaico que sobreviveu a pogroms, ao nazismo e à demolição urbana do fim do século XIX. A Sinagoga Pinkas, com 77.297 nomes de judeus tchecos mortos no Holocausto escritos à mão nas paredes, é uma das experiências mais difíceis que uma viagem pela Europa pode oferecer. Reserve energia.",
+      "poiIds": ["staromestske-namesti", "josefov"],
+      "logistics": null
+    },
+    {
+      "id": "dia-3",
+      "order": 3,
+      "date": "2026-06-10",
+      "weekday": "quarta-feira",
+      "title": "Vyšehrad e a Revolução de Veludo",
+      "subtitle": "O Panteão Nacional e a praça onde a Tchecoslováquia foi proclamada, ocupada e libertada",
+      "theme": "Mito fundacional, cemitério de gigantes e o boulevard das revoluções checas",
+      "dayType": "urban",
+      "energyLevel": "light",
+      "startTime": "09:00",
+      "estimatedEndTime": "18:00",
+      "primaryColor": "#C62828",
+      "coverEmoji": "🕊️",
+      "intro": "O Dia 3 é mais tranquilo e mais tcheco: o Vyšehrad, o promontório rochoso ao sul com o cemitério onde Dvořák, Smetana e Mucha estão enterrados, é o lugar menos turístico e mais genuíno de Praga. Depois, a Václavské náměstí — que não é uma praça, mas um boulevard de 750 metros onde a Tchecoslováquia foi proclamada em 1918, ocupada por tanques soviéticos em 1968, e libertada pela Revolução de Veludo em 1989. Saia à tarde em direção a Český Krumlov.",
+      "poiIds": ["vysehrad", "vaclavske-namesti"],
+      "logistics": null
+    }
+  ],
+  "pois": [
+    {
+      "id": "prazsky-hrad",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Pražský hrad — O Complexo do Castelo",
+      "lat": 50.0908,
+      "lng": 14.4005,
+      "address": "Hradčany, 119 08 Praha 1",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 870,
+      "architecturalStyle": "Românico, Gótico, Renascentista e Barroco superpostos (séc. IX–XVII); Catedral de São Vito Gótico 1344–1929",
+      "significance": "O maior complexo de castelos habitados do mundo — 7 hectares; sede dos reis böhemios e imperadores habsburgos; catedral começada por Carlos IV em 1344 e concluída em 1929; palco das três Defenestrações de Praga que desencadearam guerras europeias.",
+      "description": "Em 9 de julho de 870, o Príncipe Bořivoj da dinastia Přemysl mandou construir um primeiro fortim de madeira no afloramento acima da margem esquerda do Vltava. No decorrer dos séculos seguintes, esse fortim se transformou no maior complexo de castelos habitados do mundo: sete hectares de palácios, catedrais, basílicas e pátios interligados, com muralhas medievais que sustentam uma pequena cidade dentro da cidade.\n\nA Catedral de São Vito — formalmente a Basílica Catedral Metropolitana dos Santos Vito, Venceslau e Adalberto — é o edifício central e mais visitado do complexo. Carlos IV lançou a pedra fundamental em 1344, nomeando como arquiteto o francês Mathieu d'Arras e depois o suábio Peter Parler. A construção foi interrompida pelas guerras hussitas, retomada, abandonada, retomada novamente. A nave ocidental e as torres da fachada foram completadas apenas em 1929 — 585 anos depois. É uma catedral que atravessou o medievalismo, o barroco, o renascimento, a industrialização e o modernismo antes de ser concluída.\n\nNo interior, o deambulatório contém dez capelas com relíquias de santos böhemios e os túmulos dos reis medievais. Na nave lateral norte: o vitral de Alfons Mucha dedicado a São Cirilo e Metódio, encomendado em 1931 e financiado por um banco americano — o único vitral genuíno de Mucha numa catedral europeia de grande porte. Na Câmara das Joias: as joias böhemias da coroa, guardadas por sete chaves distribuídas entre sete autoridades diferentes — presidente, arcebispo, primeiros-ministros — e exibidas apenas em datas específicas.\n\nA história do castelo é também a história das Defenestrações de Praga — um fenômeno peculiarmente böhemio de resolver conflitos políticos jogando adversários pela janela. A primeira, em 1419, inaugurou as guerras hussitas. A segunda, em 1618, quando nobres protestantes böhemios jogaram três governadores habsburgos pela janela do Palácio Real, foi o estopim da Guerra dos Trinta Anos — o conflito que matou um terço da população alemã. A terceira, em 1948, envolveu Jan Masaryk, o único ministro não-comunista do governo pós-guerra — encontrado morto sob a janela do seu apartamento no Palácio Czernin, ao lado do castelo. Suicídio ou assassinato? Jamais foi provado definitivamente.\n\nA Zlatá ulička — a Rua Dourada — são dezesseis casinhas medievais construídas nas ameias das muralhas internas, habitadas originalmente por arqueiros da guarda e depois por artesãos e alquimistas. A casa número 22, de porta azul, foi alugada por Franz Kafka no inverno de 1916–1917, onde trabalhou em O Processo e em contos de Um Médico Rural. É uma das menores casas de trabalho de um grande escritor que existe.",
+      "immersiveMode": true,
+      "immersiveText": "Você está dentro de um complexo que acumulou sete séculos de poder sem nunca ser demolido e recomeçado do zero — cada geração de governantes adicionou camadas sobre o que existia, e o resultado é este palimpsest arquitetônico de 7 hectares.\n\nCarlos IV era, nos anos 1340, o homem mais poderoso da Europa. Rei da Boêmia desde 1346, Imperador do Sacro Império desde 1355. Sob ele, Praga tinha mais de 40.000 habitantes — maior que Paris, Londres e Nápoles na época. O projeto do castelo que ele ampliou e a catedral que ele iniciou eram uma declaração: Praga é o centro do mundo. A Catedral de São Vito deveria ser a maior catedral da Europa Central. Ele contratou o melhor arquiteto gótico vivo — Peter Parler, que tinha 23 anos quando assumiu a obra em 1353.\n\nO que Parler fez em São Vito mudou a arquitetura europeia: ele introduziu a abóbada de nervuras irradiantes — um sistema estrutural que permite que a pedra do teto pareça flutuar sem suporte. A galeria de retratos no triforium da catedral — os bustos dos reis böhemios, do próprio Parler e de Carlos IV — é a primeira galeria de retratos realistas da Europa norte-alpine. Praga precedeu o Renascimento italiano em trinta anos.\n\nDepois de Carlos IV, a Boêmia mergulhou nas Guerras Hussitas — o primeiro movimento de reforma religiosa da Europa, um século antes de Lutero. Jan Hus pregou que a Igreja Romana havia se corrompido, que a missa deveria ser em língua vernácula, que o cálice deveria ser distribuído ao povo e não apenas ao clero. Em 6 de julho de 1415, Hus foi queimado vivo como herético pelo Concílio de Constança. Sua morte desencadeou vinte anos de guerra religiosa que devastou a Boêmia e antecipou a Reforma Protestante.\n\nEm 1526, os Habsburgos assumiram a Boêmia por casamento e herança — e Praga tornou-se capital do Império Habsburgo sob Rodolfo II, o mais excêntrico dos imperadores: obcecado por alquimia, astrologia e arte, transformou o castelo num gabinete de curiosidades que reuniu Tycho Brahe e Johannes Kepler como astrônomos da corte. Brahe morreu aqui em 1601, possivelmente de ruptura de bexiga por não querer ser descortês numa festa imperial e se recusar a sair da mesa para urinar. Kepler assumiu seu posto e usou as observações de Brahe para formular as três leis do movimento planetário.\n\nA Segunda Defenestração de 1618 — quando nobres protestantes böhemios jogaram três funcionários habsburgos pela janela do Palácio Real — desencadeou a Guerra dos Trinta Anos. O Sacro Império, a Espanha, a França, a Suécia, os principados alemães, a Dinamarca: todos acabaram arrastados por um conflito que começou com três homens sendo jogados por uma janela desta colina. Os três sobreviveram — a queda de quinze metros foi amortecida pelo fosso cheio de entulho. Os habsburgos declararam milagre. Os böhemios disseram que era a qualidade do estrume.\n\nA Batalha da Montanha Branca, em 1620, acabou com a independência böhemia por três séculos. A Boêmia passou a ser uma província habsburga. As escolas passaram a ensinar alemão. Os livros tchecos foram queimados. Vinte e sete líderes da revolta foram executados na Staroměstské náměstí. Começou a 'Idade das Trevas' — tři sta let tmavých — os trezentos anos escuros que os tchecos carregam na memória como o grande trauma nacional.\n\nE no meio de tudo isso — em 1916, num inverno de guerra no castelo que havia sido o trono de todos esses impérios — Franz Kafka alugou uma casinha de um quarto na Zlatá ulička e começou a escrever sobre um homem que acorda transformado em inseto.",
+      "observationPoints": [
+        "O vitral de Mucha na nave norte de São Vito: os únicos vitrais que ele criou para uma catedral europeia — compare com as cores dos outros vitrais ao redor",
+        "A galeria de retratos no triforium: os bustos realistas de Carlos IV e Peter Parler são os primeiros retratos realistas da Europa norte-alpine",
+        "A casa 22 da Zlatá ulička: a porta azul mais baixa do corredor — Kafka precisava abaixar a cabeça para entrar",
+        "A diferença de período arquitetônico entre as três naves da catedral: gótico puro na nave leste (Peter Parler), neogótico no corpo ocidental (séc. XIX–XX)",
+        "Da Ponte de São Jorge (dentro do castelo): o pátio onde aconteceu a Segunda Defenestração de 1618 — procure a janela"
+      ],
+      "suggestedExperience": "Chegue às 9h antes das multidões. Compre o ingresso combinado (circuito A ou B) que inclui São Vito, o Palácio Real, a Basílica de São Jorge e a Zlatá ulička. Priorize São Vito: chegue cedo à nave para ver os vitrais com a luz da manhã. A Zlatá ulička é pequena — visite com calma, leia as placas em cada casa. Reserva de 2h30 a 3h no total. À tarde, desça pela escadaria de Nerudova para a Malá Strana.",
+      "searchSuggestions": [
+        "Pražský hrad história defenestração Praga",
+        "Peter Parler Carlos IV São Vito catedral",
+        "Mucha vitral São Vito Cirilo Metódio",
+        "Franz Kafka Zlatá ulička 1916 história",
+        "Rodolfo II Tycho Brahe Kepler Praga"
+      ],
+      "visitType": "hybrid",
+      "entryFee": {
+        "free": false,
+        "price": "Circuito A: 250 CZK (~10€); Circuito B: 350 CZK (~14€)",
+        "notes": "Ingressos em hradcany.cz ou na bilheteria. A catedral de São Vito tem acesso parcial gratuito à nave central; para o deambulatório e capelas: ingresso obrigatório"
+      },
+      "schedule": {
+        "mon": { "open": "09:00", "close": "17:00" },
+        "tue": { "open": "09:00", "close": "17:00" },
+        "wed": { "open": "09:00", "close": "17:00" },
+        "thu": { "open": "09:00", "close": "17:00" },
+        "fri": { "open": "09:00", "close": "17:00" },
+        "sat": { "open": "09:00", "close": "17:00" },
+        "sun": { "open": "09:00", "close": "17:00" }
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 300,
+      "media": {
+        "audio": "/media/routes/praga/audio/prazsky-hrad.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/prazsky-hrad/main.jpg",
+            "caption": "A Catedral de São Vito e o complexo da Pražský hrad sobre a colina de Hradčany",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/prazsky-hrad/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "mucha-vitral",
+            "name": "Vitral de Alfons Mucha — São Cirilo e Metódio",
+            "image": "/media/routes/praga/sub-attractions/prazsky-hrad/mucha-vitral.jpg",
+            "caption": "O único grande vitral de Mucha numa catedral europeia — encomendado em 1931, financiado por um banco americano.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O vitral de Alfons Mucha na nave lateral norte da Catedral de São Vito. Encomendado em 1931, financiado pelo Slavic Bank of New York.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No topo: São Cirilo e São Metódio — os monges do século IX que criaram o alfabeto glagolítico para escrever as línguas eslavas. Para Mucha, eles eram os fundadores culturais de toda a civilização eslava.",
+                  "duration": 8,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "Na parte central: cenas da vida dos missionários entre os eslavos. Observe a paleta — não o azul e dourado padrão dos vitrais góticos, mas cores Art Nouveau: terra, ocre, verde suave.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Mucha tinha 71 anos quando entregou o vitral. Em 1939, os nazistas o prenderam e interrogaram por três dias. Morreu poucos meses depois. Este é seu testamento visual em vidro.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "zlata-ulicka",
+            "name": "Zlatá ulička — A Rua de Kafka",
+            "image": "/media/routes/praga/sub-attractions/prazsky-hrad/zlata-ulicka.jpg",
+            "caption": "Dezesseis casinhas medievais nas ameias do castelo — a casa azul número 22 foi alugada por Kafka no inverno de 1916.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Zlatá ulička — a Rua Dourada — dentro das muralhas da Pražský hrad. Dezesseis casas medievais encostadas nas ameias internas do castelo.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A porta azul da esquerda é a número 22. No inverno de 1916 a 1917, Franz Kafka alugou este cômodo da irmã Ottla para escrever em silêncio, longe do apartamento dos pais. Precisava abaixar a cabeça para entrar.",
+                  "duration": 8,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Aqui ele trabalhou em O Processo — o romance sobre Josef K., preso sem acusação formal, julgado por um tribunal invisível, condenado sem entender por quê. Kafka nunca publicou o livro em vida.",
+                  "duration": 7,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O corredor inteiro tem menos de cem metros. Cada casa é do tamanho de um quarto. Os arqueiros medievais que viviam aqui dormiam em filas. O escritor que viveu aqui dormia sozinho com o manuscrito.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Da Pražský hrad, desça pela escadaria de Nerudova — a rua barroca de palácios em declive com casas marcadas por tabuletas de pedra em forma de animais (o Leão, a Cigarra, os Três Violinos). São 20 minutos de descida até a Malá Strana. No fundo da descida, vire à esquerda para a Praça de Malostranská e depois siga para a Ponte Carlos.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 20,
+      "tags": ["castelo", "catedral", "Kafka", "medieval", "Mucha", "imersivo"]
+    },
+    {
+      "id": "mala-strana-karluv-most",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Malá Strana e Ponte Carlos",
+      "lat": 50.0866,
+      "lng": 14.4114,
+      "address": "Karlův most, 110 00 Praha 1",
+      "historicalPeriod": "baroque",
+      "yearBuilt": 1357,
+      "architecturalStyle": "Gótico (pilares e arcos da ponte, 1357); Barroco (estátuas 1683–1714; Malá Strana séc. XVII–XVIII)",
+      "significance": "A Ponte Carlos — único cruzamento do Vltava por cinco séculos — com suas 30 estátuas barrocas e o relevo de São João Nepomuceno mais tocado de Praga; a Malá Strana barroca construída sobre os bens confiscados dos protestantes böhemios após 1620.",
+      "description": "Em 9 de julho de 1357, às 5h31 da manhã, Carlos IV pôs a primeira pedra da Ponte de Praga. A data e hora foram calculadas por astrólogos do Imperador: 1357-9-7-5-31, uma sequência palindrômica de números ímpares. Carlos IV acreditava que construir neste momento exato garantia estabilidade eterna à obra. A ponte permanece de pé há 669 anos.\n\nCom 516 metros sobre 16 arcos góticos de arenito de Písek, a Ponte Carlos foi por cinco séculos a única travessia sobre o Vltava em Praga. Toda mercadoria, todo exército, todo peregrino, toda procissão real, toda coroação e todo funeral passou por aqui. As trinta estátuas e grupos escultóricos barrocos foram instalados entre 1683 e 1714 — as que você vê hoje são cópias de alta fidelidade; os originais estão no Museu Nacional e no Lapidarium do Vyšehrad.\n\nA estátua de São João Nepomuceno, instalada em 1683, é a mais antiga e a mais famosa da ponte. Jan z Pomuku foi o confessor da Rainha Sofia da Boêmia no século XIV — e se recusou a revelar ao Rei Venceslau IV o conteúdo das confissões dela, mesmo sob tortura. Foi jogado da ponte em 1393 e afogou-se no Vltava. Foi canonizado em 1729. O relevo de bronze na base da estátua — representando o momento em que Jan é jogado da ponte — foi desgastado por séculos de mãos. Tocar o relevo traz sorte, diz a tradição. É a superfície mais tocada de Praga.\n\nA Malá Strana — a Cidade Pequena — se estende abaixo do castelo na margem esquerda. Habitada originalmente por artesãos alemães a partir do século XIII, foi radicalmente transformada após a Batalha da Montanha Branca em 1620. Os nobres böhemios protestantes derrotados tiveram seus bens confiscados e distribuídos entre a nobreza católica importada da Áustria, Itália e Espanha. Os palácios barrocos que dominam a Malá Strana — Wallenstein, Czernin, Lobkowicz — foram construídos como demonstrações de vitória da Contra-Reforma. A Igreja de São Nicolau, com sua cúpula verde que domina o skyline abaixo do castelo, foi construída pelos jesuítas entre 1703 e 1755 como o mais elaborado edifício barroco de Praga — uma declaração arquitetônica de que o catolicismo habsburgo havia vencido definitivamente.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O relevo de bronze de São João Nepomuceno na base da estátua: compare o brilho do relevo (desgastado por séculos de toques) com o bronze oxidado do restante",
+        "A vista da ponte para leste ao crepúsculo: a Cidade Velha com as torres do Týn e do Relógio — é a postal mais fotografada de Praga e ainda assim nunca decepciona",
+        "As marcas de nível do Vltava nas pilastras da ponte: as linhas de inundações de 1845, 1890 e 2002",
+        "A Igreja de São Nicolau da Malá Strana: a cúpula verde como objeto intencional de dominância visual sobre o bairro abaixo do castelo",
+        "A textura das pedras da ponte ao caminhar: o centro desgastado, as bordas menos — o mesmo padrão de qualquer caminho muito usado por cinco séculos"
+      ],
+      "suggestedExperience": "Atravesse a Ponte Carlos no sentido Malá Strana → Staré Město ao final da tarde, quando a luz lateral banha as estátuas em dourado. Antes de entrar na ponte, desça pelas escadarias à margem do rio e observe os pilares góticos de baixo — a engenharia da ponte é mais evidente daqui. Na Malá Strana, reserve 30 minutos para entrar na Igreja de São Nicolau: o interior barroco com afrescos do teto é um dos mais exuberantes da Europa Central.",
+      "searchSuggestions": [
+        "Ponte Carlos Praga Carlos IV 1357 astrologia",
+        "João Nepomuceno confessor martir Vltava",
+        "Malá Strana Contrarreforma bens confiscados",
+        "Igreja São Nicolau jesuítas Praga barroco",
+        "Ponte Carlos estátuas barrocas originais Lapidarium"
+      ],
+      "visitType": "outdoor",
+      "entryFee": { "free": true, "price": null, "notes": "Ponte gratuita 24h. Igreja de São Nicolau: 100 CZK (~4€)" },
+      "schedule": {
+        "mon": { "open": "00:00", "close": "23:59" },
+        "tue": { "open": "00:00", "close": "23:59" },
+        "wed": { "open": "00:00", "close": "23:59" },
+        "thu": { "open": "00:00", "close": "23:59" },
+        "fri": { "open": "00:00", "close": "23:59" },
+        "sat": { "open": "00:00", "close": "23:59" },
+        "sun": { "open": "00:00", "close": "23:59" }
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/praga/audio/mala-strana-karluv-most.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/mala-strana-karluv-most/main.jpg",
+            "caption": "A Ponte Carlos ao amanhecer — os 16 arcos góticos e as estátuas barrocas sobre o Vltava",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/mala-strana-karluv-most/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "nepomuceno-statue",
+            "name": "São João Nepomuceno — A Estátua e o Relevo",
+            "image": "/media/routes/praga/sub-attractions/mala-strana-karluv-most/nepomuceno-statue.jpg",
+            "caption": "O relevo de bronze desgastado por séculos de mãos — a superfície mais tocada de Praga.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A estátua de São João Nepomuceno — a mais antiga da Ponte Carlos, instalada em 1683. Vista completa do grupo escultórico.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Na base da estátua: dois relevos de bronze em contraste com o restante da pedra. O da esquerda representa o momento em que Jan é jogado da ponte pelo rei Venceslau IV em 1393.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Observe a diferença de cor no relevo: o bronze brilhante no centro — desgastado por séculos de toques — em contraste com o bronze oxidado nas bordas intocadas. Um mapa de onde as mãos chegam.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Jan z Pomuku se recusou a revelar ao rei o conteúdo das confissões da rainha. Isso custou-lhe a vida. Em 1729, foi canonizado. A ponte de onde ele caiu tornou-se o santuário.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 1 — do outro lado da Ponte Carlos, você estará na Staré Město. O jantar na Betlémská třída ou na Dlouhá é mais autêntico do que as cantinas turísticas na margem da ponte. Considere o restaurante Lokál (na Dlouhá 33) para svíčková — carne bovina em molho de nata e cranberry, o prato nacional tcheco que nenhum menu turístico faz direito.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": ["ponte", "barroco", "medieval", "Rio Vltava", "gratuito"]
+    },
+    {
+      "id": "staromestske-namesti",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Staroměstské náměstí e Orloj",
+      "lat": 50.0871,
+      "lng": 14.4208,
+      "address": "Staroměstské náměstí, 110 00 Praha 1",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 1338,
+      "architecturalStyle": "Gótico (Torre do Relógio 1338; Igreja do Týn 1365); Renascentista (fachadas ao redor); Barroco (coluna mariana 1650)",
+      "significance": "Praça central de Praga desde o século X — palco da execução de 27 líderes protestantes böhemios em 1621, da proclamação da independência tcheca em 1918 e da Revolução de Veludo em 1989; sede do Orloj, o mais complexo relógio astronômico medieval ainda em funcionamento.",
+      "description": "O Orloj — o Relógio Astronômico de Praga — foi instalado na Torre do Antigo Ayuntamiento em 1410 pelo mestre relojoeiro Mikuláš de Kadaň. É o terceiro relógio astronômico mais antigo do mundo ainda em funcionamento e, de longe, o mais complexo: o mostrador principal indica simultaneamente a hora solar, a hora sideral, a posição do Sol e da Lua nos signos do zodíaco e a fase lunar. Para lê-lo com precisão, você precisaria de uma aula de astronomia medieval.\n\nO Orloj é menos celebrado por sua precisão do que por seu espetáculo: a cada hora cheia, entre 9h e 23h, doze janelas se abrem acima do mostrador e os doze Apóstolos desfilam em procissão circular. Ao final, o Galo bate as asas e canta. O espetáculo dura quarenta segundos. Em dia de verão, a multidão começa a se acumular vinte minutos antes.\n\nA história do relógio inclui uma lenda fundacional: o mestre relojoeiro Hanuš, após concluir a obra, teria sido mandado cegar pelo Conselho Municipal para que nunca pudesse fazer relógio igual em outro lugar. Enlouquecido, Hanuš teria colocado as mãos nas engrenagens e destruído o relógio completamente. A lenda provavelmente é falsa — mas é uma lenda que Praga escolheu contar sobre si mesma, e isso revela algo sobre como a cidade pensa.\n\nA Staroměstské náměstí ao redor do relógio é o maior palco histórico de Praga. Em 21 de junho de 1621 — um ano após a Batalha da Montanha Branca — 27 líderes da resistência böhemia protestante foram executados publicamente aqui: decapitados ou enforcados, cujas cabeças foram expostas nas torres da Ponte Carlos por dez anos. A praça guarda, incrustadas no paralelepípedo perto da entrada do Ayuntamiento, vinte e sete cruzes brancas — uma para cada executado.\n\nA Igreja de Nossa Senhora do Týn — com suas duas torres góticas assimétricas de 80 metros que dominam o fundo oriental da praça — começou a ser construída em 1365 como a grande basílica hussita de Praga. No interior: o túmulo de Tycho Brahe, o astrônomo dinamarquês que serviu como astrônomo da corte do Imperador Rodolfo II em Praga. Brahe morreu em 1601, possivelmente de ruptura de bexiga — por não querer ser descortês numa festa imperial e se recusar a sair da mesa para urinar. Kepler assumiu seu cargo e usou as observações de Brahe para formular as três leis do movimento planetário.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "As vinte e sete cruzes brancas incrustadas no paralelepípedo perto do Ayuntamiento — uma para cada executado em 1621",
+        "O Orloj: o mostrador inferior (calendário) e o superior (astronômico) — tente ler o que cada ponteiro indica",
+        "As torres assimétricas do Týn: a esquerda tem 80,17m, a direita 79,83m. A assimetria é deliberada: masculino e feminino",
+        "A acústica da praça ao caminhar para o centro: o rebote do som das fachadas ao redor",
+        "De dentro do Týn: o túmulo de Tycho Brahe e a inscrição em latim"
+      ],
+      "suggestedExperience": "Chegue antes das 9h para ver a praça relativamente vazia — e para a primeira apresentação do Orloj sem multidão densa. Depois, entre no Týn pela passagem lateral (a entrada não é óbvia — procure o portal à esquerda da fachada). Reserve 20 minutos para o interior e o túmulo de Brahe. A subida à Torre do Relógio (150 CZK) oferece a melhor vista da praça e dos telhados do Staré Město.",
+      "searchSuggestions": [
+        "Orloj relógio astronômico Praga 1410 funcionamento",
+        "27 executados Praga 1621 Montanha Branca",
+        "Igreja Týn assimétrica torres böhemia",
+        "Tycho Brahe Praga morte bexiga Kepler",
+        "Franz Kafka nascimento Staroměstské náměstí"
+      ],
+      "visitType": "outdoor",
+      "entryFee": {
+        "free": true,
+        "price": null,
+        "notes": "Praça: gratuita. Torre do Relógio: 150 CZK (~6€). Igreja do Týn: gratuita (doação)"
+      },
+      "schedule": {
+        "mon": { "open": "00:00", "close": "23:59" },
+        "tue": { "open": "00:00", "close": "23:59" },
+        "wed": { "open": "00:00", "close": "23:59" },
+        "thu": { "open": "00:00", "close": "23:59" },
+        "fri": { "open": "00:00", "close": "23:59" },
+        "sat": { "open": "00:00", "close": "23:59" },
+        "sun": { "open": "00:00", "close": "23:59" }
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/praga/audio/staromestske-namesti.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/staromestske-namesti/main.jpg",
+            "caption": "A Staroměstské náměstí com o Orloj e as torres assimétricas do Týn — palco de séculos da história tcheca",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/staromestske-namesti/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "orloj-clock",
+            "name": "Orloj — O Relógio Astronômico",
+            "image": "/media/routes/praga/sub-attractions/staromestske-namesti/orloj-clock.jpg",
+            "caption": "O mostrador astronômico medieval de 1410 — lê a hora solar, sideral, lunar e os signos do zodíaco simultaneamente.",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "O Orloj — o Relógio Astronômico de Praga. Instalado em 1410. Um dos mais antigos relógios astronômicos em funcionamento contínuo no mundo.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O mostrador superior: o círculo azul representa o céu; o ponteiro dourado é o Sol; o ponteiro prateado é a Lua. As posições indicam onde esses corpos estão no zodíaco neste momento.",
+                  "duration": 8,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "Ao redor do mostrador: o anel dourado com os signos do zodíaco; o anel preto com os signos em árabe; o anel exterior com os números em algarismos böhemios. Três sistemas de calendário superpostos num único mostrador.",
+                  "duration": 7,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Às horas cheias: as janelas acima do mostrador se abrem, os doze Apóstolos desfilam, o Galo bate as asas. O espetáculo dura quarenta segundos. Foi programado assim em 1410 — e assim funciona há 616 anos.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Do Staroměstské náměstí, caminhe 5 minutos para o norte pela Maiselova em direção ao Josefov — o bairro judaico começa imediatamente depois da Praça Wenceslau Maisel. As sinagoga e o cemitério estão agrupados num raio de 300 metros.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 5,
+      "tags": ["praça", "medieval", "relógio", "Hussita", "gratuito"]
+    },
+    {
+      "id": "josefov",
+      "dayId": "dia-2",
+      "order": 2,
+      "name": "Josefov — O Bairro Judaico",
+      "lat": 50.0899,
+      "lng": 14.4189,
+      "address": "Josefov, 110 00 Praha 1",
+      "historicalPeriod": "jewish",
+      "yearBuilt": 1270,
+      "architecturalStyle": "Sinagoga Velha-Nova: Gótico (1270); Sinagoga Pinkas: Renascentista (1535); Cemitério: séc. XIV–1787",
+      "significance": "A comunidade judaica mais antiga da Europa Central — documentada desde o século X; o Cemitério Judeu Antigo com doze camadas de sepultamentos; e a Sinagoga Pinkas com os 77.297 nomes dos judeus tchecos assassinados no Holocausto escritos à mão nas paredes.",
+      "description": "A comunidade judaica de Praga é documentada desde o século X — uma das mais antigas da Europa Central. Por séculos, os judeus prageneses viveram confinados ao gueto que hoje chamamos de Josefov, na margem direita do Vltava ao norte do Staré Město. O gueto tinha suas próprias leis, tribunal, escola e mercado. Sobreviveu a múltiplos pogroms — o de 1389 foi o mais brutal, com três mil pessoas mortas em dois dias — porque os reis böhemios e depois os imperadores habsburgos necessitavam dos financistas e comerciantes judeus para suas guerras e projetos.\n\nEm 1781, o Imperador José II promulgou o Edito de Tolerância, abolindo as obrigações mais humilhantes impostas aos judeus: o chapéu amarelo, as restrições de movimento, a proibição de acesso a certas profissões. Em homenagem ao Imperador, o gueto passou a chamar-se Josefov. A emancipação formal viria em 1867. Mas mesmo após ela, muitos judeus prageneses permaneceram no bairro — por escolha e por identidade.\n\nNo fim do século XIX, o Josefov foi em grande parte demolido numa operação de 'saneamento urbano' — as casas medievais foram abaixo, substituídas pelos edifícios art nouveau que hoje abrigam o bairro mais caro de Praga. As sinagogas — construídas em pedra — sobreviveram. O cemitério sobreviveu porque ninguém sabia o que fazer com ele.\n\nO Starý Židovský hřbitov — o Cemitério Judeu Antigo — é um dos lugares mais perturbadores de Praga. Usado entre os séculos XIV e 1787, contém aproximadamente 12.000 lápides visíveis. Mas como o cemitério não podia crescer — confinado pelas muralhas do gueto — os enterros foram sobrepostos em até doze camadas verticais. Abaixo das pedras visíveis jazem entre 80.000 e 100.000 pessoas. O espaço parece transbordar — as pedras inclinadas umas sobre as outras como fruto de uma pressão subterrânea invisível.\n\nA Sinagoga Pinkas — a segunda mais antiga de Praga, fundada em 1535 — tem as paredes cobertas com os nomes de 77.297 judeus tchecos mortos no Holocausto, escritos à mão entre 1954 e 1959: nome, sobrenome, data de nascimento, data de deportação ou data de morte. Terezín e Auschwitz concentram a maioria. O governo comunista fechou a sinagoga em 1968 e apagou os nomes com umidade artificial. Foram reescritos entre 1992 e 1996. Ver aquela massa de nomes — não dados, não estatísticas, mas nomes — é uma das experiências mais difíceis que uma viagem pela Europa pode oferecer.",
+      "immersiveMode": true,
+      "immersiveText": "Você está num espaço de trezentos metros quadrados onde jazem entre 80.000 e 100.000 pessoas em doze camadas verticais.\n\nO Starý Židovský hřbitov foi o único lugar em que a comunidade judaica de Praga tinha permissão para enterrar seus mortos durante quatro séculos. O gueto não podia crescer para fora das muralhas que o cercavam — então quando o espaço acabou, enterraram sobre os que já estavam enterrados. Doze camadas. Os geólogos que estudaram o terreno encontraram ossos de antes de 1400 a até seis metros de profundidade. As pedras que você vê inclinadas umas sobre as outras não são efeito do tempo — são o resultado de solos que se moveram sob o peso.\n\nRabbi Löw — Yehuda Loew ben Bezalel, o Maharal de Praga — está enterrado aqui, no lado leste do cemitério. Morreu em 1609. Em torno da lenda do Maharal cresceu a história do Golem — a criatura de argila do Rio Vltava que ele animou escrevendo a palavra emet (verdade) na testa da figura, e destruiu apagando a primeira letra, deixando apenas met (morte). A lenda do Golem não é uma história de terror; é uma parábola sobre a responsabilidade de quem cria — e sobre o que acontece quando a criatura criada para proteger se torna incontrolável. Franz Kafka cresceu neste bairro com essa história. Ela entrou de alguma forma em cada coisa que ele escreveu.\n\nOs 77.297 nomes na Sinagoga Pinkas foram escritos à mão por uma equipe de calígrafos entre 1954 e 1959. O projeto foi concebido pelo artista Vojtěch Blau, ele mesmo sobrevivente. A ideia era simples: não 77.297 mortos — mas 77.297 pessoas com nome, sobrenome e data de nascimento. Não estatística: indivíduo.\n\nO governo comunista fechou a sinagoga em 1968, logo após o sufocamento da Primavera de Praga, oficialmente por 'restauração'. Especialistas posteriores descobriram que as paredes haviam sido intencionalmente submetidas a umidade para apagar os nomes. O processo durou vinte anos. Entre 1992 e 1996, equipes de voluntários reescreveram todos os 77.297 nomes, consultando os registros que haviam sobrevivido nos arquivos.\n\nExiste no andar superior da Sinagoga Pinkas uma exposição permanente dos desenhos de crianças do campo de concentração de Terezín — o gueto 'modelo' que os nazistas mostravam à Cruz Vermelha como prova de que os judeus eram 'bem tratados'. Das 15.000 crianças que passaram por Terezín, menos de 100 sobreviveram. Os desenhos mostram árvores, famílias, casas, borboletas — o que crianças desenham. E também cercas aramadas, guaritas, filas de pessoas com estrelas amarelas. Crianças desenham o que veem.\n\nA Sinagoga Velha-Nova — Staronová synagoga — é a mais antiga sinagoga em funcionamento contínuo da Europa, construída em 1270. Permanece em uso desde então, exceto durante a ocupação nazista. No sótão, diz a lenda, está o Golem original de argila do Maharal — guardado para quando for necessário novamente. O sótão está fechado ao público.",
+      "observationPoints": [
+        "No cemitério: as pedras inclinadas umas sobre as outras — não por descuido, mas pelo movimento do solo sobre doze camadas de enterramento",
+        "O túmulo do Maharal Rabbi Löw: identificável pelo acúmulo de pedrinhas deixadas pelos visitantes — tradição judaica de marcar a visita",
+        "Na Sinagoga Pinkas: tente encontrar nomes repetidos na mesma família — pai, mãe, filhos com datas próximas",
+        "A Sinagoga Velha-Nova: o interior com as duas naves em bóveda de cinco nervuras — a mais antiga arquitetura judaica da Europa Central em uso contínuo",
+        "O contraste entre o Josefov e o bairro ao redor: art nouveau sobre o traçado de um gueto medieval apagado"
+      ],
+      "suggestedExperience": "Compre o ingresso combinado que inclui todas as sinagogas e o cemitério (jewishmuseum.cz). Comece pela Sinagoga Pinkas — vá quando ainda há energia para ficar parado diante dos nomes. O cemitério é logo ao lado. Reserve a Sinagoga Velha-Nova para o final, quando o cansaço emocional já permitir uma visita mais calma. Total: 2h a 2h30.",
+      "searchSuggestions": [
+        "Josefov Praga gueto judaico história",
+        "Sinagoga Pinkas 77297 nomes Holocausto",
+        "Maharal Rabbi Löw Golem Praga",
+        "Cemitério Judeu Antigo Praga camadas enterramento",
+        "Terezín campo Praga crianças desenhos"
+      ],
+      "visitType": "indoor",
+      "entryFee": {
+        "free": false,
+        "price": "550 CZK (~22€) combinado; 350 CZK (~14€) reduzido",
+        "notes": "Ingresso combinado em jewishmuseum.cz. Fechado aos sábados (Shabat) e feriados judaicos"
+      },
+      "schedule": {
+        "mon": { "open": "09:00", "close": "18:00" },
+        "tue": { "open": "09:00", "close": "18:00" },
+        "wed": { "open": "09:00", "close": "18:00" },
+        "thu": { "open": "09:00", "close": "18:00" },
+        "fri": { "open": "09:00", "close": "16:00" },
+        "sat": { "open": "closed", "close": "closed" },
+        "sun": { "open": "09:00", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/praga/audio/josefov.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/josefov/main.jpg",
+            "caption": "O Cemitério Judeu Antigo — doze camadas de enterramento, 12.000 pedras visíveis, 80.000 a 100.000 pessoas abaixo",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/josefov/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "pinkas-nomes",
+            "name": "Sinagoga Pinkas — As Paredes de Nomes",
+            "image": "/media/routes/praga/sub-attractions/josefov/pinkas-nomes.jpg",
+            "caption": "77.297 nomes escritos à mão nas paredes — apagados pelo governo comunista em 1968, reescritos entre 1992 e 1996.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "As paredes da Sinagoga Pinkas. 77.297 nomes de judeus tchecos mortos no Holocausto, escritos à mão. Não estatísticas — nomes.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Cada entrada: sobrenome em letras maiúsculas vermelhas, nome próprio em preto, data de nascimento, data de deportação ou morte. Terezín. Auschwitz. Sobibor. As letras vermelhas são os sobrenomes das famílias — procure repetições.",
+                  "duration": 9,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "O governo comunista fechou a sinagoga em 1968 e apagou os nomes com umidade intencional. Durante vinte anos, as paredes ficaram brancas. Entre 1992 e 1996, cada nome foi reescrito à mão consultando arquivos.",
+                  "duration": 8,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O projeto foi concebido por Vojtěch Blau, sobrevivente. A ideia: não 77.297 mortos — mas 77.297 pessoas. A diferença entre estatística e indivíduo é o nome.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "cemiterio-judeu",
+            "name": "Starý Židovský hřbitov — O Cemitério em Camadas",
+            "image": "/media/routes/praga/sub-attractions/josefov/cemiterio-judeu.jpg",
+            "caption": "12.000 pedras visíveis, doze camadas de enterramento — um espaço que transborda de mortos porque não havia espaço para crescer.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Starý Židovský hřbitov — o Cemitério Judeu Antigo de Praga. Usado entre os séculos XIV e 1787. 12.000 pedras visíveis.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O cemitério não podia crescer — estava confinado pelas muralhas do gueto. Então os enterros foram sobrepostos: doze camadas verticais. Abaixo das pedras que você vê jazem entre 80.000 e 100.000 pessoas.",
+                  "duration": 8,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "As pedras inclinadas umas sobre as outras não são descuido: são o resultado do solo movendo-se sob o peso de doze camadas. O cemitério transborda fisicamente — a pressão é de baixo para cima.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "No lado leste: o túmulo do Maharal Rabbi Löw, morto em 1609. A lenda diz que o Golem de argila que ele criou para proteger o gueto ainda está no sótão da Sinagoga Velha-Nova. O sótão está fechado.",
+                  "duration": 7,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim do Dia 2 — a Josefov fica a 5 minutos a pé da Staroměstské náměstí. Para o jantar, siga em direção à Dlouhá ou Kozí — restaurantes menos turísticos e mais honestos com a culinária tcheca. A Vinohrady, a 20 minutos de metrô (linha A), tem a cena gastronômica mais autêntica de Praga.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": ["judaísmo", "Holocausto", "história", "memorial", "imersivo"]
+    },
+    {
+      "id": "vysehrad",
+      "dayId": "dia-3",
+      "order": 1,
+      "name": "Vyšehrad — O Panteão Nacional",
+      "lat": 50.0633,
+      "lng": 14.4183,
+      "address": "V Pevnosti 159/5b, 128 00 Praha 2",
+      "historicalPeriod": "medieval",
+      "yearBuilt": 970,
+      "architecturalStyle": "Romanesque (Rotunda de São Martinho, séc. XI); Neogótico (Basílica dos Santos Pedro e Paulo, 1903); Cemitério Panteão (séc. XIX–XX)",
+      "significance": "O promontório rochoso onde a lendária Princesa Libuše profetizou a fundação de Praga — e o cemitério onde Dvořák, Smetana, Alfons Mucha e Karel Čapek estão enterrados; o lugar mais tranquilo e mais genuinamente tcheco da cidade.",
+      "description": "Vyšehrad — a Cidade Alta, em tcheco — é o promontório rochoso sobre o Vltava a dois quilômetros ao sul do centro histórico. Na mitologia fundacional checa, foi aqui que a Princesa Libuše — a mulher-profeta que governou a Boêmia antes dos Přemysl — teve a visão do futuro: apontou para a curva do rio ao norte e decretou que ali nasceria uma cidade cuja glória tocaria as estrelas. A cidade que ela previu era Praga.\n\nA história documentada começa no século X. O afloramento rochoso foi a principal fortaleza da dinastia Přemysl antes de o centro de poder migrar para a Hradčany. A Rotunda de São Martinho, construída no século XI, é o edifício mais antigo ainda de pé em Praga.\n\nO cemitério no interior das muralhas é o Panteão Nacional da República Tcheca — e é menos turístico do que qualquer outro sítio histórico de Praga. Aqui estão enterrados Antonín Dvořák, Bedřich Smetana, Alfons Mucha e Karel Čapek — o escritor que criou a palavra 'robô' na peça RUR de 1920.\n\nO que a maioria dos visitantes não sabe é que Bedřich Smetana, ao compor o poema sinfônico Vltava — a obra orquestral tcheca mais conhecida do mundo — estava completamente surdo. Compôs inteiramente a partir da memória e do que conseguia 'sentir' nas vibrações que o piano transmitia aos ossos. A partitura de Vltava foi escrita em Praga, nesta língua tcheca que Smetana defendia em tempo de domínio austríaco. Ele está enterrado num cemitério que olha para o rio que musicou sem poder ouvi-lo.\n\nO túmulo de Dvořák, austero e direto, tem apenas seu nome e as datas. O de Smetana tem um busto em bronze. O de Mucha é elaborado, como sua arte. O de Čapek — que morreu em dezembro de 1938, três meses após o Acordo de Munique que entregou a Tchecoslováquia a Hitler, e dois meses antes da ocupação nazista de Praga — tem uma inscrição simples. A Gestapo foi prendê-lo em janeiro de 1939 e não encontrou ninguém: ele havia morrido de pneumonia.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O túmulo de Dvořák — a austeridade em contraste com os outros monumentos do cemitério",
+        "Da muralha sul: a vista do Vltava em curva e os blocos de habitação socialista da margem oposta — dois Pragas numa única vista",
+        "A Rotunda de São Martinho (séc. XI): o menor e mais antigo edifício de Praga, escondido atrás das muralhas",
+        "O momento de silêncio no interior do Panteão: menos de trinta visitantes num espaço que deveria ter milhares",
+        "Os canhões e muralhas barrocas ao norte: Vyšehrad foi reformado militarmente no século XVII e nunca precisou ser usado em combate"
+      ],
+      "suggestedExperience": "Chegue de metrô (linha C, estação Vyšehrad) e entre pelas muralhas barrocas. Comece pela Basílica dos Santos Pedro e Paulo para orientação. Depois vá ao cemitério — reserve pelo menos 30 minutos para percorrê-lo com calma. Da muralha sul, observe o Vltava. O Vyšehrad inteiro pode ser visto em 1h30 a 2h. É o único lugar de Praga onde você pode passar tempo sem multidão.",
+      "searchSuggestions": [
+        "Vyšehrad Praga Princesa Libuše mito fundação",
+        "Cemitério Vyšehrad Dvořák Smetana Mucha",
+        "Smetana Vltava surdo composição",
+        "Karel Čapek robô RUR Gestapo morte",
+        "Rotunda São Martinho mais antigo Praga"
+      ],
+      "visitType": "outdoor",
+      "entryFee": { "free": true, "price": null, "notes": "Muralhas e cemitério: gratuitos. Basílica São Pedro e Paulo: 50 CZK (~2€)" },
+      "schedule": {
+        "mon": { "open": "09:30", "close": "18:00" },
+        "tue": { "open": "09:30", "close": "18:00" },
+        "wed": { "open": "09:30", "close": "18:00" },
+        "thu": { "open": "09:30", "close": "18:00" },
+        "fri": { "open": "09:30", "close": "18:00" },
+        "sat": { "open": "09:30", "close": "18:00" },
+        "sun": { "open": "09:30", "close": "18:00" }
+      },
+      "estimatedVisitMinutes": 100,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 200,
+      "media": {
+        "audio": "/media/routes/praga/audio/vysehrad.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/vysehrad/main.jpg",
+            "caption": "A Basílica de São Pedro e Paulo e o promontório do Vyšehrad sobre o Vltava — o Panteão Nacional tcheco",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/vysehrad/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "panteon-tumulos",
+            "name": "Cemitério do Vyšehrad — Dvořák, Smetana e Mucha",
+            "image": "/media/routes/praga/sub-attractions/vysehrad/panteon-tumulos.jpg",
+            "caption": "O Panteão Nacional tcheco — onde repousam Dvořák, Smetana (que era surdo ao compor o Vltava) e Mucha.",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O cemitério do Vyšehrad — o Panteão Nacional da República Tcheca. Localizado dentro das muralhas medievais, acima do Vltava.",
+                  "duration": 5,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O túmulo de Bedřich Smetana. Ao compor o poema sinfônico Vltava — a obra orquestral checa mais conhecida do mundo — Smetana estava completamente surdo. Compôs a partir da memória e das vibrações do piano nos ossos das mãos.",
+                  "duration": 9,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "O túmulo de Antonín Dvořák — austeridade deliberada. Apenas nome e datas. Nenhum adorno. O compositor que levou as melodias folclóricas böhemias para os Estados Unidos e voltou para morrer aqui.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "O cemitério inteiro, ao entardecer, com menos de trinta pessoas ao redor. Os maiores criadores da cultura tcheca — num silêncio que a Hradčany nunca ofereceu.",
+                  "duration": 6,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Do Vyšehrad, tome o metrô linha C (estação Vyšehrad) em direção ao centro. Desça em Muzeum para a Václavské náměstí — a estação está na base do Museu Nacional, topo da praça.",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 15,
+      "tags": ["cemitério", "panteão", "medieval", "Dvořák", "gratuito"]
+    },
+    {
+      "id": "vaclavske-namesti",
+      "dayId": "dia-3",
+      "order": 2,
+      "name": "Václavské náměstí — O Boulevard das Revoluções",
+      "lat": 50.0816,
+      "lng": 14.4278,
+      "address": "Václavské náměstí, 110 00 Praha 1",
+      "historicalPeriod": "modern",
+      "yearBuilt": 1348,
+      "architecturalStyle": "Boulevard histórico (Mercado dos Cavalos séc. XIV); Ecletismo e Art Nouveau (edificação séc. XIX–XX); Museu Nacional Neoclássico (1891)",
+      "significance": "O boulevard de 750 metros onde a Tchecoslováquia foi proclamada em 1918, ocupada pelos nazistas em 1939, sofreu tanques soviéticos em 1968, testemunhou a autoimolação de Jan Palach em 1969 e foi o palco da Revolução de Veludo em 1989.",
+      "description": "Václavské náměstí não é uma praça — é um boulevard de 750 metros de comprimento e 60 metros de largura que desce do Museu Nacional, no alto, até a Praça Jungmannova, em baixo. Os planos medievais o chamavam de Mercado dos Cavalos, criado por Carlos IV em 1348. O nome atual homenageia São Venceslau, o duque böhemio do século X assassinado pelo irmão Boleslau e canonizado como patrono da Boêmia.\n\nA história recente da praça é uma cronologia comprimida de traumas e libertações tchecas. Em 28 de outubro de 1918, a independência da Tchecoslováquia foi proclamada aqui — depois de séculos sob domínio habsburgo. Em 15 de março de 1939, as tropas de Hitler marcharam pelo boulevard sob olhares silenciosos. Em 25 de fevereiro de 1948, o governo comunista assumiu o poder em Praga — a praça foi o espaço onde as multidões se reuniram, algumas em apoio, outras em silêncio resignado.\n\nEm agosto de 1968, tanques soviéticos ocuparam a praça durante o sufocamento da Primavera de Praga. Em 16 de janeiro de 1969, Jan Palach, estudante de filosofia de 20 anos, se autoimolou no topo da praça, diante do Museu Nacional, em protesto contra a ocupação soviética e a passividade da resistência checa. Morreu três dias depois. Seu funeral reuniu 800.000 pessoas. Uma placa marca o local exato.\n\nEm novembro de 1989, a praça foi o epicentro da Revolução de Veludo. Centenas de milhares de pessoas reunidas diariamente por duas semanas — em silêncio, com chaves tilintando como símbolo de que o regime deveria abrir suas portas. Em 24 de novembro, Václav Havel e Alexander Dubček apareceram juntos numa varanda do número 36. O regime entrou em colapso em dias.\n\nO Museu Nacional no topo — o edifício neoclássico com cúpula, construído em 1891 — tem suas colunas marcadas pelos buracos dos projéteis soviéticos de agosto de 1968. A decisão de não restaurar esses buracos foi deliberada: são a memória mais honesta que o edifício poderia ter.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Os buracos dos projéteis soviéticos de 1968 nas colunas do Museu Nacional — não restaurados propositalmente",
+        "A placa de Jan Palach no topo da praça: a autoimolação como último recurso de um jovem que acreditava que o silêncio coletivo era uma forma de colaboração",
+        "A proporção do boulevard: 750m × 60m — dimensionado para receber multidões; cada evento histórico aqui envolveu dezenas a centenas de milhares de pessoas",
+        "A estátua equestre de São Venceslau no centro da praça: ponto de encontro tradicional dos praguenses — 'sob o cavalo' é o endereço de qualquer encontro sem endereço fixo",
+        "O edifício do número 36 com a varanda de onde Havel e Dubček apareceram em 1989 — hoje um hotel"
+      ],
+      "suggestedExperience": "Caminhe o boulevard do Museu Nacional até o fundo da praça. Pare na placa de Jan Palach. Suba ao Museu Nacional se quiser ver os buracos de projéteis de perto e a exposição permanente sobre a história checa. Reserve 30 minutos no café Grand Hotel Europa (fachada art nouveau do número 25) — o interior barroco-vienense foi preservado e é genuinamente bonito. Depois, pegue o ônibus ou metrô para Český Krumlov — saída do terminal Florenc.",
+      "searchSuggestions": [
+        "Václavské náměstí história 1918 1948 1968 1989",
+        "Jan Palach autoimolação 1969 Praga",
+        "Revolução de Veludo 1989 Havel chaves",
+        "Primavera de Praga 1968 tanques soviéticos",
+        "Tchecoslováquia independência 1918 Masaryk"
+      ],
+      "visitType": "outdoor",
+      "entryFee": { "free": true, "price": null, "notes": "Boulevard gratuito. Museu Nacional: 250 CZK (~10€)" },
+      "schedule": {
+        "mon": { "open": "00:00", "close": "23:59" },
+        "tue": { "open": "00:00", "close": "23:59" },
+        "wed": { "open": "00:00", "close": "23:59" },
+        "thu": { "open": "00:00", "close": "23:59" },
+        "fri": { "open": "00:00", "close": "23:59" },
+        "sat": { "open": "00:00", "close": "23:59" },
+        "sun": { "open": "00:00", "close": "23:59" }
+      },
+      "estimatedVisitMinutes": 60,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/praga/audio/vaclavske-namesti.mp3",
+        "audioDurationSeconds": null,
+        "photos": [
+          {
+            "src": "/media/routes/praga/photos/vaclavske-namesti/main.jpg",
+            "caption": "A Václavské náměstí com a estátua equestre de São Venceslau e o Museu Nacional ao fundo — o boulevard das revoluções tchecas",
+            "type": "recognition"
+          }
+        ],
+        "thumb": "/media/routes/praga/photos/vaclavske-namesti/thumb.jpg",
+        "subAttractions": [
+          {
+            "id": "jan-palach-memorial",
+            "name": "Memorial Jan Palach",
+            "image": "/media/routes/praga/sub-attractions/vaclavske-namesti/jan-palach-memorial.jpg",
+            "caption": "O local da autoimolação de Jan Palach em 16 de janeiro de 1969 — estudante de 20 anos que escolheu o fogo para denunciar o silêncio coletivo.",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "O topo da Václavské náměstí, diante do Museu Nacional. Em 16 de janeiro de 1969, um estudante de filosofia de 20 anos chamado Jan Palach se autoimolou aqui.",
+                  "duration": 6,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Palach era estudante da Universidade Carolina. Em agosto de 1968, os tanques soviéticos tinham entrado em Praga. Em janeiro de 1969, a resistência tcheca estava dissolvendo-se em silêncio e conformidade. Palach decidiu que o silêncio era uma forma de colaboração.",
+                  "duration": 9,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Ele morreu três dias depois. O funeral reuniu 800.000 pessoas. Em 1989 — vinte anos depois — os manifestantes da Revolução de Veludo deixaram flores neste mesmo ponto todas as noites durante duas semanas.",
+                  "duration": 8,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A placa que você vê foi instalada após 1989. Durante o governo comunista, qualquer memorial a Palach era removido pela polícia. Por vinte anos, as flores eram deixadas e retiradas à noite — um ciclo que não parou.",
+                  "duration": 7,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "walkingNotes": "Fim de Praga — do centro da Václavské náměstí, o Terminal Florenc fica a 20 minutos de metrô (linha B até Florenc). Ônibus Student Agency para Český Krumlov saem às ~8h, ~10h e ~12h — duração ~3h. Reserve em studentagency.eu. A chegada em Český Krumlov ao início da tarde permite ver o castelo ainda com luz do dia.",
+      "nextTransport": "train",
+      "nextTransportMinutes": 180,
+      "tags": ["história", "Revolução", "boulevard", "gratuito", "moderno"]
+    }
+  ],
+  "segments": [
+    {
+      "from": "prazsky-hrad",
+      "to": "mala-strana-karluv-most",
+      "distance": 1.1,
+      "duration": 20,
+      "transport": "walking",
+      "waypoints": [
+        [50.0908, 14.4005],
+        [50.0886, 14.4040],
+        [50.0866, 14.4114]
+      ],
+      "streetNotes": "Desça pela escadaria de Nerudova — a rua barroca com casas marcadas por tabuletas de pedra em forma de animais. No fundo, vire à esquerda para a Praça de Malostranská e depois siga pela Mostecká até a entrada da Ponte Carlos."
+    },
+    {
+      "from": "staromestske-namesti",
+      "to": "josefov",
+      "distance": 0.4,
+      "duration": 5,
+      "transport": "walking",
+      "waypoints": [
+        [50.0871, 14.4208],
+        [50.0899, 14.4189]
+      ],
+      "streetNotes": "Siga pela Maiselova para o norte — a rua que corta o coração do antigo gueto. As sinagogas começam a aparecer à esquerda depois de 200 metros."
+    },
+    {
+      "from": "vysehrad",
+      "to": "vaclavske-namesti",
+      "distance": 2.2,
+      "duration": 15,
+      "transport": "subway",
+      "waypoints": [
+        [50.0633, 14.4183],
+        [50.0816, 14.4278]
+      ],
+      "streetNotes": "Metrô linha C (vermelha): estação Vyšehrad → estação Muzeum. Do Museu Nacional, você já está no topo da Václavské náměstí."
+    }
+  ]
+}

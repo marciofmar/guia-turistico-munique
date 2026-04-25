@@ -19,13 +19,24 @@ import {
 } from './utils/formatters.js';
 import { el, clearElement } from './utils/dom.js';
 
-const MUNIQUE_ID = 'munique-2026';
+// Ordem canônica de exibição dos roteiros (ordem do itinerário)
+const ROUTE_ORDER = [
+  'munique-2026',
+  'nuremberg-2026',
+  'praga-2026',
+  'cesky-krumlov-2026',
+  'budapeste-2026',
+  'bratislava-2026',
+  'viena-2026',
+  'madri-2026',
+];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
-function getPrimaryRoute() {
+function getSortedRoutes() {
   const all = getAllRoutes();
-  return getRoute(MUNIQUE_ID) || all[0] || null;
+  const byId = Object.fromEntries(all.map(r => [r.id, r]));
+  return ROUTE_ORDER.map(id => byId[id]).filter(Boolean);
 }
 
 function parseDayFromQuery(hash) {
@@ -93,69 +104,76 @@ function renderDayHeader(day) {
 // ── Home page ─────────────────────────────────────────────────────────────────
 addRoute('/', (container) => {
   clearElement(container);
-  const route = getPrimaryRoute();
+  const routes = getSortedRoutes();
 
-  renderHeader(container, { title: 'Munique & Arredores' });
-
-  if (!route) {
-    container.appendChild(el('div', { className: 'main-content', style: { padding: 'var(--space-lg)' } },
-      el('p', {}, 'Nenhum roteiro disponível.')
-    ));
-    renderBottomNav(container, 'route');
-    return;
-  }
+  renderHeader(container, { title: 'Minha Viagem 2026' });
 
   const main = el('div', { className: 'main-content home' });
 
   // Hero
   main.appendChild(el('div', { className: 'home__hero' },
-    el('h2', { className: 'home__hero-title' }, route.title || 'Munique & Arredores'),
+    el('h2', { className: 'home__hero-title' }, '🗺️ Munique & Leste Europeu'),
     el('p', { className: 'home__hero-subtitle' },
-      route.subtitle || '6 dias \u00b7 Baviera, Alpes e Salzburgo'),
-    route.tripDates
-      ? el('p', { className: 'home__hero-dates' },
-          `${formatDate(route.tripDates.start)} \u2013 ${formatDate(route.tripDates.end)} \u00b7 2026`)
-      : null
+      '8 destinos · 23 dias · Mai–Jun 2026'),
+    el('p', { className: 'home__hero-dates' },
+      '31 mai – 22 jun · Baviera, Boêmia, Danúbio, Alpes, Madri')
   ));
 
-  // Grid de dias
-  const grid = el('div', { className: 'home__days-grid' });
+  // Seção de cidades
+  const section = el('div', { className: 'home__routes-section' },
+    el('h3', { className: 'home__section-title' }, 'Escolha um destino')
+  );
 
-  for (let i = 0; i < (route.days || []).length; i++) {
-    const day = route.days[i];
-    const badge = dayTypeBadge(day.dayType);
-    const poiCount = (day.poiIds || []).length;
+  // Grid de cidades
+  const grid = el('div', { className: 'home__routes-grid' });
+
+  for (const route of routes) {
+    const days = route.days || [];
+    const totalPOIs = (route.pois || []).length;
+    const firstDay = days[0];
+    const lastDay  = days[days.length - 1];
+
+    // Flag emoji por país (baseado no id)
+    const flagMap = {
+      'munique-2026': '🇩🇪', 'nuremberg-2026': '🇩🇪',
+      'praga-2026': '🇨🇿', 'cesky-krumlov-2026': '🇨🇿',
+      'budapeste-2026': '🇭🇺', 'bratislava-2026': '🇸🇰',
+      'viena-2026': '🇦🇹', 'madri-2026': '🇪🇸',
+    };
+    const flag = flagMap[route.id] || '🌍';
+
+    const dateRange = (firstDay && lastDay)
+      ? `${formatDate(firstDay.date)} – ${formatDate(lastDay.date)}`
+      : '';
 
     const card = el('div', {
-      className: `day-card day-card--${day.dayType}`,
+      className: 'route-card',
       onclick: () => {
-        setState('selectedDayIndex', i);
-        navigate(`#/route/${route.id}?day=${i}`);
+        setState('selectedDayIndex', 0);
+        navigate(`#/route/${route.id}?day=0`);
       },
       role: 'button',
       tabIndex: 0,
     },
-      el('div', { className: 'day-card__header' },
-        el('span', { className: 'day-card__number' },
-          `DIA ${day.order} \u00b7 ${formatDate(day.date)}`),
-        el('span', { className: 'day-card__emoji' }, day.coverEmoji || badge.emoji)
+      el('div', { className: 'route-card__flag' }, flag),
+      el('div', { className: 'route-card__body' },
+        el('h3', { className: 'route-card__title' }, route.title || route.id),
+        route.subtitle
+          ? el('p', { className: 'route-card__subtitle' }, route.subtitle)
+          : null,
+        el('div', { className: 'route-card__meta' },
+          el('span', { className: 'route-card__dates' }, dateRange),
+          el('span', { className: 'route-card__stats' },
+            `${days.length} dia${days.length !== 1 ? 's' : ''} · ${totalPOIs} parada${totalPOIs !== 1 ? 's' : ''}`)
+        )
       ),
-      el('h3', { className: 'day-card__title' }, day.title),
-      day.subtitle
-        ? el('p', { className: 'day-card__subtitle' }, day.subtitle)
-        : null,
-      el('div', { className: 'day-card__footer' },
-        el('span', {
-          className: `day-type-badge day-type-badge--${day.dayType}`,
-        }, badge.emoji, badge.label),
-        el('span', { className: 'day-card__pois-count' },
-          `${poiCount} parada${poiCount === 1 ? '' : 's'}`)
-      )
+      el('span', { className: 'route-card__arrow' }, '›')
     );
     grid.appendChild(card);
   }
 
-  main.appendChild(grid);
+  section.appendChild(grid);
+  main.appendChild(section);
   container.appendChild(main);
   renderBottomNav(container, 'route');
 });
@@ -360,26 +378,42 @@ addRoute('/info', (container) => {
   renderHeader(container, { title: 'Informações', showBack: true });
 
   const main = el('div', { className: 'main-content', style: { padding: 'var(--space-lg)' } },
-    el('h2', { style: { marginBottom: 'var(--space-md)', color: 'var(--color-primary-dark)' } },
-      'Guia Munique & Arredores'),
+    el('h2', { style: { marginBottom: 'var(--space-sm)', color: 'var(--color-primary-dark)' } },
+      '🗺️ Munique & Leste Europeu 2026'),
+    el('p', { style: { marginBottom: 'var(--space-md)', lineHeight: '1.7', color: 'var(--color-text-muted)' } },
+      '23 dias · 8 destinos · 31 mai – 22 jun'
+    ),
     el('p', { style: { marginBottom: 'var(--space-md)', lineHeight: '1.7' } },
-      'Guia turístico interativo de 6 dias cobrindo Munique, Castelos da Baviera, Zugspitze (Alpes alemães) e Salzburgo. Cada dia tem tipo próprio — caminhada urbana, museu ou excursão regional de trem.'
+      'Guia turístico interativo com narração de áudio, mapas offline e reels imersivos. Cobre Munique, Nuremberg, Praga, Český Krumlov, Budapeste, Bratislava, Viena e Madri.'
     ),
     el('h3', { style: { marginBottom: 'var(--space-sm)', color: 'var(--color-primary)' } }, 'Como usar'),
     el('ul', { style: { paddingLeft: 'var(--space-lg)', lineHeight: '2' } },
-      el('li', {}, 'Na home, escolha um dos 6 dias do roteiro'),
+      el('li', {}, 'Na home, escolha um destino e depois o dia do roteiro'),
       el('li', {}, 'Em dias urbanos, use "Iniciar caminhada" para ativar o GPS'),
       el('li', {}, 'Em dias de excursão, confira o card de logística antes de sair'),
-      el('li', {}, 'Toque em qualquer parada para ler a narração completa'),
-      el('li', {}, 'Em algumas paradas há o Modo Imersivo — texto aprofundado'),
-      el('li', {}, 'Sub-atrações marcadas com \u25B6 abrem mini-reels com narração rápida')
+      el('li', {}, 'Toque em qualquer parada para abrir a narração completa'),
+      el('li', {}, 'Paradas com 🎧 têm Modo Imersivo — texto e contexto aprofundados'),
+      el('li', {}, 'Sub-atrações com ▶ abrem mini-reels com áudio ambiente')
     ),
-    el('h3', { style: { marginTop: 'var(--space-lg)', marginBottom: 'var(--space-sm)', color: 'var(--color-primary)' } }, 'Dicas'),
+    el('h3', { style: { marginTop: 'var(--space-lg)', marginBottom: 'var(--space-sm)', color: 'var(--color-primary)' } }, 'Dicas essenciais'),
     el('ul', { style: { paddingLeft: 'var(--space-lg)', lineHeight: '2' } },
-      el('li', {}, 'Use fones de ouvido para os áudios e reels'),
-      el('li', {}, 'Compre ingressos de Neuschwanstein com antecedência'),
-      el('li', {}, 'Salzburg Card cobre transporte + funicular da fortaleza'),
-      el('li', {}, 'O app funciona offline após o primeiro carregamento')
+      el('li', {}, 'Use fones de ouvido para narrações e reels'),
+      el('li', {}, 'Neuschwanstein: compre bilhete online com semanas de antecedência'),
+      el('li', {}, 'Zugspitze: reserve cabine do teleférico para o horário certo'),
+      el('li', {}, 'Salzburg Card cobre transporte público + funicular da Fortaleza'),
+      el('li', {}, 'Prado: Las Meninas fica na Sala 12 — vá cedo para ver sem multidão'),
+      el('li', {}, 'O app funciona offline após o primeiro carregamento (PWA)')
+    ),
+    el('h3', { style: { marginTop: 'var(--space-lg)', marginBottom: 'var(--space-sm)', color: 'var(--color-primary)' } }, 'Itinerário resumido'),
+    el('ul', { style: { paddingLeft: 'var(--space-lg)', lineHeight: '2', fontSize: '0.9rem' } },
+      el('li', {}, '🇩🇪 Munique — 31 mai–5 jun (6 dias)'),
+      el('li', {}, '🇩🇪 Nuremberg — 6–7 jun (2 dias)'),
+      el('li', {}, '🇨🇿 Praga — 8–10 jun (3 dias)'),
+      el('li', {}, '🇨🇿 Český Krumlov — 11–12 jun (2 dias)'),
+      el('li', {}, '🇭🇺 Budapeste — 13–15 jun (3 dias)'),
+      el('li', {}, '🇸🇰 Bratislava — 16–17 jun (2 dias)'),
+      el('li', {}, '🇦🇹 Viena — 18–20 jun (3 dias)'),
+      el('li', {}, '🇪🇸 Madri — 21–22 jun (2 dias)')
     )
   );
 
