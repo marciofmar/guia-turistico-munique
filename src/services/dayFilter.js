@@ -98,6 +98,21 @@ export function countOpenPOIs(route, dayKey) {
 
 // ── Multi-day itinerary (Munique) ────────────────────────────────────────────
 // Filtra POIs por `dayId` (vinculação explícita no JSON) em vez de dia da semana.
+
+// Normaliza segmentos para campos canônicos (walkingMinutes + distanceMeters),
+// independente do formato usado no JSON (munique, praga/nuremberg ou legado).
+function normalizeSegment(seg) {
+  const walkingMinutes =
+    seg.walkingMinutes ?? seg.duration ?? seg.minutes ?? 0;
+  const distanceMeters =
+    seg.distanceMeters != null
+      ? seg.distanceMeters
+      : seg.distance != null
+        ? Math.round(seg.distance * 1000)
+        : 0;
+  return { ...seg, walkingMinutes, distanceMeters };
+}
+
 export function filterRouteByDayIndex(route, dayIndex) {
   const day = route.days?.[dayIndex];
   if (!day) {
@@ -117,9 +132,10 @@ export function filterRouteByDayIndex(route, dayIndex) {
     };
   }
 
-  // POIs deste dia, enriquecidos com campos de UI
+  // POIs deste dia, ordenados pelo campo `order`, enriquecidos com campos de UI
   const dayPOIs = route.pois
     .filter(p => p.dayId === day.id)
+    .sort((a, b) => (a.order || 0) - (b.order || 0))
     .map(poi => ({
       ...poi,
       isOpen: true,
@@ -130,14 +146,14 @@ export function filterRouteByDayIndex(route, dayIndex) {
       statusType: poi.visitType === 'external' ? 'external' : 'open',
     }));
 
-  // Segmentos entre os POIs deste dia (na ordem em que aparecem)
+  // Segmentos entre os POIs deste dia (na ordem em que aparecem), normalizados
   const daySegments = [];
   for (let i = 0; i < dayPOIs.length - 1; i++) {
     const seg = route.segments.find(
       s => s.from === dayPOIs[i].id && s.to === dayPOIs[i + 1].id
     );
     if (seg) {
-      daySegments.push(seg);
+      daySegments.push(normalizeSegment(seg));
     } else {
       daySegments.push({
         from: dayPOIs[i].id,

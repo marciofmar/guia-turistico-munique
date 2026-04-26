@@ -3575,8 +3575,8 @@
       "from": "salzburg-getreidegasse",
       "to": "salzburg-dom",
       "transport": "walking",
-      "walkingMinutes": 5,
-      "distanceMeters": 350,
+      "walkingMinutes": 7,
+      "distanceMeters": 500,
       "path": [
         [
           47.8001,
@@ -3677,8 +3677,8 @@
       "from": "plonlein",
       "to": "stadtmauer-rothenburg",
       "transport": "walking",
-      "walkingMinutes": 3,
-      "distanceMeters": 180,
+      "walkingMinutes": 8,
+      "distanceMeters": 550,
       "path": [
         [
           49.3769,

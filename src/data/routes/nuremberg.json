@@ -700,8 +700,8 @@
       "dayId": "dia-1",
       "order": 2,
       "name": "Casa de Albrecht Dürer",
-      "lat": 49.4566,
-      "lng": 11.077,
+      "lat": 49.4585,
+      "lng": 11.0773,
       "address": "Albrecht-Dürer-Straße 39, 90403 Nürnberg",
       "historicalPeriod": "renaissance",
       "yearBuilt": "c. 1420 (construção) / 1509 (compra por Dürer)",
@@ -1262,7 +1262,7 @@
     {
       "from": "kaiserburg",
       "to": "durer-haus",
-      "distance": 0.25,
+      "distance": 0.55,
       "duration": 15,
       "transport": "walking",
       "waypoints": [
@@ -1271,12 +1271,12 @@
           11.0752
         ],
         [
-          49.459,
-          11.0768
+          49.4595,
+          11.0762
         ],
         [
-          49.4566,
-          11.077
+          49.4585,
+          11.0773
         ]
       ],
       "streetNotes": "Desça pelo Tiergärtnertorplatz — a praça medieval com casas de enxaimel. Desvio opcional: Kettensteg (ponte histórica sobre o Pegnitz, 5 min a pé à esquerda). Depois siga pela Albrecht-Dürer-Straße até o nº 39."
@@ -1284,17 +1284,17 @@
     {
       "from": "durer-haus",
       "to": "hauptmarkt-nuremberg",
-      "distance": 0.6,
-      "duration": 12,
+      "distance": 0.5,
+      "duration": 8,
       "transport": "walking",
       "waypoints": [
         [
-          49.4566,
-          11.077
+          49.4585,
+          11.0773
         ],
         [
-          49.4578,
-          11.0762
+          49.457,
+          11.0775
         ],
         [
           49.4553,
@@ -1372,7 +1372,7 @@
     {
       "from": "memorial-julgamentos",
       "to": "germanisches-nationalmuseum",
-      "distance": 3.1,
+      "distance": 2.5,
       "duration": 20,
       "transport": "subway",
       "waypoints": [
