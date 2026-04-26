@@ -3718,7 +3718,8 @@
       "to": "alte-pinakothek",
       "transport": "subway",
       "minutes": 50,
-      "notes": "Ônibus 726 até Dachau Bahnhof (~10 min) + S2 até Hauptbahnhof (~28 min) + U2 até Königsplatz + 5 min a pé"
+      "notes": "Ônibus 726 até Dachau Bahnhof (~10 min) + S2 até Hauptbahnhof (~28 min) + U2 até Königsplatz + 5 min a pé",
+      "distanceMeters": 19200
     }
   ]
 }

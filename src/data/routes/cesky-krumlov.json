@@ -605,14 +605,16 @@
       "to": "historicke-centrum-ck",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Desça o Latrán, almoço na Krcma v Satlavske Ulici, atravesse a Lazebnický most até a ilha histórica"
+      "notes": "Desça o Latrán, almoço na Krcma v Satlavske Ulici, atravesse a Lazebnický most até a ilha histórica",
+      "distance": 0.41
     },
     {
       "from": "zamecka-zahrada",
       "to": "egon-schiele-centrum",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Desça o Latrán, atravesse a ponte sobre o Vltava, siga pela Široká até a cervejaria"
+      "notes": "Desça o Latrán, atravesse a ponte sobre o Vltava, siga pela Široká até a cervejaria",
+      "distance": 1.01
     }
   ]
 }

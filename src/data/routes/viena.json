@@ -1421,63 +1421,72 @@
       "to": "karlskirche",
       "transport": "walking",
       "minutes": 3,
-      "notes": "Pela Rechte Wienzeile — a cúpula da Karlskirche orienta o caminho"
+      "notes": "Pela Rechte Wienzeile — a cúpula da Karlskirche orienta o caminho",
+      "distance": 0.37
     },
     {
       "from": "karlskirche",
       "to": "ringstrasse-staatsoper",
       "transport": "walking",
       "minutes": 8,
-      "notes": "Pelo Kärntner Ring em direção norte até a fachada da Staatsoper"
+      "notes": "Pelo Kärntner Ring em direção norte até a fachada da Staatsoper",
+      "distance": 0.78
     },
     {
       "from": "ringstrasse-staatsoper",
       "to": "kunsthistorisches-museum",
       "transport": "walking",
       "minutes": 5,
-      "notes": "Pelo Burgring até a Maria-Theresien-Platz — o museu fica do lado oeste"
+      "notes": "Pelo Burgring até a Maria-Theresien-Platz — o museu fica do lado oeste",
+      "distance": 0.79
     },
     {
       "from": "schonbrunn",
       "to": "stadtpark",
       "transport": "subway",
       "minutes": 12,
-      "notes": "U4 de Schönbrunn até Stadtpark — 5 estações direto"
+      "notes": "U4 de Schönbrunn até Stadtpark — 5 estações direto",
+      "distance": 6.81
     },
     {
       "from": "stadtpark",
       "to": "oberes-belvedere",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Pela Rennweg ao sul até a Prinz-Eugen-Straße"
+      "notes": "Pela Rennweg ao sul até a Prinz-Eugen-Straße",
+      "distance": 1.65
     },
     {
       "from": "oberes-belvedere",
       "to": "hundertwasserhaus",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Pela Ungargasse/Fasangasse ao nordeste até a Kegelgasse"
+      "notes": "Pela Ungargasse/Fasangasse ao nordeste até a Kegelgasse",
+      "distance": 2.89
     },
     {
       "from": "stephansdom",
       "to": "graben-kohlmarkt",
       "transport": "walking",
       "minutes": 2,
-      "notes": "Saída sul pela Kärntner Straße — o passeio começa imediatamente"
+      "notes": "Saída sul pela Kärntner Straße — o passeio começa imediatamente",
+      "distance": 0.37
     },
     {
       "from": "graben-kohlmarkt",
       "to": "hofburg-sisi",
       "transport": "walking",
       "minutes": 2,
-      "notes": "O passeio termina na Michaelerplatz — a entrada do Hofburg está à frente"
+      "notes": "O passeio termina na Michaelerplatz — a entrada do Hofburg está à frente",
+      "distance": 0.61
     },
     {
       "from": "hofburg-sisi",
       "to": "prater-riesenrad",
       "transport": "subway",
       "minutes": 15,
-      "notes": "U3 de Herrengasse até Stephansplatz, U1 até Praterstern"
+      "notes": "U3 de Herrengasse até Stephansplatz, U1 até Praterstern",
+      "distance": 3.33
     }
   ]
 }

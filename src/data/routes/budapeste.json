@@ -1770,112 +1770,128 @@
       "to": "halaszbastya-matyas",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Pelo Bairro do Castelo (Várnegyed) pela Tárnok utca e Szentháromság tér — calçamento medieval com casas históricas"
+      "notes": "Pelo Bairro do Castelo (Várnegyed) pela Tárnok utca e Szentháromság tér — calçamento medieval com casas históricas",
+      "distance": 0.98
     },
     {
       "from": "parlamento-budapeste",
       "to": "basilica-santo-estevao",
       "transport": "walking",
       "minutes": 15,
-      "notes": "Pela Október 6. utca em direção ao Pest histórico — 1,2 km a pé"
+      "notes": "Pela Október 6. utca em direção ao Pest histórico — 1,2 km a pé",
+      "distance": 1.22
     },
     {
       "from": "basilica-santo-estevao",
       "to": "andrassy-opera",
       "transport": "walking",
       "minutes": 10,
-      "notes": "Pela Andrássy út em direção nordeste — a avenida mais elegante de Budapeste, caminhem devagar"
+      "notes": "Pela Andrássy út em direção nordeste — a avenida mais elegante de Budapeste, caminhem devagar",
+      "distance": 0.77
     },
     {
       "from": "heroes-square",
       "to": "szechenyi-furdok",
       "transport": "walking",
       "minutes": 10,
-      "notes": "Pelo Parque Városliget (Parque da Cidade) — siga pela alameda principal, o palácio amarelo fica no centro do parque"
+      "notes": "Pelo Parque Városliget (Parque da Cidade) — siga pela alameda principal, o palácio amarelo fica no centro do parque",
+      "distance": 0.76
     },
     {
       "from": "halaszbastya-matyas",
       "to": "gellert-hegy",
       "transport": "bus",
       "minutes": 30,
-      "notes": "Ônibus 16 da Colina do Castelo até a Ponte da Liberdade, depois 20 min de caminhada pela encosta norte da Colina Gellért. Alternativa: funicular até a base e ônibus 27."
+      "notes": "Ônibus 16 da Colina do Castelo até a Ponte da Liberdade, depois 20 min de caminhada pela encosta norte da Colina Gellért. Alternativa: funicular até a base e ônibus 27.",
+      "distance": 2.74
     },
     {
       "from": "andrassy-opera",
       "to": "sinagoga-dohany",
       "transport": "walking",
       "minutes": 12,
-      "notes": "Da Ópera pela Nagymező utca e Dohány utca — 850m a pé pelo centro de Pest"
+      "notes": "Da Ópera pela Nagymező utca e Dohány utca — 850m a pé pelo centro de Pest",
+      "distance": 0.53
     },
     {
       "from": "parlamento-budapeste",
       "to": "praca-liberdade",
       "transport": "walking",
       "minutes": 5,
-      "notes": "Do Parlamento pela Alkotmány utca até a Szabadság tér — 400m a pé, 5 minutos"
+      "notes": "Do Parlamento pela Alkotmány utca até a Szabadság tér — 400m a pé, 5 minutos",
+      "distance": 0.55
     },
     {
       "from": "praca-liberdade",
       "to": "basilica-santo-estevao",
       "transport": "walking",
       "minutes": 8,
-      "notes": "Da Praça da Liberdade pela Hold utca e Bajcsy-Zsilinszky út até a Basílica — 650m a pé"
+      "notes": "Da Praça da Liberdade pela Hold utca e Bajcsy-Zsilinszky út até a Basílica — 650m a pé",
+      "distance": 0.79
     },
     {
       "from": "basilica-santo-estevao",
       "to": "almoco-andrassy",
       "transport": "walking",
       "minutes": 5,
-      "notes": "Da Basílica à Vörösmarty tér (Gerbeaud) — 400m a pé pelo centro de Pest"
+      "notes": "Da Basílica à Vörösmarty tér (Gerbeaud) — 400m a pé pelo centro de Pest",
+      "distance": 0.44
     },
     {
       "from": "almoco-andrassy",
       "to": "andrassy-opera",
       "transport": "walking",
       "minutes": 8,
-      "notes": "Do Gerbeaud pela Deák utca e Andrássy até a Ópera — 650m pela avenida mais elegante de Budapeste"
+      "notes": "Do Gerbeaud pela Deák utca e Andrássy até a Ópera — 650m pela avenida mais elegante de Budapeste",
+      "distance": 1.01
     },
     {
       "from": "sinagoga-dohany",
       "to": "jantar-bairro-judio",
       "transport": "walking",
       "minutes": 3,
-      "notes": "Da Sinagoga pela Dohány utca até a Kazinczy utca — 250m a pé, o Kőleves e o Szimpla Kert ficam no mesmo quarteirão"
+      "notes": "Da Sinagoga pela Dohány utca até a Kazinczy utca — 250m a pé, o Kőleves e o Szimpla Kert ficam no mesmo quarteirão",
+      "distance": 0.37
     },
     {
       "from": "mercado-central",
       "to": "metro-m1-milenio",
       "transport": "subway",
       "minutes": 15,
-      "notes": "Metrô M4 de Fővám tér até Deák Ferenc tér (3 estações, 8 min), depois M1 de Vörösmarty tér até Operaház (2 estações) — embarque aqui para a experiência histórica do M1"
+      "notes": "Metrô M4 de Fővám tér até Deák Ferenc tér (3 estações, 8 min), depois M1 de Vörösmarty tér até Operaház (2 estações) — embarque aqui para a experiência histórica do M1",
+      "distance": 1.91
     },
     {
       "from": "metro-m1-milenio",
       "to": "heroes-square",
       "transport": "subway",
       "minutes": 10,
-      "notes": "Metrô M1 de Operaház até Hősök tere — 5 estações sob a Andrássy, saída direta para a Praça dos Heróis"
+      "notes": "Metrô M1 de Operaház até Hősök tere — 5 estações sob a Andrássy, saída direta para a Praça dos Heróis",
+      "distance": 2.37
     },
     {
       "from": "szechenyi-furdok",
       "to": "ilha-margarida",
       "transport": "bus",
       "minutes": 25,
-      "notes": "Metrô M1 de Széchenyi fürdő até Deák Ferenc tér, depois ônibus 26 de Nyugati tér até a entrada sul da Ilha Margarida — total ~25 min"
+      "notes": "Metrô M1 de Széchenyi fürdő até Deák Ferenc tér, depois ônibus 26 de Nyugati tér até a entrada sul da Ilha Margarida — total ~25 min",
+      "distance": 3.49
     },
     {
       "from": "ilha-margarida",
       "to": "jantar-despedida",
       "transport": "bus",
       "minutes": 20,
-      "notes": "Ônibus 26 ou 226 de volta ao centro (Nyugati tér), depois metrô M3 até Arany János utca — 5 min a pé até o Borkonyha na Sas utca 3"
+      "notes": "Ônibus 26 ou 226 de volta ao centro (Nyugati tér), depois metrô M3 até Arany János utca — 5 min a pé até o Borkonyha na Sas utca 3",
+      "distance": 4.02
     },
     {
       "from": "gellert-hegy",
       "to": "jantar-buda",
       "transport": "bus",
       "minutes": 20,
-      "notes": "Ônibus 27 da Citadela até Móricz Zsigmond körtér, depois ônibus 16 até o Bairro do Castelo — ou táxi direto (10 min, ~€8)"
+      "notes": "Ônibus 27 da Citadela até Móricz Zsigmond körtér, depois ônibus 16 até o Bairro do Castelo — ou táxi direto (10 min, ~€8)",
+      "distance": 1.83
     }
   ]
 }

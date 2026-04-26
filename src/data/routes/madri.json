@@ -1,1 +1,398 @@
-{"id":"madri-2026","title":"Madri","subtitle":"A capital do Império Espanhol e a cidade de Velázquez","tripDates":{"start":"2026-06-21","end":"2026-06-22"},"baseCity":"Madri","baseCityCoords":{"lat":40.4168,"lng":-3.7038},"historicalPeriods":[{"id":"imperial","label":"Espanha Imperial (1516–1700)","color":"#B71C1C"},{"id":"bourbon","label":"Bourbons e Goya (1700–1868)","color":"#1A237E"},{"id":"modern","label":"Moderno (1868–atualidade)","color":"#2E7D32"}],"days":[{"id":"dia-1","order":1,"date":"2026-06-21","weekday":"Dom","title":"O Prado e o Retiro","subtitle":"Chegada de Viena ao meio-dia · Las Meninas e o parque ao entardecer","theme":"O maior museu de arte espanhola do mundo e o parque que foi jardim real","dayType":"urban","energyLevel":"light","startTime":"15:00","estimatedEndTime":"21:00","primaryColor":"#B71C1C","coverEmoji":"🎨","intro":"Aterrizando de Viena ao meio-dia, com transfer ao hotel e check-in, vocês chegam ao ritmo de Madri no início da tarde. O Prado fecha às 20h aos domingos — vão direto, sem rodeios. Lá dentro espera Las Meninas, a pintura mais estudada e debatida da história da arte, e os Saturno de Goya, o mais perturbador. Depois, o Retiro ao entardecer: o parque que foi jardim real por 400 anos, com o Palácio de Cristal espelhando no lago. Madri tem 40°C em junho. Andem devagar. Hidratem-se.","poiIds":["prado-velazquez","retiro-cristal"],"logistics":null},{"id":"dia-2","order":2,"date":"2026-06-22","weekday":"Seg","title":"Adeus pela Plaza Mayor","subtitle":"Manhã no centro histórico · Voo para casa às 12h","theme":"Último passeio na cidade — Sol e Plaza Mayor antes do aeroporto","dayType":"urban","energyLevel":"light","startTime":"08:00","estimatedEndTime":"10:00","primaryColor":"#2E7D32","coverEmoji":"☀️","intro":"O último dia da viagem é de manhã cedo: duas horas no coração histórico de Madri antes de partir para o aeroporto. A Puerta del Sol às 8h de uma segunda-feira tem a energia crua da cidade acordando — trabalhadores, cafés abrindo, os últimos turistas do fim de semana sumindo. A Plaza Mayor, construída por Felipe III em 1619, foi arena de touradas, autos de fé da Inquisição e proclamações reais — hoje é de café com churros antes do voo de volta.","poiIds":["sol-plaza-mayor"],"logistics":null}],"pois":[{"id":"prado-velazquez","dayId":"dia-1","order":1,"name":"Museu do Prado","lat":40.4138,"lng":-3.6921,"address":"Calle Ruiz de Alarcón 23, 28014 Madrid","historicalPeriod":"imperial","yearBuilt":"1785","architecturalStyle":"Neoclássico (Juan de Villanueva)","significance":"Um dos cinco maiores museus de arte do mundo; Las Meninas; maior coleção de Velázquez, Goya, El Greco e Bosch do mundo","description":"O Museu do Prado é o museu mais importante da Espanha e um dos cinco maiores museus de arte do mundo — não pela quantidade de obras (cerca de 8.000 em exposição permanente), mas pela concentração inigualável de obras-primas: a maior coleção de Diego Velázquez do mundo (49 pinturas), a maior de Francisco de Goya (140 obras), a maior de El Greco fora da Grécia e a maior de Hieronymus Bosch (El Bosco) do mundo — incluindo O Jardim das Delícias, o tríptico mais misterioso da pintura europeia.\n\nO edifício neoclássico foi projetado por Juan de Villanueva para Carlos III em 1785 como Museu de Ciências Naturais. Napoleão usou-o como cavalaria. Após a restauração monárquica, Fernando VII transformou-o em museu de pintura em 1819 — reunindo as coleções espalhadas pelos palácios reais que os reis habsburgos e bourbons haviam acumulado ao longo de séculos.\n\nA lógica da coleção é a lógica do poder espanhol: o que controlava a Espanha controlava os Países Baixos (Bosch, Brueghel), a Itália (Tiziano, Raphael) e a própria arte espanhola (Velázquez, Goya, Zurbarán, Murillo). O resultado é uma coleção que não tem paralelo no mundo para a pintura europeia dos séculos XV–XIX.\n\nDois conjuntos são obrigatórios. O primeiro: Las Meninas de Velázquez (sala 12, 1ª andar), que vocês poderão ver com um olhar especial depois de ter visto os retratos da Infanta Margarida Teresa em Viena. O segundo: as Pinturas Negras de Goya (salas 66–67), pintadas diretamente nas paredes de sua casa entre 1819 e 1823 quando tinha 73 anos, surdo, isolado e perturbado — a mais radical série de obras de qualquer grande pintor antes do século XX.","immersiveMode":true,"immersiveText":"Em Viena, no Kunsthistorisches Museum, vocês viram cinco retratos de uma menina: a Infanta Margarida Teresa, pintada por Diego Velázquez dos 2 aos 9 anos. Agora, diante de Las Meninas, a menina tem 5 anos e olha diretamente para vocês.\n\nLas Meninas (1656) é a pintura mais estudada e debatida da história da arte. Uma sala no Alcázar de Madri, a antiga residência real. Ao centro, a Infanta Margarida, ladeada por duas damas de companhia (meninas, as \u0027meninas\u0027 do título). À esquerda, parcialmente atrás de uma grande tela em branco, o próprio Velázquez — um auto-retrato dentro de um retrato. Ao fundo, num espelho oval ou numa porta aberta, o reflexo (ou aparição) do rei Filipe IV e da rainha Mariana.\n\nA questão central da pintura, que gerou séculos de debate: o que Velázquez está pintando? Está pintando a Infanta — e nós somos o espectador entrando na sala? Está pintando os reis — cujo reflexo vemos ao fundo — e nós somos os reis, olhando nossa filha que nos olha? A pintura é um espelho que nos coloca dentro dela ao mesmo tempo que observamos de fora. Michel Foucault, em As Palavras e as Coisas, dedicou o primeiro capítulo inteiro a Las Meninas — chamou-a de \u0027a representação da representação\u0027, o ponto em que a arte se dobra sobre si mesma para questionar sua própria natureza.\n\nVelázquez tem a Ordem de Santiago (a cruz vermelha) no peito — mas quando pintou Las Meninas em 1656, ainda não havia recebido essa distinção. Ela foi adicionada depois, possivelmente pelo próprio Filipe IV após a morte do pintor em 1660, como reconhecimento póstumo. A tinta da cruz foi analisada: é do mesmo período, não uma adição tardia. Isso sugere que Velázquez ou alguém muito próximo adicionou a cruz antes de 1660 — talvez o próprio rei, num gesto de afeto pela obra do pintor morto.\n\nSiga pela sala 12 até as Pinturas Negras de Goya. Este é outro universo completamente.\n\nFrancisco de Goya pintou as Pinturas Negras entre 1819 e 1823, diretamente nas paredes de sua casa às margens do Manzanares — uma casa que os madrilenos chamavam de Quinta del Sordo (Villa do Surdo) por causa do vizinho anterior, que também era surdo. Goya tinha 73 anos, estava surdo desde 1793 por doença, e havia sobrevivido à invasão napoleônica, à violência da Guerra de Independência espanhola e à restauração do absolutismo por Fernando VII.\n\nSaturno Devorando Seu Filho: um deus enorme com olhos arregalados e cabelos despenteados devora o corpo de um ser humano — segurando-o pelos ombros, a cabeça e um braço já consumidos. É a imagem mais brutal de qualquer museu de arte do mundo que não seja explicitamente dedicado ao horror. Goya pintou isso na parede de sua sala de jantar.\n\nNão há explicação consensual para as Pinturas Negras. Eram para uso pessoal, nunca mostradas publicamente em vida de Goya. Pintadas em afresco sobre estuque das paredes, foram transferidas para tela décadas após a morte do pintor. Há quem as interprete como reação ao terror político da restauração absolutista; há quem as veja como expressão da doença mental que Goya desenvolvia; há quem as leia como reflexão sobre a mortalidade e a velhice. O que é certo é que nenhum pintor anterior ao século XX havia ido tão longe na representação do inconsciente — Goya antecipou o Expressionismo e o Surrealismo por um século.\n\nSaiam do Prado tendo visto Las Meninas e Saturno. A viagem de vocês — Munique, Nuremberg, Praga, Český Krumlov, Budapeste, Bratislava, Viena, Madri — começou com a Bavaria barroca e medieval e termina aqui, com uma pintura de 1656 que questiona o que é ver, e outra de 1820 que questiona o que é humano. A história da arte europeia, quando comprimida em três semanas de viagem, tem a mesma estrutura que a história que vocês viveram: a grandiosidade dos impérios e o horror que eles continham, simultaneamente.","observationPoints":["Sala 12 (Las Meninas): posicione-se a 5 metros e observe como o espelho ao fundo pode ser lido como reflexo dos reis ou como pintura dentro da pintura — mude de posição para sentir como o ângulo muda a interpretação","Sala 12 (Las Meninas): a cruz de Santiago no peito de Velázquez — foi adicionada depois de sua morte, pelo próprio rei Filipe IV","Sala 67 (Saturno Devorando Seu Filho): a obra mais perturbadora de qualquer grande museu — observe o que Goya pintou na parede de sua sala de jantar, sozinho, surdo, aos 73 anos","Sala 10B (O Jardim das Delícias de Bosch): o tríptico mais misterioso da pintura europeia — dedique 20 min só a este"],"suggestedExperience":"Comprem ingressos online em museodelprado.es (para entrar diretamente, sem filas). Chegue às 15h30 quando o fluxo pós-almoço diminui. Rota sugerida: entrem pela porta Goya (lado sul), subam para o 1º andar, vão direto para a sala 12 (Las Meninas) antes de qualquer outra coisa — enquanto têm energia e concentração. Depois explorem o corredor do século XV–XVI (Bosch, El Greco). Termine no andar térreo com as Pinturas Negras de Goya (salas 66–67). Saiam às 19h30 para ter luz de dia no Retiro.","searchSuggestions":["Museu Prado Las Meninas Velázquez análise interpretação","Pinturas Negras Goya Saturno história contexto","museodelprado.es ingressos online reserva","O Jardim das Delícias Bosch Prado","Infanta Margarida Teresa Velázquez Las Meninas Vienna KHM"],"visitType":"indoor","entryFee":"~€15 (adultos). Gratuito diariamente das 18h–20h (fila longa). Online: museodelprado.es","schedule":{"monday":"10:00–20:00","tuesday":"10:00–20:00","wednesday":"10:00–20:00","thursday":"10:00–20:00","friday":"10:00–20:00","saturday":"10:00–20:00","sunday":"10:00–19:00"},"estimatedVisitMinutes":150,"externalViewingAlways":false,"proximityRadiusMeters":80,"media":{"audio":"/media/routes/madri/audio/prado-velazquez.mp3","photos":[{"src":"/media/routes/madri/photos/prado-velazquez/main.jpg","caption":"Museu do Prado","type":"recognition"}],"subAttractions":[{"id":"las-meninas","name":"Las Meninas de Velázquez","image":"/media/routes/madri/sub-attractions/prado-velazquez/las-meninas.jpg","caption":"A pintura mais debatida da história da arte — a Infanta Margarida, Velázquez e a pergunta que não tem resposta","imageFit":"contain","reel":{"audioMood":"classical","segments":[{"text":"Em Viena, no KHM, vocês viram cinco retratos da Infanta Margarida Teresa dos 2 aos 9 anos. Agora, em Las Meninas (1656), ela tem 5 anos e olha diretamente para vocês. A questão central da pintura: o que Velázquez está pintando? Estamos nós no lugar dos reis, cujo reflexo aparece no espelho ao fundo? Ou somos espectadores observando a cena de fora?","duration":24,"focusZone":"full"},{"text":"À esquerda, atrás de uma grande tela em branco voltada para nós, o próprio Velázquez — auto-retrato dentro de um retrato. No peito, a Cruz de Santiago, uma distinção que ele ainda não havia recebido em 1656: foi adicionada após sua morte, possivelmente pelo próprio rei Filipe IV, como reconhecimento póstumo. É a pintura que se autocorrige depois de concluída.","duration":24,"focusZone":"detail"},{"text":"Michel Foucault abriu As Palavras e as Coisas com um capítulo inteiro sobre Las Meninas, chamando-a de \u0027a representação da representação\u0027. É o ponto em que a arte se dobra sobre si mesma para questionar sua própria natureza: uma pintura sobre o ato de pintar, que nos coloca dentro e fora ao mesmo tempo. Não há outra assim em nenhum museu do mundo.","duration":24,"focusZone":"center"},{"text":"Posicionem-se a 5 metros da tela e depois se movam lateralmente — a Infanta continua olhando para vocês de qualquer ângulo. Os espanhóis têm um nome para isso: \u0027el efecto Meninas\u0027. Ficam ali, em silêncio, olhando a menina que olha de volta, por alguns minutos que parecem uma conversa de 370 anos.","duration":22,"focusZone":"full"}]}},{"id":"goya-pinturas-negras","name":"Pinturas Negras de Goya","image":"/media/routes/madri/sub-attractions/prado-velazquez/goya-pinturas-negras.jpg","caption":"Saturno Devorando Seu Filho — pintado na parede da sala de jantar de Goya, surdo e solitário aos 73 anos","imageFit":"contain","reel":{"audioMood":"dramatic","segments":[{"text":"Francisco de Goya pintou as Pinturas Negras entre 1819 e 1823, diretamente nas paredes de sua casa às margens do Manzanares. Tinha 73 anos, estava surdo há 26 anos, e havia sobrevivido à invasão napoleônica e ao terror da restauração absolutista de Fernando VII. As pinturas eram para uso pessoal — nunca mostradas a ninguém.","duration":24,"focusZone":"full"},{"text":"Saturno Devorando Seu Filho: um deus enorme com olhos arregalados segura um corpo humano pelos ombros — a cabeça e um braço já consumidos. É a imagem mais brutalmente perturbadora de qualquer grande museu de arte do mundo. Goya pintou isso na parede de sua sala de jantar. A questão \u0027por quê?\u0027 não tem resposta consensual — e talvez seja a pergunta certa para terminar uma viagem pela história da Europa.","duration":26,"focusZone":"center"},{"text":"Nenhum pintor antes do século XX havia chegado tão longe na representação do inconsciente. As Pinturas Negras antecipam o Expressionismo em 70 anos e o Surrealismo em quase 100. Goya não sabia disso — estava apenas pintando o que via fechando os olhos numa casa às margens de um rio, no silêncio permanente que a doença havia criado. E o que via era isso.","duration":24,"focusZone":"detail"}]}}],"thumb":"/media/routes/madri/photos/prado-velazquez/thumb.jpg"},"walkingNotes":"Do Prado ao Retiro: saía pela porta norte do Prado (Porta Velázquez) e siga pela Carrera de San Jerónimo até a Puerta de Alcalá — então entre no Parque del Retiro pela entrada principal. 10 min a pé.","nextTransport":"walking","nextTransportMinutes":10,"tags":["museu","arte","Velázquez","Goya","Las Meninas","imperial","imersivo"]},{"id":"retiro-cristal","dayId":"dia-1","order":2,"name":"Parque del Retiro e Palácio de Cristal","lat":40.4153,"lng":-3.6841,"address":"Plaza de la Independencia, 28001 Madrid","historicalPeriod":"bourbon","yearBuilt":"1630","architecturalStyle":"Jardim formal / Palácio de Cristal neogótico (1887)","significance":"Jardim real de Felipe IV por 200 anos; oásis de 125 ha no centro de Madri; Palácio de Cristal UNESCO","description":"O Parque del Retiro — cujo nome completo é Parque del Buen Retiro (Parque do Bom Retiro) — foi o jardim privado dos reis da Espanha por mais de dois séculos, aberto ao público apenas em 1767 por Carlos III. Com 125 hectares no coração de Madri, é o principal espaço verde da capital e o único parque urbano de sua escala no centro de qualquer grande capital europeia.\n\nO parque foi criado como recinto de festas e recepções diplomáticas pelo Conde-Duque de Olivares para o rei Felipe IV, que o usou para espetáculos aquáticos no grande lago (Estanque Grande), teatros ao ar livre e jogos reais. As ruínas do Palácio do Buen Retiro — destruído pelas tropas napoleônicas em 1808 — ainda são visíveis em dois pavimentos sobreviventes transformados em museus.\n\nO Palácio de Cristal (1887), construído pelo arquiteto Ricardo Velázquez Bosco para a Exposição de Flora das Filipinas (então colônia espanhola), é uma estrutura de ferro e vidro no estilo do Crystal Palace de Londres — mas com uma escala humana que o torna mais encantador que o modelo britânico. Hoje é espaço de exposições de arte contemporânea do Museo Reina Sofia, sempre com entrada gratuita. O edifício espelha no lago artificial adjacente, criando um dos reflexos mais fotogênicos de Madri.\n\nAo entardecer de junho (pôr do sol após as 21h em Madri), o Retiro transforma-se: o calor do dia cede, as famílias saem para passear, estudantes instalam-se na grama, remadores voltam ao lago. A temperatura cai para algo mais humano. É o Madri que os turistas raramente veem, porque a maioria está em restaurantes ou bares. É o Madri cotidiano.","immersiveMode":false,"immersiveText":null,"observationPoints":["Estanque Grande (lago central): os remadores ao entardecer, com o Monumento a Alfonso XII ao fundo — melhor fotografia entre 19h e 21h em junho","Palácio de Cristal: o edifício espelhando no lago artificial — o reflexo duplica a estrutura de ferro e vidro numa composição simétrica","Paseo de las Estatuas: a alameda de estátuas dos reis de Espanha, originalmente destinada à fachada do Palácio Real antes de serem consideradas pesadas demais para o telhado"],"suggestedExperience":"Entrem pelo Portão de Alcalá às 19h30 e caminhem direto ao Palácio de Cristal (15 min). Entrem para ver a exposição corrente do Reina Sofia (gratuita). Depois sentem-se na beira do lago: a luz do final do dia de Madri — quente, dourada, de qualidade mediterrânea completamente diferente da luz do norte da Europa que vocês viveram — é a transição perfeita entre esta viagem e casa.","searchSuggestions":["Parque Retiro Madri Palácio de Cristal exposição","Retiro remadores lago aluguel barco","pôr do sol Madri junho horário","Reina Sofia exposição Palácio de Cristal gratuita"],"visitType":"outdoor+indoor","entryFee":"Parque: gratuito. Palácio de Cristal (exposição Reina Sofia): gratuito","schedule":{"monday":"06:00–22:00 (parque). Palácio de Cristal: 10:00–18:00 (inverno) / 10:00–22:00 (verão)","tuesday":"06:00–22:00","wednesday":"06:00–22:00","thursday":"06:00–22:00","friday":"06:00–22:00","saturday":"06:00–22:00","sunday":"06:00–22:00"},"estimatedVisitMinutes":90,"externalViewingAlways":true,"proximityRadiusMeters":100,"media":{"audio":"/media/routes/madri/audio/retiro-cristal.mp3","photos":[{"src":"/media/routes/madri/photos/retiro-cristal/main.jpg","caption":"Parque del Retiro e Palácio de Cristal","type":"recognition"}],"subAttractions":[{"id":"palacio-cristal-reflexo","name":"Palácio de Cristal","image":"/media/routes/madri/sub-attractions/retiro-cristal/palacio-cristal-reflexo.jpg","caption":"Estrutura de ferro e vidro de 1887 espelhando no lago do Retiro — o edifício mais fotogênico de Madri","reel":{"audioMood":"contemplative","segments":[{"text":"O Palácio de Cristal foi construído em 1887 pelo arquiteto Ricardo Velázquez Bosco — o mesmo sobrenome do pintor, diferente família — para abrigar a Exposição de Flora das Filipinas. A Espanha ainda era um império colonial; as Filipinas, Cuba e Porto Rico seriam perdidas 11 anos depois, em 1898, numa guerra de três meses contra os Estados Unidos.","duration":22,"focusZone":"full"},{"text":"O edifício de ferro e vidro, inspirado no Crystal Palace de Joseph Paxton em Londres (1851), tem 33 metros de altura e uma cúpula central de 14 metros de diâmetro. O lago artificial foi criado especificamente para o reflexo: o Palácio espelhado na água duplica a estrutura em composição simétrica que muda com cada hora do dia.","duration":22,"focusZone":"center"},{"text":"Ao entardecer de junho — o sol se põe às 21h30 em Madri — a luz mediterrânea entra pelos vidros do Palácio em ângulo rasante e transforma o interior em câmara de luz dourada. É o último pôr do sol de uma viagem que começou em Munique, passou pela Boêmia, a Hungria, a Eslováquia, a Áustria e termina aqui, na luz da Europa do Sul. Uma luz completamente diferente de tudo que viram nas últimas três semanas.","duration":24,"focusZone":"right"}]}}],"thumb":"/media/routes/madri/photos/retiro-cristal/thumb.jpg"},"walkingNotes":"Do Retiro ao hotel: saiam pelo Portão de Alcalá (norte do parque) e tomem metro na estação Retiro (linha 9) ou Serrano (linha 4). Para jantar: o bairro de La Latina (estação La Latina, linha 5) tem os melhores bares de tapas de Madri — a 15 min de metrô.","nextTransport":"subway","nextTransportMinutes":15,"tags":["parque","jardim","palácio","cristal","lago","entardecer"]},{"id":"sol-plaza-mayor","dayId":"dia-2","order":1,"name":"Puerta del Sol e Plaza Mayor","lat":40.4168,"lng":-3.7038,"address":"Puerta del Sol, 28013 Madrid","historicalPeriod":"bourbon","yearBuilt":"1619","architecturalStyle":"Herreriano (Plaza Mayor) / Neoclássico (Sol)","significance":"Km 0 de todas as estradas espanholas; Plaza Mayor com 400 anos de história — touradas, Inquisição e festas reais","description":"A Puerta del Sol (Porta do Sol) é o coração geográfico de Madri e da Espanha: a placa no chão diante do edifício da Presidência da Comunidade marca o Km 0 de onde todas as estradas radiais espanholas são medidas. A praça semicircular, remodelada nos séculos XVIII e XIX, é o principal ponto de encontro de Madri — o Times Square da cidade, menos glamoroso, mais autêntico.\n\nA Plaza Mayor, a 5 minutos a pé pela Rua Maior, foi construída por ordem de Felipe III entre 1617 e 1619 pelo arquiteto Juan Gómez de Mora. Com seus 237 × 129 metros, rodeada de 237 varandas uniformes e nove arcos de entrada, a praça foi durante séculos o coração cívico e teatral de Madri: 400 touradas ocorreram aqui, 15 autos de fé da Inquisição (o último em 1790), proclamações reais, mercados e festas populares. A estátua equestre de Felipe III no centro foi fundida em Florença (1616) e é uma das melhores esculturas equestres barrocas da Europa.\n\nNum dia de segunda-feira às 8h, a Plaza Mayor tem uma qualidade diferente das horas de pico turístico: os cafés das arcadas estão abrindo, os garçons arrumam as mesas ao ar livre, os pombos têm a praça para si. Esta é Madri antes de ser espetáculo — uma cidade de 3,3 milhões de pessoas que acordou cedo e tem trabalho a fazer. O café com churros nas arcadas da Plaza Mayor é o café da manhã mais madrilenho que existe, e a melhor despedida para qualquer viagem.","immersiveMode":false,"immersiveText":null,"observationPoints":["Placa do Km 0 (Puerta del Sol): o ponto de onde todas as estradas espanholas são medidas — procure a placa no chão em frente ao edifício da Presidência","Arcadas da Plaza Mayor às 8h: os cafés abrindo, os garçons arrumando as mesas — Madri antes de ser espetáculo turístico","Estátua equestre de Felipe III: fundida em Florença em 1616 por Giovanni Bologna e Pietro Tacca — observe os detalhes do cavalo e do rei em armadura"],"suggestedExperience":"Saiam do hotel às 8h em ponto. Caminhem até a Puerta del Sol (ou metrô, linha 1/2/3, estação Sol), parem no Km 0, tirem a foto. Depois 5 min a pé até a Plaza Mayor pelas arcadas. Sentem-se num café das arcadas para café com leite e churros — o melhor café da manhã de Madri, sem pressa. Às 9h30 no máximo, peguem o metrô linha 8 na estação Nuevos Ministerios para o aeroporto (Aeropuerto T4, 35 min). Check-in pelo menos 2h antes do voo das 12h — estejam no aeroporto às 10h.","searchSuggestions":["Plaza Mayor Madri história touradas Inquisição","Puerta del Sol Km 0 Espanha significado","churros Madrid melhores onde comer","metrô Madri aeroporto linha 8 T4 tempo"],"visitType":"outdoor","entryFee":"Gratuito","schedule":{"monday":"Sempre aberta (24h)","tuesday":"Sempre aberta","wednesday":"Sempre aberta","thursday":"Sempre aberta","friday":"Sempre aberta","saturday":"Sempre aberta","sunday":"Sempre aberta"},"estimatedVisitMinutes":90,"externalViewingAlways":true,"proximityRadiusMeters":100,"media":{"audio":"/media/routes/madri/audio/sol-plaza-mayor.mp3","photos":[{"src":"/media/routes/madri/photos/sol-plaza-mayor/main.jpg","caption":"Puerta del Sol e Plaza Mayor","type":"recognition"}],"subAttractions":[{"id":"plaza-mayor-arcadas","name":"Plaza Mayor","image":"/media/routes/madri/sub-attractions/sol-plaza-mayor/plaza-mayor-arcadas.jpg","caption":"A praça de Felipe III (1619): 400 touradas, 15 autos de fé e o café da manhã mais madrilenho que existe","reel":{"audioMood":"contemplative","segments":[{"text":"A Plaza Mayor de Madri foi construída por ordem de Felipe III entre 1617 e 1619. Com 237 varandas uniformes e nove arcos de entrada, foi por dois séculos o coração cívico e teatral da cidade: 400 touradas, 15 autos de fé da Inquisição (o último em 1790), proclamações reais, execuções públicas e festas populares. Hoje, num dia de segunda-feira cedo, é onde Madri toma o café da manhã.","duration":24,"focusZone":"full"},{"text":"A estátua equestre de Felipe III no centro foi fundida em Florença em 1616 pelos escultores Giovanni Bologna e Pietro Tacca — os mesmos que criaram estátuas equestres para os Medici. Felipe III encomendou-a como presente diplomático e depois a instalou aqui quando a praça foi concluída. É uma das melhores esculturas barrocas da Espanha e a maioria dos turistas passa sem olhar.","duration":22,"focusZone":"center"},{"text":"Esta é a última parada de uma viagem de três semanas pela Europa Central e do Sul. De Munique às Alpes bávaros, pela Boêmia medieval, às margens do Danúbio em Budapeste e Bratislava, pelo Ring imperial de Viena — e agora aqui, numa praça barroca de 400 anos, com o café da manhã mais simples e mais madrilenho que existe antes do voo de volta. A Europa cabe numa xícara de café com leite.","duration":24,"focusZone":"full"}]}}],"thumb":"/media/routes/madri/photos/sol-plaza-mayor/thumb.jpg"},"walkingNotes":"Última parada antes do aeroporto. Para o Aeroporto de Madri-Barajas (MAD): Metrô linha 8 da estação Nuevos Ministerios (a 20 min a pé de Sol ou 3 paradas de metrô) até Terminal T4 — 35 min, ~€5. Para chegar às 10h: metrô das 9h15. Alternativa: táxi do centro ao aeroporto, ~€30, ~25 min (mais rápido). Voo de volta às 12h: check-in idealmente às 10h.","nextTransport":null,"nextTransportMinutes":0,"tags":["praça","barroco","história","café","despedida","Inquisição"]}],"segments":[{"from":"prado-velazquez","to":"retiro-cristal","transport":"walking","minutes":10,"notes":"Pela Carrera de San Jerónimo até a Puerta de Alcalá, depois entre no Retiro pela entrada principal"},{"from":"sol-plaza-mayor","to":"sol-plaza-mayor","transport":"walking","minutes":5,"notes":"Da Puerta del Sol à Plaza Mayor: 5 min a pé pela Calle Mayor"}]}
+{
+  "id": "madri-2026",
+  "title": "Madri",
+  "subtitle": "A capital do Império Espanhol e a cidade de Velázquez",
+  "tripDates": {
+    "start": "2026-06-21",
+    "end": "2026-06-22"
+  },
+  "baseCity": "Madri",
+  "baseCityCoords": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "historicalPeriods": [
+    {
+      "id": "imperial",
+      "label": "Espanha Imperial (1516–1700)",
+      "color": "#B71C1C"
+    },
+    {
+      "id": "bourbon",
+      "label": "Bourbons e Goya (1700–1868)",
+      "color": "#1A237E"
+    },
+    {
+      "id": "modern",
+      "label": "Moderno (1868–atualidade)",
+      "color": "#2E7D32"
+    }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-06-21",
+      "weekday": "Dom",
+      "title": "O Prado e o Retiro",
+      "subtitle": "Chegada de Viena ao meio-dia · Las Meninas e o parque ao entardecer",
+      "theme": "O maior museu de arte espanhola do mundo e o parque que foi jardim real",
+      "dayType": "urban",
+      "energyLevel": "light",
+      "startTime": "15:00",
+      "estimatedEndTime": "21:00",
+      "primaryColor": "#B71C1C",
+      "coverEmoji": "🎨",
+      "intro": "Aterrizando de Viena ao meio-dia, com transfer ao hotel e check-in, vocês chegam ao ritmo de Madri no início da tarde. O Prado fecha às 20h aos domingos — vão direto, sem rodeios. Lá dentro espera Las Meninas, a pintura mais estudada e debatida da história da arte, e os Saturno de Goya, o mais perturbador. Depois, o Retiro ao entardecer: o parque que foi jardim real por 400 anos, com o Palácio de Cristal espelhando no lago. Madri tem 40°C em junho. Andem devagar. Hidratem-se.",
+      "poiIds": [
+        "prado-velazquez",
+        "retiro-cristal"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-22",
+      "weekday": "Seg",
+      "title": "Adeus pela Plaza Mayor",
+      "subtitle": "Manhã no centro histórico · Voo para casa às 12h",
+      "theme": "Último passeio na cidade — Sol e Plaza Mayor antes do aeroporto",
+      "dayType": "urban",
+      "energyLevel": "light",
+      "startTime": "08:00",
+      "estimatedEndTime": "10:00",
+      "primaryColor": "#2E7D32",
+      "coverEmoji": "☀️",
+      "intro": "O último dia da viagem é de manhã cedo: duas horas no coração histórico de Madri antes de partir para o aeroporto. A Puerta del Sol às 8h de uma segunda-feira tem a energia crua da cidade acordando — trabalhadores, cafés abrindo, os últimos turistas do fim de semana sumindo. A Plaza Mayor, construída por Felipe III em 1619, foi arena de touradas, autos de fé da Inquisição e proclamações reais — hoje é de café com churros antes do voo de volta.",
+      "poiIds": [
+        "sol-plaza-mayor"
+      ],
+      "logistics": null
+    }
+  ],
+  "pois": [
+    {
+      "id": "prado-velazquez",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Museu do Prado",
+      "lat": 40.4138,
+      "lng": -3.6921,
+      "address": "Calle Ruiz de Alarcón 23, 28014 Madrid",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1785",
+      "architecturalStyle": "Neoclássico (Juan de Villanueva)",
+      "significance": "Um dos cinco maiores museus de arte do mundo; Las Meninas; maior coleção de Velázquez, Goya, El Greco e Bosch do mundo",
+      "description": "O Museu do Prado é o museu mais importante da Espanha e um dos cinco maiores museus de arte do mundo — não pela quantidade de obras (cerca de 8.000 em exposição permanente), mas pela concentração inigualável de obras-primas: a maior coleção de Diego Velázquez do mundo (49 pinturas), a maior de Francisco de Goya (140 obras), a maior de El Greco fora da Grécia e a maior de Hieronymus Bosch (El Bosco) do mundo — incluindo O Jardim das Delícias, o tríptico mais misterioso da pintura europeia.\n\nO edifício neoclássico foi projetado por Juan de Villanueva para Carlos III em 1785 como Museu de Ciências Naturais. Napoleão usou-o como cavalaria. Após a restauração monárquica, Fernando VII transformou-o em museu de pintura em 1819 — reunindo as coleções espalhadas pelos palácios reais que os reis habsburgos e bourbons haviam acumulado ao longo de séculos.\n\nA lógica da coleção é a lógica do poder espanhol: o que controlava a Espanha controlava os Países Baixos (Bosch, Brueghel), a Itália (Tiziano, Raphael) e a própria arte espanhola (Velázquez, Goya, Zurbarán, Murillo). O resultado é uma coleção que não tem paralelo no mundo para a pintura europeia dos séculos XV–XIX.\n\nDois conjuntos são obrigatórios. O primeiro: Las Meninas de Velázquez (sala 12, 1ª andar), que vocês poderão ver com um olhar especial depois de ter visto os retratos da Infanta Margarida Teresa em Viena. O segundo: as Pinturas Negras de Goya (salas 66–67), pintadas diretamente nas paredes de sua casa entre 1819 e 1823 quando tinha 73 anos, surdo, isolado e perturbado — a mais radical série de obras de qualquer grande pintor antes do século XX.",
+      "immersiveMode": true,
+      "immersiveText": "Em Viena, no Kunsthistorisches Museum, vocês viram cinco retratos de uma menina: a Infanta Margarida Teresa, pintada por Diego Velázquez dos 2 aos 9 anos. Agora, diante de Las Meninas, a menina tem 5 anos e olha diretamente para vocês.\n\nLas Meninas (1656) é a pintura mais estudada e debatida da história da arte. Uma sala no Alcázar de Madri, a antiga residência real. Ao centro, a Infanta Margarida, ladeada por duas damas de companhia (meninas, as 'meninas' do título). À esquerda, parcialmente atrás de uma grande tela em branco, o próprio Velázquez — um auto-retrato dentro de um retrato. Ao fundo, num espelho oval ou numa porta aberta, o reflexo (ou aparição) do rei Filipe IV e da rainha Mariana.\n\nA questão central da pintura, que gerou séculos de debate: o que Velázquez está pintando? Está pintando a Infanta — e nós somos o espectador entrando na sala? Está pintando os reis — cujo reflexo vemos ao fundo — e nós somos os reis, olhando nossa filha que nos olha? A pintura é um espelho que nos coloca dentro dela ao mesmo tempo que observamos de fora. Michel Foucault, em As Palavras e as Coisas, dedicou o primeiro capítulo inteiro a Las Meninas — chamou-a de 'a representação da representação', o ponto em que a arte se dobra sobre si mesma para questionar sua própria natureza.\n\nVelázquez tem a Ordem de Santiago (a cruz vermelha) no peito — mas quando pintou Las Meninas em 1656, ainda não havia recebido essa distinção. Ela foi adicionada depois, possivelmente pelo próprio Filipe IV após a morte do pintor em 1660, como reconhecimento póstumo. A tinta da cruz foi analisada: é do mesmo período, não uma adição tardia. Isso sugere que Velázquez ou alguém muito próximo adicionou a cruz antes de 1660 — talvez o próprio rei, num gesto de afeto pela obra do pintor morto.\n\nSiga pela sala 12 até as Pinturas Negras de Goya. Este é outro universo completamente.\n\nFrancisco de Goya pintou as Pinturas Negras entre 1819 e 1823, diretamente nas paredes de sua casa às margens do Manzanares — uma casa que os madrilenos chamavam de Quinta del Sordo (Villa do Surdo) por causa do vizinho anterior, que também era surdo. Goya tinha 73 anos, estava surdo desde 1793 por doença, e havia sobrevivido à invasão napoleônica, à violência da Guerra de Independência espanhola e à restauração do absolutismo por Fernando VII.\n\nSaturno Devorando Seu Filho: um deus enorme com olhos arregalados e cabelos despenteados devora o corpo de um ser humano — segurando-o pelos ombros, a cabeça e um braço já consumidos. É a imagem mais brutal de qualquer museu de arte do mundo que não seja explicitamente dedicado ao horror. Goya pintou isso na parede de sua sala de jantar.\n\nNão há explicação consensual para as Pinturas Negras. Eram para uso pessoal, nunca mostradas publicamente em vida de Goya. Pintadas em afresco sobre estuque das paredes, foram transferidas para tela décadas após a morte do pintor. Há quem as interprete como reação ao terror político da restauração absolutista; há quem as veja como expressão da doença mental que Goya desenvolvia; há quem as leia como reflexão sobre a mortalidade e a velhice. O que é certo é que nenhum pintor anterior ao século XX havia ido tão longe na representação do inconsciente — Goya antecipou o Expressionismo e o Surrealismo por um século.\n\nSaiam do Prado tendo visto Las Meninas e Saturno. A viagem de vocês — Munique, Nuremberg, Praga, Český Krumlov, Budapeste, Bratislava, Viena, Madri — começou com a Bavaria barroca e medieval e termina aqui, com uma pintura de 1656 que questiona o que é ver, e outra de 1820 que questiona o que é humano. A história da arte europeia, quando comprimida em três semanas de viagem, tem a mesma estrutura que a história que vocês viveram: a grandiosidade dos impérios e o horror que eles continham, simultaneamente.",
+      "observationPoints": [
+        "Sala 12 (Las Meninas): posicione-se a 5 metros e observe como o espelho ao fundo pode ser lido como reflexo dos reis ou como pintura dentro da pintura — mude de posição para sentir como o ângulo muda a interpretação",
+        "Sala 12 (Las Meninas): a cruz de Santiago no peito de Velázquez — foi adicionada depois de sua morte, pelo próprio rei Filipe IV",
+        "Sala 67 (Saturno Devorando Seu Filho): a obra mais perturbadora de qualquer grande museu — observe o que Goya pintou na parede de sua sala de jantar, sozinho, surdo, aos 73 anos",
+        "Sala 10B (O Jardim das Delícias de Bosch): o tríptico mais misterioso da pintura europeia — dedique 20 min só a este"
+      ],
+      "suggestedExperience": "Comprem ingressos online em museodelprado.es (para entrar diretamente, sem filas). Chegue às 15h30 quando o fluxo pós-almoço diminui. Rota sugerida: entrem pela porta Goya (lado sul), subam para o 1º andar, vão direto para a sala 12 (Las Meninas) antes de qualquer outra coisa — enquanto têm energia e concentração. Depois explorem o corredor do século XV–XVI (Bosch, El Greco). Termine no andar térreo com as Pinturas Negras de Goya (salas 66–67). Saiam às 19h30 para ter luz de dia no Retiro.",
+      "searchSuggestions": [
+        "Museu Prado Las Meninas Velázquez análise interpretação",
+        "Pinturas Negras Goya Saturno história contexto",
+        "museodelprado.es ingressos online reserva",
+        "O Jardim das Delícias Bosch Prado",
+        "Infanta Margarida Teresa Velázquez Las Meninas Vienna KHM"
+      ],
+      "visitType": "indoor",
+      "entryFee": "~€15 (adultos). Gratuito diariamente das 18h–20h (fila longa). Online: museodelprado.es",
+      "schedule": {
+        "monday": "10:00–20:00",
+        "tuesday": "10:00–20:00",
+        "wednesday": "10:00–20:00",
+        "thursday": "10:00–20:00",
+        "friday": "10:00–20:00",
+        "saturday": "10:00–20:00",
+        "sunday": "10:00–19:00"
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/madri/audio/prado-velazquez.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/madri/photos/prado-velazquez/main.jpg",
+            "caption": "Museu do Prado",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "las-meninas",
+            "name": "Las Meninas de Velázquez",
+            "image": "/media/routes/madri/sub-attractions/prado-velazquez/las-meninas.jpg",
+            "caption": "A pintura mais debatida da história da arte — a Infanta Margarida, Velázquez e a pergunta que não tem resposta",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "Em Viena, no KHM, vocês viram cinco retratos da Infanta Margarida Teresa dos 2 aos 9 anos. Agora, em Las Meninas (1656), ela tem 5 anos e olha diretamente para vocês. A questão central da pintura: o que Velázquez está pintando? Estamos nós no lugar dos reis, cujo reflexo aparece no espelho ao fundo? Ou somos espectadores observando a cena de fora?",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "À esquerda, atrás de uma grande tela em branco voltada para nós, o próprio Velázquez — auto-retrato dentro de um retrato. No peito, a Cruz de Santiago, uma distinção que ele ainda não havia recebido em 1656: foi adicionada após sua morte, possivelmente pelo próprio rei Filipe IV, como reconhecimento póstumo. É a pintura que se autocorrige depois de concluída.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Michel Foucault abriu As Palavras e as Coisas com um capítulo inteiro sobre Las Meninas, chamando-a de 'a representação da representação'. É o ponto em que a arte se dobra sobre si mesma para questionar sua própria natureza: uma pintura sobre o ato de pintar, que nos coloca dentro e fora ao mesmo tempo. Não há outra assim em nenhum museu do mundo.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Posicionem-se a 5 metros da tela e depois se movam lateralmente — a Infanta continua olhando para vocês de qualquer ângulo. Os espanhóis têm um nome para isso: 'el efecto Meninas'. Ficam ali, em silêncio, olhando a menina que olha de volta, por alguns minutos que parecem uma conversa de 370 anos.",
+                  "duration": 22,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "goya-pinturas-negras",
+            "name": "Pinturas Negras de Goya",
+            "image": "/media/routes/madri/sub-attractions/prado-velazquez/goya-pinturas-negras.jpg",
+            "caption": "Saturno Devorando Seu Filho — pintado na parede da sala de jantar de Goya, surdo e solitário aos 73 anos",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "Francisco de Goya pintou as Pinturas Negras entre 1819 e 1823, diretamente nas paredes de sua casa às margens do Manzanares. Tinha 73 anos, estava surdo há 26 anos, e havia sobrevivido à invasão napoleônica e ao terror da restauração absolutista de Fernando VII. As pinturas eram para uso pessoal — nunca mostradas a ninguém.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Saturno Devorando Seu Filho: um deus enorme com olhos arregalados segura um corpo humano pelos ombros — a cabeça e um braço já consumidos. É a imagem mais brutalmente perturbadora de qualquer grande museu de arte do mundo. Goya pintou isso na parede de sua sala de jantar. A questão 'por quê?' não tem resposta consensual — e talvez seja a pergunta certa para terminar uma viagem pela história da Europa.",
+                  "duration": 26,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Nenhum pintor antes do século XX havia chegado tão longe na representação do inconsciente. As Pinturas Negras antecipam o Expressionismo em 70 anos e o Surrealismo em quase 100. Goya não sabia disso — estava apenas pintando o que via fechando os olhos numa casa às margens de um rio, no silêncio permanente que a doença havia criado. E o que via era isso.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/madri/photos/prado-velazquez/thumb.jpg"
+      },
+      "walkingNotes": "Do Prado ao Retiro: saía pela porta norte do Prado (Porta Velázquez) e siga pela Carrera de San Jerónimo até a Puerta de Alcalá — então entre no Parque del Retiro pela entrada principal. 10 min a pé.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 10,
+      "tags": [
+        "museu",
+        "arte",
+        "Velázquez",
+        "Goya",
+        "Las Meninas",
+        "imperial",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "retiro-cristal",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Parque del Retiro e Palácio de Cristal",
+      "lat": 40.4153,
+      "lng": -3.6841,
+      "address": "Plaza de la Independencia, 28001 Madrid",
+      "historicalPeriod": "bourbon",
+      "yearBuilt": "1630",
+      "architecturalStyle": "Jardim formal / Palácio de Cristal neogótico (1887)",
+      "significance": "Jardim real de Felipe IV por 200 anos; oásis de 125 ha no centro de Madri; Palácio de Cristal UNESCO",
+      "description": "O Parque del Retiro — cujo nome completo é Parque del Buen Retiro (Parque do Bom Retiro) — foi o jardim privado dos reis da Espanha por mais de dois séculos, aberto ao público apenas em 1767 por Carlos III. Com 125 hectares no coração de Madri, é o principal espaço verde da capital e o único parque urbano de sua escala no centro de qualquer grande capital europeia.\n\nO parque foi criado como recinto de festas e recepções diplomáticas pelo Conde-Duque de Olivares para o rei Felipe IV, que o usou para espetáculos aquáticos no grande lago (Estanque Grande), teatros ao ar livre e jogos reais. As ruínas do Palácio do Buen Retiro — destruído pelas tropas napoleônicas em 1808 — ainda são visíveis em dois pavimentos sobreviventes transformados em museus.\n\nO Palácio de Cristal (1887), construído pelo arquiteto Ricardo Velázquez Bosco para a Exposição de Flora das Filipinas (então colônia espanhola), é uma estrutura de ferro e vidro no estilo do Crystal Palace de Londres — mas com uma escala humana que o torna mais encantador que o modelo britânico. Hoje é espaço de exposições de arte contemporânea do Museo Reina Sofia, sempre com entrada gratuita. O edifício espelha no lago artificial adjacente, criando um dos reflexos mais fotogênicos de Madri.\n\nAo entardecer de junho (pôr do sol após as 21h em Madri), o Retiro transforma-se: o calor do dia cede, as famílias saem para passear, estudantes instalam-se na grama, remadores voltam ao lago. A temperatura cai para algo mais humano. É o Madri que os turistas raramente veem, porque a maioria está em restaurantes ou bares. É o Madri cotidiano.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Estanque Grande (lago central): os remadores ao entardecer, com o Monumento a Alfonso XII ao fundo — melhor fotografia entre 19h e 21h em junho",
+        "Palácio de Cristal: o edifício espelhando no lago artificial — o reflexo duplica a estrutura de ferro e vidro numa composição simétrica",
+        "Paseo de las Estatuas: a alameda de estátuas dos reis de Espanha, originalmente destinada à fachada do Palácio Real antes de serem consideradas pesadas demais para o telhado"
+      ],
+      "suggestedExperience": "Entrem pelo Portão de Alcalá às 19h30 e caminhem direto ao Palácio de Cristal (15 min). Entrem para ver a exposição corrente do Reina Sofia (gratuita). Depois sentem-se na beira do lago: a luz do final do dia de Madri — quente, dourada, de qualidade mediterrânea completamente diferente da luz do norte da Europa que vocês viveram — é a transição perfeita entre esta viagem e casa.",
+      "searchSuggestions": [
+        "Parque Retiro Madri Palácio de Cristal exposição",
+        "Retiro remadores lago aluguel barco",
+        "pôr do sol Madri junho horário",
+        "Reina Sofia exposição Palácio de Cristal gratuita"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Parque: gratuito. Palácio de Cristal (exposição Reina Sofia): gratuito",
+      "schedule": {
+        "monday": "06:00–22:00 (parque). Palácio de Cristal: 10:00–18:00 (inverno) / 10:00–22:00 (verão)",
+        "tuesday": "06:00–22:00",
+        "wednesday": "06:00–22:00",
+        "thursday": "06:00–22:00",
+        "friday": "06:00–22:00",
+        "saturday": "06:00–22:00",
+        "sunday": "06:00–22:00"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/madri/audio/retiro-cristal.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/madri/photos/retiro-cristal/main.jpg",
+            "caption": "Parque del Retiro e Palácio de Cristal",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "palacio-cristal-reflexo",
+            "name": "Palácio de Cristal",
+            "image": "/media/routes/madri/sub-attractions/retiro-cristal/palacio-cristal-reflexo.jpg",
+            "caption": "Estrutura de ferro e vidro de 1887 espelhando no lago do Retiro — o edifício mais fotogênico de Madri",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Palácio de Cristal foi construído em 1887 pelo arquiteto Ricardo Velázquez Bosco — o mesmo sobrenome do pintor, diferente família — para abrigar a Exposição de Flora das Filipinas. A Espanha ainda era um império colonial; as Filipinas, Cuba e Porto Rico seriam perdidas 11 anos depois, em 1898, numa guerra de três meses contra os Estados Unidos.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O edifício de ferro e vidro, inspirado no Crystal Palace de Joseph Paxton em Londres (1851), tem 33 metros de altura e uma cúpula central de 14 metros de diâmetro. O lago artificial foi criado especificamente para o reflexo: o Palácio espelhado na água duplica a estrutura em composição simétrica que muda com cada hora do dia.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Ao entardecer de junho — o sol se põe às 21h30 em Madri — a luz mediterrânea entra pelos vidros do Palácio em ângulo rasante e transforma o interior em câmara de luz dourada. É o último pôr do sol de uma viagem que começou em Munique, passou pela Boêmia, a Hungria, a Eslováquia, a Áustria e termina aqui, na luz da Europa do Sul. Uma luz completamente diferente de tudo que viram nas últimas três semanas.",
+                  "duration": 24,
+                  "focusZone": "right"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/madri/photos/retiro-cristal/thumb.jpg"
+      },
+      "walkingNotes": "Do Retiro ao hotel: saiam pelo Portão de Alcalá (norte do parque) e tomem metro na estação Retiro (linha 9) ou Serrano (linha 4). Para jantar: o bairro de La Latina (estação La Latina, linha 5) tem os melhores bares de tapas de Madri — a 15 min de metrô.",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "parque",
+        "jardim",
+        "palácio",
+        "cristal",
+        "lago",
+        "entardecer"
+      ]
+    },
+    {
+      "id": "sol-plaza-mayor",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Puerta del Sol e Plaza Mayor",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "address": "Puerta del Sol, 28013 Madrid",
+      "historicalPeriod": "bourbon",
+      "yearBuilt": "1619",
+      "architecturalStyle": "Herreriano (Plaza Mayor) / Neoclássico (Sol)",
+      "significance": "Km 0 de todas as estradas espanholas; Plaza Mayor com 400 anos de história — touradas, Inquisição e festas reais",
+      "description": "A Puerta del Sol (Porta do Sol) é o coração geográfico de Madri e da Espanha: a placa no chão diante do edifício da Presidência da Comunidade marca o Km 0 de onde todas as estradas radiais espanholas são medidas. A praça semicircular, remodelada nos séculos XVIII e XIX, é o principal ponto de encontro de Madri — o Times Square da cidade, menos glamoroso, mais autêntico.\n\nA Plaza Mayor, a 5 minutos a pé pela Rua Maior, foi construída por ordem de Felipe III entre 1617 e 1619 pelo arquiteto Juan Gómez de Mora. Com seus 237 × 129 metros, rodeada de 237 varandas uniformes e nove arcos de entrada, a praça foi durante séculos o coração cívico e teatral de Madri: 400 touradas ocorreram aqui, 15 autos de fé da Inquisição (o último em 1790), proclamações reais, mercados e festas populares. A estátua equestre de Felipe III no centro foi fundida em Florença (1616) e é uma das melhores esculturas equestres barrocas da Europa.\n\nNum dia de segunda-feira às 8h, a Plaza Mayor tem uma qualidade diferente das horas de pico turístico: os cafés das arcadas estão abrindo, os garçons arrumam as mesas ao ar livre, os pombos têm a praça para si. Esta é Madri antes de ser espetáculo — uma cidade de 3,3 milhões de pessoas que acordou cedo e tem trabalho a fazer. O café com churros nas arcadas da Plaza Mayor é o café da manhã mais madrilenho que existe, e a melhor despedida para qualquer viagem.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Placa do Km 0 (Puerta del Sol): o ponto de onde todas as estradas espanholas são medidas — procure a placa no chão em frente ao edifício da Presidência",
+        "Arcadas da Plaza Mayor às 8h: os cafés abrindo, os garçons arrumando as mesas — Madri antes de ser espetáculo turístico",
+        "Estátua equestre de Felipe III: fundida em Florença em 1616 por Giovanni Bologna e Pietro Tacca — observe os detalhes do cavalo e do rei em armadura"
+      ],
+      "suggestedExperience": "Saiam do hotel às 8h em ponto. Caminhem até a Puerta del Sol (ou metrô, linha 1/2/3, estação Sol), parem no Km 0, tirem a foto. Depois 5 min a pé até a Plaza Mayor pelas arcadas. Sentem-se num café das arcadas para café com leite e churros — o melhor café da manhã de Madri, sem pressa. Às 9h30 no máximo, peguem o metrô linha 8 na estação Nuevos Ministerios para o aeroporto (Aeropuerto T4, 35 min). Check-in pelo menos 2h antes do voo das 12h — estejam no aeroporto às 10h.",
+      "searchSuggestions": [
+        "Plaza Mayor Madri história touradas Inquisição",
+        "Puerta del Sol Km 0 Espanha significado",
+        "churros Madrid melhores onde comer",
+        "metrô Madri aeroporto linha 8 T4 tempo"
+      ],
+      "visitType": "outdoor",
+      "entryFee": "Gratuito",
+      "schedule": {
+        "monday": "Sempre aberta (24h)",
+        "tuesday": "Sempre aberta",
+        "wednesday": "Sempre aberta",
+        "thursday": "Sempre aberta",
+        "friday": "Sempre aberta",
+        "saturday": "Sempre aberta",
+        "sunday": "Sempre aberta"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/madri/audio/sol-plaza-mayor.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/madri/photos/sol-plaza-mayor/main.jpg",
+            "caption": "Puerta del Sol e Plaza Mayor",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "plaza-mayor-arcadas",
+            "name": "Plaza Mayor",
+            "image": "/media/routes/madri/sub-attractions/sol-plaza-mayor/plaza-mayor-arcadas.jpg",
+            "caption": "A praça de Felipe III (1619): 400 touradas, 15 autos de fé e o café da manhã mais madrilenho que existe",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Plaza Mayor de Madri foi construída por ordem de Felipe III entre 1617 e 1619. Com 237 varandas uniformes e nove arcos de entrada, foi por dois séculos o coração cívico e teatral da cidade: 400 touradas, 15 autos de fé da Inquisição (o último em 1790), proclamações reais, execuções públicas e festas populares. Hoje, num dia de segunda-feira cedo, é onde Madri toma o café da manhã.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A estátua equestre de Felipe III no centro foi fundida em Florença em 1616 pelos escultores Giovanni Bologna e Pietro Tacca — os mesmos que criaram estátuas equestres para os Medici. Felipe III encomendou-a como presente diplomático e depois a instalou aqui quando a praça foi concluída. É uma das melhores esculturas barrocas da Espanha e a maioria dos turistas passa sem olhar.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Esta é a última parada de uma viagem de três semanas pela Europa Central e do Sul. De Munique às Alpes bávaros, pela Boêmia medieval, às margens do Danúbio em Budapeste e Bratislava, pelo Ring imperial de Viena — e agora aqui, numa praça barroca de 400 anos, com o café da manhã mais simples e mais madrilenho que existe antes do voo de volta. A Europa cabe numa xícara de café com leite.",
+                  "duration": 24,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/madri/photos/sol-plaza-mayor/thumb.jpg"
+      },
+      "walkingNotes": "Última parada antes do aeroporto. Para o Aeroporto de Madri-Barajas (MAD): Metrô linha 8 da estação Nuevos Ministerios (a 20 min a pé de Sol ou 3 paradas de metrô) até Terminal T4 — 35 min, ~€5. Para chegar às 10h: metrô das 9h15. Alternativa: táxi do centro ao aeroporto, ~€30, ~25 min (mais rápido). Voo de volta às 12h: check-in idealmente às 10h.",
+      "nextTransport": null,
+      "nextTransportMinutes": 0,
+      "tags": [
+        "praça",
+        "barroco",
+        "história",
+        "café",
+        "despedida",
+        "Inquisição"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "from": "prado-velazquez",
+      "to": "retiro-cristal",
+      "transport": "walking",
+      "minutes": 10,
+      "notes": "Pela Carrera de San Jerónimo até a Puerta de Alcalá, depois entre no Retiro pela entrada principal",
+      "distance": 0.91
+    }
+  ]
+}
