@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.netlify/
+.git/
+package-lock.json
+app_padrao/
+.env

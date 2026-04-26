@@ -100,7 +100,11 @@
       "Bash(git restore *)",
       "Bash(git rm *)",
       "Bash(python scripts/regen_praga_audio.py)",
-      "Bash(python scripts/regen_bratislava_audio.py)"
+      "Bash(python scripts/regen_bratislava_audio.py)",
+      "Bash(node *)",
+      "Bash(python *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
