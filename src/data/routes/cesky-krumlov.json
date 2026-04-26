@@ -1,1 +1,618 @@
-{"id":"cesky-krumlov-2026","title":"Český Krumlov","subtitle":"A pérola medieval da Boêmia do Sul","tripDates":{"start":"2026-06-11","end":"2026-06-12"},"baseCity":"Český Krumlov","baseCityCoords":{"lat":48.8127,"lng":14.3175},"historicalPeriods":[{"id":"medieval","label":"Medieval (séc. XIII–XV)","color":"#8B6914"},{"id":"renaissance","label":"Renascença (séc. XVI)","color":"#2E7D32"},{"id":"baroque","label":"Barroco (séc. XVII–XVIII)","color":"#7B1FA2"},{"id":"modern","label":"Moderno (séc. XX–XXI)","color":"#1565C0"}],"days":[{"id":"dia-1","order":1,"date":"2026-06-11","weekday":"Qui","title":"O Castelo das Cem Torres","subtitle":"Chegada de Praga · Tarde e entardecer no hrad","theme":"Chegando à cidade mais bem preservada da Boêmia","dayType":"urban","energyLevel":"light","startTime":"16:00","estimatedEndTime":"21:00","primaryColor":"#8B6914","coverEmoji":"🏰","intro":"Após 3 horas de ônibus de Praga, você chega à cidade mais fotogênica da Europa Central. O sol da tarde pinta as fachadas renascentistas em tons dourados enquanto o Castelo de Český Krumlov — o segundo maior complexo castelo da República Tcheca — se eleva sobre um meandro perfeito do Rio Vltava. A tarde é o melhor momento: os turistas do dia já foram embora, as ruas ficam quase desertas e a luz é cinematográfica.","poiIds":["hrad-cesky-krumlov"],"logistics":null},{"id":"dia-2","order":2,"date":"2026-06-12","weekday":"Sex","title":"Jardins, Becos e Adeus à Boêmia","subtitle":"Manhã livre · Partida às 15h para Budapeste","theme":"Centro histórico e jardins barrocos antes de seguir para Budapeste","dayType":"urban","energyLevel":"moderate","startTime":"09:00","estimatedEndTime":"14:30","primaryColor":"#7B1FA2","coverEmoji":"🌿","intro":"A manhã pertence a Český Krumlov em seu estado mais tranquilo. Os jardins barrocos do castelo abrem às 8h; chegue cedo para ter as alamedas floridas quase para vocês dois. O centro histórico medieval — classificado como Património Mundial da UNESCO desde 1992 — revela becos, o Egon Schiele Art Centrum e a praça principal cercada de casas renascentistas. Às 15h embarcam para a longa jornada até Budapeste.","poiIds":["zamecka-zahrada","historicke-centrum-ck"],"logistics":null}],"pois":[{"id":"hrad-cesky-krumlov","dayId":"dia-1","order":1,"name":"Castelo de Český Krumlov","lat":48.8130,"lng":14.3148,"address":"Zámek 59, 381 01 Český Krumlov","historicalPeriod":"renaissance","yearBuilt":"1240","architecturalStyle":"Gótico / Renascentista / Barroco","significance":"Segundo maior complexo castelo da República Tcheca; Teatro Barroco mais bem preservado do mundo; Património Mundial UNESCO","description":"O Castelo de Český Krumlov (Hrad a Zámek Český Krumlov) é o complexo castelo mais impressionante da Boêmia do Sul e o segundo maior da República Tcheca — perdendo apenas para o Castelo de Praga em extensão, mas superando-o na sensação de integridade histórica intocada. Erguido sobre um promontório rochoso que o Rio Vltava abraça em meandro de ferradura, o castelo domina uma das paisagens urbanas mais fotografadas da Europa Central.\n\nA história começa no século XIII, quando a família Vítkovci — nobres poderosos da Boêmia do Sul — construiu aqui uma fortaleza gótica inicial. A estrutura passou por transformações radicais sob os Rosenberg (1302–1611), a família mais influente da nobreza boêmia por três séculos. O apogeu criativo chegou com Vilém de Rosenberg (1555–1592), diplomata, humanista e mecenas que transformou Český Krumlov em centro renascentista de relevância europeia: 300 servidores, biblioteca de 11.000 volumes, artistas italianos trazidos para pintar as fachadas em sgraffito — imitação ilusionista de pedra e mármore em reboco colorido.\n\nApós a extinção dos Rosenberg e a passagem pelos Habsburgo, o príncipe Hans Ulrich von Eggenberg recebeu o castelo em 1622 como recompensa pelos serviços na Guerra dos Trinta Anos. Foi o príncipe Johann Christian von Eggenberg quem construiu, em 1682, o Teatro Barroco no quarto pátio — considerado o teatro barroco mais bem preservado do mundo: mais de cem cenários pintados à mão, 300 figurinos originais, maquinaria de madeira e cordas capaz de simular tempestades e trocas de cena em segundos. Os Schwarzenberg, que herdaram o complexo em 1719, raramente usaram o castelo como residência — o que explica, paradoxalmente, sua extraordinária preservação.\n\nO complexo possui cinco pátios em sequência crescente de intimidade. O primeiro e segundo são de acesso livre e revelam a Torre pintada, símbolo máximo da cidade. O terceiro e quarto contêm as câmaras reais, visitáveis em dois circuitos guiados obrigatórios de 60–90 min cada. O quinto pátio abre para os jardins barrocos.\n\nA Torre do Castelo — 162 degraus, 50 metros de altura — oferece a vista mais celebrada de Český Krumlov: o meandro perfeito do Vltava, a península histórica, os telhados vermelhos e as colinas verdes da Boêmia do Sul. O Fosso dos Ursos, separando o quarto do quinto pátio, mantém ursos pardos vivos em tradição que remonta ao século XVI — os ursos também figuram no brasão da família Rosenberg.\n\nClassificado como Património Mundial da UNESCO em 1992 junto com o centro histórico da cidade. Na alta temporada (junho–agosto), os bilhetes para os circuitos guiados e o teatro devem ser reservados com antecedência em zamek.ckrumlov.cz. Torre e pátios externos: sem reserva.","immersiveMode":true,"immersiveText":"Feche os olhos por um instante e imagine que estamos no terceiro pátio do castelo, numa tarde de setembro de 1592. Vilém de Rosenberg acabou de morrer sem filhos, e seu irmão Petr Vok herdou um castelo grandioso mas endividado. A linha dos Rosenberg — que governou a Boêmia do Sul por 300 anos, que patrocinou artistas italianos, que recebeu o próprio Imperador Rodolfo II como hóspede — está prestes a se extinguir. Petr Vok será forçado a vender o castelo à Casa de Habsburgo em 1601 para pagar dívidas. Uma era fecha.\n\nO que torna Český Krumlov singular não é apenas a beleza ou a escala — é a espessura do tempo. Cada um dos cinco pátios contém uma camada diferente da história europeia. O primeiro pátio, com seu fosso gótico seco, é o mundo medieval dos Vítkovci do século XIII. As fachadas em sgraffito do segundo pátio — aquelas imitações trompe-l\u0027oeil de pedra e mármore pintadas sobre reboco branco — são o mundo renascentista dos Rosenberg, trazido por artistas de Bolonha em 1560. O quarto pátio é o mundo barroco dos Eggenberg: o Teatro construído em 1682, com boca de cena dourada e mecanismos de madeira e corda que produziam tempestades, nevoeiros, descidas de deuses do teto, substituições de cenário em segundos.\n\nEsse teatro merece atenção especial. É tecnicamente o único teatro barroco completo e funcionalmente preservado do mundo — não uma reconstrução, não um museu estático, mas um mecanismo vivo. Mais de cem cenários pintados à mão por artistas vienenses e venezianos entre 1675 e 1766. Trezentos figurinos originais, incluindo fantasias de commedia dell\u0027arte, trajes orientais para peças de exotismo barroco, vestimentas de deuses e ninfas. O mecanismo de polias jamais foi desmontado. O teatro foi simplesmente fechado após 1766 — os Schwarzenberg preferiram as óperas de Viena — e ficou trancado por dois séculos, intocado, até ser redescoberto por pesquisadores em 1966.\n\nDurante a visita ao Circuito II, vocês vão percorrer a Sala de Máscaras — um salão de baile cujas paredes são cobertas por afrescos trompe-l\u0027oeil em tamanho natural representando figuras da commedia dell\u0027arte: arlequins, colombinas, capitões mascarados, todos dançando eternamente numa festa que nunca acabou. Vão ver os quartos de dormir dos príncipes, com camas de dossel e aquecedores de faiança pintados. E então o palco do teatro, enorme, com a maquinaria visível acima: as galerias de serviço, as cordas, os contrapesos.\n\nA Torre merece ser subida no final da tarde, quando o sol está a 30 graus acima do horizonte: a luz rasante exalta cada detalhe do sgraffito e o meandro do Vltava brilha como cobre. Do alto, a vista confirma o que o mapa sugere — Český Krumlov não cresceu para fora de sua ilha natural porque o rio não deixou. A cidade é exatamente do tamanho que a geologia permitiu: uma miniatura perfeita, uma cidade que é, ela própria, uma obra de arte.\n\nE o Fosso dos Ursos, entre o quarto e o quinto pátio? Os ursos pardos que vivem ali — Romano e Vojta, chegados do zoo de Salzburgo em 2013 — são herdeiros de uma tradição iniciada pelos próprios Rosenberg no século XVI. Na iconografia heráldica, o urso simbolizava força, coragem e nobreza territorial — ter ursos vivos no castelo era uma afirmação de status que nenhum visitante poderia ignorar. Parar alguns minutos na passarela sobre o fosso e observar os ursos movendo-se nas rochas abaixo é um desses pequenos milagres de continuidade histórica: 500 anos de tradição, vivos e roncando.\n\nUm último detalhe que costuma passar despercebido: o relógio solar na fachada sul da Torre ainda marca as horas como em 1580. Cada geração de artesãos repintou o sgraffito sem alterar o desenho original — uma continuidade visual de quase 450 anos. Parem diante da torre e procurem o gnômon de ferro que projeta a sombra sobre os quadrantes pintados. É a mesma hora que os Rosenberg viram, que os Eggenberg viram, que os Schwarzenberg viram. O tempo, aqui, tem uma textura particular.","observationPoints":["Torre (topo): o meandro perfeito do Vltava visto dos 50 metros — melhor 1h antes do pôr do sol, quando a luz é dourada e rasante","Segundo pátio: as fachadas de sgraffito renascentistas (1560s) em detalhe — observe a ilusão tridimensional da pedra pintada sobre reboco","Fosso dos Ursos: Romano e Vojta movendo-se entre as rochas abaixo da passarela — mais ativos ao entardecer","Circuito II — Sala de Máscaras: afrescos em tamanho natural de commedia dell\u0027arte cobrindo todas as paredes","Circuito II — Teatro Barroco: a maquinaria de madeira e cordas no teto, os cenários originais do século XVII, os figurinos preservados"],"suggestedExperience":"Chegue ao castelo pelas 16h30, quando o número de visitantes cai drasticamente. Compre os bilhetes da Torre (sem reserva) e suba imediatamente para capturar a luz dourada da tarde sobre o meandro do Vltava — esse é o momento fotográfico mais celebrado de toda a Boêmia do Sul. Desça para os pátios externos e caminhe até o Fosso dos Ursos. Se tiver reservado o Circuito II (Teatro Barroco) em zamek.ckrumlov.cz, o último horário de entrada costuma ser às 16h — confirme antes. Jante no Latran e volte para ver o castelo iluminado após o anoitecer.","searchSuggestions":["Teatro Barroco Český Krumlov tour reserva","zamek.ckrumlov.cz bilhetes circuito II","Český Krumlov castle tower view sunset","Vltava horseshoe meander Czech Republic","Rosenberg dynasty Bohemia history"],"visitType":"outdoor+indoor","entryFee":"Torre: 150 CZK (~€6). Circuito I (apartamentos renascentistas): 320 CZK (~€13). Circuito II (apartamentos barrocos + Teatro): 380 CZK (~€16). Pátios externos: gratuitos","schedule":{"monday":"09:00–17:00 (pátios externos sempre abertos; circuitos guiados podem ser limitados fora da temporada)","tuesday":"09:00–17:00","wednesday":"09:00–17:00","thursday":"09:00–17:00","friday":"09:00–17:00","saturday":"09:00–17:00","sunday":"09:00–17:00"},"estimatedVisitMinutes":150,"externalViewingAlways":true,"proximityRadiusMeters":120,"media":{"audio":"/media/routes/cesky-krumlov/audio/hrad-cesky-krumlov.mp3","photos":[{"src":"/media/routes/cesky-krumlov/photos/hrad-cesky-krumlov/main.jpg","caption":"Castelo de Český Krumlov","type":"recognition"}],"subAttractions":[{"id":"torre-castelo-ck","name":"Torre do Castelo","image":"/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/torre-castelo-ck.jpg","caption":"Vista panorâmica dos 162 degraus da torre renascentista sobre o meandro do Vltava","reel":{"audioMood":"contemplative","segments":[{"text":"A Torre do Castelo de Český Krumlov, com suas fachadas pintadas em sgraffito — técnica italiana de imitação ilusionista de pedra e mármore —, foi erguida no século XIII e repintada continuamente até 1750. É o símbolo máximo da cidade e o primeiro elemento que se vê ao chegar ao vale do Vltava.","duration":20,"focusZone":"full"},{"text":"Do topo, a 50 metros de altura, descortina-se o meandro perfeito do Rio Vltava abraçando a cidade em forma de ferradura — a mesma visão que pintores europeus reproduziram por séculos como exemplo de harmonia entre natureza e arquitetura medieval.","duration":20,"focusZone":"top"},{"text":"À esquerda (oeste), os telhados vermelhos do bairro do Latran, onde artesãos do castelo moravam desde o século XIV. À direita (norte), o quinto pátio e os jardins barrocos se estendem pelo planalto. Ao fundo, as colinas verdes da Boêmia do Sul chegam ao horizonte sem uma única construção moderna à vista.","duration":22,"focusZone":"center"},{"text":"O relógio solar na fachada sul da torre ainda marca as horas como em 1580. Cada geração de artesãos repintou o sgraffito sem alterar o desenho original — uma continuidade visual de quase 450 anos que torna esta torre um documento vivo da arte renascentista na Boêmia.","duration":20,"focusZone":"detail"}]}},{"id":"fosso-ursos","name":"Fosso dos Ursos","image":"/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/fosso-ursos.jpg","caption":"Tradição de 500 anos: ursos pardos guardam a passagem entre o quarto e quinto pátio","reel":{"audioMood":"medieval","segments":[{"text":"O Fosso dos Ursos separa o quarto do quinto pátio do castelo — uma fronteira simbólica entre o espaço dos visitantes e as câmaras privadas dos senhores. A tradição de manter ursos aqui remonta ao século XVI, quando os Rosenberg os usavam como símbolo de poder e nobreza territorial.","duration":22,"focusZone":"full"},{"text":"O urso aparece no brasão de armas dos Rosenberg — a família adotou-o como figura heráldica para simbolizar força bruta unida à inteligência nobre. Ter ursos vivos no fosso era uma declaração de status que nenhum visitante medieval poderia ignorar ao cruzar a passarela.","duration":20,"focusZone":"center"},{"text":"Os residentes atuais do fosso são Romano e Vojta, dois ursos pardos (Ursus arctos) chegados do Zoológico de Salzburgo em 2013. Eles hibernam entre dezembro e março e aparecem mais ativos no final da tarde — exatamente o horário em que vocês estão aqui.","duration":20,"focusZone":"bottom"}]}},{"id":"teatro-barroco","name":"Teatro Barroco","image":"/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/teatro-barroco.jpg","caption":"O teatro barroco mais bem preservado do mundo — intocado desde 1766","reel":{"audioMood":"baroque","segments":[{"text":"O Teatro Barroco do Castelo de Český Krumlov, construído em 1682 pelo príncipe Johann Christian von Eggenberg, é o teatro barroco mais bem preservado do mundo. O interior permanece praticamente intocado desde a última encenação documentada em 1766.","duration":22,"focusZone":"full"},{"text":"Mais de cem cenários originais pintados à mão por artistas vienenses e venezianos — todos funcionais, todos armazenados nos depósitos laterais do palco. A maquinaria de madeira e cordas, jamais desmontada, ainda opera: criava tempestades, nevoeiros, descidas de divindades do teto e trocas de cena em segundos.","duration":24,"focusZone":"detail"},{"text":"Trezentos figurinos originais do século XVII: fantasias de commedia dell\u0027arte, trajes orientais para peças exóticas, vestimentas de deuses gregos e ninfas. Os sapatos, as perucas, os adereços — tudo conservado em condições quase milagrosas pelos dois séculos de abandono que, paradoxalmente, o protegeram da \u0027modernização\u0027.","duration":24,"focusZone":"center"},{"text":"O teatro foi \u0027redescoberto\u0027 em 1966 após décadas de pesquisa sobre coleções de arte boêmias. Hoje é Monumento Nacional. Visitas guiadas são obrigatórias (máx. 15 pessoas; fotografias proibidas). Nos verões especiais, óperas barrocas são encenadas com instrumentos e técnicas originais — bilhetes esgotam meses antes.","duration":24,"focusZone":"full"}]}}],"thumb":"/media/routes/cesky-krumlov/photos/hrad-cesky-krumlov/thumb.jpg"},"walkingNotes":"Do castelo aos jardins: atravesse o quinto pátio e suba pela passagem coberta diretamente ao terraço — 10 min a pé. Para o centro histórico: desça pelo Latran (a rua principal na encosta), atravesse a ponte sobre o Vltava e chegue à Náměstí Svornosti em 15 min.","nextTransport":"walking","nextTransportMinutes":10,"tags":["castelo","renascentista","barroco","UNESCO","teatro","panorama","ursos","imersivo"]},{"id":"zamecka-zahrada","dayId":"dia-2","order":1,"name":"Jardins Barrocos do Castelo","lat":48.8163,"lng":14.3131,"address":"Zámecká zahrada, 381 01 Český Krumlov","historicalPeriod":"baroque","yearBuilt":"1720","architecturalStyle":"Jardim formal barroco (estilo francês)","significance":"Um dos jardins barrocos mais bem preservados da Europa Central; cascata e teatro de jardim do século XVIII","description":"Os Jardins Barrocos do Castelo de Český Krumlov (Zámecká zahrada) estendem-se por quase um quilômetro ao norte do quinto pátio do castelo, elevados sobre o Rio Vltava num terraço natural de onde se avista a curvatura do rio abaixo. São considerados um dos jardins formais mais bem preservados da Europa Central — e a entrada é gratuita, um luxo que transforma a experiência radicalmente em relação ao interior pago do castelo.\n\nOs jardins foram concebidos nos séculos XVI–XVII e redesenhados pelos príncipes Schwarzenberg a partir de 1720 no estilo geométrico francês que dominava o gosto nobre europeu da época. O traçado atual — alamedas de tília em perspectiva, parterres simétricos com flores e sebes recortadas, fontes posicionadas nos eixos principais — reflete a filosofia barroca de que a natureza deve ser domesticada e ordenada como demonstração de poder e civilização.\n\nO elemento mais espetacular é a Grande Cascata Barroca, construída por volta de 1750. Uma escultura hídrica de três níveis ornada com figuras mitológicas em calcário: Atlas suportando o mundo no nível superior, Netuno comandando as águas no médio, ninfas e tritões emergindo das pedras no inferior. A água ainda corre pelas calhas originais de pedra e a mecânica hidráulica tem funcionado continuamente por mais de dois séculos.\n\nAdjacente à cascata, o Teatro de Jardim ao ar livre (Zahradní divadlo) é um espaço cênico delimitado por sebes de buxo esculpido em forma de arquibancada, voltada para um palco natural com a cascata como cenário. Nos verões, concertos de música barroca são realizados aqui ao entardecer — com o castelo iluminado ao fundo, constitui um dos ambientes mais românticos da Europa Central.\n\nOs jardins abrem às 8h em junho — chegue cedo para ter as alamedas quase para vocês dois, antes que os primeiros grupos turísticos subam do castelo por volta das 10h. A ausência de bilheteria cria uma atmosfera muito mais descontraída do que o interior do castelo.","immersiveMode":false,"immersiveText":null,"observationPoints":["Vista das alamedas de tília em perspectiva com o castelo ao fundo — melhor fotografia de manhã cedo, sem turistas","Parterres simétricos: os padrões geométricos de flores, seixos coloridos e sebes recortadas, vistos de qualquer pequena elevação","Grande Cascata Barroca (1750): as três plataformas, Atlas e Netuno esculpidos em calcário, a água correndo pelas calhas originais de pedra","Teatro de Jardim: as sebes de buxo como arquibancada natural, o palco com cascata ao fundo — imagine uma ópera barroca ao entardecer"],"suggestedExperience":"Chegue logo às 8h quando os jardins abrem, para ter a experiência mais tranquila. Caminhem devagar pelas alamedas de tília e parem na Grande Cascata para observar as esculturas mitológicas — Atlas, Netuno, as ninfas. Se o Teatro de Jardim estiver aberto, sentem-se nas arquibancadas de pedra e imaginem uma ópera barroca ao entardecer com o castelo iluminado ao fundo. Em junho, as flores dos parterres estão no auge. Reserve no máximo 60 minutos — precisarão de tempo no centro histórico antes da partida às 15h.","searchSuggestions":["Český Krumlov castle baroque gardens","Zámecká zahrada cascata grande","teatro ao ar livre Český Krumlov concerto","Schwarzenberg gardens Czech Republic baroque"],"visitType":"outdoor","entryFee":"Gratuito","schedule":{"monday":"08:00–19:00 (junho–agosto)","tuesday":"08:00–19:00","wednesday":"08:00–19:00","thursday":"08:00–19:00","friday":"08:00–19:00","saturday":"08:00–19:00","sunday":"08:00–19:00"},"estimatedVisitMinutes":60,"externalViewingAlways":true,"proximityRadiusMeters":100,"media":{"audio":"/media/routes/cesky-krumlov/audio/zamecka-zahrada.mp3","photos":[{"src":"/media/routes/cesky-krumlov/photos/zamecka-zahrada/main.jpg","caption":"Jardins Barrocos do Castelo","type":"recognition"}],"subAttractions":[{"id":"cascata-jardim","name":"Grande Cascata Barroca","image":"/media/routes/cesky-krumlov/sub-attractions/zamecka-zahrada/cascata-jardim.jpg","caption":"Escultura hídrica de 1750 com Atlas, Netuno e ninfas de calcário — água correndo há 270 anos","reel":{"audioMood":"baroque","segments":[{"text":"Os Jardins Barrocos de Český Krumlov foram redesenhados pelos Schwarzenberg a partir de 1720 no estilo geométrico francês — alamedas de tília em perspectiva, parterres simétricos, fontes nos eixos principais. Uma declaração de poder através da ordem perfeita imposta à natureza.","duration":22,"focusZone":"full"},{"text":"A Grande Cascata Barroca, construída por volta de 1750, é uma escultura hídrica de três níveis. No topo, Atlas sustenta o mundo. No meio, Netuno comanda as águas. Na base, ninfas e tritões emergem das pedras. A água ainda corre pelas calhas de pedra originais — funcionando há mais de 270 anos sem interrupção.","duration":24,"focusZone":"center"},{"text":"O Teatro de Jardim ao ar livre, ao lado da cascata, tem arquibancadas de sebes de buxo esculpido voltadas para um palco com a cascata como cenário perfeito. Nos verões, concertos de música barroca são realizados aqui ao entardecer — com o castelo iluminado ao fundo, é um dos ambientes mais românticos da Europa Central.","duration":22,"focusZone":"right"}]}}],"thumb":"/media/routes/cesky-krumlov/photos/zamecka-zahrada/thumb.jpg"},"walkingNotes":"Dos jardins ao centro histórico: desça pelo Latran, a rua principal na encosta abaixo do castelo, atravesse a ponte sobre o Vltava e siga em linha reta até a Náměstí Svornosti — 15 min a pé.","nextTransport":"walking","nextTransportMinutes":15,"tags":["jardim","barroco","cascata","romantico","gratuito","natureza"]},{"id":"historicke-centrum-ck","dayId":"dia-2","order":2,"name":"Centro Histórico e Náměstí Svornosti","lat":48.8108,"lng":14.3175,"address":"Náměstí Svornosti 1, 381 01 Český Krumlov","historicalPeriod":"medieval","yearBuilt":"1309","architecturalStyle":"Medieval / Renascentista / Barroco","significance":"Centro histórico UNESCO; arquitetura medieval intacta; conexão com Egon Schiele; uma das cidades mais preservadas da Europa Central","description":"O Centro Histórico de Český Krumlov é uma das cidades medievais mais perfeitamente conservadas da Europa Central — e sua escala humana, surpreendentemente pequena, torna a experiência diferente das grandes capitais. O núcleo habitado, cercado pelo meandro do Vltava, tem apenas alguns quarteirões de largura: é possível percorrer todo o centro histórico a pé em menos de 20 minutos, mas cada beco, cada esquina, cada fachada merece pausa.\n\nA Náměstí Svornosti (Praça da Concórdia) é o coração pulsante. Ao contrário das grandes praças de Praga ou Viena, não há aqui monumentalidade opressora — a praça tem escala doméstica, como uma sala de estar a céu aberto. As casas ao redor, com suas fachadas de sgraffito renascentistas e detalhes barrocos posteriores, foram pintadas em rosas, ocres, amarelos e brancos. A Câmara Municipal gótica com sua torre quadrangular e a Coluna da Peste de 1716 — erguida em ação de graças após epidemia que matou 1/3 da população — completam o quadro central.\n\nO bairro do Latran, que conecta o castelo ao núcleo histórico pela margem esquerda do Vltava, preserva casas medievais dos séculos XIV e XV que abrigavam os artesãos e criados do castelo — hoje são restaurantes, lojas de artesanato e pousadas. A ponte sobre o Vltava oferece a vista clássica: torre, fachadas coloridas, rio e colinas verdes ao fundo.\n\nO Egon Schiele Art Centrum, instalado numa antiga cervejaria do século XVI, é o museu de arte moderna mais importante do sul da Boêmia. Egon Schiele (1890–1918), pintor expressionista vienense que revolucionou o retrato humano com formas angulares e nudez confrontadora, tinha raízes familiares aqui — sua mãe, Marie Soukupová, nasceu em Český Krumlov. Schiele chamava a cidade de \u0027Die tote Stadt\u0027 (A Cidade Morta) e a pintou obsessivamente de cima, com os telhados comprimidos como metáfora de claustrofobia existencial.\n\nA visita ao Centrum é uma ponte entre a beleza medieval visível nas ruas e o olhar perturbador que um gênio projetou sobre esse mesmo espaço. Em 1911, Schiele instalou-se aqui com sua companheira Wally Neuzil, foi rejeitado pelos moradores conservadores e expulso poucos meses depois — a série \u0027Die tote Stadt\u0027 nasceu desse conflito.\n\nAviso prático: o Egon Schiele Art Centrum fecha às segundas-feiras. A visita de vocês é sexta-feira, 12 de junho — estará aberto. Antes de deixar a cidade às 15h, almocem no Latran com svíčková (filé de boi com molho de creme e cranberry) e cerveja da Boêmia do Sul.","immersiveMode":false,"immersiveText":null,"observationPoints":["Náměstí Svornosti: as fachadas coloridas em diferentes horários — de manhã (luz difusa e tranquila), ao meio-dia (cores saturadas) e à tarde (luz rasante torna o sgraffito tridimensional)","Coluna da Peste (1716): os santos de calcário — São Floriano, São Sebastião — conservados com impressionante qualidade após 300 anos de intempéries","Ponte sobre o Vltava: a vista clássica do castelo — de manhã iluminado de frente; à tarde em contraluz dramático contra o céu","Egon Schiele Art Centrum: a série \u0027Die tote Stadt\u0027 e os auto-retratos — compare o olhar do artista com a cidade real que vocês estão vivendo"],"suggestedExperience":"Comece pela praça logo às 9h, quando está quase deserta, e sentem-se num dos cafés para o café da manhã com vista para as fachadas coloridas. Depois caminhem ao Egon Schiele Art Centrum (abre às 10h) — reservem 45 min para a coleção permanente, incluindo os quadros da série \u0027Die tote Stadt\u0027 e os auto-retratos perturbadores. Almocem no Latran por volta das 12h. Usem o tempo restante para compras de artesanato tcheco: cerâmica, cristal e as famosas marionetes artesanais. Às 14h30, partam para a estação de ônibus.","searchSuggestions":["Egon Schiele Art Centrum ingresso horário","Die tote Stadt Schiele pintura análise","Náměstí Svornosti história coluna da peste","Český Krumlov gastronomia svíčková restaurante","ônibus Český Krumlov Budapeste Student Agency"],"visitType":"outdoor+indoor","entryFee":"Praça e ruas históricas: gratuito. Egon Schiele Art Centrum: 320 CZK (~€13)","schedule":{"monday":"Praça: sempre aberta. Egon Schiele Centrum: fechado às segundas","tuesday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00","wednesday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00","thursday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00","friday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00","saturday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00","sunday":"Praça: sempre. Egon Schiele Centrum: 10:00–18:00"},"estimatedVisitMinutes":120,"externalViewingAlways":true,"proximityRadiusMeters":80,"media":{"audio":"/media/routes/cesky-krumlov/audio/historicke-centrum-ck.mp3","photos":[{"src":"/media/routes/cesky-krumlov/photos/historicke-centrum-ck/main.jpg","caption":"Centro Histórico e Náměstí Svornosti","type":"recognition"}],"subAttractions":[{"id":"namesti-svornosti","name":"Náměstí Svornosti","image":"/media/routes/cesky-krumlov/sub-attractions/historicke-centrum-ck/namesti-svornosti.jpg","caption":"A Praça da Concórdia medieval, cercada de casas renascentistas com fachadas de sgraffito colorido","reel":{"audioMood":"medieval","segments":[{"text":"A Náměstí Svornosti — Praça da Concórdia — é o coração de Český Krumlov desde o século XIV: um retângulo irregular cercado de casas renascentistas e barrocas com fachadas coloridas de sgraffito. A Câmara Municipal gótica, com sua torre quadrangular, ancora o lado norte da praça.","duration":22,"focusZone":"full"},{"text":"No centro da praça, a Coluna da Peste de 1716 foi erguida em ação de graças após a epidemia bubônica que devastou a cidade. Seus santos protetores — São Floriano, São Sebastião, Santa Úrsula — foram esculpidos em calcário pelos melhores artesãos do sul da Boêmia do início do século XVIII.","duration":22,"focusZone":"center"},{"text":"A escala da praça é o que a torna especial: não há grandiosidade intimidadora — apenas proporção humana e aconchegante, como uma sala de estar ao ar livre. Sentem-se num dos cafés e observem o ritmo da vida local: moradores passando, o sino da câmara municipal marcando as horas, as andorinhas voando entre os telhados.","duration":22,"focusZone":"full"}]}},{"id":"egon-schiele-centrum","name":"Egon Schiele Art Centrum","image":"/media/routes/cesky-krumlov/sub-attractions/historicke-centrum-ck/egon-schiele-centrum.jpg","caption":"O maior museu de Schiele fora de Viena, na cidade que ele chamou de \u0027A Cidade Morta\u0027","reel":{"audioMood":"contemplative","segments":[{"text":"Egon Schiele (1890–1918) tinha raízes em Český Krumlov — sua mãe, Marie Soukupová, nasceu aqui. Schiele chamava a cidade de \u0027Die tote Stadt\u0027 (A Cidade Morta) e retornou obsessivamente a ela em seus quadros, mesmo depois de ser expulso pelos moradores conservadores.","duration":22,"focusZone":"full"},{"text":"Em 1911, Schiele instalou-se aqui com sua companheira Wally Neuzil, fugindo do escândalo vienense. Os moradores o rejeitaram — ele pintava modelos nus em poses provocadoras. Foi expulso poucos meses depois e, um ano mais tarde, preso em Neulengbach por exposição de obras obscenas a menores.","duration":24,"focusZone":"detail"},{"text":"A série \u0027Die tote Stadt\u0027 retrata Český Krumlov visto de cima — os telhados vermelhos comprimidos, as casas encaixotadas, sem espaço para respirar. É expressionismo puro: a cidade real como espelho da angústia interna do artista. O original da série está no Leopold Museum em Viena — podem ver uma reprodução aqui e o original em poucos dias.","duration":24,"focusZone":"center"},{"text":"O Egon Schiele Art Centrum, inaugurado em 1993 numa cervejaria do século XVI, exibe obras do próprio Schiele ao lado de arte tcheca contemporânea. É o único museu de renome internacional no sul da Boêmia — e a conexão entre o artista e a cidade adiciona uma camada perturbadora e fascinante ao que vocês viveram ao caminhar pelas mesmas ruas.","duration":24,"focusZone":"full"}]}}],"thumb":"/media/routes/cesky-krumlov/photos/historicke-centrum-ck/thumb.jpg"},"walkingNotes":"Último ponto de Český Krumlov antes da partida. Da Náměstí Svornosti à estação de ônibus (Autobusové nádraží, Rua Kaplická) são 8 min a pé. Para Budapeste: ônibus linha 17 até České Budějovice (45 min, ~50 CZK), de lá trem até Viena (3h10) ou ônibus Student Agency direto Český Krumlov → Viena (3h45, reserve em studentagency.eu). De Viena, Railjet para Budapeste-Keleti (2h30, reserve em obb.at). Previsão de chegada a Budapeste: entre 22h e 23h do dia 12.","nextTransport":null,"nextTransportMinutes":0,"tags":["praça","medieval","egon-schiele","arte","gastronomia","UNESCO"]}],"segments":[{"from":"hrad-cesky-krumlov","to":"zamecka-zahrada","transport":"walking","minutes":10,"notes":"Atravesse o quinto pátio do castelo e siga pela passagem coberta diretamente ao terraço dos jardins barrocos"},{"from":"zamecka-zahrada","to":"historicke-centrum-ck","transport":"walking","minutes":15,"notes":"Desça pelo Latran em direção à ponte sobre o Vltava e siga em linha reta até a Náměstí Svornosti"}]}
+{
+  "id": "cesky-krumlov-2026",
+  "title": "Český Krumlov",
+  "subtitle": "A pérola medieval da Boêmia do Sul",
+  "tripDates": {
+    "start": "2026-06-11",
+    "end": "2026-06-12"
+  },
+  "baseCity": "Český Krumlov",
+  "baseCityCoords": {
+    "lat": 48.8127,
+    "lng": 14.3175
+  },
+  "historicalPeriods": [
+    {
+      "id": "medieval",
+      "label": "Medieval (séc. XIII–XV)",
+      "color": "#8B6914"
+    },
+    {
+      "id": "renaissance",
+      "label": "Renascença (séc. XVI)",
+      "color": "#2E7D32"
+    },
+    {
+      "id": "baroque",
+      "label": "Barroco (séc. XVII–XVIII)",
+      "color": "#7B1FA2"
+    },
+    {
+      "id": "modern",
+      "label": "Moderno (séc. XX–XXI)",
+      "color": "#1565C0"
+    }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-06-11",
+      "weekday": "Qui",
+      "title": "O Castelo e a Cidade Medieval",
+      "subtitle": "Chegada às 11h · Torre do Castelo, Fosso dos Ursos e Náměstí ao entardecer",
+      "theme": "Do promontório do hrad às ruas medievais — o coração de Český Krumlov revelado em camadas",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "11:00",
+      "estimatedEndTime": "21:00",
+      "primaryColor": "#8B6914",
+      "coverEmoji": "🏰",
+      "intro": "O ônibus de Praga desce entre colinas verdes e entra em Český Krumlov pelo Latrán — a rua medieval na encosta do castelo, com casas do século XIV transformadas em ateliês e restaurantes. Às 11h você já está aqui, e tem o dia inteiro pela frente.\n\nA manhã e parte da tarde pertencem ao complexo do castelo: o segundo maior da República Tcheca, com cinco pátios em sequência crescente de intimidade, o Fosso dos Ursos, a Torre do Castelo com vista panorâmica do meandro do Vltava e — se reservado em zamek.ckrumlov.cz — o Teatro Barroco mais bem preservado do mundo, intocado desde 1766. Após almoço numa ruela medieval, a tarde explora o centro histórico: a Náměstí Svornosti com suas fachadas renascentistas, a Igreja de São Vito em silêncio gótico e a Plášťový most — a arcada barroca amarela que passa por cima do Latrán como um aqueduto romano e é a fotografia mais icônica da cidade.",
+      "poiIds": [
+        "hrad-cesky-krumlov",
+        "historicke-centrum-ck"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-12",
+      "weekday": "Sex",
+      "title": "Jardins Barrocos e Schiele",
+      "subtitle": "Alamedas ao amanhecer · Egon Schiele Art Centrum · Partida às 17h",
+      "theme": "A ordem formal dos jardins barrocos e o olhar perturbador de um gênio sobre a mesma cidade",
+      "dayType": "urban",
+      "energyLevel": "light",
+      "startTime": "08:00",
+      "estimatedEndTime": "16:30",
+      "primaryColor": "#7B1FA2",
+      "coverEmoji": "🌿",
+      "intro": "A última manhã em Český Krumlov começa nos jardins barrocos que abrem às 8h — chegue antes das 9h para ter as alamedas de tília quase só para vocês, antes que o fluxo de visitantes comece lá pelas 10h. A Grande Cascata com Atlas e Netuno em calcário, o Teatro de Jardim ao ar livre, as sebes simétricas recortadas: um dos jardins formais mais bem preservados da Europa Central, gratuito e quase vazio de manhã cedo.\n\nDepois, de volta à cidade, o Egon Schiele Art Centrum ocupa uma antiga cervejaria barroca do século XVI. Schiele chamava Český Krumlov de 'Die tote Stadt' — A Cidade Morta — e pintou obsessivamente os mesmos telhados medievais que vocês viram ontem, desta vez de cima, comprimidos como metáfora de claustrofobia existencial. Ver as pinturas e depois olhar pela janela para os mesmos telhados reais é uma das experiências mais singulares do roteiro.\n\nO ônibus parte da estação Spičák às 17h — saiam do Centrum às 16h30, são 15 minutos a pé.",
+      "poiIds": [
+        "zamecka-zahrada",
+        "egon-schiele-centrum"
+      ],
+      "logistics": null
+    }
+  ],
+  "pois": [
+    {
+      "id": "hrad-cesky-krumlov",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Castelo de Český Krumlov",
+      "lat": 48.813,
+      "lng": 14.3148,
+      "address": "Zámek 59, 381 01 Český Krumlov",
+      "historicalPeriod": "renaissance",
+      "yearBuilt": "1240",
+      "architecturalStyle": "Gótico / Renascentista / Barroco",
+      "significance": "Segundo maior complexo castelo da República Tcheca; Teatro Barroco mais bem preservado do mundo; Património Mundial UNESCO",
+      "description": "O Castelo de Český Krumlov (Hrad a Zámek Český Krumlov) é o complexo castelo mais impressionante da Boêmia do Sul e o segundo maior da República Tcheca — perdendo apenas para o Castelo de Praga em extensão, mas superando-o na sensação de integridade histórica intocada. Erguido sobre um promontório rochoso que o Rio Vltava abraça em meandro de ferradura, o castelo domina uma das paisagens urbanas mais fotografadas da Europa Central.\n\nA história começa no século XIII, quando a família Vítkovci — nobres poderosos da Boêmia do Sul — construiu aqui uma fortaleza gótica inicial. A estrutura passou por transformações radicais sob os Rosenberg (1302–1611), a família mais influente da nobreza boêmia por três séculos. O apogeu criativo chegou com Vilém de Rosenberg (1555–1592), diplomata, humanista e mecenas que transformou Český Krumlov em centro renascentista de relevância europeia: 300 servidores, biblioteca de 11.000 volumes, artistas italianos trazidos para pintar as fachadas em sgraffito — imitação ilusionista de pedra e mármore em reboco colorido.\n\nApós a extinção dos Rosenberg e a passagem pelos Habsburgo, o príncipe Hans Ulrich von Eggenberg recebeu o castelo em 1622 como recompensa pelos serviços na Guerra dos Trinta Anos. Foi o príncipe Johann Christian von Eggenberg quem construiu, em 1682, o Teatro Barroco no quarto pátio — considerado o teatro barroco mais bem preservado do mundo: mais de cem cenários pintados à mão, 300 figurinos originais, maquinaria de madeira e cordas capaz de simular tempestades e trocas de cena em segundos. Os Schwarzenberg, que herdaram o complexo em 1719, raramente usaram o castelo como residência — o que explica, paradoxalmente, sua extraordinária preservação.\n\nO complexo possui cinco pátios em sequência crescente de intimidade. O primeiro e segundo são de acesso livre e revelam a Torre pintada, símbolo máximo da cidade. O terceiro e quarto contêm as câmaras reais, visitáveis em dois circuitos guiados obrigatórios de 60–90 min cada. O quinto pátio abre para os jardins barrocos.\n\nA Torre do Castelo — 162 degraus, 50 metros de altura — oferece a vista mais celebrada de Český Krumlov: o meandro perfeito do Vltava, a península histórica, os telhados vermelhos e as colinas verdes da Boêmia do Sul. O Fosso dos Ursos, separando o quarto do quinto pátio, mantém ursos pardos vivos em tradição que remonta ao século XVI — os ursos também figuram no brasão da família Rosenberg.\n\nClassificado como Património Mundial da UNESCO em 1992 junto com o centro histórico da cidade. Na alta temporada (junho–agosto), os bilhetes para os circuitos guiados e o teatro devem ser reservados com antecedência em zamek.ckrumlov.cz. Torre e pátios externos: sem reserva.",
+      "immersiveMode": true,
+      "immersiveText": "Feche os olhos por um instante e imagine que estamos no terceiro pátio do castelo, numa tarde de setembro de 1592. Vilém de Rosenberg acabou de morrer sem filhos, e seu irmão Petr Vok herdou um castelo grandioso mas endividado. A linha dos Rosenberg — que governou a Boêmia do Sul por 300 anos, que patrocinou artistas italianos, que recebeu o próprio Imperador Rodolfo II como hóspede — está prestes a se extinguir. Petr Vok será forçado a vender o castelo à Casa de Habsburgo em 1601 para pagar dívidas. Uma era fecha.\n\nO que torna Český Krumlov singular não é apenas a beleza ou a escala — é a espessura do tempo. Cada um dos cinco pátios contém uma camada diferente da história europeia. O primeiro pátio, com seu fosso gótico seco, é o mundo medieval dos Vítkovci do século XIII. As fachadas em sgraffito do segundo pátio — aquelas imitações trompe-l'oeil de pedra e mármore pintadas sobre reboco branco — são o mundo renascentista dos Rosenberg, trazido por artistas de Bolonha em 1560. O quarto pátio é o mundo barroco dos Eggenberg: o Teatro construído em 1682, com boca de cena dourada e mecanismos de madeira e corda que produziam tempestades, nevoeiros, descidas de deuses do teto, substituições de cenário em segundos.\n\nEsse teatro merece atenção especial. É tecnicamente o único teatro barroco completo e funcionalmente preservado do mundo — não uma reconstrução, não um museu estático, mas um mecanismo vivo. Mais de cem cenários pintados à mão por artistas vienenses e venezianos entre 1675 e 1766. Trezentos figurinos originais, incluindo fantasias de commedia dell'arte, trajes orientais para peças de exotismo barroco, vestimentas de deuses e ninfas. O mecanismo de polias jamais foi desmontado. O teatro foi simplesmente fechado após 1766 — os Schwarzenberg preferiram as óperas de Viena — e ficou trancado por dois séculos, intocado, até ser redescoberto por pesquisadores em 1966.\n\nDurante a visita ao Circuito II, vocês vão percorrer a Sala de Máscaras — um salão de baile cujas paredes são cobertas por afrescos trompe-l'oeil em tamanho natural representando figuras da commedia dell'arte: arlequins, colombinas, capitões mascarados, todos dançando eternamente numa festa que nunca acabou. Vão ver os quartos de dormir dos príncipes, com camas de dossel e aquecedores de faiança pintados. E então o palco do teatro, enorme, com a maquinaria visível acima: as galerias de serviço, as cordas, os contrapesos.\n\nA Torre merece ser subida no final da tarde, quando o sol está a 30 graus acima do horizonte: a luz rasante exalta cada detalhe do sgraffito e o meandro do Vltava brilha como cobre. Do alto, a vista confirma o que o mapa sugere — Český Krumlov não cresceu para fora de sua ilha natural porque o rio não deixou. A cidade é exatamente do tamanho que a geologia permitiu: uma miniatura perfeita, uma cidade que é, ela própria, uma obra de arte.\n\nE o Fosso dos Ursos, entre o quarto e o quinto pátio? Os ursos pardos que vivem ali — Romano e Vojta, chegados do zoo de Salzburgo em 2013 — são herdeiros de uma tradição iniciada pelos próprios Rosenberg no século XVI. Na iconografia heráldica, o urso simbolizava força, coragem e nobreza territorial — ter ursos vivos no castelo era uma afirmação de status que nenhum visitante poderia ignorar. Parar alguns minutos na passarela sobre o fosso e observar os ursos movendo-se nas rochas abaixo é um desses pequenos milagres de continuidade histórica: 500 anos de tradição, vivos e roncando.\n\nUm último detalhe que costuma passar despercebido: o relógio solar na fachada sul da Torre ainda marca as horas como em 1580. Cada geração de artesãos repintou o sgraffito sem alterar o desenho original — uma continuidade visual de quase 450 anos. Parem diante da torre e procurem o gnômon de ferro que projeta a sombra sobre os quadrantes pintados. É a mesma hora que os Rosenberg viram, que os Eggenberg viram, que os Schwarzenberg viram. O tempo, aqui, tem uma textura particular.",
+      "observationPoints": [
+        "Torre (topo): o meandro perfeito do Vltava visto dos 50 metros — melhor 1h antes do pôr do sol, quando a luz é dourada e rasante",
+        "Segundo pátio: as fachadas de sgraffito renascentistas (1560s) em detalhe — observe a ilusão tridimensional da pedra pintada sobre reboco",
+        "Fosso dos Ursos: Romano e Vojta movendo-se entre as rochas abaixo da passarela — mais ativos ao entardecer",
+        "Circuito II — Sala de Máscaras: afrescos em tamanho natural de commedia dell'arte cobrindo todas as paredes",
+        "Circuito II — Teatro Barroco: a maquinaria de madeira e cordas no teto, os cenários originais do século XVII, os figurinos preservados"
+      ],
+      "suggestedExperience": "Chegue ao castelo pelas 16h30, quando o número de visitantes cai drasticamente. Compre os bilhetes da Torre (sem reserva) e suba imediatamente para capturar a luz dourada da tarde sobre o meandro do Vltava — esse é o momento fotográfico mais celebrado de toda a Boêmia do Sul. Desça para os pátios externos e caminhe até o Fosso dos Ursos. Se tiver reservado o Circuito II (Teatro Barroco) em zamek.ckrumlov.cz, o último horário de entrada costuma ser às 16h — confirme antes. Jante no Latran e volte para ver o castelo iluminado após o anoitecer.",
+      "searchSuggestions": [
+        "Teatro Barroco Český Krumlov tour reserva",
+        "zamek.ckrumlov.cz bilhetes circuito II",
+        "Český Krumlov castle tower view sunset",
+        "Vltava horseshoe meander Czech Republic",
+        "Rosenberg dynasty Bohemia history"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Torre: 150 CZK (~€6). Circuito I (apartamentos renascentistas): 320 CZK (~€13). Circuito II (apartamentos barrocos + Teatro): 380 CZK (~€16). Pátios externos: gratuitos",
+      "schedule": {
+        "monday": "09:00–17:00 (pátios externos sempre abertos; circuitos guiados podem ser limitados fora da temporada)",
+        "tuesday": "09:00–17:00",
+        "wednesday": "09:00–17:00",
+        "thursday": "09:00–17:00",
+        "friday": "09:00–17:00",
+        "saturday": "09:00–17:00",
+        "sunday": "09:00–17:00"
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 120,
+      "media": {
+        "audio": "/media/routes/cesky-krumlov/audio/hrad-cesky-krumlov.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/cesky-krumlov/photos/hrad-cesky-krumlov/main.jpg",
+            "caption": "Castelo de Český Krumlov",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "torre-castelo-ck",
+            "name": "Torre do Castelo",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/torre-castelo-ck.jpg",
+            "caption": "Vista panorâmica dos 162 degraus da torre renascentista sobre o meandro do Vltava",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Torre do Castelo de Český Krumlov, com suas fachadas pintadas em sgraffito — técnica italiana de imitação ilusionista de pedra e mármore —, foi erguida no século XIII e repintada continuamente até 1750. É o símbolo máximo da cidade e o primeiro elemento que se vê ao chegar ao vale do Vltava.",
+                  "duration": 20,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Do topo, a 50 metros de altura, descortina-se o meandro perfeito do Rio Vltava abraçando a cidade em forma de ferradura — a mesma visão que pintores europeus reproduziram por séculos como exemplo de harmonia entre natureza e arquitetura medieval.",
+                  "duration": 20,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "À esquerda (oeste), os telhados vermelhos do bairro do Latran, onde artesãos do castelo moravam desde o século XIV. À direita (norte), o quinto pátio e os jardins barrocos se estendem pelo planalto. Ao fundo, as colinas verdes da Boêmia do Sul chegam ao horizonte sem uma única construção moderna à vista.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "O relógio solar na fachada sul da torre ainda marca as horas como em 1580. Cada geração de artesãos repintou o sgraffito sem alterar o desenho original — uma continuidade visual de quase 450 anos que torna esta torre um documento vivo da arte renascentista na Boêmia.",
+                  "duration": 20,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "fosso-ursos",
+            "name": "Fosso dos Ursos",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/fosso-ursos.jpg",
+            "caption": "Tradição de 500 anos: ursos pardos guardam a passagem entre o quarto e quinto pátio",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "O Fosso dos Ursos separa o quarto do quinto pátio do castelo — uma fronteira simbólica entre o espaço dos visitantes e as câmaras privadas dos senhores. A tradição de manter ursos aqui remonta ao século XVI, quando os Rosenberg os usavam como símbolo de poder e nobreza territorial.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O urso aparece no brasão de armas dos Rosenberg — a família adotou-o como figura heráldica para simbolizar força bruta unida à inteligência nobre. Ter ursos vivos no fosso era uma declaração de status que nenhum visitante medieval poderia ignorar ao cruzar a passarela.",
+                  "duration": 20,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Os residentes atuais do fosso são Romano e Vojta, dois ursos pardos (Ursus arctos) chegados do Zoológico de Salzburgo em 2013. Eles hibernam entre dezembro e março e aparecem mais ativos no final da tarde — exatamente o horário em que vocês estão aqui.",
+                  "duration": 20,
+                  "focusZone": "bottom"
+                }
+              ]
+            }
+          },
+          {
+            "id": "teatro-barroco",
+            "name": "Teatro Barroco",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/hrad-cesky-krumlov/teatro-barroco.jpg",
+            "caption": "O teatro barroco mais bem preservado do mundo — intocado desde 1766",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "O Teatro Barroco do Castelo de Český Krumlov, construído em 1682 pelo príncipe Johann Christian von Eggenberg, é o teatro barroco mais bem preservado do mundo. O interior permanece praticamente intocado desde a última encenação documentada em 1766.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Mais de cem cenários originais pintados à mão por artistas vienenses e venezianos — todos funcionais, todos armazenados nos depósitos laterais do palco. A maquinaria de madeira e cordas, jamais desmontada, ainda opera: criava tempestades, nevoeiros, descidas de divindades do teto e trocas de cena em segundos.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Trezentos figurinos originais do século XVII: fantasias de commedia dell'arte, trajes orientais para peças exóticas, vestimentas de deuses gregos e ninfas. Os sapatos, as perucas, os adereços — tudo conservado em condições quase milagrosas pelos dois séculos de abandono que, paradoxalmente, o protegeram da 'modernização'.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "O teatro foi 'redescoberto' em 1966 após décadas de pesquisa sobre coleções de arte boêmias. Hoje é Monumento Nacional. Visitas guiadas são obrigatórias (máx. 15 pessoas; fotografias proibidas). Nos verões especiais, óperas barrocas são encenadas com instrumentos e técnicas originais — bilhetes esgotam meses antes.",
+                  "duration": 24,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/cesky-krumlov/photos/hrad-cesky-krumlov/thumb.jpg"
+      },
+      "walkingNotes": "Do castelo ao centro histórico: desça o Latrán (a rua principal na encosta), atravesse a Lazebnický most (Ponte do Barbeiro, de pedra sobre o Vltava) e chegue à Náměstí Svornosti em 15 min a pé. Almoce no Latrán antes de continuar: a Krcma v Satlavske Ulici (Sátlavská 2) fica exatamente no meio da descida — ambiente medieval num edifício do século XV, pratos boêmios e cerveja local. O Papa's Living Restaurant é a alternativa com mesas sobre o rio.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "castelo",
+        "renascentista",
+        "barroco",
+        "UNESCO",
+        "teatro",
+        "panorama",
+        "ursos",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "zamecka-zahrada",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Jardins Barrocos do Castelo",
+      "lat": 48.8163,
+      "lng": 14.3131,
+      "address": "Zámecká zahrada, 381 01 Český Krumlov",
+      "historicalPeriod": "baroque",
+      "yearBuilt": "1720",
+      "architecturalStyle": "Jardim formal barroco (estilo francês)",
+      "significance": "Um dos jardins barrocos mais bem preservados da Europa Central; cascata e teatro de jardim do século XVIII",
+      "description": "Os Jardins Barrocos do Castelo de Český Krumlov (Zámecká zahrada) estendem-se por quase um quilômetro ao norte do quinto pátio do castelo, elevados sobre o Rio Vltava num terraço natural de onde se avista a curvatura do rio abaixo. São considerados um dos jardins formais mais bem preservados da Europa Central — e a entrada é gratuita, um luxo que transforma a experiência radicalmente em relação ao interior pago do castelo.\n\nOs jardins foram concebidos nos séculos XVI–XVII e redesenhados pelos príncipes Schwarzenberg a partir de 1720 no estilo geométrico francês que dominava o gosto nobre europeu da época. O traçado atual — alamedas de tília em perspectiva, parterres simétricos com flores e sebes recortadas, fontes posicionadas nos eixos principais — reflete a filosofia barroca de que a natureza deve ser domesticada e ordenada como demonstração de poder e civilização.\n\nO elemento mais espetacular é a Grande Cascata Barroca, construída por volta de 1750. Uma escultura hídrica de três níveis ornada com figuras mitológicas em calcário: Atlas suportando o mundo no nível superior, Netuno comandando as águas no médio, ninfas e tritões emergindo das pedras no inferior. A água ainda corre pelas calhas originais de pedra e a mecânica hidráulica tem funcionado continuamente por mais de dois séculos.\n\nAdjacente à cascata, o Teatro de Jardim ao ar livre (Zahradní divadlo) é um espaço cênico delimitado por sebes de buxo esculpido em forma de arquibancada, voltada para um palco natural com a cascata como cenário. Nos verões, concertos de música barroca são realizados aqui ao entardecer — com o castelo iluminado ao fundo, constitui um dos ambientes mais românticos da Europa Central.\n\nOs jardins abrem às 8h em junho — chegue cedo para ter as alamedas quase para vocês dois, antes que os primeiros grupos turísticos subam do castelo por volta das 10h. A ausência de bilheteria cria uma atmosfera muito mais descontraída do que o interior do castelo.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Vista das alamedas de tília em perspectiva com o castelo ao fundo — melhor fotografia de manhã cedo, sem turistas",
+        "Parterres simétricos: os padrões geométricos de flores, seixos coloridos e sebes recortadas, vistos de qualquer pequena elevação",
+        "Grande Cascata Barroca (1750): as três plataformas, Atlas e Netuno esculpidos em calcário, a água correndo pelas calhas originais de pedra",
+        "Teatro de Jardim: as sebes de buxo como arquibancada natural, o palco com cascata ao fundo — imagine uma ópera barroca ao entardecer"
+      ],
+      "suggestedExperience": "Chegue logo às 8h quando os jardins abrem, para ter a experiência mais tranquila. Caminhem devagar pelas alamedas de tília e parem na Grande Cascata para observar as esculturas mitológicas — Atlas, Netuno, as ninfas. Se o Teatro de Jardim estiver aberto, sentem-se nas arquibancadas de pedra e imaginem uma ópera barroca ao entardecer com o castelo iluminado ao fundo. Em junho, as flores dos parterres estão no auge. Reserve no máximo 60 minutos — precisarão de tempo no centro histórico antes da partida às 15h.",
+      "searchSuggestions": [
+        "Český Krumlov castle baroque gardens",
+        "Zámecká zahrada cascata grande",
+        "teatro ao ar livre Český Krumlov concerto",
+        "Schwarzenberg gardens Czech Republic baroque"
+      ],
+      "visitType": "outdoor",
+      "entryFee": "Gratuito",
+      "schedule": {
+        "monday": "08:00–19:00 (junho–agosto)",
+        "tuesday": "08:00–19:00",
+        "wednesday": "08:00–19:00",
+        "thursday": "08:00–19:00",
+        "friday": "08:00–19:00",
+        "saturday": "08:00–19:00",
+        "sunday": "08:00–19:00"
+      },
+      "estimatedVisitMinutes": 60,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/cesky-krumlov/audio/zamecka-zahrada.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/cesky-krumlov/photos/zamecka-zahrada/main.jpg",
+            "caption": "Jardins Barrocos do Castelo",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "cascata-jardim",
+            "name": "Grande Cascata Barroca",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/zamecka-zahrada/cascata-jardim.jpg",
+            "caption": "Escultura hídrica de 1750 com Atlas, Netuno e ninfas de calcário — água correndo há 270 anos",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "Os Jardins Barrocos de Český Krumlov foram redesenhados pelos Schwarzenberg a partir de 1720 no estilo geométrico francês — alamedas de tília em perspectiva, parterres simétricos, fontes nos eixos principais. Uma declaração de poder através da ordem perfeita imposta à natureza.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A Grande Cascata Barroca, construída por volta de 1750, é uma escultura hídrica de três níveis. No topo, Atlas sustenta o mundo. No meio, Netuno comanda as águas. Na base, ninfas e tritões emergem das pedras. A água ainda corre pelas calhas de pedra originais — funcionando há mais de 270 anos sem interrupção.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "O Teatro de Jardim ao ar livre, ao lado da cascata, tem arquibancadas de sebes de buxo esculpido voltadas para um palco com a cascata como cenário perfeito. Nos verões, concertos de música barroca são realizados aqui ao entardecer — com o castelo iluminado ao fundo, é um dos ambientes mais românticos da Europa Central.",
+                  "duration": 22,
+                  "focusZone": "right"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/cesky-krumlov/photos/zamecka-zahrada/thumb.jpg"
+      },
+      "walkingNotes": "Dos jardins ao Egon Schiele Art Centrum: desça pelo Latrán (a rua principal na encosta abaixo do castelo), atravesse a Lazebnický most sobre o Vltava e siga pela Široká — o Centrum fica a 15 min a pé, numa antiga cervejaria barroca do século XVI com fachada na margem da ilha histórica.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "jardim",
+        "barroco",
+        "cascata",
+        "romantico",
+        "gratuito",
+        "natureza"
+      ]
+    },
+    {
+      "id": "egon-schiele-centrum",
+      "dayId": "dia-2",
+      "order": 2,
+      "name": "Egon Schiele Art Centrum",
+      "lat": 48.8103,
+      "lng": 14.3186,
+      "address": "Široká 71, 381 01 Český Krumlov",
+      "historicalPeriod": "modern",
+      "yearBuilt": "Século XVI (cervejaria) / 1992 (museu)",
+      "architecturalStyle": "Renascentista (edifício) / Contemporâneo (espaço interno)",
+      "significance": "Principal museu de arte moderna da Boêmia do Sul; única coleção permanente de Schiele na cidade que ele chamou de 'A Cidade Morta'",
+      "description": "O Egon Schiele Art Centrum ocupa uma antiga cervejaria renascentista do século XVI na ilha histórica de Český Krumlov, recuperada como espaço cultural em 1992 por iniciativa da própria cidade. É o principal museu de arte moderna do sul da Boêmia — e a conexão entre ele e Český Krumlov vai muito além do endereço.\n\nEgon Schiele (1890–1918) é considerado um dos maiores pintores expressionistas do século XX. Discípulo de Gustav Klimt que rapidamente rompeu com o ornamentalismo decorativo do mestre, Schiele criou uma linguagem visual radicalmente nova: figuras humanas angulares, contorcidas, com contornos deliberadamente fora da proporção acadêmica — corpos que comunicam ansiedade existencial de um modo que nenhuma figura tecnicamente correta conseguiria. Seus auto-retratos e retratos de nus confrontam o observador com uma nudez sem glamour ou idealização: não corpos bonitos posando, mas corpos que existem, que sofrem, que habitam o mundo.\n\nA conexão com Český Krumlov é profunda. A mãe de Schiele, Marie Soukupová, nasceu aqui em 1862. Após a morte do pai em 1905 e a consequente instabilidade financeira da família, Schiele passou temporadas na casa dos avós maternos aqui. Em 1911, retornou à cidade com sua companheira Wally Neuzil para instalar um ateliê — e foi rejeitado pelos moradores conservadores, escandalizados com os modelos nus. Expulso em menos de um ano, Schiele partiu com algo inestimável: a série 'Die tote Stadt' (A Cidade Morta), pinturas da cidade vista de cima, com os telhados medievais comprimidos como se a própria arquitetura sufocasse quem vive embaixo.\n\nO título não é literal — é psicológico. Schiele via em Český Krumlov o conservadorismo que sufocava o novo, a vida aprisionada pelo peso da tradição. Os telhados nas pinturas quase se tocam, as janelas são fechadas, não há figuras humanas nas ruas. A beleza da cidade na pintura é indistinguível da sua opressão. Ao ver os quadros e depois olhar pela janela do museu para os mesmos telhados que vocês caminharam ontem, a tensão que Schiele sentiu em 1911 ainda é palpável.\n\nSchiele morreu em outubro de 1918, três dias após sua esposa Edith, ambos vítimas da gripe espanhola que matou entre 50 e 100 milhões de pessoas naquele outono. Ele tinha 28 anos. O reconhecimento pleno veio décadas depois — mas as obras deixadas em menos de uma década de produção adulta mudaram permanentemente o que a pintura pode dizer sobre a condição humana.\n\nO Centrum exibe originais de Schiele (gravuras, desenhos, litografias) e obras de expressionistas austríacos e tchecos — Klimt, Kokoschka, Max Oppenheimer — ao lado de exposições temporárias de arte contemporânea.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Série 'Die tote Stadt': as pinturas dos telhados de Český Krumlov de cima — compare com os telhados reais visíveis pela janela do museu",
+        "Auto-retratos: o olhar fixo, as mãos com dedos exagerados, a ausência de qualquer idealização — um confronto direto com o artista",
+        "Edifício: os arcos renascentistas da cervejaria do século XVI, o pátio interno recuperado na restauração de 1992",
+        "Exposição temporária (térreo): artistas tchecos contemporâneos geralmente em diálogo direto com o expressionismo de Schiele"
+      ],
+      "suggestedExperience": "Chegue por volta das 10h, quando o museu abre e antes dos grupos organizados. Reserve 75 a 90 minutos: comece no segundo andar (coleção permanente — os Schiele originais, os expressionistas austríacos) e desça para o térreo (exposição temporária). Antes de sair, fique um momento no pátio interno da antiga cervejaria.\n\nApós o Centrum, aproveite as horas restantes para compras de artesanato boêmio no Latrán (cerâmica, cristal, marionetes artesanais) e um almoço final antes da partida. Às 16h30, caminhem em direção à estação Spičák: siga pela Horní ulice subindo (norte) até a BR 159 — 15 min a pé, com tempo de sobra para o ônibus das 17h.",
+      "searchSuggestions": [
+        "Egon Schiele Art Centrum Český Krumlov ingresso horário",
+        "Die tote Stadt Schiele pinturas Český Krumlov análise",
+        "Egon Schiele mãe Marie Soukupová Boêmia",
+        "expressionismo austríaco Klimt Kokoschka Schiele comparação"
+      ],
+      "visitType": "indoor",
+      "entryFee": "320 CZK (~€13). Estudantes: 190 CZK (~€8). Menores de 10 anos: gratuito",
+      "schedule": {
+        "monday": "Fechado",
+        "tuesday": "10:00–18:00",
+        "wednesday": "10:00–18:00",
+        "thursday": "10:00–18:00",
+        "friday": "10:00–18:00",
+        "saturday": "10:00–18:00",
+        "sunday": "10:00–18:00"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 50,
+      "media": {
+        "audio": "/media/routes/cesky-krumlov/audio/egon-schiele-centrum.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/cesky-krumlov/photos/egon-schiele-centrum/main.jpg",
+            "caption": "Egon Schiele Art Centrum — antiga cervejaria renascentista do século XVI",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "die-tote-stadt",
+            "name": "Die tote Stadt — A Cidade Morta",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/egon-schiele-centrum/die-tote-stadt.jpg",
+            "caption": "A série de Český Krumlov vista de cima: telhados comprimidos como metáfora de claustrofobia existencial",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Em 1911, Schiele instalou-se em Český Krumlov com sua companheira Wally Neuzil. Os moradores conservadores da cidade o expulsaram em menos de um ano — chocados com os modelos nus que posavam no ateliê. Schiele partiu com uma produção extraordinária: a série Die tote Stadt, pinturas aéreas da cidade com os telhados medievais comprimidos até sufocar.",
+                  "duration": 28,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O título 'A Cidade Morta' não é arquitetônico — é psicológico. Schiele via em Český Krumlov o conservadorismo que sufocava o novo, a vida aprisionada pelo peso da tradição. Os telhados nas pinturas quase se tocam, as janelas são fechadas, não há figuras humanas nas ruas. A beleza da cidade na pintura é indistinguível da sua opressão.",
+                  "duration": 26,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Olhe pela janela do museu depois de ver as pinturas. Os mesmos telhados medievais, a mesma curvatura do Vltava, o mesmo castelo ao fundo. Schiele pintou exatamente essa vista — com exatamente esse peso de beleza e claustrofobia simultaneamente. Cem anos depois, a tensão que ele sentiu ainda é palpável nesta cidade.",
+                  "duration": 24,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "autorretratos-schiele",
+            "name": "Auto-Retratos e a Linguagem Expressionista",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/egon-schiele-centrum/autorretratos-schiele.jpg",
+            "caption": "Figuras angulares, olhar direto, sem idealização — Schiele usa o próprio corpo como laboratório de ansiedade existencial",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Schiele pintou mais de 100 auto-retratos em menos de dez anos de produção adulta — um número extraordinário. Não são retratos de autocomplacência: são estudos de ansiedade, identidade instável, de um homem que se usa como cobaia emocional. As mãos são sempre exageradas, os dedos longos como galhos, a expressão entre o desafio e o pânico.",
+                  "duration": 26,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "A nudez nas obras de Schiele era revolucionária não pela exposição, mas pela ausência de idealização. Os corpos são magros, assimétricos, com membros em ângulos impossíveis — não corpos belos posando, mas corpos existindo. Em 1912, ele foi preso em Neulengbach acusado de obscenidade. O juiz queimou um de seus desenhos na chama de uma vela durante o julgamento.",
+                  "duration": 26,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Schiele morreu em outubro de 1918, três dias após sua esposa Edith, vítimas da gripe espanhola. Ele tinha 28 anos. O reconhecimento pleno veio décadas depois — mas as obras que ele deixou mudaram permanentemente o que a pintura pode dizer sobre a condição humana. Saindo do museu, os mesmos telhados medievais que ele pintou esperam por vocês lá fora.",
+                  "duration": 26,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/cesky-krumlov/photos/egon-schiele-centrum/thumb.jpg"
+      },
+      "walkingNotes": "Do Centrum à estação Spičák: siga pela Horní ulice subindo (direção norte) até o entroncamento com a estrada BR 159 — a Český Krumlov Spičák Bus Station fica à direita, 15 min a pé. O ônibus parte às 17h — saiam do Centrum às 16h30.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "arte",
+        "expressionismo",
+        "Schiele",
+        "moderno",
+        "museu",
+        "história",
+        "Viena",
+        "Boêmia"
+      ]
+    },
+    {
+      "id": "historicke-centrum-ck",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Centro Histórico e Náměstí Svornosti",
+      "lat": 48.8108,
+      "lng": 14.3175,
+      "address": "Náměstí Svornosti 1, 381 01 Český Krumlov",
+      "historicalPeriod": "medieval",
+      "yearBuilt": "1309",
+      "architecturalStyle": "Medieval / Renascentista / Barroco",
+      "significance": "Centro histórico UNESCO; arquitetura medieval intacta; conexão com Egon Schiele; uma das cidades mais preservadas da Europa Central",
+      "description": "O Centro Histórico de Český Krumlov é uma das cidades medievais mais perfeitamente conservadas da Europa Central — e sua escala humana, surpreendentemente pequena, torna a experiência diferente das grandes capitais. O núcleo habitado, cercado pelo meandro do Vltava, tem apenas alguns quarteirões de largura: é possível percorrer todo o centro histórico a pé em menos de 20 minutos, mas cada beco, cada esquina, cada fachada merece pausa.\n\nA Náměstí Svornosti (Praça da Concórdia) é o coração pulsante da cidade desde o século XIV. Ao contrário das grandes praças de Praga ou Viena, não há monumentalidade opressora — a praça tem escala doméstica, como uma sala de estar a céu aberto. As casas ao redor, com suas fachadas de sgraffito renascentistas e detalhes barrocos posteriores, foram pintadas em rosas, ocres, amarelos e brancos. A Câmara Municipal gótica com sua torre quadrangular e a Coluna da Peste de 1716 — erguida em ação de graças após epidemia bubônica que matou um terço da população — completam o quadro central.\n\nA Igreja de São Vito (Kostel sv. Víta), erguida a partir de 1407, é a principal igreja gótica da cidade e uma das mais autênticas da Boêmia do Sul — e quase ninguém entra, porque os turistas passam pela praça sem notar a porta lateral na Horní ulice. O interior guarda frescos do século XV em notável estado de conservação, abóbadas de nervura tardio-gótica e um coro de madeira entalhada do século XVII. A torre sineira separada da nave — elemento característico da arquitetura gótica boêmia — é um dos pontos mais fotografados da Náměstí. Entrada gratuita; o interior merece 20 minutos.\n\nA Plášťový most — literalmente 'ponte manto' — é a arcada barroca de três andares construída entre 1764 e 1766 para conectar o quinto pátio do castelo aos jardins barrocos no topo do terraço oposto. Projetada pelos arquitetos dos Schwarzenberg, ela passa por cima da rua do Latrán como um aqueduto romano tardio, pintada em amarelo ocre sobre o fundo verde das colinas. Vista de baixo, da rua que passa sob seus arcos, é uma das fotografias mais icônicas da Europa Central — o ângulo que aparece em todos os postais e guias de viagem. Posicione-se no centro da rua e enquadre os três arcos com o castelo e as colinas ao fundo.\n\nO bairro do Latrán preserva casas medievais dos séculos XIV e XV — hoje ateliês, lojas de artesanato e restaurantes. A Lazebnický most (Ponte do Barbeiro), a ponte de pedra que conecta o Latrán à ilha histórica, oferece a vista clássica da cidade: torre, fachadas coloridas, rio e colinas verdes ao fundo. Fotografem no sentido norte, com o castelo iluminado como pano de fundo.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Náměstí Svornosti ao entardecer: a luz rasante transforma o sgraffito renascentista em relevo tridimensional — melhor depois das 17h",
+        "Igreja de São Vito (interior): os frescos do século XV no teto da abside norte, quase sempre vistos sem outros visitantes",
+        "Plášťový most vista de baixo: o centro da rua do Latrán, com os três arcos amarelos enquadrando o castelo e as colinas — A fotografia",
+        "Lazebnický most (Ponte do Barbeiro): vista norte sobre o rio com o castelo iluminado ao fundo, a cena mais clássica da cidade",
+        "Becos do Latrán: as ruelas laterais que descem até o Vltava — perspectivas do rio que a maioria dos turistas não encontra"
+      ],
+      "suggestedExperience": "Chegue ao centro histórico por volta das 14h30, após almoço no Latrán. Atravesse a Lazebnický most e entre na Náměstí Svornosti — sente-se num café e observe as fachadas, a Câmara Municipal gótica e a Coluna da Peste. Depois, desvie para a Igreja de São Vito (entrada pela Horní ulice, lado norte da praça): são 20 minutos num interior gótico extraordinariamente silencioso.\n\nSuba pelo Latrán de volta em direção ao castelo e pare sob a Plášťový most: posicione-se no centro da rua e enquadre os arcos barrocos amarelos com o castelo ao fundo. Esse é o cartão- postal número um de Český Krumlov. Explore as ruelas laterais do Latrán que descem ao Vltava — vistas intimistas do rio que quase ninguém fotografa.\n\nTermine o dia na Lazebnický most ao entardecer: a luz dourada do fim de tarde pinta as fachadas medievais e o reflexo do castelo no Vltava é o encerramento perfeito para o dia mais intenso do roteiro.",
+      "searchSuggestions": [
+        "Egon Schiele Art Centrum ingresso horário",
+        "Die tote Stadt Schiele pintura análise",
+        "Náměstí Svornosti história coluna da peste",
+        "Český Krumlov gastronomia svíčková restaurante",
+        "ônibus Český Krumlov Budapeste Student Agency"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Praça e ruas históricas: gratuito. Egon Schiele Art Centrum: 320 CZK (~€13)",
+      "schedule": {
+        "monday": "Praça: sempre aberta. Egon Schiele Centrum: fechado às segundas",
+        "tuesday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",
+        "wednesday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",
+        "thursday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",
+        "friday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",
+        "saturday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",
+        "sunday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00"
+      },
+      "estimatedVisitMinutes": 120,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/cesky-krumlov/audio/historicke-centrum-ck.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/cesky-krumlov/photos/historicke-centrum-ck/main.jpg",
+            "caption": "Centro Histórico e Náměstí Svornosti",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "namesti-svornosti",
+            "name": "Náměstí Svornosti",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/historicke-centrum-ck/namesti-svornosti.jpg",
+            "caption": "A Praça da Concórdia medieval, cercada de casas renascentistas com fachadas de sgraffito colorido",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Náměstí Svornosti — Praça da Concórdia — é o coração de Český Krumlov desde o século XIV: um retângulo irregular cercado de casas renascentistas e barrocas com fachadas coloridas de sgraffito. A Câmara Municipal gótica, com sua torre quadrangular, ancora o lado norte da praça.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No centro da praça, a Coluna da Peste de 1716 foi erguida em ação de graças após a epidemia bubônica que devastou a cidade. Seus santos protetores — São Floriano, São Sebastião, Santa Úrsula — foram esculpidos em calcário pelos melhores artesãos do sul da Boêmia do início do século XVIII.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "A escala da praça é o que a torna especial: não há grandiosidade intimidadora — apenas proporção humana e aconchegante, como uma sala de estar ao ar livre. Sentem-se num dos cafés e observem o ritmo da vida local: moradores passando, o sino da câmara municipal marcando as horas, as andorinhas voando entre os telhados.",
+                  "duration": 22,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sao-vito-ck",
+            "name": "Igreja de São Vito",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/historicke-centrum-ck/sao-vito-ck.jpg",
+            "caption": "A principal igreja gótica de Český Krumlov (1407) — frescos do século XV num interior quase sem visitantes",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Igreja de São Vito — Kostel sv. Víta — foi erguida a partir de 1407 como principal igreja gótica de Český Krumlov, substituindo uma construção anterior do século XIII. A nave tem abóbadas de nervura tardio-gótica e os frescos do século XV — representando santos locais e cenas bíblicas — sobreviveram às guerras hussitas, à Reforma e às reformas barrocas com notável integridade.",
+                  "duration": 28,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A porta sul em pedra arenárea, com molduras vegetais e figura central esculpida, é o acesso principal e um exemplo raro de escultura gótica boêmia do início do século XV. O interior é incomumente silencioso para uma cidade tão visitada — a maioria dos turistas passa pela praça sem entrar, o que torna a experiência quase privada.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "A torre sineira separada da nave — elemento característico das igrejas góticas da Boêmia do Sul — foi erguida no século XV. Vista da Náměstí Svornosti, a composição da torre com as fachadas renascentistas ao redor é um dos cartões-postais mais autênticos da cidade, fotografada de forma que os turistas de grupos raramente descobrem.",
+                  "duration": 24,
+                  "focusZone": "top"
+                }
+              ]
+            }
+          },
+          {
+            "id": "plastyovy-most",
+            "name": "Plášťový Most — A Ponte Manto",
+            "image": "/media/routes/cesky-krumlov/sub-attractions/historicke-centrum-ck/plastyovy-most.jpg",
+            "caption": "A arcada barroca de três andares (1764–1766) vista de baixo — a fotografia mais icônica de Český Krumlov",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Plášťový most — literalmente 'ponte manto' — foi construída entre 1764 e 1766 por ordem dos Schwarzenberg para resolver um problema elegante: como conectar o quinto pátio do castelo aos jardins barrocos no terraço acima do vale, passando por cima da rua movimentada do Latrán sem interromper o tráfego abaixo?",
+                  "duration": 26,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A solução foi uma arcada de três andares em pedra, pintada em amarelo ocre — 40 metros atravessando a rua como um aqueduto romano tardio. O andar superior era a galeria coberta por onde a família nobre passeava ao abrigo da chuva. O andar médio servia de corredor de serviço. Os arcos do andar inferior deixam a rua passar por baixo sem obstrução.",
+                  "duration": 26,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Vista de baixo, da rua do Latrán, a Plášťový most é a fotografia que define Český Krumlov: o amarelo da arcada enquadrado pelo verde das colinas, com a Torre do Castelo ao fundo à esquerda. Para a imagem perfeita, posicione-se no centro da rua e enquadre os três arcos com o céu azul — é o ângulo que aparece em todos os postais, cartazes e guias de viagem do mundo.",
+                  "duration": 26,
+                  "focusZone": "bottom"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/cesky-krumlov/photos/historicke-centrum-ck/thumb.jpg"
+      },
+      "walkingNotes": "Fim do Dia 1. Hotel ou pousada costumam estar no próprio Latrán ou na ilha histórica — você estará a pé de tudo. Para o dia seguinte, os Jardins Barrocos ficam a 20 min a pé: suba o Latrán até o castelo e prossiga pelo quinto pátio até o terraço dos jardins.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "praça",
+        "medieval",
+        "egon-schiele",
+        "arte",
+        "gastronomia",
+        "UNESCO"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "from": "hrad-cesky-krumlov",
+      "to": "historicke-centrum-ck",
+      "transport": "walking",
+      "minutes": 15,
+      "notes": "Desça o Latrán, almoço na Krcma v Satlavske Ulici, atravesse a Lazebnický most até a ilha histórica"
+    },
+    {
+      "from": "zamecka-zahrada",
+      "to": "egon-schiele-centrum",
+      "transport": "walking",
+      "minutes": 15,
+      "notes": "Desça o Latrán, atravesse a ponte sobre o Vltava, siga pela Široká até a cervejaria"
+    }
+  ]
+}

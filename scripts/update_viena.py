@@ -1,0 +1,701 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import sys, io, json, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+"""
+Atualiza viena.json:
+- Adiciona 6 novos POIs: naschmarkt, karlskirche, stadtpark, hundertwasserhaus,
+  graben-kohlmarkt, prater-riesenrad
+- Adiciona sub-atrações à Ringstrasse (Parlamento, Rathaus, Votivkirche)
+- Reorganiza os 3 dias com 4 POIs cada
+- Corrige walkingNotes / nextTransport em todos os POIs
+- Atualiza segments array
+"""
+
+ROUTE = os.path.join(os.path.dirname(__file__), "..", "src", "data", "routes", "viena.json")
+
+with open(ROUTE, encoding="utf-8") as f:
+    data = json.load(f)
+
+# ─── NOVOS POIs ───────────────────────────────────────────────────────────────
+
+NEW_POIS = [
+
+  # ── NASCHMARKT ──────────────────────────────────────────────────────────────
+  {
+    "id": "naschmarkt",
+    "dayId": "dia-1",
+    "order": 1,
+    "name": "Naschmarkt",
+    "lat": 48.1993,
+    "lng": 16.3668,
+    "address": "Naschmarkt, 1060 Wien",
+    "historicalPeriod": "modern",
+    "yearBuilt": "~1780 (mercado formal desde 1905)",
+    "architecturalStyle": "Art Nouveau — pavilhões de Otto Wagner (1898–1916)",
+    "significance": "O maior e mais famoso mercado ao ar livre de Viena, com 120 bancas de especiarias, queijos, peixes, carnes e culinária internacional",
+    "description": "O Naschmarkt é o maior mercado ao ar livre de Viena e um dos mais antigos da Europa Central. Seu nome vem provavelmente do latim 'Asche' (cinzas) ou do antigo dialeto vienense para 'leite', pois no século XVIII era o mercado de leite e manteiga da cidade. As bancas atuais em ferro e vidro foram projetadas por Otto Wagner no estilo Secessão Vienense entre 1898 e 1916, e os pavilhões são obras de arte por si mesmos.\n\nCom 120 bancas permanentes distribuídas por 1,5 km, o Naschmarkt reúne: especiarias do Oriente Médio e da Índia (páprica húngara, za'atar, açafrão iraniano), queijos austríacos e italianos, azeitonas mediterrâneas, peixes e frutos do mar, Würstel (salsichas), frutas exóticas e pão artesanal. Muitos vendedores oferecem degustação gratuita — aceite sem cerimônia.\n\nOs sábados são os mais especiais: o mercado de pulgas (Flohmarkt) ocupa a extremidade leste com antiguidades, livros e curiosidades a partir das 06:30. Para o café da manhã, o Kaiser Franz Josef Markt (numeroso restaurante no pavilhão central) é referência. Para o viajante que chega de Budapeste, a seção de gastronomia húngara e balcânica vai parecer familiar e confortável.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Pavilhão central de Otto Wagner: as colunas em ferro fundido com ornamentos florais da Secessão — arquitetura industrial elevada à arte",
+      "Bancas de especiarias na seção leste: ristras de páprica, açafrão em fios e lojas de produtos húngaros e austríacos",
+      "Seção de queijos austríacos: o Bergkäse (queijo de montanha) e o Graukäse (queijo cinza, típico do Tirol) — provar antes de comprar é o protocolo esperado"
+    ],
+    "suggestedExperience": "Chegue às 9h quando as bancas ainda estão arrumando os produtos frescos e o mercado está menos cheio. Passeie sem pressa — os vendedores oferecem degustar de tudo. Para o café da manhã, escolha um dos cafés nos pavilhões interiores com Melange (café com leite vienense) e Kipferl (croissant austríaco). Sábado é o dia especial: o Flohmarkt de pulgas na extremidade leste começa às 06:30 com antiguidades e raridades.",
+    "searchSuggestions": [
+      "Naschmarkt Vienna horário funcionamento",
+      "Naschmarkt Wien sábado Flohmarkt mercado de pulgas",
+      "melhores bancas Naschmarkt especialidades austríacas",
+      "Naschmarkt café da manhã vienense recomendação"
+    ],
+    "visitType": "outdoor",
+    "entryFee": "Gratuito",
+    "schedule": {
+      "monday": "06:00–19:30",
+      "tuesday": "06:00–19:30",
+      "wednesday": "06:00–19:30",
+      "thursday": "06:00–19:30",
+      "friday": "06:00–19:30",
+      "saturday": "06:00–17:00 (Flohmarkt a partir das 06:30)",
+      "sunday": "Fechado"
+    },
+    "estimatedVisitMinutes": 90,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 150,
+    "media": {
+      "audio": "/media/routes/viena/audio/naschmarkt.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/naschmarkt/main.jpg", "caption": "Naschmarkt — o maior mercado ao ar livre de Viena com pavilhões Art Nouveau de Otto Wagner", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "naschmarkt-especiarias",
+          "name": "Bancas de Especiarias e Otto Wagner",
+          "image": "/media/routes/viena/sub-attractions/naschmarkt/naschmarkt-especiarias.jpg",
+          "caption": "Especiarias do Oriente Médio e pavilhões em ferro e vidro da Secessão Vienense (1898–1916)",
+          "reel": {
+            "audioMood": "contemplative",
+            "segments": [
+              {"text": "O Naschmarkt tem 120 bancas permanentes ao longo de 1,5 km, com especiarias, queijos, peixes e culinária de toda a Europa e do Oriente Médio. Os pavilhões em ferro e vidro foram projetados por Otto Wagner entre 1898 e 1916 no estilo da Secessão Vienense — arquitetura industrial elevada à arte.", "duration": 22, "focusZone": "full"},
+              {"text": "Os sábados são especiais: o Flohmarkt de antiguidades ocupa a extremidade leste a partir das 06:30, com livros, discos de vinil, jóias e peças de arte. É o mercado mais democrático de Viena — frequentado por cozinheiros de restaurantes estrelados, estudantes e turistas da mesma forma.", "duration": 20, "focusZone": "detail"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/naschmarkt/thumb.jpg"
+    },
+    "walkingNotes": "Do Naschmarkt à Karlskirche: 3 min a pé pela Wienzeile/Rechte Wienzeile em direção leste até a Karlsplatz. A cúpula barroca da Karlskirche já é visível da saída leste do mercado — a maior cúpula de Viena orienta o caminho.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 3,
+    "tags": ["mercado", "gastronomia", "Art Nouveau", "Otto Wagner", "especiarias", "sábado"]
+  },
+
+  # ── KARLSKIRCHE ─────────────────────────────────────────────────────────────
+  {
+    "id": "karlskirche",
+    "dayId": "dia-1",
+    "order": 2,
+    "name": "Karlskirche",
+    "lat": 48.1976,
+    "lng": 16.3697,
+    "address": "Karlsplatz, 1040 Wien",
+    "historicalPeriod": "imperial",
+    "yearBuilt": "1716–1737",
+    "architecturalStyle": "Barroco imperial (Johann Bernhard Fischer von Erlach e filho)",
+    "significance": "A obra-prima do barroco vienense: cúpula de 72 metros com frescos de Rottmayr e duas colunas espirais inspiradas na Coluna de Trajano em Roma",
+    "description": "A Karlskirche (Igreja de São Carlos Borromeu) foi mandada construir pelo Imperador Carlos VI em 1713, como voto pela cessação da epidemia de peste que matou um terço da população de Viena. O projeto de Johann Bernhard Fischer von Erlach venceu um concurso aberto ao maior talento da Europa — e o resultado é uma síntese única de barroco romano, influências clássicas gregas e grandiosidade imperial austríaca.\n\nSeus dois elementos mais extraordinários são as colunas monumentais que flanqueiam a fachada principal: inspiradas diretamente na Coluna de Trajano em Roma (113 d.C.), cada uma tem 33 metros de altura e está coberta de espirais em baixo-relevo que narram a vida de São Carlos Borromeu, como um livro de pedra que se lê em espiral de baixo para cima. As colunas também simbolizam as Colunas de Hércules — afirmando que o Império Habsburgo era o herdeiro legítimo de Roma e do mundo clássico.\n\nA cúpula de 72 metros abriga os frescos de Johann Michael Rottmayr (1725–1730): a apoteose de São Carlos Borromeu, com figuras em movimento dramático e uma paleta de cores que antecipa o rococó. Um elevador panorâmico no interior da nave permite subir até a cúpula para ver os frescos de perto (a 40 metros do chão) e ter uma das melhores vistas de Viena. O espelho d'água na Karlsplatz, projetado por Isamu Noguchi em 1988, reflete a fachada e cria as composições fotográficas mais famosas da cidade.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Colunas espirais da fachada: os baixos-relevos narram a vida de São Carlos Borromeu em espiral — leia de baixo para cima, da esquerda para a direita",
+      "Cúpula interior (elevador panorâmico): os frescos de Rottmayr a 40 metros — a apoteose barroca mais impressionante da Áustria",
+      "Espelho d'água da Karlsplatz: reflexo da fachada barroca na água estagnada — melhor fotografia ao início da manhã com a luz diagonal"
+    ],
+    "suggestedExperience": "Entre logo ao abrir (9h) quando está mais tranquilo. O elevador panorâmico (incluso no ingresso) leva à plataforma dentro da cúpula, onde é possível ver os frescos de perto e olhar pela janela para toda Viena — experiência única. Reserve ~15 min para fotografar o exterior e as colunas, ~30 min para o interior e o elevador.",
+    "searchSuggestions": [
+      "Karlskirche Wien ingresso elevador cúpula",
+      "Karlskirche frescos Rottmayr interior",
+      "Karlskirche Fischer von Erlach arquitetura barroca",
+      "Karlsplatz espelho d'água foto reflexo"
+    ],
+    "visitType": "indoor+outdoor",
+    "entryFee": "~€8 (inclui elevador panorâmico até a cúpula)",
+    "schedule": {
+      "monday": "09:00–18:00",
+      "tuesday": "09:00–18:00",
+      "wednesday": "09:00–18:00",
+      "thursday": "09:00–18:00",
+      "friday": "09:00–18:00",
+      "saturday": "09:00–18:00",
+      "sunday": "12:00–19:00"
+    },
+    "estimatedVisitMinutes": 60,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 80,
+    "media": {
+      "audio": "/media/routes/viena/audio/karlskirche.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/karlskirche/main.jpg", "caption": "Karlskirche — fachada barroca com colunas espirais e o espelho d'água da Karlsplatz", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "karlskirche-colunas",
+          "name": "Colunas Espirais — o Livro de Pedra",
+          "image": "/media/routes/viena/sub-attractions/karlskirche/karlskirche-colunas.jpg",
+          "caption": "As colunas de 33 metros inspiradas na Coluna de Trajano: baixo-relevos que narram a vida de São Carlos Borromeu em espiral",
+          "reel": {
+            "audioMood": "baroque",
+            "segments": [
+              {"text": "As duas colunas monumentais da Karlskirche têm 33 metros de altura e são cobertas de espirais em baixo-relevo que narram a vida de São Carlos Borromeu — o arcebispo de Milão que cuidou dos doentes durante a peste de 1576 e deu nome à igreja. A narrativa começa na base e sobe em espiral até o topo, como um rolo de papiro em pedra.", "duration": 22, "focusZone": "detail"},
+              {"text": "A inspiração direta é a Coluna de Trajano em Roma (113 d.C.), que narra as guerras dácias do Imperador. Fischer von Erlach transpôs essa linguagem para o barroco cristão — e inseriu nos capitéis das colunas a águia dos Habsburgo, transformando um símbolo religioso em manifesto imperial: o Imperador Carlos VI como herdeiro de Roma e protetor da fé.", "duration": 24, "focusZone": "full"}
+            ]
+          }
+        },
+        {
+          "id": "karlskirche-cupula",
+          "name": "Frescos da Cúpula — Rottmayr a 72 metros",
+          "image": "/media/routes/viena/sub-attractions/karlskirche/karlskirche-cupula.jpg",
+          "caption": "Os frescos de Johann Michael Rottmayr (1725–1730) na cúpula de 72 metros — visíveis de perto pelo elevador panorâmico",
+          "reel": {
+            "audioMood": "baroque",
+            "segments": [
+              {"text": "Johann Michael Rottmayr levou cinco anos (1725–1730) para pintar a apoteose de São Carlos Borromeu na cúpula de 72 metros. O elevador panorâmico leva até a plataforma a 40 metros do chão, onde é possível ver os rostos dos anjos a poucos metros de distância — uma perspectiva que no século XVIII era acessível apenas aos andaimes dos artistas.", "duration": 22, "focusZone": "center"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/karlskirche/thumb.jpg"
+    },
+    "walkingNotes": "Da Karlskirche à Ringstrasse/Staatsoper: 8 min a pé pela Kärntner Ring em direção norte, seguindo o boulevard do Ring. A fachada da Ópera Estatal aparece ao fundo — é o começo da Ringstrasse.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 8,
+    "tags": ["barroco", "igreja", "Fischer von Erlach", "cúpula", "colunas", "peste", "Carlos VI"]
+  },
+
+  # ── STADTPARK ───────────────────────────────────────────────────────────────
+  {
+    "id": "stadtpark",
+    "dayId": "dia-2",
+    "order": 2,
+    "name": "Stadtpark e Estátua de Strauss",
+    "lat": 48.2030,
+    "lng": 16.3802,
+    "address": "Parkring 1, 1010 Wien",
+    "historicalPeriod": "imperial",
+    "yearBuilt": "1862",
+    "architecturalStyle": "Jardim inglês — Rudolf Siebeck e Josef Selleny",
+    "significance": "Primeiro parque público de Viena; abriga a estátua dourada de Johann Strauss II, a mais fotografada da Áustria",
+    "description": "O Stadtpark foi inaugurado em 1862 como o primeiro parque público de Viena, um dos projetos do grande projeto urbanístico da Ringstrasse de Francisco José I. Projetado em estilo inglês pelo paisagista Rudolf Siebeck com caminhos sinuosos, o Rio Wienfluss canalizado com paredes em art nouveau e pavilhões elegantes, é o pulmão verde mais central da cidade.\n\nA estrela absoluta é a estátua dourada de Johann Strauss II (1825–1899) — o 'Rei das Valsas' que compôs An der schönen blauen Donau (O Danúbio Azul, 1866), a valsa mais famosa da história. A estátua em bronze, inaugurada em 1921 e revestida a ouro, mostra Strauss tocando violino sob um arco de mármore com figuras alegóricas. É provavelmente a estátua mais fotografada de toda a Áustria. O parque tem também estátuas de Schubert, Bruckner e Lehar — um pantheon ao ar livre da música austríaca.\n\nO Kursalon, pavilhão art nouveau de 1867, oferece concertos de Strauss e Mozart às noites. Para uma pausa entre o Schönbrunn e o Belvedere, é o lugar perfeito: verde, silencioso no meio do dia e a 15 minutos a pé do Belvedere.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Estátua dourada de Johann Strauss II: o violinista sob o arco de mármore — chegue cedo para fotografar sem filas",
+      "Margens do Wienfluss: os painéis de azulejos art nouveau ao longo do canal do rio — detalhes esquecidos pela maioria dos visitantes",
+      "Kursalon (1867): o pavilhão de concertos onde Brahms, Strauss e Bruckner se apresentaram no século XIX"
+    ],
+    "suggestedExperience": "Uma pausa de 40-45 min entre o Schönbrunn e o Belvedere. Aproveite para sentar num banco, respirar e recuperar energia antes do Belvedere. A estátua de Strauss é melhor fotografada de manhã (luz diagonal) ou à tarde quando os turistas são menos. O Café Stadtpark serve Melange e Apfelstrudel caso queiram um almoço leve.",
+    "searchSuggestions": [
+      "Stadtpark Viena estátua Strauss horário",
+      "Kursalon Wien concerto Mozart Strauss ingresso",
+      "Stadtpark Wien jardim arte nouveau Wienfluss"
+    ],
+    "visitType": "outdoor",
+    "entryFee": "Gratuito",
+    "schedule": {
+      "monday": "Sempre aberto",
+      "tuesday": "Sempre aberto",
+      "wednesday": "Sempre aberto",
+      "thursday": "Sempre aberto",
+      "friday": "Sempre aberto",
+      "saturday": "Sempre aberto",
+      "sunday": "Sempre aberto"
+    },
+    "estimatedVisitMinutes": 45,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 120,
+    "media": {
+      "audio": "/media/routes/viena/audio/stadtpark.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/stadtpark/main.jpg", "caption": "Estátua dourada de Johann Strauss II no Stadtpark — o Rei das Valsas com seu violino", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "strauss-estatua",
+          "name": "Estátua Dourada de Johann Strauss II",
+          "image": "/media/routes/viena/sub-attractions/stadtpark/strauss-estatua.jpg",
+          "caption": "A estátua em bronze revestida a ouro (1921) do compositor do Danúbio Azul — a mais fotografada da Áustria",
+          "reel": {
+            "audioMood": "classical",
+            "segments": [
+              {"text": "Johann Strauss II (1825–1899) compôs An der schönen blauen Donau em 1866 — originalmente uma canção para coral que fracassou na estreia. Apenas quando foi arranjada para orquestra e tocada numa exposição em Paris em 1867 se tornou a valsa mais famosa do mundo. Strauss a considerava uma obra menor; o público a imortalizou.", "duration": 22, "focusZone": "center"},
+              {"text": "A estátua de bronze, modelada por Edmund Hellmer, foi inaugurada em 1921 e revestida a ouro. Strauss é retratado tocando violino sob um arco de mármore com figuras alegóricas da música e da dança. Morava a poucos quarteirões daqui, na Igelgasse — e percorria o Stadtpark diariamente. O parque era para ele o que o Prater era para os vienenses comuns.", "duration": 22, "focusZone": "detail"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/stadtpark/thumb.jpg"
+    },
+    "walkingNotes": "Do Stadtpark ao Belvedere Superior: 15 min a pé pela Rennweg em direção ao sul. O jardim formal do Belvedere com suas fontes barrocas começa logo na Prinz-Eugen-Straße. Alternativa: metrô U4 de Stadtpark 1 parada até Landstraße/Wien Mitte e bonde 71 até Belvedere (10 min).",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 15,
+    "tags": ["parque", "Strauss", "valsa", "estátua", "arte nouveau", "descanso", "música"]
+  },
+
+  # ── HUNDERTWASSERHAUS ────────────────────────────────────────────────────────
+  {
+    "id": "hundertwasserhaus",
+    "dayId": "dia-2",
+    "order": 4,
+    "name": "Hundertwasserhaus e KunstHausWien",
+    "lat": 48.2079,
+    "lng": 16.3991,
+    "address": "Kegelgasse 34–38, 1030 Wien",
+    "historicalPeriod": "contemporary",
+    "yearBuilt": "1983–1985",
+    "architecturalStyle": "Expressionismo orgânico — Friedensreich Hundertwasser e Josef Krawina",
+    "significance": "O edifício residencial mais fotografado da Áustria — uma rejeição filosófica radical do funcionalismo modernista em pleno século XX",
+    "description": "O Hundertwasserhaus é um prédio residencial público projetado pelo artista e arquiteto Friedensreich Hundertwasser (1928–2000) em colaboração com o arquiteto Josef Krawina, construído pela Prefeitura de Viena entre 1983 e 1985. É uma declaração filosófica em forma de edifício.\n\nHundertwasser acreditava que a linha reta é 'uma coisa imoral, uma ferramenta do Diabo' e que os seres humanos têm o direito fundamental a 'janelas irregulares' nas suas casas — o direito de estender o braço pela janela e pintar a fachada tanto quanto o braço alcance. O resultado é uma fachada ondulante com pisos irregulares que 'respiram', 250 árvores crescendo dentro e fora dos apartamentos, terraços-jardim no nível dos telhados, e uma mistura exuberante de azulejos coloridos, cerâmica e diferentes acabamentos por toda a superfície — nenhuma parte da fachada é igual à outra.\n\nO prédio tem 52 apartamentos habitados até hoje (não é museu — é residência privada). A visita é exterior, mas o Hundertwasser Dorf (vila comercial temática) na esquina, e o KunstHausWien a 200 metros, com as obras originais de Hundertwasser sobre ecologia, filosofia e arte, completam a experiência. O contraste com a Viena imperial dos Habsburgo que ocupou os dois dias anteriores torna a visita ainda mais fascinante — duas visões radicalmente diferentes do que uma cidade pode ser.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Fachada principal (Kegelgasse): a ondulação dos pisos, os diferentes revestimentos por appartamento e as árvores crescendo pelas janelas",
+      "Esquina Löwengasse/Kegelgasse: o ângulo que permite ver tanto a fachada colorida quanto os telhados-jardim com vegetação — o ponto clássico de fotografia",
+      "KunstHausWien (200m): o museu dedicado a Hundertwasser com seus manifestos sobre arquitetura e ecologia — tão importante quanto o prédio para entender a filosofia"
+    ],
+    "suggestedExperience": "A visita exterior leva 20-30 min — caminhe devagar ao redor do quarteirão para ver todas as fachadas. O Hundertwasser Dorf na esquina tem uma cafeteria no estilo do artista, perfeita para uma pausa antes de voltar ao centro. O KunstHausWien fica a 200m e vale 45 min se tiver energia restante. Dica: o bonde 1 de Radetzkyplatz reconecta ao Ring em 15 min.",
+    "searchSuggestions": [
+      "Hundertwasserhaus Wien visita exterior horário",
+      "KunstHausWien ingresso horário exposição",
+      "Hundertwasser arquitetura filosofia linha reta",
+      "Hundertwasser Dorf cafeteria Viena"
+    ],
+    "visitType": "outdoor+indoor",
+    "entryFee": "Exterior: gratuito. KunstHausWien: ~€12",
+    "schedule": {
+      "monday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "tuesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "wednesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "thursday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "friday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "saturday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+      "sunday": "Exterior: sempre. KunstHausWien: 10:00–17:00"
+    },
+    "estimatedVisitMinutes": 60,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 80,
+    "media": {
+      "audio": "/media/routes/viena/audio/hundertwasserhaus.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/hundertwasserhaus/main.jpg", "caption": "Hundertwasserhaus — fachada colorida ondulante com árvores crescendo pelas janelas (1983–1985)", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "hundertwasser-fachada",
+          "name": "A Fachada — Manifesto em Azulejos",
+          "image": "/media/routes/viena/sub-attractions/hundertwasserhaus/hundertwasser-fachada.jpg",
+          "caption": "Fachada ondulante: nenhum andar é reto, nenhuma janela é igual à outra — o direito à janela irregular como filosofia habitacional",
+          "reel": {
+            "audioMood": "contemplative",
+            "segments": [
+              {"text": "Hundertwasser escreveu em 1958 o Manifesto da Mofo — declarando que a linha reta é uma ferramenta do Diabo e que a arquitectura ortogonal destruiu a relação natural entre o ser humano e o espaço. O Hundertwasserhaus, construído 25 anos depois, é a resposta prática: pisos irregulares, janelas assimétricas, árvores no interior e uma fachada que muda de revestimento a cada andar.", "duration": 24, "focusZone": "detail"},
+              {"text": "O edifício tem 52 apartamentos habitados por famílias reais até hoje. A Prefeitura de Viena o construiu como habitação social — um dos raros casos em que arte radical e habitação pública se encontraram. Hundertwasser recusou qualquer pagamento pelos serviços de design, declarando que era suficiente 'prevenir algo feio de ser construído na minha cidade'.", "duration": 22, "focusZone": "full"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/hundertwasserhaus/thumb.jpg"
+    },
+    "walkingNotes": "Fim do Dia 2. Do Hundertwasserhaus ao hotel/centro: bonde 1 de Radetzkyplatz (3 min a pé) até Schwedenplatz ou Ringstraße — 15 min. Alternativa: Uber/táxi direto (10 min ao Ring).",
+    "nextTransport": None,
+    "nextTransportMinutes": None,
+    "tags": ["Hundertwasser", "arte", "arquitetura", "colorido", "expressionismo", "moderno", "habitação"]
+  },
+
+  # ── GRABEN-KOHLMARKT ────────────────────────────────────────────────────────
+  {
+    "id": "graben-kohlmarkt",
+    "dayId": "dia-3",
+    "order": 2,
+    "name": "Passeio pelo Centro Histórico",
+    "lat": 48.2084,
+    "lng": 16.3694,
+    "address": "Graben 1010 Wien (rua pedestre central)",
+    "historicalPeriod": "medieval+imperial",
+    "yearBuilt": "Séc. XIII–XIX",
+    "architecturalStyle": "Barroco, Neoclássico, Historicismo — camadas de 700 anos",
+    "significance": "O coração pedestre de Viena histórica: da Kärntner Straße ao Kohlmarkt, passando pela Casa de Mozart, a Coluna da Peste e a Michaelerplatz",
+    "description": "O centro pedestre de Viena revela a cidade em camadas históricas a cada quarteirão — e é melhor percorrido a pé sem pressa.\n\nA Kärntner Straße (literalmente 'rua da Caríntia') é a artéria comercial mais famosa de Viena, conectando a Staatsoper à Stephansdom por 700 metros de lojas, cafeterias e músicos de rua. Rolex, Louis Vuitton, Chanel convivem com confeitarias históricas e o bom e velho Bitzinger Würstelstand, na Albertinaplatz atrás da Staatsoper: o ponto de encontro mais democrático de Viena, com bratwurst (salsicha temperada frita) e käsekrainer (salsicha de porco recheada de queijo), regados com uma Ottakringer Wiener Original gelada. Em pé, na calçada, com vista para a Ópera — a pausa gastronômica mais vienense possível.\n\nO Graben (literalmente 'vala seca', do fosso romano) é a rua pedestre mais elegante de Viena, com jóias e cafés de luxo. No centro, a Pestsäule (Coluna da Peste, 1692–1693) foi mandada erigir pelo Imperador Leopoldo I em gratidão pela cessação da epidemia de 1679 que matou 75.000 pessoas em Viena. Os 21 metros de mármore barroco com anjos e nuvens em movimento são uma das esculturas ao ar livre mais dramáticas da Europa. Na Domgasse 5, a dois quarteirões da Stephansdom, o Figarohaus (Mozarts Wohnhaus) é o único apartamento de Viena onde Mozart viveu que sobreviveu ao tempo — ele morou aqui de 1784 a 1787 e escreveu As Bodas de Fígaro nestes cômodos.\n\nO Kohlmarkt ('mercado de carvão') é a rua mais cara de Viena, com o Café Demel (o mais elegante pasteleiro da corte imperial desde 1786) e lojas de luxo que precedem a entrada do Hofburg. Desemboca na Michaelerplatz, onde escavações dos anos 1990 revelaram ruínas romanas e medievais expostas sob vidro — a porta arqueológica de entrada ao palácio imperial.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Bitzinger Würstelstand (Albertinaplatz): as salsichas käsekrainer em pé na calçada, com cerveja Ottakringer e vista da Staatsoper — a pausa mais autenticamente vienense",
+      "Pestsäule no Graben: a coluna barroca de 21 metros com anjos, nuvens e Leopoldo I ajoelhado — leia o programa iconográfico de baixo para cima",
+      "Figarohaus (Domgasse 5): os quatro cômodos onde Mozart viveu de 1784 a 1787 e compôs As Bodas de Fígaro — o apartamento mais criativo da história da música",
+      "Michaelerplatz: as ruínas romanas (séc. I–III d.C.) expostas sob vidro no centro da praça — 2.000 anos sob seus pés antes de entrar no Hofburg"
+    ],
+    "suggestedExperience": "Percorra no sentido Kärntner Straße → Graben → Kohlmarkt → Michaelerplatz. Pare no Bitzinger para um almoço ou lanche (fila rápida, comida excelente, ~€8). Visite o Figarohaus se amar Mozart — é pequeno e íntimo, nada comparado ao espetáculo dos palácios. Termine na Michaelerplatz olhando as ruínas romanas antes de entrar no Hofburg.",
+    "searchSuggestions": [
+      "Bitzinger Würstelstand Wien käsekrainer",
+      "Figarohaus Wien Mozart Domgasse horário ingresso",
+      "Pestsäule Graben Wien Coluna da Peste história",
+      "Michaelerplatz Wien ruínas romanas escavações"
+    ],
+    "visitType": "outdoor+indoor",
+    "entryFee": "Ruas e Pestsäule: gratuito. Figarohaus: ~€12 (com audioguia). Bitzinger: ~€6–10 por pessoa",
+    "schedule": {
+      "monday": "Ruas: sempre. Figarohaus: Fechado",
+      "tuesday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+      "wednesday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+      "thursday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+      "friday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+      "saturday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+      "sunday": "Ruas: sempre. Figarohaus: 10:00–18:00"
+    },
+    "estimatedVisitMinutes": 150,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 200,
+    "media": {
+      "audio": "/media/routes/viena/audio/graben-kohlmarkt.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/graben-kohlmarkt/main.jpg", "caption": "Graben — a rua pedestre elegante de Viena com a Pestsäule barroca ao centro", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "pestsaeule-graben",
+          "name": "Pestsäule — Coluna da Peste",
+          "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/pestsaeule-graben.jpg",
+          "caption": "A coluna barroca de 21 metros mandada erigir por Leopoldo I em 1693 — gratidão pela cessação da peste que matou 75.000 vienenses",
+          "reel": {
+            "audioMood": "baroque",
+            "segments": [
+              {"text": "A Pestsäule foi mandada construir pelo Imperador Leopoldo I em 1679, ainda durante a epidemia de peste, como voto de gratidão caso Viena fosse poupada. A epidemia matou 75.000 pessoas — um terço da população — antes de cessar. A escultura de Johann Bernhard Fischer von Erlach (1692–1693) tem 21 metros de mármore com anjos, nuvens e o Imperador ajoelhado no nível da rua.", "duration": 24, "focusZone": "full"},
+              {"text": "No topo da coluna está a Santíssima Trindade — um dos poucos exemplos de escultura barroca que consegue representar em pedra algo tão imaterial quanto a fé. Os anjos em movimento ao redor da base, com suas vestes e cabelos ao vento, antecipam o rococó. É uma das mais impressionantes esculturas públicas do século XVII na Europa.", "duration": 20, "focusZone": "detail"}
+            ]
+          }
+        },
+        {
+          "id": "figarohaus-mozart",
+          "name": "Figarohaus — Apartamento de Mozart",
+          "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/figarohaus-mozart.jpg",
+          "caption": "Domgasse 5: o único apartamento de Viena onde Mozart viveu — aqui escreveu As Bodas de Fígaro (1786)",
+          "reel": {
+            "audioMood": "classical",
+            "segments": [
+              {"text": "Wolfgang Amadeus Mozart viveu neste apartamento de quatro cômodos de 1784 a 1787 — o período mais produtivo e socialmente brilhante de sua carreira. Tinha 28 anos, estava no auge da fama em Viena, recebia a nobreza e a burguesia em concertos domésticos, e foi aqui que compôs As Bodas de Fígaro (1786), um dos grandes marcos da ópera ocidental.", "duration": 24, "focusZone": "full"},
+              {"text": "O apartamento era grande para os padrões da época — sinal do sucesso financeiro de Mozart naquele momento. O declínio veio depois: em 1787, incapaz de pagar o aluguel, Mozart se mudou para apartamentos progressivamente menores. Morreu em 1791, aos 35 anos, num apartamento humilde na Rauhensteingasse — a poucos quarteirões daqui.", "duration": 22, "focusZone": "center"}
+            ]
+          }
+        },
+        {
+          "id": "bitzinger-wurstelstand",
+          "name": "Bitzinger Würstelstand",
+          "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/bitzinger-wurstelstand.jpg",
+          "caption": "A barraca de salsichas mais famosa de Viena (Albertinaplatz): käsekrainer, bratwurst e Ottakringer com vista para a Staatsoper",
+          "reel": {
+            "audioMood": "contemplative",
+            "segments": [
+              {"text": "O Bitzinger Würstelstand na Albertinaplatz, atrás da Staatsoper, é a barraca de salsichas mais famosa de Viena — frequentada às 23h pelos mesmos músicos e maestros que acabaram de sair do palco da Ópera, ao lado de trabalhadores noturnos e turistas. A democracia gastronômica perfeita. A especialidade é a käsekrainer: salsicha de porco recheada de pedaços de queijo, frita até a pele rebentar.", "duration": 24, "focusZone": "detail"}
+            ]
+          }
+        },
+        {
+          "id": "michaelerplatz-ruinas",
+          "name": "Michaelerplatz — Ruínas Romanas",
+          "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/michaelerplatz-ruinas.jpg",
+          "caption": "Escavações romanas (séc. I–III d.C.) e medievais expostas sob vidro no centro da praça — a entrada arqueológica ao Hofburg",
+          "reel": {
+            "audioMood": "medieval",
+            "segments": [
+              {"text": "A Michaelerplatz foi escavada durante obras de infraestrutura em 1991 e revelou estratos arqueológicos de 2.000 anos: fundações romanas do séc. I d.C., quando Viena era o forte militar Vindobona; muros medievais; e a cripta da Igreja de São Miguel com 4.000 esqueletos de nobres e burgueses vienenses do séc. XVII e XVIII. Tudo está exposto sob vidro no centro da praça.", "duration": 24, "focusZone": "full"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/graben-kohlmarkt/thumb.jpg"
+    },
+    "walkingNotes": "Do Graben ao Hofburg: o passeio termina naturalmente na Michaelerplatz — a imponente entrada neoclássica do Hofburg com sua cúpula verde está diretamente à frente. 2 min a pé.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 2,
+    "tags": ["passeio", "Graben", "Mozart", "Figarohaus", "Pestsäule", "Kärntner Straße", "gastronomia", "história"]
+  },
+
+  # ── PRATER-RIESENRAD ────────────────────────────────────────────────────────
+  {
+    "id": "prater-riesenrad",
+    "dayId": "dia-3",
+    "order": 4,
+    "name": "Prater e Wiener Riesenrad",
+    "lat": 48.2167,
+    "lng": 16.3964,
+    "address": "Riesenradplatz 1, 1020 Wien",
+    "historicalPeriod": "imperial+contemporary",
+    "yearBuilt": "1766 (parque) / 1897 (Riesenrad)",
+    "architecturalStyle": "Jardim inglês imperial + engenharia vitoriana",
+    "significance": "O parque mais famoso de Viena; a roda gigante de 1897, símbolo da cidade e cenário do filme O Terceiro Homem (1949) de Orson Welles",
+    "description": "O Prater foi criado em 1766 quando o Imperador José II abriu ao público os campos de caça privados da família imperial — um gesto iluminista extraordinário que transformou uma reserva real no maior parque urbano de Viena. Com 6 km² de extensão, tem a Hauptallee (alameda principal de 4,5 km sombreada por plátanos seculares), campos esportivos, jardins e o Wurstelprater, a mais antiga área de diversões da Europa em funcionamento contínuo.\n\nA Wiener Riesenrad é a roda gigante de 64,75 metros inaugurada em 1897 para as comemorações do Jubileu de Ouro do Imperador Francisco José I. Era uma das seis rodas gigantes construídas naquele ano pelo engenheiro inglês Walter Bassett; é a única que sobreviveu ao século XX. As 30 cabines de madeira — cada uma com capacidade para 12 pessoas — sobreviveram (com restaurações) à Segunda Guerra Mundial, durante a qual o Wurstelprater foi quase completamente destruído. Uma volta completa leva cerca de 20 minutos e oferece panorama de 360° de Viena: o Ring, o Stephansdom, o Belvedere, Schönbrunn e os Alpes ao fundo em dias claros.\n\nA Riesenrad é o cenário de uma das cenas mais famosas da história do cinema: no filme O Terceiro Homem (1949), dirigido por Carol Reed, Orson Welles pronuncia dentro de uma cabine o seu famoso monólogo sobre o relógio cuco e os assassinatos: 'Na Itália por 30 anos sob os Bórgias tiveram guerra, terror, assassinato e derramamento de sangue, mas produziram Miguel Ângelo, Leonardo da Vinci e a Renascença. Na Suíça, tiveram amor fraternal, 500 anos de democracia e paz. E o que produziram? O relógio cuco.' A frase foi improvisada por Welles no set.",
+    "immersiveMode": False,
+    "immersiveText": None,
+    "observationPoints": [
+      "Cabine da Riesenrad em movimento: o panorama de Viena a 64 metros — Stephansdom, Ring, Belvedere e Schönbrunn em perspectiva completa",
+      "Hauptallee (alameda principal): 4,5 km de plátanos seculares onde Francisco José I cavalgava — caminhe pelo menos 15 min antes de voltar ao centro",
+      "Placa O Terceiro Homem (Dritte Mann): na entrada do Riesenrad, a homenagem à cena mais famosa de Orson Welles filmada aqui em 1948"
+    ],
+    "suggestedExperience": "Chegue ao Prater às 17:30–18h, quando a luz do fim de tarde ilumina a Riesenrad e o calor ameniza. Compre o ingresso na bilheteria (fila rápida). A volta na roda leva 20 min — reserve uma cabine do lado leste para ver o Stephansdom e o Ring. Depois, caminhe 15 min pela Hauptallee entre os plátanos. Jantar: o Schweizerhaus, no Wurstelprater, serve Svíčková (carne ao molho de creme checo) e Budvar checo gelado — o melhor jantar de encerramento de Viena.",
+    "searchSuggestions": [
+      "Wiener Riesenrad Wien ingresso horário preço",
+      "Prater Viena Hauptallee bicicleta passeio",
+      "O Terceiro Homem Orson Welles Riesenrad cena",
+      "Schweizerhaus Prater Wien restaurante cerveja"
+    ],
+    "visitType": "outdoor+indoor",
+    "entryFee": "Riesenrad: ~€13,50 (adulto). Prater: gratuito",
+    "schedule": {
+      "monday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "tuesday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "wednesday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "thursday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "friday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "saturday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+      "sunday": "Riesenrad: 10:00–22:00. Prater: sempre aberto"
+    },
+    "estimatedVisitMinutes": 120,
+    "externalViewingAlways": True,
+    "proximityRadiusMeters": 150,
+    "media": {
+      "audio": "/media/routes/viena/audio/prater-riesenrad.mp3",
+      "photos": [{"src": "/media/routes/viena/photos/prater-riesenrad/main.jpg", "caption": "Wiener Riesenrad — a roda gigante de 64 metros de 1897, símbolo de Viena e cenário d'O Terceiro Homem", "type": "recognition"}],
+      "subAttractions": [
+        {
+          "id": "riesenrad-terceiro-homem",
+          "name": "Riesenrad — O Terceiro Homem",
+          "image": "/media/routes/viena/sub-attractions/prater-riesenrad/riesenrad-terceiro-homem.jpg",
+          "caption": "A cabine onde Orson Welles gravou o monólogo do relógio cuco em 1948 — a cena mais famosa filmada em Viena",
+          "reel": {
+            "audioMood": "dramatic",
+            "segments": [
+              {"text": "Em 1948, o diretor Carol Reed e o roteirista Graham Greene escolheram o Riesenrad como cenário para o clímax de O Terceiro Homem — o encontro entre Harry Lime (Orson Welles) e seu amigo Holly Martins. Dentro de uma cabine em movimento, com Viena destruída pela guerra visível pelas janelas, Welles improvisa o monólogo mais famoso do noir cinematográfico.", "duration": 24, "focusZone": "full"},
+              {"text": "A frase 'In Italy for 30 years under the Borgias they had warfare, terror, murder, and bloodshed, but they produced Michelangelo, Leonardo da Vinci, and the Renaissance...' não estava no roteiro original. Graham Greene a escreveu posteriormente baseado na improvisação de Welles no set. O monólogo foi eleito o 57º mais importante da história do cinema pela American Film Institute.", "duration": 26, "focusZone": "detail"}
+            ]
+          }
+        },
+        {
+          "id": "prater-hauptallee",
+          "name": "Hauptallee — 4,5 km de Plátanos Imperiais",
+          "image": "/media/routes/viena/sub-attractions/prater-riesenrad/prater-hauptallee.jpg",
+          "caption": "A alameda principal do Prater: 4,5 km de plátanos seculares onde Francisco José I cavalgava e os vienenses passeiam desde 1766",
+          "reel": {
+            "audioMood": "contemplative",
+            "segments": [
+              {"text": "A Hauptallee tem 4,5 km de extensão e é ladeada por plátanos com mais de 200 anos, plantados quando o parque foi aberto ao público em 1766. Francisco José I cavalgava aqui todas as manhãs durante décadas — um ritual do Imperador que não mudou em 60 anos de reinado. Hoje é frequentada por joggers, ciclistas e famílias vienenses.", "duration": 20, "focusZone": "full"}
+            ]
+          }
+        }
+      ],
+      "thumb": "/media/routes/viena/photos/prater-riesenrad/thumb.jpg"
+    },
+    "walkingNotes": "Fim do Dia 3 — encerramento da viagem em Viena. Do Prater ao hotel ou à estação para a próxima cidade: metrô U1 de Praterstern até Stephansplatz (5 min, 3 estações). Para Madri de avião: táxi/Uber direto ao Wien Hauptbahnhof ou CAT (City Airport Train) de Wien Mitte.",
+    "nextTransport": None,
+    "nextTransportMinutes": None,
+    "tags": ["parque", "Riesenrad", "roda gigante", "O Terceiro Homem", "Orson Welles", "imperial", "lazer"]
+  },
+
+]
+
+# ─── ATUALIZAÇÕES DE POIs EXISTENTES ─────────────────────────────────────────
+
+EXISTING_UPDATES = {
+
+  "ringstrasse-staatsoper": {
+    "order": 3,
+    "description": "A Ringstrasse é o boulevard circular de 5 km que Francisco José I criou em 1857 ao ordenar a demolição das muralhas medievais de Viena — uma das decisões urbanísticas mais corajosas e controversas do século XIX. Em seu lugar, o imperador mandou construir, ao longo de 30 anos, um conjunto de edifícios monumentais em estilos históricos distintos: o Rathaus em neogótico (por ser a sede do governo civil, como as catedrais medievais); o Parlamento em neogrego (para evocar a democracia ateniense); a Universidade em neorenascentista (por associação ao humanismo); a Ópera e os museus em neorenascentista. É um manual de arquitetura histórica ao ar livre.\n\nO Parlamento (Parlamentsgebäude), projetado por Theophil Hansen e construído entre 1874 e 1884, é um templo neoclássico grego com 154 metros de fachada — a Atena em bronze no topo do frontão tem 5,5 metros e segura uma lança. A Rathaus (Prefeitura), projetada por Friedrich von Schmidt em neogótico (1872–1883), é o edifício civil mais imponente da Ringstrasse, com 98 metros de torre central. Ao norte, a Votivkirche (1856–1879) em neogótico francês foi construída pelo arquiteto Heinrich Ferstel como voto de gratidão pelo fracasso do atentado contra Francisco José I em 1853 — é a mais alta e esbelta das igrejas do Ring.\n\nA Ópera Estatal de Viena (Wiener Staatsoper), inaugurada em 1869, é a casa de ópera com mais novas produções por temporada em todo o mundo — cerca de 50 estreias anuais. Dirigida por Gustav Mahler (1897–1907), Herbert von Karajan (1956–1964) e outros maestros legendários, é o padrão mundial de excelência operística. Os Stehplätze (bilhetes de pé, ~€5, vendidos 1h antes) tornam a Ópera acessível a qualquer viajante.",
+    "observationPoints": [
+      "Parlamento (Hansen, 1884): a Atena de bronze de 5,5 metros no topo do frontão neogrego — o símbolo da democracia habsburga",
+      "Rathaus (Schmidt, 1883): a torre neogótica de 98 metros da Prefeitura, iluminada à noite e rodeada de jardins públicos",
+      "Votivkirche (Ferstel, 1879): as duas torres neogóticas de 99 metros vistas da Ringstrasse — perfeita para fotografia ao entardecer",
+      "Fachada da Staatsoper: as arcadas do foyer original em neorenascentista italiano; as estátuas de Drama e Ópera nos nichos laterais"
+    ],
+    "media_extra_subs": [
+      {
+        "id": "parlamentsgebaeude",
+        "name": "Parlamento — Neogrego na Ringstrasse",
+        "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/parlamentsgebaeude.jpg",
+        "caption": "O Parlamento de Theophil Hansen (1884): a Atena de 5,5 metros e a fachada neogrega — democracia ateniense em pedra vienense",
+        "reel": {
+          "audioMood": "baroque",
+          "segments": [
+            {"text": "O Parlamento foi projetado por Theophil Hansen, arquiteto grego radicado em Viena, entre 1874 e 1884. Francisco José I escolheu o estilo neogrego para a sede legislativa porque queria evocar a democracia de Atenas — embora o próprio Imperador governasse de forma bastante autocrática e nunca tenha escondido seu desagrado com o parlamento.", "duration": 22, "focusZone": "full"},
+            {"text": "A Atena em bronze no topo tem 5,5 metros de altura e segura uma lança e um escudo com a cabeça da Medusa. Os baixos-relevos da fachada representam as nações do Império Habsburgo. O edifício foi gravemente danificado na Segunda Guerra Mundial e reconstruído entre 1945 e 1956, com total renovação entre 2017 e 2023.", "duration": 20, "focusZone": "detail"}
+          ]
+        }
+      },
+      {
+        "id": "rathaus-wien",
+        "name": "Rathaus — A Prefeitura Neogótica",
+        "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/rathaus-wien.jpg",
+        "caption": "A Prefeitura de Viena (1883) com sua torre central de 98 metros — o neogótico cívico mais imponente da Europa Central",
+        "reel": {
+          "audioMood": "baroque",
+          "segments": [
+            {"text": "A Rathaus foi projetada por Friedrich von Schmidt em estilo neogótico (1872–1883) — neogótico porque Francisco José I considerava que o governo municipal devia evocar as grandes prefeituras medievais das cidades livres europeias. Com 98 metros de torre central e uma fachada de 152 metros, é o edifício civil mais imponente do Ring.", "duration": 22, "focusZone": "full"}
+          ]
+        }
+      },
+      {
+        "id": "votivkirche",
+        "name": "Votivkirche — O Voto de Ferstel",
+        "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/votivkirche.jpg",
+        "caption": "A Votivkirche (1879): neogótico francês com torres de 99 metros — construída em gratidão pelo fracasso do atentado contra Francisco José I em 1853",
+        "reel": {
+          "audioMood": "medieval",
+          "segments": [
+            {"text": "Em 18 de fevereiro de 1853, o alfaiate Johann Libényi esfaqueou o jovem Imperador Francisco José I nas costas enquanto ele caminhava na Ringstrasse. A faca foi desviada pelo colarinho rígido do uniforme e o Imperador sobreviveu. Em gratidão, o irmão Fernando Maximiliano mandou construir uma igreja no local do atentado — a Votivkirche, projetada por Heinrich Ferstel em neogótico francês.", "duration": 26, "focusZone": "full"}
+          ]
+        }
+      }
+    ],
+    "walkingNotes": "Da Ringstrasse ao Kunsthistorisches Museum: 5 min a pé pelo Burgring — siga em direção sul pela Ringstrasse e vire na Maria-Theresien-Platz; o museu fica no lado oeste da praça simétrica.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 5,
+  },
+
+  "kunsthistorisches-museum": {
+    "order": 4,
+    "walkingNotes": "Fim do Dia 1. Do KHM ao hotel: a pé pelo Ring ou metrô U2 de Museumsquartier até Rathaus ou Schottentor. Amanhã: para o Schönbrunn, metrô U4 em direção a Hütteldorf a partir de Karlsplatz/Oper — 15 min.",
+    "nextTransport": None,
+    "nextTransportMinutes": None,
+  },
+
+  "schonbrunn": {
+    "order": 1,
+    "walkingNotes": "Do Schönbrunn ao Stadtpark: metrô U4 de Schönbrunn até Stadtpark (5 estações, 12 min direto). O parque fica na saída da estação — a estátua dourada de Strauss está a 5 min a pé da saída.",
+    "nextTransport": "subway",
+    "nextTransportMinutes": 12,
+  },
+
+  "oberes-belvedere": {
+    "order": 3,
+    "walkingNotes": "Do Belvedere ao Hundertwasserhaus: 15 min a pé pela Ungargasse/Fasangasse em direção nordeste; ou bonde 71 de Unteres Belvedere até Radetzkyplatz, depois 5 min a pé pela Kegelgasse.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 15,
+  },
+
+  "stephansdom": {
+    "order": 1,
+    "walkingNotes": "Da Stephansdom ao passeio pelo centro histórico: saída sul pela Kärntner Straße — o passeio começa imediatamente. O Bitzinger Würstelstand (na Albertinaplatz, 8 min a pé) é uma excelente opção de almoço no meio do percurso.",
+    "nextTransport": "walking",
+    "nextTransportMinutes": 2,
+  },
+
+  "hofburg-sisi": {
+    "order": 3,
+    "walkingNotes": "Do Hofburg ao Prater/Riesenrad: a pé até a Herrengasse (5 min), metrô U3 até Stephansplatz, U1 até Praterstern — total 15 min. Alternativa rápida: Uber/táxi direto ao Riesenradplatz (10 min).",
+    "nextTransport": "subway",
+    "nextTransportMinutes": 15,
+  },
+
+}
+
+# ─── NOVOS SEGMENTS ──────────────────────────────────────────────────────────
+
+NEW_SEGMENTS = [
+  {"from": "naschmarkt",            "to": "karlskirche",           "transport": "walking", "minutes": 3,  "notes": "Pela Rechte Wienzeile — a cúpula da Karlskirche orienta o caminho"},
+  {"from": "karlskirche",           "to": "ringstrasse-staatsoper","transport": "walking", "minutes": 8,  "notes": "Pelo Kärntner Ring em direção norte até a fachada da Staatsoper"},
+  {"from": "ringstrasse-staatsoper","to": "kunsthistorisches-museum","transport":"walking","minutes": 5,  "notes": "Pelo Burgring até a Maria-Theresien-Platz — o museu fica do lado oeste"},
+  {"from": "schonbrunn",            "to": "stadtpark",             "transport": "subway",  "minutes": 12, "notes": "U4 de Schönbrunn até Stadtpark — 5 estações direto"},
+  {"from": "stadtpark",             "to": "oberes-belvedere",      "transport": "walking", "minutes": 15, "notes": "Pela Rennweg ao sul até a Prinz-Eugen-Straße"},
+  {"from": "oberes-belvedere",      "to": "hundertwasserhaus",     "transport": "walking", "minutes": 15, "notes": "Pela Ungargasse/Fasangasse ao nordeste até a Kegelgasse"},
+  {"from": "stephansdom",           "to": "graben-kohlmarkt",      "transport": "walking", "minutes": 2,  "notes": "Saída sul pela Kärntner Straße — o passeio começa imediatamente"},
+  {"from": "graben-kohlmarkt",      "to": "hofburg-sisi",          "transport": "walking", "minutes": 2,  "notes": "O passeio termina na Michaelerplatz — a entrada do Hofburg está à frente"},
+  {"from": "hofburg-sisi",          "to": "prater-riesenrad",      "transport": "subway",  "minutes": 15, "notes": "U3 de Herrengasse até Stephansplatz, U1 até Praterstern"},
+]
+
+# ─── NOVOS DIAS ──────────────────────────────────────────────────────────────
+
+UPDATED_DAYS = [
+  {
+    "id": "dia-1",
+    "order": 1,
+    "date": "2026-06-18",
+    "weekday": "Qui",
+    "title": "Ring, Naschmarkt e os Museus Imperiais",
+    "subtitle": "Naschmarkt · Karlskirche · Ringstrasse · Kunsthistorisches Museum",
+    "theme": "Do mercado ao ar livre aos palácios imperiais — Viena em todas as suas dimensões",
+    "dayType": "urban",
+    "energyLevel": "moderate",
+    "startTime": "09:00",
+    "estimatedEndTime": "18:30",
+    "primaryColor": "#1A237E",
+    "coverEmoji": "🎭",
+    "intro": "O primeiro dia em Viena começa no Naschmarkt — o maior mercado ao ar livre da cidade, com 120 bancas de especiarias e queijos nos pavilhões Art Nouveau de Otto Wagner. A seguir, a Karlskirche barroca na Karlsplatz (cúpula de 72 metros, colunas espirais em baixo-relevo) antes da Ringstrasse: o boulevard de 5 km que Francisco José I criou demolindo as muralhas medievais em 1857, com Parlamento neogrego, Rathaus neogótico e Votivkirche. A tarde no Kunsthistorisches Museum — a maior coleção de Bruegel e Velázquez do mundo — fecha o dia com a arte dos Habsburgo.",
+    "poiIds": ["naschmarkt", "karlskirche", "ringstrasse-staatsoper", "kunsthistorisches-museum"],
+    "logistics": None
+  },
+  {
+    "id": "dia-2",
+    "order": 2,
+    "date": "2026-06-19",
+    "weekday": "Sex",
+    "title": "Palácios, Parques e Hundertwasser",
+    "subtitle": "Schönbrunn · Stadtpark · Belvedere · Hundertwasserhaus",
+    "theme": "Do barroco imperial ao expressionismo orgânico — dois séculos de utopia arquitetônica",
+    "dayType": "urban",
+    "energyLevel": "moderate",
+    "startTime": "09:00",
+    "estimatedEndTime": "20:00",
+    "primaryColor": "#7B1FA2",
+    "coverEmoji": "🌿",
+    "intro": "O segundo dia combina os dois grandes palácios barrocos com uma tarde de parques e arte. Schönbrunn de manhã — o Versailles habsburgo com 45 salas de aparato e os jardins da Glorieta. Após a pausa no Stadtpark com a estátua dourada de Strauss, o Belvedere Superior guarda O Beijo de Klimt e a maior coleção de Expressionismo austríaco. O encerramento é o Hundertwasserhaus: o prédio residencial mais fotografado da Áustria, onde Friedensreich Hundertwasser declarou guerra à linha reta com azulejos coloridos e árvores crescendo pelas janelas.",
+    "poiIds": ["schonbrunn", "stadtpark", "oberes-belvedere", "hundertwasserhaus"],
+    "logistics": None
+  },
+  {
+    "id": "dia-3",
+    "order": 3,
+    "date": "2026-06-20",
+    "weekday": "Sáb",
+    "title": "Centro Histórico, Hofburg e Prater",
+    "subtitle": "Stephansdom · Graben · Hofburg · Riesenrad",
+    "theme": "O coração espiritual de Viena, o palácio dos Habsburgo e a roda gigante de Orson Welles",
+    "dayType": "urban",
+    "energyLevel": "moderate",
+    "startTime": "09:00",
+    "estimatedEndTime": "20:00",
+    "primaryColor": "#8B6914",
+    "coverEmoji": "⛪",
+    "intro": "O último dia em Viena começa na Stephansdom — catedral gótica com 800 anos de história e o telhado de azulejos mais famoso da Europa. O passeio pelo centro histórico percorre a Kärntner Straße, a Coluna da Peste no Graben, o apartamento de Mozart na Domgasse (onde escreveu As Bodas de Fígaro) e a Michaelerplatz com ruínas romanas expostas sob vidro — porta de entrada ao Hofburg. A tarde no complexo imperial (Museu de Sisi, Schatzkammer com a Coroa do Sacro Império). O encerramento é no Prater: a roda gigante de 1897 que Orson Welles imortalizou n'O Terceiro Homem.",
+    "poiIds": ["stephansdom", "graben-kohlmarkt", "hofburg-sisi", "prater-riesenrad"],
+    "logistics": None
+  }
+]
+
+# ─── APLICAR MUDANÇAS ─────────────────────────────────────────────────────────
+
+# 1. Atualizar dias
+data["days"] = UPDATED_DAYS
+
+# 2. Atualizar POIs existentes
+poi_map = {p["id"]: p for p in data["pois"]}
+for poi_id, updates in EXISTING_UPDATES.items():
+    if poi_id not in poi_map:
+        print(f"[WARN] POI não encontrado: {poi_id}")
+        continue
+    poi = poi_map[poi_id]
+    extra_subs = updates.pop("media_extra_subs", None)
+    for k, v in updates.items():
+        poi[k] = v
+    if extra_subs:
+        poi["media"]["subAttractions"].extend(extra_subs)
+
+# 3. Adicionar novos POIs (evitar duplicatas)
+existing_ids = {p["id"] for p in data["pois"]}
+for new_poi in NEW_POIS:
+    if new_poi["id"] not in existing_ids:
+        data["pois"].append(new_poi)
+        print(f"[ADD] {new_poi['id']}")
+    else:
+        print(f"[SKIP] {new_poi['id']} já existe")
+
+# 4. Reordenar POIs por dayId + order
+data["pois"].sort(key=lambda p: (p["dayId"], p["order"]))
+
+# 5. Atualizar segments
+data["segments"] = NEW_SEGMENTS
+
+# 6. Salvar
+with open(ROUTE, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("\nviena.json atualizado com sucesso.")
+print(f"Total POIs: {len(data['pois'])}")
+print(f"Total segments: {len(data['segments'])}")

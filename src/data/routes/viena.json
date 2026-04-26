@@ -1,1 +1,1483 @@
-{"id":"viena-2026","title":"Viena","subtitle":"A capital eterna dos Habsburgo","tripDates":{"start":"2026-06-18","end":"2026-06-20"},"baseCity":"Viena","baseCityCoords":{"lat":48.2082,"lng":16.3738},"historicalPeriods":[{"id":"medieval","label":"Habsburgo Medieval (séc. XIII–XVI)","color":"#8B6914"},{"id":"baroque","label":"Barroco Imperial (séc. XVII–XVIII)","color":"#7B1FA2"},{"id":"imperial","label":"Monarquia Dual (1815–1918)","color":"#1A237E"},{"id":"modern","label":"Secessão e Modernidade (1897–atual)","color":"#C62828"}],"days":[{"id":"dia-1","order":1,"date":"2026-06-18","weekday":"Qui","title":"O Ring e os Museus Imperiais","subtitle":"Ringstrasse · Ópera · Kunsthistorisches Museum","theme":"O boulevard imperial e a maior coleção de arte dos Habsburgo","dayType":"urban","energyLevel":"moderate","startTime":"09:00","estimatedEndTime":"21:00","primaryColor":"#1A237E","coverEmoji":"🎭","intro":"A Ringstrasse — o boulevard circular que Francisco José I abriu em 1857 demolindo as muralhas medievais — é a mais ambiciosa obra urbanística do século XIX europeu: 5 km de palácios neogóticos, neogregos e neorenascentistas construídos em 30 anos para impressionar o mundo. No primeiro dia de Viena, percorrem o Ring a pé, entram na Ópera Estatal e passam a tarde no Kunsthistorisches Museum — o museu com a maior coleção de Bruegel e Velázquez do mundo.","poiIds":["ringstrasse-staatsoper","kunsthistorisches-museum"],"logistics":null},{"id":"dia-2","order":2,"date":"2026-06-19","weekday":"Sex","title":"Os Palácios de Verão","subtitle":"Schönbrunn · Belvedere · O Beijo de Klimt","theme":"Os dois grandes palácios barrocos e o expressionismo da Secessão vienense","dayType":"urban","energyLevel":"intense","startTime":"09:00","estimatedEndTime":"21:00","primaryColor":"#7B1FA2","coverEmoji":"🌿","intro":"O segundo dia move a visita para os dois grandes palácios barrocos fora do Ring: Schönbrunn — o Versailles habsburgo onde Mozart tocou aos 6 anos, Napoleão dormiu e Francisco José nasceu — e o Belvedere, construído pelo Príncipe Eugênio de Saboia e hoje lar d\u0027O Beijo de Klimt, a pintura mais famosa da Áustria. Entre arte e jardins, o dia é intenso mas inesquecível.","poiIds":["schonbrunn","oberes-belvedere"],"logistics":null},{"id":"dia-3","order":3,"date":"2026-06-20","weekday":"Sáb","title":"A Catedral e o Palácio Imperial","subtitle":"Stephansdom · Hofburg · Cripta dos Habsburgo","theme":"O coração espiritual e político do Império no Innere Stadt","dayType":"urban","energyLevel":"moderate","startTime":"09:00","estimatedEndTime":"20:00","primaryColor":"#8B6914","coverEmoji":"⛪","intro":"O último dia em Viena volta ao Innere Stadt (1º Distrito): a Catedral de Santo Estêvão com seu telhado de azulejos em losango e os ossos de Frederico III na cripta, e o Hofburg — o palácio que os Habsburgo ampliaram por 700 anos sem conseguir acabar. O Museu de Sisi e a Schatzkammer com a Coroa do Sacro Império Romano encerram magnificamente três dias em Viena antes da partida amanhã para Madri.","poiIds":["stephansdom","hofburg-sisi"],"logistics":null}],"pois":[{"id":"ringstrasse-staatsoper","dayId":"dia-1","order":1,"name":"Ringstrasse e Ópera Estatal","lat":48.2030,"lng":16.3695,"address":"Opernring 2, 1010 Wien","historicalPeriod":"imperial","yearBuilt":"1857","architecturalStyle":"Eclético (neogótico / neorenascentista / neogrego)","significance":"O maior projeto urbanístico do século XIX europeu; Ópera Estatal com 50 estreias de ópera por temporada","description":"A Ringstrasse é o boulevard circular de 5 km que Francisco José I criou em 1857 ao ordenar a demolição das muralhas medievais de Viena — uma das decisões urbanísticas mais corajosas e controversas do século XIX. Em seu lugar, o imperador mandou construir, ao longo de 30 anos, um conjunto de edifícios monumentais em estilos históricos distintos: o Rathaus em neogótico (por ser a sede do governo civil, como as catedrais medievais); o Parlamento em neogrego (para evocar a democracia ateniense); a Universidade em neorenascentista (por associação ao humanismo); a Ópera e os museus em neorenascentista. É um manual de arquitetura histórica ao ar livre.\n\nA Ópera Estatal de Viena (Wiener Staatsoper), inaugurada em 1869, é a casa de ópera com mais novas produções por temporada em todo o mundo — cerca de 50 estreias anuais. Dirigida por Gustav Mahler (1897–1907), Herbert von Karajan (1956–1964) e outros maestros legendários, é o padrão mundial de excelência operística. Mahler a transformou ao proibir os atrasos da plateia e exigir que a orquestra tocasse obras completas sem cortes — reformas radicais para a época que definiram o que entendemos hoje como \u0027performance seriosa\u0027.\n\nA Ópera foi gravemente danificada por um bombardeio aliado em março de 1945 (o foyer e a grande sala foram destruídos; apenas a fachada e alguns camarotes sobreviveram) e reconstruída com fidelidade ao original entre 1945 e 1955. A reabertura em novembro de 1955 — com Beethoven e Fidelio, regido por Karl Böhm — coincidiu com a retirada das tropas aliadas da Áustria e é considerada um dos momentos simbólicos mais importantes da história austríaca do pós-guerra.\n\nTours guiados da Ópera (em inglês, ~€13, wiener-staatsoper.at) percorrem o foyer imperial de mármore, a grande sala com 2.284 lugares e os bastidores. Recomendado mesmo sem assistir a nenhum espetáculo.","immersiveMode":false,"immersiveText":null,"observationPoints":["Ringstrasse ao longo do Burgring: vista do Kunsthistorisches Museum e do Naturhistorisches Museum em perspectiva — as duas \u0027caixas de tesouro\u0027 simétricas de Francisco José","Fachada da Ópera Estatal: as arcadas do foyer original em estilo neorenascentista; as estátuas de Drama e Ópera nos nichos laterais","Interior da Ópera (tour guiado): a grande escadaria de mármore de Carrara, o foyer dos tapetes e a sala principal com os 2.284 lugares"],"suggestedExperience":"Caminhem o Ring às 9h, quando o tráfego ainda é leve e os edifícios estão iluminados pela luz matinal. Façam o tour da Ópera (tours começam às 10h em inglês) antes de entrar no KHM. À noite, se houver espetáculo na temporada, pode valer a pena comprar ingressos de pé (Stehplätze, ~€5, vendidos 1h antes) — a Ópera de Viena tem os mais baratos bilhetes de pé do mundo para o mais famoso teatro de ópera do mundo.","searchSuggestions":["Wiener Staatsoper tour guiado horário preço","Ópera Viena bilhetes de pé Stehplätze","Ringstrasse história Francisco José I urbanismo","Gustav Mahler Ópera Viena diretor reformas"],"visitType":"outdoor+indoor","entryFee":"Tour Ópera: ~€13. Stehplätze (bilhetes de pé para espetáculos): ~€5. Ring: gratuito","schedule":{"monday":"Ring: sempre. Ópera tours: verificar wiener-staatsoper.at","tuesday":"Tours Ópera: geralmente 10:00–14:00","wednesday":"Tours Ópera: geralmente 10:00–14:00","thursday":"Tours Ópera: geralmente 10:00–14:00","friday":"Tours Ópera: geralmente 10:00–14:00","saturday":"Tours Ópera: geralmente 10:00–14:00","sunday":"Tours Ópera: geralmente 10:00–14:00"},"estimatedVisitMinutes":90,"externalViewingAlways":true,"proximityRadiusMeters":100,"media":{"audio":"/media/routes/viena/audio/ringstrasse-staatsoper.mp3","photos":[{"src":"/media/routes/viena/photos/ringstrasse-staatsoper/main.jpg","caption":"Ringstrasse e Ópera Estatal","type":"recognition"}],"subAttractions":[{"id":"staatsoper-interior","name":"Interior da Ópera Estatal","image":"/media/routes/viena/sub-attractions/ringstrasse-staatsoper/staatsoper-interior.jpg","caption":"O foyer de mármore de Carrara e a sala principal de 2.284 lugares — reconstruída em 1955 após o bombardeio de 1945","reel":{"audioMood":"baroque","segments":[{"text":"A Ópera Estatal de Viena foi inaugurada em 1869 com Don Giovanni de Mozart. É a casa de ópera com mais novas produções por temporada no mundo — cerca de 50 estreias anuais. Entre seus diretores: Gustav Mahler (1897–1907), que transformou o teatro ao proibir atrasos da plateia e exigir obras completas, sem cortes.","duration":22,"focusZone":"full"},{"text":"Em 12 de março de 1945, um bombardeio aliado destruiu o interior da Ópera — apenas a fachada e alguns camarotes sobreviveram. A reconstrução fiel ao original durou 10 anos. A reabertura em novembro de 1955, com Fidelio de Beethoven, coincidiu com a retirada das últimas tropas aliadas da Áustria — um dos momentos mais emocionantes da história austríaca do século XX.","duration":24,"focusZone":"center"},{"text":"Os Stehplätze — bilhetes de pé vendidos 1h antes do espetáculo, ~€5 — tornam a Ópera de Viena acessível a qualquer viajante. O piso de pé tem espaço para 567 pessoas em pé; a vista do palco é excelente do centro. É uma das mais democráticas experiências culturais da Europa: o preço de um café para o melhor teatro de ópera do mundo.","duration":22,"focusZone":"detail"}]}}],"thumb":"/media/routes/viena/photos/ringstrasse-staatsoper/thumb.jpg"},"walkingNotes":"Da Ópera ao Kunsthistorisches Museum: 8 min a pé pelo Burgring — siga a Ringstrasse em direção norte e vire na Maria-Theresien-Platz; o museu fica no lado oeste da praça simétrica.","nextTransport":"walking","nextTransportMinutes":8,"tags":["ópera","ring","neorenascentista","música","imperial","urbanismo"]},{"id":"kunsthistorisches-museum","dayId":"dia-1","order":2,"name":"Kunsthistorisches Museum","lat":48.2036,"lng":16.3614,"address":"Maria-Theresien-Platz, 1010 Wien","historicalPeriod":"imperial","yearBuilt":"1891","architecturalStyle":"Neorenascentista","significance":"Maior coleção de Bruegel do mundo (12 obras); maior coleção de Velázquez fora do Prado; coleção egípcia e greco-romana dos Habsburgo","description":"O Kunsthistorisches Museum (KHM) de Viena é um dos cinco maiores museus de arte do mundo e o maior museu de arte da Áustria — um palácio de coleta e exibição que Francisco José I construiu para consolidar o poder simbólico da Casa de Habsburgo através da arte. O edifício neorenascentista (1891), simétrico ao Naturhistorisches Museum do outro lado da praça, foi projetado por Gottfried Semper e Karl von Hasenauer como um templo de civilização: esculturas de artistas europeus coroam a fachada, e o interior — especialmente a escadaria central com afrescos de Klimt — é uma das obras de arte arquitetônicas mais impressionantes da Europa.\n\nA coleção reúne séculos de aquisições, heranças dinásticas e conquistas militares dos Habsburgo: pinturas das coleções de Filipe II de Espanha, dos archiduques tirólicos, dos Galerias Reais de Praga saqueadas pelos Suecos na Guerra dos Trinta Anos e recuperadas. O resultado é uma coleção de coerência histórica impossível de montar hoje.\n\nDestaques absolutos: a maior coleção de Pieter Bruegel, o Velho, do mundo (12 obras, incluindo A Torre de Babel e Os Caçadores na Neve); os retratos espanhóis de Velázquez da Infanta Margarida Teresa; A Arte da Pintura de Vermeer; retratos de Dürer, Raphael, Tiziano e Caravaggio. A coleção egípcia e as antiguidades greco-romanas dos andares inferiores são igualmente extraordinárias.\n\nUm detalhe que a maioria dos visitantes não conhece: na grande escadaria central, os medalhões nas paredes foram pintados por um jovem Gustav Klimt em 1891 — antes de ele desenvolver o estilo dourado que o tornou famoso. São trabalhos acadêmicos excepcionais que mostram o Klimt ainda dentro da tradição clássica.","immersiveMode":true,"immersiveText":"Existe uma pintura no segundo andar do Kunsthistorisches Museum que para muitas pessoas muda a relação com a arte europeia para sempre. É A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563. O tamanho é modesto — 114 × 155 cm — mas o que Bruegel fez dentro desse retângulo desafia a física da atenção: quanto mais você olha, mais detalhes aparecem. Operários no andaime superior. Barcos no porto abaixo. O rei Nemrod inspecionando a construção. Andaimes de madeira em espiral. E a torre em si, já mais alta que as nuvens, absurda na sua ambição, destinada ao fracasso que o Gênesis prometeu.\n\nBruegel era o pintor mais importante dos Países Baixos do século XVI, e os Habsburgo dos Países Baixos — então a mesma família que governava a Espanha e o Sacro Império Romano — o colecionavam obsessivamente. Filipe II da Espanha tinha 16 Bruegels. Quando os Habsburgo espanhóis e austríacos dividiram o patrimônio, os quadros seguiram para Viena. É por isso que o maior acervo de Bruegel do mundo está aqui, numa cidade que nunca foi holandesa.\n\nA lógica das coleções habsburgas é essa: o poder estava em todo lugar, então a arte de todo lugar veio para Viena. Os retratos da Infanta Margarida Teresa por Velázquez — a menina de olhos fixos que Velázquez pintou cinco vezes entre 1653 e 1659, aos 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e veio para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático.\n\nA Arte da Pintura de Vermeer, talvez o quadro mais filosoficamente intrigante do século XVII, está aqui por acidente de história: Vermeer deixou-o inacabado, sua viúva o ofereceu como pagamento de dívidas, e ele circulou por coleções privadas até ser comprado pelos Habsburgo no século XIX. Hitler, que era austríaco e obsessivamente ligado à arte, tentou incorporá-lo ao museu que pretendia construir em Linz (o Führermuseum, que nunca foi concluído). A história da arte europeia é inseparável da história do poder europeu.\n\nO que pouca gente nota ao entrar no KHM é o teto da cúpula central: os medalhões nas paredes que ladeiam a grande escadaria foram pintados por Gustav Klimt em 1891, quando ele tinha 28 anos e ainda era um artista acadêmico convencional. São alegorias de períodos históricos da arte — Egito, Grécia, Roma — pintadas com precisão técnica extraordinária. Quatro anos depois, Klimt fundaria a Secessão vienense e nunca mais pintaria nada parecido com isso. A escadaria do KHM é, portanto, um local duplamente histórico: o último Klimt antes da ruptura.\n\nReserve pelo menos 3 horas para o KHM — e ainda assim vai perder coisas. O museu tem 100 salas. Concentrem-se no primeiro andar (Gemäldegalerie): a sala de Bruegel (sala X), os Velázquez (sala XII), os Vermeers (sala XVII) e os Rembrandts (sala XIV). Se sobrarem 30 minutos, desçam ao piso 0 para a Coleção Egípcia — as esculturas de calcário faraônicas adquiridas pelos Habsburgo no século XIX são tão impressionantes quanto qualquer coisa no Cairo.","observationPoints":["Sala de Bruegel (sala X, 1º andar): A Torre de Babel e Os Caçadores na Neve lado a lado — observe os níveis de detalhe se aproximando progressivamente de cada obra","Sala XII (Velázquez): os cinco retratos da Infanta Margarida Teresa dos 2 aos 9 anos — a mesma criança envelhecendo em tela por Velázquez","Escadaria central: os medalhões de Gustav Klimt de 1891 — o \u0027pré-Secessão\u0027 antes de sua ruptura com a arte acadêmica","Sala XVII (Vermeer): A Arte da Pintura — a tela que Hitler tentou confiscar para o seu Führermuseum em Linz"],"suggestedExperience":"Entrem pela tarde (a manhã foi na Ópera) por volta das 14h e fiquem até as 18h. Comprem os bilhetes online em khm.at para evitar filas. Começem pela cúpula central e os medalhões de Klimt, depois subam ao primeiro andar pela escadaria. Prioridade: salas X (Bruegel) → XII (Velázquez) → XVII (Vermeer) → XIV (Rembrandt). Terminem no Café do Museu na cúpula — o Café im Kunsthistorischen Museum é o mais belo café de museu da Europa.","searchSuggestions":["Kunsthistorisches Museum Wien ingresso online khm.at","Bruegel Torre de Babel Viena história coleção","Velázquez Infanta Margarida Teresa retratos","Vermeer Arte da Pintura Habsburgo história","Klimt escadaria KHM medalhões 1891"],"visitType":"indoor","entryFee":"~€21 (adultos). Crianças até 19 anos: gratuito. Online: khm.at","schedule":{"monday":"Fechado","tuesday":"10:00–18:00","wednesday":"10:00–21:00 (última quinta longa até 21h)","thursday":"10:00–18:00","friday":"10:00–18:00","saturday":"10:00–18:00","sunday":"10:00–18:00"},"estimatedVisitMinutes":180,"externalViewingAlways":false,"proximityRadiusMeters":80,"media":{"audio":"/media/routes/viena/audio/kunsthistorisches-museum.mp3","photos":[{"src":"/media/routes/viena/photos/kunsthistorisches-museum/main.jpg","caption":"Kunsthistorisches Museum","type":"recognition"}],"subAttractions":[{"id":"brueghel-torre-babel","name":"Torre de Babel de Bruegel","image":"/media/routes/viena/sub-attractions/kunsthistorisches-museum/brueghel-torre-babel.jpg","caption":"A obra-prima de Bruegel de 1563 — quanto mais você olha, mais detalhes aparecem","imageFit":"contain","reel":{"audioMood":"contemplative","segments":[{"text":"A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563, é a pintura que mais muda a relação das pessoas com a arte europeia. O tamanho é modesto — 114 × 155 cm — mas dentro desse retângulo, Bruegel criou um mundo completo: operários no andaime, barcos no porto, o rei Nemrod inspecionando, e a torre absurda já mais alta que as nuvens, destinada ao fracasso.","duration":24,"focusZone":"full"},{"text":"Bruegel representou a Torre de Babel como uma construção em espiral ascendente — provavelmente inspirada no Coliseu de Roma, que ele visitou em 1552. Mas o que o distingue de qualquer outro pintor do século XVI é o detalhismo democrático: nenhum personagem é mais importante que outro. O rei Nemrod é minúsculo diante da escala da construção. A hubris humana é visível na própria proporção.","duration":24,"focusZone":"detail"},{"text":"O KHM possui 12 das pinturas de Bruegel — a maior coleção do mundo. Os Habsburgo dos Países Baixos as colecionavam obsessivamente; quando a coleção de Filipe II da Espanha foi dividida, os quadros foram para Viena com a parte habsburga austríaca. É por isso que o maior tesouro da pintura flamenga do século XVI está em Viena.","duration":22,"focusZone":"center"}]}},{"id":"velazquez-infanta","name":"Retratos da Infanta Margarida Teresa","image":"/media/routes/viena/sub-attractions/kunsthistorisches-museum/velazquez-infanta.jpg","caption":"Velázquez pintou a Infanta 5 vezes dos 2 aos 9 anos — ela veio para Viena aos 15 e trouxe os quadros","imageFit":"contain","reel":{"audioMood":"contemplative","segments":[{"text":"Os cinco retratos de Velázquez da Infanta Margarida Teresa — pintados entre 1653 e 1659, quando ela tinha 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e mudou-se para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático. Ela morreu em Viena aos 21 anos.","duration":24,"focusZone":"full"},{"text":"Os retratos mostram a mesma criança envelhecendo em tela ao longo de 6 anos — um registro fotográfico avant la lettre da infância de uma infanta habsburga. Velázquez, o maior retratista do século XVII, capturou nos olhos fixos e ligeiramente sérios da menina algo que vai além do retrato oficial: uma criança real, com sua própria personalidade e, aparentemente, sua própria tristeza.","duration":24,"focusZone":"center"},{"text":"Estas obras estão diretamente relacionadas com As Meninas — o quadro de Velázquez no Museu do Prado em Madri, que vocês verão daqui a dois dias. Margarida Teresa é a menina ao centro d\u0027As Meninas. Ao ver estes retratos em Viena, vocês verão Las Meninas em Madri com outros olhos: a mesma criança, o mesmo pintor, o mesmo momento histórico.","duration":22,"focusZone":"detail"}]}}],"thumb":"/media/routes/viena/photos/kunsthistorisches-museum/thumb.jpg"},"walkingNotes":"Do KHM ao Schönbrunn (Dia 2): Metrô U2 da estação Museumsquartier até Karlsplatz, depois U4 até Schönbrunn — 15 min total. Ou taxi/Uber direto, ~€12.","nextTransport":"subway","nextTransportMinutes":15,"tags":["museu","arte","Bruegel","Velázquez","Vermeer","imperial","imersivo"]},{"id":"schonbrunn","dayId":"dia-2","order":1,"name":"Palácio de Schönbrunn","lat":48.1845,"lng":16.3122,"address":"Schönbrunner Schloßstraße 47, 1130 Wien","historicalPeriod":"baroque","yearBuilt":"1696","architecturalStyle":"Barroco austríaco / Rococó (Maria Teresa)","significance":"Residência de verão dos Habsburgo; Mozart tocou aqui aos 6 anos; Napoleão usou como quartel-general; Franz Joseph nasceu e morreu aqui","description":"O Palácio de Schönbrunn é o maior e mais importante palácio da Áustria — o \u0027Versailles habsburgo\u0027, como é chamado, embora os austríacos prefiram dizer que Versailles é o \u0027Schönbrunn francês\u0027. Com 1.441 salas (das quais 45 são abertas ao público), jardins formais de 160 hectares e uma história de 300 anos que toca cada grande evento do Império Habsburgo, Schönbrunn é tanto um museu quanto um arquivo vivo da história europeia.\n\nO palácio atual foi projetado pelo arquiteto Johann Bernhard Fischer von Erlach para o imperador José I em 1696 no estilo barroco imperial. Maria Teresa (1740–1780) reformou radicalmente o interior em estilo rococó e pintou a fachada no famoso \u0027amarelo de Schönbrunn\u0027 (Schönbrunner Gelb) — uma cor criada especificamente para o palácio que ainda hoje é misturada com a mesma fórmula original.\n\nOs episódios históricos que aconteceram aqui são extraordinários: em 1762, o menino Wolfgang Amadeus Mozart, de 6 anos, tocou cravo na Sala dos Espelhos para Maria Teresa — e, segundo a lenda, tentou sentar no colo da imperatriz e declará-la \u0027minha noiva\u0027. Em 1805 e 1809, Napoleão usou o palácio como quartel-general após capturar Viena duas vezes. Em 1830, o rei de Roma (filho de Napoleão e Maria Luísa) morreu aqui de tuberculose aos 21 anos, no mesmo quarto onde havia sido criado. E em 1916, o imperador Francisco José I morreu no seu quarto de trabalho, aos 86 anos, após 68 anos no trono — o mais longo reinado europeu do século XIX.\n\nOs jardins barrocos de 160 ha incluem a Glorieta — um arco triunfal neoclássico no topo da colina que oferece o melhor panorama de Viena — e a Fonte de Netuno ao sopé da colina, além de 32 estátuas de personagens mitológicos ao longo das alamedas.","immersiveMode":true,"immersiveText":"Existe um quarto em Schönbrunn que poucos visitantes veem mencionado nos guias, mas que é talvez o mais carregado de história do palácio: o quarto de trabalho do Imperador Francisco José I. É um cômodo pequeno, funcional, com a cama de campo militar que o imperador preferiu a uma cama imperial durante toda a sua vida. Francisco José I acordava às 3h30 da manhã, lavava o rosto com água fria (nunca teve aquecimento central instalado em seus aposentos pessoais), ajoelhava-se para a oração e começava a assinar documentos às 4h. Fazia isso por 68 anos.\n\nSessenta e oito anos no trono: de 1848 a 1916. Francisco José I subiu ao poder quando revoluções varriam a Europa; morreu em meio à Primeira Guerra Mundial, quando o império que havia defendido sua vida inteira estava se desfazendo. Ele sobreviveu a assassinatos (da Imperatriz Sisi em 1898, de punhalada em Genebra), ao suicídio do filho (o Arquiduque Rodolfo, em Mayerling, em 1889) e ao assassínio do sobrinho e herdeiro (Francisco Ferdinando, em Sarajevo, em 1914 — o evento que desencadeou a Primeira Guerra). Um homem que viu tudo que amava ser destruído, e continuou assinando documentos às 4h da manhã.\n\nMas voltemos a 1762, a uma cena completamente diferente. O menino Wolfgang Amadeus Mozart tem 6 anos e acaba de ser trazido de Salzburgo por seu pai Leopold, que percebera que o filho era um prodígio sobrenatural. Maria Teresa — a mesma imperatriz que havia impressionado todos pela coragem diante da Dieta Húngara em Bratislava — recebe o menino na Sala dos Espelhos. Mozart toca, a imperatriz aplaude, e então — segundo a narrativa que a família Mozart sempre contou — o menino escorrega no chão encerado, e Maria Teresa o ajuda a se levantar. E o menino, agradecido, sobe nos braços da imperatriz e declara que vai se casar com ela.\n\nA Sala dos Espelhos onde isso aconteceu ainda existe, conservada com seu parquet original e seus espelhos venezianos. Hoje as paredes reflectem grupos de turistas; em 1762, refletiam o início de uma das carreiras musicais mais extraordinárias da história humana. Mozart voltaria a Viena, como adulto, em 1781 — e morreria aqui em 1791, pobre e esquecido, enterrado numa cova comum que nunca foi identificada.\n\nE Napoleão? Ele ficou em Schönbrunn duas vezes: em 1805 (após a vitória de Austerlitz, com a Paz de Pressburg que vocês viram em Bratislava) e em 1809 (após a segunda captura de Viena). Em seu quarto de Schönbrunn, Napoleão assinou correspondências, recebeu generais e contemplou o jardim barroco amarelo. Depois das derrotas subsequentes, seu filho — o \u0027Rei de Roma\u0027, apelidado pelos austríacos de \u0027Eaglet\u0027 — foi criado aqui como refém amável, num quarto dourado, sob tutela dos Habsburgo seus avós maternos. Morreu de tuberculose aos 21 anos. Seus restos ficaram em Schönbrunn por décadas; Hitler os mandou para Paris em 1940 como gesto de propaganda.\n\nA Glorieta no topo da colina foi construída em 1775 para comemorar a vitória de Kolín sobre a Prússia (1757) — a batalha que salvou Maria Teresa de perder a Boêmia para Frederico, o Grande. Do topo, Viena se espalha em todas as direções: a catedral de Santo Estêvão ao nordeste, o Ring, as colinas da Floresta de Viena ao oeste. É a melhor perspectiva da cidade que existe — incluindo a vista do Bastião dos Pescadores de Bratislava.","observationPoints":["Sala dos Espelhos: o chão de parquet original onde o menino Mozart escorregou em 1762 ao tentar subir nos braços de Maria Teresa","Quarto de trabalho de Francisco José I: a cama de campo militar e a escrivaninha onde ele trabalhou das 4h às 23h por 68 anos de reinado","Glorieta (topo da colina): panorama de 360° de Viena — Stephansdom, Ring, Floresta de Viena","Fonte de Netuno ao sopé da colina: vista da Glorieta com os jardins barrocos em perspectiva — a composição mais fotografada de Schönbrunn"],"suggestedExperience":"Chegue às 9h (abertura) quando os jardins estão praticamente vazios. Comprem ingressos do Grand Tour (45 salas) online em schoenbrunn.at. Percorram o palácio em 90 min, depois saiam para os jardins — a subida à Glorieta (30 min de caminhada, ou funicularinho pago) oferece o melhor panorama de Viena. Reservem 30 min para sentar numa das cadeiras dos jardins com um café do quiosque antes de partir para o Belvedere.","searchSuggestions":["Schönbrunn Palace Grand Tour ingressos schoenbrunn.at","Glorieta Schönbrunn panorama Viena subida","Mozart 1762 Maria Teresa Sala dos Espelhos","Francisco José I vida rotina Schönbrunn","Napoleão Schönbrunn 1805 1809 quartel-general"],"visitType":"outdoor+indoor","entryFee":"Grand Tour (45 salas): ~€26. Glorieta (panorama): ~€5. Jardins: gratuitos","schedule":{"monday":"09:00–17:30","tuesday":"09:00–17:30","wednesday":"09:00–17:30","thursday":"09:00–17:30","friday":"09:00–17:30","saturday":"09:00–17:30","sunday":"09:00–17:30"},"estimatedVisitMinutes":180,"externalViewingAlways":true,"proximityRadiusMeters":120,"media":{"audio":"/media/routes/viena/audio/schonbrunn.mp3","photos":[{"src":"/media/routes/viena/photos/schonbrunn/main.jpg","caption":"Palácio de Schönbrunn","type":"recognition"}],"subAttractions":[{"id":"glorieta-panorama","name":"Glorieta e Panorama de Viena","image":"/media/routes/viena/sub-attractions/schonbrunn/glorieta-panorama.jpg","caption":"O arco triunfal de 1775 no topo da colina — o melhor panorama de Viena existe","reel":{"audioMood":"baroque","segments":[{"text":"A Glorieta de Schönbrunn foi construída em 1775 por ordem de Maria Teresa para comemorar a vitória de Kolín (1757), quando os austriacos derrotaram Frederico, o Grande, e salvaram a Boêmia de ser perdida para a Prússia. O arco triunfal neoclássico coroando a colina era visível de toda Viena — uma propaganda de poder em calcário branco.","duration":22,"focusZone":"full"},{"text":"Do topo da Glorieta, Viena se espalha em 360°: a Catedral de Santo Estêvão e sua torre ao nordeste; o Ring e a Ópera mais perto; as colinas da Floresta de Viena (Wienerwald) a oeste, onde Beethoven fazia suas longas caminhadas ao compor. É o panorama mais completo de Viena — melhor que qualquer torre da cidade.","duration":22,"focusZone":"top"},{"text":"A vista da Glorieta para a Fonte de Netuno e os jardins barrocos abaixo é a composição mais fotografada de Schönbrunn: as alamedas em perspectiva convergindo em direção à fonte mitológica, com o palácio amarelo ao fundo e o céu de Viena acima. Em junho, as flores dos parterres estão em pleno florescimento.","duration":22,"focusZone":"bottom"}]}},{"id":"sala-espelhos-mozart","name":"Sala dos Espelhos","image":"/media/routes/viena/sub-attractions/schonbrunn/sala-espelhos-mozart.jpg","caption":"O salão de rococó onde Mozart de 6 anos tocou para Maria Teresa em 1762 e escorregou no parquet","reel":{"audioMood":"baroque","segments":[{"text":"A Sala dos Espelhos de Schönbrunn foi o local de um dos episódios mais encantadores da história da música: em outubro de 1762, o menino Wolfgang Amadeus Mozart, de 6 anos, tocou cravo para a Imperatriz Maria Teresa. Depois de tocar, escorregou no parquet encerado. A imperatriz o ajudou a se levantar — e o menino, agradecido, subiu em seu colo.","duration":24,"focusZone":"full"},{"text":"O parquet original deste salão, os espelhos venezianos e os lustres de cristal são os mesmos que Mozart viu. Neste mesmo espaço, a luz da tarde de outubro de 1762 iluminava o prodígio de 6 anos que em 29 anos de vida comporia 41 sinfonias, 27 concertos para piano, 23 óperas e dezenas de outras obras — incluindo A Flauta Mágica, escrita e estreada em Viena em 1791, o mesmo ano de sua morte.","duration":24,"focusZone":"center"},{"text":"Mozart morreu em Viena em 5 de dezembro de 1791, com 35 anos, pobre, enterrado numa cova comum no cemitério de São Marx — a localização exata nunca foi determinada. A mesma cidade que aplaudiu o menino prodígio em 1762 deixou o gênio adulto ser enterrado sem cerimônia. A história de Viena e Mozart é, como quase tudo nesta cidade, simultaneamente gloriosa e trágica.","duration":22,"focusZone":"detail"}]}}],"thumb":"/media/routes/viena/photos/schonbrunn/thumb.jpg"},"walkingNotes":"De Schönbrunn ao Belvedere: Metrô U4 até Landstraße/Wien Mitte, depois tram 71 ou 18 até Südbahnhof/Schloss Belvedere — 35 min total. Ou uber/taxi direto, ~€15.","nextTransport":"subway","nextTransportMinutes":35,"tags":["palácio","barroco","Mozart","María Teresa","Napoleão","jardins","imersivo"]},{"id":"oberes-belvedere","dayId":"dia-2","order":2,"name":"Belvedere Superior","lat":48.1916,"lng":16.3817,"address":"Prinz Eugen-Straße 27, 1030 Wien","historicalPeriod":"baroque","yearBuilt":"1721","architecturalStyle":"Barroco austríaco (Johann Lucas von Hildebrandt)","significance":"O Beijo de Klimt; maior coleção de Klimt e Schiele do mundo; jardins barrocos com vista sobre Viena","description":"O Palácio do Belvedere Superior (Oberes Belvedere) foi construído pelo Príncipe Eugênio de Saboia entre 1714 e 1721 como palácio de verão de representação — o lugar onde ele recebia dignitários, exibia sua coleção de arte e demonstrava o poder que conquistara em décadas de campanhas militares vitoriosas contra os otomanos e a França. O Príncipe Eugênio, que chegou a Viena como refugiado francês renegado e tornou-se o general mais celebrado do Império, nunca teve filhos; ao morrer sem herdeiros, sua coleção passou para os Habsburgo.\n\nHoje o Belvedere Superior abriga a maior coleção de Gustav Klimt do mundo — incluindo O Beijo (Der Kuss, 1907–1908), considerado o símbolo visual do Art Nouveau e da Secessão vienense. O quadro, de 180 × 180 cm, representa um casal em abraço entre flores douradas e ornamentos ouro — o estilo que Klimt desenvolveu após seu trabalho nas paredes do KHM, agora completamente liberto da academia. É a pintura mais reproduzida da Áustria e uma das mais reproduzidas do mundo.\n\nA coleção inclui também obras de Egon Schiele (o \u0027Die tote Stadt\u0027 que viram mencionado em Český Krumlov agora está no Leopold Museum, mas Schiele está bem representado aqui) e os simbolistas austríacos do final do século XIX. O Belvedere foi também o local de um evento histórico: em 15 de maio de 1955, o Tratado de Estado austríaco (Staatsvertrag) foi assinado aqui pelos ministros dos Aliados e da Áustria, encerrando a ocupação do país e restaurando sua soberania. O ministro austríaco Leopold Figl exibiu o tratado da janela do palácio para a multidão abaixo: \u0027Österreich ist frei!\u0027 (A Áustria está livre!) — uma das frases mais emocionantes da história austríaca pós-guerra.\n\nOs jardins barrocos entre o Belvedere Superior e o Belvedere Inferior são um dos melhores exemplos do estilo formal austríaco do início do século XVIII, com piscinas espelhadas que refletem a fachada do palácio ao entardecer.","immersiveMode":false,"immersiveText":null,"observationPoints":["O Beijo de Klimt (sala I): a tela de 180 × 180 cm com os ornamentos dourados — observe os detalhes dos padrões florais diferentes na roupa dele e dela","Jardins barrocos: a piscina espelhada entre os dois palácios refletindo a fachada do Belvedere Superior ao final da tarde","Galeria de Schiele (salas adjacentes): os auto-retratos de traço anguloso comparados aos Klimt — a evolução da Secessão para o Expressionismo em poucos metros"],"suggestedExperience":"Comprem ingressos online em belvedere.at para evitar filas (O Beijo é o quadro mais visitado da Áustria). Dediquem 30 min só ao Beijo e à sala de Klimt antes de explorar o resto. Depois saiam para os jardins: a piscina espelhada com o palácio refletido ao entardecer é um dos ambientes mais românticos de Viena. Jantem no bairro do Belvedere (3º distrito) antes de voltar ao hotel.","searchSuggestions":["Belvedere Superior Wien O Beijo Klimt ingresso belvedere.at","Gustav Klimt Secessão vienense história","Tratado de Estado Austria 1955 Belvedere","Príncipe Eugênio de Saboia história militar","Egon Schiele Belvedere coleção Viena"],"visitType":"indoor+outdoor","entryFee":"~€16. Online: belvedere.at","schedule":{"monday":"09:00–18:00","tuesday":"09:00–18:00","wednesday":"09:00–21:00","thursday":"09:00–18:00","friday":"09:00–18:00","saturday":"09:00–18:00","sunday":"09:00–18:00"},"estimatedVisitMinutes":120,"externalViewingAlways":true,"proximityRadiusMeters":80,"media":{"audio":"/media/routes/viena/audio/oberes-belvedere.mp3","photos":[{"src":"/media/routes/viena/photos/oberes-belvedere/main.jpg","caption":"Belvedere Superior","type":"recognition"}],"subAttractions":[{"id":"kuss-klimt","name":"O Beijo de Klimt","image":"/media/routes/viena/sub-attractions/oberes-belvedere/kuss-klimt.jpg","caption":"Der Kuss (1907–1908): o símbolo visual do Art Nouveau e a pintura mais reproduzida da Áustria","imageFit":"contain","reel":{"audioMood":"classical","segments":[{"text":"O Beijo de Gustav Klimt (Der Kuss, 1907–1908) tem 180 × 180 cm — quase quadrado, quase um abraço. O casal ajoelhado sobre uma colina florida, envolto numa manta dourada, parece existir fora do tempo e do espaço: não há fundo definido, apenas o dourado que Klimt aprendeu nas iconografias bizântinas e nos ícones de ouro russos.","duration":22,"focusZone":"full"},{"text":"Observe os padrões na roupa de cada um: na roupa dele, retângulos negros, brancos e coloridos — formas geométricas, masculinas, angulosas. Na dela, círculos e flores — formas orgânicas, femininas, suaves. É um comentário visual sobre a diferença e a complementaridade dos gêneros que Klimt desenvolveu ao longo de toda a sua fase dourada.","duration":24,"focusZone":"detail"},{"text":"Klimt pintou O Beijo no mesmo período em que trabalhava nos afrescos do Palácio Stoclet em Bruxelas — obras que nunca são mostradas ao público. O Beijo foi comprado pelo Estado Austro-Húngaro em 1908 por um preço então recorde. Hoje, se fosse a leilão, seria o quadro mais caro já vendido. O Estado austríaco recusou todas as ofertas de compra, incluindo propostas de bilhões de dólares após a Segunda Guerra.","duration":22,"focusZone":"center"}]}}],"thumb":"/media/routes/viena/photos/oberes-belvedere/thumb.jpg"},"walkingNotes":"Do Belvedere ao Stephansdom (Dia 3): tram D ou 71 do Belvedere até o Ring, depois caminhada pela Kärntnerstraße até a Praça de São Estêvão — 25 min total.","nextTransport":"walking","nextTransportMinutes":25,"tags":["arte","Klimt","Secessão","barroco","jardins","O Beijo"]},{"id":"stephansdom","dayId":"dia-3","order":1,"name":"Catedral de Santo Estêvão","lat":48.2087,"lng":16.3732,"address":"Stephansplatz 3, 1010 Wien","historicalPeriod":"medieval","yearBuilt":"1137","architecturalStyle":"Gótico tardio","significance":"A catedral mais importante da Áustria; símbolo de Viena; telhado de azulejos em losango; cripta com restos dos Habsburgo","description":"A Catedral de Santo Estêvão (Stephansdom) é o símbolo mais reconhecível de Viena e um dos exemplos mais extraordinários do gótico tardio da Europa Central. Sua Torre Sul (Südturm), com 136 metros, dominou o horizonte de Viena por séculos — até 1914, era a terceira torre mais alta do mundo. O telhado de azulejos em losango policromáticos, formando os brasões da Áustria e de Viena, é o elemento visual mais icônico da catedral e da cidade.\n\nA história do local começa em 1137, com uma pequena Romaneische Basilica. A estrutura gótica atual foi construída em etapas entre 1304 e 1433, sob os duques habsburgos. O interior guarda séculos de história habsburga: o túmulo elaborado de Frederico III (a maior escultura sepulcral gótica da Áustria), a Canção Funebre de Príncipes (Herzgruft) onde os corações dos Habsburgo são guardados separadamente dos corpos, e as catacumbas subterrâneas com os ossos de 11.000 vienenses da época da Peste Negra.\n\nA catedral foi gravemente danificada nos últimos dias da Segunda Guerra (incêndio de 12 de abril de 1945) e os azulejos do telhado destruídos. A reconstrução, financiada por doações de cada estado austríaco para uma seção do telhado, levou 7 anos — e gerou uma das histórias mais belas do pós-guerra: os habitantes de Viena voluntariamente doaram ouro, prata e obras de arte pessoais para financiar a reconstrução.\n\nDo topo da Torre Norte (acessível por elevador) ou da Torre Sul (343 degraus a pé), a vista de Viena ao nível do século XV — antes de qualquer arranha-céu — é uma das mais memoráveis da cidade.","immersiveMode":false,"immersiveText":null,"observationPoints":["Telhado de azulejos em losango: melhor visto da varanda da Torre Norte (elevador) — observe os brasões da Áustria (listras vermelhas e brancas) e de Viena (o homem com escudo branco e vermelho)","Catacumbas (tour guiado obrigatório): os ossos de 11.000 vienenses da Peste Negra e as urnas com as vísceras dos Habsburgo — uma experiência macabra mas historicamente fascinante","Túmulo de Frederico III (interior): a maior escultura sepulcral gótica da Áustria, com animais fantásticos esculpidos no mármore vermelho"],"suggestedExperience":"Entrem na catedral às 9h (abertura) para o silêncio da manhã antes das missas e dos turistas. Façam o tour das Catacumbas (~€6, 30 min, guia obrigatório) — a experiência dos ossos da Peste é única. Subam à Torre Norte de elevador (a Torre Sul é fechada ao público desde 2022 por restauração) para o panorama de Viena. Caminhem depois ao Hofburg pela Graben e a Kohlmarkt — as duas ruas de luxo mais belas de Viena.","searchSuggestions":["Stephansdom catedral Viena catacombas tour","torre norte Stephansdom panorama elevador","telhado azulejos losango Stephansdom brasões história","Frederico III túmulo Stephansdom gótico"],"visitType":"indoor+outdoor","entryFee":"Interior: ~€6 (donativo). Catacumbas (tour): ~€6. Torre Norte (elevador): ~€6","schedule":{"monday":"06:00–22:00 (catedral). Tours catacumbas: 10:00–17:00","tuesday":"06:00–22:00","wednesday":"06:00–22:00","thursday":"06:00–22:00","friday":"06:00–22:00","saturday":"06:00–22:00","sunday":"07:00–22:00 (horário de missas matinais)"},"estimatedVisitMinutes":90,"externalViewingAlways":true,"proximityRadiusMeters":70,"media":{"audio":"/media/routes/viena/audio/stephansdom.mp3","photos":[{"src":"/media/routes/viena/photos/stephansdom/main.jpg","caption":"Catedral de Santo Estêvão","type":"recognition"}],"subAttractions":[{"id":"telhado-losango-stephansdom","name":"Telhado de Azulejos em Losango","image":"/media/routes/viena/sub-attractions/stephansdom/telhado-losango-stephansdom.jpg","caption":"Os 230.000 azulejos esmaltados em losango formando os brasões da Áustria e de Viena — reconstruídos em 1952","reel":{"audioMood":"medieval","segments":[{"text":"O telhado da Catedral de Santo Estêvão é revestido por 230.000 azulejos esmaltados em padrão de losango — verde, amarelo, branco e preto — que formam dois brasões: o da Áustria (listras vermelhas e brancas) e o de Viena (o homem com escudo bicolor). É um dos telhados mais fotografados da Europa e o símbolo visual de Viena por excelência.","duration":22,"focusZone":"full"},{"text":"Em 12 de abril de 1945, um incêndio que começou nos edifícios ao redor da catedral atingiu o telhado: os azulejos explodiram com o calor, a madeira ardeu e o telhado colapsou. A cidade estava em chamas; os bombardeios tinham cessado havia dias. Os vienenses que assistiram à queda do telhado da Stephansdom disseram que foi o momento em que perceberam que a guerra havia terminado — de um modo ou de outro.","duration":24,"focusZone":"detail"},{"text":"A reconstrução do telhado durou de 1945 a 1952. Cada um dos 9 estados austríacos financiou uma seção do telhado — uma reconstrução literalmente federal, azulejo por azulejo, como metáfora da reconstrução do país inteiro. Os vienenses doaram joias e obras de arte pessoais para o fundo de reconstrução. O telhado que vocês veem hoje é obra de um povo que decidiu refazer sua catedral como refazeria a si mesmo.","duration":22,"focusZone":"center"}]}}],"thumb":"/media/routes/viena/photos/stephansdom/thumb.jpg"},"walkingNotes":"Da Stephansdom ao Hofburg: 8 min a pé pela Kohlmarkt — a mais elegante rua de Viena, ladeada de cafés históricos (Café Demel, Confiserie Gerstner) e joalherias. Não passem sem entrar no Demel para um Apfelstrudel.","nextTransport":"walking","nextTransportMinutes":8,"tags":["catedral","gótico","telhado","catacombas","Habsburgo","símbolo"]},{"id":"hofburg-sisi","dayId":"dia-3","order":2,"name":"Hofburg e Museu de Sisi","lat":48.2060,"lng":16.3642,"address":"Michaelerkuppel, 1010 Wien","historicalPeriod":"imperial","yearBuilt":"1279","architecturalStyle":"Gótico / Renascentista / Barroco / Neoclássico","significance":"Palácio imperial por 700 anos; Museu de Sisi; Schatzkammer com a Coroa do Sacro Império; Biblioteca Nacional","description":"O Hofburg é o palácio imperial mais estendido do mundo — não um edifício, mas um complexo de 19 construções, 54 escadarias, 19 pátios e 2.600 salas construídas ao longo de 700 anos de história habsburga. Nenhum monarca conseguiu \u0027terminar\u0027 o Hofburg: cada geração acrescentou um ala, um pátio ou uma cúpula. O resultado é um organismo arquitetônico que não tem começo nem fim — e que reflete com perfeita fidelidade o modo como o Império Habsburgo cresceu: absorvendo territórios, tradições e estilos sem nunca se tornar homogêneo.\n\nOs três conjuntos mais visitados são os Kaiserapartements (apartamentos imperiais de Francisco José I e da Imperatriz Sisi), o Museu de Sisi e a Schatzkammer (câmara do tesouro imperial). Os apartamentos de Sisi revelam uma mulher que era radicalmente diferente do que os retratos oficiais sugerem: a Imperatriz Elisabeth (1837–1898) era obsessiva com sua aparência (pesava 50 kg aos 50 anos, media o peso todos os dias), falava húngaro fluentemente por amor à Hungria, viajava compulsivamente para escapar das obrigações da corte, praticava hipismo e esgrima, escrevia poesia niilista inspirada em Heine e, eventualmente, foi assassinada a punhalada em Genebra por um anarquista italiano que escolheu a imperatriz como vítima simplesmente por ser a figura mais importante que passava na rua.\n\nA Schatzkammer, no lado oposto do Hofburg, guarda a Coroa do Sacro Império Romano Germânico — a mais poderosa insígnia de poder da Idade Média europeia, usada nas coroações de Carlos Magno em diante. Também contém o Manto de Coroação dos Stufen (século XII), a Lança Sagrada (que se diz ter tocado o costado de Cristo), e o dente de um unicórnio (na realidade, um corno de narval) que os Habsburgo acreditavam proteger contra envenenamento.\n\nA Biblioteca Nacional Austríaca (Prunksaal), a 5 min a pé no mesmo complexo, tem um dos interiores barrocos mais espetaculares do mundo — a sala oval de 80 metros de comprimento com estantes de carvalho do chão ao teto e um afresco de Carlo Carlone no teto. Entrada ~€10.","immersiveMode":false,"immersiveText":null,"observationPoints":["Apartamentos de Sisi (1º andar): o quarto de ginástica particular da Imperatriz — uma novidade radical para 1870, quando mulheres nobres não se exercitavam — com seus aparelhos originais de musculação","Schatzkammer: a Coroa do Sacro Império Romano Germânico — observe a coroa octogonal de cerca do ano 960, decorada com esmaltes de Constantinopla","Biblioteca Nacional (Prunksaal): o afresco de Carlone no teto com Carlos VI em apoteose — melhor visto do centro da sala com pescoço inclinado por vários minutos"],"suggestedExperience":"Comprem o bilhete combinado Sisi Ticket (Kaiserapartements + Museu de Sisi + Móveis Imperiais) em sisi-museum.at — mais económico que ingressos separados. Comecem pelos apartamentos de Sisi (90 min), depois a Schatzkammer (60 min). Se sobrar tempo antes do jantar de despedida, entrem na Biblioteca Nacional — o Prunksaal é uma das salas de leitura mais belas do mundo.","searchSuggestions":["Hofburg Wien Sisi Ticket ingressos sisi-museum.at","Imperatriz Sisi Elisabeth história real mito","Schatzkammer Viena Coroa Sacro Império Romano","Biblioteca Nacional Prunksaal Viena horário","voo Viena Madri 21 junho companhias aéreas"],"visitType":"indoor","entryFee":"Sisi Ticket (Kaiserapartements + Museu Sisi + Móveis Imperiais): ~€38. Schatzkammer: ~€16. Prunksaal: ~€10","schedule":{"monday":"09:00–17:30 (Sisi e Schatzkammer)","tuesday":"09:00–17:30","wednesday":"09:00–17:30","thursday":"09:00–17:30","friday":"09:00–17:30","saturday":"09:00–17:30","sunday":"09:00–17:30"},"estimatedVisitMinutes":150,"externalViewingAlways":true,"proximityRadiusMeters":80,"media":{"audio":"/media/routes/viena/audio/hofburg-sisi.mp3","photos":[{"src":"/media/routes/viena/photos/hofburg-sisi/main.jpg","caption":"Hofburg e Museu de Sisi","type":"recognition"}],"subAttractions":[{"id":"kaiserappartements-sisi","name":"Apartamentos de Sisi","image":"/media/routes/viena/sub-attractions/hofburg-sisi/kaiserappartements-sisi.jpg","caption":"Os aposentos da Imperatriz Elisabeth — a academia de ginástica, os espelhos de corpo inteiro, a obsessão com o peso","reel":{"audioMood":"classical","segments":[{"text":"A Imperatriz Elisabeth da Áustria (Sisi, 1837–1898) era radicalmente diferente do que os retratos oficiais sugerem. Pesava 50 kg aos 50 anos, com 1,72m de altura — e se pesava todos os dias. Nos seus apartamentos do Hofburg há uma academia de ginástica com aparelhos originais de 1870: anéis, barras e pesos que a imperatriz usava diariamente, numa época em que isso era excêntrico ao limite do escandaloso para uma mulher nobre.","duration":24,"focusZone":"full"},{"text":"Sisi aprendeu húngaro fluentemente — um esforço enorme que encantou a Hungria e irritou a corte vienense. Quando o Compromisso austro-húngaro foi negociado em 1867, Sisi foi instrumental em persuadir Francisco José a aceitar os termos húngaros. Os húngaros ainda a adoram; em Budapeste, há estátuas em sua homenagem que excedem em número as de qualquer outro monarca não-húngaro.","duration":22,"focusZone":"center"},{"text":"Em 10 de setembro de 1898, a Imperatriz Elisabeth foi assassinada em Genebra por Luigi Lucheni, um anarquista italiano que escolheu a vítima mais importante que passou na rua. O punhal de lima entrou entre suas costelas; ela morreu minutos depois sem saber que havia sido atingida. Tinha 60 anos. Deixou um diário poético em que escreveu: \u0027Livre sou só quando não sou eu mesma.\u0027 Viena nunca a entendeu em vida; mitificou-a na morte.","duration":24,"focusZone":"detail"}]}},{"id":"schatzkammer-coroa","name":"Schatzkammer — Coroa do Sacro Império","image":"/media/routes/viena/sub-attractions/hofburg-sisi/schatzkammer-coroa.jpg","caption":"A Coroa Imperial do Sacro Império Romano Germânico — a insígnia de poder mais antiga da Europa Ocidental","imageFit":"contain","reel":{"audioMood":"medieval","segments":[{"text":"A Coroa do Sacro Império Romano Germânico — guardada aqui na Schatzkammer — é datada de cerca de 960 e é a insígnia de poder mais antiga da Europa Ocidental em uso contínuo. Sua forma octogonal (8 lados = 8 Beatitudes do Sermão da Montanha) é decorada com esmaltes de Constantinopla e placas de ouro cravadas de pedras preciosas. Foi usada na coroação de dezenas de imperadores.","duration":24,"focusZone":"full"},{"text":"Em 1806, Napoleão dissolveu o Sacro Império Romano Germânico — o que o próprio Voltaire chamava de \u0027nem sagrado, nem romano, nem um império\u0027. Francisco II guardou a coroa em Viena e nunca mais a usou. Napoleão, que queria a coroa, nunca a obteve. A coroa permanece aqui como relíquia de uma instituição que durou 1006 anos (800–1806) e moldou a Europa que vocês percorreram nesta viagem.","duration":22,"focusZone":"detail"},{"text":"A Schatzkammer também guarda a Lança Sagrada — a lança que supostamente tocou o costado de Cristo na Crucificação. Seja autêntica ou não, sua importância simbólica foi real por séculos: Carlos Magno a carregava em batalha; Frederico Barbarossa morreu sem ela e afogou-se num rio; Napoleão tentou roubá-la. Hitler a obteve em 1938 após o Anschluss. Os americanos a encontraram em Nuremberg em 1945 e a devolveram para Viena.","duration":22,"focusZone":"center"}]}}],"thumb":"/media/routes/viena/photos/hofburg-sisi/thumb.jpg"},"walkingNotes":"Último ponto de Viena antes da partida para Madri amanhã (21/06). Para o aeroporto de Viena (VIE): CAT Train (City Airport Train) da estação Wien Mitte/Landstraße → VIE em 16 min, sai a cada 30 min (~€12 simples). Para voo de manhã às 9-10h: CAT às 7h30–8h. Voos Viena→Madri: Austrian, Iberia, Vueling, Ryanair — duração ~3h. Para chegada em Madri ao meio-dia de 21/06: procure voos das 8h30–9h30.","nextTransport":null,"nextTransportMinutes":0,"tags":["palácio","Sisi","imperial","tesouro","Habsburgo","história"]}],"segments":[{"from":"ringstrasse-staatsoper","to":"kunsthistorisches-museum","transport":"walking","minutes":8,"notes":"Pelo Burgring até a Maria-Theresien-Platz — o museu fica do lado esquerdo da praça simétrica"},{"from":"schonbrunn","to":"oberes-belvedere","transport":"subway","minutes":35,"notes":"U4 até Landstraße/Wien Mitte, depois tram 71 ou 18 até Schloss Belvedere"},{"from":"stephansdom","to":"hofburg-sisi","transport":"walking","minutes":8,"notes":"Pela Kohlmarkt — a rua de luxo mais elegante de Viena, com o Café Demel para um Apfelstrudel no caminho"}]}
+{
+  "id": "viena-2026",
+  "title": "Viena",
+  "subtitle": "A capital eterna dos Habsburgo",
+  "tripDates": {
+    "start": "2026-06-18",
+    "end": "2026-06-20"
+  },
+  "baseCity": "Viena",
+  "baseCityCoords": {
+    "lat": 48.2082,
+    "lng": 16.3738
+  },
+  "historicalPeriods": [
+    {
+      "id": "medieval",
+      "label": "Habsburgo Medieval (séc. XIII–XVI)",
+      "color": "#8B6914"
+    },
+    {
+      "id": "baroque",
+      "label": "Barroco Imperial (séc. XVII–XVIII)",
+      "color": "#7B1FA2"
+    },
+    {
+      "id": "imperial",
+      "label": "Monarquia Dual (1815–1918)",
+      "color": "#1A237E"
+    },
+    {
+      "id": "modern",
+      "label": "Secessão e Modernidade (1897–atual)",
+      "color": "#C62828"
+    }
+  ],
+  "days": [
+    {
+      "id": "dia-1",
+      "order": 1,
+      "date": "2026-06-18",
+      "weekday": "Qui",
+      "title": "Ring, Naschmarkt e os Museus Imperiais",
+      "subtitle": "Naschmarkt · Karlskirche · Ringstrasse · Kunsthistorisches Museum",
+      "theme": "Do mercado ao ar livre aos palácios imperiais — Viena em todas as suas dimensões",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "09:00",
+      "estimatedEndTime": "18:30",
+      "primaryColor": "#1A237E",
+      "coverEmoji": "🎭",
+      "intro": "O primeiro dia em Viena começa no Naschmarkt — o maior mercado ao ar livre da cidade, com 120 bancas de especiarias e queijos nos pavilhões Art Nouveau de Otto Wagner. A seguir, a Karlskirche barroca na Karlsplatz (cúpula de 72 metros, colunas espirais em baixo-relevo) antes da Ringstrasse: o boulevard de 5 km que Francisco José I criou demolindo as muralhas medievais em 1857, com Parlamento neogrego, Rathaus neogótico e Votivkirche. A tarde no Kunsthistorisches Museum — a maior coleção de Bruegel e Velázquez do mundo — fecha o dia com a arte dos Habsburgo.",
+      "poiIds": [
+        "naschmarkt",
+        "karlskirche",
+        "ringstrasse-staatsoper",
+        "kunsthistorisches-museum"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-2",
+      "order": 2,
+      "date": "2026-06-19",
+      "weekday": "Sex",
+      "title": "Palácios, Parques e Hundertwasser",
+      "subtitle": "Schönbrunn · Stadtpark · Belvedere · Hundertwasserhaus",
+      "theme": "Do barroco imperial ao expressionismo orgânico — dois séculos de utopia arquitetônica",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "09:00",
+      "estimatedEndTime": "20:00",
+      "primaryColor": "#7B1FA2",
+      "coverEmoji": "🌿",
+      "intro": "O segundo dia combina os dois grandes palácios barrocos com uma tarde de parques e arte. Schönbrunn de manhã — o Versailles habsburgo com 45 salas de aparato e os jardins da Glorieta. Após a pausa no Stadtpark com a estátua dourada de Strauss, o Belvedere Superior guarda O Beijo de Klimt e a maior coleção de Expressionismo austríaco. O encerramento é o Hundertwasserhaus: o prédio residencial mais fotografado da Áustria, onde Friedensreich Hundertwasser declarou guerra à linha reta com azulejos coloridos e árvores crescendo pelas janelas.",
+      "poiIds": [
+        "schonbrunn",
+        "stadtpark",
+        "oberes-belvedere",
+        "hundertwasserhaus"
+      ],
+      "logistics": null
+    },
+    {
+      "id": "dia-3",
+      "order": 3,
+      "date": "2026-06-20",
+      "weekday": "Sáb",
+      "title": "Centro Histórico, Hofburg e Prater",
+      "subtitle": "Stephansdom · Graben · Hofburg · Riesenrad",
+      "theme": "O coração espiritual de Viena, o palácio dos Habsburgo e a roda gigante de Orson Welles",
+      "dayType": "urban",
+      "energyLevel": "moderate",
+      "startTime": "09:00",
+      "estimatedEndTime": "20:00",
+      "primaryColor": "#8B6914",
+      "coverEmoji": "⛪",
+      "intro": "O último dia em Viena começa na Stephansdom — catedral gótica com 800 anos de história e o telhado de azulejos mais famoso da Europa. O passeio pelo centro histórico percorre a Kärntner Straße, a Coluna da Peste no Graben, o apartamento de Mozart na Domgasse (onde escreveu As Bodas de Fígaro) e a Michaelerplatz com ruínas romanas expostas sob vidro — porta de entrada ao Hofburg. A tarde no complexo imperial (Museu de Sisi, Schatzkammer com a Coroa do Sacro Império). O encerramento é no Prater: a roda gigante de 1897 que Orson Welles imortalizou n'O Terceiro Homem.",
+      "poiIds": [
+        "stephansdom",
+        "graben-kohlmarkt",
+        "hofburg-sisi",
+        "prater-riesenrad"
+      ],
+      "logistics": null
+    }
+  ],
+  "pois": [
+    {
+      "id": "naschmarkt",
+      "dayId": "dia-1",
+      "order": 1,
+      "name": "Naschmarkt",
+      "lat": 48.1993,
+      "lng": 16.3668,
+      "address": "Naschmarkt, 1060 Wien",
+      "historicalPeriod": "modern",
+      "yearBuilt": "~1780 (mercado formal desde 1905)",
+      "architecturalStyle": "Art Nouveau — pavilhões de Otto Wagner (1898–1916)",
+      "significance": "O maior e mais famoso mercado ao ar livre de Viena, com 120 bancas de especiarias, queijos, peixes, carnes e culinária internacional",
+      "description": "O Naschmarkt é o maior mercado ao ar livre de Viena e um dos mais antigos da Europa Central. Seu nome vem provavelmente do latim 'Asche' (cinzas) ou do antigo dialeto vienense para 'leite', pois no século XVIII era o mercado de leite e manteiga da cidade. As bancas atuais em ferro e vidro foram projetadas por Otto Wagner no estilo Secessão Vienense entre 1898 e 1916, e os pavilhões são obras de arte por si mesmos.\n\nCom 120 bancas permanentes distribuídas por 1,5 km, o Naschmarkt reúne: especiarias do Oriente Médio e da Índia (páprica húngara, za'atar, açafrão iraniano), queijos austríacos e italianos, azeitonas mediterrâneas, peixes e frutos do mar, Würstel (salsichas), frutas exóticas e pão artesanal. Muitos vendedores oferecem degustação gratuita — aceite sem cerimônia.\n\nOs sábados são os mais especiais: o mercado de pulgas (Flohmarkt) ocupa a extremidade leste com antiguidades, livros e curiosidades a partir das 06:30. Para o café da manhã, o Kaiser Franz Josef Markt (numeroso restaurante no pavilhão central) é referência. Para o viajante que chega de Budapeste, a seção de gastronomia húngara e balcânica vai parecer familiar e confortável.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Pavilhão central de Otto Wagner: as colunas em ferro fundido com ornamentos florais da Secessão — arquitetura industrial elevada à arte",
+        "Bancas de especiarias na seção leste: ristras de páprica, açafrão em fios e lojas de produtos húngaros e austríacos",
+        "Seção de queijos austríacos: o Bergkäse (queijo de montanha) e o Graukäse (queijo cinza, típico do Tirol) — provar antes de comprar é o protocolo esperado"
+      ],
+      "suggestedExperience": "Chegue às 9h quando as bancas ainda estão arrumando os produtos frescos e o mercado está menos cheio. Passeie sem pressa — os vendedores oferecem degustar de tudo. Para o café da manhã, escolha um dos cafés nos pavilhões interiores com Melange (café com leite vienense) e Kipferl (croissant austríaco). Sábado é o dia especial: o Flohmarkt de pulgas na extremidade leste começa às 06:30 com antiguidades e raridades.",
+      "searchSuggestions": [
+        "Naschmarkt Vienna horário funcionamento",
+        "Naschmarkt Wien sábado Flohmarkt mercado de pulgas",
+        "melhores bancas Naschmarkt especialidades austríacas",
+        "Naschmarkt café da manhã vienense recomendação"
+      ],
+      "visitType": "outdoor",
+      "entryFee": "Gratuito",
+      "schedule": {
+        "monday": "06:00–19:30",
+        "tuesday": "06:00–19:30",
+        "wednesday": "06:00–19:30",
+        "thursday": "06:00–19:30",
+        "friday": "06:00–19:30",
+        "saturday": "06:00–17:00 (Flohmarkt a partir das 06:30)",
+        "sunday": "Fechado"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/viena/audio/naschmarkt.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/naschmarkt/main.jpg",
+            "caption": "Naschmarkt — o maior mercado ao ar livre de Viena com pavilhões Art Nouveau de Otto Wagner",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "naschmarkt-especiarias",
+            "name": "Bancas de Especiarias e Otto Wagner",
+            "image": "/media/routes/viena/sub-attractions/naschmarkt/naschmarkt-especiarias.jpg",
+            "caption": "Especiarias do Oriente Médio e pavilhões em ferro e vidro da Secessão Vienense (1898–1916)",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Naschmarkt tem 120 bancas permanentes ao longo de 1,5 km, com especiarias, queijos, peixes e culinária de toda a Europa e do Oriente Médio. Os pavilhões em ferro e vidro foram projetados por Otto Wagner entre 1898 e 1916 no estilo da Secessão Vienense — arquitetura industrial elevada à arte.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Os sábados são especiais: o Flohmarkt de antiguidades ocupa a extremidade leste a partir das 06:30, com livros, discos de vinil, jóias e peças de arte. É o mercado mais democrático de Viena — frequentado por cozinheiros de restaurantes estrelados, estudantes e turistas da mesma forma.",
+                  "duration": 20,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/naschmarkt/thumb.jpg"
+      },
+      "walkingNotes": "Do Naschmarkt à Karlskirche: 3 min a pé pela Wienzeile/Rechte Wienzeile em direção leste até a Karlsplatz. A cúpula barroca da Karlskirche já é visível da saída leste do mercado — a maior cúpula de Viena orienta o caminho.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 3,
+      "tags": [
+        "mercado",
+        "gastronomia",
+        "Art Nouveau",
+        "Otto Wagner",
+        "especiarias",
+        "sábado"
+      ]
+    },
+    {
+      "id": "karlskirche",
+      "dayId": "dia-1",
+      "order": 2,
+      "name": "Karlskirche",
+      "lat": 48.1976,
+      "lng": 16.3697,
+      "address": "Karlsplatz, 1040 Wien",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1716–1737",
+      "architecturalStyle": "Barroco imperial (Johann Bernhard Fischer von Erlach e filho)",
+      "significance": "A obra-prima do barroco vienense: cúpula de 72 metros com frescos de Rottmayr e duas colunas espirais inspiradas na Coluna de Trajano em Roma",
+      "description": "A Karlskirche (Igreja de São Carlos Borromeu) foi mandada construir pelo Imperador Carlos VI em 1713, como voto pela cessação da epidemia de peste que matou um terço da população de Viena. O projeto de Johann Bernhard Fischer von Erlach venceu um concurso aberto ao maior talento da Europa — e o resultado é uma síntese única de barroco romano, influências clássicas gregas e grandiosidade imperial austríaca.\n\nSeus dois elementos mais extraordinários são as colunas monumentais que flanqueiam a fachada principal: inspiradas diretamente na Coluna de Trajano em Roma (113 d.C.), cada uma tem 33 metros de altura e está coberta de espirais em baixo-relevo que narram a vida de São Carlos Borromeu, como um livro de pedra que se lê em espiral de baixo para cima. As colunas também simbolizam as Colunas de Hércules — afirmando que o Império Habsburgo era o herdeiro legítimo de Roma e do mundo clássico.\n\nA cúpula de 72 metros abriga os frescos de Johann Michael Rottmayr (1725–1730): a apoteose de São Carlos Borromeu, com figuras em movimento dramático e uma paleta de cores que antecipa o rococó. Um elevador panorâmico no interior da nave permite subir até a cúpula para ver os frescos de perto (a 40 metros do chão) e ter uma das melhores vistas de Viena. O espelho d'água na Karlsplatz, projetado por Isamu Noguchi em 1988, reflete a fachada e cria as composições fotográficas mais famosas da cidade.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Colunas espirais da fachada: os baixos-relevos narram a vida de São Carlos Borromeu em espiral — leia de baixo para cima, da esquerda para a direita",
+        "Cúpula interior (elevador panorâmico): os frescos de Rottmayr a 40 metros — a apoteose barroca mais impressionante da Áustria",
+        "Espelho d'água da Karlsplatz: reflexo da fachada barroca na água estagnada — melhor fotografia ao início da manhã com a luz diagonal"
+      ],
+      "suggestedExperience": "Entre logo ao abrir (9h) quando está mais tranquilo. O elevador panorâmico (incluso no ingresso) leva à plataforma dentro da cúpula, onde é possível ver os frescos de perto e olhar pela janela para toda Viena — experiência única. Reserve ~15 min para fotografar o exterior e as colunas, ~30 min para o interior e o elevador.",
+      "searchSuggestions": [
+        "Karlskirche Wien ingresso elevador cúpula",
+        "Karlskirche frescos Rottmayr interior",
+        "Karlskirche Fischer von Erlach arquitetura barroca",
+        "Karlsplatz espelho d'água foto reflexo"
+      ],
+      "visitType": "indoor+outdoor",
+      "entryFee": "~€8 (inclui elevador panorâmico até a cúpula)",
+      "schedule": {
+        "monday": "09:00–18:00",
+        "tuesday": "09:00–18:00",
+        "wednesday": "09:00–18:00",
+        "thursday": "09:00–18:00",
+        "friday": "09:00–18:00",
+        "saturday": "09:00–18:00",
+        "sunday": "12:00–19:00"
+      },
+      "estimatedVisitMinutes": 60,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/viena/audio/karlskirche.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/karlskirche/main.jpg",
+            "caption": "Karlskirche — fachada barroca com colunas espirais e o espelho d'água da Karlsplatz",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "karlskirche-colunas",
+            "name": "Colunas Espirais — o Livro de Pedra",
+            "image": "/media/routes/viena/sub-attractions/karlskirche/karlskirche-colunas.jpg",
+            "caption": "As colunas de 33 metros inspiradas na Coluna de Trajano: baixo-relevos que narram a vida de São Carlos Borromeu em espiral",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "As duas colunas monumentais da Karlskirche têm 33 metros de altura e são cobertas de espirais em baixo-relevo que narram a vida de São Carlos Borromeu — o arcebispo de Milão que cuidou dos doentes durante a peste de 1576 e deu nome à igreja. A narrativa começa na base e sobe em espiral até o topo, como um rolo de papiro em pedra.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "A inspiração direta é a Coluna de Trajano em Roma (113 d.C.), que narra as guerras dácias do Imperador. Fischer von Erlach transpôs essa linguagem para o barroco cristão — e inseriu nos capitéis das colunas a águia dos Habsburgo, transformando um símbolo religioso em manifesto imperial: o Imperador Carlos VI como herdeiro de Roma e protetor da fé.",
+                  "duration": 24,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "karlskirche-cupula",
+            "name": "Frescos da Cúpula — Rottmayr a 72 metros",
+            "image": "/media/routes/viena/sub-attractions/karlskirche/karlskirche-cupula.jpg",
+            "caption": "Os frescos de Johann Michael Rottmayr (1725–1730) na cúpula de 72 metros — visíveis de perto pelo elevador panorâmico",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "Johann Michael Rottmayr levou cinco anos (1725–1730) para pintar a apoteose de São Carlos Borromeu na cúpula de 72 metros. O elevador panorâmico leva até a plataforma a 40 metros do chão, onde é possível ver os rostos dos anjos a poucos metros de distância — uma perspectiva que no século XVIII era acessível apenas aos andaimes dos artistas.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/karlskirche/thumb.jpg"
+      },
+      "walkingNotes": "Da Karlskirche à Ringstrasse/Staatsoper: 8 min a pé pela Kärntner Ring em direção norte, seguindo o boulevard do Ring. A fachada da Ópera Estatal aparece ao fundo — é o começo da Ringstrasse.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 8,
+      "tags": [
+        "barroco",
+        "igreja",
+        "Fischer von Erlach",
+        "cúpula",
+        "colunas",
+        "peste",
+        "Carlos VI"
+      ]
+    },
+    {
+      "id": "ringstrasse-staatsoper",
+      "dayId": "dia-1",
+      "order": 3,
+      "name": "Ringstrasse e Ópera Estatal",
+      "lat": 48.203,
+      "lng": 16.3695,
+      "address": "Opernring 2, 1010 Wien",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1857",
+      "architecturalStyle": "Eclético (neogótico / neorenascentista / neogrego)",
+      "significance": "O maior projeto urbanístico do século XIX europeu; Ópera Estatal com 50 estreias de ópera por temporada",
+      "description": "A Ringstrasse é o boulevard circular de 5 km que Francisco José I criou em 1857 ao ordenar a demolição das muralhas medievais de Viena — uma das decisões urbanísticas mais corajosas e controversas do século XIX. Em seu lugar, o imperador mandou construir, ao longo de 30 anos, um conjunto de edifícios monumentais em estilos históricos distintos: o Rathaus em neogótico (por ser a sede do governo civil, como as catedrais medievais); o Parlamento em neogrego (para evocar a democracia ateniense); a Universidade em neorenascentista (por associação ao humanismo); a Ópera e os museus em neorenascentista. É um manual de arquitetura histórica ao ar livre.\n\nO Parlamento (Parlamentsgebäude), projetado por Theophil Hansen e construído entre 1874 e 1884, é um templo neoclássico grego com 154 metros de fachada — a Atena em bronze no topo do frontão tem 5,5 metros e segura uma lança. A Rathaus (Prefeitura), projetada por Friedrich von Schmidt em neogótico (1872–1883), é o edifício civil mais imponente da Ringstrasse, com 98 metros de torre central. Ao norte, a Votivkirche (1856–1879) em neogótico francês foi construída pelo arquiteto Heinrich Ferstel como voto de gratidão pelo fracasso do atentado contra Francisco José I em 1853 — é a mais alta e esbelta das igrejas do Ring.\n\nA Ópera Estatal de Viena (Wiener Staatsoper), inaugurada em 1869, é a casa de ópera com mais novas produções por temporada em todo o mundo — cerca de 50 estreias anuais. Dirigida por Gustav Mahler (1897–1907), Herbert von Karajan (1956–1964) e outros maestros legendários, é o padrão mundial de excelência operística. Os Stehplätze (bilhetes de pé, ~€5, vendidos 1h antes) tornam a Ópera acessível a qualquer viajante.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Parlamento (Hansen, 1884): a Atena de bronze de 5,5 metros no topo do frontão neogrego — o símbolo da democracia habsburga",
+        "Rathaus (Schmidt, 1883): a torre neogótica de 98 metros da Prefeitura, iluminada à noite e rodeada de jardins públicos",
+        "Votivkirche (Ferstel, 1879): as duas torres neogóticas de 99 metros vistas da Ringstrasse — perfeita para fotografia ao entardecer",
+        "Fachada da Staatsoper: as arcadas do foyer original em neorenascentista italiano; as estátuas de Drama e Ópera nos nichos laterais"
+      ],
+      "suggestedExperience": "Caminhem o Ring às 9h, quando o tráfego ainda é leve e os edifícios estão iluminados pela luz matinal. Façam o tour da Ópera (tours começam às 10h em inglês) antes de entrar no KHM. À noite, se houver espetáculo na temporada, pode valer a pena comprar ingressos de pé (Stehplätze, ~€5, vendidos 1h antes) — a Ópera de Viena tem os mais baratos bilhetes de pé do mundo para o mais famoso teatro de ópera do mundo.",
+      "searchSuggestions": [
+        "Wiener Staatsoper tour guiado horário preço",
+        "Ópera Viena bilhetes de pé Stehplätze",
+        "Ringstrasse história Francisco José I urbanismo",
+        "Gustav Mahler Ópera Viena diretor reformas"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Tour Ópera: ~€13. Stehplätze (bilhetes de pé para espetáculos): ~€5. Ring: gratuito",
+      "schedule": {
+        "monday": "Ring: sempre. Ópera tours: verificar wiener-staatsoper.at",
+        "tuesday": "Tours Ópera: geralmente 10:00–14:00",
+        "wednesday": "Tours Ópera: geralmente 10:00–14:00",
+        "thursday": "Tours Ópera: geralmente 10:00–14:00",
+        "friday": "Tours Ópera: geralmente 10:00–14:00",
+        "saturday": "Tours Ópera: geralmente 10:00–14:00",
+        "sunday": "Tours Ópera: geralmente 10:00–14:00"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/viena/audio/ringstrasse-staatsoper.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/ringstrasse-staatsoper/main.jpg",
+            "caption": "Ringstrasse e Ópera Estatal",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "staatsoper-interior",
+            "name": "Interior da Ópera Estatal",
+            "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/staatsoper-interior.jpg",
+            "caption": "O foyer de mármore de Carrara e a sala principal de 2.284 lugares — reconstruída em 1955 após o bombardeio de 1945",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Ópera Estatal de Viena foi inaugurada em 1869 com Don Giovanni de Mozart. É a casa de ópera com mais novas produções por temporada no mundo — cerca de 50 estreias anuais. Entre seus diretores: Gustav Mahler (1897–1907), que transformou o teatro ao proibir atrasos da plateia e exigir obras completas, sem cortes.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Em 12 de março de 1945, um bombardeio aliado destruiu o interior da Ópera — apenas a fachada e alguns camarotes sobreviveram. A reconstrução fiel ao original durou 10 anos. A reabertura em novembro de 1955, com Fidelio de Beethoven, coincidiu com a retirada das últimas tropas aliadas da Áustria — um dos momentos mais emocionantes da história austríaca do século XX.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Os Stehplätze — bilhetes de pé vendidos 1h antes do espetáculo, ~€5 — tornam a Ópera de Viena acessível a qualquer viajante. O piso de pé tem espaço para 567 pessoas em pé; a vista do palco é excelente do centro. É uma das mais democráticas experiências culturais da Europa: o preço de um café para o melhor teatro de ópera do mundo.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "parlamentsgebaeude",
+            "name": "Parlamento — Neogrego na Ringstrasse",
+            "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/parlamentsgebaeude.jpg",
+            "caption": "O Parlamento de Theophil Hansen (1884): a Atena de 5,5 metros e a fachada neogrega — democracia ateniense em pedra vienense",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "O Parlamento foi projetado por Theophil Hansen, arquiteto grego radicado em Viena, entre 1874 e 1884. Francisco José I escolheu o estilo neogrego para a sede legislativa porque queria evocar a democracia de Atenas — embora o próprio Imperador governasse de forma bastante autocrática e nunca tenha escondido seu desagrado com o parlamento.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A Atena em bronze no topo tem 5,5 metros de altura e segura uma lança e um escudo com a cabeça da Medusa. Os baixos-relevos da fachada representam as nações do Império Habsburgo. O edifício foi gravemente danificado na Segunda Guerra Mundial e reconstruído entre 1945 e 1956, com total renovação entre 2017 e 2023.",
+                  "duration": 20,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "rathaus-wien",
+            "name": "Rathaus — A Prefeitura Neogótica",
+            "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/rathaus-wien.jpg",
+            "caption": "A Prefeitura de Viena (1883) com sua torre central de 98 metros — o neogótico cívico mais imponente da Europa Central",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Rathaus foi projetada por Friedrich von Schmidt em estilo neogótico (1872–1883) — neogótico porque Francisco José I considerava que o governo municipal devia evocar as grandes prefeituras medievais das cidades livres europeias. Com 98 metros de torre central e uma fachada de 152 metros, é o edifício civil mais imponente do Ring.",
+                  "duration": 22,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          },
+          {
+            "id": "votivkirche",
+            "name": "Votivkirche — O Voto de Ferstel",
+            "image": "/media/routes/viena/sub-attractions/ringstrasse-staatsoper/votivkirche.jpg",
+            "caption": "A Votivkirche (1879): neogótico francês com torres de 99 metros — construída em gratidão pelo fracasso do atentado contra Francisco José I em 1853",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "Em 18 de fevereiro de 1853, o alfaiate Johann Libényi esfaqueou o jovem Imperador Francisco José I nas costas enquanto ele caminhava na Ringstrasse. A faca foi desviada pelo colarinho rígido do uniforme e o Imperador sobreviveu. Em gratidão, o irmão Fernando Maximiliano mandou construir uma igreja no local do atentado — a Votivkirche, projetada por Heinrich Ferstel em neogótico francês.",
+                  "duration": 26,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/ringstrasse-staatsoper/thumb.jpg"
+      },
+      "walkingNotes": "Da Ringstrasse ao Kunsthistorisches Museum: 5 min a pé pelo Burgring — siga em direção sul pela Ringstrasse e vire na Maria-Theresien-Platz; o museu fica no lado oeste da praça simétrica.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 5,
+      "tags": [
+        "ópera",
+        "ring",
+        "neorenascentista",
+        "música",
+        "imperial",
+        "urbanismo"
+      ]
+    },
+    {
+      "id": "kunsthistorisches-museum",
+      "dayId": "dia-1",
+      "order": 4,
+      "name": "Kunsthistorisches Museum",
+      "lat": 48.2036,
+      "lng": 16.3614,
+      "address": "Maria-Theresien-Platz, 1010 Wien",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1891",
+      "architecturalStyle": "Neorenascentista",
+      "significance": "Maior coleção de Bruegel do mundo (12 obras); maior coleção de Velázquez fora do Prado; coleção egípcia e greco-romana dos Habsburgo",
+      "description": "O Kunsthistorisches Museum (KHM) de Viena é um dos cinco maiores museus de arte do mundo e o maior museu de arte da Áustria — um palácio de coleta e exibição que Francisco José I construiu para consolidar o poder simbólico da Casa de Habsburgo através da arte. O edifício neorenascentista (1891), simétrico ao Naturhistorisches Museum do outro lado da praça, foi projetado por Gottfried Semper e Karl von Hasenauer como um templo de civilização: esculturas de artistas europeus coroam a fachada, e o interior — especialmente a escadaria central com afrescos de Klimt — é uma das obras de arte arquitetônicas mais impressionantes da Europa.\n\nA coleção reúne séculos de aquisições, heranças dinásticas e conquistas militares dos Habsburgo: pinturas das coleções de Filipe II de Espanha, dos archiduques tirólicos, dos Galerias Reais de Praga saqueadas pelos Suecos na Guerra dos Trinta Anos e recuperadas. O resultado é uma coleção de coerência histórica impossível de montar hoje.\n\nDestaques absolutos: a maior coleção de Pieter Bruegel, o Velho, do mundo (12 obras, incluindo A Torre de Babel e Os Caçadores na Neve); os retratos espanhóis de Velázquez da Infanta Margarida Teresa; A Arte da Pintura de Vermeer; retratos de Dürer, Raphael, Tiziano e Caravaggio. A coleção egípcia e as antiguidades greco-romanas dos andares inferiores são igualmente extraordinárias.\n\nUm detalhe que a maioria dos visitantes não conhece: na grande escadaria central, os medalhões nas paredes foram pintados por um jovem Gustav Klimt em 1891 — antes de ele desenvolver o estilo dourado que o tornou famoso. São trabalhos acadêmicos excepcionais que mostram o Klimt ainda dentro da tradição clássica.",
+      "immersiveMode": true,
+      "immersiveText": "Existe uma pintura no segundo andar do Kunsthistorisches Museum que para muitas pessoas muda a relação com a arte europeia para sempre. É A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563. O tamanho é modesto — 114 × 155 cm — mas o que Bruegel fez dentro desse retângulo desafia a física da atenção: quanto mais você olha, mais detalhes aparecem. Operários no andaime superior. Barcos no porto abaixo. O rei Nemrod inspecionando a construção. Andaimes de madeira em espiral. E a torre em si, já mais alta que as nuvens, absurda na sua ambição, destinada ao fracasso que o Gênesis prometeu.\n\nBruegel era o pintor mais importante dos Países Baixos do século XVI, e os Habsburgo dos Países Baixos — então a mesma família que governava a Espanha e o Sacro Império Romano — o colecionavam obsessivamente. Filipe II da Espanha tinha 16 Bruegels. Quando os Habsburgo espanhóis e austríacos dividiram o patrimônio, os quadros seguiram para Viena. É por isso que o maior acervo de Bruegel do mundo está aqui, numa cidade que nunca foi holandesa.\n\nA lógica das coleções habsburgas é essa: o poder estava em todo lugar, então a arte de todo lugar veio para Viena. Os retratos da Infanta Margarida Teresa por Velázquez — a menina de olhos fixos que Velázquez pintou cinco vezes entre 1653 e 1659, aos 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e veio para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático.\n\nA Arte da Pintura de Vermeer, talvez o quadro mais filosoficamente intrigante do século XVII, está aqui por acidente de história: Vermeer deixou-o inacabado, sua viúva o ofereceu como pagamento de dívidas, e ele circulou por coleções privadas até ser comprado pelos Habsburgo no século XIX. Hitler, que era austríaco e obsessivamente ligado à arte, tentou incorporá-lo ao museu que pretendia construir em Linz (o Führermuseum, que nunca foi concluído). A história da arte europeia é inseparável da história do poder europeu.\n\nO que pouca gente nota ao entrar no KHM é o teto da cúpula central: os medalhões nas paredes que ladeiam a grande escadaria foram pintados por Gustav Klimt em 1891, quando ele tinha 28 anos e ainda era um artista acadêmico convencional. São alegorias de períodos históricos da arte — Egito, Grécia, Roma — pintadas com precisão técnica extraordinária. Quatro anos depois, Klimt fundaria a Secessão vienense e nunca mais pintaria nada parecido com isso. A escadaria do KHM é, portanto, um local duplamente histórico: o último Klimt antes da ruptura.\n\nReserve pelo menos 3 horas para o KHM — e ainda assim vai perder coisas. O museu tem 100 salas. Concentrem-se no primeiro andar (Gemäldegalerie): a sala de Bruegel (sala X), os Velázquez (sala XII), os Vermeers (sala XVII) e os Rembrandts (sala XIV). Se sobrarem 30 minutos, desçam ao piso 0 para a Coleção Egípcia — as esculturas de calcário faraônicas adquiridas pelos Habsburgo no século XIX são tão impressionantes quanto qualquer coisa no Cairo.",
+      "observationPoints": [
+        "Sala de Bruegel (sala X, 1º andar): A Torre de Babel e Os Caçadores na Neve lado a lado — observe os níveis de detalhe se aproximando progressivamente de cada obra",
+        "Sala XII (Velázquez): os cinco retratos da Infanta Margarida Teresa dos 2 aos 9 anos — a mesma criança envelhecendo em tela por Velázquez",
+        "Escadaria central: os medalhões de Gustav Klimt de 1891 — o 'pré-Secessão' antes de sua ruptura com a arte acadêmica",
+        "Sala XVII (Vermeer): A Arte da Pintura — a tela que Hitler tentou confiscar para o seu Führermuseum em Linz"
+      ],
+      "suggestedExperience": "Entrem pela tarde (a manhã foi na Ópera) por volta das 14h e fiquem até as 18h. Comprem os bilhetes online em khm.at para evitar filas. Começem pela cúpula central e os medalhões de Klimt, depois subam ao primeiro andar pela escadaria. Prioridade: salas X (Bruegel) → XII (Velázquez) → XVII (Vermeer) → XIV (Rembrandt). Terminem no Café do Museu na cúpula — o Café im Kunsthistorischen Museum é o mais belo café de museu da Europa.",
+      "searchSuggestions": [
+        "Kunsthistorisches Museum Wien ingresso online khm.at",
+        "Bruegel Torre de Babel Viena história coleção",
+        "Velázquez Infanta Margarida Teresa retratos",
+        "Vermeer Arte da Pintura Habsburgo história",
+        "Klimt escadaria KHM medalhões 1891"
+      ],
+      "visitType": "indoor",
+      "entryFee": "~€21 (adultos). Crianças até 19 anos: gratuito. Online: khm.at",
+      "schedule": {
+        "monday": "Fechado",
+        "tuesday": "10:00–18:00",
+        "wednesday": "10:00–21:00 (última quinta longa até 21h)",
+        "thursday": "10:00–18:00",
+        "friday": "10:00–18:00",
+        "saturday": "10:00–18:00",
+        "sunday": "10:00–18:00"
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": false,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/viena/audio/kunsthistorisches-museum.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/kunsthistorisches-museum/main.jpg",
+            "caption": "Kunsthistorisches Museum",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "brueghel-torre-babel",
+            "name": "Torre de Babel de Bruegel",
+            "image": "/media/routes/viena/sub-attractions/kunsthistorisches-museum/brueghel-torre-babel.jpg",
+            "caption": "A obra-prima de Bruegel de 1563 — quanto mais você olha, mais detalhes aparecem",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563, é a pintura que mais muda a relação das pessoas com a arte europeia. O tamanho é modesto — 114 × 155 cm — mas dentro desse retângulo, Bruegel criou um mundo completo: operários no andaime, barcos no porto, o rei Nemrod inspecionando, e a torre absurda já mais alta que as nuvens, destinada ao fracasso.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Bruegel representou a Torre de Babel como uma construção em espiral ascendente — provavelmente inspirada no Coliseu de Roma, que ele visitou em 1552. Mas o que o distingue de qualquer outro pintor do século XVI é o detalhismo democrático: nenhum personagem é mais importante que outro. O rei Nemrod é minúsculo diante da escala da construção. A hubris humana é visível na própria proporção.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "O KHM possui 12 das pinturas de Bruegel — a maior coleção do mundo. Os Habsburgo dos Países Baixos as colecionavam obsessivamente; quando a coleção de Filipe II da Espanha foi dividida, os quadros foram para Viena com a parte habsburga austríaca. É por isso que o maior tesouro da pintura flamenga do século XVI está em Viena.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          },
+          {
+            "id": "velazquez-infanta",
+            "name": "Retratos da Infanta Margarida Teresa",
+            "image": "/media/routes/viena/sub-attractions/kunsthistorisches-museum/velazquez-infanta.jpg",
+            "caption": "Velázquez pintou a Infanta 5 vezes dos 2 aos 9 anos — ela veio para Viena aos 15 e trouxe os quadros",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Os cinco retratos de Velázquez da Infanta Margarida Teresa — pintados entre 1653 e 1659, quando ela tinha 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e mudou-se para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático. Ela morreu em Viena aos 21 anos.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Os retratos mostram a mesma criança envelhecendo em tela ao longo de 6 anos — um registro fotográfico avant la lettre da infância de uma infanta habsburga. Velázquez, o maior retratista do século XVII, capturou nos olhos fixos e ligeiramente sérios da menina algo que vai além do retrato oficial: uma criança real, com sua própria personalidade e, aparentemente, sua própria tristeza.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Estas obras estão diretamente relacionadas com As Meninas — o quadro de Velázquez no Museu do Prado em Madri, que vocês verão daqui a dois dias. Margarida Teresa é a menina ao centro d'As Meninas. Ao ver estes retratos em Viena, vocês verão Las Meninas em Madri com outros olhos: a mesma criança, o mesmo pintor, o mesmo momento histórico.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/kunsthistorisches-museum/thumb.jpg"
+      },
+      "walkingNotes": "Fim do Dia 1. Do KHM ao hotel: a pé pelo Ring ou metrô U2 de Museumsquartier até Rathaus ou Schottentor. Amanhã: para o Schönbrunn, metrô U4 em direção a Hütteldorf a partir de Karlsplatz/Oper — 15 min.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "museu",
+        "arte",
+        "Bruegel",
+        "Velázquez",
+        "Vermeer",
+        "imperial",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "schonbrunn",
+      "dayId": "dia-2",
+      "order": 1,
+      "name": "Palácio de Schönbrunn",
+      "lat": 48.1845,
+      "lng": 16.3122,
+      "address": "Schönbrunner Schloßstraße 47, 1130 Wien",
+      "historicalPeriod": "baroque",
+      "yearBuilt": "1696",
+      "architecturalStyle": "Barroco austríaco / Rococó (Maria Teresa)",
+      "significance": "Residência de verão dos Habsburgo; Mozart tocou aqui aos 6 anos; Napoleão usou como quartel-general; Franz Joseph nasceu e morreu aqui",
+      "description": "O Palácio de Schönbrunn é o maior e mais importante palácio da Áustria — o 'Versailles habsburgo', como é chamado, embora os austríacos prefiram dizer que Versailles é o 'Schönbrunn francês'. Com 1.441 salas (das quais 45 são abertas ao público), jardins formais de 160 hectares e uma história de 300 anos que toca cada grande evento do Império Habsburgo, Schönbrunn é tanto um museu quanto um arquivo vivo da história europeia.\n\nO palácio atual foi projetado pelo arquiteto Johann Bernhard Fischer von Erlach para o imperador José I em 1696 no estilo barroco imperial. Maria Teresa (1740–1780) reformou radicalmente o interior em estilo rococó e pintou a fachada no famoso 'amarelo de Schönbrunn' (Schönbrunner Gelb) — uma cor criada especificamente para o palácio que ainda hoje é misturada com a mesma fórmula original.\n\nOs episódios históricos que aconteceram aqui são extraordinários: em 1762, o menino Wolfgang Amadeus Mozart, de 6 anos, tocou cravo na Sala dos Espelhos para Maria Teresa — e, segundo a lenda, tentou sentar no colo da imperatriz e declará-la 'minha noiva'. Em 1805 e 1809, Napoleão usou o palácio como quartel-general após capturar Viena duas vezes. Em 1830, o rei de Roma (filho de Napoleão e Maria Luísa) morreu aqui de tuberculose aos 21 anos, no mesmo quarto onde havia sido criado. E em 1916, o imperador Francisco José I morreu no seu quarto de trabalho, aos 86 anos, após 68 anos no trono — o mais longo reinado europeu do século XIX.\n\nOs jardins barrocos de 160 ha incluem a Glorieta — um arco triunfal neoclássico no topo da colina que oferece o melhor panorama de Viena — e a Fonte de Netuno ao sopé da colina, além de 32 estátuas de personagens mitológicos ao longo das alamedas.",
+      "immersiveMode": true,
+      "immersiveText": "Existe um quarto em Schönbrunn que poucos visitantes veem mencionado nos guias, mas que é talvez o mais carregado de história do palácio: o quarto de trabalho do Imperador Francisco José I. É um cômodo pequeno, funcional, com a cama de campo militar que o imperador preferiu a uma cama imperial durante toda a sua vida. Francisco José I acordava às 3h30 da manhã, lavava o rosto com água fria (nunca teve aquecimento central instalado em seus aposentos pessoais), ajoelhava-se para a oração e começava a assinar documentos às 4h. Fazia isso por 68 anos.\n\nSessenta e oito anos no trono: de 1848 a 1916. Francisco José I subiu ao poder quando revoluções varriam a Europa; morreu em meio à Primeira Guerra Mundial, quando o império que havia defendido sua vida inteira estava se desfazendo. Ele sobreviveu a assassinatos (da Imperatriz Sisi em 1898, de punhalada em Genebra), ao suicídio do filho (o Arquiduque Rodolfo, em Mayerling, em 1889) e ao assassínio do sobrinho e herdeiro (Francisco Ferdinando, em Sarajevo, em 1914 — o evento que desencadeou a Primeira Guerra). Um homem que viu tudo que amava ser destruído, e continuou assinando documentos às 4h da manhã.\n\nMas voltemos a 1762, a uma cena completamente diferente. O menino Wolfgang Amadeus Mozart tem 6 anos e acaba de ser trazido de Salzburgo por seu pai Leopold, que percebera que o filho era um prodígio sobrenatural. Maria Teresa — a mesma imperatriz que havia impressionado todos pela coragem diante da Dieta Húngara em Bratislava — recebe o menino na Sala dos Espelhos. Mozart toca, a imperatriz aplaude, e então — segundo a narrativa que a família Mozart sempre contou — o menino escorrega no chão encerado, e Maria Teresa o ajuda a se levantar. E o menino, agradecido, sobe nos braços da imperatriz e declara que vai se casar com ela.\n\nA Sala dos Espelhos onde isso aconteceu ainda existe, conservada com seu parquet original e seus espelhos venezianos. Hoje as paredes reflectem grupos de turistas; em 1762, refletiam o início de uma das carreiras musicais mais extraordinárias da história humana. Mozart voltaria a Viena, como adulto, em 1781 — e morreria aqui em 1791, pobre e esquecido, enterrado numa cova comum que nunca foi identificada.\n\nE Napoleão? Ele ficou em Schönbrunn duas vezes: em 1805 (após a vitória de Austerlitz, com a Paz de Pressburg que vocês viram em Bratislava) e em 1809 (após a segunda captura de Viena). Em seu quarto de Schönbrunn, Napoleão assinou correspondências, recebeu generais e contemplou o jardim barroco amarelo. Depois das derrotas subsequentes, seu filho — o 'Rei de Roma', apelidado pelos austríacos de 'Eaglet' — foi criado aqui como refém amável, num quarto dourado, sob tutela dos Habsburgo seus avós maternos. Morreu de tuberculose aos 21 anos. Seus restos ficaram em Schönbrunn por décadas; Hitler os mandou para Paris em 1940 como gesto de propaganda.\n\nA Glorieta no topo da colina foi construída em 1775 para comemorar a vitória de Kolín sobre a Prússia (1757) — a batalha que salvou Maria Teresa de perder a Boêmia para Frederico, o Grande. Do topo, Viena se espalha em todas as direções: a catedral de Santo Estêvão ao nordeste, o Ring, as colinas da Floresta de Viena ao oeste. É a melhor perspectiva da cidade que existe — incluindo a vista do Bastião dos Pescadores de Bratislava.",
+      "observationPoints": [
+        "Sala dos Espelhos: o chão de parquet original onde o menino Mozart escorregou em 1762 ao tentar subir nos braços de Maria Teresa",
+        "Quarto de trabalho de Francisco José I: a cama de campo militar e a escrivaninha onde ele trabalhou das 4h às 23h por 68 anos de reinado",
+        "Glorieta (topo da colina): panorama de 360° de Viena — Stephansdom, Ring, Floresta de Viena",
+        "Fonte de Netuno ao sopé da colina: vista da Glorieta com os jardins barrocos em perspectiva — a composição mais fotografada de Schönbrunn"
+      ],
+      "suggestedExperience": "Chegue às 9h (abertura) quando os jardins estão praticamente vazios. Comprem ingressos do Grand Tour (45 salas) online em schoenbrunn.at. Percorram o palácio em 90 min, depois saiam para os jardins — a subida à Glorieta (30 min de caminhada, ou funicularinho pago) oferece o melhor panorama de Viena. Reservem 30 min para sentar numa das cadeiras dos jardins com um café do quiosque antes de partir para o Belvedere.",
+      "searchSuggestions": [
+        "Schönbrunn Palace Grand Tour ingressos schoenbrunn.at",
+        "Glorieta Schönbrunn panorama Viena subida",
+        "Mozart 1762 Maria Teresa Sala dos Espelhos",
+        "Francisco José I vida rotina Schönbrunn",
+        "Napoleão Schönbrunn 1805 1809 quartel-general"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Grand Tour (45 salas): ~€26. Glorieta (panorama): ~€5. Jardins: gratuitos",
+      "schedule": {
+        "monday": "09:00–17:30",
+        "tuesday": "09:00–17:30",
+        "wednesday": "09:00–17:30",
+        "thursday": "09:00–17:30",
+        "friday": "09:00–17:30",
+        "saturday": "09:00–17:30",
+        "sunday": "09:00–17:30"
+      },
+      "estimatedVisitMinutes": 180,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 120,
+      "media": {
+        "audio": "/media/routes/viena/audio/schonbrunn.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/schonbrunn/main.jpg",
+            "caption": "Palácio de Schönbrunn",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "glorieta-panorama",
+            "name": "Glorieta e Panorama de Viena",
+            "image": "/media/routes/viena/sub-attractions/schonbrunn/glorieta-panorama.jpg",
+            "caption": "O arco triunfal de 1775 no topo da colina — o melhor panorama de Viena existe",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Glorieta de Schönbrunn foi construída em 1775 por ordem de Maria Teresa para comemorar a vitória de Kolín (1757), quando os austriacos derrotaram Frederico, o Grande, e salvaram a Boêmia de ser perdida para a Prússia. O arco triunfal neoclássico coroando a colina era visível de toda Viena — uma propaganda de poder em calcário branco.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Do topo da Glorieta, Viena se espalha em 360°: a Catedral de Santo Estêvão e sua torre ao nordeste; o Ring e a Ópera mais perto; as colinas da Floresta de Viena (Wienerwald) a oeste, onde Beethoven fazia suas longas caminhadas ao compor. É o panorama mais completo de Viena — melhor que qualquer torre da cidade.",
+                  "duration": 22,
+                  "focusZone": "top"
+                },
+                {
+                  "text": "A vista da Glorieta para a Fonte de Netuno e os jardins barrocos abaixo é a composição mais fotografada de Schönbrunn: as alamedas em perspectiva convergindo em direção à fonte mitológica, com o palácio amarelo ao fundo e o céu de Viena acima. Em junho, as flores dos parterres estão em pleno florescimento.",
+                  "duration": 22,
+                  "focusZone": "bottom"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sala-espelhos-mozart",
+            "name": "Sala dos Espelhos",
+            "image": "/media/routes/viena/sub-attractions/schonbrunn/sala-espelhos-mozart.jpg",
+            "caption": "O salão de rococó onde Mozart de 6 anos tocou para Maria Teresa em 1762 e escorregou no parquet",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Sala dos Espelhos de Schönbrunn foi o local de um dos episódios mais encantadores da história da música: em outubro de 1762, o menino Wolfgang Amadeus Mozart, de 6 anos, tocou cravo para a Imperatriz Maria Teresa. Depois de tocar, escorregou no parquet encerado. A imperatriz o ajudou a se levantar — e o menino, agradecido, subiu em seu colo.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O parquet original deste salão, os espelhos venezianos e os lustres de cristal são os mesmos que Mozart viu. Neste mesmo espaço, a luz da tarde de outubro de 1762 iluminava o prodígio de 6 anos que em 29 anos de vida comporia 41 sinfonias, 27 concertos para piano, 23 óperas e dezenas de outras obras — incluindo A Flauta Mágica, escrita e estreada em Viena em 1791, o mesmo ano de sua morte.",
+                  "duration": 24,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Mozart morreu em Viena em 5 de dezembro de 1791, com 35 anos, pobre, enterrado numa cova comum no cemitério de São Marx — a localização exata nunca foi determinada. A mesma cidade que aplaudiu o menino prodígio em 1762 deixou o gênio adulto ser enterrado sem cerimônia. A história de Viena e Mozart é, como quase tudo nesta cidade, simultaneamente gloriosa e trágica.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/schonbrunn/thumb.jpg"
+      },
+      "walkingNotes": "Do Schönbrunn ao Stadtpark: metrô U4 de Schönbrunn até Stadtpark (5 estações, 12 min direto). O parque fica na saída da estação — a estátua dourada de Strauss está a 5 min a pé da saída.",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 12,
+      "tags": [
+        "palácio",
+        "barroco",
+        "Mozart",
+        "María Teresa",
+        "Napoleão",
+        "jardins",
+        "imersivo"
+      ]
+    },
+    {
+      "id": "stadtpark",
+      "dayId": "dia-2",
+      "order": 2,
+      "name": "Stadtpark e Estátua de Strauss",
+      "lat": 48.203,
+      "lng": 16.3802,
+      "address": "Parkring 1, 1010 Wien",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1862",
+      "architecturalStyle": "Jardim inglês — Rudolf Siebeck e Josef Selleny",
+      "significance": "Primeiro parque público de Viena; abriga a estátua dourada de Johann Strauss II, a mais fotografada da Áustria",
+      "description": "O Stadtpark foi inaugurado em 1862 como o primeiro parque público de Viena, um dos projetos do grande projeto urbanístico da Ringstrasse de Francisco José I. Projetado em estilo inglês pelo paisagista Rudolf Siebeck com caminhos sinuosos, o Rio Wienfluss canalizado com paredes em art nouveau e pavilhões elegantes, é o pulmão verde mais central da cidade.\n\nA estrela absoluta é a estátua dourada de Johann Strauss II (1825–1899) — o 'Rei das Valsas' que compôs An der schönen blauen Donau (O Danúbio Azul, 1866), a valsa mais famosa da história. A estátua em bronze, inaugurada em 1921 e revestida a ouro, mostra Strauss tocando violino sob um arco de mármore com figuras alegóricas. É provavelmente a estátua mais fotografada de toda a Áustria. O parque tem também estátuas de Schubert, Bruckner e Lehar — um pantheon ao ar livre da música austríaca.\n\nO Kursalon, pavilhão art nouveau de 1867, oferece concertos de Strauss e Mozart às noites. Para uma pausa entre o Schönbrunn e o Belvedere, é o lugar perfeito: verde, silencioso no meio do dia e a 15 minutos a pé do Belvedere.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Estátua dourada de Johann Strauss II: o violinista sob o arco de mármore — chegue cedo para fotografar sem filas",
+        "Margens do Wienfluss: os painéis de azulejos art nouveau ao longo do canal do rio — detalhes esquecidos pela maioria dos visitantes",
+        "Kursalon (1867): o pavilhão de concertos onde Brahms, Strauss e Bruckner se apresentaram no século XIX"
+      ],
+      "suggestedExperience": "Uma pausa de 40-45 min entre o Schönbrunn e o Belvedere. Aproveite para sentar num banco, respirar e recuperar energia antes do Belvedere. A estátua de Strauss é melhor fotografada de manhã (luz diagonal) ou à tarde quando os turistas são menos. O Café Stadtpark serve Melange e Apfelstrudel caso queiram um almoço leve.",
+      "searchSuggestions": [
+        "Stadtpark Viena estátua Strauss horário",
+        "Kursalon Wien concerto Mozart Strauss ingresso",
+        "Stadtpark Wien jardim arte nouveau Wienfluss"
+      ],
+      "visitType": "outdoor",
+      "entryFee": "Gratuito",
+      "schedule": {
+        "monday": "Sempre aberto",
+        "tuesday": "Sempre aberto",
+        "wednesday": "Sempre aberto",
+        "thursday": "Sempre aberto",
+        "friday": "Sempre aberto",
+        "saturday": "Sempre aberto",
+        "sunday": "Sempre aberto"
+      },
+      "estimatedVisitMinutes": 45,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 120,
+      "media": {
+        "audio": "/media/routes/viena/audio/stadtpark.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/stadtpark/main.jpg",
+            "caption": "Estátua dourada de Johann Strauss II no Stadtpark — o Rei das Valsas com seu violino",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "strauss-estatua",
+            "name": "Estátua Dourada de Johann Strauss II",
+            "image": "/media/routes/viena/sub-attractions/stadtpark/strauss-estatua.jpg",
+            "caption": "A estátua em bronze revestida a ouro (1921) do compositor do Danúbio Azul — a mais fotografada da Áustria",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "Johann Strauss II (1825–1899) compôs An der schönen blauen Donau em 1866 — originalmente uma canção para coral que fracassou na estreia. Apenas quando foi arranjada para orquestra e tocada numa exposição em Paris em 1867 se tornou a valsa mais famosa do mundo. Strauss a considerava uma obra menor; o público a imortalizou.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "A estátua de bronze, modelada por Edmund Hellmer, foi inaugurada em 1921 e revestida a ouro. Strauss é retratado tocando violino sob um arco de mármore com figuras alegóricas da música e da dança. Morava a poucos quarteirões daqui, na Igelgasse — e percorria o Stadtpark diariamente. O parque era para ele o que o Prater era para os vienenses comuns.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/stadtpark/thumb.jpg"
+      },
+      "walkingNotes": "Do Stadtpark ao Belvedere Superior: 15 min a pé pela Rennweg em direção ao sul. O jardim formal do Belvedere com suas fontes barrocas começa logo na Prinz-Eugen-Straße. Alternativa: metrô U4 de Stadtpark 1 parada até Landstraße/Wien Mitte e bonde 71 até Belvedere (10 min).",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "parque",
+        "Strauss",
+        "valsa",
+        "estátua",
+        "arte nouveau",
+        "descanso",
+        "música"
+      ]
+    },
+    {
+      "id": "oberes-belvedere",
+      "dayId": "dia-2",
+      "order": 3,
+      "name": "Belvedere Superior",
+      "lat": 48.1916,
+      "lng": 16.3817,
+      "address": "Prinz Eugen-Straße 27, 1030 Wien",
+      "historicalPeriod": "baroque",
+      "yearBuilt": "1721",
+      "architecturalStyle": "Barroco austríaco (Johann Lucas von Hildebrandt)",
+      "significance": "O Beijo de Klimt; maior coleção de Klimt e Schiele do mundo; jardins barrocos com vista sobre Viena",
+      "description": "O Palácio do Belvedere Superior (Oberes Belvedere) foi construído pelo Príncipe Eugênio de Saboia entre 1714 e 1721 como palácio de verão de representação — o lugar onde ele recebia dignitários, exibia sua coleção de arte e demonstrava o poder que conquistara em décadas de campanhas militares vitoriosas contra os otomanos e a França. O Príncipe Eugênio, que chegou a Viena como refugiado francês renegado e tornou-se o general mais celebrado do Império, nunca teve filhos; ao morrer sem herdeiros, sua coleção passou para os Habsburgo.\n\nHoje o Belvedere Superior abriga a maior coleção de Gustav Klimt do mundo — incluindo O Beijo (Der Kuss, 1907–1908), considerado o símbolo visual do Art Nouveau e da Secessão vienense. O quadro, de 180 × 180 cm, representa um casal em abraço entre flores douradas e ornamentos ouro — o estilo que Klimt desenvolveu após seu trabalho nas paredes do KHM, agora completamente liberto da academia. É a pintura mais reproduzida da Áustria e uma das mais reproduzidas do mundo.\n\nA coleção inclui também obras de Egon Schiele (o 'Die tote Stadt' que viram mencionado em Český Krumlov agora está no Leopold Museum, mas Schiele está bem representado aqui) e os simbolistas austríacos do final do século XIX. O Belvedere foi também o local de um evento histórico: em 15 de maio de 1955, o Tratado de Estado austríaco (Staatsvertrag) foi assinado aqui pelos ministros dos Aliados e da Áustria, encerrando a ocupação do país e restaurando sua soberania. O ministro austríaco Leopold Figl exibiu o tratado da janela do palácio para a multidão abaixo: 'Österreich ist frei!' (A Áustria está livre!) — uma das frases mais emocionantes da história austríaca pós-guerra.\n\nOs jardins barrocos entre o Belvedere Superior e o Belvedere Inferior são um dos melhores exemplos do estilo formal austríaco do início do século XVIII, com piscinas espelhadas que refletem a fachada do palácio ao entardecer.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "O Beijo de Klimt (sala I): a tela de 180 × 180 cm com os ornamentos dourados — observe os detalhes dos padrões florais diferentes na roupa dele e dela",
+        "Jardins barrocos: a piscina espelhada entre os dois palácios refletindo a fachada do Belvedere Superior ao final da tarde",
+        "Galeria de Schiele (salas adjacentes): os auto-retratos de traço anguloso comparados aos Klimt — a evolução da Secessão para o Expressionismo em poucos metros"
+      ],
+      "suggestedExperience": "Comprem ingressos online em belvedere.at para evitar filas (O Beijo é o quadro mais visitado da Áustria). Dediquem 30 min só ao Beijo e à sala de Klimt antes de explorar o resto. Depois saiam para os jardins: a piscina espelhada com o palácio refletido ao entardecer é um dos ambientes mais românticos de Viena. Jantem no bairro do Belvedere (3º distrito) antes de voltar ao hotel.",
+      "searchSuggestions": [
+        "Belvedere Superior Wien O Beijo Klimt ingresso belvedere.at",
+        "Gustav Klimt Secessão vienense história",
+        "Tratado de Estado Austria 1955 Belvedere",
+        "Príncipe Eugênio de Saboia história militar",
+        "Egon Schiele Belvedere coleção Viena"
+      ],
+      "visitType": "indoor+outdoor",
+      "entryFee": "~€16. Online: belvedere.at",
+      "schedule": {
+        "monday": "09:00–18:00",
+        "tuesday": "09:00–18:00",
+        "wednesday": "09:00–21:00",
+        "thursday": "09:00–18:00",
+        "friday": "09:00–18:00",
+        "saturday": "09:00–18:00",
+        "sunday": "09:00–18:00"
+      },
+      "estimatedVisitMinutes": 120,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/viena/audio/oberes-belvedere.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/oberes-belvedere/main.jpg",
+            "caption": "Belvedere Superior",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "kuss-klimt",
+            "name": "O Beijo de Klimt",
+            "image": "/media/routes/viena/sub-attractions/oberes-belvedere/kuss-klimt.jpg",
+            "caption": "Der Kuss (1907–1908): o símbolo visual do Art Nouveau e a pintura mais reproduzida da Áustria",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "O Beijo de Gustav Klimt (Der Kuss, 1907–1908) tem 180 × 180 cm — quase quadrado, quase um abraço. O casal ajoelhado sobre uma colina florida, envolto numa manta dourada, parece existir fora do tempo e do espaço: não há fundo definido, apenas o dourado que Klimt aprendeu nas iconografias bizântinas e nos ícones de ouro russos.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Observe os padrões na roupa de cada um: na roupa dele, retângulos negros, brancos e coloridos — formas geométricas, masculinas, angulosas. Na dela, círculos e flores — formas orgânicas, femininas, suaves. É um comentário visual sobre a diferença e a complementaridade dos gêneros que Klimt desenvolveu ao longo de toda a sua fase dourada.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "Klimt pintou O Beijo no mesmo período em que trabalhava nos afrescos do Palácio Stoclet em Bruxelas — obras que nunca são mostradas ao público. O Beijo foi comprado pelo Estado Austro-Húngaro em 1908 por um preço então recorde. Hoje, se fosse a leilão, seria o quadro mais caro já vendido. O Estado austríaco recusou todas as ofertas de compra, incluindo propostas de bilhões de dólares após a Segunda Guerra.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/oberes-belvedere/thumb.jpg"
+      },
+      "walkingNotes": "Do Belvedere ao Hundertwasserhaus: 15 min a pé pela Ungargasse/Fasangasse em direção nordeste; ou bonde 71 de Unteres Belvedere até Radetzkyplatz, depois 5 min a pé pela Kegelgasse.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "arte",
+        "Klimt",
+        "Secessão",
+        "barroco",
+        "jardins",
+        "O Beijo"
+      ]
+    },
+    {
+      "id": "hundertwasserhaus",
+      "dayId": "dia-2",
+      "order": 4,
+      "name": "Hundertwasserhaus e KunstHausWien",
+      "lat": 48.2079,
+      "lng": 16.3991,
+      "address": "Kegelgasse 34–38, 1030 Wien",
+      "historicalPeriod": "contemporary",
+      "yearBuilt": "1983–1985",
+      "architecturalStyle": "Expressionismo orgânico — Friedensreich Hundertwasser e Josef Krawina",
+      "significance": "O edifício residencial mais fotografado da Áustria — uma rejeição filosófica radical do funcionalismo modernista em pleno século XX",
+      "description": "O Hundertwasserhaus é um prédio residencial público projetado pelo artista e arquiteto Friedensreich Hundertwasser (1928–2000) em colaboração com o arquiteto Josef Krawina, construído pela Prefeitura de Viena entre 1983 e 1985. É uma declaração filosófica em forma de edifício.\n\nHundertwasser acreditava que a linha reta é 'uma coisa imoral, uma ferramenta do Diabo' e que os seres humanos têm o direito fundamental a 'janelas irregulares' nas suas casas — o direito de estender o braço pela janela e pintar a fachada tanto quanto o braço alcance. O resultado é uma fachada ondulante com pisos irregulares que 'respiram', 250 árvores crescendo dentro e fora dos apartamentos, terraços-jardim no nível dos telhados, e uma mistura exuberante de azulejos coloridos, cerâmica e diferentes acabamentos por toda a superfície — nenhuma parte da fachada é igual à outra.\n\nO prédio tem 52 apartamentos habitados até hoje (não é museu — é residência privada). A visita é exterior, mas o Hundertwasser Dorf (vila comercial temática) na esquina, e o KunstHausWien a 200 metros, com as obras originais de Hundertwasser sobre ecologia, filosofia e arte, completam a experiência. O contraste com a Viena imperial dos Habsburgo que ocupou os dois dias anteriores torna a visita ainda mais fascinante — duas visões radicalmente diferentes do que uma cidade pode ser.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Fachada principal (Kegelgasse): a ondulação dos pisos, os diferentes revestimentos por appartamento e as árvores crescendo pelas janelas",
+        "Esquina Löwengasse/Kegelgasse: o ângulo que permite ver tanto a fachada colorida quanto os telhados-jardim com vegetação — o ponto clássico de fotografia",
+        "KunstHausWien (200m): o museu dedicado a Hundertwasser com seus manifestos sobre arquitetura e ecologia — tão importante quanto o prédio para entender a filosofia"
+      ],
+      "suggestedExperience": "A visita exterior leva 20-30 min — caminhe devagar ao redor do quarteirão para ver todas as fachadas. O Hundertwasser Dorf na esquina tem uma cafeteria no estilo do artista, perfeita para uma pausa antes de voltar ao centro. O KunstHausWien fica a 200m e vale 45 min se tiver energia restante. Dica: o bonde 1 de Radetzkyplatz reconecta ao Ring em 15 min.",
+      "searchSuggestions": [
+        "Hundertwasserhaus Wien visita exterior horário",
+        "KunstHausWien ingresso horário exposição",
+        "Hundertwasser arquitetura filosofia linha reta",
+        "Hundertwasser Dorf cafeteria Viena"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Exterior: gratuito. KunstHausWien: ~€12",
+      "schedule": {
+        "monday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "tuesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "wednesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "thursday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "friday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "saturday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
+        "sunday": "Exterior: sempre. KunstHausWien: 10:00–17:00"
+      },
+      "estimatedVisitMinutes": 60,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/viena/audio/hundertwasserhaus.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/hundertwasserhaus/main.jpg",
+            "caption": "Hundertwasserhaus — fachada colorida ondulante com árvores crescendo pelas janelas (1983–1985)",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "hundertwasser-fachada",
+            "name": "A Fachada — Manifesto em Azulejos",
+            "image": "/media/routes/viena/sub-attractions/hundertwasserhaus/hundertwasser-fachada.jpg",
+            "caption": "Fachada ondulante: nenhum andar é reto, nenhuma janela é igual à outra — o direito à janela irregular como filosofia habitacional",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "Hundertwasser escreveu em 1958 o Manifesto da Mofo — declarando que a linha reta é uma ferramenta do Diabo e que a arquitectura ortogonal destruiu a relação natural entre o ser humano e o espaço. O Hundertwasserhaus, construído 25 anos depois, é a resposta prática: pisos irregulares, janelas assimétricas, árvores no interior e uma fachada que muda de revestimento a cada andar.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "O edifício tem 52 apartamentos habitados por famílias reais até hoje. A Prefeitura de Viena o construiu como habitação social — um dos raros casos em que arte radical e habitação pública se encontraram. Hundertwasser recusou qualquer pagamento pelos serviços de design, declarando que era suficiente 'prevenir algo feio de ser construído na minha cidade'.",
+                  "duration": 22,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/hundertwasserhaus/thumb.jpg"
+      },
+      "walkingNotes": "Fim do Dia 2. Do Hundertwasserhaus ao hotel/centro: bonde 1 de Radetzkyplatz (3 min a pé) até Schwedenplatz ou Ringstraße — 15 min. Alternativa: Uber/táxi direto (10 min ao Ring).",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "Hundertwasser",
+        "arte",
+        "arquitetura",
+        "colorido",
+        "expressionismo",
+        "moderno",
+        "habitação"
+      ]
+    },
+    {
+      "id": "stephansdom",
+      "dayId": "dia-3",
+      "order": 1,
+      "name": "Catedral de Santo Estêvão",
+      "lat": 48.2087,
+      "lng": 16.3732,
+      "address": "Stephansplatz 3, 1010 Wien",
+      "historicalPeriod": "medieval",
+      "yearBuilt": "1137",
+      "architecturalStyle": "Gótico tardio",
+      "significance": "A catedral mais importante da Áustria; símbolo de Viena; telhado de azulejos em losango; cripta com restos dos Habsburgo",
+      "description": "A Catedral de Santo Estêvão (Stephansdom) é o símbolo mais reconhecível de Viena e um dos exemplos mais extraordinários do gótico tardio da Europa Central. Sua Torre Sul (Südturm), com 136 metros, dominou o horizonte de Viena por séculos — até 1914, era a terceira torre mais alta do mundo. O telhado de azulejos em losango policromáticos, formando os brasões da Áustria e de Viena, é o elemento visual mais icônico da catedral e da cidade.\n\nA história do local começa em 1137, com uma pequena Romaneische Basilica. A estrutura gótica atual foi construída em etapas entre 1304 e 1433, sob os duques habsburgos. O interior guarda séculos de história habsburga: o túmulo elaborado de Frederico III (a maior escultura sepulcral gótica da Áustria), a Canção Funebre de Príncipes (Herzgruft) onde os corações dos Habsburgo são guardados separadamente dos corpos, e as catacumbas subterrâneas com os ossos de 11.000 vienenses da época da Peste Negra.\n\nA catedral foi gravemente danificada nos últimos dias da Segunda Guerra (incêndio de 12 de abril de 1945) e os azulejos do telhado destruídos. A reconstrução, financiada por doações de cada estado austríaco para uma seção do telhado, levou 7 anos — e gerou uma das histórias mais belas do pós-guerra: os habitantes de Viena voluntariamente doaram ouro, prata e obras de arte pessoais para financiar a reconstrução.\n\nDo topo da Torre Norte (acessível por elevador) ou da Torre Sul (343 degraus a pé), a vista de Viena ao nível do século XV — antes de qualquer arranha-céu — é uma das mais memoráveis da cidade.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Telhado de azulejos em losango: melhor visto da varanda da Torre Norte (elevador) — observe os brasões da Áustria (listras vermelhas e brancas) e de Viena (o homem com escudo branco e vermelho)",
+        "Catacumbas (tour guiado obrigatório): os ossos de 11.000 vienenses da Peste Negra e as urnas com as vísceras dos Habsburgo — uma experiência macabra mas historicamente fascinante",
+        "Túmulo de Frederico III (interior): a maior escultura sepulcral gótica da Áustria, com animais fantásticos esculpidos no mármore vermelho"
+      ],
+      "suggestedExperience": "Entrem na catedral às 9h (abertura) para o silêncio da manhã antes das missas e dos turistas. Façam o tour das Catacumbas (~€6, 30 min, guia obrigatório) — a experiência dos ossos da Peste é única. Subam à Torre Norte de elevador (a Torre Sul é fechada ao público desde 2022 por restauração) para o panorama de Viena. Caminhem depois ao Hofburg pela Graben e a Kohlmarkt — as duas ruas de luxo mais belas de Viena.",
+      "searchSuggestions": [
+        "Stephansdom catedral Viena catacombas tour",
+        "torre norte Stephansdom panorama elevador",
+        "telhado azulejos losango Stephansdom brasões história",
+        "Frederico III túmulo Stephansdom gótico"
+      ],
+      "visitType": "indoor+outdoor",
+      "entryFee": "Interior: ~€6 (donativo). Catacumbas (tour): ~€6. Torre Norte (elevador): ~€6",
+      "schedule": {
+        "monday": "06:00–22:00 (catedral). Tours catacumbas: 10:00–17:00",
+        "tuesday": "06:00–22:00",
+        "wednesday": "06:00–22:00",
+        "thursday": "06:00–22:00",
+        "friday": "06:00–22:00",
+        "saturday": "06:00–22:00",
+        "sunday": "07:00–22:00 (horário de missas matinais)"
+      },
+      "estimatedVisitMinutes": 90,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 70,
+      "media": {
+        "audio": "/media/routes/viena/audio/stephansdom.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/stephansdom/main.jpg",
+            "caption": "Catedral de Santo Estêvão",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "telhado-losango-stephansdom",
+            "name": "Telhado de Azulejos em Losango",
+            "image": "/media/routes/viena/sub-attractions/stephansdom/telhado-losango-stephansdom.jpg",
+            "caption": "Os 230.000 azulejos esmaltados em losango formando os brasões da Áustria e de Viena — reconstruídos em 1952",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "O telhado da Catedral de Santo Estêvão é revestido por 230.000 azulejos esmaltados em padrão de losango — verde, amarelo, branco e preto — que formam dois brasões: o da Áustria (listras vermelhas e brancas) e o de Viena (o homem com escudo bicolor). É um dos telhados mais fotografados da Europa e o símbolo visual de Viena por excelência.",
+                  "duration": 22,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Em 12 de abril de 1945, um incêndio que começou nos edifícios ao redor da catedral atingiu o telhado: os azulejos explodiram com o calor, a madeira ardeu e o telhado colapsou. A cidade estava em chamas; os bombardeios tinham cessado havia dias. Os vienenses que assistiram à queda do telhado da Stephansdom disseram que foi o momento em que perceberam que a guerra havia terminado — de um modo ou de outro.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "A reconstrução do telhado durou de 1945 a 1952. Cada um dos 9 estados austríacos financiou uma seção do telhado — uma reconstrução literalmente federal, azulejo por azulejo, como metáfora da reconstrução do país inteiro. Os vienenses doaram joias e obras de arte pessoais para o fundo de reconstrução. O telhado que vocês veem hoje é obra de um povo que decidiu refazer sua catedral como refazeria a si mesmo.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/stephansdom/thumb.jpg"
+      },
+      "walkingNotes": "Da Stephansdom ao passeio pelo centro histórico: saída sul pela Kärntner Straße — o passeio começa imediatamente. O Bitzinger Würstelstand (na Albertinaplatz, 8 min a pé) é uma excelente opção de almoço no meio do percurso.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 2,
+      "tags": [
+        "catedral",
+        "gótico",
+        "telhado",
+        "catacombas",
+        "Habsburgo",
+        "símbolo"
+      ]
+    },
+    {
+      "id": "graben-kohlmarkt",
+      "dayId": "dia-3",
+      "order": 2,
+      "name": "Passeio pelo Centro Histórico",
+      "lat": 48.2084,
+      "lng": 16.3694,
+      "address": "Graben 1010 Wien (rua pedestre central)",
+      "historicalPeriod": "medieval+imperial",
+      "yearBuilt": "Séc. XIII–XIX",
+      "architecturalStyle": "Barroco, Neoclássico, Historicismo — camadas de 700 anos",
+      "significance": "O coração pedestre de Viena histórica: da Kärntner Straße ao Kohlmarkt, passando pela Casa de Mozart, a Coluna da Peste e a Michaelerplatz",
+      "description": "O centro pedestre de Viena revela a cidade em camadas históricas a cada quarteirão — e é melhor percorrido a pé sem pressa.\n\nA Kärntner Straße (literalmente 'rua da Caríntia') é a artéria comercial mais famosa de Viena, conectando a Staatsoper à Stephansdom por 700 metros de lojas, cafeterias e músicos de rua. Rolex, Louis Vuitton, Chanel convivem com confeitarias históricas e o bom e velho Bitzinger Würstelstand, na Albertinaplatz atrás da Staatsoper: o ponto de encontro mais democrático de Viena, com bratwurst (salsicha temperada frita) e käsekrainer (salsicha de porco recheada de queijo), regados com uma Ottakringer Wiener Original gelada. Em pé, na calçada, com vista para a Ópera — a pausa gastronômica mais vienense possível.\n\nO Graben (literalmente 'vala seca', do fosso romano) é a rua pedestre mais elegante de Viena, com jóias e cafés de luxo. No centro, a Pestsäule (Coluna da Peste, 1692–1693) foi mandada erigir pelo Imperador Leopoldo I em gratidão pela cessação da epidemia de 1679 que matou 75.000 pessoas em Viena. Os 21 metros de mármore barroco com anjos e nuvens em movimento são uma das esculturas ao ar livre mais dramáticas da Europa. Na Domgasse 5, a dois quarteirões da Stephansdom, o Figarohaus (Mozarts Wohnhaus) é o único apartamento de Viena onde Mozart viveu que sobreviveu ao tempo — ele morou aqui de 1784 a 1787 e escreveu As Bodas de Fígaro nestes cômodos.\n\nO Kohlmarkt ('mercado de carvão') é a rua mais cara de Viena, com o Café Demel (o mais elegante pasteleiro da corte imperial desde 1786) e lojas de luxo que precedem a entrada do Hofburg. Desemboca na Michaelerplatz, onde escavações dos anos 1990 revelaram ruínas romanas e medievais expostas sob vidro — a porta arqueológica de entrada ao palácio imperial.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Bitzinger Würstelstand (Albertinaplatz): as salsichas käsekrainer em pé na calçada, com cerveja Ottakringer e vista da Staatsoper — a pausa mais autenticamente vienense",
+        "Pestsäule no Graben: a coluna barroca de 21 metros com anjos, nuvens e Leopoldo I ajoelhado — leia o programa iconográfico de baixo para cima",
+        "Figarohaus (Domgasse 5): os quatro cômodos onde Mozart viveu de 1784 a 1787 e compôs As Bodas de Fígaro — o apartamento mais criativo da história da música",
+        "Michaelerplatz: as ruínas romanas (séc. I–III d.C.) expostas sob vidro no centro da praça — 2.000 anos sob seus pés antes de entrar no Hofburg"
+      ],
+      "suggestedExperience": "Percorra no sentido Kärntner Straße → Graben → Kohlmarkt → Michaelerplatz. Pare no Bitzinger para um almoço ou lanche (fila rápida, comida excelente, ~€8). Visite o Figarohaus se amar Mozart — é pequeno e íntimo, nada comparado ao espetáculo dos palácios. Termine na Michaelerplatz olhando as ruínas romanas antes de entrar no Hofburg.",
+      "searchSuggestions": [
+        "Bitzinger Würstelstand Wien käsekrainer",
+        "Figarohaus Wien Mozart Domgasse horário ingresso",
+        "Pestsäule Graben Wien Coluna da Peste história",
+        "Michaelerplatz Wien ruínas romanas escavações"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Ruas e Pestsäule: gratuito. Figarohaus: ~€12 (com audioguia). Bitzinger: ~€6–10 por pessoa",
+      "schedule": {
+        "monday": "Ruas: sempre. Figarohaus: Fechado",
+        "tuesday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+        "wednesday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+        "thursday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+        "friday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+        "saturday": "Ruas: sempre. Figarohaus: 10:00–18:00",
+        "sunday": "Ruas: sempre. Figarohaus: 10:00–18:00"
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 200,
+      "media": {
+        "audio": "/media/routes/viena/audio/graben-kohlmarkt.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/graben-kohlmarkt/main.jpg",
+            "caption": "Graben — a rua pedestre elegante de Viena com a Pestsäule barroca ao centro",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "pestsaeule-graben",
+            "name": "Pestsäule — Coluna da Peste",
+            "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/pestsaeule-graben.jpg",
+            "caption": "A coluna barroca de 21 metros mandada erigir por Leopoldo I em 1693 — gratidão pela cessação da peste que matou 75.000 vienenses",
+            "reel": {
+              "audioMood": "baroque",
+              "segments": [
+                {
+                  "text": "A Pestsäule foi mandada construir pelo Imperador Leopoldo I em 1679, ainda durante a epidemia de peste, como voto de gratidão caso Viena fosse poupada. A epidemia matou 75.000 pessoas — um terço da população — antes de cessar. A escultura de Johann Bernhard Fischer von Erlach (1692–1693) tem 21 metros de mármore com anjos, nuvens e o Imperador ajoelhado no nível da rua.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "No topo da coluna está a Santíssima Trindade — um dos poucos exemplos de escultura barroca que consegue representar em pedra algo tão imaterial quanto a fé. Os anjos em movimento ao redor da base, com suas vestes e cabelos ao vento, antecipam o rococó. É uma das mais impressionantes esculturas públicas do século XVII na Europa.",
+                  "duration": 20,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "figarohaus-mozart",
+            "name": "Figarohaus — Apartamento de Mozart",
+            "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/figarohaus-mozart.jpg",
+            "caption": "Domgasse 5: o único apartamento de Viena onde Mozart viveu — aqui escreveu As Bodas de Fígaro (1786)",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "Wolfgang Amadeus Mozart viveu neste apartamento de quatro cômodos de 1784 a 1787 — o período mais produtivo e socialmente brilhante de sua carreira. Tinha 28 anos, estava no auge da fama em Viena, recebia a nobreza e a burguesia em concertos domésticos, e foi aqui que compôs As Bodas de Fígaro (1786), um dos grandes marcos da ópera ocidental.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "O apartamento era grande para os padrões da época — sinal do sucesso financeiro de Mozart naquele momento. O declínio veio depois: em 1787, incapaz de pagar o aluguel, Mozart se mudou para apartamentos progressivamente menores. Morreu em 1791, aos 35 anos, num apartamento humilde na Rauhensteingasse — a poucos quarteirões daqui.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          },
+          {
+            "id": "bitzinger-wurstelstand",
+            "name": "Bitzinger Würstelstand",
+            "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/bitzinger-wurstelstand.jpg",
+            "caption": "A barraca de salsichas mais famosa de Viena (Albertinaplatz): käsekrainer, bratwurst e Ottakringer com vista para a Staatsoper",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "O Bitzinger Würstelstand na Albertinaplatz, atrás da Staatsoper, é a barraca de salsichas mais famosa de Viena — frequentada às 23h pelos mesmos músicos e maestros que acabaram de sair do palco da Ópera, ao lado de trabalhadores noturnos e turistas. A democracia gastronômica perfeita. A especialidade é a käsekrainer: salsicha de porco recheada de pedaços de queijo, frita até a pele rebentar.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "michaelerplatz-ruinas",
+            "name": "Michaelerplatz — Ruínas Romanas",
+            "image": "/media/routes/viena/sub-attractions/graben-kohlmarkt/michaelerplatz-ruinas.jpg",
+            "caption": "Escavações romanas (séc. I–III d.C.) e medievais expostas sob vidro no centro da praça — a entrada arqueológica ao Hofburg",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Michaelerplatz foi escavada durante obras de infraestrutura em 1991 e revelou estratos arqueológicos de 2.000 anos: fundações romanas do séc. I d.C., quando Viena era o forte militar Vindobona; muros medievais; e a cripta da Igreja de São Miguel com 4.000 esqueletos de nobres e burgueses vienenses do séc. XVII e XVIII. Tudo está exposto sob vidro no centro da praça.",
+                  "duration": 24,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/graben-kohlmarkt/thumb.jpg"
+      },
+      "walkingNotes": "Do Graben ao Hofburg: o passeio termina naturalmente na Michaelerplatz — a imponente entrada neoclássica do Hofburg com sua cúpula verde está diretamente à frente. 2 min a pé.",
+      "nextTransport": "walking",
+      "nextTransportMinutes": 2,
+      "tags": [
+        "passeio",
+        "Graben",
+        "Mozart",
+        "Figarohaus",
+        "Pestsäule",
+        "Kärntner Straße",
+        "gastronomia",
+        "história"
+      ]
+    },
+    {
+      "id": "hofburg-sisi",
+      "dayId": "dia-3",
+      "order": 3,
+      "name": "Hofburg e Museu de Sisi",
+      "lat": 48.206,
+      "lng": 16.3642,
+      "address": "Michaelerkuppel, 1010 Wien",
+      "historicalPeriod": "imperial",
+      "yearBuilt": "1279",
+      "architecturalStyle": "Gótico / Renascentista / Barroco / Neoclássico",
+      "significance": "Palácio imperial por 700 anos; Museu de Sisi; Schatzkammer com a Coroa do Sacro Império; Biblioteca Nacional",
+      "description": "O Hofburg é o palácio imperial mais estendido do mundo — não um edifício, mas um complexo de 19 construções, 54 escadarias, 19 pátios e 2.600 salas construídas ao longo de 700 anos de história habsburga. Nenhum monarca conseguiu 'terminar' o Hofburg: cada geração acrescentou um ala, um pátio ou uma cúpula. O resultado é um organismo arquitetônico que não tem começo nem fim — e que reflete com perfeita fidelidade o modo como o Império Habsburgo cresceu: absorvendo territórios, tradições e estilos sem nunca se tornar homogêneo.\n\nOs três conjuntos mais visitados são os Kaiserapartements (apartamentos imperiais de Francisco José I e da Imperatriz Sisi), o Museu de Sisi e a Schatzkammer (câmara do tesouro imperial). Os apartamentos de Sisi revelam uma mulher que era radicalmente diferente do que os retratos oficiais sugerem: a Imperatriz Elisabeth (1837–1898) era obsessiva com sua aparência (pesava 50 kg aos 50 anos, media o peso todos os dias), falava húngaro fluentemente por amor à Hungria, viajava compulsivamente para escapar das obrigações da corte, praticava hipismo e esgrima, escrevia poesia niilista inspirada em Heine e, eventualmente, foi assassinada a punhalada em Genebra por um anarquista italiano que escolheu a imperatriz como vítima simplesmente por ser a figura mais importante que passava na rua.\n\nA Schatzkammer, no lado oposto do Hofburg, guarda a Coroa do Sacro Império Romano Germânico — a mais poderosa insígnia de poder da Idade Média europeia, usada nas coroações de Carlos Magno em diante. Também contém o Manto de Coroação dos Stufen (século XII), a Lança Sagrada (que se diz ter tocado o costado de Cristo), e o dente de um unicórnio (na realidade, um corno de narval) que os Habsburgo acreditavam proteger contra envenenamento.\n\nA Biblioteca Nacional Austríaca (Prunksaal), a 5 min a pé no mesmo complexo, tem um dos interiores barrocos mais espetaculares do mundo — a sala oval de 80 metros de comprimento com estantes de carvalho do chão ao teto e um afresco de Carlo Carlone no teto. Entrada ~€10.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Apartamentos de Sisi (1º andar): o quarto de ginástica particular da Imperatriz — uma novidade radical para 1870, quando mulheres nobres não se exercitavam — com seus aparelhos originais de musculação",
+        "Schatzkammer: a Coroa do Sacro Império Romano Germânico — observe a coroa octogonal de cerca do ano 960, decorada com esmaltes de Constantinopla",
+        "Biblioteca Nacional (Prunksaal): o afresco de Carlone no teto com Carlos VI em apoteose — melhor visto do centro da sala com pescoço inclinado por vários minutos"
+      ],
+      "suggestedExperience": "Comprem o bilhete combinado Sisi Ticket (Kaiserapartements + Museu de Sisi + Móveis Imperiais) em sisi-museum.at — mais económico que ingressos separados. Comecem pelos apartamentos de Sisi (90 min), depois a Schatzkammer (60 min). Se sobrar tempo antes do jantar de despedida, entrem na Biblioteca Nacional — o Prunksaal é uma das salas de leitura mais belas do mundo.",
+      "searchSuggestions": [
+        "Hofburg Wien Sisi Ticket ingressos sisi-museum.at",
+        "Imperatriz Sisi Elisabeth história real mito",
+        "Schatzkammer Viena Coroa Sacro Império Romano",
+        "Biblioteca Nacional Prunksaal Viena horário",
+        "voo Viena Madri 21 junho companhias aéreas"
+      ],
+      "visitType": "indoor",
+      "entryFee": "Sisi Ticket (Kaiserapartements + Museu Sisi + Móveis Imperiais): ~€38. Schatzkammer: ~€16. Prunksaal: ~€10",
+      "schedule": {
+        "monday": "09:00–17:30 (Sisi e Schatzkammer)",
+        "tuesday": "09:00–17:30",
+        "wednesday": "09:00–17:30",
+        "thursday": "09:00–17:30",
+        "friday": "09:00–17:30",
+        "saturday": "09:00–17:30",
+        "sunday": "09:00–17:30"
+      },
+      "estimatedVisitMinutes": 150,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 80,
+      "media": {
+        "audio": "/media/routes/viena/audio/hofburg-sisi.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/hofburg-sisi/main.jpg",
+            "caption": "Hofburg e Museu de Sisi",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "kaiserappartements-sisi",
+            "name": "Apartamentos de Sisi",
+            "image": "/media/routes/viena/sub-attractions/hofburg-sisi/kaiserappartements-sisi.jpg",
+            "caption": "Os aposentos da Imperatriz Elisabeth — a academia de ginástica, os espelhos de corpo inteiro, a obsessão com o peso",
+            "reel": {
+              "audioMood": "classical",
+              "segments": [
+                {
+                  "text": "A Imperatriz Elisabeth da Áustria (Sisi, 1837–1898) era radicalmente diferente do que os retratos oficiais sugerem. Pesava 50 kg aos 50 anos, com 1,72m de altura — e se pesava todos os dias. Nos seus apartamentos do Hofburg há uma academia de ginástica com aparelhos originais de 1870: anéis, barras e pesos que a imperatriz usava diariamente, numa época em que isso era excêntrico ao limite do escandaloso para uma mulher nobre.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Sisi aprendeu húngaro fluentemente — um esforço enorme que encantou a Hungria e irritou a corte vienense. Quando o Compromisso austro-húngaro foi negociado em 1867, Sisi foi instrumental em persuadir Francisco José a aceitar os termos húngaros. Os húngaros ainda a adoram; em Budapeste, há estátuas em sua homenagem que excedem em número as de qualquer outro monarca não-húngaro.",
+                  "duration": 22,
+                  "focusZone": "center"
+                },
+                {
+                  "text": "Em 10 de setembro de 1898, a Imperatriz Elisabeth foi assassinada em Genebra por Luigi Lucheni, um anarquista italiano que escolheu a vítima mais importante que passou na rua. O punhal de lima entrou entre suas costelas; ela morreu minutos depois sem saber que havia sido atingida. Tinha 60 anos. Deixou um diário poético em que escreveu: 'Livre sou só quando não sou eu mesma.' Viena nunca a entendeu em vida; mitificou-a na morte.",
+                  "duration": 24,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "schatzkammer-coroa",
+            "name": "Schatzkammer — Coroa do Sacro Império",
+            "image": "/media/routes/viena/sub-attractions/hofburg-sisi/schatzkammer-coroa.jpg",
+            "caption": "A Coroa Imperial do Sacro Império Romano Germânico — a insígnia de poder mais antiga da Europa Ocidental",
+            "imageFit": "contain",
+            "reel": {
+              "audioMood": "medieval",
+              "segments": [
+                {
+                  "text": "A Coroa do Sacro Império Romano Germânico — guardada aqui na Schatzkammer — é datada de cerca de 960 e é a insígnia de poder mais antiga da Europa Ocidental em uso contínuo. Sua forma octogonal (8 lados = 8 Beatitudes do Sermão da Montanha) é decorada com esmaltes de Constantinopla e placas de ouro cravadas de pedras preciosas. Foi usada na coroação de dezenas de imperadores.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "Em 1806, Napoleão dissolveu o Sacro Império Romano Germânico — o que o próprio Voltaire chamava de 'nem sagrado, nem romano, nem um império'. Francisco II guardou a coroa em Viena e nunca mais a usou. Napoleão, que queria a coroa, nunca a obteve. A coroa permanece aqui como relíquia de uma instituição que durou 1006 anos (800–1806) e moldou a Europa que vocês percorreram nesta viagem.",
+                  "duration": 22,
+                  "focusZone": "detail"
+                },
+                {
+                  "text": "A Schatzkammer também guarda a Lança Sagrada — a lança que supostamente tocou o costado de Cristo na Crucificação. Seja autêntica ou não, sua importância simbólica foi real por séculos: Carlos Magno a carregava em batalha; Frederico Barbarossa morreu sem ela e afogou-se num rio; Napoleão tentou roubá-la. Hitler a obteve em 1938 após o Anschluss. Os americanos a encontraram em Nuremberg em 1945 e a devolveram para Viena.",
+                  "duration": 22,
+                  "focusZone": "center"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/hofburg-sisi/thumb.jpg"
+      },
+      "walkingNotes": "Do Hofburg ao Prater/Riesenrad: a pé até a Herrengasse (5 min), metrô U3 até Stephansplatz, U1 até Praterstern — total 15 min. Alternativa rápida: Uber/táxi direto ao Riesenradplatz (10 min).",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 15,
+      "tags": [
+        "palácio",
+        "Sisi",
+        "imperial",
+        "tesouro",
+        "Habsburgo",
+        "história"
+      ]
+    },
+    {
+      "id": "prater-riesenrad",
+      "dayId": "dia-3",
+      "order": 4,
+      "name": "Prater e Wiener Riesenrad",
+      "lat": 48.2167,
+      "lng": 16.3964,
+      "address": "Riesenradplatz 1, 1020 Wien",
+      "historicalPeriod": "imperial+contemporary",
+      "yearBuilt": "1766 (parque) / 1897 (Riesenrad)",
+      "architecturalStyle": "Jardim inglês imperial + engenharia vitoriana",
+      "significance": "O parque mais famoso de Viena; a roda gigante de 1897, símbolo da cidade e cenário do filme O Terceiro Homem (1949) de Orson Welles",
+      "description": "O Prater foi criado em 1766 quando o Imperador José II abriu ao público os campos de caça privados da família imperial — um gesto iluminista extraordinário que transformou uma reserva real no maior parque urbano de Viena. Com 6 km² de extensão, tem a Hauptallee (alameda principal de 4,5 km sombreada por plátanos seculares), campos esportivos, jardins e o Wurstelprater, a mais antiga área de diversões da Europa em funcionamento contínuo.\n\nA Wiener Riesenrad é a roda gigante de 64,75 metros inaugurada em 1897 para as comemorações do Jubileu de Ouro do Imperador Francisco José I. Era uma das seis rodas gigantes construídas naquele ano pelo engenheiro inglês Walter Bassett; é a única que sobreviveu ao século XX. As 30 cabines de madeira — cada uma com capacidade para 12 pessoas — sobreviveram (com restaurações) à Segunda Guerra Mundial, durante a qual o Wurstelprater foi quase completamente destruído. Uma volta completa leva cerca de 20 minutos e oferece panorama de 360° de Viena: o Ring, o Stephansdom, o Belvedere, Schönbrunn e os Alpes ao fundo em dias claros.\n\nA Riesenrad é o cenário de uma das cenas mais famosas da história do cinema: no filme O Terceiro Homem (1949), dirigido por Carol Reed, Orson Welles pronuncia dentro de uma cabine o seu famoso monólogo sobre o relógio cuco e os assassinatos: 'Na Itália por 30 anos sob os Bórgias tiveram guerra, terror, assassinato e derramamento de sangue, mas produziram Miguel Ângelo, Leonardo da Vinci e a Renascença. Na Suíça, tiveram amor fraternal, 500 anos de democracia e paz. E o que produziram? O relógio cuco.' A frase foi improvisada por Welles no set.",
+      "immersiveMode": false,
+      "immersiveText": null,
+      "observationPoints": [
+        "Cabine da Riesenrad em movimento: o panorama de Viena a 64 metros — Stephansdom, Ring, Belvedere e Schönbrunn em perspectiva completa",
+        "Hauptallee (alameda principal): 4,5 km de plátanos seculares onde Francisco José I cavalgava — caminhe pelo menos 15 min antes de voltar ao centro",
+        "Placa O Terceiro Homem (Dritte Mann): na entrada do Riesenrad, a homenagem à cena mais famosa de Orson Welles filmada aqui em 1948"
+      ],
+      "suggestedExperience": "Chegue ao Prater às 17:30–18h, quando a luz do fim de tarde ilumina a Riesenrad e o calor ameniza. Compre o ingresso na bilheteria (fila rápida). A volta na roda leva 20 min — reserve uma cabine do lado leste para ver o Stephansdom e o Ring. Depois, caminhe 15 min pela Hauptallee entre os plátanos. Jantar: o Schweizerhaus, no Wurstelprater, serve Svíčková (carne ao molho de creme checo) e Budvar checo gelado — o melhor jantar de encerramento de Viena.",
+      "searchSuggestions": [
+        "Wiener Riesenrad Wien ingresso horário preço",
+        "Prater Viena Hauptallee bicicleta passeio",
+        "O Terceiro Homem Orson Welles Riesenrad cena",
+        "Schweizerhaus Prater Wien restaurante cerveja"
+      ],
+      "visitType": "outdoor+indoor",
+      "entryFee": "Riesenrad: ~€13,50 (adulto). Prater: gratuito",
+      "schedule": {
+        "monday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "tuesday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "wednesday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "thursday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "friday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "saturday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
+        "sunday": "Riesenrad: 10:00–22:00. Prater: sempre aberto"
+      },
+      "estimatedVisitMinutes": 120,
+      "externalViewingAlways": true,
+      "proximityRadiusMeters": 150,
+      "media": {
+        "audio": "/media/routes/viena/audio/prater-riesenrad.mp3",
+        "photos": [
+          {
+            "src": "/media/routes/viena/photos/prater-riesenrad/main.jpg",
+            "caption": "Wiener Riesenrad — a roda gigante de 64 metros de 1897, símbolo de Viena e cenário d'O Terceiro Homem",
+            "type": "recognition"
+          }
+        ],
+        "subAttractions": [
+          {
+            "id": "riesenrad-terceiro-homem",
+            "name": "Riesenrad — O Terceiro Homem",
+            "image": "/media/routes/viena/sub-attractions/prater-riesenrad/riesenrad-terceiro-homem.jpg",
+            "caption": "A cabine onde Orson Welles gravou o monólogo do relógio cuco em 1948 — a cena mais famosa filmada em Viena",
+            "reel": {
+              "audioMood": "dramatic",
+              "segments": [
+                {
+                  "text": "Em 1948, o diretor Carol Reed e o roteirista Graham Greene escolheram o Riesenrad como cenário para o clímax de O Terceiro Homem — o encontro entre Harry Lime (Orson Welles) e seu amigo Holly Martins. Dentro de uma cabine em movimento, com Viena destruída pela guerra visível pelas janelas, Welles improvisa o monólogo mais famoso do noir cinematográfico.",
+                  "duration": 24,
+                  "focusZone": "full"
+                },
+                {
+                  "text": "A frase 'In Italy for 30 years under the Borgias they had warfare, terror, murder, and bloodshed, but they produced Michelangelo, Leonardo da Vinci, and the Renaissance...' não estava no roteiro original. Graham Greene a escreveu posteriormente baseado na improvisação de Welles no set. O monólogo foi eleito o 57º mais importante da história do cinema pela American Film Institute.",
+                  "duration": 26,
+                  "focusZone": "detail"
+                }
+              ]
+            }
+          },
+          {
+            "id": "prater-hauptallee",
+            "name": "Hauptallee — 4,5 km de Plátanos Imperiais",
+            "image": "/media/routes/viena/sub-attractions/prater-riesenrad/prater-hauptallee.jpg",
+            "caption": "A alameda principal do Prater: 4,5 km de plátanos seculares onde Francisco José I cavalgava e os vienenses passeiam desde 1766",
+            "reel": {
+              "audioMood": "contemplative",
+              "segments": [
+                {
+                  "text": "A Hauptallee tem 4,5 km de extensão e é ladeada por plátanos com mais de 200 anos, plantados quando o parque foi aberto ao público em 1766. Francisco José I cavalgava aqui todas as manhãs durante décadas — um ritual do Imperador que não mudou em 60 anos de reinado. Hoje é frequentada por joggers, ciclistas e famílias vienenses.",
+                  "duration": 20,
+                  "focusZone": "full"
+                }
+              ]
+            }
+          }
+        ],
+        "thumb": "/media/routes/viena/photos/prater-riesenrad/thumb.jpg"
+      },
+      "walkingNotes": "Fim do Dia 3 — encerramento da viagem em Viena. Do Prater ao hotel ou à estação para a próxima cidade: metrô U1 de Praterstern até Stephansplatz (5 min, 3 estações). Para Madri de avião: táxi/Uber direto ao Wien Hauptbahnhof ou CAT (City Airport Train) de Wien Mitte.",
+      "nextTransport": null,
+      "nextTransportMinutes": null,
+      "tags": [
+        "parque",
+        "Riesenrad",
+        "roda gigante",
+        "O Terceiro Homem",
+        "Orson Welles",
+        "imperial",
+        "lazer"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "from": "naschmarkt",
+      "to": "karlskirche",
+      "transport": "walking",
+      "minutes": 3,
+      "notes": "Pela Rechte Wienzeile — a cúpula da Karlskirche orienta o caminho"
+    },
+    {
+      "from": "karlskirche",
+      "to": "ringstrasse-staatsoper",
+      "transport": "walking",
+      "minutes": 8,
+      "notes": "Pelo Kärntner Ring em direção norte até a fachada da Staatsoper"
+    },
+    {
+      "from": "ringstrasse-staatsoper",
+      "to": "kunsthistorisches-museum",
+      "transport": "walking",
+      "minutes": 5,
+      "notes": "Pelo Burgring até a Maria-Theresien-Platz — o museu fica do lado oeste"
+    },
+    {
+      "from": "schonbrunn",
+      "to": "stadtpark",
+      "transport": "subway",
+      "minutes": 12,
+      "notes": "U4 de Schönbrunn até Stadtpark — 5 estações direto"
+    },
+    {
+      "from": "stadtpark",
+      "to": "oberes-belvedere",
+      "transport": "walking",
+      "minutes": 15,
+      "notes": "Pela Rennweg ao sul até a Prinz-Eugen-Straße"
+    },
+    {
+      "from": "oberes-belvedere",
+      "to": "hundertwasserhaus",
+      "transport": "walking",
+      "minutes": 15,
+      "notes": "Pela Ungargasse/Fasangasse ao nordeste até a Kegelgasse"
+    },
+    {
+      "from": "stephansdom",
+      "to": "graben-kohlmarkt",
+      "transport": "walking",
+      "minutes": 2,
+      "notes": "Saída sul pela Kärntner Straße — o passeio começa imediatamente"
+    },
+    {
+      "from": "graben-kohlmarkt",
+      "to": "hofburg-sisi",
+      "transport": "walking",
+      "minutes": 2,
+      "notes": "O passeio termina na Michaelerplatz — a entrada do Hofburg está à frente"
+    },
+    {
+      "from": "hofburg-sisi",
+      "to": "prater-riesenrad",
+      "transport": "subway",
+      "minutes": 15,
+      "notes": "U3 de Herrengasse até Stephansplatz, U1 até Praterstern"
+    }
+  ]
+}
