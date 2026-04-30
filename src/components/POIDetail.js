@@ -100,7 +100,7 @@ export function renderPOIDetail(container, poi, route) {
     body.appendChild(renderSubAttractions(subs));
   }
 
-  // Entry fee
+  // Entry fee + couple cost
   if (poi.entryFee) {
     body.appendChild(el('div', {},
       el('h3', { className: 'poi-detail__section-title' }, 'Entrada'),
@@ -109,6 +109,14 @@ export function renderPOIDetail(container, poi, route) {
           ? `Gratuita${poi.entryFee.notes ? ' \u00b7 ' + poi.entryFee.notes : ''}`
           : `${poi.entryFee.price || ''}${poi.entryFee.notes ? ' \u00b7 ' + poi.entryFee.notes : ''}`
       )
+    ));
+  }
+
+  if (poi.coupleCost) {
+    body.appendChild(el('div', { className: 'poi-couple-cost' },
+      el('span', { className: 'poi-couple-cost__icon' }, '\ud83d\udc69\u200d\ud83d\udc68'),
+      el('span', { className: 'poi-couple-cost__label' }, 'Casal:'),
+      el('strong', { className: 'poi-couple-cost__value' }, poi.coupleCost)
     ));
   }
 

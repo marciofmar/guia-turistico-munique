@@ -55,7 +55,118 @@
         "gellert-hegy",
         "jantar-buda"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "O almoço do dia 1 acontece na Colina do Castelo por volta das 13h, entre a visita ao Palácio de Buda e ao Bastião dos Pescadores. Há opções dentro do Bairro do Castelo (Várhegy) e ao sopé, no lado de Buda do Danúbio.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Rétesvar — Casa dos Strudels",
+                "type": "Lanchonete de strudel húngaro artesanal",
+                "address": "Szentháromság tér 1, 1014 Budapest (Bairro do Castelo)",
+                "description": "Lanchonete no coração do Bairro do Castelo especializada em rétes (strudel húngaro) recém-saído do forno — creme e cereja, maçã canela, queijo cottage. Uma das melhores pausas rápidas e baratas da colina, sem ceder ao turismo de restaurante. Acompanhe com chá de rosa mosqueta húngaro.",
+                "highlights": ["Rétes de cereja com creme (meggyes rétes)", "Rétes de maçã e canela (almás rétes)", "Rétes de queijo cottage (túrós rétes)"],
+                "estimatedCoupleCost": "€10–16"
+              },
+              {
+                "level": "mid",
+                "name": "Café Miró",
+                "type": "Café-restaurante bohemian no Bairro do Castelo",
+                "address": "Úri utca 30, 1014 Budapest",
+                "description": "Café colorido com decoração inspirada em Joan Miró, mesas na calçada da Úri utca medieval e cardápio de soups, saladas e pratos húngaros revisitados. Ambiente artístico, serviço relaxado — o equilíbrio certo entre qualidade e preço na colina, sem a formalidade dos restaurantes de hotel.",
+                "highlights": ["Sopa gulyás servida em pão escavado", "Sopa de cereja fria (meggy leves) — especialidade húngara de verão", "Lemonade artesanal de sabugueiro"],
+                "estimatedCoupleCost": "€34–48"
+              },
+              {
+                "level": "premium",
+                "name": "Alabárdos",
+                "type": "Restaurante medieval húngaro num palácio do século XV",
+                "address": "Országház utca 2, 1014 Budapest",
+                "description": "Restaurante numa casa gótica do século XV no coração do Bairro do Castelo, com paredes de pedra, tapeçarias e serviço formal. Cozinha húngara histórica revisitada — fogaça de vitela com páprica, foie gras de pato com Tokaji, strudel de nozes como sobremesa. Um dos almoços mais atmosféricos de Budapeste.",
+                "highlights": ["Fogaça de vitela com páprica e creme (borjú paprikás)", "Foie gras de ganso com Tokaji Aszú", "Rétes de nozes e mel como sobremesa"],
+                "estimatedCoupleCost": "€80–120"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O jantar do dia 1 está incluído no roteiro como POI (Rivalda Restaurant — instalado numa nave carmelita do século XVIII no Bairro do Castelo). As opções abaixo são alternativas para diferentes orçamentos.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Fortuna Önkiszolgáló",
+                "type": "Restaurante self-service húngaro clássico",
+                "address": "Hess András tér 4, 1014 Budapest (Bairro do Castelo)",
+                "description": "Self-service clássico hungaro no próprio Bairro do Castelo — gulyás, főzelék (purê de legumes húngaro), Rakott krumpli (gratinado de batata) servidos em bandejas de metal com panelas fumegantes. Sem glamour, sem fila de turista, com porções generosas e preços locais.",
+                "highlights": ["Marhagulyás (gulyás de vaca) com pão de centeio", "Rakott krumpli (batata gratinada com ovo e salame)", "Főzelék de lentilha com ovo frito"],
+                "estimatedCoupleCost": "€16–24"
+              },
+              {
+                "level": "mid",
+                "name": "Rivalda Restaurant",
+                "type": "Restaurante elegante em nave carmelita do século XVIII",
+                "address": "Színház utca 5–9, 1014 Budapest (ao lado do Teatro Nacional de Buda)",
+                "description": "POI incluído no roteiro. Instalado na nave lateral de uma ex-igreja carmelita do século XVIII, o Rivalda combina arquitetura histórica com cozinha continental refinada. Pato confitado com couve roxa, cordeiro assado com legumes da estação, lista de vinhos húngaros do Eger e Tokaj. Uma das mesas mais atmosféricas de Buda.",
+                "highlights": ["Pato confitado com couve roxa e purê de batata trufado", "Cordeiro assado com legumes da estação e mint jus", "Vinho tinto Egri Bikavér (Sangue de Touro do Eger)"],
+                "estimatedCoupleCost": "€70–110"
+              },
+              {
+                "level": "premium",
+                "name": "21 Magyar Vendéglő",
+                "type": "Cozinha húngara contemporânea no Bairro do Castelo",
+                "address": "Fortuna utca 21, 1014 Budapest",
+                "description": "Restaurante de alta cozinha húngara moderna com menu degustação baseado em ingredientes sazonais e produtores locais. Gulyás desconstruído, foie gras de ganso do Hortobágy, sobremesas com Tokaji Aszú. A versão mais sofisticada da cozinha húngara dentro do Bairro do Castelo.",
+                "highlights": ["Menu degustação de 6 cursos com cozinha húngara contemporânea", "Gulyás desconstruído com creme de paprika defumada", "Harmonização com vinhos das regiões húngaras (Tokaj, Eger, Villány)"],
+                "estimatedCoupleCost": "€100–150"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            {
+              "poiId": "budavari-palota",
+              "name": "Palácio Real de Buda",
+              "coupleCost": "~€14–30",
+              "note": "Galeria Nacional ~€14 ou Museu de História ~€12; pátios gratuitos"
+            },
+            {
+              "poiId": "halaszbastya-matyas",
+              "name": "Bastião dos Pescadores e Igreja de Matias",
+              "coupleCost": "~€16",
+              "note": "Torres €6 + Igreja Matias €10; térreo gratuito"
+            },
+            {
+              "poiId": "gellert-hegy",
+              "name": "Colina Gellért",
+              "coupleCost": "Gratuito",
+              "note": "Parque e Citadela gratuitos"
+            },
+            {
+              "poiId": "jantar-buda",
+              "name": "Jantar: Rivalda Restaurant",
+              "coupleCost": "~€70–110",
+              "note": "€35–55/pessoa com vinho"
+            }
+          ],
+          "attractionsSubtotal": "~€30–46",
+          "attractionsNote": "Palácio + Bastião/Matias; Colina Gellért gratuita",
+          "dailyTotal": {
+            "budget": {
+              "meals": "~€26–40",
+              "total": "~€56–86"
+            },
+            "mid": {
+              "meals": "~€104–158",
+              "total": "~€134–204"
+            },
+            "premium": {
+              "meals": "~€180–270",
+              "total": "~€210–316"
+            }
+          }
+        }
+      }
     },
     {
       "id": "dia-2",
@@ -81,7 +192,136 @@
         "sinagoga-dohany",
         "jantar-bairro-judio"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "O almoço do dia 2 está incluído no roteiro como POI (Café Gerbeaud, na Vörösmarty tér), posicionado entre a Basílica e a visita à Ópera. As opções abaixo são alternativas para diferentes orçamentos.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Borssó Bistró",
+                "type": "Bistrô de almoço rápido no centro de Pest",
+                "address": "Bajcsy-Zsilinszky út 8, 1051 Budapest",
+                "description": "Bistrô moderno e descontraído no Pest central, com saladas frescas, sopas do dia e wraps de ingredientes húngaros. Sem a formalidade dos restaurantes da zona turística — frequentado por trabalhadores do distrito V. Menu do dia a partir de €6/pessoa.",
+                "highlights": ["Sopa de tomate assado com creme de paprika", "Salada de beterraba com queijo de cabra", "Wrap de frango paprikás com pepino fermentado"],
+                "estimatedCoupleCost": "€18–28"
+              },
+              {
+                "level": "mid",
+                "name": "Café Gerbeaud",
+                "type": "Café histórico de 1858 na praça central",
+                "address": "Vörösmarty tér 7–8, 1051 Budapest",
+                "description": "POI incluído no roteiro. O café mais famoso de Budapeste, fundado em 1858 e reformado pelo confeiteiro suíço Emil Gerbeaud em 1884. Interior Belle Époque com lustres de cristal, mesas de mármore e serviço formal. Somlói galuska, Dobos torta e o lendário Gerbeaud-szelet (bolo de camadas de nozes e geleia de damasco) são os ícones obrigatórios.",
+                "highlights": ["Dobos torta (bolo de sete camadas com caramelo)", "Gerbeaud-szelet (bolo de nozes e geleia de damasco coberto de chocolate)", "Café vienense com chantilly e açúcar em pedra"],
+                "estimatedCoupleCost": "€40–60"
+              },
+              {
+                "level": "premium",
+                "name": "Kárpátia",
+                "type": "Restaurante histórico húngaro desde 1877",
+                "address": "Ferenciek tere 7–8, 1053 Budapest",
+                "description": "Um dos restaurantes mais antigos de Budapeste, em atividade desde 1877 num ambiente Belle Époque com tetos pintados e guitarristas ciganos ao jantar. Cozinha húngara tradicional com halászlé (sopa de peixe com páprica), paprikás csirke e Tokaji botrytis na carta de vinhos.",
+                "highlights": ["Halászlé (sopa de peixe com páprica picante)", "Paprikás csirke (frango na páprica com creme e spätzle)", "Guitarrista cigano ao vivo durante o almoço"],
+                "estimatedCoupleCost": "€60–90"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O jantar do dia 2 está incluído no roteiro como POI (Kőleves + Szimpla Kert no Bairro Judeu). As opções abaixo são alternativas.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Szimpla Kert + comida de rua",
+                "type": "Ruin bar com comida de rua e cervejas artesanais",
+                "address": "Kazinczy utca 14, 1075 Budapest (Bairro Judeu)",
+                "description": "O ruin bar mais famoso de Budapeste — numa fábrica em ruínas do século XIX com jardim interno, arte urbana e mais de 50 torneiras de chope. Compre comida nas barracas de street food do pátio: gulyás no pão, lángos (massa frita), kürtőskalács. Sem reserva, sem formalidade, com a energia mais autêntica de Budapeste.",
+                "highlights": ["Lángos (massa frita) com creme azedo e queijo", "Gulyás no pão escavado", "Cervejas artesanais húngaras (Monyo, Mad Scientist)"],
+                "estimatedCoupleCost": "€20–32"
+              },
+              {
+                "level": "mid",
+                "name": "Kőleves (Sopa de Pedra)",
+                "type": "Restaurante com jardim no Bairro Judeu",
+                "address": "Kazinczy utca 41, 1075 Budapest",
+                "description": "POI incluído no roteiro. Restaurante com jardim interno coberto de heras na rua Kazinczy, a 3 minutos da Sinagoga Dohány. Menu sazonal com ingredientes locais, cozinha húngara contemporânea. Shawarma de cordeiro com creme de páprica, salada de beterraba com nozes e kézzel gyúrt tészta (macarrão caseiro).",
+                "highlights": ["Cordeiro assado com creme de páprica defumada", "Kézzel gyúrt tészta (massa caseira) com cogumelos silvestres", "Vinho Bikavér do Eger por taça"],
+                "estimatedCoupleCost": "€40–60"
+              },
+              {
+                "level": "premium",
+                "name": "Costes Downtown",
+                "type": "1 estrela Michelin — cozinha mediterrânea-húngara",
+                "address": "Vigyázó Ferenc utca 5, 1051 Budapest",
+                "description": "Filial urbana do pioneiro Costes (primeiro restaurante húngaro a ganhar estrela Michelin), com uma cozinha mediterrânea de alta técnica usando ingredientes húngaros excepcionais. Menu degustação de 6 cursos com harmonização de vinhos do Tokaj e do Villány. A aposta certa para um jantar de gala em Budapeste.",
+                "highlights": ["Menu degustação de 6 cursos com harmonização de vinhos húngaros", "Foie gras de ganso húngaro com compota de albricoque Tokaji", "Bacalhau com creme de páprica e papardelle de tinta de lula"],
+                "estimatedCoupleCost": "€130–180"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            {
+              "poiId": "parlamento-budapeste",
+              "name": "Parlamento de Budapeste",
+              "coupleCost": "~€54",
+              "note": "€27/pessoa (não-UE); exterior e Sapatos gratuitos"
+            },
+            {
+              "poiId": "praca-liberdade",
+              "name": "Praça da Liberdade",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "basilica-santo-estevao",
+              "name": "Basílica de Santo Estevão",
+              "coupleCost": "~€20",
+              "note": "Cúpula €10/pessoa; igreja gratuita"
+            },
+            {
+              "poiId": "almoco-andrassy",
+              "name": "Almoço: Café Gerbeaud",
+              "coupleCost": "~€40–60",
+              "note": "~€20–30/pessoa"
+            },
+            {
+              "poiId": "andrassy-opera",
+              "name": "Ópera Estatal Húngara",
+              "coupleCost": "~€30",
+              "note": "Tour €15/pessoa; fachada gratuita"
+            },
+            {
+              "poiId": "sinagoga-dohany",
+              "name": "Sinagoga da Rua Dohány",
+              "coupleCost": "~€30",
+              "note": "€15/pessoa, tour completo"
+            },
+            {
+              "poiId": "jantar-bairro-judio",
+              "name": "Jantar: Kőleves e Szimpla Kert",
+              "coupleCost": "~€40–60",
+              "note": "Kőleves ~€20–30/pessoa; Szimpla gratuito + consumo"
+            }
+          ],
+          "attractionsSubtotal": "~€134–154",
+          "attractionsNote": "Parlamento + Basílica (cúpula) + Ópera (tour) + Sinagoga = atrações pagas principais",
+          "dailyTotal": {
+            "budget": {
+              "meals": "~€38–60",
+              "total": "~€172–214"
+            },
+            "mid": {
+              "meals": "~€80–120",
+              "total": "~€214–274"
+            },
+            "premium": {
+              "meals": "~€190–270",
+              "total": "~€324–424"
+            }
+          }
+        }
+      }
     },
     {
       "id": "dia-3",
@@ -106,7 +346,130 @@
         "ilha-margarida",
         "jantar-despedida"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "O almoço do dia 3 acontece no Mercado Central ou nas adjacências da Váci utca, por volta das 13h, antes de pegar o Metrô M1 rumo à Praça dos Heróis. O próprio mercado tem opções de almoço no primeiro andar.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Mercado Central — lanchonetes do 1º andar",
+                "type": "Lanchonetes locais dentro do mercado coberto",
+                "address": "Vámház körút 1–3, 1093 Budapest (Nagy Vásárcsarnok)",
+                "description": "O primeiro andar do Mercado Central tem lanchonetes com cardápio em húngaro e preços locais: lángos (massa frita com creme e queijo), kürtőskalács, somlói galuska e gulyás em sopas quentes. O mercado em si é a atração — comprem páprica, salame Mangalica e mel antes do almoço.",
+                "highlights": ["Lángos com creme azedo e queijo (tejfeles, sajtos)", "Gulyás húngaro de panela com pão de centeio", "Somlói galuska (pudim húngaro de bolo, nozes e creme)"],
+                "estimatedCoupleCost": "€14–22"
+              },
+              {
+                "level": "mid",
+                "name": "Frici Papa Kifőzdéje",
+                "type": "Restaurante popular húngaro clássico",
+                "address": "Király utca 55, 1061 Budapest",
+                "description": "Restaurante popular clássico num edifício de 1890, com menu escrito à mão diariamente conforme o que foi comprado no mercado. Paprikás csirke, töltött káposzta (repolho recheado com carne suína e arroz), Lecsó (ratatouille húngaro). Frequentado por aposentados e estudantes — sem turismo, sem pretensão.",
+                "highlights": ["Paprikás csirke com spätzle (frango na páprica com macarrão caseiro)", "Töltött káposzta (repolho recheado) com creme azedo", "Lecsó (tomate, pimentão e ovo na frigideira)"],
+                "estimatedCoupleCost": "€24–36"
+              },
+              {
+                "level": "premium",
+                "name": "Borkonyha",
+                "type": "1 estrela Michelin — almoço ou jantar (POI incluído no roteiro)",
+                "address": "Sas utca 3, 1051 Budapest",
+                "description": "POI incluído como jantar de despedida no roteiro. O Borkonyha (Cozinha de Vinho) é o único restaurante húngaro com estrela Michelin atualmente e o que melhor articula a cozinha húngara contemporânea. Menu à la carte e menu degustação. A reserva é indispensável — reserve em borkonyha.hu com antecedência.",
+                "highlights": ["Foie gras de ganso do Hortobágy com melão e flores comestíveis", "Kacsa (pato) confitado com raiz-forte e beterraba fermentada", "Harmonização com vinhos brancos do Tokaj e Somló"],
+                "estimatedCoupleCost": "€80–140"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O jantar de despedida está incluído no roteiro como POI (Borkonyha — único restaurante húngaro com estrela Michelin). Reserve com antecedência em borkonyha.hu. As opções abaixo são alternativas.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Rosenstein Vendéglő",
+                "type": "Restaurante judeu-húngaro histórico",
+                "address": "Mosonyi utca 3, 1087 Budapest",
+                "description": "Restaurante de culinária judaico-húngara em atividade desde os anos 1980 perto da Keleti pályaudvar. Libamáj (fígado de ganso), huso em molho de tomate, sólét (ensopado de feijão e carne no shabat). Ambiente familiar com avós húngaras servindo porções que alimentam dois dias.",
+                "highlights": ["Libamáj (fígado de ganso) com cebola caramelizada", "Sólét (ensopado de cevada com costela e ovo)", "Beigli (rocambole húngaro de nozes ou papoula)"],
+                "estimatedCoupleCost": "€40–56"
+              },
+              {
+                "level": "mid",
+                "name": "Onyx (Café Gerbeaud de noite)",
+                "type": "Restaurante Michelin no Gerbeaud",
+                "address": "Vörösmarty tér 7–8, 1051 Budapest",
+                "description": "O Onyx, com estrela Michelin, opera à noite no mesmo edifício do Gerbeaud na Vörösmarty tér. Menu degustação de cozinha húngara contemporânea num ambiente Belle Époque imaculado. Gulyás desconstruído, foie gras de ganso, somlói galuska reinventado. O jantar mais elegante de Budapeste.",
+                "highlights": ["Menu degustação de 6 cursos com cozinha húngara de vanguarda", "Gulyás desconstruído com espuma de páprica defumada", "Somlói galuska reinventado como sobremesa de alta confeitaria"],
+                "estimatedCoupleCost": "€120–180"
+              },
+              {
+                "level": "premium",
+                "name": "Borkonyha",
+                "type": "1 estrela Michelin — jantar de despedida",
+                "address": "Sas utca 3, 1051 Budapest",
+                "description": "POI incluído no roteiro. O Borkonyha articula a cozinha húngara contemporânea com 550 rótulos de vinho na adega — dos brancos minerais do Somló aos tintos encorpados de Villány. Foie gras de ganso do Hortobágy, kacsa (pato) com raiz-forte e beterraba fermentada. Reserve com pelo menos 2 semanas de antecedência.",
+                "highlights": ["Foie gras de ganso do Hortobágy com melão e flores comestíveis", "Kacsa (pato) confitado com raiz-forte e beterraba fermentada", "550 rótulos de vinho húngaro — pergunte pelo sommelier"],
+                "estimatedCoupleCost": "€80–140"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            {
+              "poiId": "mercado-central",
+              "name": "Mercado Central (Nagy Vásárcsarnok)",
+              "coupleCost": "Gratuito",
+              "note": "Entrada gratuita; compras e lanches à parte"
+            },
+            {
+              "poiId": "metro-m1-milenio",
+              "name": "Metrô M1 do Milênio",
+              "coupleCost": "~€3–14",
+              "note": "Bilhetes individuais €1,50/pessoa ou passe diário €7/pessoa"
+            },
+            {
+              "poiId": "heroes-square",
+              "name": "Praça dos Heróis",
+              "coupleCost": "Gratuito",
+              "note": "Museu de Belas Artes ~€20 extra (fechado segundas)"
+            },
+            {
+              "poiId": "szechenyi-furdok",
+              "name": "Banhos Széchenyi",
+              "coupleCost": "~€52–60",
+              "note": "€26–30/pessoa com cabine; ingressos online em szechenyifurdo.hu"
+            },
+            {
+              "poiId": "ilha-margarida",
+              "name": "Ilha Margarida",
+              "coupleCost": "Gratuito",
+              "note": "Parque gratuito; Termas Palatinus ~€24 extra se visitar"
+            },
+            {
+              "poiId": "jantar-despedida",
+              "name": "Jantar de Despedida: Borkonyha",
+              "coupleCost": "~€80–140",
+              "note": "€40–70/pessoa; reserva obrigatória"
+            }
+          ],
+          "attractionsSubtotal": "~€55–74",
+          "attractionsNote": "Metrô M1 + Széchenyi são as únicas atrações pagas; praça e Ilha gratuitas",
+          "dailyTotal": {
+            "budget": {
+              "meals": "~€54–78",
+              "total": "~€109–152"
+            },
+            "mid": {
+              "meals": "~€104–176",
+              "total": "~€159–250"
+            },
+            "premium": {
+              "meals": "~€160–280",
+              "total": "~€215–354"
+            }
+          }
+        }
+      }
     }
   ],
   "pois": [
@@ -141,6 +504,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Pátios externos: gratuitos. Galeria Nacional Húngara: ~€7. Museu de História de Budapeste: ~€6. Funicular (ida e volta): ~€8",
+      "coupleCost": "~€14–30 (Galeria ~€14 ou Museu ~€12; pátios gratuitos; funicular €16 ida e volta)",
       "schedule": {
         "monday": "Pátios: sempre. Galeria Nacional: fechada. Museu de História: 10:00–18:00",
         "tuesday": "10:00–18:00",
@@ -260,6 +624,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Bastião (térreo): gratuito. Torres superiores: ~€3. Igreja de Matias: ~€5",
+      "coupleCost": "~€16 (torres €6 + Igreja Matias €10); térreo do Bastião gratuito",
       "schedule": {
         "monday": "09:00–21:00 (Bastião). Igreja: 09:00–17:00",
         "tuesday": "09:00–21:00",
@@ -380,6 +745,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Tour interior (inclui Coroa): ~€7 (cidadãos UE) ou ~€27 (não-UE). Exterior e memorial dos Sapatos: gratuito",
+      "coupleCost": "~€54 (~€27/pessoa, não-UE); exterior e Sapatos gratuitos",
       "schedule": {
         "monday": "Tour interior: 08:00–18:00 (quando Parlamento não está em sessão)",
         "tuesday": "08:00–18:00",
@@ -499,6 +865,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "Igreja: gratuito (donativo sugerido ~€2). Cúpula: ~€10. Tesouro da basílica: ~€4",
+      "coupleCost": "~€20 (cúpula €10/pessoa); igreja gratuita",
       "schedule": {
         "monday": "09:00–17:00",
         "tuesday": "09:00–17:00",
@@ -592,6 +959,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Fachada e Andrássy: gratuitos. Tour da Ópera: ~€15. Casa do Terror: ~€10",
+      "coupleCost": "~€30 (tour da Ópera €15/pessoa); fachada e Andrássy gratuitos",
       "schedule": {
         "monday": "Andrássy: sempre. Ópera (tours): 14:00 e 15:30. Casa do Terror: 10:00–18:00",
         "tuesday": "10:00–18:00 (Terror); tours Ópera: 14:00 e 15:30",
@@ -685,6 +1053,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Praça: gratuito. Museu de Belas Artes: ~€10",
+      "coupleCost": "Gratuito (praça e Memorial do Milênio); Museu de Belas Artes ~€20 (~€10/pessoa) se visitar",
       "schedule": {
         "monday": "Praça: sempre. Museu Belas Artes: fechado",
         "tuesday": "Praça: sempre. Museu: 10:00–18:00",
@@ -778,6 +1147,7 @@
       ],
       "visitType": "indoor+outdoor",
       "entryFee": "Ingresso básico com cabine: ~€26–30. Com armário compartilhado: ~€20–24. Ingressos online em szechenyifurdo.hu",
+      "coupleCost": "~€52–60 (~€26–30/pessoa com cabine individual)",
       "schedule": {
         "monday": "06:00–22:00",
         "tuesday": "06:00–22:00",
@@ -871,6 +1241,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito. Citadela: acesso livre ao terraço externo.",
+      "coupleCost": "Gratuito (parque, Citadela e terraço externo)",
       "schedule": {
         "monday": "Sempre aberto (exterior)",
         "tuesday": "Sempre aberto",
@@ -964,6 +1335,7 @@
       ],
       "visitType": "indoor+outdoor",
       "entryFee": "Tour sinagoga + museu: ~€15. Exterior: gratuito.",
+      "coupleCost": "~€30 (~€15/pessoa, tour completo); exterior gratuito",
       "schedule": {
         "monday": "10:00–18:00",
         "tuesday": "10:00–18:00",
@@ -1057,6 +1429,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "Gratuito (mercado público)",
+      "coupleCost": "Gratuito (entrada); compras e lanches à parte",
       "schedule": {
         "monday": "06:00–17:00",
         "tuesday": "06:00–18:00",
@@ -1149,6 +1522,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito",
+      "coupleCost": "Gratuito",
       "schedule": {
         "monday": "Sempre aberto",
         "tuesday": "Sempre aberto",
@@ -1240,6 +1614,7 @@
       ],
       "visitType": "dining",
       "entryFee": "Almoço leve + bolo + café: ~€20–30 por pessoa",
+      "coupleCost": "~€40–60 (~€20–30/pessoa)",
       "schedule": {
         "monday": "09:00–21:00",
         "tuesday": "09:00–21:00",
@@ -1333,6 +1708,7 @@
       ],
       "visitType": "dining",
       "entryFee": "Kőleves: jantar ~€20–30 por pessoa. Szimpla Kert: sem entrada, cervejas a partir de ~€3",
+      "coupleCost": "~€40–60 no Kőleves (~€20–30/pessoa); Szimpla Kert gratuito + consumo",
       "schedule": {
         "monday": "Kőleves: 11:00–23:00. Szimpla: 12:00–04:00",
         "tuesday": "Kőleves: 11:00–23:00. Szimpla: 12:00–04:00",
@@ -1425,6 +1801,7 @@
       ],
       "visitType": "transport-experience",
       "entryFee": "Bilhete único: ~€1,50. Passe diário (ilimitado): ~€7",
+      "coupleCost": "~€3–14 (bilhetes individuais €1,50/pessoa ou passe diário €7/pessoa)",
       "schedule": {
         "monday": "04:30–23:15",
         "tuesday": "04:30–23:15",
@@ -1518,6 +1895,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Parque: gratuito. Termas Palatinus: ~€12. Anfiteatro: variável (~€10–30)",
+      "coupleCost": "Gratuito (parque); Termas Palatinus ~€24 (~€12/pessoa) se visitar",
       "schedule": {
         "monday": "Parque: sempre aberto. Termas: 09:00–19:00",
         "tuesday": "Parque: sempre aberto. Termas: 09:00–19:00",
@@ -1610,6 +1988,7 @@
       ],
       "visitType": "dining",
       "entryFee": "Menu de degustação: ~€60–70 por pessoa (sem vinhos). À la carte: ~€40–50",
+      "coupleCost": "~€80–140 (~€40–70/pessoa, à la carte ou degustação sem vinhos)",
       "schedule": {
         "monday": "12:00–15:00 e 18:00–23:00",
         "tuesday": "12:00–15:00 e 18:00–23:00",
@@ -1701,6 +2080,7 @@
       ],
       "visitType": "dining",
       "entryFee": "Jantar: ~€35–55 por pessoa (com vinho)",
+      "coupleCost": "~€70–110 (~€35–55/pessoa com vinho)",
       "schedule": {
         "monday": "12:00–23:00",
         "tuesday": "12:00–23:00",

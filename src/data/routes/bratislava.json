@@ -48,7 +48,87 @@
         "bratislava-hrad",
         "hlavne-namestie"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após a visita ao Castelo de Bratislava (~13h), desça ao centro histórico pela Zámocká Street. O centro antigo da cidade (Staré Mesto) fica a 10 min a pé do castelo.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Slovak Pub",
+                "type": "Restaurante eslovaco tradicional",
+                "address": "Obchodná 62, 811 06 Bratislava",
+                "description": "O maior restaurante de culinária eslovaca tradicional em Bratislava — três andares com decoração folk, música ao vivo às noites e porções enormes dos pratos nacionais. O bryndzové halušky (nhoque de batata com queijo de ovelha bryndza e bacon frito) é o prato nacional da Eslováquia e aqui é feito à maneira tradicional. Muito popular entre os próprios bratislavanos, especialmente os mais jovens.",
+                "highlights": ["Bryndzové halušky (nhoque de batata com queijo de ovelha)", "Kapustnica (sopa de chucrute com salsichão defumado)", "Svíčková eslovaca (alcatra no molho de creme com knedlíky)", "Cerveja Zlatý Bažant ou Urpiner (cervejas eslovacas clássicas)"],
+                "estimatedCoupleCost": "€12–22"
+              },
+              {
+                "level": "mid",
+                "name": "Bratislavský Meštianský Pivovar",
+                "type": "Cervejaria histórica artesanal",
+                "address": "Drevená 8, 811 01 Bratislava",
+                "description": "A mais bela cervejaria artesanal de Bratislava, instalada numa casa burguesa histórica perto do centro antigo. Cerveja produzida em tanques de cobre visíveis pelo salão: lager, dunkel, weizen e cerveja sazonal. A gastronomia eslovaca aqui está acima da média das cervejarias — Schnitzel de vitela, Stelze assada, pretzels artesanais. O ambiente de adega histórica com tijolos à vista é o mais autêntico da cidade.",
+                "highlights": ["Pivný guláš (gulasch cozido na cerveja da casa)", "Prasiatko (leitão assado com chucrute e bolinhos)", "Stelze (joelho de porco assado, porção para 2)", "Degustação de 4 cervejas da casa (0,3L cada)"],
+                "estimatedCoupleCost": "€28–44"
+              },
+              {
+                "level": "premium",
+                "name": "Pálffy Palác",
+                "type": "Restaurante em palácio barroco",
+                "address": "Zámocká 47, 811 01 Bratislava (junto ao castelo)",
+                "description": "Instalado num palácio barroco do século XVIII na rua que sobe ao Castelo de Bratislava, o Pálffy Palác é o endereço mais elegante da cidade. O interior preserva os estuques e pinturas originais dos Pálffy — uma das mais poderosas famílias aristocráticas do Reino da Hungria. Mozart tocou num palácio Pálffy em Bratislava em 1762 (neste ou num semelhante da família). Culinária eslovaca e centroeuropeia de alto nível.",
+                "highlights": ["Foie gras com compota de maçã do Tirol", "Venado de Zlínsky kraj com chanterelles da floresta", "Soufflé de queijo bryndza com uvas moscatel", "Vinho eslovaco Frankovka Modrá ou Welschriesling da Małá Karpati"],
+                "estimatedCoupleCost": "€60–90"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O centro histórico de Bratislava é compacto — todas as opções abaixo ficam a 10 min a pé umas das outras. Bratislava janta cedo para os padrões centroeuropeus (19h–21h).",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Slovenský Krčma",
+                "type": "Taberna eslovaca tradicional",
+                "address": "Zámocká 11, 811 01 Bratislava",
+                "description": "Uma das tabernas mais acolhedoras do centro histórico de Bratislava — decoração folk eslovaca, músicos que tocam ao vivo às noites, e um cardápio de pratos caseiros eslovacos que parecem saídos da cozinha de uma avó campestre. Preços muito acessíveis mesmo para o padrão eslovaco. O ambiente de adega de pedra e o serviço informal completam a experiência.",
+                "highlights": ["Haluška (nhoque com bacon e queijo)", "Pečená kačica (pato assado com molho de cereja)", "Lokša (crepe de batata com pato ou papoula)", "Borovička (aquavit eslovaco de bagas de zimbro)"],
+                "estimatedCoupleCost": "€16–28"
+              },
+              {
+                "level": "mid",
+                "name": "Modrá Hviezda",
+                "type": "Restaurante histórico na colina do castelo",
+                "address": "Beblavého 14, 811 01 Bratislava (caminho para o castelo)",
+                "description": "Um dos restaurantes mais antigos e queridos de Bratislava, na rua medieval que sobe ao castelo. O edifício data do século XVIII. A carta combina a cozinha eslovaca com influências húngaras e austro-húngaras — lembrando que Bratislava (então Pozsony) foi capital do Reino da Hungria durante 300 anos. Excelente adega com vinhos eslovacos da região de Malá Karpaty (Pequenos Cárpatos), de vinhedos a 20 km da cidade.",
+                "highlights": ["Szalontüdő (tripas à húngara com páprica doce)", "Pečené bravčové koleno (joelho de porco assado)", "Bryndzové pirohy (pierogi com queijo bryndza e bacon)", "Vinho Rizling Vlašský ou Welschriesling da Malá Karpaty"],
+                "estimatedCoupleCost": "€36–56"
+              },
+              {
+                "level": "premium",
+                "name": "UFO Watch.Taste.Groove",
+                "type": "Restaurante panorâmico na Ponte SNP",
+                "address": "Most SNP (Ponte SNP), 851 01 Bratislava",
+                "description": "Instalado no disco voador (UFO) a 80 metros acima do Danúbio no topo do pilone da Ponte SNP, construída em 1972. Uma das experiências mais únicas da Europa Central: jantar num ovni suspenso sobre o Danúbio, com Bratislava, o castelo iluminado e a Áustria ao fundo. O elevador que sobe ao UFO já vale a visita. Culinária internacional-eslovaca com apresentação contemporânea.",
+                "highlights": ["Vista panorâmica 360° de Bratislava, Danúbio e Áustria", "Pato confitado com couve-roxa e knödel de batata", "Bacalhau do Atlântico com creme de alho assado e espargos", "Cocktails no topo antes ou depois do jantar"],
+                "estimatedCoupleCost": "€80–120"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "bratislava-hrad", "name": "Castelo de Bratislava", "coupleCost": "~€20", "note": "Museu Nacional €10/pessoa; pátios e terraço gratuitos" },
+            { "poiId": "hlavne-namestie", "name": "Hlavné Námestie", "coupleCost": "~€8", "note": "Praça gratuita; Museu da Cidade €4/pessoa (opcional)" }
+          ],
+          "attractionsSubtotal": "~€28",
+          "attractionsNote": "Bratislava tem um dos melhores rácios custo-qualidade da viagem: tudo é muito acessível.",
+          "dailyTotal": {
+            "budget": { "meals": "~€40", "total": "~€68" },
+            "mid": { "meals": "~€82", "total": "~€110" },
+            "premium": { "meals": "~€180", "total": "~€208" }
+          }
+        }
+      }
     },
     {
       "id": "dia-2",
@@ -70,7 +150,88 @@
         "hviezdoslavovo-namestie",
         "michael-brana"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "O Hviezdoslavovo námestie e o centro histórico ficam a 5 min a pé um do outro. É a área mais movimentada de Bratislava para refeições.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Bratislavský Meštianský Pivovar",
+                "type": "Cervejaria histórica artesanal",
+                "address": "Drevená 8, 811 01 Bratislava",
+                "description": "Se não foi utilizado no Dia 1, a cervejaria histórica do centro é a melhor opção de almoço acessível com qualidade garantida. Cardápio rotativo com especiais do dia a preços de refeitório (Tagesmenu: sopa + prato ~€8). O gulasch de cerveja e o Stelze são as vedetes do almoço.",
+                "highlights": ["Tagesmenu: sopa + prato do dia (€7–9/pessoa)", "Pivný guláš com knedlíky", "Pretzel artesanal com manteiga e sal grosso", "Cerveja Märzen de produção própria"],
+                "estimatedCoupleCost": "€16–26"
+              },
+              {
+                "level": "mid",
+                "name": "Bistro St. Germain",
+                "type": "Bistrô francês-eslovaco",
+                "address": "Ventúrska 4, 811 01 Bratislava (centro histórico)",
+                "description": "Um dos restaurantes mais queridos pelos bratislavanos que trabalham no centro histórico — influência francesa com ingredientes eslovacos locais. Cardápio do dia atualizado semanalmente com base nos melhores produtos de época. Espaço pequeno e muito cheio ao almoço (chegar às 12h30 para garantir mesa). Vinho natural e biodynamic de produtores eslovacos e austríacos.",
+                "highlights": ["Vitela com chanterelles da floresta carpática", "Peixe do Danúbio com ervas frescas e manteiga", "Quiche de espargos brancos e queijo eslovaco", "Vinhos da Malá Karpaty por taça"],
+                "estimatedCoupleCost": "€30–46"
+              },
+              {
+                "level": "premium",
+                "name": "Paparazzi",
+                "type": "Restaurante gastronômico no centro histórico",
+                "address": "Laurinská 1, 811 01 Bratislava",
+                "description": "O restaurante mais celebrado do centro histórico de Bratislava, com décadas de excelência. Ambiente elegante mas descontraído, muito frequentado por diplomatas, empresários e pelos melhores palatos da cidade. Cozinha mediterrânea e eslovaca de alto nível, com seleção cuidadosa de vinhos eslovacos e austríacos. Reserva antecipada recomendada.",
+                "highlights": ["Lagosta do Atlântico com bisque de saffron", "Pato confit com risotto de trufa negra", "Tartare de wagyu com gema de codorniz e brioche", "Vinho Welschriesling Výberová sklizeň da Malá Karpaty"],
+                "estimatedCoupleCost": "€60–90"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "Última noite em Bratislava antes de partir para Viena. O jantar pode ser antecipado (18h–19h) para aproveitar a transição tranquila. A orla do Danúbio (Nábřeží) fica a 10 min a pé do centro histórico.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Slovak Pub",
+                "type": "Restaurante eslovaco tradicional",
+                "address": "Obchodná 62, 811 06 Bratislava",
+                "description": "Se não foi o almoço do Dia 1, o Slovak Pub é imperdível. Uma última refeição de culinária eslovaca autêntica antes da sofisticação vienense que vem a seguir — o contraste é parte da experiência da viagem. Bryndzové halušky, kapustnica, goulash com knedlíky. Cerveja gelada de €2.50. O único lugar onde sentará ao lado de grupos de estudantes eslovacos e turistas com a mesma disposição.",
+                "highlights": ["Bryndzové halušky (o prato nacional da Eslováquia)", "Kapustnica (sopa de chucrute com presunto defumado)", "Palacinka (crepe eslovaco doce de sobremesa)", "Cerveja Zlatý Bažant ou Urpiner"],
+                "estimatedCoupleCost": "€14–24"
+              },
+              {
+                "level": "mid",
+                "name": "Promenáda",
+                "type": "Restaurante à beira do Danúbio",
+                "address": "Rybné námestie 1, 811 02 Bratislava (orla do Danúbio)",
+                "description": "Situado na margem do Danúbio, o Promenáda é um dos restaurantes mais populares de Bratislava entre os habitantes locais. Esplanada com vista para o rio e para o castelo iluminado à noite. Culinária eslovaca e centroeuropeia de qualidade média-alta. O local ideal para a última noite em Bratislava — com o Danúbio iluminado à noite e o castelo ao fundo, é um encerramento bonito antes da chegada a Viena.",
+                "highlights": ["Pstruh na masle (truta do Danúbio com manteiga e amêndoas)", "Bravčové rebrá (costelas de porco grelhadas com coleslaw)", "Dukátové buchtičky (bolinhos doces vienenses com creme de baunilha)", "Vinho rosé eslovaco da Nitra"],
+                "estimatedCoupleCost": "€40–60"
+              },
+              {
+                "level": "premium",
+                "name": "Grand Cru",
+                "type": "Wine bar e gastronomia contemporânea",
+                "address": "Štúrova 3, 811 02 Bratislava",
+                "description": "A melhor lista de vinhos de Bratislava, com foco em rótulos eslovacos de produtores pequenos e biodinâmicos das regiões de Malá Karpaty, Tokaj eslovaco e Nitria. A gastronomia acompanha: culinária contemporânea de influência centroeuropeia com ingredientes locais de qualidade. O sommelier é referência em vinhos eslovacos — uma oportunidade única de aprofundar o conhecimento sobre vinhos da Europa Central.",
+                "highlights": ["Degustação guiada de 4 vinhos eslovacos com harmonização", "Cerf (veado) com chutneys de frutos silvestres", "Terrina de foie gras com vinho tokaji eslovaco", "Selekcia slovenských syrov (queijos eslovacos artesanais)"],
+                "estimatedCoupleCost": "€80–120"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "primacialni-palac", "name": "Palácio Primacial", "coupleCost": "~€8", "note": "€4/pessoa" },
+            { "poiId": "hviezdoslavovo-namestie", "name": "Hviezdoslavovo Námestie", "coupleCost": "€0–50", "note": "Praça gratuita; concertos na Filarmônica Nacional €10–25/pessoa" },
+            { "poiId": "michael-brana", "name": "Portão de São Miguel", "coupleCost": "~€8", "note": "Torre €4/pessoa" }
+          ],
+          "attractionsSubtotal": "~€16–66",
+          "attractionsNote": "Sem concerto: €16 casal. Com concerto na Filarmônica Nacional: até €66 casal — experiência muito recomendada.",
+          "dailyTotal": {
+            "budget": { "meals": "~€40", "total": "~€56" },
+            "mid": { "meals": "~€96", "total": "~€112" },
+            "premium": { "meals": "~€200", "total": "~€216" }
+          }
+        }
+      }
     }
   ],
   "pois": [
@@ -105,6 +266,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Pátios e terraço exterior: gratuitos. Museu Nacional (interior): ~€10",
+      "coupleCost": "~€20 (museu histórico €10/pessoa; pátios gratuitos)",
       "schedule": {
         "monday": "Museu: fechado. Pátios: 09:00–21:00",
         "tuesday": "09:00–17:00 (Museu)",
@@ -256,6 +418,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Praça: gratuito. Museu da Cidade (Câmara Municipal): ~€4",
+      "coupleCost": "~€8 (Museu da Cidade €4/pessoa; praça gratuita)",
       "schedule": {
         "monday": "Praça: sempre. Museu: fechado",
         "tuesday": "Praça: sempre. Museu: 10:00–17:00",
@@ -379,6 +542,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "~€4",
+      "coupleCost": "~€8 (€4/pessoa)",
       "schedule": {
         "monday": "Fechado",
         "tuesday": "10:00–17:00",
@@ -472,6 +636,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Praça: gratuita. Concertos: €10–€25",
+      "coupleCost": "€0–50 (praça gratuita; concertos €10–25/pessoa)",
       "schedule": {
         "monday": "Sempre aberta",
         "tuesday": "Sempre aberta",
@@ -595,6 +760,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Portão (torre + museu): ~€4. Mirante UFO (Ponte SNP): ~€8",
+      "coupleCost": "~€8 (€4/pessoa)",
       "schedule": {
         "monday": "Torre: fechada. Rua e margem: sempre abertas",
         "tuesday": "Torre: 10:00–17:00. UFO: 10:00–23:00",

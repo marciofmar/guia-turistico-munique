@@ -53,7 +53,106 @@
         "hrad-cesky-krumlov",
         "historicke-centrum-ck"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após a visita ao castelo, desça o Latrán em direção ao centro histórico — o almoço acontece por volta das 13h, em plena ruela medieval. As opções ficam a 5–10 minutos a pé do castelo.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Na Louží",
+                "type": "Pub tcheco clássico",
+                "address": "Kajovská 66, Český Krumlov",
+                "description": "Pub instalado num edifício do século XIV, um dos mais antigos da cidade. Ambiente descontraído com madeira escura e letreiros de cerveja nas paredes. Ponto de encontro de moradores locais e visitantes que descobriram o lugar antes dos roteiros turísticos.",
+                "highlights": ["Svíčková na smetaně (alcatra com creme e cranberry)", "Vepřo-knedlo-zelo (pernil assado com knedlík e chucrute)", "Cerveja Schwarzenberg escura chope"],
+                "estimatedCoupleCost": "€20–28"
+              },
+              {
+                "level": "mid",
+                "name": "Krčma v Šatlavské",
+                "type": "Restaurante medieval em porão histórico",
+                "address": "Šatlavská 157, Český Krumlov",
+                "description": "Instalado no porão da antiga prisão da cidade, com paredes de pedra bruta, tochas e apresentação estilo medieval. Um dos ambientes mais atmosféricos de Český Krumlov. As carnes são grelhadas em fogo aberto e o cardápio inclui guláš de javali servido em pão escavado.",
+                "highlights": ["Carnes grelhadas no fogo aberto", "Guláš de javali em pão", "Cerveja Eggenberg chope"],
+                "estimatedCoupleCost": "€38–52"
+              },
+              {
+                "level": "premium",
+                "name": "Restaurant Grandhotel Růže",
+                "type": "Restaurante de hotel em palácio renascentista",
+                "address": "Horní 154, Český Krumlov",
+                "description": "No interior do palácio renascentista Růže do século XVI, convertido em hotel de luxo. Culinária tcheca refinada com releituras modernas e apresentação cuidadosa. Vista direta para a Torre do Castelo a partir das mesas da janela — o almoço mais elegante do centro histórico.",
+                "highlights": ["Truta do Vltava ao vapor de ervas", "Schnitzel Růže com variações regionais", "Vista para o castelo da janela"],
+                "estimatedCoupleCost": "€70–100"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O jantar acontece no próprio centro histórico após o passeio vespertino pelas ruelas medievais. A maioria dos restaurantes fica na ilha histórica ou no Latrán, a 5–10 minutos a pé dos hotéis da cidade.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Laibon",
+                "type": "Café vegetariano e vegano com terraço ribeirinho",
+                "address": "Parkán 105, Český Krumlov",
+                "description": "Café vegetariano com terraço à beira do Rio Vltava, num ângulo privilegiado das muralhas medievais refletidas na água. Ambiente tranquilo, ideal para uma refeição leve após um dia de intensa caminhada. As sopas caseiras e tortas mudam conforme a temporada.",
+                "highlights": ["Sopas caseiras da Boêmia", "Saladas e wraps artesanais", "Chás de ervas regionais"],
+                "estimatedCoupleCost": "€18–26"
+              },
+              {
+                "level": "mid",
+                "name": "Restaurace Barbakán",
+                "type": "Restaurante tcheco com vista para o Vltava",
+                "address": "Horní 26, Český Krumlov",
+                "description": "Culinária da Boêmia do Sul num ambiente cuidado com terraço sobre as muralhas medievais e vista para o Rio Vltava. Especialidade em pato assado e guláš bohêmio com cerveja Eggenberg de barril. Ambiente mais formal que os pubs do Latrán, ideal para encerrar o dia com calma.",
+                "highlights": ["Pato assado com chucrute e knedlík", "Guláš bohêmio ao estilo da Boêmia do Sul", "Cerveja Eggenberg chope com vista"],
+                "estimatedCoupleCost": "€36–50"
+              },
+              {
+                "level": "premium",
+                "name": "Latran 15",
+                "type": "Restaurante íntimo em casa medieval",
+                "address": "Latrán 15, Český Krumlov",
+                "description": "Restaurante de poucos lugares numa casa medieval do Latrán, com cozinha focada em ingredientes sazonais da Boêmia do Sul. Menu degustação com especialidades locais — cogumelos silvestres, veado com zimbro, truta do Vltava. Reserva recomendada para a temporada de junho.",
+                "highlights": ["Cogumelos silvestres da Boêmia do Sul", "Veado com zimbro e bagas silvestres", "Truta local com manteiga de ervas"],
+                "estimatedCoupleCost": "€80–120"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            {
+              "poiId": "hrad-cesky-krumlov",
+              "name": "Castelo de Český Krumlov",
+              "coupleCost": "~€26–52",
+              "note": "Depende dos circuitos escolhidos; teatro barroco separado"
+            },
+            {
+              "poiId": "historicke-centrum-ck",
+              "name": "Centro Histórico e Náměstí Svornosti",
+              "coupleCost": "Gratuito",
+              "note": "Praça e ruas históricas a céu aberto"
+            }
+          ],
+          "attractionsSubtotal": "~€26–52",
+          "attractionsNote": "Apenas o castelo tem entrada paga; o centro histórico é gratuito",
+          "dailyTotal": {
+            "budget": {
+              "meals": "~€38–54",
+              "total": "~€64–106"
+            },
+            "mid": {
+              "meals": "~€74–102",
+              "total": "~€100–154"
+            },
+            "premium": {
+              "meals": "~€150–220",
+              "total": "~€176–272"
+            }
+          }
+        }
+      }
     },
     {
       "id": "dia-2",
@@ -74,7 +173,74 @@
         "zamecka-zahrada",
         "egon-schiele-centrum"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "O almoço do dia 2 acontece por volta das 12h, após os jardins barrocos e antes da visita ao Schiele Centrum. A partida é às 17h — não há jantar em Český Krumlov. Aproveite para um almoço tranquilo num dos restaurantes da ilha histórica.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Café Schiele",
+                "type": "Café com cozinha leve junto ao museu",
+                "address": "Dlouhá 32, Český Krumlov",
+                "description": "Café localizado junto ao Egon Schiele Art Centrum, com ambiente descontraído e cardápio de sanduíches artesanais, sopas boêmias e café coado. Ideal para uma refeição leve antes ou depois da visita ao museu, sem comprometer o ritmo tranquilo da manhã.",
+                "highlights": ["Sanduíches artesanais de pão escuro", "Sopa boêmia do dia", "Café coado e bolos caseiros"],
+                "estimatedCoupleCost": "€16–22"
+              },
+              {
+                "level": "mid",
+                "name": "Hospoda Na Ostrově",
+                "type": "Pub ribeirinho na ilha do Vltava",
+                "address": "Na Ostrově 171, Český Krumlov",
+                "description": "Pub localizado na ilhota do Rio Vltava, com jardim de cerveja à beira d'água e vista para as muralhas medievais. Culinária tcheca tradicional com guláš, svíčková e pratos do dia. A cerveja Eggenberg de barril e o ambiente tranquilo tornam este o almoço mais pitoresco do roteiro.",
+                "highlights": ["Guláš tcheco com pão de centeio", "Svíčková na smetaně", "Cerveja Eggenberg de barril com vista"],
+                "estimatedCoupleCost": "€30–42"
+              },
+              {
+                "level": "premium",
+                "name": "Restaurant Grandhotel Růže",
+                "type": "Restaurante de hotel em palácio renascentista",
+                "address": "Horní 154, Český Krumlov",
+                "description": "Restaurante no interior do Palácio Růže do século XVI, o edifício renascentista mais bem preservado de Český Krumlov, convertido em hotel de luxo. Culinária tcheca com ingredientes locais da Boêmia do Sul, apresentação refinada e vista direta para a Torre do Castelo. O almoço mais elegante da cidade.",
+                "highlights": ["Truta do Vltava ao vapor de ervas", "Pato assado da Boêmia do Sul", "Vista para o castelo da janela"],
+                "estimatedCoupleCost": "€60–90"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            {
+              "poiId": "zamecka-zahrada",
+              "name": "Jardins Barrocos do Castelo",
+              "coupleCost": "Gratuito",
+              "note": "Entrada livre todos os dias"
+            },
+            {
+              "poiId": "egon-schiele-centrum",
+              "name": "Egon Schiele Art Centrum",
+              "coupleCost": "~€16",
+              "note": "~€8/pessoa (200 CZK)"
+            }
+          ],
+          "attractionsSubtotal": "~€16",
+          "attractionsNote": "Apenas o Schiele Centrum tem entrada paga; jardins gratuitos",
+          "dailyTotal": {
+            "budget": {
+              "meals": "~€16–22",
+              "total": "~€32–38"
+            },
+            "mid": {
+              "meals": "~€30–42",
+              "total": "~€46–58"
+            },
+            "premium": {
+              "meals": "~€60–90",
+              "total": "~€76–106"
+            }
+          }
+        }
+      }
     }
   ],
   "pois": [
@@ -110,6 +276,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Torre: 150 CZK (~€6). Circuito I (apartamentos renascentistas): 320 CZK (~€13). Circuito II (apartamentos barrocos + Teatro): 380 CZK (~€16). Pátios externos: gratuitos",
+      "coupleCost": "~€26–52 (visita ao castelo; teatro barroco separado)",
       "schedule": {
         "monday": "09:00–17:00 (pátios externos sempre abertos; circuitos guiados podem ser limitados fora da temporada)",
         "tuesday": "09:00–17:00",
@@ -267,6 +434,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito",
+      "coupleCost": "Gratuito (jardins barrocos de entrada livre)",
       "schedule": {
         "monday": "08:00–19:00 (junho–agosto)",
         "tuesday": "08:00–19:00",
@@ -360,6 +528,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "320 CZK (~€13). Estudantes: 190 CZK (~€8). Menores de 10 anos: gratuito",
+      "coupleCost": "~€16 (~€8/pessoa)",
       "schedule": {
         "monday": "Fechado",
         "tuesday": "10:00–18:00",
@@ -483,6 +652,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Praça e ruas históricas: gratuito. Egon Schiele Art Centrum: 320 CZK (~€13)",
+      "coupleCost": "Gratuito (centro histórico a céu aberto)",
       "schedule": {
         "monday": "Praça: sempre aberta. Egon Schiele Centrum: fechado às segundas",
         "tuesday": "Praça: sempre. Egon Schiele Centrum: 10:00–18:00",

@@ -48,7 +48,87 @@
         "prado-velazquez",
         "retiro-cristal"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após o Prado (~13h), a área do Paseo del Prado e Retiro concentra restaurantes históricos e mercados. O Retiro park fica a 5 min a pé do Prado.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "El Brillante",
+                "type": "Bar de fritos madrilenho",
+                "address": "Plaza del Emperador Carlos V 8, 28012 Madrid (junto à Atocha)",
+                "description": "Instituição madrilenha desde 1952, famoso pelo bocadillo de calamares — anel de lula frito num pão de baguete, o lanche mais icônico de Madri. A receita não mudou em 70 anos. O estabelecimento fica a 5 min a pé do Prado, do outro lado da Ronda de Atocha. Em hora de almoço, a fila avança rápido. A Academia de Bellas Artes fica do outro lado da rua.",
+                "highlights": ["Bocadillo de calamares (o lanche de Madri por excelência)", "Calamares a la romana com aioli", "Caldo de cocido madrilenho (nos dias frios)", "Cerveja Mahou Clásica ou Estrella Damm gelada"],
+                "estimatedCoupleCost": "€16–24"
+              },
+              {
+                "level": "mid",
+                "name": "Viridiana",
+                "type": "Cozinha criativa espanhola",
+                "address": "Juan de Mena 14, 28014 Madrid (junto ao Prado)",
+                "description": "Restaurante de referência em Madri desde 1987, a dois quarteirões do Museu do Prado. O nome homenageia o filme de Luis Buñuel (1961). O chef Abraham García reinventou a cozinha madrilenha com técnica francesa e ingredientes ibéricos sazonais. Frequentado por artistas, diretores de cine e intelectuais que visitam o museu. Não aceita cartão de crédito — peculiaridade histórica preservada.",
+                "highlights": ["Carrillera de ternera (bochecha de vitela guisada, oito horas de cozimento)", "Secreto ibérico com redução de Pedro Ximénez", "Croquetas de jamón serrano caseiras", "Lista de vinhos com foco em vinhos naturais e bodegas pequenas"],
+                "estimatedCoupleCost": "€70–90"
+              },
+              {
+                "level": "premium",
+                "name": "Arzábal",
+                "type": "Taberna premium espanhola",
+                "address": "Menéndez Pelayo 13, 28009 Madrid (junto ao Retiro)",
+                "description": "Localizado na esquina do Parque do Retiro, o Arzábal combina a informalidade de uma tasca madrilenha com qualidade de primeiro nível. Aberto em 2010, tornou-se rapidamente referência para os madrilenhos que não querem formalidade mas exigem excelência. Produtos do País Basco e Cantábria: bacalhau, txangurro, anchoas de Santoña. Mesas na esplanada com vista do Retiro.",
+                "highlights": ["Anchoas de Santoña (as melhores da Espanha, com pão e manteiga)", "Txangurro gratinado (caranguejo do País Basco)", "Cogumelos com ovo e trufa negra de Soria", "Vinhos do Rioja e Ribera del Duero por taça"],
+                "estimatedCoupleCost": "€90–120"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "Após o Retiro (~18h), a noite em Madri começa tarde — jantares entre 21h e 23h são o padrão. La Latina e Lavapiés ficam a 15 min de metro do Retiro.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Mercado de San Miguel",
+                "type": "Mercado de tapas histórico",
+                "address": "Plaza de San Miguel s/n, 28005 Madrid (junto à Plaza Mayor)",
+                "description": "Mercado de ferro de 1916, restaurado em 2009 como espaço gastronômico premium-acessível. Uma das estruturas modernistas mais bonitas de Madri. Mais de 30 postos de tapas, vinhos, frutos do mar e charcutaria. O local perfeito para praticar o ritual espanhol do tapeo: pedir uma tapa num posto, um copo noutro. Frequentado por madrilenhos às sextas e sábados à noite.",
+                "highlights": ["Croquetas de jamón ibérico (€2–3 cada)", "Ostras e amêijoas frescas nos postos de marisco", "Pintxos vascos com Txakoli (vinho branco basco)", "Vermouth aperol ou Fino Sherry para abrir o apetite"],
+                "estimatedCoupleCost": "€30–45"
+              },
+              {
+                "level": "mid",
+                "name": "Casa Lucio",
+                "type": "Taberna madrilenha clássica",
+                "address": "Cava Baja 35, 28005 Madrid (La Latina)",
+                "description": "Em operação desde 1974, a Casa Lucio é a taberna mais lendária de Madri — o seu proprietário, Lucio Blázquez, construiu uma clientela que inclui membros da Família Real espanhola, presidentes e artistas. O prato que a tornou famosa mundialmente: os huevos rotos (ovos fritos com gema intacta sobre batatas fritas e jamón ibérico). A Calle Cava Baja, onde fica, é a rua mais gastronômica do bairro de La Latina.",
+                "highlights": ["Huevos rotos con jamón ibérico (o prato-emblema de Madri)", "Cocido madrileño completo (sextas-feiras)", "Callos a la madrileña (tripas ao estilo de Madri)", "Vinho Ribera del Duero da lista pessoal de Lucio"],
+                "estimatedCoupleCost": "€60–90"
+              },
+              {
+                "level": "premium",
+                "name": "Sobrino de Botín",
+                "type": "O restaurante mais antigo do mundo",
+                "address": "Cuchilleros 17, 28005 Madrid (junto à Plaza Mayor)",
+                "description": "O Guinness World Records certifica o Botín como o restaurante em operação contínua mais antigo do mundo — aberto em 1725 por Jean Botín, cozinheiro francês que veio a Madri trabalhar para Bourbon. Francisco Goya trabalhou aqui como garçom antes de se tornar pintor. Ernest Hemingway termina 'The Sun Also Rises' (1926) numa cena aqui: 'But it was a fine place and the food was good'. O forno de lenha original do século XVIII ainda funciona. O cochinillo asado (leitão assado) é preparado exatamente como há 300 anos.",
+                "highlights": ["Cochinillo asado (leitão assado no forno de 1725)", "Cordeiro asado (borrego assado de Castela)", "Sopa castellana (sopa de alho com pão, ovo e presunto)", "Rioja Gran Reserva ou Ribera del Duero Reserva"],
+                "estimatedCoupleCost": "€110–140"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "prado-velazquez", "name": "Museu do Prado", "coupleCost": "~€30", "note": "€15/pessoa; gratuito 18h–20h (bilhete online recomendado)" },
+            { "poiId": "retiro-cristal", "name": "Retiro e Palácio de Cristal", "coupleCost": "€0", "note": "Gratuito" }
+          ],
+          "attractionsSubtotal": "~€30",
+          "attractionsNote": "O Prado é a maior atração de Madri e um dos maiores museus do mundo — €15/pessoa é um dos ingressos mais baratos de qualquer museu de alto nível na Europa.",
+          "dailyTotal": {
+            "budget": { "meals": "~€55", "total": "~€85" },
+            "mid": { "meals": "~€160", "total": "~€190" },
+            "premium": { "meals": "~€260", "total": "~€290" }
+          }
+        }
+      }
     },
     {
       "id": "dia-2",
@@ -68,7 +148,86 @@
       "poiIds": [
         "sol-plaza-mayor"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "A Plaza Mayor e a Puerta del Sol estão no coração do Madrid histórico — num raio de 10 min a pé, há opções para todos os bolsos.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Mercado de San Miguel",
+                "type": "Mercado de tapas histórico",
+                "address": "Plaza de San Miguel s/n, 28005 Madrid",
+                "description": "A 50 metros da Plaza Mayor, o Mercado de San Miguel (1916) é o melhor local para um almoço rápido e autêntico: tapas de alta qualidade a preços de mercado. O mercado de ferro e vidro é uma das estruturas modernistas mais belas de Madri. Perfeito para o almoço antes de explorar o resto do centro histórico.",
+                "highlights": ["Jamón ibérico cortado à faca", "Frutos do mar frescos (gambas, ostras, amêijoas)", "Croquetas artesanais de bacalhau", "Vinho branco Albariño da Galiza por copo"],
+                "estimatedCoupleCost": "€30–45"
+              },
+              {
+                "level": "mid",
+                "name": "Café Gijón",
+                "type": "Café literário histórico",
+                "address": "Paseo de Recoletos 21, 28004 Madrid",
+                "description": "O café mais literário de Madri, em operação desde 1888. Federico García Lorca, Ernest Hemingway, Salvador Dalí, Camilo José Cela e toda a intelligentsia espanhola do século XX passaram pelas suas mesas. Ainda hoje é o ponto de encontro dos escritores, jornalistas e intelectuais madrilenhos. A 15 min a pé da Plaza Mayor pelo Paseo del Prado. Cardápio clássico espanhol com o famoso Madrid brunch do domingo.",
+                "highlights": ["Tortilla española (a definitiva — grossa, cremosa, com cebola)", "Jamón ibérico de bellota com pão com tomate", "Cocido madrileño ao domingo (reserva recomendada)", "Café cortado e churros com chocolate"],
+                "estimatedCoupleCost": "€50–70"
+              },
+              {
+                "level": "premium",
+                "name": "Taberna del Alabardero",
+                "type": "Restaurante em palácio histórico",
+                "address": "Felipe V 6, 28013 Madrid (junto à Ópera e Palácio Real)",
+                "description": "Instalada num palácio neoclássico a 5 min da Plaza Mayor, a Taberna del Alabardero é uma escola de hostelaria e restaurante de alta qualidade simultaneamente — formando os melhores gastrônomos de Espanha desde 1974. A fachada e os salões preservam a elegância da Madri do século XIX. Cozinha madrilenha clássica com ingredientes de primeira qualidade de toda a Espanha.",
+                "highlights": ["Croquetas de jamón ibérico (prêmio de melhor croqueta de Madri)", "Rabo de toro estofado (rabo de touro guisado, 6 horas)", "Tarta de queso San Simón da Galícia", "Vinho Vega Sicilia Unico ou Pingus da Ribera del Duero"],
+                "estimatedCoupleCost": "€100–140"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "Última noite em Madri — jantar tardio às 21h–22h, como os madrilenhos. La Latina, Lavapiés e Malasaña ficam acessíveis de metro da Sol.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Taberna La Bola",
+                "type": "Taberna madrilenha desde 1870",
+                "address": "Calle de la Bola 5, 28013 Madrid",
+                "description": "Uma das últimas tabernas autenticamente tradicionais de Madri, em operação desde 1870. A família Verdasco passou de pai para filho a receita original do cocido madrileño — o ensopado de grão-de-bico com chouriço, morcela, toucinho e carne que é o prato nacional de Madri, servido às terças e quintas. O carbonero (carvão) que aquece as panelas é o mesmo método desde 1870. O cocido chega à mesa em três 'vuelcos' (a sopa, depois os legumes e grãos, depois a carne).",
+                "highlights": ["Cocido madrileño (terças e quintas — o autêntico)", "Sopa de ajo (alho com pão frito e ovo pochê)", "Callos a la madrileña (tripas com grão e chorizo)", "Vinho porrón da casa (vinho tinto de Valdepeñas)"],
+                "estimatedCoupleCost": "€40–60"
+              },
+              {
+                "level": "mid",
+                "name": "La Trainera",
+                "type": "Marisqueria madrilenha clássica",
+                "address": "Lagasca 60, 28001 Madrid (Salamanca)",
+                "description": "Desde 1963, a La Trainera é considerada a melhor marisqueria de Madri — e talvez de toda a Espanha continental. Especializada em frutos do mar e peixes do Mar Cantábrico e Atlântico. A Madri dos anos 60 passou a acreditar que se podia comer o melhor marisco do país na capital, longe do mar — e a La Trainera foi a responsável por isso. Gambas a la plancha, percebes da Galiza, cigalas, carabineiros.",
+                "highlights": ["Gambas a la plancha (gambas grelhadas na chapa com sal grosso)", "Percebes galegos (€30–40/ração, delicadeza máxima)", "Carabineiros (o maior camarão do Atlântico, cor vermelha intensa)", "Lubina ou rodaballo ao forno com azeite e alho"],
+                "estimatedCoupleCost": "€80–110"
+              },
+              {
+                "level": "premium",
+                "name": "Ramón Freixa Madrid",
+                "type": "Alta gastronomia espanhola — 2 estrelas Michelin",
+                "address": "Claudio Coello 67, 28001 Madrid (Salamanca)",
+                "description": "Dois estrelas Michelin, um dos dez melhores restaurantes de Espanha. O chef catalão Ramón Freixa criou em Madri um restaurante de síntese entre a tradição culinária catalã e os melhores ingredientes de toda a Espanha. A mansão do bairro de Salamanca onde o restaurante está instalado data do século XIX. Menu degustação com 10–12 tempos que narra uma história culinária da Península Ibérica.",
+                "highlights": ["Gazpacho de tomate de Almería com ostra e ceviche", "Cordeiro de Castela com jus de lavanda", "Pré-sobremesa: queijos artesanais do Norte de Espanha", "Harmonização com vinhos de todas as regiões espanholas"],
+                "estimatedCoupleCost": "€200–280"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "sol-plaza-mayor", "name": "Puerta del Sol e Plaza Mayor", "coupleCost": "€0", "note": "Gratuito" }
+          ],
+          "attractionsSubtotal": "€0",
+          "attractionsNote": "O último dia de Madri é gratuito em atrações — o investimento vai inteiramente para a gastronomia e a experiência da cidade.",
+          "dailyTotal": {
+            "budget": { "meals": "~€80", "total": "~€80" },
+            "mid": { "meals": "~€155", "total": "~€155" },
+            "premium": { "meals": "~€400", "total": "~€400" }
+          }
+        }
+      }
     }
   ],
   "pois": [
@@ -103,6 +262,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "~€15 (adultos). Gratuito diariamente das 18h–20h (fila longa). Online: museodelprado.es",
+      "coupleCost": "~€30 (€15/pessoa; grátis 18h–20h)",
       "schedule": {
         "monday": "10:00–20:00",
         "tuesday": "10:00–20:00",
@@ -229,6 +389,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Parque: gratuito. Palácio de Cristal (exposição Reina Sofia): gratuito",
+      "coupleCost": "€0 — gratuito",
       "schedule": {
         "monday": "06:00–22:00 (parque). Palácio de Cristal: 10:00–18:00 (inverno) / 10:00–22:00 (verão)",
         "tuesday": "06:00–22:00",
@@ -321,6 +482,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito",
+      "coupleCost": "€0 — gratuito",
       "schedule": {
         "monday": "Sempre aberta (24h)",
         "tuesday": "Sempre aberta",

@@ -1,0 +1,85 @@
+{
+  "id": "teste-local",
+  "title": "Teste Local",
+  "subtitle": "Jacarepaguá · Teste de proximidade GPS",
+  "devOnly": true,
+  "historicalPeriods": [
+    { "id": "modern", "name": "Moderno", "color": "#6c757d" }
+  ],
+  "days": [
+    {
+      "id": "teste-dia-1",
+      "date": "2026-04-30",
+      "title": "Circuito de testes",
+      "dayType": "urban",
+      "theme": "Verificar alertas GPS, vibração e notificações"
+    }
+  ],
+  "pois": [
+    {
+      "id": "armazem-araguaia",
+      "name": "Armazém Urbano (Araguaia)",
+      "lat": -22.9352155,
+      "lng": -43.3369661,
+      "dayId": "teste-dia-1",
+      "order": 1,
+      "historicalPeriod": "modern",
+      "estimatedVisitMinutes": 10,
+      "visitType": "internal",
+      "description": "Ponto de teste 1 — Rua Araguaia, 970. Ao se aproximar a menos de 100 m, o app deve vibrar, disparar notificação e exibir o alerta na tela.",
+      "proximityRadiusMeters": 100
+    },
+    {
+      "id": "armazem-pau-ferro",
+      "name": "Armazém Urbano (Pau-Ferro / Joaquim Pinheiro)",
+      "lat": -22.931026,
+      "lng": -43.33254,
+      "dayId": "teste-dia-1",
+      "order": 2,
+      "historicalPeriod": "modern",
+      "estimatedVisitMinutes": 10,
+      "visitType": "internal",
+      "description": "Ponto de teste 2 — Estrada do Pau-Ferro, 1070, esquina com Rua Joaquim Pinheiro.",
+      "proximityRadiusMeters": 100
+    },
+    {
+      "id": "hortifruti-tres-rios",
+      "name": "Hortifruti (Estrada dos Três Rios)",
+      "lat": -22.9391718,
+      "lng": -43.3411611,
+      "dayId": "teste-dia-1",
+      "order": 3,
+      "historicalPeriod": "modern",
+      "estimatedVisitMinutes": 15,
+      "visitType": "internal",
+      "description": "Ponto de teste 3 — Estrada dos Três Rios, 271.",
+      "proximityRadiusMeters": 100
+    }
+  ],
+  "segments": [
+    {
+      "from": "armazem-araguaia",
+      "to": "armazem-pau-ferro",
+      "transport": "walking",
+      "walkingMinutes": 7,
+      "distanceMeters": 550,
+      "path": [
+        [-22.9352155, -43.3369661],
+        [-22.931026, -43.33254]
+      ],
+      "streetNotes": "Rua Araguaia → Estrada do Pau-Ferro"
+    },
+    {
+      "from": "armazem-pau-ferro",
+      "to": "hortifruti-tres-rios",
+      "transport": "walking",
+      "walkingMinutes": 9,
+      "distanceMeters": 720,
+      "path": [
+        [-22.931026, -43.33254],
+        [-22.9391718, -43.3411611]
+      ],
+      "streetNotes": "Estrada do Pau-Ferro → Estrada dos Três Rios"
+    }
+  ]
+}

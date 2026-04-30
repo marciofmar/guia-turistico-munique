@@ -589,3 +589,250 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ── POI couple cost ─────────────────────────────────────────── */
+.poi-couple-cost {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(192, 135, 42, 0.1);
+  border: 1px solid rgba(192, 135, 42, 0.3);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  margin-top: var(--space-sm);
+  font-size: 0.9rem;
+}
+.poi-couple-cost__icon { font-size: 1rem; }
+.poi-couple-cost__label {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+.poi-couple-cost__value {
+  color: var(--color-accent);
+  font-size: 0.95rem;
+}
+
+/* ── Meals section (dentro do logistics-card) ────────────────── */
+.meals-section {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.meals-section__title {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.85;
+  margin-bottom: var(--space-sm);
+}
+
+.meal-block {
+  margin-bottom: var(--space-md);
+}
+.meal-block:last-child { margin-bottom: 0; }
+
+.meal-block__label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  opacity: 0.9;
+}
+.meal-block__context {
+  font-size: 0.78rem;
+  opacity: 0.75;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.meal-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.meal-option:last-child { border-bottom: none; }
+
+.meal-option__badge {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  margin-top: 2px;
+  min-width: 4.5rem;
+  text-align: center;
+}
+.meal-option--budget .meal-option__badge  { background: rgba(39, 174, 96, 0.35);  color: #b6f0c8; }
+.meal-option--mid .meal-option__badge     { background: rgba(230, 162, 60, 0.35);  color: #ffe0a0; }
+.meal-option--premium .meal-option__badge { background: rgba(192, 135, 42, 0.45);  color: #ffd17a; }
+
+.meal-option__info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.meal-option__name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.meal-option__type {
+  font-size: 0.72rem;
+  opacity: 0.7;
+  line-height: 1.3;
+}
+.meal-option__address {
+  display: block;
+  font-size: 0.68rem;
+  opacity: 0.65;
+  color: inherit;
+  text-decoration: none;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+.meal-option__address:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.meal-option__cost {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.95;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+/* ── Cost summary (dentro do logistics-card) ─────────────────── */
+.cost-summary {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.cost-summary__title {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.85;
+  margin-bottom: var(--space-sm);
+}
+
+.cost-summary__attractions {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-sm);
+}
+.cost-summary__attractions li {
+  font-size: 0.78rem;
+  opacity: 0.82;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  line-height: 1.4;
+}
+.cost-summary__attractions li:last-child { border-bottom: none; }
+
+.cost-summary__subtotal {
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-bottom: var(--space-sm);
+}
+
+.cost-tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: var(--space-sm);
+}
+.cost-tier {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+}
+.cost-tier--budget  { background: rgba(39, 174, 96, 0.2); }
+.cost-tier--mid     { background: rgba(230, 162, 60, 0.2); }
+.cost-tier--premium { background: rgba(192, 135, 42, 0.3); }
+
+.cost-tier__label {
+  font-weight: 700;
+  min-width: 5rem;
+}
+.cost-tier__meals {
+  flex: 1;
+  opacity: 0.75;
+  font-size: 0.75rem;
+}
+.cost-tier__total {
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.cost-summary__note {
+  font-size: 0.75rem;
+  opacity: 0.72;
+  line-height: 1.5;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* ── Popup aviso iOS GPS ─────────────────────────────────────── */
+.ios-popup__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 698;
+  border-radius: var(--radius-md);
+}
+.ios-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 699;
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-lg);
+  width: min(320px, calc(100% - 2 * var(--space-lg)));
+  text-align: center;
+}
+.ios-popup__icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+}
+.ios-popup__title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+}
+.ios-popup__text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin-bottom: var(--space-lg);
+}
+.ios-popup__btn {
+  display: block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}

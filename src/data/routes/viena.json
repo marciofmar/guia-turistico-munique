@@ -39,46 +39,210 @@
       "order": 1,
       "date": "2026-06-18",
       "weekday": "Qui",
-      "title": "Ring, Naschmarkt e os Museus Imperiais",
-      "subtitle": "Naschmarkt · Karlskirche · Ringstrasse · Kunsthistorisches Museum",
-      "theme": "Do mercado ao ar livre aos palácios imperiais — Viena em todas as suas dimensões",
+      "title": "Ring, Naschmarkt e Concerto no Musikverein",
+      "subtitle": "Naschmarkt · Karlskirche · Ringstrasse · Musikverein",
+      "theme": "Do mercado ao ar livre ao boulevard imperial — e a noite com Mozart e Vivaldi na sala de concertos mais famosa do mundo",
       "dayType": "urban",
       "energyLevel": "moderate",
       "startTime": "09:00",
-      "estimatedEndTime": "18:30",
+      "estimatedEndTime": "22:30",
       "primaryColor": "#1A237E",
       "coverEmoji": "🎭",
-      "intro": "O primeiro dia em Viena começa no Naschmarkt — o maior mercado ao ar livre da cidade, com 120 bancas de especiarias e queijos nos pavilhões Art Nouveau de Otto Wagner. A seguir, a Karlskirche barroca na Karlsplatz (cúpula de 72 metros, colunas espirais em baixo-relevo) antes da Ringstrasse: o boulevard de 5 km que Francisco José I criou demolindo as muralhas medievais em 1857, com Parlamento neogrego, Rathaus neogótico e Votivkirche. A tarde no Kunsthistorisches Museum — a maior coleção de Bruegel e Velázquez do mundo — fecha o dia com a arte dos Habsburgo.",
+      "intro": "O primeiro dia em Viena começa no Naschmarkt — o maior mercado ao ar livre da cidade, com 120 bancas de especiarias e queijos nos pavilhões Art Nouveau de Otto Wagner. A seguir, a Karlskirche barroca na Karlsplatz (cúpula de 72 metros, colunas espirais em baixo-relevo) antes da Ringstrasse: o boulevard de 5 km que Francisco José I criou demolindo as muralhas medievais em 1857, com Parlamento neogrego, Rathaus neogótico e Votivkirche. A tarde é livre para almoço e descanso junto ao Ring — e a noite reserva o encerramento mais memorável: Die SchlossCapelle no Großer Musikvereinssaal do Wiener Musikverein, a sala de concertos com melhor acústica do mundo, com Mozart e Vivaldi.",
       "poiIds": [
         "naschmarkt",
         "karlskirche",
         "ringstrasse-staatsoper",
-        "kunsthistorisches-museum"
+        "die-schloss-capelle-concert"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após a caminhada pela Ringstrasse (~13h), a região do Ring/Karlsplatz concentra mesas históricas de Viena — num raio de 5 min a pé da Ópera.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Bitzinger Würstelstand",
+                "type": "Salsicharia de rua vienense",
+                "address": "Albertinaplatz 1, 1010 Wien (atrás da Staatsoper)",
+                "description": "O stand de salsichas mais famoso de Viena, em operação desde 1962 diretamente atrás da Staatsoper. Uma das curiosidades de Viena: ao fim de cada espetáculo, espectadores em smoking fazem fila ao lado de turistas para comer o mesmo Käsekrainer — a salsicha recheada com queijo que derrete ao morder. Um dos poucos lugares onde a alta burguesia e o povo dividem o mesmo balcão às 23h.",
+                "highlights": ["Käsekrainer (salsicha com queijo fundido)", "Burenwurst (carne bovina)", "Semmel mit Leberkäse (pão com mortadela assada)", "Cerveja Ottakringer em lata"],
+                "estimatedCoupleCost": "€16–24"
+              },
+              {
+                "level": "mid",
+                "name": "Café Landtmann",
+                "type": "Café vienense histórico",
+                "address": "Dr.-Karl-Lueger-Ring 4, 1010 Wien (defronte ao Burgtheater)",
+                "description": "O café preferido de Sigmund Freud, aberto em 1873 diretamente na Ringstrasse. Freud vinha diariamente para ler os jornais; Arthur Schnitzler, Karl Kraus, Gustav Mahler e Marlene Dietrich eram frequentadores. As mesas de mármore e o serviço em avental branco preservam o ritual da 'coffeehouse culture' vienense — reconhecida pela UNESCO. O Wiener Schnitzel aqui é clássico: vitela tenra, com limão e salada de batata.",
+                "highlights": ["Wiener Schnitzel de vitela", "Tafelspitz (alcatra cozida à vienense)", "Melange (café com leite vienense)", "Apfelstrudel com creme de baunilha"],
+                "estimatedCoupleCost": "€50–70"
+              },
+              {
+                "level": "premium",
+                "name": "Vestibül",
+                "type": "Alta cozinha austríaca no Burgtheater",
+                "address": "Dr.-Karl-Lueger-Ring 2, 1010 Wien (dentro do Burgtheater)",
+                "description": "Instalado no vestíbulo do Burgtheater, projetado por Gottfried Semper e Hasenauer em 1888 — os mesmos arquitetos do Kunsthistorisches Museum. O espaço preserva os mármores, estuques e pinturas originais da época de Francisco José I. Culinária austríaca contemporânea com ingredientes regionais. Um dos cenários de jantar mais extraordinários da Europa.",
+                "highlights": ["Saibling (truta alpina em crosta de ervas silvestres)", "Spargel branco austríaco (temporada de abril a junho)", "Harmonização com vinhos Grüner Veltliner da Wachau", "Combinação única: Ring pela manhã, almoço no teatro imperial"],
+                "estimatedCoupleCost": "€100–150"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O concerto no Musikverein começa às 20h, com portas às 19h30. O jantar ideal ocorre entre 17h30 e 19h00 — o Musikverein fica a 2 min do Hotel Sacher e a 5 min do Café Schwarzenberg.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Café Griensteidl",
+                "type": "Café histórico vienense",
+                "address": "Michaelerplatz 2, 1010 Wien (defronte ao Hofburg)",
+                "description": "O Griensteidl original (aberto em 1847) foi o café dos literatos e revolucionários vienenses — Karl Kraus, Hugo von Hofmannsthal e Arthur Schnitzler debatiam aqui enquanto Francisco José I passava pela entrada do Hofburg do outro lado da praça. A versão atual (reaberta em 1990) reconstrói o ambiente belle époque, com Gulasch e Schnitzel acessíveis. Um jantar rápido antes do concerto, com a Michaelerplatz iluminada como cenário.",
+                "highlights": ["Gulasch vienense com pão de caraway", "Wiener Schnitzel com salada de batata", "Café einspänner (expresso com chantilly)", "Topfenstrudel (strudel de ricota)"],
+                "estimatedCoupleCost": "€30–50"
+              },
+              {
+                "level": "mid",
+                "name": "Café Schwarzenberg",
+                "type": "O primeiro café da Ringstrasse",
+                "address": "Kärntner Ring 17, 1010 Wien",
+                "description": "O primeiro café aberto na Ringstrasse, em 1861 — antes mesmo da conclusão da maioria dos palácios do Ring. Interior belle époque original: lustres de cristal, espelhos dourados, mesas de mármore. Frequentado pela aristocracia e alta burguesia vienense por 160 anos. A 5 min a pé do Musikverein — o lugar ideal para um jantar pré-concerto com a atmosfera certa.",
+                "highlights": ["Tafelspitz (prato nacional austríaco por excelência)", "Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)", "Topfenpalatschinken (crepes de ricota com compota de damasco)", "Riesling da Wachau por taça"],
+                "estimatedCoupleCost": "€60–90"
+              },
+              {
+                "level": "premium",
+                "name": "Hotel Sacher — Rote Bar",
+                "type": "Alta gastronomia austríaca clássica",
+                "address": "Philharmonikerstraße 4, 1010 Wien",
+                "description": "A 2 minutos a pé do Musikverein, o Hotel Sacher é um dos estabelecimentos mais lendários de Viena. Fundado em 1876 por Eduard Sacher — filho de Franz Sacher, inventor da Sachertorte — foi o salão informal da diplomacia austro-húngara. A Rote Bar, com paredes de veludo vermelho carmesim e bibelôs do século XIX, serve culinária imperial na versão mais refinada. Jantar aqui fecha o círculo do dia: a Ringstrasse, o Ring de Hansen, e o Musikverein — tudo a 5 min a pé.",
+                "highlights": ["Wiener Tafelspitz (a receita imperial)", "Filet de Styria com cogumelos da floresta vienense", "A Sachertorte original — imprescindível", "Grüner Veltliner Smaragd ou champagne Billecart-Salmon"],
+                "estimatedCoupleCost": "€110–160"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "naschmarkt", "name": "Naschmarkt", "coupleCost": "€0", "note": "Gratuito" },
+            { "poiId": "karlskirche", "name": "Karlskirche", "coupleCost": "~€16", "note": "€8/pessoa (inclui elevador panorâmico)" },
+            { "poiId": "ringstrasse-staatsoper", "name": "Ringstrasse + tour Ópera", "coupleCost": "€0–26", "note": "Ring gratuito; tour Staatsoper €13/pessoa (opcional)" },
+            { "poiId": "die-schloss-capelle-concert", "name": "Die SchlossCapelle — Musikverein", "coupleCost": "€166", "note": "Ingressos já adquiridos (€83/pessoa × 2)" }
+          ],
+          "attractionsSubtotal": "~€182",
+          "attractionsNote": "O concerto (€166) já está pago. Tour da Ópera Estatal (+€26) é opcional.",
+          "dailyTotal": {
+            "budget": { "meals": "~€56", "total": "~€238" },
+            "mid": { "meals": "~€140", "total": "~€322" },
+            "premium": { "meals": "~€285", "total": "~€467" }
+          }
+        }
+      }
     },
     {
       "id": "dia-2",
       "order": 2,
       "date": "2026-06-19",
       "weekday": "Sex",
-      "title": "Palácios, Parques e Hundertwasser",
-      "subtitle": "Schönbrunn · Stadtpark · Belvedere · Hundertwasserhaus",
-      "theme": "Do barroco imperial ao expressionismo orgânico — dois séculos de utopia arquitetônica",
+      "title": "Palácios, Parques e Concerto de Verão",
+      "subtitle": "Schönbrunn · Stadtpark · Belvedere · Concerto de Verão",
+      "theme": "Do barroco imperial à arte de Klimt — e ao entardecer, a Filarmônica de Viena ao ar livre nos jardins de Schönbrunn",
       "dayType": "urban",
       "energyLevel": "moderate",
       "startTime": "09:00",
-      "estimatedEndTime": "20:00",
+      "estimatedEndTime": "23:00",
       "primaryColor": "#7B1FA2",
       "coverEmoji": "🌿",
-      "intro": "O segundo dia combina os dois grandes palácios barrocos com uma tarde de parques e arte. Schönbrunn de manhã — o Versailles habsburgo com 45 salas de aparato e os jardins da Glorieta. Após a pausa no Stadtpark com a estátua dourada de Strauss, o Belvedere Superior guarda O Beijo de Klimt e a maior coleção de Expressionismo austríaco. O encerramento é o Hundertwasserhaus: o prédio residencial mais fotografado da Áustria, onde Friedensreich Hundertwasser declarou guerra à linha reta com azulejos coloridos e árvores crescendo pelas janelas.",
+      "intro": "O segundo dia combina os dois grandes palácios barrocos com uma tarde de parques e arte, e encerra com um dos eventos mais únicos da Europa. Schönbrunn de manhã — o Versailles habsburgo com 45 salas de aparato e os jardins da Glorieta. Após a pausa no Stadtpark com a estátua dourada de Strauss, o Belvedere Superior guarda O Beijo de Klimt e a maior coleção de Expressionismo austríaco. À noite, o retorno a Schönbrunn — desta vez ao gramado dos jardins barrocos para o Summer Night Concert 2026: a Filarmônica de Viena ao ar livre, com ~60.000 pessoas, entrada livre, Lorenzo Viotti regendo e Bryn Terfel como solista.",
       "poiIds": [
         "schonbrunn",
         "stadtpark",
         "oberes-belvedere",
-        "hundertwasserhaus"
+        "summer-night-concert"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após Schönbrunn (~12h), a U4 conecta diretamente ao Stadtpark (próxima parada do dia). Almoçar no Stadtpark é a escolha mais elegante — a Meierei está literalmente dentro do parque.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Naschmarkt — Restaurantes fixos",
+                "type": "Gastronomia de mercado",
+                "address": "Naschmarkt, 1060 Wien (U4 Kettenbrückengasse)",
+                "description": "No caminho de Schönbrunn ao Stadtpark, a U4 para em Kettenbrückengasse — entrada do Naschmarkt. Os restaurantes fixos no corredor norte servem pratos completos a preços muito abaixo do centro. Os mesmos lugares onde os cozinheiros de restaurantes estrelados compram ingredientes pela manhã.",
+                "highlights": ["Schnitzel com salada de batata (menu do dia ~€10–14/pessoa)", "Pratos do Oriente Médio e Balkans ao lado das bancas", "Sopa + prato principal por ~€12/pessoa nos restaurantes dos pavilhões"],
+                "estimatedCoupleCost": "€24–36"
+              },
+              {
+                "level": "mid",
+                "name": "Meierei im Stadtpark",
+                "type": "Laticínios e almoço artesanal austríaco",
+                "address": "Am Heumarkt 2A, 1030 Wien (dentro do Stadtpark)",
+                "description": "A irmã casual do Steirereck — no mesmo pavilhão de vidro dentro do Stadtpark. Conceito único: buffet artesanal de laticínios austríacos da mais alta qualidade, com queijos de produtores regionais, pães assados na manhã, manteiga de vaca de pastagem e frios artesanais. A mesma qualidade do Steirereck 2 estrelas Michelin, num formato acessível e sem reserva. A arquitetura do pavilhão de vidro no parque é deslumbrante.",
+                "highlights": ["Queijo Almkäse de montanha e Mühlviertler Steirerkäse", "Pão de centeio com manteiga de nata e flor de sal", "Schnitzel de vitela com salada de pepino (almoço)", "Milchkaffee artesanal e sucos prensados a frio"],
+                "estimatedCoupleCost": "€40–60"
+              },
+              {
+                "level": "premium",
+                "name": "Steirereck im Stadtpark",
+                "type": "Alta gastronomia austríaca — 2 estrelas Michelin",
+                "address": "Am Heumarkt 2A, 1030 Wien (dentro do Stadtpark)",
+                "description": "Consistentemente classificado entre os 10 melhores restaurantes do mundo pela lista 50 Best. O chef Heinz Reitbauer revela ingredientes esquecidos das florestas, lagos e montanhas da Áustria. O almoço começa com um carrinho com mais de 30 variedades de pão artesanal. Peixe de rio austríaco, ervas silvestres, trufas. Reserva com 2–3 meses de antecedência é imprescindível.",
+                "highlights": ["Saibling (truta alpina) em 3 preparações", "O carrinho de pão (30+ variedades, cortesia da casa)", "Harmonização com produtores vinícolas austríacos exclusivos", "Um dos almoços mais memoráveis possíveis na Europa"],
+                "estimatedCoupleCost": "€180–240"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "Após o Belvedere (~17h30), o jantar deve terminar até 18h30 para chegar a Schönbrunn às 19h e garantir um bom lugar no gramado para o concerto às 20h45. O Salm Bräu fica a 100m da saída do Belvedere.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Salm Bräu",
+                "type": "Microcervejaria austríaca",
+                "address": "Rennweg 8, 1030 Wien (porta ao lado do jardim do Belvedere)",
+                "description": "A única cervejaria-restaurante instalada num palácio em Viena, literalmente a 100 metros da entrada sul do Belvedere. Cerveja artesanal produzida no próprio estabelecimento em cobre visível atrás do balcão. Um jantar rápido e genuinamente vienense antes de seguir para Schönbrunn: Stelze (joelho de porco assado), Gulasch e as quatro cervejas da casa.",
+                "highlights": ["Schweinsstelze (joelho de porco assado, porção para 2, ~€28)", "Gulasch vienense com Semmelknödel", "Märzenbier artesanal (0,5L ~€5)", "Käsespätzle (massa com queijo gratinado, opção vegetariana)"],
+                "estimatedCoupleCost": "€30–44"
+              },
+              {
+                "level": "mid",
+                "name": "Gasthaus Pöschl",
+                "type": "Beisl vienense clássico",
+                "address": "Weihburggasse 17, 1010 Wien (15 min de metrô do Belvedere)",
+                "description": "Um dos últimos Beisln (tabernas) autenticamente vienenses do centro histórico — aberto em 1936, frequentado por funcionários do parlamento e professores da universidade. Sem glamourização para turistas. O Zwiebelrostbraten (lombo bovino com cebola caramelizada, Spätzle e salada de pepino) é considerado por muitos o melhor de Viena. Para chegar: bonde 71 de Unteres Belvedere até Rennweg, depois U3 até Stubentor — 15 min.",
+                "highlights": ["Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)", "Wiener Schnitzel com salada de batata morna", "Esterházy Rostbraten (com molho de alcaparras)", "Vinho branco do Burgenland por copo"],
+                "estimatedCoupleCost": "€56–76"
+              },
+              {
+                "level": "premium",
+                "name": "Palmenhaus",
+                "type": "Restaurante na estufa imperial Art Nouveau",
+                "address": "Burggartenterrasse 1, 1010 Wien (no Burggarten, junto ao Ring)",
+                "description": "Instalado na estufa Art Nouveau do Burggarten, projetada por Friedrich Ohmann em 1901 para as palmeiras tropicais da coleção imperial. A nave principal de vidro e ferro com 20 metros de altura, plantas tropicais originais e iluminação suave noturna criam um ambiente impossível de replicar. Moderna cozinha austríaca com vegetais do jardim e peixes de rio. Acesso fácil pela U4 de Stadtpark até Karlsplatz.",
+                "highlights": ["Wiener Spargel com manteiga e presunto de Parma (temporada)", "Zanderfilet (lúcio-perca do Danúbio com ervilhas e mostarda)", "Cocktails botânicos na esplanada de verão", "Vista dos jardins imperiais ao entardecer"],
+                "estimatedCoupleCost": "€80–110"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "schonbrunn", "name": "Schönbrunn (Grand Tour + Glorieta)", "coupleCost": "~€62", "note": "Grand Tour €26/pessoa + Glorieta €5/pessoa" },
+            { "poiId": "stadtpark", "name": "Stadtpark", "coupleCost": "€0", "note": "Gratuito" },
+            { "poiId": "oberes-belvedere", "name": "Belvedere Superior", "coupleCost": "~€32", "note": "€16/pessoa — compre online em belvedere.at" },
+            { "poiId": "summer-night-concert", "name": "Summer Night Concert 2026", "coupleCost": "€0", "note": "Gratuito — sem reserva necessária" }
+          ],
+          "attractionsSubtotal": "~€94",
+          "attractionsNote": "O dia com melhor custo-benefício: dois dos maiores palácios de Viena + concerto da Filarmônica ao ar livre por apenas €94 em atrações.",
+          "dailyTotal": {
+            "budget": { "meals": "~€67", "total": "~€161" },
+            "mid": { "meals": "~€116", "total": "~€210" },
+            "premium": { "meals": "~€320", "total": "~€414" }
+          }
+        }
+      }
     },
     {
       "id": "dia-3",
@@ -101,7 +265,89 @@
         "hofburg-sisi",
         "prater-riesenrad"
       ],
-      "logistics": null
+      "logistics": {
+        "meals": {
+          "lunch": {
+            "context": "Após Stephansdom e a caminhada pelo Graben/Kohlmarkt (~13h), o 1º distrito concentra as mesas mais históricas de Viena. Qualquer opção abaixo fica a no máximo 10 min a pé do Hofburg.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Zum Schwarzen Kameel",
+                "type": "Adega e delicatessen desde 1618",
+                "address": "Bognergasse 5, 1010 Wien",
+                "description": "Uma das mais antigas casas comerciais de Viena — aberta em 1618, apenas 27 anos antes da conclusão da Catedral de Santo Estêvão. Especializada em vinhos austríacos e Brötchen (canapés abertos com coberturas variadas: queijo de cabra, rosbife com raiz-forte, salmão defumado). Elegante mas acessível: o segredo é pedir ao balcão como os vienenses fazem. Frequentado por políticos e jornalistas do parlamento vizinho.",
+                "highlights": ["Brötchen (€3–5 cada): rosbife+raiz-forte, presunto, queijo de cabra", "Grüner Veltliner Kamptal por copo (~€5–7)", "Brötchen de Lachstatar (tártaro de salmão)", "20+ variedades de canapés no balcão frio"],
+                "estimatedCoupleCost": "€30–44"
+              },
+              {
+                "level": "mid",
+                "name": "Café Central",
+                "type": "Café histórico Art Nouveau no Palais Ferstel",
+                "address": "Herrengasse 14, 1010 Wien",
+                "description": "Aberto em 1876 no Palais Ferstel, o Café Central é a sala mais impressionante do café vienense: arcos em pedra, colunas de mármore e palmeiras vivas de 10 metros crescendo no centro. Sigmund Freud vinha diariamente. Leon Trotsky jogava xadrez aqui até ser expulso da Áustria em 1917 — há uma estátua dele sentado ao fundo. Peter Altenberg recebia toda sua correspondência aqui por não ter endereço fixo. Cardápio clássico com música ao vivo nas tardes.",
+                "highlights": ["Gulasch com pão Semmel (o mais vienense dos pratos)", "Wiener Schnitzel com salada de pepino em aneto", "Apfelstrudel quente com Schlagobers (creme batido)", "Melange com jornais do dia (Zeitungen)"],
+                "estimatedCoupleCost": "€50–80"
+              },
+              {
+                "level": "premium",
+                "name": "Restaurant Konstantin Filippou",
+                "type": "Dois estrelas Michelin — cozinha austríaco-mediterrânea",
+                "address": "Dominikanerbastei 17, 1010 Wien",
+                "description": "Dois estrelas Michelin, um dos melhores da Áustria. O chef Konstantin Filippou — filho de pai grego e mãe austríaca — criou uma síntese única: a precisão técnica e os ingredientes alpinos da Áustria com a acidez, o azeite e as ervas do Mediterrâneo. A 8 min a pé da Stephansdom. Menu de almoço de 4 tempos mais acessível que o jantar. Reserva antecipada necessária.",
+                "highlights": ["Saibling (truta alpina) com creme de azeite e ervas do Egeu", "Wagyu austríaco com jus de cogumelos de carvalho", "Harmonização com vinhos da Wachau e Burgenland", "Menu almoço 4 tempos com harmonização (~€130–160/pessoa)"],
+                "estimatedCoupleCost": "€180–260"
+              }
+            ]
+          },
+          "dinner": {
+            "context": "O Prater fica no 2º distrito — U1 de Schwedenplatz até Praterstern (5 min). O Schweizerhaus fica a 10 min a pé do Riesenrad e está aberto de maio a outubro. Em junho, jantar sob as castanheiras do biergarten é uma experiência vienense imperdível.",
+            "options": [
+              {
+                "level": "budget",
+                "name": "Würstelstand am Prater",
+                "type": "Gastronomia de rua vienense",
+                "address": "Riesenradplatz / Wurstelprater, 1020 Wien",
+                "description": "Comer no Würstelstand é uma das experiências mais genuinamente vienenses — e o ambiente do Prater, com a roda gigante iluminada ao fundo, transforma um simples Käsekrainer num jantar memorável. Os vienenses não comem aqui por necessidade — comem por escolha, seja após um turno de trabalho ou uma noite na Ópera. Democrático da forma que Viena sabe ser.",
+                "highlights": ["Käsekrainer com mostarda e pão Semmel", "Leberkäse no pão com mostarda picante", "Cerveja Ottakringer ou Schwechater gelada", "Langos (massa frita húngara com creme e queijo)"],
+                "estimatedCoupleCost": "€16–28"
+              },
+              {
+                "level": "mid",
+                "name": "Schweizerhaus",
+                "type": "Cervejaria-biergarten histórica no Prater",
+                "address": "Prater 116, 1020 Wien (10 min a pé do Riesenrad)",
+                "description": "Em operação desde 1920, o Schweizerhaus é a instituição gastronômica mais amada do Prater. Sob castanheiras centenárias no biergarten de 1.000 lugares, serve exclusivamente cerveja Budvar tcheca (a original) em copos de vidro com alça. A Stelze — joelho de porco assado por 2 horas, pele crocante e carne que sai do osso — é o prato lendário. Em junho, encerrar a última noite em Viena sob as castanheiras, com a roda gigante iluminada ao fundo, é difícil de superar.",
+                "highlights": ["Schweinsstelze inteira (porção para 2, ~€26–28)", "Budvar tcheco em copo de 0,5L com alça", "Biergulasch (gulasch com cerveja escura)", "Kartoffelsalat (salada de batata fria com vinagre)"],
+                "estimatedCoupleCost": "€44–64"
+              },
+              {
+                "level": "premium",
+                "name": "Lusthaus",
+                "type": "Pavilhão imperial no fundo do Prater",
+                "address": "Freudenau 254, 1020 Wien (20 min a pé do Riesenrad pela Hauptallee)",
+                "description": "Construído em 1874 como pavilhão de encontro para os caçadores e cavaleiros da aristocracia vienense que usavam a Hauptallee — a grande avenida de 4,5 km com castanheiras onde Francisco José I passeava a cavalo. O pavilhão octogonal no final da avenida, cercado pela floresta, preserva o ar de clube aristocrático do século XIX. O passeio de 20 min pela Hauptallee ao entardecer é parte da experiência: a mesma avenida, as mesmas árvores, o mesmo silêncio que os Habsburgo ouviam.",
+                "highlights": ["Jägerschnitzel (escalope com molho de cogumelos silvestres)", "Hirschgulasch (gulasch de veado do Prater, na temporada)", "Tarte de maçã com nata e canela", "Vinhos do Burgenland e espumante Schlumberger austríaco"],
+                "estimatedCoupleCost": "€90–130"
+              }
+            ]
+          }
+        },
+        "costSummary": {
+          "attractions": [
+            { "poiId": "stephansdom", "name": "Stephansdom", "coupleCost": "~€24", "note": "Interior €6 + catacumbas €6/pessoa. Torre Norte opcional: +€12 casal" },
+            { "poiId": "graben-kohlmarkt", "name": "Graben e Kohlmarkt", "coupleCost": "€0", "note": "Gratuito. Figarohaus opcional: +€24 casal" },
+            { "poiId": "hofburg-sisi", "name": "Hofburg — Sisi Ticket", "coupleCost": "~€76", "note": "Sisi Ticket €38/pessoa (Kaiserappartements + Museu Sisi + Hofmobiliendepot)" },
+            { "poiId": "prater-riesenrad", "name": "Prater e Riesenrad", "coupleCost": "~€27", "note": "Riesenrad €13,50/pessoa; parque gratuito" }
+          ],
+          "attractionsSubtotal": "~€127",
+          "attractionsNote": "O Sisi Ticket (€76 casal) cobre três museus separados — melhor custo-benefício para o Hofburg.",
+          "dailyTotal": {
+            "budget": { "meals": "~€57", "total": "~€184" },
+            "mid": { "meals": "~€119", "total": "~€246" },
+            "premium": { "meals": "~€390", "total": "~€517" }
+          }
+        }
+      }
     }
   ],
   "pois": [
@@ -134,6 +380,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito",
+      "coupleCost": "€0 — gratuito",
       "schedule": {
         "monday": "06:00–19:30",
         "tuesday": "06:00–19:30",
@@ -221,6 +468,7 @@
       ],
       "visitType": "indoor+outdoor",
       "entryFee": "~€8 (inclui elevador panorâmico até a cúpula)",
+      "coupleCost": "~€16 (€8/pessoa, inclui elevador panorâmico)",
       "schedule": {
         "monday": "09:00–18:00",
         "tuesday": "09:00–18:00",
@@ -326,6 +574,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Tour Ópera: ~€13. Stehplätze (bilhetes de pé para espetáculos): ~€5. Ring: gratuito",
+      "coupleCost": "€0–26 (Ring gratuito; tour Staatsoper ~€13/pessoa)",
       "schedule": {
         "monday": "Ring: sempre. Ópera tours: verificar wiener-staatsoper.at",
         "tuesday": "Tours Ópera: geralmente 10:00–14:00",
@@ -430,9 +679,9 @@
         ],
         "thumb": "/media/routes/viena/photos/ringstrasse-staatsoper/thumb.jpg"
       },
-      "walkingNotes": "Da Ringstrasse ao Kunsthistorisches Museum: 5 min a pé pelo Burgring — siga em direção sul pela Ringstrasse e vire na Maria-Theresien-Platz; o museu fica no lado oeste da praça simétrica.",
+      "walkingNotes": "Tarde livre após a Ringstrasse: almoço no Ring (o Café Landtmann ou os restaurantes do Burgtheater são referências) e descanso no hotel. Às 19:30 abrem as portas do Musikverein — siga pela Kärntner Straße em direção sul (~10 min a pé da Ópera) até a Musikvereinsplatz. Metrô alternativo: U1/U2/U4 até Karlsplatz, 2 min a pé.",
       "nextTransport": "walking",
-      "nextTransportMinutes": 5,
+      "nextTransportMinutes": 10,
       "tags": [
         "ópera",
         "ring",
@@ -443,126 +692,86 @@
       ]
     },
     {
-      "id": "kunsthistorisches-museum",
+      "id": "die-schloss-capelle-concert",
       "dayId": "dia-1",
       "order": 4,
-      "name": "Kunsthistorisches Museum",
-      "lat": 48.2036,
-      "lng": 16.3614,
-      "address": "Maria-Theresien-Platz, 1010 Wien",
-      "historicalPeriod": "imperial",
-      "yearBuilt": "1891",
-      "architecturalStyle": "Neorenascentista",
-      "significance": "Maior coleção de Bruegel do mundo (12 obras); maior coleção de Velázquez fora do Prado; coleção egípcia e greco-romana dos Habsburgo",
-      "description": "O Kunsthistorisches Museum (KHM) de Viena é um dos cinco maiores museus de arte do mundo e o maior museu de arte da Áustria — um palácio de coleta e exibição que Francisco José I construiu para consolidar o poder simbólico da Casa de Habsburgo através da arte. O edifício neorenascentista (1891), simétrico ao Naturhistorisches Museum do outro lado da praça, foi projetado por Gottfried Semper e Karl von Hasenauer como um templo de civilização: esculturas de artistas europeus coroam a fachada, e o interior — especialmente a escadaria central com afrescos de Klimt — é uma das obras de arte arquitetônicas mais impressionantes da Europa.\n\nA coleção reúne séculos de aquisições, heranças dinásticas e conquistas militares dos Habsburgo: pinturas das coleções de Filipe II de Espanha, dos archiduques tirólicos, dos Galerias Reais de Praga saqueadas pelos Suecos na Guerra dos Trinta Anos e recuperadas. O resultado é uma coleção de coerência histórica impossível de montar hoje.\n\nDestaques absolutos: a maior coleção de Pieter Bruegel, o Velho, do mundo (12 obras, incluindo A Torre de Babel e Os Caçadores na Neve); os retratos espanhóis de Velázquez da Infanta Margarida Teresa; A Arte da Pintura de Vermeer; retratos de Dürer, Raphael, Tiziano e Caravaggio. A coleção egípcia e as antiguidades greco-romanas dos andares inferiores são igualmente extraordinárias.\n\nUm detalhe que a maioria dos visitantes não conhece: na grande escadaria central, os medalhões nas paredes foram pintados por um jovem Gustav Klimt em 1891 — antes de ele desenvolver o estilo dourado que o tornou famoso. São trabalhos acadêmicos excepcionais que mostram o Klimt ainda dentro da tradição clássica.",
-      "immersiveMode": true,
-      "immersiveText": "Existe uma pintura no segundo andar do Kunsthistorisches Museum que para muitas pessoas muda a relação com a arte europeia para sempre. É A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563. O tamanho é modesto — 114 × 155 cm — mas o que Bruegel fez dentro desse retângulo desafia a física da atenção: quanto mais você olha, mais detalhes aparecem. Operários no andaime superior. Barcos no porto abaixo. O rei Nemrod inspecionando a construção. Andaimes de madeira em espiral. E a torre em si, já mais alta que as nuvens, absurda na sua ambição, destinada ao fracasso que o Gênesis prometeu.\n\nBruegel era o pintor mais importante dos Países Baixos do século XVI, e os Habsburgo dos Países Baixos — então a mesma família que governava a Espanha e o Sacro Império Romano — o colecionavam obsessivamente. Filipe II da Espanha tinha 16 Bruegels. Quando os Habsburgo espanhóis e austríacos dividiram o patrimônio, os quadros seguiram para Viena. É por isso que o maior acervo de Bruegel do mundo está aqui, numa cidade que nunca foi holandesa.\n\nA lógica das coleções habsburgas é essa: o poder estava em todo lugar, então a arte de todo lugar veio para Viena. Os retratos da Infanta Margarida Teresa por Velázquez — a menina de olhos fixos que Velázquez pintou cinco vezes entre 1653 e 1659, aos 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e veio para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático.\n\nA Arte da Pintura de Vermeer, talvez o quadro mais filosoficamente intrigante do século XVII, está aqui por acidente de história: Vermeer deixou-o inacabado, sua viúva o ofereceu como pagamento de dívidas, e ele circulou por coleções privadas até ser comprado pelos Habsburgo no século XIX. Hitler, que era austríaco e obsessivamente ligado à arte, tentou incorporá-lo ao museu que pretendia construir em Linz (o Führermuseum, que nunca foi concluído). A história da arte europeia é inseparável da história do poder europeu.\n\nO que pouca gente nota ao entrar no KHM é o teto da cúpula central: os medalhões nas paredes que ladeiam a grande escadaria foram pintados por Gustav Klimt em 1891, quando ele tinha 28 anos e ainda era um artista acadêmico convencional. São alegorias de períodos históricos da arte — Egito, Grécia, Roma — pintadas com precisão técnica extraordinária. Quatro anos depois, Klimt fundaria a Secessão vienense e nunca mais pintaria nada parecido com isso. A escadaria do KHM é, portanto, um local duplamente histórico: o último Klimt antes da ruptura.\n\nReserve pelo menos 3 horas para o KHM — e ainda assim vai perder coisas. O museu tem 100 salas. Concentrem-se no primeiro andar (Gemäldegalerie): a sala de Bruegel (sala X), os Velázquez (sala XII), os Vermeers (sala XVII) e os Rembrandts (sala XIV). Se sobrarem 30 minutos, desçam ao piso 0 para a Coleção Egípcia — as esculturas de calcário faraônicas adquiridas pelos Habsburgo no século XIX são tão impressionantes quanto qualquer coisa no Cairo.",
+      "name": "Die SchlossCapelle — Mozart & Vivaldi",
+      "lat": 48.2009,
+      "lng": 16.3724,
+      "address": "Musikvereinsplatz 1, 1010 Wien (Großer Musikvereinssaal)",
+      "historicalPeriod": "modern",
+      "yearBuilt": "1870",
+      "architecturalStyle": "Neorenascentista — Theophil Hansen",
+      "significance": "A sala de concertos com melhor acústica do mundo; inaugurada em 1870; sede do Concerto de Ano Novo transmitido para 90 países",
+      "description": "O Wiener Musikverein é a sala de concertos mais famosa do mundo — inaugurada em 1870 pelo arquiteto Theophil Hansen (o mesmo do Parlamento na Ringstrasse) no estilo neorenascentista. O Großer Musikvereinssaal (Grande Sala Dourada) é considerada a sala com melhor acústica natural do mundo graças ao teto em caixotões dourados, as carátides femininas que sustentam os camarotes e a proporção perfeita entre largura, altura e comprimento. É aqui que é gravado todo ano o Concerto de Ano Novo da Filarmônica de Viena, transmitido para mais de 90 países.\n\nDie SchlossCapelle é um conjunto de câmara especializado no repertório barroco e clássico vienense, com Fritz Kircher ao violino. O programa desta noite — Mozart & Vivaldi — ecoa perfeitamente a Viena do século XVIII que percorremos ao longo do dia: da Karlskirche de Fischer von Erlach ao Parlamento de Hansen na Ringstrasse, agora concluindo o dia na mesma sala onde a Filarmônica de Viena toca há 150 anos.\n\nOs ingressos adquiridos são Parterre rechts (área nobre à direita do parterre central), Fila 4, Lugares 10 e 11 — uma posição excelente: visão direta do palco, acústica privilegiada, sem colunas de obstrução.",
+      "immersiveMode": false,
+      "immersiveText": null,
       "observationPoints": [
-        "Sala de Bruegel (sala X, 1º andar): A Torre de Babel e Os Caçadores na Neve lado a lado — observe os níveis de detalhe se aproximando progressivamente de cada obra",
-        "Sala XII (Velázquez): os cinco retratos da Infanta Margarida Teresa dos 2 aos 9 anos — a mesma criança envelhecendo em tela por Velázquez",
-        "Escadaria central: os medalhões de Gustav Klimt de 1891 — o 'pré-Secessão' antes de sua ruptura com a arte acadêmica",
-        "Sala XVII (Vermeer): A Arte da Pintura — a tela que Hitler tentou confiscar para o seu Führermuseum em Linz"
+        "Grande Sala Dourada: o teto em caixotões dourados e as 48 carátides nos camarotes — a acústica perfeita começa na geometria da sala",
+        "Parterre rechts, Fila 4: posição central-lateral com visão direta ao palco e à orquestra",
+        "Fachada exterior (Musikvereinsplatz): a fachada neorenascentista de Hansen à noite, iluminada — um dos exteriores mais elegantes de Viena"
       ],
-      "suggestedExperience": "Entrem pela tarde (a manhã foi na Ópera) por volta das 14h e fiquem até as 18h. Comprem os bilhetes online em khm.at para evitar filas. Começem pela cúpula central e os medalhões de Klimt, depois subam ao primeiro andar pela escadaria. Prioridade: salas X (Bruegel) → XII (Velázquez) → XVII (Vermeer) → XIV (Rembrandt). Terminem no Café do Museu na cúpula — o Café im Kunsthistorischen Museum é o mais belo café de museu da Europa.",
+      "suggestedExperience": "Chegue às 19:30 (abertura das portas — obrigatório 30 min antes do início). Deixe casacos e mochilas no guarda-volumes (obrigatório por regulamento). Traje semi-formal é bem-vindo mas não obrigatório. A sala abre totalmente às 19:45 — aproveite para observar a acústica do espaço vazio antes de encher. O concerto começa às 20:00 em ponto.",
       "searchSuggestions": [
-        "Kunsthistorisches Museum Wien ingresso online khm.at",
-        "Bruegel Torre de Babel Viena história coleção",
-        "Velázquez Infanta Margarida Teresa retratos",
-        "Vermeer Arte da Pintura Habsburgo história",
-        "Klimt escadaria KHM medalhões 1891"
+        "Wiener Musikverein Großer Musikvereinssaal história acústica",
+        "Die SchlossCapelle Mozart Vivaldi programa concerto",
+        "Musikverein guarda-volumes regras entrada",
+        "Musikvereinsplatz 1 Wien como chegar metrô"
       ],
       "visitType": "indoor",
-      "entryFee": "~€21 (adultos). Crianças até 19 anos: gratuito. Online: khm.at",
+      "entryFee": "Ingresso adquirido — Parterre rechts, Fila 4, Lugares 10 e 11 (€83/ingresso, Classic Exclusive OG)",
+      "coupleCost": "€166 (ingressos já adquiridos, €83/pessoa)",
       "schedule": {
-        "monday": "Fechado",
-        "tuesday": "10:00–18:00",
-        "wednesday": "10:00–21:00 (última quinta longa até 21h)",
-        "thursday": "10:00–18:00",
-        "friday": "10:00–18:00",
-        "saturday": "10:00–18:00",
-        "sunday": "10:00–18:00"
+        "thursday": "19:30 (abertura de portas) · 20:00 (início do concerto)"
       },
-      "estimatedVisitMinutes": 180,
+      "estimatedVisitMinutes": 120,
       "externalViewingAlways": false,
-      "proximityRadiusMeters": 80,
+      "proximityRadiusMeters": 50,
       "media": {
-        "audio": "/media/routes/viena/audio/kunsthistorisches-museum.mp3",
+        "audio": "/media/routes/viena/audio/die-schloss-capelle-concert.mp3",
         "photos": [
           {
-            "src": "/media/routes/viena/photos/kunsthistorisches-museum/main.jpg",
-            "caption": "Kunsthistorisches Museum",
+            "src": "/media/routes/viena/photos/die-schloss-capelle-concert/main.jpg",
+            "caption": "Großer Musikvereinssaal — a Grande Sala Dourada do Musikverein, inaugurada em 1870",
             "type": "recognition"
           }
         ],
         "subAttractions": [
           {
-            "id": "brueghel-torre-babel",
-            "name": "Torre de Babel de Bruegel",
-            "image": "/media/routes/viena/sub-attractions/kunsthistorisches-museum/brueghel-torre-babel.jpg",
-            "caption": "A obra-prima de Bruegel de 1563 — quanto mais você olha, mais detalhes aparecem",
-            "imageFit": "contain",
+            "id": "grosser-musikvereinssaal",
+            "name": "Großer Musikvereinssaal — A Sala Dourada",
+            "image": "/media/routes/viena/sub-attractions/die-schloss-capelle-concert/grosser-musikvereinssaal.jpg",
+            "caption": "A sala com melhor acústica do mundo: teto em caixotões dourados, carátides e 1.744 lugares",
             "reel": {
-              "audioMood": "contemplative",
+              "audioMood": "classical",
               "segments": [
                 {
-                  "text": "A Torre de Babel de Pieter Bruegel, o Velho, pintada em 1563, é a pintura que mais muda a relação das pessoas com a arte europeia. O tamanho é modesto — 114 × 155 cm — mas dentro desse retângulo, Bruegel criou um mundo completo: operários no andaime, barcos no porto, o rei Nemrod inspecionando, e a torre absurda já mais alta que as nuvens, destinada ao fracasso.",
+                  "text": "O Großer Musikvereinssaal foi projetado por Theophil Hansen em 1870 — o mesmo arquiteto do Parlamento que viram na Ringstrasse esta manhã. A acústica é considerada a melhor do mundo graças ao teto de caixotões dourados, ao piso de madeira de carvalho e à proporção exata entre as dimensões da sala: 48 metros de comprimento, 19 de largura e 18 de altura.",
                   "duration": 24,
                   "focusZone": "full"
                 },
                 {
-                  "text": "Bruegel representou a Torre de Babel como uma construção em espiral ascendente — provavelmente inspirada no Coliseu de Roma, que ele visitou em 1552. Mas o que o distingue de qualquer outro pintor do século XVI é o detalhismo democrático: nenhum personagem é mais importante que outro. O rei Nemrod é minúsculo diante da escala da construção. A hubris humana é visível na própria proporção.",
-                  "duration": 24,
-                  "focusZone": "detail"
-                },
-                {
-                  "text": "O KHM possui 12 das pinturas de Bruegel — a maior coleção do mundo. Os Habsburgo dos Países Baixos as colecionavam obsessivamente; quando a coleção de Filipe II da Espanha foi dividida, os quadros foram para Viena com a parte habsburga austríaca. É por isso que o maior tesouro da pintura flamenga do século XVI está em Viena.",
+                  "text": "Todo ano, no dia 1 de janeiro, a Filarmônica de Viena toca o Concerto de Ano Novo nesta sala — transmitido ao vivo para mais de 90 países e assistido por cerca de 50 milhões de pessoas. É o concerto mais assistido do mundo. Esta noite, vocês estão sentados nos mesmos lugares onde essa tradição acontece desde 1939.",
                   "duration": 22,
                   "focusZone": "center"
-                }
-              ]
-            }
-          },
-          {
-            "id": "velazquez-infanta",
-            "name": "Retratos da Infanta Margarida Teresa",
-            "image": "/media/routes/viena/sub-attractions/kunsthistorisches-museum/velazquez-infanta.jpg",
-            "caption": "Velázquez pintou a Infanta 5 vezes dos 2 aos 9 anos — ela veio para Viena aos 15 e trouxe os quadros",
-            "imageFit": "contain",
-            "reel": {
-              "audioMood": "contemplative",
-              "segments": [
-                {
-                  "text": "Os cinco retratos de Velázquez da Infanta Margarida Teresa — pintados entre 1653 e 1659, quando ela tinha 2, 5, 8 e 9 anos — estão em Viena porque Margarida Teresa casou com o imperador Leopoldo I e mudou-se para a corte vienense aos 15 anos. Os quadros vieram com ela como parte do enxoval diplomático. Ela morreu em Viena aos 21 anos.",
-                  "duration": 24,
-                  "focusZone": "full"
-                },
-                {
-                  "text": "Os retratos mostram a mesma criança envelhecendo em tela ao longo de 6 anos — um registro fotográfico avant la lettre da infância de uma infanta habsburga. Velázquez, o maior retratista do século XVII, capturou nos olhos fixos e ligeiramente sérios da menina algo que vai além do retrato oficial: uma criança real, com sua própria personalidade e, aparentemente, sua própria tristeza.",
-                  "duration": 24,
-                  "focusZone": "center"
-                },
-                {
-                  "text": "Estas obras estão diretamente relacionadas com As Meninas — o quadro de Velázquez no Museu do Prado em Madri, que vocês verão daqui a dois dias. Margarida Teresa é a menina ao centro d'As Meninas. Ao ver estes retratos em Viena, vocês verão Las Meninas em Madri com outros olhos: a mesma criança, o mesmo pintor, o mesmo momento histórico.",
-                  "duration": 22,
-                  "focusZone": "detail"
                 }
               ]
             }
           }
         ],
-        "thumb": "/media/routes/viena/photos/kunsthistorisches-museum/thumb.jpg"
+        "thumb": "/media/routes/viena/photos/die-schloss-capelle-concert/thumb.jpg"
       },
-      "walkingNotes": "Fim do Dia 1. Do KHM ao hotel: a pé pelo Ring ou metrô U2 de Museumsquartier até Rathaus ou Schottentor. Amanhã: para o Schönbrunn, metrô U4 em direção a Hütteldorf a partir de Karlsplatz/Oper — 15 min.",
+      "walkingNotes": "Fim do Dia 1. Após o concerto (~22:00): o Musikverein fica a 3 min a pé da estação de metrô Karlsplatz (U1/U2/U4). Restaurantes e bares no Naschmarkt e arredores ficam abertos até tarde se quiserem jantar após o concerto.",
       "nextTransport": null,
       "nextTransportMinutes": null,
       "tags": [
-        "museu",
-        "arte",
-        "Bruegel",
-        "Velázquez",
-        "Vermeer",
-        "imperial",
-        "imersivo"
+        "música",
+        "concerto",
+        "Musikverein",
+        "Mozart",
+        "Vivaldi",
+        "câmara",
+        "noturno"
       ]
     },
     {
@@ -596,6 +805,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Grand Tour (45 salas): ~€26. Glorieta (panorama): ~€5. Jardins: gratuitos",
+      "coupleCost": "~€62 (Grand Tour €26/pessoa + Glorieta €5/pessoa)",
       "schedule": {
         "monday": "09:00–17:30",
         "tuesday": "09:00–17:30",
@@ -714,6 +924,7 @@
       ],
       "visitType": "outdoor",
       "entryFee": "Gratuito",
+      "coupleCost": "€0 — gratuito",
       "schedule": {
         "monday": "Sempre aberto",
         "tuesday": "Sempre aberto",
@@ -803,6 +1014,7 @@
       ],
       "visitType": "indoor+outdoor",
       "entryFee": "~€16. Online: belvedere.at",
+      "coupleCost": "~€32 (€16/pessoa)",
       "schedule": {
         "monday": "09:00–18:00",
         "tuesday": "09:00–18:00",
@@ -855,9 +1067,9 @@
         ],
         "thumb": "/media/routes/viena/photos/oberes-belvedere/thumb.jpg"
       },
-      "walkingNotes": "Do Belvedere ao Hundertwasserhaus: 15 min a pé pela Ungargasse/Fasangasse em direção nordeste; ou bonde 71 de Unteres Belvedere até Radetzkyplatz, depois 5 min a pé pela Kegelgasse.",
-      "nextTransport": "walking",
-      "nextTransportMinutes": 15,
+      "walkingNotes": "Do Belvedere ao Summer Night Concert em Schönbrunn: jantem no 3º distrito (Rennweg ou Landstraße, ~17:30) e sigam para Schönbrunn às 18:30–19:00. Metrô: bonde 71 de Unteres Belvedere até Stadtpark → U4 em direção a Hütteldorf até Schönbrunn (total ~30 min). Chegue 90 min antes do concerto (20:45) para garantir boa posição no gramado.",
+      "nextTransport": "subway",
+      "nextTransportMinutes": 30,
       "tags": [
         "arte",
         "Klimt",
@@ -868,91 +1080,87 @@
       ]
     },
     {
-      "id": "hundertwasserhaus",
+      "id": "summer-night-concert",
       "dayId": "dia-2",
       "order": 4,
-      "name": "Hundertwasserhaus e KunstHausWien",
-      "lat": 48.2079,
-      "lng": 16.3991,
-      "address": "Kegelgasse 34–38, 1030 Wien",
-      "historicalPeriod": "contemporary",
-      "yearBuilt": "1983–1985",
-      "architecturalStyle": "Expressionismo orgânico — Friedensreich Hundertwasser e Josef Krawina",
-      "significance": "O edifício residencial mais fotografado da Áustria — uma rejeição filosófica radical do funcionalismo modernista em pleno século XX",
-      "description": "O Hundertwasserhaus é um prédio residencial público projetado pelo artista e arquiteto Friedensreich Hundertwasser (1928–2000) em colaboração com o arquiteto Josef Krawina, construído pela Prefeitura de Viena entre 1983 e 1985. É uma declaração filosófica em forma de edifício.\n\nHundertwasser acreditava que a linha reta é 'uma coisa imoral, uma ferramenta do Diabo' e que os seres humanos têm o direito fundamental a 'janelas irregulares' nas suas casas — o direito de estender o braço pela janela e pintar a fachada tanto quanto o braço alcance. O resultado é uma fachada ondulante com pisos irregulares que 'respiram', 250 árvores crescendo dentro e fora dos apartamentos, terraços-jardim no nível dos telhados, e uma mistura exuberante de azulejos coloridos, cerâmica e diferentes acabamentos por toda a superfície — nenhuma parte da fachada é igual à outra.\n\nO prédio tem 52 apartamentos habitados até hoje (não é museu — é residência privada). A visita é exterior, mas o Hundertwasser Dorf (vila comercial temática) na esquina, e o KunstHausWien a 200 metros, com as obras originais de Hundertwasser sobre ecologia, filosofia e arte, completam a experiência. O contraste com a Viena imperial dos Habsburgo que ocupou os dois dias anteriores torna a visita ainda mais fascinante — duas visões radicalmente diferentes do que uma cidade pode ser.",
+      "name": "Summer Night Concert 2026 — Filarmônica de Viena",
+      "lat": 48.1845,
+      "lng": 16.3122,
+      "address": "Schlosspark Schönbrunn, 1130 Wien",
+      "historicalPeriod": "modern",
+      "yearBuilt": "1752 (jardins de Schönbrunn)",
+      "architecturalStyle": "Jardins barrocos — entrada livre para o concerto ao ar livre",
+      "significance": "O maior concerto ao ar livre da Europa; ~60.000 pessoas nos jardins de Schönbrunn; transmitido para o mundo inteiro pela ORF",
+      "description": "O Sommernachtskonzert Schönbrunn (Concerto da Noite de Verão) é um dos maiores eventos culturais da Europa — a Filarmônica de Viena toca ao ar livre nos jardins barrocos de Schönbrunn, com a fachada amarela iluminada como cenário e a Glorieta no alto da colina ao fundo. Entrada completamente gratuita, sem necessidade de ingressos. Aproximadamente 60.000 pessoas se reúnem anualmente nos jardins.\n\nEm 2026, o concerto é regido por Lorenzo Viotti, com o barítono galês Bryn Terfel como solista. O programa inclui árias de ópera de Verdi e Boito, trechos do Das Rheingold de Wagner, e O Violinista no Telhado (Fiddler on the Roof) — além de obras sinfônicas. O concerto é transmitido ao vivo pela ORF 2, 3sat e Medici.TV.\n\nChegar 90–120 minutos antes garante boa posição no gramado. Os jardins de Schönbrunn ficam abertos durante o evento. Há quiosques de bebidas e comida instalados para o concerto. O público mistura vienenses com trajes de gala, famílias com crianças e turistas de todo o mundo — uma das experiências mais democráticas e memoráveis da vida musical europeia.",
       "immersiveMode": false,
       "immersiveText": null,
       "observationPoints": [
-        "Fachada principal (Kegelgasse): a ondulação dos pisos, os diferentes revestimentos por appartamento e as árvores crescendo pelas janelas",
-        "Esquina Löwengasse/Kegelgasse: o ângulo que permite ver tanto a fachada colorida quanto os telhados-jardim com vegetação — o ponto clássico de fotografia",
-        "KunstHausWien (200m): o museu dedicado a Hundertwasser com seus manifestos sobre arquitetura e ecologia — tão importante quanto o prédio para entender a filosofia"
+        "Palco com a fachada iluminada de Schönbrunn ao fundo: a imagem icônica do concerto — orquestra no gramado, palácio barroco dourado na moldura",
+        "Glorieta no topo da colina: silhueta iluminada durante o concerto — a mesma que viram esta manhã, agora à noite",
+        "O jardim às 20:00: chegue cedo e observe 60.000 pessoas se instalando no gramado — uma das cenas mais únicas de Viena"
       ],
-      "suggestedExperience": "A visita exterior leva 20-30 min — caminhe devagar ao redor do quarteirão para ver todas as fachadas. O Hundertwasser Dorf na esquina tem uma cafeteria no estilo do artista, perfeita para uma pausa antes de voltar ao centro. O KunstHausWien fica a 200m e vale 45 min se tiver energia restante. Dica: o bonde 1 de Radetzkyplatz reconecta ao Ring em 15 min.",
+      "suggestedExperience": "Saiam do Belvedere por volta das 17:30 e jantem no 3º distrito (Rennweg ou Landstraße) — há boas opções de Gasthäuser austríacos. Sigam para Schönbrunn às 18:30–19:00 pelo metrô U4 (Karlsplatz/Oper → Schönbrunn, 15 min). Chegar 90 min antes do concerto (20:45) garante lugar no gramado com boa visão. Levem algo para sentar (toalha ou esteira leve). O concerto começa às 20:45 e dura cerca de 90 min. A Glorieta iluminada ao fundo e o som da Filarmônica nos jardins barrocos é um dos momentos mais raros de se experimentar em qualquer viagem à Europa.",
       "searchSuggestions": [
-        "Hundertwasserhaus Wien visita exterior horário",
-        "KunstHausWien ingresso horário exposição",
-        "Hundertwasser arquitetura filosofia linha reta",
-        "Hundertwasser Dorf cafeteria Viena"
+        "Sommernachtskonzert Schönbrunn 2026 horário entrada",
+        "Summer Night Concert Vienna 2026 Lorenzo Viotti Bryn Terfel",
+        "Schönbrunn concerto ao ar livre chegada antecipada dicas",
+        "ORF Summer Night Concert transmissão ao vivo"
       ],
-      "visitType": "outdoor+indoor",
-      "entryFee": "Exterior: gratuito. KunstHausWien: ~€12",
+      "visitType": "outdoor",
+      "entryFee": "Gratuito — entrada livre sem ingresso",
+      "coupleCost": "€0 — gratuito",
       "schedule": {
-        "monday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "tuesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "wednesday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "thursday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "friday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "saturday": "Exterior: sempre. KunstHausWien: 10:00–17:00",
-        "sunday": "Exterior: sempre. KunstHausWien: 10:00–17:00"
+        "friday": "Portões abrem ~18:00 · Concerto: 20:45 (sexta-feira, 19 Jun 2026)"
       },
-      "estimatedVisitMinutes": 60,
+      "estimatedVisitMinutes": 150,
       "externalViewingAlways": true,
-      "proximityRadiusMeters": 80,
+      "proximityRadiusMeters": 200,
       "media": {
-        "audio": "/media/routes/viena/audio/hundertwasserhaus.mp3",
+        "audio": "/media/routes/viena/audio/summer-night-concert.mp3",
         "photos": [
           {
-            "src": "/media/routes/viena/photos/hundertwasserhaus/main.jpg",
-            "caption": "Hundertwasserhaus — fachada colorida ondulante com árvores crescendo pelas janelas (1983–1985)",
+            "src": "/media/routes/viena/photos/summer-night-concert/main.jpg",
+            "caption": "Summer Night Concert — Filarmônica de Viena nos jardins de Schönbrunn com o palácio iluminado ao fundo",
             "type": "recognition"
           }
         ],
         "subAttractions": [
           {
-            "id": "hundertwasser-fachada",
-            "name": "A Fachada — Manifesto em Azulejos",
-            "image": "/media/routes/viena/sub-attractions/hundertwasserhaus/hundertwasser-fachada.jpg",
-            "caption": "Fachada ondulante: nenhum andar é reto, nenhuma janela é igual à outra — o direito à janela irregular como filosofia habitacional",
+            "id": "filarmonica-jardins",
+            "name": "Filarmônica de Viena nos Jardins Barrocos",
+            "image": "/media/routes/viena/sub-attractions/summer-night-concert/filarmonica-jardins.jpg",
+            "caption": "~60.000 pessoas nos jardins de Schönbrunn ouvindo a melhor orquestra do mundo ao ar livre — entrada gratuita",
             "reel": {
-              "audioMood": "contemplative",
+              "audioMood": "classical",
               "segments": [
                 {
-                  "text": "Hundertwasser escreveu em 1958 o Manifesto da Mofo — declarando que a linha reta é uma ferramenta do Diabo e que a arquitectura ortogonal destruiu a relação natural entre o ser humano e o espaço. O Hundertwasserhaus, construído 25 anos depois, é a resposta prática: pisos irregulares, janelas assimétricas, árvores no interior e uma fachada que muda de revestimento a cada andar.",
+                  "text": "A Filarmônica de Viena é consistentemente classificada como a melhor orquestra do mundo. Fundada em 1842, tem entre seus regentes históricos Brahms, Bruckner, Mahler, Richard Strauss e Carlos Kleiber. O Sommernachtskonzert existe desde 2004 como evento de acesso popular — a mesma orquestra que toca no Musikverein e no Festival de Salzburgo, agora ao ar livre, de graça.",
                   "duration": 24,
-                  "focusZone": "detail"
+                  "focusZone": "full"
                 },
                 {
-                  "text": "O edifício tem 52 apartamentos habitados por famílias reais até hoje. A Prefeitura de Viena o construiu como habitação social — um dos raros casos em que arte radical e habitação pública se encontraram. Hundertwasser recusou qualquer pagamento pelos serviços de design, declarando que era suficiente 'prevenir algo feio de ser construído na minha cidade'.",
-                  "duration": 22,
-                  "focusZone": "full"
+                  "text": "Em 2026, Lorenzo Viotti rege e Bryn Terfel — um dos maiores barítonos da geração atual — canta árias de Verdi, Boito e Wagner. O programa inclui também trechos de O Violinista no Telhado, na tradição do concerto de misturar repertório clássico com o popular. O gramado de Schönbrunn como anfiteatro natural, com a acústica aberta e a Glorieta iluminada ao fundo, torna a experiência completamente diferente de qualquer sala de concertos.",
+                  "duration": 26,
+                  "focusZone": "center"
                 }
               ]
             }
           }
         ],
-        "thumb": "/media/routes/viena/photos/hundertwasserhaus/thumb.jpg"
+        "thumb": "/media/routes/viena/photos/summer-night-concert/thumb.jpg"
       },
-      "walkingNotes": "Fim do Dia 2. Do Hundertwasserhaus ao hotel/centro: bonde 1 de Radetzkyplatz (3 min a pé) até Schwedenplatz ou Ringstraße — 15 min. Alternativa: Uber/táxi direto (10 min ao Ring).",
+      "walkingNotes": "Fim do Dia 2. Após o concerto (~22:15): metrô U4 de Schönbrunn até Karlsplatz/centro (15 min). Alternativamente, a 5 min a pé da estação de Schönbrunn há opções de bares e restaurantes abertos até meia-noite no bairro de Meidling/Schönbrunn.",
       "nextTransport": null,
       "nextTransportMinutes": null,
       "tags": [
-        "Hundertwasser",
-        "arte",
-        "arquitetura",
-        "colorido",
-        "expressionismo",
-        "moderno",
-        "habitação"
+        "música",
+        "concerto",
+        "ao ar livre",
+        "Filarmônica de Viena",
+        "Schönbrunn",
+        "gratuito",
+        "noturno",
+        "verão"
       ]
     },
     {
@@ -984,6 +1192,7 @@
       ],
       "visitType": "indoor+outdoor",
       "entryFee": "Interior: ~€6 (donativo). Catacumbas (tour): ~€6. Torre Norte (elevador): ~€6",
+      "coupleCost": "~€24 (interior €6 + catacumbas €6/pessoa; torre opcional +€12)",
       "schedule": {
         "monday": "06:00–22:00 (catedral). Tours catacumbas: 10:00–17:00",
         "tuesday": "06:00–22:00",
@@ -1077,6 +1286,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Ruas e Pestsäule: gratuito. Figarohaus: ~€12 (com audioguia). Bitzinger: ~€6–10 por pessoa",
+      "coupleCost": "€0 (Figarohaus opcional: +€24 casal)",
       "schedule": {
         "monday": "Ruas: sempre. Figarohaus: Fechado",
         "tuesday": "Ruas: sempre. Figarohaus: 10:00–18:00",
@@ -1220,6 +1430,7 @@
       ],
       "visitType": "indoor",
       "entryFee": "Sisi Ticket (Kaiserapartements + Museu Sisi + Móveis Imperiais): ~€38. Schatzkammer: ~€16. Prunksaal: ~€10",
+      "coupleCost": "~€76 (Sisi Ticket €38/pessoa — 3 museus incluídos)",
       "schedule": {
         "monday": "09:00–17:30 (Sisi e Schatzkammer)",
         "tuesday": "09:00–17:30",
@@ -1339,6 +1550,7 @@
       ],
       "visitType": "outdoor+indoor",
       "entryFee": "Riesenrad: ~€13,50 (adulto). Prater: gratuito",
+      "coupleCost": "~€27 (Riesenrad €13,50/pessoa; Prater gratuito)",
       "schedule": {
         "monday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",
         "tuesday": "Riesenrad: 10:00–22:00. Prater: sempre aberto",

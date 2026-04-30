@@ -113,6 +113,10 @@ export function stopAudio() {
   playerContainer.classList.remove('audio-player--visible');
   playBtn.querySelector('span').innerHTML = '&#9654;';
   setState('audioState', { playing: false, poiId: null, currentTime: 0, duration: 0 });
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = null;
+    navigator.mediaSession.playbackState = 'none';
+  }
 }
 
 export function renderAudioPlayer() {
@@ -147,8 +151,40 @@ function goToChapter(index) {
   playBtn.querySelector('span').innerHTML = '&#9646;&#9646;';
   setState('audioState', { playing: true, poiId: null, currentTime: 0, duration: 0 });
 
-  // Atualiza pills ativas
   updateChapterPills();
+  syncMediaSession();
+}
+
+function syncMediaSession() {
+  if (!('mediaSession' in navigator)) return;
+  const chapter = chapters[currentChapter];
+  if (!chapter) return;
+
+  navigator.mediaSession.metadata = new MediaMetadata({
+    title: chapter.title,
+    artist: 'Guia Munique & Leste Europeu 2026',
+  });
+  navigator.mediaSession.playbackState = audioEl.paused ? 'paused' : 'playing';
+
+  navigator.mediaSession.setActionHandler('play', () => {
+    audioEl.play().catch(() => {});
+    playBtn.querySelector('span').innerHTML = '&#9646;&#9646;';
+    setState('audioState', { ...getState().audioState, playing: true });
+    navigator.mediaSession.playbackState = 'playing';
+  });
+  navigator.mediaSession.setActionHandler('pause', () => {
+    audioEl.pause();
+    playBtn.querySelector('span').innerHTML = '&#9654;';
+    setState('audioState', { ...getState().audioState, playing: false });
+    navigator.mediaSession.playbackState = 'paused';
+  });
+  navigator.mediaSession.setActionHandler('stop', () => stopAudio());
+  navigator.mediaSession.setActionHandler('nexttrack',
+    currentChapter < chapters.length - 1 ? () => goToChapter(currentChapter + 1) : null
+  );
+  navigator.mediaSession.setActionHandler('previoustrack',
+    currentChapter > 0 ? () => goToChapter(currentChapter - 1) : null
+  );
 }
 
 function renderChapterStrip() {
@@ -183,9 +219,11 @@ function togglePlay() {
     audioEl.play().catch(() => {});
     playBtn.querySelector('span').innerHTML = '&#9646;&#9646;';
     setState('audioState', { ...getState().audioState, playing: true });
+    if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
   } else {
     audioEl.pause();
     playBtn.querySelector('span').innerHTML = '&#9654;';
     setState('audioState', { ...getState().audioState, playing: false });
+    if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
   }
 }
