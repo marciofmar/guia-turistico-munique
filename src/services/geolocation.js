@@ -17,11 +17,14 @@ export function startWatching() {
 
   if (watchId !== null) return;
 
+  setState('gpsStatus', 'waiting');
+
   watchId = navigator.geolocation.watchPosition(
     (position) => {
       const { latitude, longitude, accuracy } = position.coords;
       setState('userPosition', { lat: latitude, lng: longitude });
       setState('gpsAccuracy', accuracy);
+      setState('gpsStatus', 'active');
 
       if (accuracy <= 150) {
         checkProximity(latitude, longitude);
@@ -29,6 +32,7 @@ export function startWatching() {
     },
     (error) => {
       console.warn('Geolocation error:', error.message);
+      setState('gpsStatus', error.code === 1 ? 'denied' : 'error');
     },
     {
       enableHighAccuracy: true,

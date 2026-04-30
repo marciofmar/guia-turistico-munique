@@ -492,9 +492,26 @@ addRoute('/route/:id/map', (container, { id }) => {
     }
   });
 
+  // GPS status badge — shows while waiting; hides on first fix; shows error if denied
+  const gpsBadge = el('div', { className: 'gps-status-badge gps-status-badge--waiting' }, '📡 Aguardando GPS...');
+  mapWrapper.appendChild(gpsBadge);
+
   const unsubPos = subscribe('userPosition', (pos) => {
     if (pos) {
       updateUserPosition(pos.lat, pos.lng, getState().gpsAccuracy || 50);
+      gpsBadge.remove();
+    }
+  });
+
+  const unsubGps = subscribe('gpsStatus', (status) => {
+    if (status === 'active') {
+      gpsBadge.remove();
+    } else if (status === 'denied') {
+      gpsBadge.className = 'gps-status-badge gps-status-badge--error';
+      gpsBadge.textContent = '⚠️ Permissão de localização negada — verifique as configurações do navegador';
+    } else if (status === 'error') {
+      gpsBadge.className = 'gps-status-badge gps-status-badge--error';
+      gpsBadge.textContent = '⚠️ Localização indisponível';
     }
   });
 
@@ -508,6 +525,7 @@ addRoute('/route/:id/map', (container, { id }) => {
 
   return () => {
     unsubPos();
+    unsubGps();
     unsubDay();
   };
 });

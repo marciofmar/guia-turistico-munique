@@ -34,6 +34,9 @@ export function initMap(containerId) {
     map.remove();
     map = null;
   }
+  // Reset stale Leaflet layer references so they get recreated on the new map instance
+  userMarker = null;
+  accuracyCircle = null;
 
   map = L.map(containerId, {
     zoomControl: false,

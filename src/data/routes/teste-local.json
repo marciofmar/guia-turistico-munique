@@ -10,6 +10,8 @@
     {
       "id": "teste-dia-1",
       "date": "2026-04-30",
+      "order": 1,
+      "weekday": "thursday",
       "title": "Circuito de testes",
       "dayType": "urban",
       "theme": "Verificar alertas GPS, vibração e notificações"

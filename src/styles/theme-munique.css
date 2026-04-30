@@ -836,3 +836,33 @@
   cursor: pointer;
   border: none;
 }
+
+/* ── GPS status badge ────────────────────────────────────────── */
+.gps-status-badge {
+  position: absolute;
+  bottom: var(--space-md);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.gps-status-badge--waiting {
+  background: rgba(30, 30, 50, 0.85);
+  color: #aac4f0;
+  border: 1px solid rgba(100, 160, 255, 0.3);
+}
+.gps-status-badge--error {
+  background: rgba(60, 20, 20, 0.92);
+  color: #f0a0a0;
+  border: 1px solid rgba(220, 80, 80, 0.4);
+  pointer-events: auto;
+  white-space: normal;
+  text-align: center;
+  max-width: 260px;
+}
