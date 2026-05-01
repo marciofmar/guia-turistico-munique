@@ -2,14 +2,46 @@
   "id": "praga-2026",
   "title": "Praga",
   "subtitle": "A cidade de cem torres, do Golem e da Revolução de Veludo",
-  "tripDates": { "start": "2026-06-08", "end": "2026-06-10" },
+  "accommodation": {
+    "name": "Luxury Family Hotel Royal Palace",
+    "address": "Letenská 11, 118 19 Praha",
+    "lat": 50.0868,
+    "lng": 14.4126
+  },
+  "tripDates": {
+    "start": "2026-06-08",
+    "end": "2026-06-10"
+  },
   "baseCity": "Praga",
-  "baseCityCoords": { "lat": 50.0755, "lng": 14.4378 },
+  "baseCityCoords": {
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
   "historicalPeriods": [
-    { "id": "medieval",   "name": "Boêmia Medieval e Hussite",         "color": "#8B6914", "era": "séc. IX–XV"   },
-    { "id": "baroque",    "name": "Habsburgos e Contra-Reforma",        "color": "#7B1FA2", "era": "séc. XVII–XIX" },
-    { "id": "jewish",     "name": "Josefov — A Comunidade Judaica",     "color": "#1565C0", "era": "séc. X–1945"  },
-    { "id": "modern",     "name": "República, Nazismo e Veludo",        "color": "#C62828", "era": "1918–1989"    }
+    {
+      "id": "medieval",
+      "name": "Boêmia Medieval e Hussite",
+      "color": "#8B6914",
+      "era": "séc. IX–XV"
+    },
+    {
+      "id": "baroque",
+      "name": "Habsburgos e Contra-Reforma",
+      "color": "#7B1FA2",
+      "era": "séc. XVII–XIX"
+    },
+    {
+      "id": "jewish",
+      "name": "Josefov — A Comunidade Judaica",
+      "color": "#1565C0",
+      "era": "séc. X–1945"
+    },
+    {
+      "id": "modern",
+      "name": "República, Nazismo e Veludo",
+      "color": "#C62828",
+      "era": "1918–1989"
+    }
   ],
   "days": [
     {
@@ -27,7 +59,10 @@
       "primaryColor": "#8B6914",
       "coverEmoji": "🏰",
       "intro": "A colina de Hradčany, na margem esquerda do Vltava, é o coração arquitetônico e histórico de Praga — e o complexo de castelos habitados mais extenso do mundo, com sete hectares. A Catedral de São Vito começou em 1344 sob Carlos IV e foi concluída em 1929: 585 anos de obra. A Zlatá ulička — onde Franz Kafka alugou um cômodo no inverno de 1916 — ficou intacta. E a Ponte Carlos, ao final da descida, é a mais bonita ponte medieval da Europa. Comece cedo: as multidões chegam às dez da manhã e não param.",
-      "poiIds": ["prazsky-hrad", "mala-strana-karluv-most"],
+      "poiIds": [
+        "prazsky-hrad",
+        "mala-strana-karluv-most"
+      ],
       "logistics": {
         "meals": {
           "lunch": {
@@ -39,7 +74,11 @@
                 "type": "Pub tcheco com Pilsner Urquell filtrado na hora",
                 "address": "Míšeňská 12, 118 00 Praha 1 (Malá Strana)",
                 "description": "Pub moderno do grupo Ambiente num edifício barroco de Malá Strana, com a melhor versão de Pilsner Urquell filtrado na hora de Praga. Guláš, Svíčková e Bramboráky num ambiente animado mas sem cair na armadilha turística. Frequentado por locais que trabalham no bairro.",
-                "highlights": ["Guláš de vaca com pão de centeio", "Svíčková na smetaně", "Pilsner Urquell filtrado na hora"],
+                "highlights": [
+                  "Guláš de vaca com pão de centeio",
+                  "Svíčková na smetaně",
+                  "Pilsner Urquell filtrado na hora"
+                ],
                 "estimatedCoupleCost": "€22–32"
               },
               {
@@ -48,7 +87,11 @@
                 "type": "Café Art Nouveau histórico",
                 "address": "Vítězná 5, 150 00 Praha 5 (Smíchov, beira do Vltava)",
                 "description": "Café histórico com interior Art Nouveau original — madeira entalhada, estuque dourado, pé-direito alto. Culinária tcheca tradicional e pastéis austríacos numa das casas de chá mais belas de Praga. Svíčková, pato assado e Kaiserschmarrn num ambiente que convida a ficar mais do que planejado.",
-                "highlights": ["Svíčková na smetaně com knedlík", "Pato assado da Boêmia com couve roxa", "Kaiserschmarrn austríaco com açúcar de confeiteiro"],
+                "highlights": [
+                  "Svíčková na smetaně com knedlík",
+                  "Pato assado da Boêmia com couve roxa",
+                  "Kaiserschmarrn austríaco com açúcar de confeiteiro"
+                ],
                 "estimatedCoupleCost": "€44–62"
               },
               {
@@ -57,7 +100,11 @@
                 "type": "Restaurante à beira do Vltava com vista para a Ponte Carlos",
                 "address": "Cihelná 2b, 118 00 Praha 1 (Malá Strana)",
                 "description": "Fábrica de tijolos do século XIX convertida em restaurante moderno, com terraço ribeirinho e vista direta para a Ponte Carlos. Cozinha tcheca contemporânea com influências mediterrâneas — confit de pato do Vltava, truta local, risoto de cogumelos silvestres da Boêmia. Uma das mesas com melhor vista de Praga.",
-                "highlights": ["Confit de pato com lentilhas e laranja", "Truta do rio com manteiga de ervas e capuchinha", "Terraço com vista para a Ponte Carlos ao almoço"],
+                "highlights": [
+                  "Confit de pato com lentilhas e laranja",
+                  "Truta do rio com manteiga de ervas e capuchinha",
+                  "Terraço com vista para a Ponte Carlos ao almoço"
+                ],
                 "estimatedCoupleCost": "€80–110"
               }
             ]
@@ -71,7 +118,11 @@
                 "type": "Pub tcheco clássico na rua barroca",
                 "address": "Nerudova 2, 118 00 Praha 1 (Malá Strana)",
                 "description": "Pub clássico numa das ruas mais fotografadas de Malá Strana, com fachada barroca e interior de madeira escura. Guláš de vaca, Svíčková e Kozel gelado sem nenhum rebuscamento turístico. O local perfeito para a primeira noite em Praga.",
-                "highlights": ["Guláš de vaca com knedlík", "Tartare de carne temperado à mesa", "Kozel Tmavý (cerveja escura) de barril"],
+                "highlights": [
+                  "Guláš de vaca com knedlík",
+                  "Tartare de carne temperado à mesa",
+                  "Kozel Tmavý (cerveja escura) de barril"
+                ],
                 "estimatedCoupleCost": "€24–34"
               },
               {
@@ -80,7 +131,11 @@
                 "type": "Restaurante íntimo em porão do século XVII",
                 "address": "Nebovidská 6, 118 00 Praha 1 (Malá Strana)",
                 "description": "Restaurante de poucos lugares num porão de 1680, especializado em pato em múltiplas preparações — a 'kachna' tcheca elevada ao nível de arte. Veado, perdiz e javali completam o menu de caça bohemian com apresentação cuidadosa e velas nas mesas de pedra.",
-                "highlights": ["Pato assado com couve vermelha e knedlík", "Veado com molho de zimbro e bagas silvestres", "Vinho tcheco da Morávia na lista"],
+                "highlights": [
+                  "Pato assado com couve vermelha e knedlík",
+                  "Veado com molho de zimbro e bagas silvestres",
+                  "Vinho tcheco da Morávia na lista"
+                ],
                 "estimatedCoupleCost": "€50–70"
               },
               {
@@ -89,7 +144,11 @@
                 "type": "Fine dining em mosteiro agostiniano do século XIII",
                 "address": "Letenská 12/33, 118 00 Praha 1 (dentro do Hotel Augustine)",
                 "description": "Restaurante do Hotel Augustine, instalado no antigo Mosteiro de São Tomás (1285) de Malá Strana. Cozinha austro-tcheca com ingredientes locais e técnica moderna num ambiente de paredes de pedra e arcos medievais restaurados. Menu degustação com produtos sazonais da Boêmia e Morávia.",
-                "highlights": ["Menu degustação de 5 cursos com harmonização", "Foie gras de pato com geleia de albricoque", "Cerveja monástica St. Thomas servida no claustro"],
+                "highlights": [
+                  "Menu degustação de 5 cursos com harmonização",
+                  "Foie gras de pato com geleia de albricoque",
+                  "Cerveja monástica St. Thomas servida no claustro"
+                ],
                 "estimatedCoupleCost": "€100–150"
               }
             ]
@@ -127,6 +186,25 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "12 min",
+          "route": "Letenská → Mostecká → Ponte Carlos → Staroměstské nám.",
+          "highlight": "A Ponte Carlos de manhã cedo, com poucas pessoas e luz dourada",
+          "departureTime": "08:48"
+        },
+        "recommended": "walking",
+        "recommendedReason": "A Ponte Carlos a poucos metros do hotel é um privilégio — atravessá-la pela manhã é o começo perfeito para um dia no Staré Město."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "12 min",
+          "route": "Staroměstské nám. → Ponte Carlos → Mostecká → Letenská",
+          "highlight": "Ponte Carlos ao anoitecer — um dos cenários mais bonitos de Praga"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno pela Ponte Carlos ao entardecer fecha o dia com chave de ouro."
       }
     },
     {
@@ -144,7 +222,10 @@
       "primaryColor": "#1565C0",
       "coverEmoji": "✡️",
       "intro": "O Dia 2 divide-se entre dois mundos que coexistiram durante séculos a metros um do outro: a Staroměstské náměstí — onde proclamações de independência e execuções de protestantes böhemios aconteceram no mesmo paralelepípedo — e o Josefov, o bairro judaico que sobreviveu a pogroms, ao nazismo e à demolição urbana do fim do século XIX. A Sinagoga Pinkas, com 77.297 nomes de judeus tchecos mortos no Holocausto escritos à mão nas paredes, é uma das experiências mais difíceis que uma viagem pela Europa pode oferecer. Reserve energia.",
-      "poiIds": ["staromestske-namesti", "josefov"],
+      "poiIds": [
+        "staromestske-namesti",
+        "josefov"
+      ],
       "logistics": {
         "meals": {
           "lunch": {
@@ -156,7 +237,11 @@
                 "type": "Pub rústico com menu do almoço",
                 "address": "Kostečná 4, 110 00 Praha 1 (Cidade Velha)",
                 "description": "Pub rústico com menu do dia (Polední menu) de €5–8/pessoa, um dos melhores custos-benefício da Cidade Velha. Guláš, Svíčková, Rajská omáčka (molho de tomate assado com vaca) num ambiente de madeira sem pretensão turística. Frequentado por estudantes e trabalhadores do bairro.",
-                "highlights": ["Guláš com pão de centeio", "Svíčková na smetaně", "Menu do dia com sopa + prato principal + cerveja"],
+                "highlights": [
+                  "Guláš com pão de centeio",
+                  "Svíčková na smetaně",
+                  "Menu do dia com sopa + prato principal + cerveja"
+                ],
                 "estimatedCoupleCost": "€18–28"
               },
               {
@@ -165,7 +250,11 @@
                 "type": "Pub moderno com Pilsner Urquell de barril",
                 "address": "Dlouhá 33, 110 00 Praha 1 (Cidade Velha)",
                 "description": "O melhor representante do movimento de reinvenção do pub tcheco — Pilsner Urquell filtrado na hora, pratos sazonais com ingredientes locais e serviço eficiente num salão comprido de azulejos brancos. Costela na cerveja preta, svíčková tartare e os famosos nakládaný hermelín (queijo marinado) são os destaques.",
-                "highlights": ["Costela bovina na cerveja preta com knedlík", "Tartare de svíčková temperado na mesa", "Nakládaný hermelín (queijo brie marinado em óleo e especiarias)"],
+                "highlights": [
+                  "Costela bovina na cerveja preta com knedlík",
+                  "Tartare de svíčková temperado na mesa",
+                  "Nakládaný hermelín (queijo brie marinado em óleo e especiarias)"
+                ],
                 "estimatedCoupleCost": "€36–50"
               },
               {
@@ -174,7 +263,11 @@
                 "type": "Café histórico com azulejos Art Nouveau do chão ao teto",
                 "address": "Na Poříčí 15, 110 00 Praha 1 (Nové Město)",
                 "description": "Interior de 1914 revestido integralmente com azulejos cerâmicos Art Nouveau — um dos interiores mais impressionantes de Praga, restaurado em 2007 pelo designer Adam D. Tihany. Cozinha tcheca e francesa com ostras, tartare, pato assado e soufflés num ambiente que é, em si mesmo, a atração principal.",
-                "highlights": ["Ostras frescas com molho de vinagrete", "Tartare de atum com wasabi e gengibre", "Pato à l'orange com purê de batata trufado"],
+                "highlights": [
+                  "Ostras frescas com molho de vinagrete",
+                  "Tartare de atum com wasabi e gengibre",
+                  "Pato à l'orange com purê de batata trufado"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -188,7 +281,11 @@
                 "type": "Açougue-restaurante com cortes nobres",
                 "address": "Dlouhá 39, 110 00 Praha 1 (Cidade Velha)",
                 "description": "Conceito de açougue-restaurante onde a qualidade da carne é o único argumento. Sanduíches com cortes nobres, tártares do dia, pratos simples num balcão de mármore. Sem reserva, sem pretensão, com fila de locais. Um dos melhores custo-benefício de Praga para carne de qualidade.",
-                "highlights": ["Sándwich de rosbife com mostarda de Dijon", "Tartare do dia com gema crua e cebola roxa", "Linguiça artesanal com rábano"],
+                "highlights": [
+                  "Sándwich de rosbife com mostarda de Dijon",
+                  "Tartare do dia com gema crua e cebola roxa",
+                  "Linguiça artesanal com rábano"
+                ],
                 "estimatedCoupleCost": "€22–30"
               },
               {
@@ -197,7 +294,11 @@
                 "type": "Brasserie tradicional tcheca no Josefov",
                 "address": "V Kolkovně 8, 110 00 Praha 1 (Josefov)",
                 "description": "Brasserie clássica patrocinada pela Pilsner Urquell, no coração do Josefov. Svíčková à moda da casa com o molho mais equilibrado de Praga, pato assado com couve vermelha e knedlík dourado, e os famosos tatarák (tartare) servidos na faca com especiarias à mesa. Ambiente elegante sem rigidez.",
-                "highlights": ["Svíčková na smetaně com cranberry e knedlík duplo", "Pečená kachna (pato assado) com couve roxa e bramborák", "Pilsner Urquell Unfiltered (turvo, não pasteurizado)"],
+                "highlights": [
+                  "Svíčková na smetaně com cranberry e knedlík duplo",
+                  "Pečená kachna (pato assado) com couve roxa e bramborák",
+                  "Pilsner Urquell Unfiltered (turvo, não pasteurizado)"
+                ],
                 "estimatedCoupleCost": "€42–58"
               },
               {
@@ -206,7 +307,11 @@
                 "type": "1 estrela Michelin — receitas históricas tchecas",
                 "address": "Haštalská 18, 110 00 Praha 1 (Cidade Velha)",
                 "description": "Estrela Michelin na Cidade Velha com a proposta mais original de Praga: receitas tchecas históricas do século XIX, extraídas de livros de culinária da era austro-húngara e reinterpretadas com técnica contemporânea. Menu de 7–11 cursos com harmonização de vinhos da Morávia. Uma das melhores mesas da Europa Central.",
-                "highlights": ["Menu degustação de 7 cursos com receitas históricas tchecas", "Harmonização com vinhos da Morávia (Pálava, Welschriesling)", "Prato de escola: vitela confitada com cenouras antigas e mostarda artesanal"],
+                "highlights": [
+                  "Menu degustação de 7 cursos com receitas históricas tchecas",
+                  "Harmonização com vinhos da Morávia (Pálava, Welschriesling)",
+                  "Prato de escola: vitela confitada com cenouras antigas e mostarda artesanal"
+                ],
                 "estimatedCoupleCost": "€160–220"
               }
             ]
@@ -244,6 +349,24 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "15 min",
+          "route": "Letenská → Nerudova → Hradčany → Castelo de Praga",
+          "highlight": "Nerudova — rua íngreme com casas barrocas e detalhes medievais únicos",
+          "departureTime": "08:45"
+        },
+        "recommended": "walking",
+        "recommendedReason": "A subida pela Nerudova até o Castelo é parte do programa — a vista de cima recompensa cada degrau."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "15 min",
+          "route": "Hradčany → Nerudova → Letenská"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Descida agradável da colina do castelo de volta ao hotel."
       }
     },
     {
@@ -261,7 +384,11 @@
       "primaryColor": "#C62828",
       "coverEmoji": "🕊️",
       "intro": "O Dia 3 é mais tranquilo e mais tcheco: o Vyšehrad, o promontório rochoso ao sul com o cemitério onde Dvořák, Smetana e Mucha estão enterrados, é o lugar menos turístico e mais genuíno de Praga. Depois, a Václavské náměstí — que não é uma praça, mas um boulevard de 750 metros onde a Tchecoslováquia foi proclamada em 1918, ocupada por tanques soviéticos em 1968, e libertada pela Revolução de Veludo em 1989. O dia termina no náměstí Republiky com a Casa Municipal Art Nouveau e a Torre de Pólvora Gótica — o início histórico da Rota Real que percorria Praga desde os tempos medievais.",
-      "poiIds": ["vysehrad", "vaclavske-namesti", "casa-municipal-prasna-brana"],
+      "poiIds": [
+        "vysehrad",
+        "vaclavske-namesti",
+        "casa-municipal-prasna-brana"
+      ],
       "logistics": {
         "meals": {
           "lunch": {
@@ -273,7 +400,11 @@
                 "type": "Brewpub com cervejas artesanais próprias",
                 "address": "Ječná 15/Lipová 15, 120 00 Praha 2 (Nové Město)",
                 "description": "Brewpub que produz cervejas artesanais não convencionais no local — banana, urtiga, caramelo, cereja — num edifício histórico do início do século XX. Menu do almoço com guláš, knedlík e saladas. O ambiente é animado, os preços são honestos e a cerveja de urtiga é uma experiência irreplicável.",
-                "highlights": ["Cerveja de urtiga (nettle beer) artesanal", "Guláš de vaca com knedlík de pão", "Menu do dia com prato principal + cerveja de 500ml"],
+                "highlights": [
+                  "Cerveja de urtiga (nettle beer) artesanal",
+                  "Guláš de vaca com knedlík de pão",
+                  "Menu do dia com prato principal + cerveja de 500ml"
+                ],
                 "estimatedCoupleCost": "€24–34"
               },
               {
@@ -282,7 +413,11 @@
                 "type": "Bistrô moderno com grelhados de qualidade",
                 "address": "Politických vězňů 5, 110 00 Praha 1 (Nové Město)",
                 "description": "Ex-cantina industrial reformada em bistrô contemporâneo com grelhados de qualidade, saladas frescas e uma boa seleção de vinho tcheco. Frequentado por trabalhadores do centro e moradores do bairro. Ambiente descontraído e eficiente — ideal para um almoço no meio de um dia de caminhadas.",
-                "highlights": ["Entrecôte grelhado com batatas e mostarda artesanal", "Salada de beterraba e queijo de cabra da Morávia", "Vinho Welschriesling da Morávia por taça"],
+                "highlights": [
+                  "Entrecôte grelhado com batatas e mostarda artesanal",
+                  "Salada de beterraba e queijo de cabra da Morávia",
+                  "Vinho Welschriesling da Morávia por taça"
+                ],
                 "estimatedCoupleCost": "€40–56"
               },
               {
@@ -291,7 +426,11 @@
                 "type": "Fine dining no topo da Casa Dançante de Frank Gehry",
                 "address": "Rašínovo nábřeží 80, 120 00 Praha 2 (Tančící dům)",
                 "description": "Restaurante no último andar da icônica Casa Dançante (Tančící dům) de Frank Gehry e Vlado Milunić, com vista panorâmica sobre o Vltava e a Cidade Velha. Cozinha franco-tcheca de alta gastronomia. A arquitetura do edifício e a vista já justificam a visita — o jantar é um bônus de alto nível.",
-                "highlights": ["Vista panorâmica da janela sobre o Vltava e Praga", "Foie gras de pato com brioche e confit de ameixas", "Menu degustação com harmonização de vinhos franceses e morávios"],
+                "highlights": [
+                  "Vista panorâmica da janela sobre o Vltava e Praga",
+                  "Foie gras de pato com brioche e confit de ameixas",
+                  "Menu degustação com harmonização de vinhos franceses e morávios"
+                ],
                 "estimatedCoupleCost": "€90–130"
               }
             ]
@@ -305,7 +444,11 @@
                 "type": "Taverna tcheca tradicional com música ao vivo",
                 "address": "Politických vězňů 13, 110 00 Praha 1 (Nové Město)",
                 "description": "Taverna tcheca clássica próxima ao Václavské náměstí com decoração de interior aconchegante e música folclórica tcheca ao vivo nas noites. Pratos tradicionais honestos — Svíčková, Vepřo-knedlo-zelo, Guláš — num ambiente que convida a ficar na última noite em Praga.",
-                "highlights": ["Svíčková na smetaně com cranberry", "Música folclórica tcheca ao vivo nas noites", "Pivo do mês (cerveja sazonal tcheca)"],
+                "highlights": [
+                  "Svíčková na smetaně com cranberry",
+                  "Música folclórica tcheca ao vivo nas noites",
+                  "Pivo do mês (cerveja sazonal tcheca)"
+                ],
                 "estimatedCoupleCost": "€24–34"
               },
               {
@@ -314,7 +457,11 @@
                 "type": "Bistrô moderno tcheco com forno a lenha",
                 "address": "Pernerova 49, 186 00 Praha 8 (Karlín)",
                 "description": "O restaurante mais interessante da nova geração tcheca, no bairro de Karlín. Forno a lenha, pães de fermentação longa, fermentados artesanais e pratos com ingredientes locais tratados com técnica contemporânea. A loja de pães da entrada vale uma visita por si só.",
-                "highlights": ["Pães de fermentação natural com manteiga de ervas", "Porco confitado com legumes fermentados", "Kombucha e cidras artesanais tchecas"],
+                "highlights": [
+                  "Pães de fermentação natural com manteiga de ervas",
+                  "Porco confitado com legumes fermentados",
+                  "Kombucha e cidras artesanais tchecas"
+                ],
                 "estimatedCoupleCost": "€46–64"
               },
               {
@@ -323,7 +470,11 @@
                 "type": "1 estrela Michelin — cozinha tcheca contemporânea",
                 "address": "U Milosrdných 12, 110 00 Praha 1 (Cidade Velha)",
                 "description": "Estrela Michelin na Cidade Velha com a proposta mais coerente da gastronomia tcheca contemporânea. Menu de degustação baseado em ingredientes sazonais locais — do rio Vltava, das florestas e fazendas da Boêmia — com técnicas modernas e apresentação minimalista. O melhor encerramento possível para Praga.",
-                "highlights": ["Menu degustação de 6–8 cursos com ingredientes da Boêmia", "Truta do Vltava com maçã fermentada e capuchinha", "Harmonização com vinhos naturais tchecos e morávios"],
+                "highlights": [
+                  "Menu degustação de 6–8 cursos com ingredientes da Boêmia",
+                  "Truta do Vltava com maçã fermentada e capuchinha",
+                  "Harmonização com vinhos naturais tchecos e morávios"
+                ],
                 "estimatedCoupleCost": "€180–260"
               }
             ]
@@ -367,6 +518,44 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "Tram 17 → Albertov + caminhada 8 min até Vyšehrad",
+          "duration": "22 min",
+          "cost": "CZK 30 (~€1,20)",
+          "departureTime": "08:38"
+        },
+        "walking": {
+          "duration": "35 min",
+          "route": "Letenská → Smetanovo nábřeží → Rašínovo nábřeží → Vyšehrad",
+          "highlight": "Passeio à beira do Vltava com vista para as pontes históricas",
+          "departureTime": "08:25"
+        },
+        "taxi": {
+          "duration": "12 min",
+          "cost": "€6–9",
+          "departureTime": "08:48"
+        },
+        "recommended": "walking",
+        "recommendedReason": "A caminhada de 35 min pela margem do Vltava até Vyšehrad é um dos percursos mais bonitos de Praga — imperdível."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "Tram 17 Albertov → Malostranské nám.",
+          "duration": "22 min",
+          "cost": "CZK 30 (~€1,20)"
+        },
+        "walking": {
+          "duration": "35 min",
+          "route": "Vyšehrad → Rašínovo nábřeží → Smetanovo → Letenská"
+        },
+        "taxi": {
+          "duration": "12 min",
+          "cost": "€6–9"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Depois de Vyšehrad, o bonde de volta é o retorno mais confortável."
       }
     }
   ],
@@ -409,13 +598,34 @@
       },
       "coupleCost": "~€20–28 (Circuito A €10/pessoa; Circuito B €14/pessoa)",
       "schedule": {
-        "mon": { "open": "09:00", "close": "17:00" },
-        "tue": { "open": "09:00", "close": "17:00" },
-        "wed": { "open": "09:00", "close": "17:00" },
-        "thu": { "open": "09:00", "close": "17:00" },
-        "fri": { "open": "09:00", "close": "17:00" },
-        "sat": { "open": "09:00", "close": "17:00" },
-        "sun": { "open": "09:00", "close": "17:00" }
+        "mon": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "17:00"
+        }
       },
       "estimatedVisitMinutes": 180,
       "externalViewingAlways": false,
@@ -499,7 +709,14 @@
       "walkingNotes": "Opcional: antes de entrar no castelo, combine a visita com o Mosteiro de Strahov — a 10 minutos a pé a oeste das portas do castelo. Chegando ao Strahov às 9h (quando abre), você pode ver as duas bibliotecas barrocas e chegar ao castelo às 10h, quando o fluxo já está normalizado. Da Pražský hrad, desça pela escadaria de Nerudova — a rua barroca de palácios em declive com casas marcadas por tabuletas de pedra em forma de animais (o Leão, a Cigarra, os Três Violinos). São 20 minutos de descida até a Malá Strana. No fundo da descida, vire à esquerda para a Praça de Malostranská e depois siga para a Ponte Carlos.",
       "nextTransport": "walking",
       "nextTransportMinutes": 20,
-      "tags": ["castelo", "catedral", "Kafka", "medieval", "Mucha", "imersivo"]
+      "tags": [
+        "castelo",
+        "catedral",
+        "Kafka",
+        "medieval",
+        "Mucha",
+        "imersivo"
+      ]
     },
     {
       "id": "mala-strana-karluv-most",
@@ -533,16 +750,41 @@
         "Ponte Carlos estátuas barrocas originais Lapidarium"
       ],
       "visitType": "outdoor",
-      "entryFee": { "free": true, "price": null, "notes": "Ponte gratuita 24h. Igreja de São Nicolau: 100 CZK (~4€)" },
+      "entryFee": {
+        "free": true,
+        "price": null,
+        "notes": "Ponte gratuita 24h. Igreja de São Nicolau: 100 CZK (~4€)"
+      },
       "coupleCost": "Gratuito (ponte e bairro); Igreja São Nicolau ~€8 (~€4/pessoa) se visitar",
       "schedule": {
-        "mon": { "open": "00:00", "close": "23:59" },
-        "tue": { "open": "00:00", "close": "23:59" },
-        "wed": { "open": "00:00", "close": "23:59" },
-        "thu": { "open": "00:00", "close": "23:59" },
-        "fri": { "open": "00:00", "close": "23:59" },
-        "sat": { "open": "00:00", "close": "23:59" },
-        "sun": { "open": "00:00", "close": "23:59" }
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
       },
       "estimatedVisitMinutes": 90,
       "externalViewingAlways": true,
@@ -626,7 +868,13 @@
       "walkingNotes": "Fim do Dia 1 — do outro lado da Ponte Carlos, você estará na Staré Město. O jantar na Betlémská třída ou na Dlouhá é mais autêntico do que as cantinas turísticas na margem da ponte. Considere o restaurante Lokál (na Dlouhá 33) para svíčková — carne bovina em molho de nata e cranberry, o prato nacional tcheco que nenhum menu turístico faz direito.",
       "nextTransport": null,
       "nextTransportMinutes": null,
-      "tags": ["ponte", "barroco", "medieval", "Rio Vltava", "gratuito"]
+      "tags": [
+        "ponte",
+        "barroco",
+        "medieval",
+        "Rio Vltava",
+        "gratuito"
+      ]
     },
     {
       "id": "staromestske-namesti",
@@ -666,13 +914,34 @@
       },
       "coupleCost": "Gratuito (praça e Týn); Torre do Relógio ~€12 (~€6/pessoa) se subir",
       "schedule": {
-        "mon": { "open": "00:00", "close": "23:59" },
-        "tue": { "open": "00:00", "close": "23:59" },
-        "wed": { "open": "00:00", "close": "23:59" },
-        "thu": { "open": "00:00", "close": "23:59" },
-        "fri": { "open": "00:00", "close": "23:59" },
-        "sat": { "open": "00:00", "close": "23:59" },
-        "sun": { "open": "00:00", "close": "23:59" }
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
       },
       "estimatedVisitMinutes": 90,
       "externalViewingAlways": true,
@@ -725,7 +994,13 @@
       "walkingNotes": "Do Staroměstské náměstí, caminhe 5 minutos para o norte pela Maiselova em direção ao Josefov — o bairro judaico começa imediatamente depois da Praça Wenceslau Maisel. As sinagoga e o cemitério estão agrupados num raio de 300 metros.",
       "nextTransport": "walking",
       "nextTransportMinutes": 5,
-      "tags": ["praça", "medieval", "relógio", "Hussita", "gratuito"]
+      "tags": [
+        "praça",
+        "medieval",
+        "relógio",
+        "Hussita",
+        "gratuito"
+      ]
     },
     {
       "id": "josefov",
@@ -766,13 +1041,34 @@
       },
       "coupleCost": "~€44 (~€22/pessoa, ingresso combinado 6 monumentos judaicos)",
       "schedule": {
-        "mon": { "open": "09:00", "close": "18:00" },
-        "tue": { "open": "09:00", "close": "18:00" },
-        "wed": { "open": "09:00", "close": "18:00" },
-        "thu": { "open": "09:00", "close": "18:00" },
-        "fri": { "open": "09:00", "close": "16:00" },
-        "sat": { "open": "closed", "close": "closed" },
-        "sun": { "open": "09:00", "close": "18:00" }
+        "mon": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        "sat": {
+          "open": "closed",
+          "close": "closed"
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00"
+        }
       },
       "estimatedVisitMinutes": 150,
       "externalViewingAlways": false,
@@ -887,7 +1183,13 @@
       "walkingNotes": "Fim do Dia 2 — a Josefov fica a 5 minutos a pé da Staroměstské náměstí. Para o jantar, siga em direção à Dlouhá ou Kozí — restaurantes menos turísticos e mais honestos com a culinária tcheca. A Vinohrady, a 20 minutos de metrô (linha A), tem a cena gastronômica mais autêntica de Praga.",
       "nextTransport": null,
       "nextTransportMinutes": null,
-      "tags": ["judaísmo", "Holocausto", "história", "memorial", "imersivo"]
+      "tags": [
+        "judaísmo",
+        "Holocausto",
+        "história",
+        "memorial",
+        "imersivo"
+      ]
     },
     {
       "id": "vysehrad",
@@ -920,16 +1222,41 @@
         "Rotunda São Martinho mais antigo Praga"
       ],
       "visitType": "outdoor",
-      "entryFee": { "free": true, "price": null, "notes": "Muralhas e cemitério: gratuitos. Basílica São Pedro e Paulo: 50 CZK (~2€)" },
+      "entryFee": {
+        "free": true,
+        "price": null,
+        "notes": "Muralhas e cemitério: gratuitos. Basílica São Pedro e Paulo: 50 CZK (~2€)"
+      },
       "coupleCost": "Gratuito (muralhas e cemitério); Basílica ~€4 (~€2/pessoa) se visitar",
       "schedule": {
-        "mon": { "open": "09:30", "close": "18:00" },
-        "tue": { "open": "09:30", "close": "18:00" },
-        "wed": { "open": "09:30", "close": "18:00" },
-        "thu": { "open": "09:30", "close": "18:00" },
-        "fri": { "open": "09:30", "close": "18:00" },
-        "sat": { "open": "09:30", "close": "18:00" },
-        "sun": { "open": "09:30", "close": "18:00" }
+        "mon": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "09:30",
+          "close": "18:00"
+        },
+        "sun": {
+          "open": "09:30",
+          "close": "18:00"
+        }
       },
       "estimatedVisitMinutes": 100,
       "externalViewingAlways": true,
@@ -982,7 +1309,13 @@
       "walkingNotes": "Do Vyšehrad, tome o metrô linha C (estação Vyšehrad) em direção ao centro. Desça em Muzeum para a Václavské náměstí — a estação está na base do Museu Nacional, topo da praça.",
       "nextTransport": "subway",
       "nextTransportMinutes": 15,
-      "tags": ["cemitério", "panteão", "medieval", "Dvořák", "gratuito"]
+      "tags": [
+        "cemitério",
+        "panteão",
+        "medieval",
+        "Dvořák",
+        "gratuito"
+      ]
     },
     {
       "id": "vaclavske-namesti",
@@ -1015,16 +1348,41 @@
         "Tchecoslováquia independência 1918 Masaryk"
       ],
       "visitType": "outdoor",
-      "entryFee": { "free": true, "price": null, "notes": "Boulevard gratuito. Museu Nacional: 250 CZK (~10€)" },
+      "entryFee": {
+        "free": true,
+        "price": null,
+        "notes": "Boulevard gratuito. Museu Nacional: 250 CZK (~10€)"
+      },
       "coupleCost": "Gratuito (boulevard); Museu Nacional ~€20 (~€10/pessoa) se visitar",
       "schedule": {
-        "mon": { "open": "00:00", "close": "23:59" },
-        "tue": { "open": "00:00", "close": "23:59" },
-        "wed": { "open": "00:00", "close": "23:59" },
-        "thu": { "open": "00:00", "close": "23:59" },
-        "fri": { "open": "00:00", "close": "23:59" },
-        "sat": { "open": "00:00", "close": "23:59" },
-        "sun": { "open": "00:00", "close": "23:59" }
+        "mon": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "tue": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "wed": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "thu": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "fri": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sat": {
+          "open": "00:00",
+          "close": "23:59"
+        },
+        "sun": {
+          "open": "00:00",
+          "close": "23:59"
+        }
       },
       "estimatedVisitMinutes": 60,
       "externalViewingAlways": true,
@@ -1077,7 +1435,13 @@
       "walkingNotes": "Da Václavské náměstí, siga pela Na Příkopě — o boulevard pedonal que conecta a praça ao náměstí Republiky, passando pelas fachadas art nouveau dos bancos e hotéis do início do século XX. São 700 metros e 10 minutos de caminhada até a Casa Municipal e a Torre de Pólvora.",
       "nextTransport": "walking",
       "nextTransportMinutes": 10,
-      "tags": ["história", "Revolução", "boulevard", "gratuito", "moderno"]
+      "tags": [
+        "história",
+        "Revolução",
+        "boulevard",
+        "gratuito",
+        "moderno"
+      ]
     },
     {
       "id": "casa-municipal-prasna-brana",
@@ -1117,13 +1481,34 @@
       },
       "coupleCost": "~€34 (Casa Municipal €12/pessoa + Torre da Pólvora €5/pessoa)",
       "schedule": {
-        "mon": { "open": "10:00", "close": "18:00" },
-        "tue": { "open": "10:00", "close": "18:00" },
-        "wed": { "open": "10:00", "close": "18:00" },
-        "thu": { "open": "10:00", "close": "18:00" },
-        "fri": { "open": "10:00", "close": "18:00" },
-        "sat": { "open": "10:00", "close": "18:00" },
-        "sun": { "open": "10:00", "close": "18:00" }
+        "mon": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "18:00"
+        }
       },
       "estimatedVisitMinutes": 90,
       "externalViewingAlways": true,
@@ -1207,7 +1592,13 @@
       "walkingNotes": "Fim do Dia 3 em Praga. Para a noite: siga pelo Nábřeží (margem do Vltava) até o Teatro Nacional — fachada neoclássica de 1881, financiada por subscripção popular checa com o slogan 'o povo a si mesmo'. O Edifício Dançante (Frank Gehry, 1996) fica a 10 minutos a pé ao longo do rio. O Rudolfinum — onde a Filarmônica Tcheca tem sede — fica na margem oposta; verifique programação para concertos noturnos.",
       "nextTransport": null,
       "nextTransportMinutes": null,
-      "tags": ["art nouveau", "Mucha", "gótico", "independência", "Rota Real"]
+      "tags": [
+        "art nouveau",
+        "Mucha",
+        "gótico",
+        "independência",
+        "Rota Real"
+      ]
     }
   ],
   "segments": [
@@ -1218,9 +1609,18 @@
       "duration": 20,
       "transport": "walking",
       "waypoints": [
-        [50.0908, 14.4005],
-        [50.0886, 14.4040],
-        [50.0866, 14.4114]
+        [
+          50.0908,
+          14.4005
+        ],
+        [
+          50.0886,
+          14.404
+        ],
+        [
+          50.0866,
+          14.4114
+        ]
       ],
       "streetNotes": "Desça pela escadaria de Nerudova — a rua barroca com casas marcadas por tabuletas de pedra em forma de animais. No fundo, vire à esquerda para a Praça de Malostranská e depois siga pela Mostecká até a entrada da Ponte Carlos."
     },
@@ -1231,8 +1631,14 @@
       "duration": 5,
       "transport": "walking",
       "waypoints": [
-        [50.0871, 14.4208],
-        [50.0899, 14.4189]
+        [
+          50.0871,
+          14.4208
+        ],
+        [
+          50.0899,
+          14.4189
+        ]
       ],
       "streetNotes": "Siga pela Maiselova para o norte — a rua que corta o coração do antigo gueto. As sinagogas começam a aparecer à esquerda depois de 200 metros."
     },
@@ -1243,8 +1649,14 @@
       "duration": 15,
       "transport": "subway",
       "waypoints": [
-        [50.0633, 14.4183],
-        [50.0816, 14.4278]
+        [
+          50.0633,
+          14.4183
+        ],
+        [
+          50.0816,
+          14.4278
+        ]
       ],
       "streetNotes": "Metrô linha C (vermelha): estação Vyšehrad → estação Muzeum. Do Museu Nacional, você já está no topo da Václavské náměstí."
     },
@@ -1255,9 +1667,18 @@
       "duration": 10,
       "transport": "walking",
       "waypoints": [
-        [50.0816, 14.4278],
-        [50.0850, 14.4310],
-        [50.0875, 14.4328]
+        [
+          50.0816,
+          14.4278
+        ],
+        [
+          50.085,
+          14.431
+        ],
+        [
+          50.0875,
+          14.4328
+        ]
       ],
       "streetNotes": "Siga pela Na Příkopě — o boulevard pedonal que parte da base da Václavské náměstí para o nordeste. São 700 metros de fachadas art nouveau e bancos históricos até o náměstí Republiky, onde a Torre de Pólvora e o Obecní dům ficam um ao lado do outro."
     }

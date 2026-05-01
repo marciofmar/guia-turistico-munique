@@ -6,6 +6,7 @@ let userMarker = null;
 let poiMarkers = [];
 let routePolyline = null;
 let accuracyCircle = null;
+let hotelMarker = null;
 
 const userIcon = L.divIcon({
   className: 'user-marker',
@@ -37,6 +38,7 @@ export function initMap(containerId) {
   // Reset stale Leaflet layer references so they get recreated on the new map instance
   userMarker = null;
   accuracyCircle = null;
+  hotelMarker = null;
 
   map = L.map(containerId, {
     zoomControl: false,
@@ -131,6 +133,33 @@ export function centerOnUser(lat, lng) {
   if (map) {
     map.setView([lat, lng], 17, { animate: true });
   }
+}
+
+export function renderAccommodation(accommodation) {
+  if (!map || !accommodation) return;
+  if (hotelMarker) {
+    map.removeLayer(hotelMarker);
+    hotelMarker = null;
+  }
+  const icon = L.divIcon({
+    className: 'hotel-marker',
+    html: `<div class="hotel-marker__pin">🏨</div>`,
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
+    popupAnchor: [0, -20],
+  });
+  hotelMarker = L.marker([accommodation.lat, accommodation.lng], { icon, zIndexOffset: 900 })
+    .addTo(map)
+    .bindPopup(`<b>🏨 ${accommodation.name}</b><br><span style="font-size:0.85em;color:#555">${accommodation.address}</span>`);
+
+  // Extend current bounds to include the hotel so it's always visible
+  try {
+    const currentBounds = map.getBounds();
+    const hotelLatLng = L.latLng(accommodation.lat, accommodation.lng);
+    if (!currentBounds.contains(hotelLatLng)) {
+      map.fitBounds(currentBounds.extend(hotelLatLng), { padding: [40, 40] });
+    }
+  } catch (_) {}
 }
 
 export function getMap() {

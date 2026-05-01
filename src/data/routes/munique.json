@@ -2,6 +2,12 @@
   "id": "munique-2026",
   "title": "Munique e Leste Europeu",
   "subtitle": "Baviera, Alpes, Salzburgo e Leste Europeu em 22 dias",
+  "accommodation": {
+    "name": "Living Hotel Prinzessin Elisabeth",
+    "address": "Geyerstr. 52, 80469 München",
+    "lat": 48.1296,
+    "lng": 11.5641
+  },
   "description": "Guia narrativo de imersão cultural para 22 dias em Munique, Baviera, Alpes, Salzburgo e Leste Europeu. Cada parada foi concebida com peso narrativo próprio — não uma lista a cumprir, mas uma sequência de experiências a habitar.",
   "version": "1.0.0",
   "locale": "pt-BR",
@@ -83,7 +89,11 @@
                 "type": "Biergarten clássico de Munique",
                 "address": "Englischer Garten 3, 80538 München",
                 "description": "O segundo maior biergarten de Munique, com 7.000 lugares embaixo dos castanheiros centenários do Englischer Garten. Banca de grelhados com Steckerlfisch (peixe na vara), Bratwurst, Leberkäse fresco e Brezn. A Blaskapelle toca ao vivo aos domingos a partir das 12h — o almoço mais autêntico de Munique.",
-                "highlights": ["Steckerlfisch (truta ou espada grelhada na vara)", "Obatzda (pasta de queijo bávara com cebola e páprica) com Brezn", "Maß de Augustiner ou Paulaner geladinha"],
+                "highlights": [
+                  "Steckerlfisch (truta ou espada grelhada na vara)",
+                  "Obatzda (pasta de queijo bávara com cebola e páprica) com Brezn",
+                  "Maß de Augustiner ou Paulaner geladinha"
+                ],
                 "estimatedCoupleCost": "€20–32"
               },
               {
@@ -92,7 +102,11 @@
                 "type": "Restaurante e biergarten à beira do lago",
                 "address": "Kleinhesseloher See, 80802 München",
                 "description": "Restaurante com biergarten à beira do Kleinhesseloher See, o lago artificial do Englischer Garten. Vista sobre a água, menu bávaro mais elaborado que os biergartens de banca. Weißwurst com pretzel e mostarda de mel, Kalbshaxe (joelho de vitela) e Augustiner Edelstoff de barril.",
-                "highlights": ["Weißwurst com mostarda de mel e Brezn", "Kalbshaxe (joelho de vitela) assado", "Vista sobre o lago com patos e remadores"],
+                "highlights": [
+                  "Weißwurst com mostarda de mel e Brezn",
+                  "Kalbshaxe (joelho de vitela) assado",
+                  "Vista sobre o lago com patos e remadores"
+                ],
                 "estimatedCoupleCost": "€46–66"
               },
               {
@@ -101,7 +115,11 @@
                 "type": "2 estrelas Michelin — alta gastronomia bávara",
                 "address": "Johann-Fichte-Straße 7, 80805 München",
                 "description": "O restaurante mais histórico e icônico de Munique (fundado em 1971), com duas estrelas Michelin. O design brutalista dos anos 70 foi mantido intacto — parte do apelo. Cozinha franco-bávara de alta gastronomia com menu degustação. Reserve com pelo menos 3–4 semanas de antecedência.",
-                "highlights": ["Menu degustação de 8 cursos com harmonização de vinhos alemães e austríacos", "Cozinha franco-bávara de alta técnica e ingredientes locais", "Interior brutalista dos anos 1970 — um monumento gastronômico"],
+                "highlights": [
+                  "Menu degustação de 8 cursos com harmonização de vinhos alemães e austríacos",
+                  "Cozinha franco-bávara de alta técnica e ingredientes locais",
+                  "Interior brutalista dos anos 1970 — um monumento gastronômico"
+                ],
                 "estimatedCoupleCost": "€250–350"
               }
             ]
@@ -115,7 +133,11 @@
                 "type": "Biergarten histórico com jardim coberto",
                 "address": "Arnulfstraße 52, 80335 München",
                 "description": "Biergarten fundado em 1812, com jardim de 5.000 lugares embaixo dos castanheiros e salão coberto para dias nublados. Cerveja Augustiner diretamente do barril de madeira — uma das poucas cervejarias de Munique que ainda serve assim. Schweinshaxe, Leberkäse e Obatzda num ambiente completamente não turístico.",
-                "highlights": ["Augustiner Helles direto do barril de madeira", "Schweinshaxe (joelho de porco assado) com Sauerkraut", "Radler (mistura de cerveja com limonada) caseiro"],
+                "highlights": [
+                  "Augustiner Helles direto do barril de madeira",
+                  "Schweinshaxe (joelho de porco assado) com Sauerkraut",
+                  "Radler (mistura de cerveja com limonada) caseiro"
+                ],
                 "estimatedCoupleCost": "€24–36"
               },
               {
@@ -124,7 +146,11 @@
                 "type": "Restaurante bávaro histórico desde 1363",
                 "address": "Residenzstraße 9, 80333 München",
                 "description": "Restaurante em funcionamento desde 1363 numa localização privilegiada perto da Residência. Interior de madeira escura com pinturas de gênero bávaro nas paredes. Weißwurst servido com a faca de madeira tradicional, Leberknödel (bolinho de fígado) em caldo e Schweinebraten com Knödel da casa.",
-                "highlights": ["Weißwurst com mostarda de mel e Brezn", "Leberknödel em caldo dourado de galinha", "Schweinebraten (pernil assado) com Kartoffelknödel"],
+                "highlights": [
+                  "Weißwurst com mostarda de mel e Brezn",
+                  "Leberknödel em caldo dourado de galinha",
+                  "Schweinebraten (pernil assado) com Kartoffelknödel"
+                ],
                 "estimatedCoupleCost": "€46–66"
               },
               {
@@ -133,7 +159,11 @@
                 "type": "1 estrela Michelin — Schwabing",
                 "address": "Werneckstraße 11, 80802 München (Schwabing)",
                 "description": "Restaurante Michelin no coração do bairro de Schwabing — o bairro intelectual e artístico de Munique. Cozinha bávaro-mediterrânea com ingredientes de fazendas locais. Menu degustação de 6–8 cursos com harmonização de vinhos alemães. A 10 minutos do Englischer Garten.",
-                "highlights": ["Menu degustação de 6 cursos com ingredientes bávaros locais", "Foie gras com compota de ameixa da Baviera", "Harmonização com vinhos Riesling do Mosel e Palatinado"],
+                "highlights": [
+                  "Menu degustação de 6 cursos com ingredientes bávaros locais",
+                  "Foie gras com compota de ameixa da Baviera",
+                  "Harmonização com vinhos Riesling do Mosel e Palatinado"
+                ],
                 "estimatedCoupleCost": "€160–220"
               }
             ]
@@ -141,19 +171,86 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "eisbach", "name": "Eisbach — Surfistas no Jardim", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "monopteros", "name": "Monopteros", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "chinesischer-turm", "name": "Chinesischer Turm Biergarten", "coupleCost": "Gratuito", "note": "Consumo pago à parte" },
-            { "poiId": "rio-isar-flaucher", "name": "Rio Isar — Flaucher", "coupleCost": "Gratuito", "note": "" }
+            {
+              "poiId": "eisbach",
+              "name": "Eisbach — Surfistas no Jardim",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "monopteros",
+              "name": "Monopteros",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "chinesischer-turm",
+              "name": "Chinesischer Turm Biergarten",
+              "coupleCost": "Gratuito",
+              "note": "Consumo pago à parte"
+            },
+            {
+              "poiId": "rio-isar-flaucher",
+              "name": "Rio Isar — Flaucher",
+              "coupleCost": "Gratuito",
+              "note": ""
+            }
           ],
           "attractionsSubtotal": "Gratuito",
           "attractionsNote": "Todas as atrações do Englischer Garten são gratuitas; apenas consumo no biergarten é pago",
           "dailyTotal": {
-            "budget": { "meals": "~€44–68", "total": "~€44–68" },
-            "mid": { "meals": "~€92–132", "total": "~€92–132" },
-            "premium": { "meals": "~€410–570", "total": "~€410–570" }
+            "budget": {
+              "meals": "~€44–68",
+              "total": "~€44–68"
+            },
+            "mid": {
+              "meals": "~€92–132",
+              "total": "~€92–132"
+            },
+            "premium": {
+              "meals": "~€410–570",
+              "total": "~€410–570"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "25 min",
+          "route": "Geyerstr. → Müllerstr. → Isartor → Maximilianstr. → Eisbach",
+          "highlight": "Margem do Isar pela manhã — tranquila, com vista para as pontes e o parque",
+          "departureTime": "08:35"
+        },
+        "transit": {
+          "line": "U6 Goetheplatz → Universität (3 paradas) + 7 min a pé",
+          "duration": "14 min",
+          "cost": "€3,70",
+          "departureTime": "08:46"
+        },
+        "taxi": {
+          "duration": "10 min",
+          "cost": "€9–13",
+          "departureTime": "08:50"
+        },
+        "recommended": "walking",
+        "recommendedReason": "25 min a pé pela margem do Isar é o início perfeito para um dia de vida local — você chega no Eisbach já no ritmo da cidade."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "25 min",
+          "route": "Eisbach → Maximilianstr. → Isartor → Müllerstr. → Geyerstr."
+        },
+        "transit": {
+          "line": "U6 Universität → Goetheplatz",
+          "duration": "14 min",
+          "cost": "€3,70"
+        },
+        "taxi": {
+          "duration": "10 min",
+          "cost": "€9–13"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno agradável pelo Isar ao fim do dia."
       }
     },
     {
@@ -190,7 +287,11 @@
                 "type": "Mercado ao ar livre — almoço de bancas",
                 "address": "Viktualienmarkt 3, 80331 München",
                 "description": "O Viktualienmarkt tem bancas de Leberkäse quente (bolo de carne bávaro) acabado de sair do forno, sanduíches de Leberkas, Weißwurst com Brezn e o biergarten central com cerveja Augustiner. O almoço mais autêntico e barato do centro histórico — sem restaurante, sem cardápio, sem fila.",
-                "highlights": ["Leberkäse quente no pão com mostarda", "Weißwurst no mercado com Brezn e mostarda de mel", "Biergarten central — Augustiner Helles de barril"],
+                "highlights": [
+                  "Leberkäse quente no pão com mostarda",
+                  "Weißwurst no mercado com Brezn e mostarda de mel",
+                  "Biergarten central — Augustiner Helles de barril"
+                ],
                 "estimatedCoupleCost": "€14–22"
               },
               {
@@ -199,7 +300,11 @@
                 "type": "Restaurante bávaro clássico no centro histórico",
                 "address": "Tal 12, 80331 München",
                 "description": "Restaurante da cervejaria Paulaner no Tal, a rua medieval que liga a Marienplatz ao rio Isar. Schweinshaxe com chucrute, Helles Paulaner de barril e Obatzda com Brezn num ambiente de madeira clara e moderno. Um dos melhores custo-benefício do centro.",
-                "highlights": ["Schweinshaxe (joelho de porco assado) com Sauerkraut e Knödel", "Obatzda (pasta de queijo bávara) com Brezn", "Paulaner Helles Naturtrüb de barril"],
+                "highlights": [
+                  "Schweinshaxe (joelho de porco assado) com Sauerkraut e Knödel",
+                  "Obatzda (pasta de queijo bávara) com Brezn",
+                  "Paulaner Helles Naturtrüb de barril"
+                ],
                 "estimatedCoupleCost": "€42–60"
               },
               {
@@ -208,7 +313,11 @@
                 "type": "Restaurante histórico com vista para a Frauenkirche",
                 "address": "Frauenplatz 12, 80331 München",
                 "description": "Restaurante da cervejaria Augustiner com vista direta para as torres gêmeas da Frauenkirche. Ambiente elegante mas descontraído, com cozinha bávara clássica — Kalbshaxe, Tafelspitz (carne cozida à vienense) e os famosos Dampfnudeln (bolinhos de massa ao vapor com molho de baunilha). A cerveja Augustiner Edelstoff é a correta.",
-                "highlights": ["Kalbshaxe (joelho de vitela) com Semmelknödel dourado", "Tafelspitz (carne cozida) com molho de raiz-forte", "Dampfnudeln com molho de baunilha como sobremesa"],
+                "highlights": [
+                  "Kalbshaxe (joelho de vitela) com Semmelknödel dourado",
+                  "Tafelspitz (carne cozida) com molho de raiz-forte",
+                  "Dampfnudeln com molho de baunilha como sobremesa"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -222,7 +331,11 @@
                 "type": "A cervejaria mais famosa do mundo",
                 "address": "Platzl 9, 80331 München",
                 "description": "A cervejaria mais famosa do mundo, fundada em 1589 como cervejaria da corte dos Wittelsbach. O salão principal (Schwemme) comporta 1.000 pessoas com música ao vivo, mesas de madeira de carvalho e Maß de Hofbräu Original. Schweinshaxe, Steckerlfisch e Brezn. Turístico mas imperdível — é exatamente assim que imaginaram.",
-                "highlights": ["Maß de Hofbräu Original (1 litro de cerveja)", "Schweinshaxe com Sauerkraut e Semmelknödel", "Banda bávara ao vivo no salão das 11h às 23h"],
+                "highlights": [
+                  "Maß de Hofbräu Original (1 litro de cerveja)",
+                  "Schweinshaxe com Sauerkraut e Semmelknödel",
+                  "Banda bávara ao vivo no salão das 11h às 23h"
+                ],
                 "estimatedCoupleCost": "€30–46"
               },
               {
@@ -231,7 +344,11 @@
                 "type": "Salão mais calmo do Hofbräuhaus",
                 "address": "Platzl 9, 80331 München",
                 "description": "O Bräustüberl no andar superior do Hofbräuhaus tem a mesma cerveja mas ambiente mais quieto, mesas menores e cardápio ligeiramente mais elaborado. Leberknödel in Brühe, Obazda com Brezn e Schweinebraten com molho escuro de carne.",
-                "highlights": ["Leberknödel in Brühe (bolinho de fígado em caldo)", "Schweinebraten com molho escuro e Kartoffelknödel", "Ambiente mais íntimo e menos barulhento"],
+                "highlights": [
+                  "Leberknödel in Brühe (bolinho de fígado em caldo)",
+                  "Schweinebraten com molho escuro e Kartoffelknödel",
+                  "Ambiente mais íntimo e menos barulhento"
+                ],
                 "estimatedCoupleCost": "€46–66"
               },
               {
@@ -240,7 +357,11 @@
                 "type": "Restaurante Michelin no Hotel Vier Jahreszeiten",
                 "address": "Maximilianstraße 17, 80539 München",
                 "description": "Restaurante no hotel mais antigo de Munique (Kempinski Vier Jahreszeiten), com cozinha bávara de alta gastronomia numa das ruas mais elegantes da cidade. Menu degustação com ingredientes sazonais da Baviera e Áustria. Foie gras de pato, corça assada, Kaiserschmarrn de alta confeitaria.",
-                "highlights": ["Menu degustação de 6–8 cursos com cozinha bávara refinada", "Corça assada com chucrute trufado e Semmelknödel dourado", "Kaiserschmarrn (torta bávara) com sorvete de baunilha de Tahiti"],
+                "highlights": [
+                  "Menu degustação de 6–8 cursos com cozinha bávara refinada",
+                  "Corça assada com chucrute trufado e Semmelknödel dourado",
+                  "Kaiserschmarrn (torta bávara) com sorvete de baunilha de Tahiti"
+                ],
                 "estimatedCoupleCost": "€150–220"
               }
             ]
@@ -248,21 +369,99 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "marienplatz", "name": "Marienplatz e Glockenspiel", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "peterskirche", "name": "Peterskirche — Alter Peter", "coupleCost": "~€10", "note": "Torre €5/pessoa; igreja gratuita" },
-            { "poiId": "viktualienmarkt", "name": "Viktualienmarkt", "coupleCost": "Gratuito", "note": "Consumo à parte" },
-            { "poiId": "odeonsplatz", "name": "Odeonsplatz e Theatinerkirche", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "hofgarten", "name": "Hofgarten", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "hofbraeuhaus", "name": "Hofbräuhaus", "coupleCost": "Gratuito", "note": "Entrada livre; consumo à parte" }
+            {
+              "poiId": "marienplatz",
+              "name": "Marienplatz e Glockenspiel",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "peterskirche",
+              "name": "Peterskirche — Alter Peter",
+              "coupleCost": "~€10",
+              "note": "Torre €5/pessoa; igreja gratuita"
+            },
+            {
+              "poiId": "viktualienmarkt",
+              "name": "Viktualienmarkt",
+              "coupleCost": "Gratuito",
+              "note": "Consumo à parte"
+            },
+            {
+              "poiId": "odeonsplatz",
+              "name": "Odeonsplatz e Theatinerkirche",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "hofgarten",
+              "name": "Hofgarten",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "hofbraeuhaus",
+              "name": "Hofbräuhaus",
+              "coupleCost": "Gratuito",
+              "note": "Entrada livre; consumo à parte"
+            }
           ],
           "attractionsSubtotal": "~€10",
           "attractionsNote": "Apenas a torre da Peterskirche tem entrada paga; demais atrações gratuitas",
           "dailyTotal": {
-            "budget": { "meals": "~€44–68", "total": "~€54–78" },
-            "mid": { "meals": "~€88–126", "total": "~€98–136" },
-            "premium": { "meals": "~€220–320", "total": "~€230–330" }
+            "budget": {
+              "meals": "~€44–68",
+              "total": "~€54–78"
+            },
+            "mid": {
+              "meals": "~€88–126",
+              "total": "~€98–136"
+            },
+            "premium": {
+              "meals": "~€220–320",
+              "total": "~€230–330"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "22 min",
+          "route": "Geyerstr. → Sendlinger Str. → Asamkirche → Marienplatz",
+          "highlight": "Asamkirche — joia barroca bávara, imperdível logo de manhã",
+          "departureTime": "09:38"
+        },
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Marienplatz (2 paradas)",
+          "duration": "6 min",
+          "cost": "€3,70",
+          "departureTime": "09:54"
+        },
+        "taxi": {
+          "duration": "7 min",
+          "cost": "€8–12",
+          "departureTime": "09:53"
+        },
+        "recommended": "walking",
+        "recommendedReason": "22 min pela Sendlinger Str. com parada obrigatória na Asamkirche é o começo ideal — você chega ao Marienplatz já imerso na atmosfera histórica da cidade."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "22 min",
+          "route": "Marienplatz → Sendlinger Str. → Asamkirche → Geyerstr.",
+          "highlight": "Asamkirche com outro ângulo ao entardecer"
+        },
+        "transit": {
+          "line": "U3/U6 Marienplatz → Goetheplatz",
+          "duration": "6 min",
+          "cost": "€3,70"
+        },
+        "taxi": {
+          "duration": "7 min",
+          "cost": "€8–12"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno agradável pela Sendlinger Str. depois de um longo dia a pé."
       }
     },
     {
@@ -295,7 +494,11 @@
                 "type": "Café histórico no Maxvorstadt",
                 "address": "Brienner Straße 11, 80333 München",
                 "description": "Café histórico de 1888 numa localização central entre a Alte Pinakothek e o Odeonsplatz. Ambiente calmo de café vienense, com sopas do dia, sanduíches artesanais e pastéis. O ambiente é o oposto do Hofbräuhaus — silencioso, com luz natural e jornais alemães nas mesas.",
-                "highlights": ["Sopa do dia com pão de centeio", "Käsebrot (pão com queijo bávaro e pepino)", "Café coado com Windbeutel (eclair de chantilly)"],
+                "highlights": [
+                  "Sopa do dia com pão de centeio",
+                  "Käsebrot (pão com queijo bávaro e pepino)",
+                  "Café coado com Windbeutel (eclair de chantilly)"
+                ],
                 "estimatedCoupleCost": "€22–32"
               },
               {
@@ -304,7 +507,11 @@
                 "type": "Café-restaurante Schwabing com biergarten",
                 "address": "Orffstraße 22–24, 80335 München",
                 "description": "Café-restaurante histórico do bairro de Maxvorstadt com jardim interior e cardápio de cozinha italiana-bávara. Pratos de massa caseira, saladas de ingredientes locais e cozinha sazonalizada. Frequentado por professores da Ludwigs-Maximilians-Universität e artistas do bairro dos museus.",
-                "highlights": ["Pasta fresca com molho de tomate e manjericão fresco", "Salada de aspargos brancos (Spargel, de março a junho)", "Torta de ricota com frutas vermelhas"],
+                "highlights": [
+                  "Pasta fresca com molho de tomate e manjericão fresco",
+                  "Salada de aspargos brancos (Spargel, de março a junho)",
+                  "Torta de ricota com frutas vermelhas"
+                ],
                 "estimatedCoupleCost": "€38–54"
               },
               {
@@ -313,7 +520,11 @@
                 "type": "Restaurante fine dining em palácio do século XIX",
                 "address": "Ottostraße 6, 80333 München",
                 "description": "Restaurante instalado no palácio Palais Bernheimer, a 5 minutos da Alte Pinakothek. Interior com abóbadas de pedra e design contemporâneo. Cozinha mediterrânea-bávara com lista de vinhos italianos e alemães de peso. O encerramento elegante antes da Pinakothek.",
-                "highlights": ["Vitela da Baviera com risoto de porcini e trufa", "Tartare de atum com wasabi e pepino", "Seleção de queijos bávaros e austríacos"],
+                "highlights": [
+                  "Vitela da Baviera com risoto de porcini e trufa",
+                  "Tartare de atum com wasabi e pepino",
+                  "Seleção de queijos bávaros e austríacos"
+                ],
                 "estimatedCoupleCost": "€80–120"
               }
             ]
@@ -327,7 +538,11 @@
                 "type": "Especialidade em Schweinshaxe e Haxe de vitela",
                 "address": "Sparkassenstraße 6, 80331 München",
                 "description": "O restaurante mais especializado em Schweinshaxe e Kalbshaxe (joelho de vitela) de Munique, com grelhas à vista e um serviço eficiente sem pretensão. A haxe de porco sai sempre crocante por fora e macia por dentro, acompanhada de Sauerkraut e Semmelknödel. A lista de cervejas da região é extensa.",
-                "highlights": ["Schweinshaxe (joelho de porco) com Sauerkraut e Knödel", "Kalbshaxe (joelho de vitela) grelhado à vista", "Augustiner Helles de barril"],
+                "highlights": [
+                  "Schweinshaxe (joelho de porco) com Sauerkraut e Knödel",
+                  "Kalbshaxe (joelho de vitela) grelhado à vista",
+                  "Augustiner Helles de barril"
+                ],
                 "estimatedCoupleCost": "€34–48"
               },
               {
@@ -336,7 +551,11 @@
                 "type": "Especialidade em Bratwurst de Nuremberg em Munique",
                 "address": "Frauenplatz 9, 80331 München",
                 "description": "Restaurante junto à Frauenkirche especializado nas minúsculas Nürnberger Rostbratwürste — diferente da salsicha muniquense, a versão de Nuremberg é mais defumada e com especiarias de gengibre. Ambiente de madeira escura e serviço eficiente. Ótima escolha antes do dia seguinte em Nuremberg.",
-                "highlights": ["Nürnberger Bratwurst (6 ou 8 unidades) com chucrute e pão", "Sauerbraten muniquense com Semmelknödel", "Cervejas artesanais da Francônia"],
+                "highlights": [
+                  "Nürnberger Bratwurst (6 ou 8 unidades) com chucrute e pão",
+                  "Sauerbraten muniquense com Semmelknödel",
+                  "Cervejas artesanais da Francônia"
+                ],
                 "estimatedCoupleCost": "€42–60"
               },
               {
@@ -345,7 +564,11 @@
                 "type": "Restaurante Michelin no Hotel Vier Jahreszeiten",
                 "address": "Maximilianstraße 17, 80539 München",
                 "description": "Se não foram no dia 2, o Schwarzreiter é o encerramento ideal do tempo em Munique antes das excursões. Menu degustação de cozinha bávara refinada com ingredientes sazonais da Baviera e Áustria. Ambiente formal no hotel mais antigo da cidade.",
-                "highlights": ["Menu degustação de 6–8 cursos com cozinha bávara refinada", "Corça assada com Semmelknödel dourado e molho de zimbro", "Kaiserschmarrn com sorvete de baunilha de Tahiti"],
+                "highlights": [
+                  "Menu degustação de 6–8 cursos com cozinha bávara refinada",
+                  "Corça assada com Semmelknödel dourado e molho de zimbro",
+                  "Kaiserschmarrn com sorvete de baunilha de Tahiti"
+                ],
                 "estimatedCoupleCost": "€150–220"
               }
             ]
@@ -353,17 +576,64 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "dachau-memorial", "name": "Dachau Memorial", "coupleCost": "Gratuito", "note": "Audioguia ~€9 (~€4,50/pessoa)" },
-            { "poiId": "alte-pinakothek", "name": "Alte Pinakothek", "coupleCost": "~€14", "note": "€7/pessoa; domingos ~€2/casal" }
+            {
+              "poiId": "dachau-memorial",
+              "name": "Dachau Memorial",
+              "coupleCost": "Gratuito",
+              "note": "Audioguia ~€9 (~€4,50/pessoa)"
+            },
+            {
+              "poiId": "alte-pinakothek",
+              "name": "Alte Pinakothek",
+              "coupleCost": "~€14",
+              "note": "€7/pessoa; domingos ~€2/casal"
+            }
           ],
           "attractionsSubtotal": "~€14–23",
           "attractionsNote": "Dachau gratuito (audioguia opcional); Alte Pinakothek paga (desconto aos domingos)",
           "dailyTotal": {
-            "budget": { "meals": "~€56–80", "total": "~€70–103" },
-            "mid": { "meals": "~€76–114", "total": "~€90–137" },
-            "premium": { "meals": "~€230–340", "total": "~€244–363" }
+            "budget": {
+              "meals": "~€56–80",
+              "total": "~€70–103"
+            },
+            "mid": {
+              "meals": "~€76–114",
+              "total": "~€90–137"
+            },
+            "premium": {
+              "meals": "~€230–340",
+              "total": "~€244–363"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Hauptbahnhof + S2 HBF → Dachau + Bus 726 → Gedenkstätte",
+          "duration": "42 min",
+          "cost": "€9,20 (Tageskarte Gesamtnetz)",
+          "departureTime": "07:48"
+        },
+        "taxi": {
+          "duration": "35 min",
+          "cost": "€35–45",
+          "departureTime": "07:55"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Dachau fica a 17 km de Munique — S2 + ônibus em 42 min por €9,20 (Tageskarte que cobre o retorno e toda a tarde na cidade)."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "Bus 726 → Dachau Bahnhof + S2 → München HBF + U3/U6 → Goetheplatz",
+          "duration": "42 min",
+          "cost": "€0 (já incluso na Tageskarte)"
+        },
+        "taxi": {
+          "duration": "35 min",
+          "cost": "€35–45"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Tageskarte cobre o retorno sem custo adicional."
       }
     },
     {
@@ -403,7 +673,11 @@
                 "type": "Lanchonete local em Hohenschwangau",
                 "address": "Alpseestraße 2, 87645 Schwangau",
                 "description": "Lanchonete simples próxima ao estacionamento de Hohenschwangau, com Brezn, Bratwurst, sopas quentes e bebidas. O único lugar barato nas imediações do castelo. Sem glamour, mas eficiente entre a visita ao castelo e a caminhada de volta.",
-                "highlights": ["Bratwurst com mostarda e pão", "Sopa de tomate com Brezn", "Kuchen (torta bávara) do dia"],
+                "highlights": [
+                  "Bratwurst com mostarda e pão",
+                  "Sopa de tomate com Brezn",
+                  "Kuchen (torta bávara) do dia"
+                ],
                 "estimatedCoupleCost": "€14–22"
               },
               {
@@ -412,7 +686,11 @@
                 "type": "Restaurante com vista para os castelos",
                 "address": "Alpseestraße 16–18, 87645 Schwangau",
                 "description": "Restaurante com vista direta para o Castelo Hohenschwangau e o Alpsee (lago alpino). Cozinha bávara clássica — Schweinshaxe, Forelle (truta dos lagos alpinos) e Allgäuer Käsespätzle (macarrão bávaro gratinado com queijo da região do Allgäu). Cerveja Hofbräu de barril.",
-                "highlights": ["Allgäuer Käsespätzle (spätzle gratinado com queijo Allgäu)", "Forelle müllerin (truta frita com manteiga de limão)", "Vista para o Alpsee e o castelo Hohenschwangau"],
+                "highlights": [
+                  "Allgäuer Käsespätzle (spätzle gratinado com queijo Allgäu)",
+                  "Forelle müllerin (truta frita com manteiga de limão)",
+                  "Vista para o Alpsee e o castelo Hohenschwangau"
+                ],
                 "estimatedCoupleCost": "€44–62"
               },
               {
@@ -421,7 +699,11 @@
                 "type": "Hotel-restaurante histórico com vista alpina",
                 "address": "Alpseestraße 16, 87645 Schwangau",
                 "description": "Restaurante do Hotel Müller, o hotel mais antigo e bem posicionado de Hohenschwangau, com vista panorâmica para os Alpes e para os castelos. Cozinha regional do Allgäu com ingredientes locais — Allgäuer Bergkäse, peixe do lago, caça da floresta bávara. O jantar mais luxuoso possível nas imediações do castelo.",
-                "highlights": ["Rehrücken (lombo de corça) com cogumelos e Spätzle", "Allgäuer Käse-Fondue com pão artesanal", "Vista alpina dos Alpes de Allgäu"],
+                "highlights": [
+                  "Rehrücken (lombo de corça) com cogumelos e Spätzle",
+                  "Allgäuer Käse-Fondue com pão artesanal",
+                  "Vista alpina dos Alpes de Allgäu"
+                ],
                 "estimatedCoupleCost": "€80–120"
               }
             ]
@@ -435,7 +717,11 @@
                 "type": "Biergarten histórico de Munique",
                 "address": "Arnulfstraße 52, 80335 München",
                 "description": "Biergarten histórico de 1812, a 5 minutos da Hauptbahnhof. Cerveja Augustiner direto do barril de madeira, Schweinshaxe e Leberkäse. O decompressor perfeito após um dia longo de excursão.",
-                "highlights": ["Augustiner Helles do barril de madeira", "Schweinshaxe com Sauerkraut e Knödel", "Ambiente de jardim coberto para dias frescos"],
+                "highlights": [
+                  "Augustiner Helles do barril de madeira",
+                  "Schweinshaxe com Sauerkraut e Knödel",
+                  "Ambiente de jardim coberto para dias frescos"
+                ],
                 "estimatedCoupleCost": "€28–42"
               },
               {
@@ -444,7 +730,11 @@
                 "type": "Restaurante bávaro histórico desde 1363",
                 "address": "Residenzstraße 9, 80333 München",
                 "description": "Restaurante em funcionamento desde 1363 próximo à Residência. Weißwurst, Leberknödel e Schweinebraten num ambiente de madeira escura e pinturas históricas. O jantar mais reconfortante após um dia de excursão alpina.",
-                "highlights": ["Leberknödel em caldo dourado de galinha", "Schweinebraten com Kartoffelknödel", "Augustiner Edelstoff de barril"],
+                "highlights": [
+                  "Leberknödel em caldo dourado de galinha",
+                  "Schweinebraten com Kartoffelknödel",
+                  "Augustiner Edelstoff de barril"
+                ],
                 "estimatedCoupleCost": "€46–66"
               },
               {
@@ -453,7 +743,11 @@
                 "type": "Bistrô do Tantris — experiência Michelin mais acessível",
                 "address": "Johann-Fichte-Straße 7, 80805 München",
                 "description": "O bistrô mais informal do complexo Tantris, com cardápio à la carte mais acessível que o restaurante principal (mas com a mesma cozinha). Ideal para quem quer a experiência Tantris sem o compromisso do menu de degustação completo.",
-                "highlights": ["Pratos à la carte da cozinha Tantris a preços acessíveis", "Ambientes modernos com o design icônico dos anos 70", "Lista de vinhos naturais e biodinâmicos alemães"],
+                "highlights": [
+                  "Pratos à la carte da cozinha Tantris a preços acessíveis",
+                  "Ambientes modernos com o design icônico dos anos 70",
+                  "Lista de vinhos naturais e biodinâmicos alemães"
+                ],
                 "estimatedCoupleCost": "€100–150"
               }
             ]
@@ -461,16 +755,49 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "neuschwanstein", "name": "Neuschwanstein", "coupleCost": "~€36–42", "note": "€18–21/pessoa; reserve em hohenschwangau.de" }
+            {
+              "poiId": "neuschwanstein",
+              "name": "Neuschwanstein",
+              "coupleCost": "~€36–42",
+              "note": "€18–21/pessoa; reserve em hohenschwangau.de"
+            }
           ],
           "attractionsSubtotal": "~€36–42",
           "attractionsNote": "Ingresso obrigatório online; sem reserva = fila de 3–4h",
           "dailyTotal": {
-            "budget": { "meals": "~€42–64", "total": "~€78–106" },
-            "mid": { "meals": "~€90–128", "total": "~€126–170" },
-            "premium": { "meals": "~€180–270", "total": "~€216–312" }
+            "budget": {
+              "meals": "~€42–64",
+              "total": "~€78–106"
+            },
+            "mid": {
+              "meals": "~€90–128",
+              "total": "~€126–170"
+            },
+            "premium": {
+              "meals": "~€180–270",
+              "total": "~€216–312"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Hauptbahnhof (10 min) · RegionalBahn HBF → Füssen (2h05) · Ônibus 73/78 Füssen → Hohenschwangau (10 min)",
+          "duration": "10 min",
+          "cost": "€29 Bayernticket (cobre todo o dia)",
+          "departureTime": "07:50"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Neuschwanstein fica a 125 km — o trem das 08:00 em HBF chega a Füssen às ~10:10. Chegue ao hotel às 07:50 para pegar o metrô até HBF."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "Ônibus 73/78 → Füssen + RegionalBahn → München HBF + U3/U6 → Goetheplatz",
+          "duration": "10 min",
+          "cost": "€0 (incluso no Bayernticket)"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Bayernticket cobre o retorno. Último trem direto Füssen→HBF sai por volta das 20:00."
       }
     },
     {
@@ -511,7 +838,11 @@
                 "type": "Lanchonete de montanha no teto da Alemanha",
                 "address": "Zugspitze Gipfel, 82475 Zugspitze",
                 "description": "Lanchonete no cume com sopas quentes, salsichas, Brezn e bebidas quentes. Pequenas porções a preços de altitude (caros, mas esperados). O imprescindível é o Glühwein quente ou o chá de limão com mel quando a temperatura estiver abaixo de zero.",
-                "highlights": ["Sopa de guláš quente no cume", "Brezn com manteiga de ervas alpinas", "Glühwein (vinho quente com especiarias) no frio alpino"],
+                "highlights": [
+                  "Sopa de guláš quente no cume",
+                  "Brezn com manteiga de ervas alpinas",
+                  "Glühwein (vinho quente com especiarias) no frio alpino"
+                ],
                 "estimatedCoupleCost": "€18–28"
               },
               {
@@ -520,7 +851,11 @@
                 "type": "Restaurante de montanha com vista de 4 países",
                 "address": "Zugspitze Gipfel (próximo ao teleférico), 82475",
                 "description": "O restaurante principal do cume da Zugspitze, com vista panorâmica de 360° para Alemanha, Áustria, Suíça e Itália em dias claros. Menu de cozinha alpina de montanha — Kasespätzle (macarrão com queijo), Bratwurst, Gulaschsuppe. Preços de altitude mas com panorama único.",
-                "highlights": ["Vista de 360° para quatro países do restaurante", "Käsespätzle alpino com queijo Allgäuer", "Augustiner ou Paulaner numa altitude de 2.962m"],
+                "highlights": [
+                  "Vista de 360° para quatro países do restaurante",
+                  "Käsespätzle alpino com queijo Allgäuer",
+                  "Augustiner ou Paulaner numa altitude de 2.962m"
+                ],
                 "estimatedCoupleCost": "€44–64"
               },
               {
@@ -529,7 +864,11 @@
                 "type": "Restaurante de alta montanha na descida",
                 "address": "Ramsachstraße 8, 82418 Murnau am Staffelsee",
                 "description": "Na descida de volta, desvio de 20 min para o Alpenhof Murnau — no lago Staffelsee, paisagem que inspirou Kandinsky e os expressionistas do Der Blaue Reiter. Cozinha bávaro-austríaca com peixe do lago, caça e Allgäuer Bergkäse. O almoço mais memorável da região alpina próxima a Munique.",
-                "highlights": ["Felchen (coregone) do Staffelsee com manteiga de limão", "Wildgulasch (guláš de caça) com Serviettenknödel", "Vista sobre o lago Staffelsee com os Alpes ao fundo"],
+                "highlights": [
+                  "Felchen (coregone) do Staffelsee com manteiga de limão",
+                  "Wildgulasch (guláš de caça) com Serviettenknödel",
+                  "Vista sobre o lago Staffelsee com os Alpes ao fundo"
+                ],
                 "estimatedCoupleCost": "€80–120"
               }
             ]
@@ -543,7 +882,11 @@
                 "type": "Biergarten histórico próximo à Hauptbahnhof",
                 "address": "Arnulfstraße 52, 80335 München",
                 "description": "Decompressor ideal após altitude. Augustiner direto do barril, Schweinshaxe, calor e ar aberto debaixo dos castanheiros a 5 minutos da estação central.",
-                "highlights": ["Augustiner Helles do barril de madeira", "Schweinshaxe com Sauerkraut", "Mesa coberta para noites frescas de junho"],
+                "highlights": [
+                  "Augustiner Helles do barril de madeira",
+                  "Schweinshaxe com Sauerkraut",
+                  "Mesa coberta para noites frescas de junho"
+                ],
                 "estimatedCoupleCost": "€28–42"
               },
               {
@@ -552,7 +895,11 @@
                 "type": "Especialidade em Haxe — centro histórico",
                 "address": "Sparkassenstraße 6, 80331 München",
                 "description": "Joelho de porco ou vitela crocante após um dia de montanha. Schweinshaxe com Sauerkraut e Semmelknödel, Kalbshaxe com Kartoffelknödel. Grelha à vista no centro histórico de Munique.",
-                "highlights": ["Schweinshaxe (joelho de porco) crocante com Sauerkraut", "Kalbshaxe (joelho de vitela) grelhado à vista", "Cerveja Augustiner ou Spaten de barril"],
+                "highlights": [
+                  "Schweinshaxe (joelho de porco) crocante com Sauerkraut",
+                  "Kalbshaxe (joelho de vitela) grelhado à vista",
+                  "Cerveja Augustiner ou Spaten de barril"
+                ],
                 "estimatedCoupleCost": "€46–66"
               },
               {
@@ -561,7 +908,11 @@
                 "type": "1 estrela Michelin — Schwabing",
                 "address": "Werneckstraße 11, 80802 München",
                 "description": "Restaurante Michelin em Schwabing para encerrar o dia mais épico do roteiro com a refeição à altura. Menu degustação de 6–8 cursos com ingredientes bávaros de alta qualidade. Reserve com antecedência.",
-                "highlights": ["Menu degustação de 6 cursos com ingredientes da Baviera", "Truta alpina com ervas frescas e manteiga de montanha", "Harmonização com Riesling Spätlese e Grauburgunder alemães"],
+                "highlights": [
+                  "Menu degustação de 6 cursos com ingredientes da Baviera",
+                  "Truta alpina com ervas frescas e manteiga de montanha",
+                  "Harmonização com Riesling Spätlese e Grauburgunder alemães"
+                ],
                 "estimatedCoupleCost": "€160–220"
               }
             ]
@@ -569,17 +920,55 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "garmisch", "name": "Garmisch-Partenkirchen", "coupleCost": "Gratuito", "note": "Cidade a céu aberto" },
-            { "poiId": "zugspitze", "name": "Zugspitze", "coupleCost": "~€140–160", "note": "€70–80/pessoa, Zugspitzbahn + Gletscherbahn ida e volta" }
+            {
+              "poiId": "garmisch",
+              "name": "Garmisch-Partenkirchen",
+              "coupleCost": "Gratuito",
+              "note": "Cidade a céu aberto"
+            },
+            {
+              "poiId": "zugspitze",
+              "name": "Zugspitze",
+              "coupleCost": "~€140–160",
+              "note": "€70–80/pessoa, Zugspitzbahn + Gletscherbahn ida e volta"
+            }
           ],
           "attractionsSubtotal": "~€140–160",
           "attractionsNote": "Zugspitze é a principal despesa do dia; confirme visibilidade na véspera em zugspitze.de",
           "dailyTotal": {
-            "budget": { "meals": "~€46–70", "total": "~€186–230" },
-            "mid": { "meals": "~€88–128", "total": "~€228–288" },
-            "premium": { "meals": "~€240–340", "total": "~€380–500" }
+            "budget": {
+              "meals": "~€46–70",
+              "total": "~€186–230"
+            },
+            "mid": {
+              "meals": "~€88–128",
+              "total": "~€228–288"
+            },
+            "premium": {
+              "meals": "~€240–340",
+              "total": "~€380–500"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Hauptbahnhof (10 min) · Bayerische Zugspitzbahn HBF → Garmisch (1h28)",
+          "duration": "10 min",
+          "cost": "€29 Bayernticket",
+          "departureTime": "07:20"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Trem direto das 07:30 em HBF chega a Garmisch às ~09:00 — fundamental chegar cedo para aproveitar a Zugspitze com céu limpo."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "Zugspitzbahn Garmisch → München HBF + U3/U6 → Goetheplatz",
+          "duration": "10 min",
+          "cost": "€0 (incluso no Bayernticket)"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Bayernticket cobre o retorno completo."
       }
     },
     {
@@ -622,7 +1011,11 @@
                 "type": "Biergarten monástico de Salzburgo",
                 "address": "Lindhofstraße 7, 5020 Salzburg",
                 "description": "O maior biergarten de Salzburgo, instalado num mosteiro agostiniano de 1621 na margem oeste do Salzach. Ambiente completamente diferente dos turísticos — apenas cerveja da própria cervejaria monástica, bancas com Steckerlfisch, Brezn e queijo. Sem música, sem decoração, com moradores locais.",
-                "highlights": ["Cerveja monástica Augustinerbräu diretamente da torneira de cerâmica", "Steckerlfisch (truta na vara grelhada) com pão rústico", "Obatzda de queijo dos Alpes com Brezn"],
+                "highlights": [
+                  "Cerveja monástica Augustinerbräu diretamente da torneira de cerâmica",
+                  "Steckerlfisch (truta na vara grelhada) com pão rústico",
+                  "Obatzda de queijo dos Alpes com Brezn"
+                ],
                 "estimatedCoupleCost": "€18–28"
               },
               {
@@ -631,7 +1024,11 @@
                 "type": "Restaurante austríaco na Altstadt",
                 "address": "Priesterhausgasse 8, 5020 Salzburg",
                 "description": "Restaurante aconchegante na cidade velha com cozinha austríaca clássica — Wiener Schnitzel do tamanho certo, Tafelspitz com molho de raiz-forte e o excelente Kasnockn (Käsespätzle austríaco) com queijo das montanhas salzburguesas. Ambiente de madeira escura com arquitetura original.",
-                "highlights": ["Kasnockn (Spätzle com queijo Bergkäse e cebola caramelizada)", "Wiener Schnitzel com Petersilienkartoffeln (batatas com salsinha)", "Sturm (mosto de uva fermentado) no outono ou cidra da região"],
+                "highlights": [
+                  "Kasnockn (Spätzle com queijo Bergkäse e cebola caramelizada)",
+                  "Wiener Schnitzel com Petersilienkartoffeln (batatas com salsinha)",
+                  "Sturm (mosto de uva fermentado) no outono ou cidra da região"
+                ],
                 "estimatedCoupleCost": "€42–60"
               },
               {
@@ -640,7 +1037,11 @@
                 "type": "2 estrelas Michelin — Salzburgo",
                 "address": "Mülner Hauptstraße 33, 5020 Salzburg",
                 "description": "O único restaurante de 2 estrelas Michelin de Salzburgo, com cozinha austro-francesa de Andreas Kaiblinger. Menu degustação de 6–8 cursos com ingredientes alpinos austríacos — corça do Salzkammergut, truta do Wolfgangsee, cogumelos silvestres das florestas salzburguesas. Reserve com antecedência.",
-                "highlights": ["Menu degustação de 6–8 cursos com ingredientes alpinos", "Corça do Salzkammergut com molho de zimbro e beterraba fermentada", "Harmonização com vinhos austríacos brancos (Grüner Veltliner, Riesling Wachau)"],
+                "highlights": [
+                  "Menu degustação de 6–8 cursos com ingredientes alpinos",
+                  "Corça do Salzkammergut com molho de zimbro e beterraba fermentada",
+                  "Harmonização com vinhos austríacos brancos (Grüner Veltliner, Riesling Wachau)"
+                ],
                 "estimatedCoupleCost": "€200–280"
               }
             ]
@@ -654,7 +1055,11 @@
                 "type": "Wirtshaus austríaco próximo ao Dom",
                 "address": "Getreidegasse 20, 5020 Salzburg",
                 "description": "Taberna austríaca histórica na própria Getreidegasse — um dos restaurantes mais antigos de Salzburgo. Ambiente autêntico de Wirtshaus com Schnitzel, Schweinsbraten e Tiroler Gröstl (prato de batata frita com ovos e Speck). Sem fila de turistas, com moradores do bairro.",
-                "highlights": ["Tiroler Gröstl (batata frita com ovos e Speck austríaco)", "Wiener Schnitzel com salada de batata", "Hofbräu Salzburg (cerveja local) de barril"],
+                "highlights": [
+                  "Tiroler Gröstl (batata frita com ovos e Speck austríaco)",
+                  "Wiener Schnitzel com salada de batata",
+                  "Hofbräu Salzburg (cerveja local) de barril"
+                ],
                 "estimatedCoupleCost": "€28–42"
               },
               {
@@ -663,7 +1068,11 @@
                 "type": "Restaurante do mosteiro mais antigo da Europa Central",
                 "address": "Sankt-Peter-Bezirk 1/4, 5020 Salzburg",
                 "description": "Restaurante do Mosteiro de São Pedro — fundado em 696 d.C., o mais antigo do mundo cristão ainda em atividade. Jantar em câmaras medievais de pedra com cozinha austríaca clássica. Salzburger Nockerln (soufflé doce) é a sobremesa obrigatória. Ambiente histórico incomparável.",
-                "highlights": ["Schweinsbraten (pernil assado austríaco) com molho escuro e Knödel", "Salzburger Nockerln (soufflé doce de claras e baunilha) — pede 15 min", "Ambiente em câmaras do mosteiro de 696 d.C."],
+                "highlights": [
+                  "Schweinsbraten (pernil assado austríaco) com molho escuro e Knödel",
+                  "Salzburger Nockerln (soufflé doce de claras e baunilha) — pede 15 min",
+                  "Ambiente em câmaras do mosteiro de 696 d.C."
+                ],
                 "estimatedCoupleCost": "€52–76"
               },
               {
@@ -672,7 +1081,11 @@
                 "type": "Restaurante no Hangar-7 — chef convidado mensal",
                 "address": "Wilhelm-Spazier-Straße 7a, 5020 Salzburg (Hangar-7, Aeroporto)",
                 "description": "O Ikarus no Hangar-7 da Red Bull é um dos conceitos mais originais do mundo: um chef de renome mundial diferente a cada mês cozinha seu menu no Hangar. O espaço com aviões históricos e design futurista é único. Reserve online em hangar-7.com — o chef do mês de junho é variável.",
-                "highlights": ["Chef convidado internacional diferente a cada mês", "Menu degustação no hangar com aviões históricos e design futurista", "Lista de vinhos austríacos e internacionais curada pelo sommelier"],
+                "highlights": [
+                  "Chef convidado internacional diferente a cada mês",
+                  "Menu degustação no hangar com aviões históricos e design futurista",
+                  "Lista de vinhos austríacos e internacionais curada pelo sommelier"
+                ],
                 "estimatedCoupleCost": "€150–220"
               }
             ]
@@ -680,19 +1093,67 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "salzburg-mirabell", "name": "Jardins de Mirabell", "coupleCost": "Gratuito", "note": "" },
-            { "poiId": "salzburg-getreidegasse", "name": "Getreidegasse", "coupleCost": "Gratuito", "note": "Mozarts Geburtshaus ~€28 se visitar" },
-            { "poiId": "salzburg-dom", "name": "Dom de Salzburgo", "coupleCost": "Gratuito", "note": "Doação sugerida" },
-            { "poiId": "salzburg-festung", "name": "Festung Hohensalzburg", "coupleCost": "~€32–36", "note": "€16–18/pessoa; incluso na Salzburg Card" }
+            {
+              "poiId": "salzburg-mirabell",
+              "name": "Jardins de Mirabell",
+              "coupleCost": "Gratuito",
+              "note": ""
+            },
+            {
+              "poiId": "salzburg-getreidegasse",
+              "name": "Getreidegasse",
+              "coupleCost": "Gratuito",
+              "note": "Mozarts Geburtshaus ~€28 se visitar"
+            },
+            {
+              "poiId": "salzburg-dom",
+              "name": "Dom de Salzburgo",
+              "coupleCost": "Gratuito",
+              "note": "Doação sugerida"
+            },
+            {
+              "poiId": "salzburg-festung",
+              "name": "Festung Hohensalzburg",
+              "coupleCost": "~€32–36",
+              "note": "€16–18/pessoa; incluso na Salzburg Card"
+            }
           ],
           "attractionsSubtotal": "~€32–36",
           "attractionsNote": "Apenas a Festung tem entrada paga; Salzburg Card cobre a entrada",
           "dailyTotal": {
-            "budget": { "meals": "~€46–70", "total": "~€78–106" },
-            "mid": { "meals": "~€94–136", "total": "~€126–172" },
-            "premium": { "meals": "~€350–500", "total": "~€382–536" }
+            "budget": {
+              "meals": "~€46–70",
+              "total": "~€78–106"
+            },
+            "mid": {
+              "meals": "~€94–136",
+              "total": "~€126–172"
+            },
+            "premium": {
+              "meals": "~€350–500",
+              "total": "~€382–536"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Hauptbahnhof (10 min) · EC/IC HBF → Salzburg Hbf (1h30)",
+          "duration": "10 min",
+          "cost": "€29 Bayernticket + €4,30 supl. Áustria (até Freilassing a fronteira)",
+          "departureTime": "08:20"
+        },
+        "recommended": "transit",
+        "recommendedReason": "EC das 08:30 chega a Salzburg às ~10:00 — ideal para começar os jardins do Mirabell com o abre do castelo."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "EC/IC Salzburg → München HBF + U3/U6 → Goetheplatz",
+          "duration": "10 min",
+          "cost": "€0 (Bayernticket + supl. já pago)"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Último EC conveniente Salzburg→HBF sai por volta das 19:00."
       }
     },
     {
@@ -736,7 +1197,11 @@
                 "type": "Padaria / café tradicional",
                 "address": "Hofbronnengasse 16, Rothenburg ob der Tauber",
                 "description": "Padaria histórica especializada em Schneeballen (bolas de massa frita típicas de Rothenburg) e sandes francônias. Refeição rápida e autêntica no centro da Altstadt.",
-                "highlights": ["Schneeballen doces e salgados", "Bratwurst francônia", "Frankenwein a copo"],
+                "highlights": [
+                  "Schneeballen doces e salgados",
+                  "Bratwurst francônia",
+                  "Frankenwein a copo"
+                ],
                 "estimatedCoupleCost": "€16–24"
               },
               {
@@ -745,7 +1210,11 @@
                 "type": "Restaurante histórico tradicional",
                 "address": "Obere Schmiedgasse 5, Rothenburg ob der Tauber",
                 "description": "Estalagem histórica (séc. XVI) no centro de Rothenburg com pratos francônios clássicos: Schäufele (pernil), Sauerbraten, Frankenwein da casa. Ambiente medieval autêntico.",
-                "highlights": ["Schäufele com chucrute", "Sauerbraten à francônia", "Frankenwein regional"],
+                "highlights": [
+                  "Schäufele com chucrute",
+                  "Sauerbraten à francônia",
+                  "Frankenwein regional"
+                ],
                 "estimatedCoupleCost": "€38–54"
               },
               {
@@ -754,7 +1223,11 @@
                 "type": "Restaurante histórico premium (desde 900 d.C.)",
                 "address": "Burggasse 8, Rothenburg ob der Tauber",
                 "description": "Considerado o restaurante mais antigo da Alemanha, fundado em 900 d.C. Ambiente medieval genuíno em porão de pedra. Especialidades francônias refinadas com carta de Frankenwein extensíssima.",
-                "highlights": ["Ambiente medieval em porão histórico", "Frankenwein premium", "Pratos francônios de autora"],
+                "highlights": [
+                  "Ambiente medieval em porão histórico",
+                  "Frankenwein premium",
+                  "Pratos francônios de autora"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -768,7 +1241,11 @@
                 "type": "Açougue / lanche rápido",
                 "address": "Schmiedgasse 18, Rothenburg ob der Tauber",
                 "description": "Açougue artesanal com balcão de sandes e embutidos francônios — ideal para um lanche rápido antes de pegar o trem. Alternativa: lanche na estação em Ansbach ou Steinach.",
-                "highlights": ["Embutidos francônios artesanais", "Sandes de Landjaeger", "Prático antes do trem"],
+                "highlights": [
+                  "Embutidos francônios artesanais",
+                  "Sandes de Landjaeger",
+                  "Prático antes do trem"
+                ],
                 "estimatedCoupleCost": "€10–16"
               },
               {
@@ -777,7 +1254,11 @@
                 "type": "Restaurante de hotel histórico",
                 "address": "Herrngasse 3–7, Rothenburg ob der Tauber",
                 "description": "Restaurante do Hotel Eisenhut, o mais belo hotel de Rothenburg. Culinária francônia cuidada em ambiente senhorial. Válido se quiser jantar antes das 17:00 e partir satisfeito.",
-                "highlights": ["Pratos francônios refinados", "Ambiente histórico elegante", "Frankenwein selecionado"],
+                "highlights": [
+                  "Pratos francônios refinados",
+                  "Ambiente histórico elegante",
+                  "Frankenwein selecionado"
+                ],
                 "estimatedCoupleCost": "€50–72"
               },
               {
@@ -786,7 +1267,11 @@
                 "type": "Cervejaria histórica — encerramento em Munique",
                 "address": "Frauenplatz 8, München",
                 "description": "Jantar de encerramento do roteiro em Munique na histórica Augustiner am Dom, junto à Frauenkirche. Culinária bávara clássica (Schweinshaxe, Obazda) com a melhor cerveja Augustiner em barril de madeira.",
-                "highlights": ["Schweinshaxe com Knödel", "Augustiner Edelstoff em barril de madeira", "Junto à Frauenkirche — encerramento perfeito do roteiro"],
+                "highlights": [
+                  "Schweinshaxe com Knödel",
+                  "Augustiner Edelstoff em barril de madeira",
+                  "Junto à Frauenkirche — encerramento perfeito do roteiro"
+                ],
                 "estimatedCoupleCost": "€50–76"
               }
             ]
@@ -794,20 +1279,73 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "marktplatz-rothenburg", "name": "Marktplatz + Torre", "coupleCost": "~€6", "note": "Torre ~€3/pessoa; praça gratuita" },
-            { "poiId": "st-jakobskirche", "name": "Igreja St. Jakob", "coupleCost": "~€8", "note": "€4/pessoa, inclui coro ocidental e altar de Riemenschneider" },
-            { "poiId": "plonlein", "name": "Plönlein", "coupleCost": "Gratuito", "note": "Cartão postal de Rothenburg, sem cobrança" },
-            { "poiId": "stadtmauer-rothenburg", "name": "Muralhas medievais", "coupleCost": "Gratuito", "note": "Percurso completo (3,5 km) das muralhas sem cobrança" },
-            { "poiId": "burggarten-rothenburg", "name": "Burggarten", "coupleCost": "Gratuito", "note": "Jardim público com vista panorâmica" }
+            {
+              "poiId": "marktplatz-rothenburg",
+              "name": "Marktplatz + Torre",
+              "coupleCost": "~€6",
+              "note": "Torre ~€3/pessoa; praça gratuita"
+            },
+            {
+              "poiId": "st-jakobskirche",
+              "name": "Igreja St. Jakob",
+              "coupleCost": "~€8",
+              "note": "€4/pessoa, inclui coro ocidental e altar de Riemenschneider"
+            },
+            {
+              "poiId": "plonlein",
+              "name": "Plönlein",
+              "coupleCost": "Gratuito",
+              "note": "Cartão postal de Rothenburg, sem cobrança"
+            },
+            {
+              "poiId": "stadtmauer-rothenburg",
+              "name": "Muralhas medievais",
+              "coupleCost": "Gratuito",
+              "note": "Percurso completo (3,5 km) das muralhas sem cobrança"
+            },
+            {
+              "poiId": "burggarten-rothenburg",
+              "name": "Burggarten",
+              "coupleCost": "Gratuito",
+              "note": "Jardim público com vista panorâmica"
+            }
           ],
           "attractionsSubtotal": "~€14",
           "attractionsNote": "Bayern-Ticket (~€58 por casal) cobre ida e volta München–Rothenburg em trens regionais.",
           "dailyTotal": {
-            "budget": { "meals": "~€26–40", "total": "~€98–112" },
-            "mid": { "meals": "~€88–126", "total": "~€160–198" },
-            "premium": { "meals": "~€120–176", "total": "~€192–248" }
+            "budget": {
+              "meals": "~€26–40",
+              "total": "~€98–112"
+            },
+            "mid": {
+              "meals": "~€88–126",
+              "total": "~€160–198"
+            },
+            "premium": {
+              "meals": "~€120–176",
+              "total": "~€192–248"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U3/U6 Goetheplatz → Hauptbahnhof (10 min) · Regional HBF → Treuchtlingen → Steinach b.Rot. → Rothenburg (2h30)",
+          "duration": "10 min",
+          "cost": "€29 Bayernticket",
+          "departureTime": "07:50"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Rothenburg fica a 180 km — o trem das 08:00 em HBF chega às ~10:30, antes do rush turístico de meio-dia."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "Rothenburg → Steinach → Treuchtlingen → München HBF + U3/U6 → Goetheplatz",
+          "duration": "10 min",
+          "cost": "€0 (incluso no Bayernticket)"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Último trem conveniente Rothenburg→HBF sai por volta das 18:30."
       }
     }
   ],

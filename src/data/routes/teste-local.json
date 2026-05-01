@@ -3,8 +3,18 @@
   "title": "Teste Local",
   "subtitle": "Jacarepaguá · Teste de proximidade GPS",
   "devOnly": true,
+  "accommodation": {
+    "name": "Hospedagem",
+    "address": "Rua Agrolândia, 100, Freguesia, Rio de Janeiro",
+    "lat": -22.9365,
+    "lng": -43.343
+  },
   "historicalPeriods": [
-    { "id": "modern", "name": "Moderno", "color": "#6c757d" }
+    {
+      "id": "modern",
+      "name": "Moderno",
+      "color": "#6c757d"
+    }
   ],
   "days": [
     {
@@ -14,7 +24,26 @@
       "weekday": "thursday",
       "title": "Circuito de testes",
       "dayType": "urban",
-      "theme": "Verificar alertas GPS, vibração e notificações"
+      "startTime": "09:00",
+      "theme": "Verificar alertas GPS, vibração e notificações",
+      "fromAccommodation": {
+        "walking": {
+          "duration": "8 min",
+          "route": "Rua Agrolândia → Rua Araguaia → Armazém Urbano",
+          "highlight": "Rota de teste — verificar vibração e alerta GPS ao chegar",
+          "departureTime": "08:52"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Ponto de teste a menos de 600 m — ideal para verificar o funcionamento do GPS."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "10 min",
+          "route": "Iron X CT → Estr. do Gabinal → Estr. dos Três Rios → Rua Agrolândia"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno curto após o circuito de testes."
+      }
     }
   ],
   "pois": [
@@ -29,59 +58,71 @@
       "estimatedVisitMinutes": 10,
       "visitType": "internal",
       "description": "Ponto de teste 1 — Rua Araguaia, 970. Ao se aproximar a menos de 100 m, o app deve vibrar, disparar notificação e exibir o alerta na tela.",
-      "proximityRadiusMeters": 100
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/teste-local/audio/armazem-araguaia.wav",
+        "audioDurationSeconds": 3
+      }
     },
     {
-      "id": "armazem-pau-ferro",
-      "name": "Armazém Urbano (Pau-Ferro / Joaquim Pinheiro)",
-      "lat": -22.931026,
-      "lng": -43.33254,
+      "id": "drogasmil",
+      "name": "Drogasmil",
+      "lat": -22.939602445841686,
+      "lng": -43.34251517597049,
       "dayId": "teste-dia-1",
       "order": 2,
       "historicalPeriod": "modern",
       "estimatedVisitMinutes": 10,
       "visitType": "internal",
-      "description": "Ponto de teste 2 — Estrada do Pau-Ferro, 1070, esquina com Rua Joaquim Pinheiro.",
-      "proximityRadiusMeters": 100
+      "description": "Ponto de teste 2 — Estr. dos Três Rios, 90, loja F, Freguesia. Ao se aproximar a menos de 100 m, o app deve vibrar, disparar notificação e exibir o alerta na tela.",
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/teste-local/audio/armazem-pau-ferro.wav",
+        "audioDurationSeconds": 3
+      }
     },
     {
-      "id": "hortifruti-tres-rios",
-      "name": "Hortifruti (Estrada dos Três Rios)",
-      "lat": -22.9391718,
-      "lng": -43.3411611,
+      "id": "ironx-ct",
+      "name": "Iron X CT",
+      "lat": -22.944531079463374,
+      "lng": -43.346047019833435,
       "dayId": "teste-dia-1",
       "order": 3,
       "historicalPeriod": "modern",
       "estimatedVisitMinutes": 15,
       "visitType": "internal",
-      "description": "Ponto de teste 3 — Estrada dos Três Rios, 271.",
-      "proximityRadiusMeters": 100
+      "description": "Ponto de teste 3 — Estr. do Gabinal, 433, Freguesia. Ao se aproximar a menos de 100 m, o app deve vibrar, disparar notificação e exibir o alerta na tela.",
+      "proximityRadiusMeters": 100,
+      "media": {
+        "audio": "/media/routes/teste-local/audio/hortifruti-tres-rios.wav",
+        "audioDurationSeconds": 3
+      }
     }
   ],
   "segments": [
     {
       "from": "armazem-araguaia",
-      "to": "armazem-pau-ferro",
+      "to": "drogasmil",
       "transport": "walking",
-      "walkingMinutes": 7,
-      "distanceMeters": 550,
+      "walkingMinutes": 10,
+      "distanceMeters": 785,
       "path": [
         [-22.9352155, -43.3369661],
-        [-22.931026, -43.33254]
+        [-22.939602445841686, -43.34251517597049]
       ],
-      "streetNotes": "Rua Araguaia → Estrada do Pau-Ferro"
+      "streetNotes": "Rua Araguaia → Estr. dos Três Rios"
     },
     {
-      "from": "armazem-pau-ferro",
-      "to": "hortifruti-tres-rios",
+      "from": "drogasmil",
+      "to": "ironx-ct",
       "transport": "walking",
-      "walkingMinutes": 9,
-      "distanceMeters": 720,
+      "walkingMinutes": 8,
+      "distanceMeters": 674,
       "path": [
-        [-22.931026, -43.33254],
-        [-22.9391718, -43.3411611]
+        [-22.939602445841686, -43.34251517597049],
+        [-22.944531079463374, -43.346047019833435]
       ],
-      "streetNotes": "Estrada do Pau-Ferro → Estrada dos Três Rios"
+      "streetNotes": "Estr. dos Três Rios → Estr. do Gabinal"
     }
   ]
 }

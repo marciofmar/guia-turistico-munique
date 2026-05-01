@@ -110,7 +110,8 @@
       "Bash(pkill -f \"vite\")",
       "Bash(python3 -c ' *)",
       "Bash(xargs grep *)",
-      "WebFetch(domain:www.tripadvisor.com)"
+      "WebFetch(domain:www.tripadvisor.com)",
+      "WebFetch(domain:maps.google.com)"
     ]
   }
 }

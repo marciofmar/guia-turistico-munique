@@ -2,6 +2,12 @@
   "id": "cesky-krumlov-2026",
   "title": "Český Krumlov",
   "subtitle": "A pérola medieval da Boêmia do Sul",
+  "accommodation": {
+    "name": "Krumlovská Pohádka",
+    "address": "Siroka 74, 38101 Český Krumlov",
+    "lat": 48.811,
+    "lng": 14.3136
+  },
   "tripDates": {
     "start": "2026-06-11",
     "end": "2026-06-12"
@@ -64,7 +70,11 @@
                 "type": "Pub tcheco clássico",
                 "address": "Kajovská 66, Český Krumlov",
                 "description": "Pub instalado num edifício do século XIV, um dos mais antigos da cidade. Ambiente descontraído com madeira escura e letreiros de cerveja nas paredes. Ponto de encontro de moradores locais e visitantes que descobriram o lugar antes dos roteiros turísticos.",
-                "highlights": ["Svíčková na smetaně (alcatra com creme e cranberry)", "Vepřo-knedlo-zelo (pernil assado com knedlík e chucrute)", "Cerveja Schwarzenberg escura chope"],
+                "highlights": [
+                  "Svíčková na smetaně (alcatra com creme e cranberry)",
+                  "Vepřo-knedlo-zelo (pernil assado com knedlík e chucrute)",
+                  "Cerveja Schwarzenberg escura chope"
+                ],
                 "estimatedCoupleCost": "€20–28"
               },
               {
@@ -73,7 +83,11 @@
                 "type": "Restaurante medieval em porão histórico",
                 "address": "Šatlavská 157, Český Krumlov",
                 "description": "Instalado no porão da antiga prisão da cidade, com paredes de pedra bruta, tochas e apresentação estilo medieval. Um dos ambientes mais atmosféricos de Český Krumlov. As carnes são grelhadas em fogo aberto e o cardápio inclui guláš de javali servido em pão escavado.",
-                "highlights": ["Carnes grelhadas no fogo aberto", "Guláš de javali em pão", "Cerveja Eggenberg chope"],
+                "highlights": [
+                  "Carnes grelhadas no fogo aberto",
+                  "Guláš de javali em pão",
+                  "Cerveja Eggenberg chope"
+                ],
                 "estimatedCoupleCost": "€38–52"
               },
               {
@@ -82,7 +96,11 @@
                 "type": "Restaurante de hotel em palácio renascentista",
                 "address": "Horní 154, Český Krumlov",
                 "description": "No interior do palácio renascentista Růže do século XVI, convertido em hotel de luxo. Culinária tcheca refinada com releituras modernas e apresentação cuidadosa. Vista direta para a Torre do Castelo a partir das mesas da janela — o almoço mais elegante do centro histórico.",
-                "highlights": ["Truta do Vltava ao vapor de ervas", "Schnitzel Růže com variações regionais", "Vista para o castelo da janela"],
+                "highlights": [
+                  "Truta do Vltava ao vapor de ervas",
+                  "Schnitzel Růže com variações regionais",
+                  "Vista para o castelo da janela"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -96,7 +114,11 @@
                 "type": "Café vegetariano e vegano com terraço ribeirinho",
                 "address": "Parkán 105, Český Krumlov",
                 "description": "Café vegetariano com terraço à beira do Rio Vltava, num ângulo privilegiado das muralhas medievais refletidas na água. Ambiente tranquilo, ideal para uma refeição leve após um dia de intensa caminhada. As sopas caseiras e tortas mudam conforme a temporada.",
-                "highlights": ["Sopas caseiras da Boêmia", "Saladas e wraps artesanais", "Chás de ervas regionais"],
+                "highlights": [
+                  "Sopas caseiras da Boêmia",
+                  "Saladas e wraps artesanais",
+                  "Chás de ervas regionais"
+                ],
                 "estimatedCoupleCost": "€18–26"
               },
               {
@@ -105,7 +127,11 @@
                 "type": "Restaurante tcheco com vista para o Vltava",
                 "address": "Horní 26, Český Krumlov",
                 "description": "Culinária da Boêmia do Sul num ambiente cuidado com terraço sobre as muralhas medievais e vista para o Rio Vltava. Especialidade em pato assado e guláš bohêmio com cerveja Eggenberg de barril. Ambiente mais formal que os pubs do Latrán, ideal para encerrar o dia com calma.",
-                "highlights": ["Pato assado com chucrute e knedlík", "Guláš bohêmio ao estilo da Boêmia do Sul", "Cerveja Eggenberg chope com vista"],
+                "highlights": [
+                  "Pato assado com chucrute e knedlík",
+                  "Guláš bohêmio ao estilo da Boêmia do Sul",
+                  "Cerveja Eggenberg chope com vista"
+                ],
                 "estimatedCoupleCost": "€36–50"
               },
               {
@@ -114,7 +140,11 @@
                 "type": "Restaurante íntimo em casa medieval",
                 "address": "Latrán 15, Český Krumlov",
                 "description": "Restaurante de poucos lugares numa casa medieval do Latrán, com cozinha focada em ingredientes sazonais da Boêmia do Sul. Menu degustação com especialidades locais — cogumelos silvestres, veado com zimbro, truta do Vltava. Reserva recomendada para a temporada de junho.",
-                "highlights": ["Cogumelos silvestres da Boêmia do Sul", "Veado com zimbro e bagas silvestres", "Truta local com manteiga de ervas"],
+                "highlights": [
+                  "Cogumelos silvestres da Boêmia do Sul",
+                  "Veado com zimbro e bagas silvestres",
+                  "Truta local com manteiga de ervas"
+                ],
                 "estimatedCoupleCost": "€80–120"
               }
             ]
@@ -152,6 +182,24 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "6 min",
+          "route": "Siroka → Latran → Castelo de Český Krumlov",
+          "highlight": "O castelo fica visível desde o hotel — atravessar a praça medieval é o caminho natural",
+          "departureTime": "10:54"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Cidade compacta, tudo a pé. O castelo está a 6 min subindo a Latrán."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "6 min",
+          "route": "Castelo → Latran → Siroka"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Tudo em Český Krumlov está no raio de 10 min a pé."
       }
     },
     {
@@ -184,7 +232,11 @@
                 "type": "Café com cozinha leve junto ao museu",
                 "address": "Dlouhá 32, Český Krumlov",
                 "description": "Café localizado junto ao Egon Schiele Art Centrum, com ambiente descontraído e cardápio de sanduíches artesanais, sopas boêmias e café coado. Ideal para uma refeição leve antes ou depois da visita ao museu, sem comprometer o ritmo tranquilo da manhã.",
-                "highlights": ["Sanduíches artesanais de pão escuro", "Sopa boêmia do dia", "Café coado e bolos caseiros"],
+                "highlights": [
+                  "Sanduíches artesanais de pão escuro",
+                  "Sopa boêmia do dia",
+                  "Café coado e bolos caseiros"
+                ],
                 "estimatedCoupleCost": "€16–22"
               },
               {
@@ -193,7 +245,11 @@
                 "type": "Pub ribeirinho na ilha do Vltava",
                 "address": "Na Ostrově 171, Český Krumlov",
                 "description": "Pub localizado na ilhota do Rio Vltava, com jardim de cerveja à beira d'água e vista para as muralhas medievais. Culinária tcheca tradicional com guláš, svíčková e pratos do dia. A cerveja Eggenberg de barril e o ambiente tranquilo tornam este o almoço mais pitoresco do roteiro.",
-                "highlights": ["Guláš tcheco com pão de centeio", "Svíčková na smetaně", "Cerveja Eggenberg de barril com vista"],
+                "highlights": [
+                  "Guláš tcheco com pão de centeio",
+                  "Svíčková na smetaně",
+                  "Cerveja Eggenberg de barril com vista"
+                ],
                 "estimatedCoupleCost": "€30–42"
               },
               {
@@ -202,7 +258,11 @@
                 "type": "Restaurante de hotel em palácio renascentista",
                 "address": "Horní 154, Český Krumlov",
                 "description": "Restaurante no interior do Palácio Růže do século XVI, o edifício renascentista mais bem preservado de Český Krumlov, convertido em hotel de luxo. Culinária tcheca com ingredientes locais da Boêmia do Sul, apresentação refinada e vista direta para a Torre do Castelo. O almoço mais elegante da cidade.",
-                "highlights": ["Truta do Vltava ao vapor de ervas", "Pato assado da Boêmia do Sul", "Vista para o castelo da janela"],
+                "highlights": [
+                  "Truta do Vltava ao vapor de ervas",
+                  "Pato assado da Boêmia do Sul",
+                  "Vista para o castelo da janela"
+                ],
                 "estimatedCoupleCost": "€60–90"
               }
             ]
@@ -240,6 +300,24 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "8 min",
+          "route": "Siroka → Horní → Náměstí Svornosti (praça principal)",
+          "highlight": "Náměstí Svornosti — praça renascentista com casas coloridas",
+          "departureTime": "07:52"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Toda a cidade é percorrível a pé em minutos."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "8 min",
+          "route": "Náměstí Svornosti → Horní → Siroka"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno curto pela praça central."
       }
     }
   ],

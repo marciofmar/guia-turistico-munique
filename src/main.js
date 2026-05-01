@@ -4,7 +4,7 @@ import { getState, setState, subscribe } from './state.js';
 import { getAllRoutes, getRoute } from './data/routes/index.js';
 import { filterRouteByDayIndex } from './services/dayFilter.js';
 import { startWatching, onProximity } from './services/geolocation.js';
-import { initMap, renderRoute, updateUserPosition, centerOnUser } from './services/map.js';
+import { initMap, renderRoute, renderAccommodation, updateUserPosition, centerOnUser } from './services/map.js';
 import { initAudioPlayer, playAudio } from './components/AudioPlayer.js';
 import { initProximityAlert, showProximityAlert } from './components/ProximityAlert.js';
 import { renderHeader, renderBottomNav } from './components/App.js';
@@ -12,6 +12,7 @@ import { renderDaySelector } from './components/DaySelector.js';
 import { renderRouteSummary } from './components/RouteSummary.js';
 import { renderPOICard, renderWalkSegment } from './components/POICard.js';
 import { renderPOIDetail } from './components/POIDetail.js';
+import { renderTransferCard } from './components/TransferCard.js';
 import {
   dayTypeBadge,
   weekdayAbbrev,
@@ -341,6 +342,10 @@ addRoute('/route/:id', (container, { id }) => {
     // Day header
     main.appendChild(renderDayHeader(filtered.day));
 
+    // Transfer: saída da hospedagem
+    const fromCard = renderTransferCard(filtered.day.fromAccommodation, 'from');
+    if (fromCard) main.appendChild(fromCard);
+
     // Logistics card (excursões e dias com refeições)
     if (filtered.day.logistics) {
       const logCard = renderLogisticsCard(filtered.day);
@@ -390,6 +395,10 @@ addRoute('/route/:id', (container, { id }) => {
       }
     }
     main.appendChild(list);
+
+    // Transfer: retorno à hospedagem
+    const toCard = renderTransferCard(filtered.day.toAccommodation, 'to');
+    if (toCard) main.appendChild(toCard);
   }
 
   renderContent();
@@ -485,6 +494,7 @@ addRoute('/route/:id/map', (container, { id }) => {
     renderRoute(filtered.pois, filtered.segments, (poi) => {
       navigate(`#/route/${id}/poi/${poi.id}`);
     });
+    renderAccommodation(route.accommodation);
 
     const pos = getState().userPosition;
     if (pos) {
@@ -560,7 +570,7 @@ addRoute('/info', (container) => {
   clearElement(container);
   renderHeader(container, { title: 'Informações', showBack: true });
 
-  const main = el('div', { className: 'main-content', style: { padding: 'var(--space-lg)' } },
+  const main = el('div', { className: 'main-content', style: { padding: 'var(--space-lg)', paddingBottom: 'calc(var(--bottom-nav-height) + env(safe-area-inset-bottom) + var(--space-xl))' } },
     el('h2', { style: { marginBottom: 'var(--space-sm)', color: 'var(--color-primary-dark)' } },
       '🗺️ Munique & Leste Europeu 2026'),
     el('p', { style: { marginBottom: 'var(--space-md)', lineHeight: '1.7', color: 'var(--color-text-muted)' } },

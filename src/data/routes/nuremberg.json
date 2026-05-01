@@ -2,6 +2,12 @@
   "id": "nuremberg-2026",
   "title": "Nuremberg",
   "subtitle": "A cidade do Imperador, do Renascimento e do Tribunal",
+  "accommodation": {
+    "name": "Karl August - a Neighborhood Hotel",
+    "address": "Augustinerhof 1, 90403 Nuremberg",
+    "lat": 49.4477,
+    "lng": 11.0761
+  },
   "tripDates": {
     "start": "2026-06-06",
     "end": "2026-06-07"
@@ -71,7 +77,11 @@
                 "type": "Banca histórica de grelhados",
                 "address": "Rathausplatz 1, 90403 Nürnberg",
                 "description": "A banca de grelhados mais autêntica do Hauptmarkt, junto à Frauenkirche. Fila de moradores locais, não de turistas. Seis Nürnberger Rostbratwürste em prato de estanho com Sauerkraut e pão de centeio — o almoço mais emblemático de Nuremberg por um preço justo.",
-                "highlights": ["6 Nürnberger Rostbratwürste no prato com chucrute", "Bratwurst no pão para comer em pé", "Cerveja Tucher Helles em garrafa"],
+                "highlights": [
+                  "6 Nürnberger Rostbratwürste no prato com chucrute",
+                  "Bratwurst no pão para comer em pé",
+                  "Cerveja Tucher Helles em garrafa"
+                ],
                 "estimatedCoupleCost": "€14–20"
               },
               {
@@ -80,7 +90,11 @@
                 "type": "Restaurante histórico sobre o Rio Pegnitz",
                 "address": "Spitalgasse 16, 90403 Nürnberg",
                 "description": "Hospital medieval do século XIV convertido em restaurante, com arcos de pedra sobre o Rio Pegnitz. Um dos espaços mais bonitos de Nuremberg para uma refeição. Schäufele (pernil à francônia), Sauerbraten e cerveja Tucher de barril num salão com 700 lugares que nunca parece lotado.",
-                "highlights": ["Schäufele (pernil francônio assado)", "Sauerbraten com Kloß de batata", "Cerveja Tucher Kellerbier de barril"],
+                "highlights": [
+                  "Schäufele (pernil francônio assado)",
+                  "Sauerbraten com Kloß de batata",
+                  "Cerveja Tucher Kellerbier de barril"
+                ],
                 "estimatedCoupleCost": "€36–52"
               },
               {
@@ -89,7 +103,11 @@
                 "type": "Restaurante histórico desde 1498",
                 "address": "Glöckleinsgasse 2, 90402 Nürnberg",
                 "description": "O restaurante mais antigo de Nuremberg, documentado desde 1498. Albrecht Dürer era cliente frequente — a distância até a Casa de Dürer é de 3 minutos a pé. Sauerbraten de vaca francônio marinado 72 horas, ragout de veado e Karpfen blau servidos num ambiente de madeira escura e tapeçarias históricas.",
-                "highlights": ["Sauerbraten francônio marinado 72h", "Karpfen blau (carpa azul) tradicional", "Ragout de veado com Kloß"],
+                "highlights": [
+                  "Sauerbraten francônio marinado 72h",
+                  "Karpfen blau (carpa azul) tradicional",
+                  "Ragout de veado com Kloß"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -103,7 +121,11 @@
                 "type": "Pátio medieval dos artesãos",
                 "address": "Königstraße 82 (Königstor), 90402 Nürnberg",
                 "description": "O próprio Handwerkerhof tem bancas de grelhados e mesas de madeira ao ar livre encostadas à muralha medieval. Bratwurst, Lebkuchen e cerveja Tucher ou Schlenkerla enquanto as lamparinas iluminam as fachadas de enxaimel do século XIII — uma das experiências de jantar mais atmosféricas da Alemanha.",
-                "highlights": ["Bratwurst grelhada com mostarda artesanal", "Lebkuchen (pão de mel de Nuremberg)", "Schlenkerla Rauchbier (cerveja defumada de Bamberg)"],
+                "highlights": [
+                  "Bratwurst grelhada com mostarda artesanal",
+                  "Lebkuchen (pão de mel de Nuremberg)",
+                  "Schlenkerla Rauchbier (cerveja defumada de Bamberg)"
+                ],
                 "estimatedCoupleCost": "€16–24"
               },
               {
@@ -112,7 +134,11 @@
                 "type": "Restaurante clássico de Nuremberg",
                 "address": "Rathausplatz 6, 90403 Nürnberg",
                 "description": "Instituição de Nuremberg no mesmo endereço desde 1431. Dois andares de madeira escura, letreiros antigos e menus focados nas Nürnberger Rostbratwürste em todas as variações — com chucrute, com rábano picante, no pão. Schäufele e Sauerbraten no cardápio principal. Cerveja Tucher escura de barril.",
-                "highlights": ["Menu de Nürnberger Rostbratwürste (6, 8 ou 12)", "Schäufele ao estilo de Nuremberg", "Cerveja Tucher Dunkel de barril"],
+                "highlights": [
+                  "Menu de Nürnberger Rostbratwürste (6, 8 ou 12)",
+                  "Schäufele ao estilo de Nuremberg",
+                  "Cerveja Tucher Dunkel de barril"
+                ],
                 "estimatedCoupleCost": "€34–48"
               },
               {
@@ -121,7 +147,11 @@
                 "type": "Cozinha francônia refinada",
                 "address": "Obere Schmiedgasse 34, 90403 Nürnberg",
                 "description": "Cozinha francônia com ingredientes sazonais locais e técnica refinada. Especialidade em caça e peixe de água doce da região: veado com trufas, karpfen do Etangs francônios, foie gras de pato. Ambiente formal com lista de vinhos da Francônia. O jantar mais elegante do centro de Nuremberg.",
-                "highlights": ["Veado com trufas da Francônia", "Karpfen (carpa) do Stagno de Aischgrund", "Vinhos tintos da Francônia (Blaufränkisch)"],
+                "highlights": [
+                  "Veado com trufas da Francônia",
+                  "Karpfen (carpa) do Stagno de Aischgrund",
+                  "Vinhos tintos da Francônia (Blaufränkisch)"
+                ],
                 "estimatedCoupleCost": "€90–130"
               }
             ]
@@ -177,6 +207,24 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "8 min",
+          "route": "Augustinerhof → Burgstr. → Kaiserstallung → Kaiserburg",
+          "highlight": "Subida histórica pela Burgstraße com vista para o Altstadt",
+          "departureTime": "08:52"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Hotel fica no coração do Altstadt — a Kaiserburg está a apenas 8 min subindo a Burgstraße."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "8 min",
+          "route": "Burgstr. → Augustinerhof"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Retorno de 8 min descendo a colina do castelo."
       }
     },
     {
@@ -210,7 +258,11 @@
                 "type": "Bistrô de almoço no centro",
                 "address": "Burgstraße 15, 90403 Nürnberg",
                 "description": "Bistrô pequeno e bem cotado no centro histórico, com sopas do dia, Tagesgericht francônio e sanduíches artesanais. Frequentado por trabalhadores locais durante a semana. Pratos de almoço a partir de €7–8/pessoa — ideal para uma pausa rápida e honesta entre os dois blocos do dia.",
-                "highlights": ["Sopa do dia com pão de centeio", "Tagesgericht francônio (prato do dia)", "Torta de maçã caseira"],
+                "highlights": [
+                  "Sopa do dia com pão de centeio",
+                  "Tagesgericht francônio (prato do dia)",
+                  "Torta de maçã caseira"
+                ],
                 "estimatedCoupleCost": "€18–26"
               },
               {
@@ -219,7 +271,11 @@
                 "type": "Taverna histórica de Bratwurst",
                 "address": "Zirkelschmiedsgasse 26, 90402 Nürnberg",
                 "description": "Reivindica ser a taverna de Bratwurst mais antiga do mundo, com documentação desde 1419 — anterior ao próprio Bratwurst-Röslein. Ambiente de porão baixo com vigas de madeira, mesas longas e porções generosas. Schäufele, Kloß de batata e a melhor Dunkel de Nuremberg.",
-                "highlights": ["Schäufele (pernil francônio) com Kloß e chucrute", "Nürnberger Rostbratwurst no cardápio clássico", "Cerveja Tucher Dunkel de barril"],
+                "highlights": [
+                  "Schäufele (pernil francônio) com Kloß e chucrute",
+                  "Nürnberger Rostbratwurst no cardápio clássico",
+                  "Cerveja Tucher Dunkel de barril"
+                ],
                 "estimatedCoupleCost": "€32–46"
               },
               {
@@ -228,7 +284,11 @@
                 "type": "2 estrelas Michelin — alta gastronomia francônia",
                 "address": "Weinmarkt 3, 90403 Nürnberg",
                 "description": "Dois estrelas Michelin num espaço minimalista de 10 mesas junto ao Weinmarkt. A cozinha de Andree Köthe e Yves Ollech usa apenas ingredientes francônios locais em criações técnicas sofisticadas: raiz-forte, beterraba, Karpfen, cogumelos silvestres. O almoço mais refinado possível em Nuremberg — e um dos mais interessantes da Alemanha.",
-                "highlights": ["Menu degustação de 6–8 cursos com ingredientes da Francônia", "Criações com raiz-forte, beterraba e cogumelos silvestres", "Harmonização com vinhos da Francônia (Silvaner, Scheurebe)"],
+                "highlights": [
+                  "Menu degustação de 6–8 cursos com ingredientes da Francônia",
+                  "Criações com raiz-forte, beterraba e cogumelos silvestres",
+                  "Harmonização com vinhos da Francônia (Silvaner, Scheurebe)"
+                ],
                 "estimatedCoupleCost": "€160–220"
               }
             ]
@@ -242,7 +302,11 @@
                 "type": "Lanche rápido pré-trem",
                 "address": "Bahnhofplatz 9, 90443 Nürnberg (área do Hauptbahnhof)",
                 "description": "Bancas de Bratwurst e padarias frescas na área da estação principal de Nuremberg. Rápido, barato e suficiente para a viagem. Lebkuchen embalados da Lebkuchen-Schmidt para levar são um clássico obrigatório da cidade.",
-                "highlights": ["Bratwurst no pão para viagem", "Lebkuchen de Nuremberg para levar", "Cerveja Tucher em garrafa"],
+                "highlights": [
+                  "Bratwurst no pão para viagem",
+                  "Lebkuchen de Nuremberg para levar",
+                  "Cerveja Tucher em garrafa"
+                ],
                 "estimatedCoupleCost": "€10–16"
               },
               {
@@ -251,7 +315,11 @@
                 "type": "Café-restaurante no centro",
                 "address": "Weinmarkt 14, 90403 Nürnberg",
                 "description": "Café e restaurante casual próximo ao Sebalder Platz, com Flammkuchen (pizza alsaciana), sopas e saladas. Ambiente tranquilo para uma refeição de encerramento antes de caminhar até a estação. Boa seleção de cervejas locais.",
-                "highlights": ["Flammkuchen com creme fraîche e bacon", "Sopa de Leberkäse (bolo de carne) francônio", "Cervejas artesanais da Francônia"],
+                "highlights": [
+                  "Flammkuchen com creme fraîche e bacon",
+                  "Sopa de Leberkäse (bolo de carne) francônio",
+                  "Cervejas artesanais da Francônia"
+                ],
                 "estimatedCoupleCost": "€28–38"
               },
               {
@@ -260,7 +328,11 @@
                 "type": "Restaurante histórico ou bordô de primeira classe",
                 "address": "Glöckleinsgasse 2, 90402 Nürnberg",
                 "description": "Se não almoçaram no Goldenes Posthorn no dia 1, vale reservar para este jantar — o ambiente histórico e o Sauerbraten de 72 horas compensam. Alternativamente, alguns trens DB de longa distância têm bordô com cozinha quente e vinho da Francônia a bordo.",
-                "highlights": ["Sauerbraten francônio marinado 72h", "Karpfen blau de água doce", "Vinho Silvaner da Francônia"],
+                "highlights": [
+                  "Sauerbraten francônio marinado 72h",
+                  "Karpfen blau de água doce",
+                  "Vinho Silvaner da Francônia"
+                ],
                 "estimatedCoupleCost": "€70–100"
               }
             ]
@@ -304,6 +376,40 @@
             }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U2 Lorenzkirche → Doku-Zentrum (Stadtpark, ~18 min)",
+          "duration": "18 min",
+          "cost": "€3,00",
+          "departureTime": "08:42"
+        },
+        "taxi": {
+          "duration": "10 min",
+          "cost": "€10–14",
+          "departureTime": "08:50"
+        },
+        "walking": {
+          "duration": "42 min",
+          "route": "Augustinerhof → Frauentorgraben → Luitpoldhain → Doku-Zentrum",
+          "walkingNote": "3,5 km — recomendável apenas se quiser aproveitar o parque pela manhã",
+          "departureTime": "08:18"
+        },
+        "recommended": "transit",
+        "recommendedReason": "O Dokumentationszentrum fica a 3,5 km (42 min a pé). O U2 leva em 18 min por €3,00 — a escolha mais prática."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "U2 Doku-Zentrum → Lorenzkirche",
+          "duration": "18 min",
+          "cost": "€3,00"
+        },
+        "taxi": {
+          "duration": "10 min",
+          "cost": "€10–14"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Retorno de metrô após dia intenso no complexo do Rallye."
       }
     }
   ],

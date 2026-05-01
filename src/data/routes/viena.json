@@ -2,6 +2,12 @@
   "id": "viena-2026",
   "title": "Viena",
   "subtitle": "A capital eterna dos Habsburgo",
+  "accommodation": {
+    "name": "Spark by Hilton Vienna Messe Prater",
+    "address": "Messestraße 2, 1020 Vienna",
+    "lat": 48.2178,
+    "lng": 16.4151
+  },
   "tripDates": {
     "start": "2026-06-18",
     "end": "2026-06-20"
@@ -66,7 +72,12 @@
                 "type": "Salsicharia de rua vienense",
                 "address": "Albertinaplatz 1, 1010 Wien (atrás da Staatsoper)",
                 "description": "O stand de salsichas mais famoso de Viena, em operação desde 1962 diretamente atrás da Staatsoper. Uma das curiosidades de Viena: ao fim de cada espetáculo, espectadores em smoking fazem fila ao lado de turistas para comer o mesmo Käsekrainer — a salsicha recheada com queijo que derrete ao morder. Um dos poucos lugares onde a alta burguesia e o povo dividem o mesmo balcão às 23h.",
-                "highlights": ["Käsekrainer (salsicha com queijo fundido)", "Burenwurst (carne bovina)", "Semmel mit Leberkäse (pão com mortadela assada)", "Cerveja Ottakringer em lata"],
+                "highlights": [
+                  "Käsekrainer (salsicha com queijo fundido)",
+                  "Burenwurst (carne bovina)",
+                  "Semmel mit Leberkäse (pão com mortadela assada)",
+                  "Cerveja Ottakringer em lata"
+                ],
                 "estimatedCoupleCost": "€16–24"
               },
               {
@@ -75,7 +86,12 @@
                 "type": "Café vienense histórico",
                 "address": "Dr.-Karl-Lueger-Ring 4, 1010 Wien (defronte ao Burgtheater)",
                 "description": "O café preferido de Sigmund Freud, aberto em 1873 diretamente na Ringstrasse. Freud vinha diariamente para ler os jornais; Arthur Schnitzler, Karl Kraus, Gustav Mahler e Marlene Dietrich eram frequentadores. As mesas de mármore e o serviço em avental branco preservam o ritual da 'coffeehouse culture' vienense — reconhecida pela UNESCO. O Wiener Schnitzel aqui é clássico: vitela tenra, com limão e salada de batata.",
-                "highlights": ["Wiener Schnitzel de vitela", "Tafelspitz (alcatra cozida à vienense)", "Melange (café com leite vienense)", "Apfelstrudel com creme de baunilha"],
+                "highlights": [
+                  "Wiener Schnitzel de vitela",
+                  "Tafelspitz (alcatra cozida à vienense)",
+                  "Melange (café com leite vienense)",
+                  "Apfelstrudel com creme de baunilha"
+                ],
                 "estimatedCoupleCost": "€50–70"
               },
               {
@@ -84,7 +100,12 @@
                 "type": "Alta cozinha austríaca no Burgtheater",
                 "address": "Dr.-Karl-Lueger-Ring 2, 1010 Wien (dentro do Burgtheater)",
                 "description": "Instalado no vestíbulo do Burgtheater, projetado por Gottfried Semper e Hasenauer em 1888 — os mesmos arquitetos do Kunsthistorisches Museum. O espaço preserva os mármores, estuques e pinturas originais da época de Francisco José I. Culinária austríaca contemporânea com ingredientes regionais. Um dos cenários de jantar mais extraordinários da Europa.",
-                "highlights": ["Saibling (truta alpina em crosta de ervas silvestres)", "Spargel branco austríaco (temporada de abril a junho)", "Harmonização com vinhos Grüner Veltliner da Wachau", "Combinação única: Ring pela manhã, almoço no teatro imperial"],
+                "highlights": [
+                  "Saibling (truta alpina em crosta de ervas silvestres)",
+                  "Spargel branco austríaco (temporada de abril a junho)",
+                  "Harmonização com vinhos Grüner Veltliner da Wachau",
+                  "Combinação única: Ring pela manhã, almoço no teatro imperial"
+                ],
                 "estimatedCoupleCost": "€100–150"
               }
             ]
@@ -98,7 +119,12 @@
                 "type": "Café histórico vienense",
                 "address": "Michaelerplatz 2, 1010 Wien (defronte ao Hofburg)",
                 "description": "O Griensteidl original (aberto em 1847) foi o café dos literatos e revolucionários vienenses — Karl Kraus, Hugo von Hofmannsthal e Arthur Schnitzler debatiam aqui enquanto Francisco José I passava pela entrada do Hofburg do outro lado da praça. A versão atual (reaberta em 1990) reconstrói o ambiente belle époque, com Gulasch e Schnitzel acessíveis. Um jantar rápido antes do concerto, com a Michaelerplatz iluminada como cenário.",
-                "highlights": ["Gulasch vienense com pão de caraway", "Wiener Schnitzel com salada de batata", "Café einspänner (expresso com chantilly)", "Topfenstrudel (strudel de ricota)"],
+                "highlights": [
+                  "Gulasch vienense com pão de caraway",
+                  "Wiener Schnitzel com salada de batata",
+                  "Café einspänner (expresso com chantilly)",
+                  "Topfenstrudel (strudel de ricota)"
+                ],
                 "estimatedCoupleCost": "€30–50"
               },
               {
@@ -107,7 +133,12 @@
                 "type": "O primeiro café da Ringstrasse",
                 "address": "Kärntner Ring 17, 1010 Wien",
                 "description": "O primeiro café aberto na Ringstrasse, em 1861 — antes mesmo da conclusão da maioria dos palácios do Ring. Interior belle époque original: lustres de cristal, espelhos dourados, mesas de mármore. Frequentado pela aristocracia e alta burguesia vienense por 160 anos. A 5 min a pé do Musikverein — o lugar ideal para um jantar pré-concerto com a atmosfera certa.",
-                "highlights": ["Tafelspitz (prato nacional austríaco por excelência)", "Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)", "Topfenpalatschinken (crepes de ricota com compota de damasco)", "Riesling da Wachau por taça"],
+                "highlights": [
+                  "Tafelspitz (prato nacional austríaco por excelência)",
+                  "Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)",
+                  "Topfenpalatschinken (crepes de ricota com compota de damasco)",
+                  "Riesling da Wachau por taça"
+                ],
                 "estimatedCoupleCost": "€60–90"
               },
               {
@@ -116,7 +147,12 @@
                 "type": "Alta gastronomia austríaca clássica",
                 "address": "Philharmonikerstraße 4, 1010 Wien",
                 "description": "A 2 minutos a pé do Musikverein, o Hotel Sacher é um dos estabelecimentos mais lendários de Viena. Fundado em 1876 por Eduard Sacher — filho de Franz Sacher, inventor da Sachertorte — foi o salão informal da diplomacia austro-húngara. A Rote Bar, com paredes de veludo vermelho carmesim e bibelôs do século XIX, serve culinária imperial na versão mais refinada. Jantar aqui fecha o círculo do dia: a Ringstrasse, o Ring de Hansen, e o Musikverein — tudo a 5 min a pé.",
-                "highlights": ["Wiener Tafelspitz (a receita imperial)", "Filet de Styria com cogumelos da floresta vienense", "A Sachertorte original — imprescindível", "Grüner Veltliner Smaragd ou champagne Billecart-Salmon"],
+                "highlights": [
+                  "Wiener Tafelspitz (a receita imperial)",
+                  "Filet de Styria com cogumelos da floresta vienense",
+                  "A Sachertorte original — imprescindível",
+                  "Grüner Veltliner Smaragd ou champagne Billecart-Salmon"
+                ],
                 "estimatedCoupleCost": "€110–160"
               }
             ]
@@ -124,19 +160,82 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "naschmarkt", "name": "Naschmarkt", "coupleCost": "€0", "note": "Gratuito" },
-            { "poiId": "karlskirche", "name": "Karlskirche", "coupleCost": "~€16", "note": "€8/pessoa (inclui elevador panorâmico)" },
-            { "poiId": "ringstrasse-staatsoper", "name": "Ringstrasse + tour Ópera", "coupleCost": "€0–26", "note": "Ring gratuito; tour Staatsoper €13/pessoa (opcional)" },
-            { "poiId": "die-schloss-capelle-concert", "name": "Die SchlossCapelle — Musikverein", "coupleCost": "€166", "note": "Ingressos já adquiridos (€83/pessoa × 2)" }
+            {
+              "poiId": "naschmarkt",
+              "name": "Naschmarkt",
+              "coupleCost": "€0",
+              "note": "Gratuito"
+            },
+            {
+              "poiId": "karlskirche",
+              "name": "Karlskirche",
+              "coupleCost": "~€16",
+              "note": "€8/pessoa (inclui elevador panorâmico)"
+            },
+            {
+              "poiId": "ringstrasse-staatsoper",
+              "name": "Ringstrasse + tour Ópera",
+              "coupleCost": "€0–26",
+              "note": "Ring gratuito; tour Staatsoper €13/pessoa (opcional)"
+            },
+            {
+              "poiId": "die-schloss-capelle-concert",
+              "name": "Die SchlossCapelle — Musikverein",
+              "coupleCost": "€166",
+              "note": "Ingressos já adquiridos (€83/pessoa × 2)"
+            }
           ],
           "attractionsSubtotal": "~€182",
           "attractionsNote": "O concerto (€166) já está pago. Tour da Ópera Estatal (+€26) é opcional.",
           "dailyTotal": {
-            "budget": { "meals": "~€56", "total": "~€238" },
-            "mid": { "meals": "~€140", "total": "~€322" },
-            "premium": { "meals": "~€285", "total": "~€467" }
+            "budget": {
+              "meals": "~€56",
+              "total": "~€238"
+            },
+            "mid": {
+              "meals": "~€140",
+              "total": "~€322"
+            },
+            "premium": {
+              "meals": "~€285",
+              "total": "~€467"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U2 Messe-Prater → Karlsplatz (6 paradas, ~14 min)",
+          "duration": "20 min",
+          "cost": "€2,40",
+          "departureTime": "08:40"
+        },
+        "taxi": {
+          "duration": "15 min",
+          "cost": "€14–20",
+          "departureTime": "08:45"
+        },
+        "walking": {
+          "duration": "70 min",
+          "route": "Messestraße → Prater → Ringstraße → Karlsplatz",
+          "walkingNote": "Cerca de 5,7 km — não recomendável para início de dia; reserve energia para os museus",
+          "departureTime": "07:50"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Hotel está a ~5,7 km do centro histórico. O U2 leva direto até Karlsplatz em 20 min por €2,40 — confortável e rápido."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "U2 Karlsplatz → Messe-Prater",
+          "duration": "20 min",
+          "cost": "€2,40"
+        },
+        "taxi": {
+          "duration": "15 min",
+          "cost": "€14–20"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Metrô direto de volta após dia intenso no Ring."
       }
     },
     {
@@ -171,7 +270,11 @@
                 "type": "Gastronomia de mercado",
                 "address": "Naschmarkt, 1060 Wien (U4 Kettenbrückengasse)",
                 "description": "No caminho de Schönbrunn ao Stadtpark, a U4 para em Kettenbrückengasse — entrada do Naschmarkt. Os restaurantes fixos no corredor norte servem pratos completos a preços muito abaixo do centro. Os mesmos lugares onde os cozinheiros de restaurantes estrelados compram ingredientes pela manhã.",
-                "highlights": ["Schnitzel com salada de batata (menu do dia ~€10–14/pessoa)", "Pratos do Oriente Médio e Balkans ao lado das bancas", "Sopa + prato principal por ~€12/pessoa nos restaurantes dos pavilhões"],
+                "highlights": [
+                  "Schnitzel com salada de batata (menu do dia ~€10–14/pessoa)",
+                  "Pratos do Oriente Médio e Balkans ao lado das bancas",
+                  "Sopa + prato principal por ~€12/pessoa nos restaurantes dos pavilhões"
+                ],
                 "estimatedCoupleCost": "€24–36"
               },
               {
@@ -180,7 +283,12 @@
                 "type": "Laticínios e almoço artesanal austríaco",
                 "address": "Am Heumarkt 2A, 1030 Wien (dentro do Stadtpark)",
                 "description": "A irmã casual do Steirereck — no mesmo pavilhão de vidro dentro do Stadtpark. Conceito único: buffet artesanal de laticínios austríacos da mais alta qualidade, com queijos de produtores regionais, pães assados na manhã, manteiga de vaca de pastagem e frios artesanais. A mesma qualidade do Steirereck 2 estrelas Michelin, num formato acessível e sem reserva. A arquitetura do pavilhão de vidro no parque é deslumbrante.",
-                "highlights": ["Queijo Almkäse de montanha e Mühlviertler Steirerkäse", "Pão de centeio com manteiga de nata e flor de sal", "Schnitzel de vitela com salada de pepino (almoço)", "Milchkaffee artesanal e sucos prensados a frio"],
+                "highlights": [
+                  "Queijo Almkäse de montanha e Mühlviertler Steirerkäse",
+                  "Pão de centeio com manteiga de nata e flor de sal",
+                  "Schnitzel de vitela com salada de pepino (almoço)",
+                  "Milchkaffee artesanal e sucos prensados a frio"
+                ],
                 "estimatedCoupleCost": "€40–60"
               },
               {
@@ -189,7 +297,12 @@
                 "type": "Alta gastronomia austríaca — 2 estrelas Michelin",
                 "address": "Am Heumarkt 2A, 1030 Wien (dentro do Stadtpark)",
                 "description": "Consistentemente classificado entre os 10 melhores restaurantes do mundo pela lista 50 Best. O chef Heinz Reitbauer revela ingredientes esquecidos das florestas, lagos e montanhas da Áustria. O almoço começa com um carrinho com mais de 30 variedades de pão artesanal. Peixe de rio austríaco, ervas silvestres, trufas. Reserva com 2–3 meses de antecedência é imprescindível.",
-                "highlights": ["Saibling (truta alpina) em 3 preparações", "O carrinho de pão (30+ variedades, cortesia da casa)", "Harmonização com produtores vinícolas austríacos exclusivos", "Um dos almoços mais memoráveis possíveis na Europa"],
+                "highlights": [
+                  "Saibling (truta alpina) em 3 preparações",
+                  "O carrinho de pão (30+ variedades, cortesia da casa)",
+                  "Harmonização com produtores vinícolas austríacos exclusivos",
+                  "Um dos almoços mais memoráveis possíveis na Europa"
+                ],
                 "estimatedCoupleCost": "€180–240"
               }
             ]
@@ -203,7 +316,12 @@
                 "type": "Microcervejaria austríaca",
                 "address": "Rennweg 8, 1030 Wien (porta ao lado do jardim do Belvedere)",
                 "description": "A única cervejaria-restaurante instalada num palácio em Viena, literalmente a 100 metros da entrada sul do Belvedere. Cerveja artesanal produzida no próprio estabelecimento em cobre visível atrás do balcão. Um jantar rápido e genuinamente vienense antes de seguir para Schönbrunn: Stelze (joelho de porco assado), Gulasch e as quatro cervejas da casa.",
-                "highlights": ["Schweinsstelze (joelho de porco assado, porção para 2, ~€28)", "Gulasch vienense com Semmelknödel", "Märzenbier artesanal (0,5L ~€5)", "Käsespätzle (massa com queijo gratinado, opção vegetariana)"],
+                "highlights": [
+                  "Schweinsstelze (joelho de porco assado, porção para 2, ~€28)",
+                  "Gulasch vienense com Semmelknödel",
+                  "Märzenbier artesanal (0,5L ~€5)",
+                  "Käsespätzle (massa com queijo gratinado, opção vegetariana)"
+                ],
                 "estimatedCoupleCost": "€30–44"
               },
               {
@@ -212,7 +330,12 @@
                 "type": "Beisl vienense clássico",
                 "address": "Weihburggasse 17, 1010 Wien (15 min de metrô do Belvedere)",
                 "description": "Um dos últimos Beisln (tabernas) autenticamente vienenses do centro histórico — aberto em 1936, frequentado por funcionários do parlamento e professores da universidade. Sem glamourização para turistas. O Zwiebelrostbraten (lombo bovino com cebola caramelizada, Spätzle e salada de pepino) é considerado por muitos o melhor de Viena. Para chegar: bonde 71 de Unteres Belvedere até Rennweg, depois U3 até Stubentor — 15 min.",
-                "highlights": ["Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)", "Wiener Schnitzel com salada de batata morna", "Esterházy Rostbraten (com molho de alcaparras)", "Vinho branco do Burgenland por copo"],
+                "highlights": [
+                  "Zwiebelrostbraten (lombo com cebola caramelizada e Spätzle)",
+                  "Wiener Schnitzel com salada de batata morna",
+                  "Esterházy Rostbraten (com molho de alcaparras)",
+                  "Vinho branco do Burgenland por copo"
+                ],
                 "estimatedCoupleCost": "€56–76"
               },
               {
@@ -221,7 +344,12 @@
                 "type": "Restaurante na estufa imperial Art Nouveau",
                 "address": "Burggartenterrasse 1, 1010 Wien (no Burggarten, junto ao Ring)",
                 "description": "Instalado na estufa Art Nouveau do Burggarten, projetada por Friedrich Ohmann em 1901 para as palmeiras tropicais da coleção imperial. A nave principal de vidro e ferro com 20 metros de altura, plantas tropicais originais e iluminação suave noturna criam um ambiente impossível de replicar. Moderna cozinha austríaca com vegetais do jardim e peixes de rio. Acesso fácil pela U4 de Stadtpark até Karlsplatz.",
-                "highlights": ["Wiener Spargel com manteiga e presunto de Parma (temporada)", "Zanderfilet (lúcio-perca do Danúbio com ervilhas e mostarda)", "Cocktails botânicos na esplanada de verão", "Vista dos jardins imperiais ao entardecer"],
+                "highlights": [
+                  "Wiener Spargel com manteiga e presunto de Parma (temporada)",
+                  "Zanderfilet (lúcio-perca do Danúbio com ervilhas e mostarda)",
+                  "Cocktails botânicos na esplanada de verão",
+                  "Vista dos jardins imperiais ao entardecer"
+                ],
                 "estimatedCoupleCost": "€80–110"
               }
             ]
@@ -229,19 +357,76 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "schonbrunn", "name": "Schönbrunn (Grand Tour + Glorieta)", "coupleCost": "~€62", "note": "Grand Tour €26/pessoa + Glorieta €5/pessoa" },
-            { "poiId": "stadtpark", "name": "Stadtpark", "coupleCost": "€0", "note": "Gratuito" },
-            { "poiId": "oberes-belvedere", "name": "Belvedere Superior", "coupleCost": "~€32", "note": "€16/pessoa — compre online em belvedere.at" },
-            { "poiId": "summer-night-concert", "name": "Summer Night Concert 2026", "coupleCost": "€0", "note": "Gratuito — sem reserva necessária" }
+            {
+              "poiId": "schonbrunn",
+              "name": "Schönbrunn (Grand Tour + Glorieta)",
+              "coupleCost": "~€62",
+              "note": "Grand Tour €26/pessoa + Glorieta €5/pessoa"
+            },
+            {
+              "poiId": "stadtpark",
+              "name": "Stadtpark",
+              "coupleCost": "€0",
+              "note": "Gratuito"
+            },
+            {
+              "poiId": "oberes-belvedere",
+              "name": "Belvedere Superior",
+              "coupleCost": "~€32",
+              "note": "€16/pessoa — compre online em belvedere.at"
+            },
+            {
+              "poiId": "summer-night-concert",
+              "name": "Summer Night Concert 2026",
+              "coupleCost": "€0",
+              "note": "Gratuito — sem reserva necessária"
+            }
           ],
           "attractionsSubtotal": "~€94",
           "attractionsNote": "O dia com melhor custo-benefício: dois dos maiores palácios de Viena + concerto da Filarmônica ao ar livre por apenas €94 em atrações.",
           "dailyTotal": {
-            "budget": { "meals": "~€67", "total": "~€161" },
-            "mid": { "meals": "~€116", "total": "~€210" },
-            "premium": { "meals": "~€320", "total": "~€414" }
+            "budget": {
+              "meals": "~€67",
+              "total": "~€161"
+            },
+            "mid": {
+              "meals": "~€116",
+              "total": "~€210"
+            },
+            "premium": {
+              "meals": "~€320",
+              "total": "~€414"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "transit": {
+          "line": "U2 Messe-Prater → Schottenring → U4 Schönbrunn (20 min)",
+          "duration": "25 min",
+          "cost": "€2,40",
+          "departureTime": "08:35"
+        },
+        "taxi": {
+          "duration": "20 min",
+          "cost": "€18–26",
+          "departureTime": "08:40"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Schönbrunn fica a oeste — metrô via U2+U4 em 25 min, sem trancos."
+      },
+      "toAccommodation": {
+        "transit": {
+          "line": "U4 Schönbrunn → Schottenring → U2 Messe-Prater",
+          "duration": "25 min",
+          "cost": "€2,40"
+        },
+        "taxi": {
+          "duration": "20 min",
+          "cost": "€18–26"
+        },
+        "recommended": "transit",
+        "recommendedReason": "Retorno de metrô direto após Schönbrunn e Naschmarkt."
       }
     },
     {
@@ -276,7 +461,12 @@
                 "type": "Adega e delicatessen desde 1618",
                 "address": "Bognergasse 5, 1010 Wien",
                 "description": "Uma das mais antigas casas comerciais de Viena — aberta em 1618, apenas 27 anos antes da conclusão da Catedral de Santo Estêvão. Especializada em vinhos austríacos e Brötchen (canapés abertos com coberturas variadas: queijo de cabra, rosbife com raiz-forte, salmão defumado). Elegante mas acessível: o segredo é pedir ao balcão como os vienenses fazem. Frequentado por políticos e jornalistas do parlamento vizinho.",
-                "highlights": ["Brötchen (€3–5 cada): rosbife+raiz-forte, presunto, queijo de cabra", "Grüner Veltliner Kamptal por copo (~€5–7)", "Brötchen de Lachstatar (tártaro de salmão)", "20+ variedades de canapés no balcão frio"],
+                "highlights": [
+                  "Brötchen (€3–5 cada): rosbife+raiz-forte, presunto, queijo de cabra",
+                  "Grüner Veltliner Kamptal por copo (~€5–7)",
+                  "Brötchen de Lachstatar (tártaro de salmão)",
+                  "20+ variedades de canapés no balcão frio"
+                ],
                 "estimatedCoupleCost": "€30–44"
               },
               {
@@ -285,7 +475,12 @@
                 "type": "Café histórico Art Nouveau no Palais Ferstel",
                 "address": "Herrengasse 14, 1010 Wien",
                 "description": "Aberto em 1876 no Palais Ferstel, o Café Central é a sala mais impressionante do café vienense: arcos em pedra, colunas de mármore e palmeiras vivas de 10 metros crescendo no centro. Sigmund Freud vinha diariamente. Leon Trotsky jogava xadrez aqui até ser expulso da Áustria em 1917 — há uma estátua dele sentado ao fundo. Peter Altenberg recebia toda sua correspondência aqui por não ter endereço fixo. Cardápio clássico com música ao vivo nas tardes.",
-                "highlights": ["Gulasch com pão Semmel (o mais vienense dos pratos)", "Wiener Schnitzel com salada de pepino em aneto", "Apfelstrudel quente com Schlagobers (creme batido)", "Melange com jornais do dia (Zeitungen)"],
+                "highlights": [
+                  "Gulasch com pão Semmel (o mais vienense dos pratos)",
+                  "Wiener Schnitzel com salada de pepino em aneto",
+                  "Apfelstrudel quente com Schlagobers (creme batido)",
+                  "Melange com jornais do dia (Zeitungen)"
+                ],
                 "estimatedCoupleCost": "€50–80"
               },
               {
@@ -294,7 +489,12 @@
                 "type": "Dois estrelas Michelin — cozinha austríaco-mediterrânea",
                 "address": "Dominikanerbastei 17, 1010 Wien",
                 "description": "Dois estrelas Michelin, um dos melhores da Áustria. O chef Konstantin Filippou — filho de pai grego e mãe austríaca — criou uma síntese única: a precisão técnica e os ingredientes alpinos da Áustria com a acidez, o azeite e as ervas do Mediterrâneo. A 8 min a pé da Stephansdom. Menu de almoço de 4 tempos mais acessível que o jantar. Reserva antecipada necessária.",
-                "highlights": ["Saibling (truta alpina) com creme de azeite e ervas do Egeu", "Wagyu austríaco com jus de cogumelos de carvalho", "Harmonização com vinhos da Wachau e Burgenland", "Menu almoço 4 tempos com harmonização (~€130–160/pessoa)"],
+                "highlights": [
+                  "Saibling (truta alpina) com creme de azeite e ervas do Egeu",
+                  "Wagyu austríaco com jus de cogumelos de carvalho",
+                  "Harmonização com vinhos da Wachau e Burgenland",
+                  "Menu almoço 4 tempos com harmonização (~€130–160/pessoa)"
+                ],
                 "estimatedCoupleCost": "€180–260"
               }
             ]
@@ -308,7 +508,12 @@
                 "type": "Gastronomia de rua vienense",
                 "address": "Riesenradplatz / Wurstelprater, 1020 Wien",
                 "description": "Comer no Würstelstand é uma das experiências mais genuinamente vienenses — e o ambiente do Prater, com a roda gigante iluminada ao fundo, transforma um simples Käsekrainer num jantar memorável. Os vienenses não comem aqui por necessidade — comem por escolha, seja após um turno de trabalho ou uma noite na Ópera. Democrático da forma que Viena sabe ser.",
-                "highlights": ["Käsekrainer com mostarda e pão Semmel", "Leberkäse no pão com mostarda picante", "Cerveja Ottakringer ou Schwechater gelada", "Langos (massa frita húngara com creme e queijo)"],
+                "highlights": [
+                  "Käsekrainer com mostarda e pão Semmel",
+                  "Leberkäse no pão com mostarda picante",
+                  "Cerveja Ottakringer ou Schwechater gelada",
+                  "Langos (massa frita húngara com creme e queijo)"
+                ],
                 "estimatedCoupleCost": "€16–28"
               },
               {
@@ -317,7 +522,12 @@
                 "type": "Cervejaria-biergarten histórica no Prater",
                 "address": "Prater 116, 1020 Wien (10 min a pé do Riesenrad)",
                 "description": "Em operação desde 1920, o Schweizerhaus é a instituição gastronômica mais amada do Prater. Sob castanheiras centenárias no biergarten de 1.000 lugares, serve exclusivamente cerveja Budvar tcheca (a original) em copos de vidro com alça. A Stelze — joelho de porco assado por 2 horas, pele crocante e carne que sai do osso — é o prato lendário. Em junho, encerrar a última noite em Viena sob as castanheiras, com a roda gigante iluminada ao fundo, é difícil de superar.",
-                "highlights": ["Schweinsstelze inteira (porção para 2, ~€26–28)", "Budvar tcheco em copo de 0,5L com alça", "Biergulasch (gulasch com cerveja escura)", "Kartoffelsalat (salada de batata fria com vinagre)"],
+                "highlights": [
+                  "Schweinsstelze inteira (porção para 2, ~€26–28)",
+                  "Budvar tcheco em copo de 0,5L com alça",
+                  "Biergulasch (gulasch com cerveja escura)",
+                  "Kartoffelsalat (salada de batata fria com vinagre)"
+                ],
                 "estimatedCoupleCost": "€44–64"
               },
               {
@@ -326,7 +536,12 @@
                 "type": "Pavilhão imperial no fundo do Prater",
                 "address": "Freudenau 254, 1020 Wien (20 min a pé do Riesenrad pela Hauptallee)",
                 "description": "Construído em 1874 como pavilhão de encontro para os caçadores e cavaleiros da aristocracia vienense que usavam a Hauptallee — a grande avenida de 4,5 km com castanheiras onde Francisco José I passeava a cavalo. O pavilhão octogonal no final da avenida, cercado pela floresta, preserva o ar de clube aristocrático do século XIX. O passeio de 20 min pela Hauptallee ao entardecer é parte da experiência: a mesma avenida, as mesmas árvores, o mesmo silêncio que os Habsburgo ouviam.",
-                "highlights": ["Jägerschnitzel (escalope com molho de cogumelos silvestres)", "Hirschgulasch (gulasch de veado do Prater, na temporada)", "Tarte de maçã com nata e canela", "Vinhos do Burgenland e espumante Schlumberger austríaco"],
+                "highlights": [
+                  "Jägerschnitzel (escalope com molho de cogumelos silvestres)",
+                  "Hirschgulasch (gulasch de veado do Prater, na temporada)",
+                  "Tarte de maçã com nata e canela",
+                  "Vinhos do Burgenland e espumante Schlumberger austríaco"
+                ],
                 "estimatedCoupleCost": "€90–130"
               }
             ]
@@ -334,19 +549,73 @@
         },
         "costSummary": {
           "attractions": [
-            { "poiId": "stephansdom", "name": "Stephansdom", "coupleCost": "~€24", "note": "Interior €6 + catacumbas €6/pessoa. Torre Norte opcional: +€12 casal" },
-            { "poiId": "graben-kohlmarkt", "name": "Graben e Kohlmarkt", "coupleCost": "€0", "note": "Gratuito. Figarohaus opcional: +€24 casal" },
-            { "poiId": "hofburg-sisi", "name": "Hofburg — Sisi Ticket", "coupleCost": "~€76", "note": "Sisi Ticket €38/pessoa (Kaiserappartements + Museu Sisi + Hofmobiliendepot)" },
-            { "poiId": "prater-riesenrad", "name": "Prater e Riesenrad", "coupleCost": "~€27", "note": "Riesenrad €13,50/pessoa; parque gratuito" }
+            {
+              "poiId": "stephansdom",
+              "name": "Stephansdom",
+              "coupleCost": "~€24",
+              "note": "Interior €6 + catacumbas €6/pessoa. Torre Norte opcional: +€12 casal"
+            },
+            {
+              "poiId": "graben-kohlmarkt",
+              "name": "Graben e Kohlmarkt",
+              "coupleCost": "€0",
+              "note": "Gratuito. Figarohaus opcional: +€24 casal"
+            },
+            {
+              "poiId": "hofburg-sisi",
+              "name": "Hofburg — Sisi Ticket",
+              "coupleCost": "~€76",
+              "note": "Sisi Ticket €38/pessoa (Kaiserappartements + Museu Sisi + Hofmobiliendepot)"
+            },
+            {
+              "poiId": "prater-riesenrad",
+              "name": "Prater e Riesenrad",
+              "coupleCost": "~€27",
+              "note": "Riesenrad €13,50/pessoa; parque gratuito"
+            }
           ],
           "attractionsSubtotal": "~€127",
           "attractionsNote": "O Sisi Ticket (€76 casal) cobre três museus separados — melhor custo-benefício para o Hofburg.",
           "dailyTotal": {
-            "budget": { "meals": "~€57", "total": "~€184" },
-            "mid": { "meals": "~€119", "total": "~€246" },
-            "premium": { "meals": "~€390", "total": "~€517" }
+            "budget": {
+              "meals": "~€57",
+              "total": "~€184"
+            },
+            "mid": {
+              "meals": "~€119",
+              "total": "~€246"
+            },
+            "premium": {
+              "meals": "~€390",
+              "total": "~€517"
+            }
           }
         }
+      },
+      "fromAccommodation": {
+        "walking": {
+          "duration": "12 min",
+          "route": "Messestraße → Praterstern → Hauptallee do Prater",
+          "highlight": "A Hauptallee do Prater de manhã cedo — 4 km de castanheiros centenários",
+          "departureTime": "08:48"
+        },
+        "transit": {
+          "line": "U2 Messe-Prater → Praterstern (1 parada)",
+          "duration": "5 min",
+          "cost": "€2,40",
+          "departureTime": "08:55"
+        },
+        "recommended": "walking",
+        "recommendedReason": "O Prater é literalmente ao lado do hotel — a única vez que vale sair a pé! Aproveite a Hauptallee de manhã."
+      },
+      "toAccommodation": {
+        "walking": {
+          "duration": "12 min",
+          "route": "Prater → Praterstern → Messestraße",
+          "highlight": "Retorno curto pelo parque com a Roda Gigante ao fundo"
+        },
+        "recommended": "walking",
+        "recommendedReason": "Único dia em que o retorno a pé faz sentido — Prater está a 12 min do hotel."
       }
     }
   ],

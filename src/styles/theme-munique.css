@@ -837,6 +837,20 @@
   border: none;
 }
 
+/* ── Hotel marker ────────────────────────────────────────────── */
+.hotel-marker__pin {
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border: 2px solid #b8860b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
 /* ── GPS status badge ────────────────────────────────────────── */
 .gps-status-badge {
   position: absolute;
@@ -865,4 +879,173 @@
   white-space: normal;
   text-align: center;
   max-width: 260px;
+}
+
+/* ── TransferCard ──────────────────────────────────────────────── */
+.transfer-card {
+  margin: var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.transfer-card__header {
+  background: linear-gradient(135deg, #1a3a5c 0%, #0d2540 100%);
+  color: #fff;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+}
+
+.transfer-card__rec-wrap {
+  padding: 10px 12px 8px;
+  background: linear-gradient(135deg, rgba(26,82,118,0.07) 0%, rgba(26,82,118,0.03) 100%);
+  border-bottom: 1px solid var(--color-border, #eee);
+}
+
+.transfer-card__rec-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b8860b;
+  margin-bottom: 6px;
+}
+
+.transfer-card__reason {
+  margin: 6px 0 0;
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #666);
+  line-height: 1.45;
+  padding: 0 2px;
+}
+
+.transfer-card__others {
+  padding: 8px 12px 10px;
+}
+
+.transfer-card__others-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-text-muted, #888);
+  margin-bottom: 6px;
+}
+
+.transfer-option {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border, #e8e8e8);
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.transfer-option:last-child { margin-bottom: 0; }
+
+.transfer-option--rec {
+  border-color: #c8a84b;
+  border-width: 1.5px;
+}
+
+.transfer-option__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: var(--color-bg, #f8f8f8);
+}
+
+.transfer-option__header--rec {
+  background: linear-gradient(90deg, rgba(200,168,75,0.12) 0%, rgba(200,168,75,0.04) 100%);
+}
+
+.transfer-option__icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.transfer-option__label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text, #222);
+  flex: 1;
+}
+
+.transfer-option__time {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1a5276;
+}
+
+.transfer-option__cost {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #555;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.transfer-option__cost--free {
+  color: #2e7d32;
+}
+
+.transfer-option__body {
+  padding: 0 10px;
+}
+.transfer-option__body:empty { display: none; }
+
+.transfer-option__route {
+  margin: 0;
+  padding: 5px 0 4px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #555);
+  line-height: 1.4;
+  border-top: 1px solid var(--color-border, #eee);
+}
+
+.transfer-option__highlight {
+  margin: 0;
+  padding: 3px 0 6px;
+  font-size: 0.78rem;
+  color: #7d5a00;
+  line-height: 1.4;
+}
+
+.transfer-option__walking-note {
+  margin: 0;
+  padding: 4px 0 6px;
+  font-size: 0.77rem;
+  color: #666;
+  border-top: 1px solid var(--color-border, #eee);
+  line-height: 1.4;
+}
+
+.transfer-option__departure {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  width: 100%;
+}
+
+.transfer-option__departure-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted, #888);
+  font-weight: 500;
+}
+
+.transfer-option__departure-time {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1a3a5c;
+  letter-spacing: 0.01em;
 }
