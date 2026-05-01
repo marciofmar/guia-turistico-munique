@@ -5,8 +5,8 @@
   "accommodation": {
     "name": "Karl August - a Neighborhood Hotel",
     "address": "Augustinerhof 1, 90403 Nuremberg",
-    "lat": 49.4477,
-    "lng": 11.0761
+    "lat": 49.4537,
+    "lng": 11.0757
   },
   "tripDates": {
     "start": "2026-06-06",
@@ -859,8 +859,8 @@
       "dayId": "dia-1",
       "order": 1,
       "name": "Kaiserburg — O Castelo Imperial",
-      "lat": 49.4604,
-      "lng": 11.0752,
+      "lat": 49.4580789,
+      "lng": 11.0753908,
       "address": "Auf der Burg 13, 90403 Nürnberg",
       "historicalPeriod": "medieval",
       "yearBuilt": 1140,
@@ -1300,8 +1300,8 @@
       "dayId": "dia-2",
       "order": 1,
       "name": "Dokumentationszentrum Reichsparteitagsgelände",
-      "lat": 49.427,
-      "lng": 11.1218,
+      "lat": 49.4338361,
+      "lng": 11.1124726,
       "address": "Bayernstraße 110, 90478 Nürnberg",
       "historicalPeriod": "nazi",
       "yearBuilt": 1935,
@@ -1452,8 +1452,8 @@
       "dayId": "dia-2",
       "order": 2,
       "name": "Memorial dos Julgamentos de Nuremberg",
-      "lat": 49.4583,
-      "lng": 11.06,
+      "lat": 49.4544374,
+      "lng": 11.0483199,
       "address": "Bärenschanzstraße 72, 90429 Nürnberg",
       "historicalPeriod": "modern",
       "yearBuilt": "1916 (Justizpalast) / 1945–1946 (julgamentos) / 2010 (Memorium)",

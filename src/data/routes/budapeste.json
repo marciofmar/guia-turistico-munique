@@ -5,8 +5,8 @@
   "accommodation": {
     "name": "Aurea Ana Palace by Eurostars",
     "address": "Akadémia utca 15-17, 1054 Budapest",
-    "lat": 47.5009,
-    "lng": 19.0566
+    "lat": 47.5037,
+    "lng": 19.0464
   },
   "tripDates": {
     "start": "2026-06-13",
@@ -1107,8 +1107,8 @@
       "dayId": "dia-2",
       "order": 5,
       "name": "Avenida Andrássy e Ópera Estatal",
-      "lat": 47.5009,
-      "lng": 19.0617,
+      "lat": 47.5028701,
+      "lng": 19.0581577,
       "address": "Andrássy út 22, 1061 Budapest",
       "historicalPeriod": "habsburg",
       "yearBuilt": "1875",
@@ -1950,8 +1950,8 @@
       "dayId": "dia-3",
       "order": 2,
       "name": "Metrô do Milênio (Linha M1)",
-      "lat": 47.5009,
-      "lng": 19.0617,
+      "lat": 47.5028701,
+      "lng": 19.0581577,
       "address": "Estação Operaház (M1), Andrássy út, Budapest",
       "historicalPeriod": "habsburg",
       "yearBuilt": "1896",

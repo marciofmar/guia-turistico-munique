@@ -111,7 +111,9 @@
       "Bash(python3 -c ' *)",
       "Bash(xargs grep *)",
       "WebFetch(domain:www.tripadvisor.com)",
-      "WebFetch(domain:maps.google.com)"
+      "WebFetch(domain:maps.google.com)",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "Bash(curl -s \"https://nominatim.openstreetmap.org/search?q=Dokumentationszentrum+Reichsparteitagsgelände+Nuremberg&format=json&limit=1&addressdetails=1\" -H \"User-Agent: tourist-guide-app/1.0\")"
     ]
   }
 }
